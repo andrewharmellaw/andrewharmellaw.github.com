@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Gelfand's Algebra - Chunk 2: Commutative, Associative and Distributive Laws"
-description: ""
+title: "Gelfand's Algebra - Chunk 2"
+description: "The Commutative, Associative and Distributive Laws"
 category: 
 tags: [commutative-law, associative-law, distributive-law]
 ---
