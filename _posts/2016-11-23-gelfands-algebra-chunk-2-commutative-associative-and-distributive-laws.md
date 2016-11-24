@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Gelfand's Algebra - Chunk 2: Commutative, Associative and Distributive Laws"
-description: ""
+title: "Gelfand's Algebra - Chunk 2"
+description: "The Commutative, Associative and Distributive Laws"
 category: 
 tags: [commutative-law, associative-law, distributive-law]
 ---
@@ -33,7 +33,7 @@ From Gelfand (pp. 15) : "To multiply two sums you need to multiply each term of 
 
 ## Tricks Arising
 
-### Simplify application of the Addition Algorithm with the Associative Law
+### Simplifying Addition with the Associative Law
 
 Example 1: when the pieces are already in place to simplify: 
 
@@ -47,7 +47,7 @@ Remember, we saw in the [previous post]() how we can use the Associative Law to 
 
 In all these cases we're looking to arrange things so we can (re-)state our problem in terms of groups of numbers which are simpler to add / multiply. This "simpler" form is usually one where there are lots of $0$'s which ultimately results in lots of simple column arithmetic, and therefore no carries, and therefore less to wrangle with in your working memory. (And less chance of errors.)
 
-### Simplify application of the Multiplication Algorithm with the Commutative Law
+### Simplifying Multiplication with the Commutative Law
 
 Example 3: when pieces are already in place to simplify: 
 
