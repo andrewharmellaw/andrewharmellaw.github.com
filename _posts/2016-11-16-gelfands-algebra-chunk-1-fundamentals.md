@@ -1,20 +1,22 @@
 ---
 layout: post
-title: "Gelfand's Algebra - Chunk 1: Fundamentals"
-description: ""
-category: 
+title: "Gelfand's Algebra: Fundamentals"
+description: "This is the very bottom."
+category: [algebra]
 tags: [chunk-exchange-of-terms, method-addition, method-multiplication, method-long-division]
 ---
 {% include JB/setup %}
-If you want to know the general idea behind this series of blog posts, check out the intro-post (TBC).
+NOTE: If you want to know the general idea behind this series of blog posts, check out the [intro-post](/index.html).
 
-Today I'm starting at a super-basic level, but with the intention of getting my head used to the method of chunking much advocated in [Oakley's "A Mind for Numbers"](https://www.amazon.co.uk/Mind-Numbers-Science-Flunked-Algebra-ebook/dp/B00G3L19ZU). My aim being, the method, as well as the chunks it produces will embed nicely before I start to use either in anger.  The following is based on problems 1 to 7 from [Gelfand's "Algebra"](https://www.amazon.co.uk/Algebra-I-M-Gelfand/dp/0817636773).
+In this first post I'm starting at a super-basic level, but with the intention of getting my head used to the method of chunking much advocated in [Oakley's "A Mind for Numbers"](https://www.amazon.co.uk/Mind-Numbers-Science-Flunked-Algebra-ebook/dp/B00G3L19ZU). My aim being that the method, as well as the chunks it produces will embed nicely before I start to use either in anger.  The following is based on problems 1 to 24 from [Gelfand's "Algebra"](https://www.amazon.co.uk/Algebra-I-M-Gelfand/dp/0817636773).
 
 ## Addition Algorithm
 Gelfand kicks off with the Standard Addition Algorithm. It will surely be familiar to everyone from their elementary mathematics.  It's described nicely [over at wikipedia](https://en.wikipedia.org/wiki/Elementary_arithmetic#Addition_algorithm).
 
 ### Chunking an Addition Problem
-What follows are my notes (tidied of course, and I did them using pen and paper initially) from working through problem 2 (pp. 4).  In the course of doing this I noted some tricks.  I have highlighted these using _italics_ (and explained them a little more in a later section).
+What follows are my notes from working through problem 2 (pp. 4) using the chunking approach from Oakley (chapter 7, "How to Build a Powerful Chunk". This is tidied up of course - I did them using pen and paper initially).  
+
+In the course of doing this I noted some tricks.  I have _highlighted_ (and explained them a little more in a later section).
 
 #### Step 1: "Work a problem all the way through on paper"
 (you'll just have to trust me when I say I did this.)
@@ -59,7 +61,7 @@ I take a walk out at lunch, and drive to and from work which takes 40 - 60 minut
 And that's it.  It felt like it worked really well.  It didn't feel self-patronising either.  By focussing on something mathematically simple, I just freed up space to grokk the process itself, and how it felt when it acted.  I did also get a far better, and more explicit understanding of the nuances of the patterns inherant in the Addition Algorithm.
 
 ### Addition Patterns
-The end result of the working through of this problem following the chunking method was the solution, but also an awareness of the following patterns in the Addition Algorithm:
+The end result of the working through of this problem following the chunking method was not only the above solution, but also an awareness of the following patterns in the Addition Algorithm:
 
   * In any column, the sum-value is equal to the remainder of (the total of all values above it + carry-value) $/ 10$
   * In the right-hand column, there is no carry-value (or the carry-value is equivalent to $0$)
@@ -80,18 +82,18 @@ Unlike previoulsly, I'll not write out in detail my chunking-led approach to thi
   *  The second impact is of addition, which can be seen using the Standard Addition Algorithm (see above), and here the same patterns again apply
 
 ## Long-Division Algorithm
-From (wikipedia)[https://en.wikipedia.org/wiki/Elementary_arithmetic#Division]: "In mathematics, especially in elementary arithmetic, division is an arithmetic operation which is the inverse of multiplcation."
+From [wikipedia](https://en.wikipedia.org/wiki/Elementary_arithmetic#Division): "In mathematics, especially in elementary arithmetic, division is an arithmetic operation which is the inverse of multiplcation."
 
-There is a well-estabilshed algorithm for handling division in the positional number systems called "long division".  It is explained well in the wikipedia page linked above.
+There is yet again a well-estabilshed algorithm for handling division in the positional number systems called "long division".  It is explained well in the wikipedia page linked above.
 
 ### Long-Division Patterns and Cyclic Numbers
-TBC
+Gelfand stops at one point to point out the existence of so-called "cyclic numbers".  There is a [whole load of detail](https://en.wikipedia.org/wiki/Cyclic_number) on this which he doesn't go into, and there is no need to know any more about them than notice their existence and the circumstances under which they arise.  What is important here (I now realise on second reading) is that my previously mentioned "pattern-awareness" can help you notice a lot of things.  I'm going to go into this a little more in the next section.  One thing I want to note here however is that, as a visual thinker, I was happy to see just how much physically "seeing" patterns on the page in front of you was a valuable skill.  
 
 ## Tricks Arising
 I've alluded to "tricks" that I learned as I went.  It seems to me that these are going to become more and more key as I progress through my maths journey.  The ones I have so far are:
 
 * _Many patterns you can spot visually_ - take time to lay out your problem in a way which is clear.  Areas which are not symmetrical after you have done this may be worthy of attention
-* Have lots of space around your problems as you work - this feels (to me at least) as if it creates a corresponding mental (working memory?) space
+* _Have lots of space around your problems as you work_ - this feels (to me at least) as if it creates a corresponding mental (working memory?) space.  It also helps when trying to spot viaual elements
 * _Eliminate the impossible_ - what can't happen?  This shrinks the problem space, and gives you less to think about, allowing you to focus
 * _Break the problem into smaller, more manageable pieces_ - then work back up to the complete solution - again, simplify
 * _Start from zero, and then work up, one step at a time_ - self-explanatory really
@@ -123,8 +125,8 @@ And two number systems were also mentioned. (This is very interesting to look in
  * [Decimal Number System](https://www.mathsisfun.com/definitions/decimal-number-system.html) (MathIsFun.com)
  * [Binary Number System](https://www.mathsisfun.com/definitions/binary-number.html) (MathIsFun.com)
  
-### "Not defined"
-This is the first time we hit the phrase "not defined" in that the result of dividing a real number by $0$ is "not defined".  This means it has no answer.
+### "Undefined"
+This is the first time we hit the phrase "undefined". In this case it is when we try and divide a real number by $0$.
 
 ### Real Numbers and Rational Numbers
 TBC
