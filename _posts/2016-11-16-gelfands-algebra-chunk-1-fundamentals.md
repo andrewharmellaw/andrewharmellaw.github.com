@@ -126,7 +126,7 @@ And two number systems were also mentioned. (This is very interesting to look in
  * [Binary Number System](https://www.mathsisfun.com/definitions/binary-number.html) (MathIsFun.com)
  
 ### "Undefined"
-This is the first time we hit the phrase "undefined". In this case it is when we try and divide a real number by $0$.
+This is the first time we hit the phrase "undefined" - still in our case in the realm of arithmetic. In this case it is when we try and divide a real number by $0$.  There is also the case of $0^0$.  In both cases these are circumstances when we know what we are trying to do doesnt make sense, so there is no "answer", so the expression is "undefinded". 
 
 ### Real Numbers and Rational Numbers
 TBC
