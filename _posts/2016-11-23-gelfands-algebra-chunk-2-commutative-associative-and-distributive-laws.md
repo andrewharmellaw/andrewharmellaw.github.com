@@ -8,24 +8,30 @@ tags: [commutative-law, associative-law, distributive-law]
 {% include JB/setup %}
 
 ## The Assocative and Commutative Laws
-There are Associative Laws for addition and multiplication:
+These laws allow you ti jiggle around the numbers in your sums and multiplications, to make it easier to do in your head.
+
+There are Associative Laws for addition:
 
 $$(a + b) + c = a + (b + c)$$
     
-and 
+and multiplication:
 
 $$(ab)c = a(bc)$$
 
-There are additionally Commutative Laws for addition and multiplication:
+The Associative Laws are all about the order in which you do the individual sums / multiplications in a bigger expression.
+
+There are Commutative Laws for addition:
 
 $$a + b = b + a$$
 
-and
+and multiplication:
 
 $$ab = ba$$
 
+The Commutative Laws are about the fact you can move numbers around in a bigger expression.
+
 ## The Distributive Law
-This law is a rule for removing parentheses:  
+The Distributive Law is a rule for removing parentheses:  
 
 $$c(a + b) = ca + cb$$
 
@@ -71,5 +77,5 @@ $$(m+n)(a+b) = ma + mb + na + nb$$
 
 ## Additional Notes
 
-### Why U No Law Division?
+### Why U No Laws for Division?
 TBC - (refer back to the [previous post]() where we had to introduce "Not Defined" and Real and Rational Numbers...)
