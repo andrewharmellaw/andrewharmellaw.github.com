@@ -47,10 +47,12 @@ So why is it not presented like this by Gelfand? Why is it instead presented in 
 
 ## Tricks Arising
 From before: 
+
 * _Many patterns you can spot visually_ (from post ["Chunk 1"]()) - I got to the fact that there were two halves to this problem, that the core of both was the Distributive Law, and that one half applied it in one direction and the other in the other direction by drawing all this out clearly and "looking"
 * _Split a number into two numbers which sum / multiply to the same result if it's useful_ (from post ["Chunk 2"]()) - e.g. $0 = -5 + 5$
 
 from this post:
+
 * _Something Multiplied by Zero is Zero_ - e.g. $3.0 = 0$
 
 ## Additional Notes
