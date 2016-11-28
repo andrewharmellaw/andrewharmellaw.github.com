@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Gelfand's Algebra: Fundamentals"
+title: "Gelfand: Chunk 1 - Fundamentals"
 description: "This is the very bottom."
 category: [algebra]
-tags: [chunk-exchange-of-terms, method-addition, method-multiplication, method-long-division, gelfand, oakley]
+tags: [exchange-of-terms, method-addition, method-multiplication, method-long-division, gelfand, oakley, tricks]
 ---
 {% include JB/setup %}
 NOTE: If you want to know the general idea behind this series of blog posts, check out the [intro-post](/index.html).

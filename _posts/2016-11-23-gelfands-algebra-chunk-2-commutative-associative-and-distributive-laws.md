@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Gelfand's Algebra - Chunk 2"
-description: "The Commutative, Associative and Distributive Laws"
+title: "Gelfand: Chunk 2 - Commutative, Associative and Distributive Laws"
+description: "Simplifying Addition and Multiplication"
 category: 
-tags: [commutative-law, associative-law, distributive-law, gelfand]
+tags: [commutative-law, associative-law, distributive-law, gelfand, tricks]
 ---
 {% include JB/setup %}
 
@@ -57,11 +57,11 @@ In all these cases we're looking to arrange things so we can (re-)state our prob
 
 Example 3: when pieces are already in place to simplify: 
 
-$$37 x 25 x 4 = 37 x 100 = 3700$$
+$$37 * 25 * 4 = 37 * 100 = 3700$$
 
 Example 4: when you need to do some splitting in order to get to the simple parts: 
 
-$$125 x 37 x 8 = 5 x 25 x 8 x 37 = 5 x 200 x 37 = 1000 x 37 = 37000$$
+$$125 * 37 * 8 = 5 * 25 * 8 * 37 = 5 * 200 * 37 = 1000 * 37 = 37000$$
 
 Again we're looking to arrange things so we can (re-)state our problem in terms of groups of numbers which are simpler to add  / multiply.
 
@@ -74,6 +74,10 @@ To see this, take a look at Problem 35 (pp. 14) in Gelfand.
 Example 5: the Distributive Law can be applied to remove parentheses in increasingly complex scenarios simply by: 
 
 $$(m+n)(a+b) = ma + mb + na + nb$$
+
+## Tricks Arising
+* _Split a number into two numbers which sum / multiply to the same result if it's useful_ - e.g. $0 = -5 + 5$, $125 = 5 * 25$
+
 
 ## Additional Notes
 
