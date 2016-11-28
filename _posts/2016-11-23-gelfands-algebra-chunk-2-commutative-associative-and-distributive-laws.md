@@ -3,7 +3,7 @@ layout: post
 title: "Gelfand's Algebra - Chunk 2"
 description: "The Commutative, Associative and Distributive Laws"
 category: 
-tags: [commutative-law, associative-law, distributive-law]
+tags: [commutative-law, associative-law, distributive-law, gelfand]
 ---
 {% include JB/setup %}
 
