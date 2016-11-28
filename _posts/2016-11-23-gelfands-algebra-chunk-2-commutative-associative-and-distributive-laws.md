@@ -57,11 +57,11 @@ In all these cases we're looking to arrange things so we can (re-)state our prob
 
 Example 3: when pieces are already in place to simplify: 
 
-$$37.25.4 = 37.100 = 3700$$
+$$37 x 25 x 4 = 37 x 100 = 3700$$
 
 Example 4: when you need to do some splitting in order to get to the simple parts: 
 
-$$125.37.8 = 5.25.8.37 = 5.200.37 = 1000.37 = 37000$$
+$$125 x 37 x 8 = 5 x 25 x 8 x 37 = 5 x 200 x 37 = 1000 x 37 = 37000$$
 
 Again we're looking to arrange things so we can (re-)state our problem in terms of groups of numbers which are simpler to add  / multiply.
 
