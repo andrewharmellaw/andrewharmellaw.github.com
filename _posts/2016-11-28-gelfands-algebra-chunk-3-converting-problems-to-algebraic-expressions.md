@@ -11,17 +11,17 @@ tags: [gelfand, algebraic-problem-solving, proof, tricks]
 
 ### Stuck
 
-Pages 19 and 20 of Gelfand are our first encounter with a _proof_.  As it's conceptually such a simple bit of arithmetic, it's useful to call out the approach explicitly too.
+Pages 19 and 20 of [Gelfand](https://www.goodreads.com/book/show/20328259-algebra) are our first encounter with a _proof_.  As it's conceptually such a simple bit of arithmetic, it's useful to call out the approach explicitly too.
 
 The reason I think there's value in detailing the approach explicitly is because the first time I read through it (and worked through it) everything made sense logically, but what didn't click was how I might have arrived at this proof myself.  Reading it in the order presented made me despair.  How would I have known to start where Gelfand started? How would I have known to then rebalance the expression so that the $0$ was alone on the right-hand side? I would never have figured that out.  (Immediately followed by a fall into a pit of despair.)
 
 ### A Different Perspective - Proof Part One
 
-Once I climbed back out of my gloom, I focussed on what I did recognise, and there were things to grasp; the fact the problem split in two became very explicit to me, as did the application of the Distributative Law.  (Neither of these are hidden, but just highlights how easy it is to read things and have them "make sense", but still miss key things.)  That was great, but I still couldnt grasp what must have been the intuitive leap which gave jumping-off point.  Then I realised...
+Once I climbed back out of my gloom, I focussed on what I did recognise, and there were things to grasp; the fact the problem split in two became very explicit to me, as did the application of the Distributative Law.  (Neither of these are hidden, but just highlights how easy it is to read things and have them "make sense", but still miss key things.)  That was great, but I still couldn't grasp what must have been the intuitive leap which gave jumping-off point.  Then I realised...
 
-* To prove multiplication of a negative and a positive number, I needed to change this from an expression where this happened into another expression where I wasn't multiplying the negative and positive numbers together, and instead I was doing something else with them, hopefully getting rid of this troublesome aspect
-* What else could I do which I knew how to do? I could _add_ them
-* How could I change multiplication into addition? Or more specifically, how could I re-order my multiplication and addition?  With the aim of turning the multiplicaiton into something I knew how to do - multiply by zero. This is where the Distributive Law comes in.
+* To prove multiplication of a negative and a positive number, I needed to change this from an expression where this happened into another expression where I wasn't multiplying the negative and positive numbers together, and instead I was doing something else with them, hopefully getting rid of them altogether
+* So what else could I do with them? I could _add_ them...
+* But how could I change multiplication into addition? Or more specifically, how could I re-order my multiplication and addition?  With the aim of turning the multiplicaiton into something I knew how to do - multiply by zero. This is where the [Distributive Law](https://andrewharmellaw.github.io/2016/11/23/gelfands-algebra-chunk-2-commutative-associative-and-distributive-laws) comes in.
 
 With all this in mind (and it didn't come all at once, writing this post helped clarify and solidify it all too) we can then possibly see a place to start, and then try and work our way back out to Gelfand's "starting position".  Let's try it:
 
@@ -33,16 +33,18 @@ So,
 
 $$ 0 = 3.0 = 3.(-5 + 5) = 3.(-5) + 3.5 = 3.(-5) + 15 = 0 $$ 
 
-With all this in play, we're left with the inevitable conclusion that $3.(-5) = -15$ which is what we wanted.  It also feels to me like a mental journey you could take yourself to get to this proof. #Winning.
+With all this in play, we're left with the inevitable conclusion that $3.(-5) = -15$ which is what we wanted.  It also feels to me like a mental journey you could take yourself to get to this proof. 
+
+Winning.
 
 #### Tricks Arising
 
-We've used some tricks in arriving at this:
+We've used some tricks in arriving at this. Let's call them out specifically:
 
-* _Something multiplied by zero is zero_ e.g. $3.0 = 0$ - Blindingly obvious, but worth pointing out all the same
-* _Many patterns you can spot visually_ (we saw this before, in post ["Chunk 1"]()) - I got to the fact that there were two halves to this problem, that the core of both was the Distributive Law, and that one half applied it in one direction and the other in the other direction by drawing all this out clearly and "looking"
+* _Something multiplied by zero is zero_ e.g. $3 * 0 = 0$ - Blindingly obvious, but worth pointing out all the same
+* _Many patterns you can spot visually_ (we saw this before, in post ["Chunk 1"](https://andrewharmellaw.github.io/algebra/2016/11/16/gelfands-algebra-chunk-1-fundamentals)) - I got to the fact that there were two halves to this problem, that the core of both was the Distributive Law, and that one half applied it in one direction and the other in the other direction by drawing all this out clearly and "looking"
 * _The Distributive Law turns multiplication followed by addition, into addition followed by by multiplication (and vice versa)_ - and this switching of orders can allow you to get some tricky things out of the way (such as multiplying a positive number by a negative number)
-* _Split a number into two numbers which sum / multiply to the same result if it's useful_ (we saw this before too, in post ["Chunk 2"]()) - e.g. $0 = -5 + 5$
+* _Split a number into two numbers which sum / multiply to the same result if it's useful_ (we saw this before too, in post ["Chunk 2"](https://andrewharmellaw.github.io/2016/11/23/gelfands-algebra-chunk-2-commutative-associative-and-distributive-laws)) - e.g. $0 = -5 + 5$
 
 
 #### Aside - Can we do this in Algebra?
@@ -56,13 +58,13 @@ We can't quite get as far as the previous proof, but it still has the key elemen
 
 Let's now head over to the second half of the proof; proving a negative number multiplyed by another negative number gives a positive number.  Conceptually that's a harder leap, so is this aspect of the proof harder too?
 
-Again, Gelfand seems to start at a semi-arbitrary point (or so it felt to me).  Can we look again at the point he enacts the Distributive Law for another clue?:
+Again, Gelfand seems to start at a semi-arbitrary point (or so it felt to me).  Can we look again at the point he enacts the [Distributive Law](https://andrewharmellaw.github.io/2016/11/23/gelfands-algebra-chunk-2-commutative-associative-and-distributive-laws) for another clue?:
 
 $$ ((-3) + 3) . (-5) = 0 $$
 
-Hmmm.  Nothing jumped out at me, but setting this book-proof side-by-side with the first half did indicate something.  In the first half, Gelfand applies the Distributive Law to collapse something down. Here, he applies it in reverse, with the next step being the one to expand things:
+Hmmm.  Nothing jumped out at me, but setting this book-proof side-by-side with the first half did indicate something.  In the first half, Gelfand applies the [Distributive Law](https://andrewharmellaw.github.io/2016/11/23/gelfands-algebra-chunk-2-commutative-associative-and-distributive-laws) to collapse something down. Here, he applies it in reverse, with the next step being the one to expand things:
 
-$$ ((-3) + 3) . 5 = ((-3) . -5) + (3 . (-5) = 0 $$
+$$ ((-3) + 3) . 5 = ((-3) . -5) + (3 . (-5)) = 0 $$
 
 This feels a little like we're getting somewhere. He then pulls off another new trick and uses the output from the first half of the proof ($3 . (-5) = -15$) to simplify this second half:
 
@@ -72,7 +74,7 @@ This is now incredibly close to what we need, yet we've avoided having to actual
 
 $$ (-3) . (-5) = 15 $$
 
-I actually jumped a little - it all made sense. We haven't started where Gelfand started - and the known starting position is key in this kind of proof.  With all this together, the $(-3) + 3 = 0$ jumping off point now makes sense - it's something super-obvious, and from where we can multiply both sides by $-5$ to get to an ebtry-point into the law of Distribution. 
+I actually jumped a little - it all made sense. We haven't started where Gelfand started - and the known starting position is key in this kind of proof.  With all this together, the $(-3) + 3 = 0$ jumping off point now makes sense - it's something super-obvious, and from where we can multiply both sides by $-5$ to get to an entry-point into the Law of Distribution. 
 
 #### More Tricks Arising
 
