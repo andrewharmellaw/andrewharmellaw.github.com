@@ -28,11 +28,11 @@ From Google "define":
 ### Addition
 To add, start by finding a common denominator for $P/Q$ and $R/S$ (if we have no better idea , just multiply $P$ and $Q$ by $S$ and multiply $R$ and $S$ by $Q$).  Then just add the numerators.
 
-$$ \frac{P}{Q} + \frac{R}{S}  =
+$$ \frac{P}{Q} + \frac{R}{S}  =$$
 
- = \frac{PS}{QS} + \frac{QR}{QS} =
+$$ = \frac{PS}{QS} + \frac{QR}{QS} =$$
 
- = \frac{PS + QR}{QS} $$
+$$ = \frac{PS + QR}{QS} $$
 
 ### Subtration
 Subtraction is similar to addition:
