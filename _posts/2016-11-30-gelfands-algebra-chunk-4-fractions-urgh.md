@@ -8,6 +8,8 @@ tags: [gelfand, fractions, tricks]
 {% include JB/setup %}
 
 ## Fractions Y U No...
+![Fractions Y U No](https://cdn.meme.am/cache/instances/folder741/500x/73770741.jpg)
+
 Yet another of my mental stumbling-blocks today - fractions. 
 
 Urgh.
@@ -68,9 +70,7 @@ This is the one I recall from school.
 
 Which is bigger, $1/3$ or $2/7$?
 
-$$ 1/3 = 7/21$$, 
-
-$$2/7 = 6/21 $$
+$$ 1/3 = 7/21, 2/7 = 6/21 $$
 
 Therefore the first fraction is the bigger (there are more 21ths): $7/21 > 6/21$
 
@@ -121,7 +121,7 @@ $$ \frac{10001}{10002} < \frac{100001}{100002} $$
 
 Which is bigger?:
 
-$$\frac{12345}{54321}$$ or $$\frac{12346}{54322} = $$
+$$\frac{12345}{54321}$$ or $$\frac{12346}{54322} $$
 
 In problem 40, where the fractions were also both less than one, we subtracted $1/1$ from each and saw which was smaller.
 
