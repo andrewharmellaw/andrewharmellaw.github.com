@@ -37,19 +37,23 @@ $$ = \frac{PS + QR}{QS} $$
 ### Subtration
 Subtraction is similar to addition:
 
-$$ \frac{P}{Q} - \frac{R}{S} = 
- = \frac{PS}{QS} - \frac{QR}{QS} = 
- = \frac{PS - QR}{QS} $$
+$$ \frac{P}{Q} - \frac{R}{S} = $$
+
+$$ = \frac{PS}{QS} - \frac{QR}{QS} = $$
+
+$$ = \frac{PS - QR}{QS} $$
 
 ### Multiplication
 
-$$ (P/Q).(R/S) = 
- = PR/QS $$
+$$ \frac{P}{Q}.\frac{R}{S} = $$
+
+$$ = \frac{PQ}{RS} $$
 
 ### Division
 
-$$ (P/Q)/(R/S) = 
- = PS/QR $$
+$$ \frac{P/Q}{R/S} = $$
+ 
+$$ = \frac{PS}{QR} $$
 
 ### Simplification
 Sometimes during the transformation we are able to simplify the expression, eliminating a common factor in the numberator and the denominator:
@@ -64,7 +68,9 @@ This is the one I recall from school.
 
 Which is bigger, $1/3$ or $2/7$?
 
-$$ 1/3 = 7/21, 2/7 = 6/21 $$
+$$ 1/3 = 7/21$$, 
+
+$$2/7 = 6/21 $$
 
 Therefore the first fraction is the bigger (there are more 21ths): $7/21 > 6/21$
 
@@ -161,7 +167,9 @@ So if this is an error, why is Gelfand bothering to point this out?  Well, in tw
 Problem 43 is a problem of comparing various fractions on top of each other.  A length (let's call it "1") is divided in three ways:
 
 $$7/7$$
+
 $$13/13$$
+
 $$20/20$$
 
 We then make the actual cuts at the 20ths.  
@@ -175,21 +183,37 @@ Gelfand writes "Red marks correspond to numbers in the form $\frac{k}{7}$, green
 In the failed adding, we accidentally unearthed a way of finding "something in between two fractions". What would happen then if we just laid out all these sums of $\frac{k}{7}$ plus $\frac{l}{13}$ which we might need to get to our remaining  $\frac{something}{20}$ 
 
 $$ \frac{1 + 1}{7 + 13} \Rightarrow \frac{2}{20}$$
+
 $$ \frac{1 + 2}{7 + 13} \Rightarrow \frac{3}{20}$$
+
 $$ \frac{1 + 3}{7 + 13} \Rightarrow \frac{4}{20}$$
+
 $$ \frac{2 + 3}{7 + 13} \Rightarrow \frac{5}{20}$$
+
 $$ \frac{2 + 4}{7 + 13} \Rightarrow \frac{6}{20}$$
+
 $$ \frac{2 + 5}{7 + 13} \Rightarrow \frac{7}{20}$$
+
 $$ \frac{3 + 5}{7 + 13} \Rightarrow \frac{8}{20}$$
+
 $$ \frac{3 + 6}{7 + 13} \Rightarrow \frac{9}{20}$$
+
 $$ \frac{3 + 7}{7 + 13} \Rightarrow \frac{10}{20}$$
+
 $$ \frac{4 + 7}{7 + 13} \Rightarrow \frac{11}{20}$$
+
 $$ \frac{4 + 8}{7 + 13} \Rightarrow \frac{12}{20}$$
+
 $$ \frac{4 + 9}{7 + 13} \Rightarrow \frac{13}{20}$$
+
 $$ \frac{5 + 9}{7 + 13} \Rightarrow \frac{14}{20}$$
+
 $$ \frac{5 + 10}{7 + 13} \Rightarrow \frac{15}{20}$$
+
 $$ \frac{5 + 11}{7 + 13} \Rightarrow \frac{16}{20}$$
+
 $$ \frac{6 + 11}{7 + 13} \Rightarrow \frac{17}{20}$$
+
 $$ \frac{6 + 12}{7 + 13} \Rightarrow \frac{18}{20}$$
 
 NOTE: this working-out doesn't cover all possibilities for $k+l$ because not all these fractions will be next to each other (i.e. you can get to $\frac{13}{20}$ by $ \frac{1 + 12}{7 + 13}$ but these marks are not next door on our stick.)  This allowed me to arrive at this progression without having to draw a stick.  That's handly - but it still allowed me to have a spatial representation of tinngs in my mind.
