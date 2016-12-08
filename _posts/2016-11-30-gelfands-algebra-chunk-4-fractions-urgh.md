@@ -28,31 +28,31 @@ From Google "define":
 ### Addition
 To add, start by finding a common denominator for $P/Q$ and $R/S$ (if we have no better idea , just multiply $P$ and $Q$ by $S$ and multiply $R$ and $S$ by $Q$).  Then just add the numerators.
 
-$$ P/Q + R/S  =
- = PS/QS + QR/QS =
- = (PS + QR) / QS $$
+$$ \frac{P}{Q} + \frac{R}{S}  =
+ = \frac{PS}{QS} + \frac{QR}{QS} =
+ = \frac{PS + QR}{QS} $$
 
 ### Subtration
 Subtraction is similar to addition:
 
-$$ P/Q - R/S = $4
-$$ = PS/QS - QR/QS = $$
-$$ = (PS - QR) / QS $$
+$$ \frac{P}{Q} - \frac{R}{S} = 
+ = \frac{PS}{QS} - \frac{QR}{QS} = 
+ = \frac{PS - QR}{QS} $$
 
 ### Multiplication
 
-$$ (P/Q).(R/S) = $$
-$$ = PR/QS $$
+$$ (P/Q).(R/S) = 
+ = PR/QS $$
 
 ### Division
 
-$$ (P/Q)/(R/S) = $
-$$ = PS/QR $$
+$$ (P/Q)/(R/S) = 
+ = PS/QR $$
 
 ### Simplification
 Sometimes during the transformation we are able to simplify the expression, eliminating a common factor in the numberator and the denominator:
 
-$$ PX/QX = P/Q $$
+$$ \frac{PX}{QX} = \frac{P}{Q} $$
 
 ## Tricks for Comparing Fractions
 Gelfand loves to get his readers to compare fractions.  Luckily he gives us a few tricks along the way.
