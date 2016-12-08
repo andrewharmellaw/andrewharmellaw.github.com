@@ -6,6 +6,7 @@ category:
 tags: [gelfand, fractions, tricks]
 ---
 {% include JB/setup %}
+
 ## Fractions Y U No...
 Yet another of my mental stumbling-blocks today - fractions. 
 
