@@ -29,7 +29,9 @@ From Google "define":
 To add, start by finding a common denominator for $P/Q$ and $R/S$ (if we have no better idea , just multiply $P$ and $Q$ by $S$ and multiply $R$ and $S$ by $Q$).  Then just add the numerators.
 
 $$ P/Q + R/S  = $$
+
 $$ = PS/QS + QR/QS = $$
+
 $$ = (PS + QR) / QS $$
 
 ### Subtration
