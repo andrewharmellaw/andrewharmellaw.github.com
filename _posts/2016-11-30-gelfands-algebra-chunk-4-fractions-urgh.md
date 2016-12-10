@@ -35,7 +35,7 @@ $$ = \frac{PS}{QS} + \frac{QR}{QS} =$$
 
 $$ = \frac{PS + QR}{QS} $$
 
-### Subtration
+### Subtraction
 Subtraction is similar to addition:
 
 $$ \frac{P}{Q} - \frac{R}{S} = $$
@@ -48,7 +48,7 @@ $$ = \frac{PS - QR}{QS} $$
 
 $$ \frac{P}{Q}.\frac{R}{S} = $$
 
-$$ = \frac{PQ}{RS} $$
+$$ = \frac{PR}{QS} $$
 
 ### Division
 
