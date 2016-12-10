@@ -226,10 +226,23 @@ As a result we can conclude:
 
 We've travelled a slightly more scenic route to the conclusion that Gelfand reaches much more rapidly.  But I think it is informative to point this out clearly.
 
+## Problem 45 - Fractions of Fractions
+My solution to this problem was more roundabout that the one given in the book, but it gave me a little extra trick to add to our kit bag.  Here we're working with a starting length which is not $1$.  We have instead $\frac{2}{3}m$, but need to find out the difference between this and $\frac{1}{2}m$, an we need this difference in terms of a fraction of $\frac{2}{3}m$.
+
+Firstly, we can make the denominators common:
+
+$$\frac{2}{3}m = \frac{4}{6}m$$
+
+$$\frac{1}{2}m = \frac{3}{6}m$$
+
+Then, by comparing them we can see that the difference is $\frac{1}{6}m$. 
+
+But we don't need our answer in terms of fractions of a meter, we need it in terms of fractions of $\frac{2}{3}m$.  This is actually very easy to obtain.  We have our fractions expressed with common denominators, so now just need to compare the relative sizes of numerators.  In this case we have $4$ of something, and we need $3$, which means we need to cut off $\frac{1}{4}$ of the string.
+
 ## Neighbour Fractions
 (From Gelfand, Problem 42)
 
-We jumped ahead a little in the book here, missing out Problem 41.
+We jumped ahead a little in the book, missing out Problem 41.
 
 "Fractions $\frac{a}{b}$ and $\frac{c}{d}$ are called neighbour fractions if their difference $\frac{ad-bc}{bd}$ has numberator $±1$, that is $ad - bc = ±1$."
 
