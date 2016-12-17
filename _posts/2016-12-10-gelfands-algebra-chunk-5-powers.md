@@ -124,7 +124,7 @@ In Gelfand Problem 55(g), we have $2^{100} \cdot 3^{100}$.  The bases are differ
 $$2^{100} \cdot 3^{100} = (2 \cdot 3)^{100} = 6^{100}$$
 
 ### Pay Attention to the Question
-Problem 49 asks for "the nuber of digits" rather than "the answer".  Gelfand just before gave a clue as to how to represent $2^10$ in terms of $10^n$ (it's $10^3 + 24$).  Then when we have to raise $2^10$ to $2^100$ (or $(2^10)^10$) we can move across to powers of 10 and only care about the bit which will have the most digits: $(10^3)^10 \Rightarrow 10^30$.  We can stop worrying about $24^10$ as it will have less.  (The answer is $31$ by the way, a $3$ followed by 30 $0$s.)
+Problem 49 asks for "the nuber of digits" rather than "the answer".  Gelfand just before gave a clue as to how to represent $2^{10}$ in terms of $10^n$ (it's $10^3 + 24$).  Then when we have to raise $2^{10}$ to $2^{100}$ (or $(2^{10})^{10}$) we can move across to powers of 10 and only care about the bit which will have the most digits: $(10^3)^{10} \Rightarrow 10^{30}$.  We can stop worrying about $24^{10}$ as it will have less.  (The answer is $31$ by the way, a $3$ followed by 30 $0$s.)
 
 ### Powers of 2 are quite close to powers of 10
 (For computer scientists anyway.) 
