@@ -39,7 +39,7 @@ $$2 \cdot a \cdot a \cdot a \cdot a \cdot b \cdot b \cdot b \cdot c \cdot c \cdo
 
 can be written in the shorter form
 
-$$2a^4b^3c^2d$$.
+$$2a^4b^3c^2d$$
 
 and you can also write 
 
