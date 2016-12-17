@@ -43,7 +43,7 @@ $$2a^4b^3c^2d$$.
 
 and you can also write 
 
-$$\fraction{2 \cdot a \cdot a \cdot a \cdot a \cdot c \cdot c}{b \cdot b \cdot b \cdot d}$$
+$$\frac{2 \cdot a \cdot a \cdot a \cdot a \cdot c \cdot c}{b \cdot b \cdot b \cdot d}$$
 
 in the form
 
@@ -62,11 +62,11 @@ $$a^3b^{-5} = \frac{a^3}{b^5}$$
 
 and 
 
-$$a^{-2}b^{-7} = frac\{1}{a^2b^7}$$
+$$a^{-2}b^{-7} = \frac{1}{a^2b^7}$$
 
 And don't forget you can go the other way too.
 
-$$frac\{1}{a^2b^7} = a^{-2}b^{-7}$$
+$$\frac{1}{a^2b^7} = a^{-2}b^{-7}$$
 
 ### Everything has a Power
 If a number is just a number, and seems to have no power, then it secretly also has a power of 1
@@ -124,7 +124,7 @@ In Gelfand Problem 55(g), we have $2^{100} \cdot 3^{100}$.  The bases are differ
 $$2^{100} \cdot 3^{100} = (2 \cdot 3)^{100} = 6^{100}$$
 
 ### Pay Attention to the Question
-Problem 49 asks for "the nuber of digits" rather than "the answer".  Gelfand just before gave a clue as to how to represent $2^10$ in terms of $10^n$ (it's $10^3 + 24$).  Then when we have to raise $2^10$ to $2^100$ (or $(2^10)^10$) we can move across to powers of 10 and only care about the bit which will have the most digits: $(10^3)^10 \RightArrow 10^30$.  We can stop worrying about $24^10$ as it will have less.  (The answer is $31$ by the way, a $3$ followed by 30 $0$s.)
+Problem 49 asks for "the nuber of digits" rather than "the answer".  Gelfand just before gave a clue as to how to represent $2^10$ in terms of $10^n$ (it's $10^3 + 24$).  Then when we have to raise $2^10$ to $2^100$ (or $(2^10)^10$) we can move across to powers of 10 and only care about the bit which will have the most digits: $(10^3)^10 \Rightarrow 10^30$.  We can stop worrying about $24^10$ as it will have less.  (The answer is $31$ by the way, a $3$ followed by 30 $0$s.)
 
 ### Powers of 2 are quite close to powers of 10
 (For computer scientists anyway.) 
