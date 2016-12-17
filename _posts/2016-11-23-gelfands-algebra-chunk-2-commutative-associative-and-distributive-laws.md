@@ -57,11 +57,11 @@ In all these cases we're looking to arrange things so we can (re-)state our prob
 
 Example 3: when pieces are already in place to simplify: 
 
-$$37 * 25 * 4 = 37 * 100 = 3700$$
+$$37 \cdot 25 \cdot 4 = 37 \cdot 100 = 3700$$
 
 Example 4: when you need to do some splitting in order to get to the simple parts: 
 
-$$125 * 37 * 8 = 5 * 25 * 8 * 37 = 5 * 200 * 37 = 1000 * 37 = 37000$$
+$$125 \cdot 37 \cdot 8 = 5 \cdot 25 \cdot 8 \cdot 37 = 5 \cdot 200 \cdot 37 = 1000 \cdot 37 = 37000$$
 
 Again we're looking to arrange things so we can (re-)state our problem in terms of groups of numbers which are simpler to add  / multiply.
 
@@ -76,8 +76,7 @@ Example 5: the Distributive Law can be applied to remove parentheses in increasi
 $$(m+n)(a+b) = ma + mb + na + nb$$
 
 ## Tricks Arising
-* _Split a number into two numbers which sum / multiply to the same result if it's useful_ - e.g. $0 = -5 + 5$, $125 = 5 * 25$
-
+    * _Split a number into two numbers which sum / multiply to the same result if it's useful_ - e.g. $0 = -5 + 5$, $125 = 5 \cdot 25$
 
 ## Additional Notes
 
