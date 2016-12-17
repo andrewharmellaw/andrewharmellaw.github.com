@@ -7,6 +7,8 @@ tags: [gelfand, square-of-a-sum, square-of-a-difference, difference-of-squares, 
 ---
 {% include JB/setup %}
 
+Now that we have a bunch of the fundamentals and some conventions and core tricks in place, things can start to get fun.  First up are the collection known as the "Short Multiplcation Formulas".
+
 ## General Definition of Square of a Sum
 We saw in the previous post that when you multiply two sums you multiply each term in the first, but each term in the second, and then add up all the products.
 
