@@ -37,6 +37,14 @@ $$c(a + b) = ca + cb$$
 
 From Gelfand (pp. 15) : "To multiply two sums you need to multiply each term of the first sum by each term in the second one and then add them all together."
 
+Additionally (from the Stewart Calculus "Review of Algebra") it's worth nothing that putting $a = -1$ into the Distributive law you get:
+
+$$-(b + c) = (-1)(b + c) = (-1)b + (-1)c$$
+
+and so
+
+$$-(b + c) = -b - c$$
+
 ## Tricks Arising
 
 ### Simplifying Addition with the Associative Law
