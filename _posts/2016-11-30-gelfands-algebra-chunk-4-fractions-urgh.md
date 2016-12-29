@@ -62,10 +62,18 @@ $$ \frac{P}{Q} \cdot \frac{R}{S} = $$
 
 $$ = \frac{PQ}{RS} $$
 
+Additionally, from Stewart's Calculus Review of Algebra, it is true that
+
+$$\frac{-a}{b} = - \frac{a}{b} = \frac{a}{-b}$$
+
 ### Division
 
+To divive, invert (the denominator fraction) and mulitply
+
 $$ \frac{P/Q}{R/S} = $$
- 
+
+$$ = \frac{P}{Q} \cdot \frac{S}{R} = $$
+
 $$ = \frac{PS}{QR} $$
 
 ### Simplification
