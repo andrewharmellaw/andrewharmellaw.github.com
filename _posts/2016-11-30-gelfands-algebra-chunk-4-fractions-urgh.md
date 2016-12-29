@@ -60,7 +60,7 @@ $$ = \frac{PS - QR}{QS} $$
 
 $$ \frac{P}{Q} \cdot \frac{R}{S} = $$
 
-$$ = \frac{PR}{QS} $$
+$$ = \frac{PQ}{RS} $$
 
 ### Division
 
