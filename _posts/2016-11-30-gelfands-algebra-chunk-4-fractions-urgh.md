@@ -35,6 +35,18 @@ $$ = \frac{PS}{QS} + \frac{QR}{QS} =$$
 
 $$ = \frac{PS + QR}{QS} $$
 
+In fact, as you see in the Stewarts Calculus Review of Algebra, when you add two fractions with the same denominator, you are using the Distributive Law.
+
+$$\frac{a}{b} + \frac{c}{b} = \frac{1}{b} \cdot a + \frac{1}{b} \cdot c = \frac{1}{b}(a + c) = \frac{a + c}{b}$$
+
+And given this, it is therefore true that
+
+$$\frac{a + c}{b} = \frac{a}{b} + \frac{c}{b}$$
+
+but remember to avoid the commonly associated pitfall
+
+$$\frac{a}{b + c} \neq \frac{a}{b} + \frac{a}{c}$$
+
 ### Subtraction
 Subtraction is similar to addition:
 
@@ -46,7 +58,7 @@ $$ = \frac{PS - QR}{QS} $$
 
 ### Multiplication
 
-$$ \frac{P}{Q}.\frac{R}{S} = $$
+$$ \frac{P}{Q} \cdot \frac{R}{S} = $$
 
 $$ = \frac{PR}{QS} $$
 
