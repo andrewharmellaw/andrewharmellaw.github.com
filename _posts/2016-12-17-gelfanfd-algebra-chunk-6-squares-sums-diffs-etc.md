@@ -51,6 +51,7 @@ $$(a + b)^2 \geq a^2 + b^2 \geq (a - b)^2 \geq a^2 - b^2$$
 Why $\geq$ and not $>$? Because one or both of the terms might be $0$.
 
 ## Tricks Arising
+
 ### Hard Squares can be Split out into Simpler Pieces
 Again following on from some of the break-out tricks from [Post 2: Commutative, Associative and Distributive Laws](https://andrewharmellaw.github.io/2016/11/23/gelfands-algebra-chunk-2-commutative-associative-and-distributive-laws) you can split a square you can't calculate simply into two you can, apply the Square of the  Sum pattern, and add the results.
 
