@@ -27,7 +27,7 @@ From Google "define":
 (from Gelfand, Chapter 34: Converting a Rational Expression into the Quotient of Two Polynomials)
 
 ### Addition
-To add, start by finding a common denominator for $P/Q$ and $R/S$ (if we have no better idea , just multiply $P$ and $Q$ by $S$ and multiply $R$ and $S$ by $Q$).  Then just add the numerators.
+To add, if you don't have one to begin with, start by finding a common denominator for $P/Q$ and $R/S$. (If we have no better idea , just multiply $P$ and $Q$ by $S$ and multiply $R$ and $S$ by $Q$).  Then just add the numerators.
 
 $$ \frac{P}{Q} + \frac{R}{S}  =$$
 
