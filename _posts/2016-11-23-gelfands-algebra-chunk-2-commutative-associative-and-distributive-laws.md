@@ -3,7 +3,7 @@ layout: post
 title: "Gelfand: Chunk 2 - Commutative, Associative and Distributive Laws"
 description: "Simplifying Addition and Multiplication"
 category: 
-tags: [commutative-law, associative-law, distributive-law, gelfand, tricks]
+tags: [commutative-law, associative-law, distributive-law, gelfand, stewart-algebra-review, tricks]
 ---
 {% include JB/setup %}
 

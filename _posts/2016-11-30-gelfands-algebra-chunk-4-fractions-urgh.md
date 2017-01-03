@@ -3,7 +3,7 @@ layout: post
 title: "Gelfand: Chunk 4 - Fractions (Urgh)"
 description: ""
 category: 
-tags: [gelfand, fractions, tricks]
+tags: [gelfand, , stewart-algebra-review, fractions, tricks]
 ---
 {% include JB/setup %}
 
