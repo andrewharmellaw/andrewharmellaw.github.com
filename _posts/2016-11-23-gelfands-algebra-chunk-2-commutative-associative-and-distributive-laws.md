@@ -84,7 +84,9 @@ Example 5: the Distributive Law can be applied to remove parentheses in increasi
 $$(m+n)(a+b) = ma + mb + na + nb$$
 
 ## Tricks Arising
-    * _Split a number into two numbers which sum / multiply to the same result if it's useful_ - e.g. $0 = -5 + 5$, $125 = 5 \cdot 25$
+
+### Split a number into two numbers which sum / multiply to the same result if it's useful
+e.g. $0 = -5 + 5$, $125 = 5 \cdot 25$
 
 ## Additional Notes
 
