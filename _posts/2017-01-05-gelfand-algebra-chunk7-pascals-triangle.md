@@ -136,13 +136,15 @@ $$=  1 \times 2^72^0 + 7 \times 2^62^1 + 21 \times 2^52^2 + 35 \times 2^42^3 + 3
 
 $$ = 1 \times 128 + 7 \times 128 + 21 \times 128 + 35 \times 128 + 35 \times 128 + 21 \times 128 + 7 \times 128 + 1 \times 128 = $$
 
-If we pause here it looks as if a pattern is emerging: $128 \times (1 + 7 + 21 + 35 + 35 + 21 + 7 + 1) = $
+If we pause here it looks as if a pattern is emerging: 
 
-$$ = 128 \cdot 128 = $$
+$$(1 + 7 + 21 + 35 + 35 + 21 + 7 + 1) \times 128 = $$
+
+$$ = 128 \times 128 = $$
 
 $$ = 128^2 = $$
 
-$$= 16384$$
+$$ = 16384 $$
 
 Now let's do it with algebra
 
@@ -177,7 +179,9 @@ Bingo!
 And just to link back to the simpler examples we saw before, what about when $a = b = 1$?
 
 $$2^71^7 =$$
+
 $$= 128 \times 1$$
+
 $$= 128$$
 
 BingoBingo!
