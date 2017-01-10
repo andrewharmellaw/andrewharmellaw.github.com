@@ -27,9 +27,13 @@ $$ = 1331 $$
 ### Problem 82 (b) Compute $11^4$
 
 $$11^4 = $$
+
 $$ = (10 + 1)^4 = $$
+
 $$ = 10^4 + 4 \times 10^3 \times 1 + 6 \times 10^2 \times 1^2 + 4 \times 10 \times 1^3 + 1^4 = $$
+
 $$ = 10000 + 4000 + 600 + 40 + 1 = $$
+
 $$ = 14641$$
 
 This is all going swimmingly, and we can see a nice symmetrical result emerging, with the co-efficients of our result-elements echoing the numbers in our nice symmetrical triangle. 
@@ -43,19 +47,29 @@ Awesome. It's about to break though as you might suspect. Lets look at $11^5$
 ### Problem 83 (c) Compute $11^5$
 
 $$11^5 = $$
+
 $$ = (10 + 1)^5 $$
+
 $$ = 10^5 + 5 \times 10^4 \times 1 + 10 \times 10^3 \times 1^2 + 10 \times 10^2 \times 1^3  + 5 \times 10^1 \times 1^4 + 1^5 = $$
+
 $$ =  100000 + 50000 + 10000 +  1000 + 50 + 1 = $$
+
 $$ = 161051$$
 
 Hey! What happened? Because the two co-efficients in the centre are greater than $9$ we're ending up with elements of our sum at the end that burst right out of their position in the decimal number system and get carried over to the next column.  No more pretty echo of Pascal's Triangle.  But it still makes sense, and there is a nice shortcut in [an online answer from Adrian Durham](http://documents.tips/documents/gelfand-algebra-solutions.html) which makes how we get our new answer clear again (I've altered this a tiny bit from Adrian's, but the main aspects are all his):
 
 $$11^5 = $$ 
+
 $$= (10 + 1)^5 = $$
+
 $$= 10^5 + 5 \times 10^4 \times 1 + 10 \times 10^3 \times 1^2 + 10 \times 10^2 \times 1^3  + 5 \times 10^1 \times 1^4 + 1^5 = $$
+
 $$= 1 \times 10^5 + 5 \times 10^4 + 1 \times 10^4 + 1 \times 10^3 + 5 \times 10 + 1 = $$
+
 $$= 1 \times 10^5 + (5 + 1) \times 10^4 + 1 \times 10^3 + 5 \times 10 + 1= $$
+
 $$= 1 \times 10^5 + 6 \times 10^4 + 1 \times 10^3 + 0 \times 10 ^2 + 5 \times 10 + 1= $$
+
 $$ = 100000 + 50000 + 10000 +  1000 + 50 + 1 = 161051$$
 
 It's now pretty clear how this still follows the general way of working of our earlier (and simpler) powers, but now with a little carrying thrown into the mix.
@@ -70,7 +84,9 @@ $$a - b = a + (-b)$$
 Which means we can just take everything we just computed, and apply differences-of-squares to it
 
 $$(a - b)^4$$
+
 $$1 \times a^4(-b)^0 + 4 \times a^3(-b)^1 + 6 \times a^2(-b)^2 + 4 \times a^1(-b)^3 + 1 \times a^0(-b)^4$$
+
 $$a^4 - 4a^3b + 6a^2b^2 - 4ab^3 + b^4$$
 
 etc. etc.
@@ -96,9 +112,13 @@ The sums are all powers of 2.  And the power is the same as the row number - 1. 
 So why is this?  That's precisely the next question Gelfand wants us to work on, and Durham has another nice solution upon which this example is based:
 
 $$2^7 = $$
+
 $$= (1 + 1)^7 =$$
+
 $$=  1 \times 1^71^0 + 7 \times 1^61^1 + 21 \times 1^51^2 + 35 \times 1^41^3 + 35 \times 1^31^4 + 21 \times 1^21^5 + 7 \times 1^11^6 + 1 \times 1^01^7 = $$
+
 $$ = 1 + 7 + 21 + 35 + 35 + 21 + 7 + 1 = $$
+
 $$128$$
 
 What's he done here?  What's the line of reasoning?  It's terribly simple really.  Remember how, at the start of this post we simplified $11^n$ by breaking the $11$ into $10 + 1$ so we could use the square of sums expansion?  We'll we're doing the same here, but now we're splitting $2$ into $1 + 1$.  
@@ -111,20 +131,27 @@ That's what you see here, and why we end up with a sum that looks a lot like (be
 Let's do it first with $a = b = 2$ and $n = 7$
 
 $$(2 + 2)^7 =$$
+
 $$=  1 \times 2^72^0 + 7 \times 2^62^1 + 21 \times 2^52^2 + 35 \times 2^42^3 + 35 \times 2^32^4 + 21 \times 2^22^5 + 7 \times 2^21^6 + 1 \times 2^02^7 = $$
+
 $$ = 1 \times 128 + 7 \times 128 + 21 \times 128 + 35 \times 128 + 35 \times 128 + 21 \times 128 + 7 \times 128 + 1 \times 128 = $$
 
 If we pause here it looks as if a pattern is emerging: $128 \times (1 + 7 + 21 + 35 + 35 + 21 + 7 + 1) = $
 
 $$ = 128 \cdot 128 = $$
+
 $$ = 128^2 = $$
+
 $$= 16384$$
 
 Now let's do it with algebra
 
 $$(a + a)^7 =$$
+
 $$=  1 \times a^7a^0 + 7 \times a^6a^1 + 21 \times a^5a^2 + 35 \times a^4a^3 + 35 \times a^3a^4 + 21 \times a^2a^5 + 7 \times a^2a^6 + 1 \times a^0a^7 = $$
+
 $$= 1 \times a^7 + 7 \times a^7 + 21 \times a^7 + 35 \times a^7 + 35 \times a^7 + 21 \times a^7 + 7 \times a^7 + 1 \times a^7$$
+
 $$= 128 \times a^7$$
 
 And we already know that 128 is $2^7$, so our answer for everything is
@@ -140,7 +167,9 @@ Where $n$ is the row in pascals triangle and $a$ is the input value.
 And now to check, if we put in $n = 7$ and $a = 2$
 
 $$2^72^7 =$$
+
 $$= 128 \times 128$$
+
 $$= 16384$$
 
 Bingo!
