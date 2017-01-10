@@ -97,13 +97,20 @@ Note: remember, when you raise a negative number to an _even power_, it changes 
 What happens when you sum all the values in each row?
 
 Row 1: $1 = 1$
+
 Row 2: $1 + 1 = 2$
+
 Row 3: $1 + 2 + 1 = 4$
+
 Row 4: $1 + 3 + 3 + 1 = 8$
+
 Row 5: $1 + 4 + 6 + 4 + 1 = 16$
+
 Row 6: $1 + 5 + 10 + 10 + 5 + 1 = 32$
+
 Row 7: $1 + 6 + 15 + 20 + 15 + 6 + 1 = 64$
-Row 7: $1 + 7 + 21 + 35 + 35 + 21 + 7 + 1 = 128$
+
+Row 8: $1 + 7 + 21 + 35 + 35 + 21 + 7 + 1 = 128$
 
 Etc.
 
