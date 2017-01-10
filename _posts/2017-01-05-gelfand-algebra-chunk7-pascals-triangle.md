@@ -12,13 +12,21 @@ The introduciton to Pascal's triangle section of Gelfand has a _lot_ of explanat
 
 He then gets you to use the triangle to do some otherwise-difficult power-work.
 
-Problem 82 (a) Compute $11^3$
+### Problem 82 (a) Compute $11^3$
 
-$$11^3 = (10 + 1)^3 = 10^3 + 3 \cdot 10^2 \cdot 1 + 3 \cdot 10 \cdot 1^2 + 1^3 = 1000 + 300 + 30 + 1 = 1331$$
+$$11^3 = $$
+$$ = (10 + 1)^3 = $$
+$$ = 10^3 + 3 \times 10^2 \times 1 + 3 \times 10 \times 1^2 + 1^3 = $$
+$$ = 1000 + 300 + 30 + 1 $4
+$$ = 1331 $$
 
-Problem 82 (b) Compute $11^4$
+### Problem 82 (b) Compute $11^4$
 
-$$11^4 = (10 + 1)^4 = 10^4 + 4 \cdot 10^3 \cdot 1 + 6 \cdot 10^2 \cdot 1^2 + 4 \cdot 10 \cdot 1^3 + 1^4 = 10000 + 4000 + 600 + 40 + 1 = 14641$$
+$$11^4 = $$
+$$ = (10 + 1)^4 = $$
+$$ = 10^4 + 4 \times 10^3 \times 1 + 6 \times 10^2 \times 1^2 + 4 \times 10 \times 1^3 + 1^4 = $$
+$$ = 10000 + 4000 + 600 + 40 + 1 = $$
+$$ = 14641$$
 
 This is all going swimmingly, and we can see a nice symmetrical result emerging, with the co-efficients of our result-elements echoing the numbers in our nice symmetrical triangle. 
 
@@ -28,9 +36,13 @@ When you think about how all this is working, it all kind of makes sense that th
 
 Awesome. It's about to break though as you might suspect. Lets look at $11^5$
 
-Problem 83 (c) Compute $11^5$
+### Problem 83 (c) Compute $11^5$
 
-$$11^5 = (10 + 1)^5 = 10^5 + 5 \cdot 10^4 \cdot 1 + 10 \cdot 10^3 \cdot 1^2 + 10 \cdot 10^2 \cdot 1^3  + 5 \cdot 10^1 \cdot 1^4 + 1^5 = 100000 + 50000 + 10000 +  1000 + 50 + 1 = 161051$$
+$$11^5 = $$
+$$ = (10 + 1)^5 $$
+$$ = 10^5 + 5 \times 10^4 \times 1 + 10 \times 10^3 \times 1^2 + 10 \times 10^2 \times 1^3  + 5 \times 10^1 \times 1^4 + 1^5 = $$
+$$ =  100000 + 50000 + 10000 +  1000 + 50 + 1 = $$
+$$ = 161051$$
 
 Hey! What happened? Because the two co-efficients in the centre are greater than $9$ we're ending up with elements of our sum at the end that burst right out of their position in the decimal number system and get carried over to the next column.  No more pretty echo of Pascal's Triangle.  But it still makes sense, and there is a nice shortcut in [an online answer from Adrian Durham](http://documents.tips/documents/gelfand-algebra-solutions.html) which makes how we get our new answer clear again (I've altered this a tiny bit from Adrian's, but the main aspects are all his):
 
