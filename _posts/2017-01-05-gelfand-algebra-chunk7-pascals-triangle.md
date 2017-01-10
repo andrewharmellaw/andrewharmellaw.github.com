@@ -15,9 +15,13 @@ He then gets you to use the triangle to do some otherwise-difficult power-work.
 ### Problem 82 (a) Compute $11^3$
 
 $$11^3 = $$
+
 $$ = (10 + 1)^3 = $$
+
 $$ = 10^3 + 3 \times 10^2 \times 1 + 3 \times 10 \times 1^2 + 1^3 = $$
+
 $$ = 1000 + 300 + 30 + 1 $4
+
 $$ = 1331 $$
 
 ### Problem 82 (b) Compute $11^4$
