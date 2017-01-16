@@ -43,7 +43,7 @@ In the case of monomials, there is a further, purely aesthetic (which makes me h
 ### Collecting Similar Terms
 Collecting similar terms means you don't repeat a term unless it is necessary. For example
 
-$$5 \cdot a \cdot 7 \cdot b \cdot a = 35a^b$$
+$$5 \cdot a \cdot 7 \cdot b \cdot a = 35a^2b$$
 
 Note, you can only collect things which have the same letters _and_ same powers, and differing _only_ in their co-efficient.  However, if you remember the Commutative Law, $ab = ba$, then you can see that the _order_ of the variables is up for grabs
 
@@ -60,23 +60,23 @@ There is one more thing we need to know, and that is about the Standard Form of 
  * no subtraction
  * everything has an _explicit_ co-efficient
 
-Both are easy to remedy, as you will see 
+Both are easy to remedy, as you can see 
 
 $$12 - zx -13y + 12x - zx^2 - yx + yzx + y^2 =$$
 
 $$= 12 + (-1)zx + (-13)y + 12x + (-1)zx^2 + (-1)yx + 1yzx + 1y^2$$
 
-Which that uner our belt, its a nice check-point to state explicitly everything you need to have in place to have a polynomial in the _Standard Form_:
+Which that under our belt, its a nice check-point to state explicitly everything you need to have in place to have a polynomial in the _Standard Form_:
 
  * it is the sum of monimials
  * where each monomial is the product of a number (the co-efficient) and of powers of different letters
  * and where all similar monomials are collected
 
-## Tricks Arising
-Now we have everything in Standard Form, we can get to the exciting parts - the tricks.
+## Tricks Arising (Pt. 1)
+Now we have everything in Standard Form, we can get to the exciting parts - the tricks. (Or the frst part anyway, we also have a second set later.)
 
 ### Adding Two Polynomials in Standard Form
-Simply add the co-efficients do similar terms. If the resulting co-efficient is zero, the corresponding term vanishes.
+Simply add the co-efficients of similar terms. If the resulting co-efficient is zero, the corresponding term vanishes.
 
 $$(1x + (-1)y) + (1y + (-2)x + 1z) = $$
 
@@ -86,7 +86,7 @@ $$= (-1)x + 0y + 1z = $$
 
 $$= (-1)x + 1z$$
 
-In the above example (Gelfand, beacuse I copied it right out of the book) takes micro-steps, but they're useful to see _explicitly_ whats happening and really grokk it.
+In the above example (Gelfand, because I copied it right out of the book) doesn't take these micro-steps, but they're useful to see _explicitly_ what's happening and really grokk it so I put them in.
 
 ### Multiplying Two Polynomials in Standard Form
 Simply multiply each term of the first polynomial by each term of the second polynomial.  When multiplying monomials, we add powers of each variable
@@ -110,21 +110,21 @@ Nice.
 Note, we _have_ been pedantic here.  Gelfand takes a short-cut which he 'fesses up to.  From here on in we're going to do the same.  It turns out that to reduce the visual noise, once you've proven you know how to have no subtraction and always have an explicit co-efficient, youre allowed to drop them and still be admitted into Math-club.  #winning.
 
 ## Learning Checkpoint
-If it feels like you've been unwittingly applying much of this all along but without knowing the names of what you were doing, congratulations, you have.  All Gelfand is doing here is making explicit a bunch of conventions which allow him to then make explicit some tricks which he will then build on from here on in.  
+If it feels like you've been unwittingly applying much of this all along but without knowing the names of what you were doing, congratulations, you have been.  All Gelfand is doing here is making explicit a bunch of conventions which allow him to then make explicit some tricks which he builds on from here on in.  
 
 ## Awesome. Now What?  Equality's What.
-Now we have this its time to make something else super-explicit; Equality.  This is labelled as "a digression" by Gelfand, but I found it helped me a lot at this point in my journey and beyond.  Thats why I'm going into it a bit here.
+Now we have this, it's time to make something else super-explicit; Equality.  This is labelled as "a digression" by Gelfand, but I found it helped me a lot at this point in my journey and beyond.  Thats why I'm going into it a bit here.
 
-Equality (and inequality) is at the core of pretty-much everything we do in algebra.  Gelfand (and I will follow him) makes some statements which he just asks you to follow.  These statements are around the two ways to prove of equality of polynomials.
+Equality (and inequality) is at the core of loads of stuff we do in algebra.  Gelfand (and I will follow him) makes some statements which he just asks you to follow.  These statements are around the two ways to prove of equality of polynomials.
 
  1. by being able to transform one form into another using only the algebraic rules (the ones we've been looking at in this and previous posts)
  2. by giving specific numerical values to the variables and seeing that the results are the same from both forms _in all cases_ (remember, a variable is _variable_ - it can have many values)
 
-First thing to point out (but not prove - neither dos Gelfand, perhaps that's a post for the future) is that Gelfand states these two are equivalent.  If two polynomials are equal by one definition, then they are equal by the other.
+First thing to point out (but not prove - neither does Gelfand, perhaps that's a post for the future) is that he states these two are equivalent.  If two polynomials are equal by one definition, then they are equal by the other.
 
-But there are preferred versions for different tasks - _when proving equality, the first is your thing_, as it's easier to convince people of your correctness.  This is because by using variables you are covering _all possibilities_.  With the second version you might not be and you need to know that all possibilities render equality. (Unless you work things out with _all_ possible options for _all_ variables - something that looks like a lot of work.)
+But there are preferred versions for different tasks - _when proving equality, the first option is your go-to angle of attack_, as it's easier to convince people of your correctness.  This is because by using variables you are covering _all possibilities_.  With the second version you might not be and you need to know that all possibilities render equality. (Unless you work things out with _all_ possible options for _all_ variables - something that looks like a lot of work.)
 
-But, _when proving inequality the second shoudl be your helper_.  That is because what made the second version bad above, makes it ideal now.  In order to prove inequality, all you need is one example where the results are _the same_.  Just one.  Brilliant.
+But, _when proving inequality then the second should be your helper_.  That is because what made the second version bad above, makes it ideal now.  In order to prove inequality, all you need is one example where the results are _the same_.  Just one.  Brilliant.
 
 Lets try some exercises (the ones from Gelfand - Problems 91 and 92)
 
@@ -154,7 +154,7 @@ $$= 120$$
 It didn't take a lot of mental effort to see that this wouldn't be zero before all this, but its nice to be explicit at least the first time.
 
 ### Gelfand Problem 92 - Proving an Equality
-Now we're doing the other one - proving equality.
+Now we're going the other route - proving _equality_.
 
 Firstly, I had a little trouble with the phrasing of this question, and the hint.  What I now _think_ is that Gelfand means us to do is as follows. Given
 
@@ -162,11 +162,13 @@ $$(x^2- 1)(x+ ...) = (x-1)(x+3)(x+...)$$
 
 find out what you can put in place of the '$...$' on both the left and right hand sides.  The value of '$...$' need not be the same on both sides (remember, these aren't variables).
 
-I then attacked this two ways.  Applying what I'd learned from [Chunk 6]() I realised that I could use the DIfference of Squares on the left hand side.
+I then attacked this two ways.  Applying what I'd learned from [Chunk 6](https://andrewharmellaw.github.io/2016/12/17/gelfanfd-algebra-chunk-6-squares-sums-diffs-etc) I spotted that I could use the DIfference of Squares on the left hand side.
 
 $$(x^2- 1)(x+ ...) = (x-1)(x+3)(x+...)$$
 
 $$(x+1)(x-1)(x+ ...) = (x-1)(x+3)(x+...)$$
+
+A quick aside, how did I spot it? I recognised the $x^2 - a$ pattern which can be re-stated as $(x + a)(x - a)$.
 
 If we then re-arrange what we end up with we get something useful
 
@@ -176,7 +178,7 @@ From here I could simplify by removing the $(x-1)$ from both sides
 
 $$(x+1)(x+ ...) = (x+...)(x+3)$$
 
-And from here it was clear what the only two values of '$...$' could be: $3$ on the left hand side, and $1$ on the right
+And then it was clear what the only two values of '$...$' could be: $3$ on the left hand side, and $1$ on the right
 
 $$(x+1)(x+3) = (x+1)(x+3)$$
 
@@ -206,7 +208,7 @@ $$... = (-2)(2)(-1 + ...) = $$
 
 $$... = -4 \times (-1 + ...) $$
 
-We need to get a $0$ multiplicand again, andto get that, we need to offset the $-1$.  For that we need '...' on the right hand side to equal $1$.
+We need to get a $0$ multiplicand again, and to get that, we need to offset the $-1$.  For that we need '...' on the right hand side to equal $1$.
 
 $$... = -4 \times (-1 + 1) = $$
 
@@ -214,7 +216,7 @@ $$... = -4 \times 0 = $$
 
 $$... = 0$$
 
-That then gives us the following:
+Right. this is a good mini-milestone.  Given we now know that the '...' on the right hand side, we can look back at things overall. We currently have the following:
 
 $$(x^2 - 1)(x + ...) = (x - 1)(x + 3)(x + 1)$$
 
@@ -250,11 +252,12 @@ Brilliant.  All done.  Let's write it out in full now we know the values
 
 $$(x^2 - 1)(x + 3) = (x - 1)(x + 3)(x + 1)$$
 
-But wait, why doesn't Durham have this?  Simply put, I think Durham's wrong.  It's not a heinous a crime (I'm _certain_ I have errors in what I've written).  It made me pause and think though (which is definitely a good thing.)
+But wait, why doesn't Durham have this? (He has $-1$ and $-3$.) Simply put, I think Durham's he's made a typo.  It's not a heinous a crime (I'm _certain_ I have actual errors in what I've written).  It made me pause and think though (which is definitely a good thing.)
 
 More importantly, why does Gelfand suggest we try putting in $-1$ and $-3$?  It's not just because he knows the answer...
 
 ## Tricks Arising
+
 ### One Side at a Time
 Tackling this equality-problem one side at a time helps.  We really have two equations to solve when we look at it in one way, but we're just trying to get them or have the same end result.  Doing one side at a time keeps the symbol-noise down and helps clear thinking (it does for me anyway).
 
