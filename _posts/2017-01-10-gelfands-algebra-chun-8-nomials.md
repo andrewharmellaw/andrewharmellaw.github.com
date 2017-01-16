@@ -268,3 +268,23 @@ To answer the question above, "how did Gelfand know to suggest $-1$ and $-3$? It
 
 ### Try it with $x = 0$ (and also $1$ and $-1$)
 If all else fails, it's handy to try putting $x = 0$, and $x = 1$ and $x = -1$ into yoru equation and see what you get.  Sometimes what shakes out is useful to get to the requried answer.
+
+### Always Convert Your Polynomials to Standard Form
+By doing this you again clear some noise away. (Always a good thing.)  If after thsi they only differ in the order of the mononials (or in the order of the factors inside the monomials) then the polynomials are equal.  If not, it is possible to prove they are different.
+
+$$(x + 1)^2-(x - 1)^2 = x^2 + 4x - 1$$
+
+$$(x^2 + 2x + 1)-(x^2 - 2x + 1) = x^2 + 4x - 1$$
+
+$$1x^2 + 2x + 1 + (-1)x^2 + 2x + (-1) = 1x^2 + 4x - 1$$
+
+$$1x^2 + (-1)x^2 + 2x + 2x + 1 - 1 = 1x^2 + 4x - 1$$
+
+$$4x = x^2 + 4x - 1$$
+
+So they're patently _not_ equal, so we should actually write
+
+$$4x \ne x^2 + 4x - 1$$
+
+## Close: But This all Sounds a Little Labour Intensive...
+... and you're right, at this stage it does.  We'll come back in a later post to how to use a finite number of tests to decide whether two polynomials are equal or not.  But for now, we're done.
