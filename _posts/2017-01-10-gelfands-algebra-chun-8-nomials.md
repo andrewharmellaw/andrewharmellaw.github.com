@@ -256,7 +256,7 @@ But wait, why doesn't Durham have this? (He has $-1$ and $-3$.) Simply put, I th
 
 More importantly, why does Gelfand suggest we try putting in $-1$ and $-3$?  It's not just because he knows the answer...
 
-## Tricks Arising
+## Tricks Arising (Part 2)
 
 ### One Side at a Time
 Tackling this equality-problem one side at a time helps.  We really have two equations to solve when we look at it in one way, but we're just trying to get them or have the same end result.  Doing one side at a time keeps the symbol-noise down and helps clear thinking (it does for me anyway).
@@ -286,5 +286,5 @@ So they're patently _not_ equal, so we should actually write
 
 $$4x \ne x^2 + 4x - 1$$
 
-## Close: But This all Sounds a Little Labour Intensive...
+## But This all Sounds a Little Labour Intensive...
 ... and you're right, at this stage it does.  We'll come back in a later post to how to use a finite number of tests to decide whether two polynomials are equal or not.  But for now, we're done.
