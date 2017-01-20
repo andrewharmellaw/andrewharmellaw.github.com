@@ -3,19 +3,13 @@ layout: post
 title: "Gelfand: Chunk 10 - Factoring 101"
 description: "The First Pass"
 category: 
-tags: [gelfand, factoring, tricks]
+tags: [gelfand, factoring, difference-of-squares, tricks]
 ---
 {% include JB/setup %}
 
 Factoring is something I remember utterly failing at in school.  Consequently, I had a mental block about it.  
 
 I'm going to go slowly for my own benefit.
-
-## When am I Done Factoring?
-
-There is an elephant in the room around all this factoring which I want to call out.  In a lot of the worked examples (and solutions) you'll come across you'll frequently see comments like "this could be factored further, but we're not going as it requires techniques that haven't yet been covered."  But when you;re learning, how do you know when you've reached this point?
-
-TBC.
 
 ## Gelfand Problem 107(d)
 You can brute-force this one by just staring at it hard and figuring out how it should shake out, but there is a better way.  And better ways are, well, better.
@@ -125,7 +119,7 @@ $$ = (a + 1)(a + 2)$$
 (b) is a little different than the ones we've seen. It only has one variable, but things still work in the same way as before.
 
 ## Tricks Arising (Pt. 2)
-### Spilt Similar Terms
+### Split Similar Terms
 Remember the ones you collected when you were doing the busy-work of obtaining [nice, clean "Standard Form" polynomials](Chunk_8)?  Well if you're working backwards (as you are when "Factoring Down the Line") then you need to break things up.  
 
 How do you know which term to split? A good guess (and I've not tested this theory fully) is to pick the term with the largest co-efficient.  E.g in the following from Gelfand 109(b) it's $3a$.
@@ -134,7 +128,7 @@ $$a^2 + 3a + 2 = $$
 
 $$ = a^2 + 2a + a + 2 = $$
 
-Why the biggest? Because that then heops you when you get to the next question, 
+Why the biggest? Because that then helps you when you get to the next question, 
 how do you know where to the co-efficient of your chosen term numerically?  It seems (when things are simple at least) that looking at the other, smaller co-efficients can give you a clue.  E.g. in the following from Gelfand 109(a), these are $1$ (for $a^2$) and $2$ (for $b^2$), and added together, these give $3$ which is the co-efficient of the thing we're looking to split ($3ab$).
 
 $$ 1a^2 - 3ab + 2b^2 = $$
@@ -143,40 +137,46 @@ $$ = 1a^2 - 1ab - 2ab + 2b^2$$
 
 Please note, this idea is from my own head, and may be revised, or updated at a later stage.
 
-## Coping with Annihilated Terms
-But there's something we've not yet tackled. Sometimes as part of our collection we ended up with terms where the co-efficient totally zero and so we removed them all together.  This felt amazing, because we were getting rid of things and achieving increased simplicity as a result.  But now we're going backwards. How do we cope with that?  How can we see what's no longer there?
+Now on to problem 110(a).  This one I found challenging again - we're supposed to be learning again.  I took it step by step.
 
-This is just one of the reasons that factoring is "hard".  (Interestingly, I remember _doing_ factoring at school, I fail to recall any of the details however, most likely due to the terror which this "summoning from the ether" element.)
+$$a^2 + 4ab  + 4b^2 = $$
 
-Gelfand feels our fear, but he encourages us to took into the abyss and jump anyway.  He suggests we look at a factoring of the familiar difference-of-squares to salve our anxiety.  We know the steps because we've worked it the other direction [many a time](Chunk-6).
+$$ = 1a^2 + 4ab + 4b^2 = $$
 
-$$a^2 - b^2 = $$
+$$ = 1a^2 + 2ab + 2ab + 4b^2 = $$
 
-$$ = a^2 - ab + ab - b^2 = $$
+$$ = a(a + 2b) + 2b(a + 2b) = $$
 
-$$ = a(a - b) + b(a - b) = $$
+$$ = (a + 2b)(a + 2b) = $$
 
-$$ = (a + b)(a - b)$$
+$$ = (a + 2b)^2 $$ 
 
-That makes sense, but thats because we already knew the steps.
+Checking againsy Durham, I ended up at the right answer but he's keen to show there is a hidden realisation and a consequent shortcut.  I _could_ have also noticed that this is a perfect square, but just using $b^2$ rather than $b$.  
 
-$$x^5 + x + 1 = $$
+$$ = a^2 + 2a(2b) + (2b)^2$$
 
-$$ = x^5 + x^4 + x^3 - x^4 - x^3 - x^2 + x^2 + x + 1 = $$
+I must admit, this passed me by, though it makes sense given the output of my working.
 
-$$ = x^3(x^2 + x + 1) - x^2(x^2 + x + 1) + (x^2 + x + 1) = $$
+110(b) next, but now looking out for this additional element
 
-$$ = (x^3 - x^2 + 1)(x^2 + x + 1)$$
+$$ a^4 + 2a^2b^2 + b^4 = $$
 
-Proving that if $a^2 = b^2$ then $a = b$ and $a = -b$.
+Now I'm aware of it, this too is a perfect square, but of $(a^2 + b^2)$ rather than $(a + b)$.  Lets keep stepping it through though
 
-$$a^2 = b^2$$
+$$ = a^2(a^2 + b^2) + b^2(a^2 + b^2) = $$
 
-$$ \rightarrow a^2 - b^2 = 0 $$
+$$ = (a^2 + b^2)(a^2 + b^2) = $$
 
-$$ \rightarrow (a - b)(a + b) = 0 $$
+$$ = (a^2 + b^2)^2$$
 
-$$ \rightarrow a - b = 0 OR a + b = 0 $$
+Great. Now the final one, 110(c)
 
-$$ \rightarrow a = b OR a = -b $$
+$$a^2 - 2a + 1 = $$
 
+$$ = a(a - 1) - 1(a - 1) = $$
+
+$$ = (a - 1)(a - 1) = $$
+
+$$ = (a - 1)^2$$
+
+All good. In fact, this is actually getting a little easy.  Surely there must be a catch...?  There is, and that's the topic of the next post in this series.
