@@ -6,10 +6,15 @@ category:
 tags: [gelfand, factoring, difference-of-squares, tricks]
 ---
 {% include JB/setup %}
+Numbers have factors.  The number $6$ has factors of $2$ and $3$ (as in $2 \times 3$) and also $1 and 6$ (as in $1 \times 6$).  Expressions also have factors.
 
-Factoring is something I remember utterly failing at in school.  Consequently, I had a mental block about it.  
+The expression $a^2 + 2ab + b^2$ has factors $(a + b)$ and $(a + b)$.
 
-I'm going to go slowly for my own benefit.
+If all this look incredibly like we're just doing the reverse of what we've been doing up til now (which has been called "expanding" by the way) you'd be right.  But its harder.  Expanding is just laboriously following a bunch of rules.  You need to pay attention, but you don't need to think.  With Factoring it's _hard_ and you need to think _a lot_.
+
+It's for this reason that factoring is something I remember utterly failing at in school - I had a mental block about it.  
+
+Consequently I'm going to go slowly for my own benefit.
 
 ## Gelfand Problem 107(d)
 You can brute-force this one by just staring at it hard and figuring out how it should shake out, but there is a better way.  And better ways are, well, better.
@@ -31,7 +36,9 @@ Which then just leaves us to collect the $1$ and $a^2$ together and we have a ni
 $$ = (1 + a)(1 + a^2)$$
 
 ## Tricks Arising (Pt. 1)
+
 ### When Factoring Look for Patterns of Common Multiplicands
+
 This initial pattern-spot we used in Problem 107(d) (above) (of the shared $(1 + a)$ multiplicand) helps a lot in many factorings.  It's a trick you'll rely on a freqiently, and get better at intuitively spotting as you go on.  
 
 When trying to spot these, things which can help are making powers of zero super-evident
@@ -43,8 +50,10 @@ And making co-efficients explicit is also sometimes handy
 $$a = 1a$$
 
 ## Starting with Some Simple Ones
+
 ### Gelfand Problem 107(c)
-After banging my head on this for a while I caved and went to the answers by [Durham]().  His first point made perfect sense and I realised i'd been constrained in my thinking - I'd been looking for a pattern of a pair of terms, but as I had an input consisting of an _odd_ number of monomials this would _never_ work.  I had to try a different number.  That number turns out (for a possible first step anyway) to be three.
+
+After banging my head on this for a while I caved and went to the answers by [Durham](https://www.scribd.com/document/243387607/Gelfand-Algebra-Solutions).  His first point made perfect sense and I realised i'd been constrained in my thinking - I'd been looking for a pattern of a pair of terms, but as I had an input consisting of an _odd_ number of monomials this would _never_ work.  I had to try a different number.  That number turns out (for a possible first step anyway) to be three.
 
 $$1 + a + a^2 + a^3 + a^4 + a^5 + a^6 + a^7 + a^8 + a^9 + a^{10} + a^{11} + a^{12} + a^{13} + a^{14} = $$
 
@@ -66,7 +75,7 @@ $$ = (1 + a)(1 + a^2 + a^4 + a^6 + a^8 + a^{10} + a^{12} + a^{14}) $$
 
 Here we _can_ consider the $1 + a^2 + a^4 + a^6 + a^8 + a^{10} + a^{12} + a^{14}$ in the same manner that we considered our original starting point.  
 
-There is a minor subtlety to notice - we're going to have to start nesting our parentheses.  That's conceptually not too problematic for me (I coded some [Clojure]() once which was far worse than this) but it's worth pointing out.  I, following Durham, have used square brackets ('[ and ']') for this inner parentheses.
+There is a minor subtlety to notice - we're going to have to start nesting our parentheses.  That's conceptually not too problematic for me (I coded some [Clojure](https://clojure.org/) once which was far worse than this) but it's worth pointing out.  I, following Durham, have used square brackets ('[ and ']') for this inner parentheses.
 
 $$ = (1 + a)[(1 + a^2) + a^4(1 + a^2) + a^8(1 + a^2) + a^{12}(1 + a^2)] $$
 
@@ -119,7 +128,9 @@ $$ = (a + 1)(a + 2)$$
 (b) is a little different than the ones we've seen. It only has one variable, but things still work in the same way as before.
 
 ## Tricks Arising (Pt. 2)
+
 ### Split Similar Terms
+
 Remember the ones you collected when you were doing the busy-work of obtaining [nice, clean "Standard Form" polynomials](Chunk_8)?  Well if you're working backwards (as you are when "Factoring Down the Line") then you need to break things up.  
 
 How do you know which term to split? A good guess (and I've not tested this theory fully) is to pick the term with the largest co-efficient.  E.g in the following from Gelfand 109(b) it's $3a$.
@@ -161,7 +172,7 @@ I must admit, this passed me by, though it makes sense given the output of my wo
 
 $$ a^4 + 2a^2b^2 + b^4 = $$
 
-Now I'm aware of it, this too is a perfect square, but of $(a^2 + b^2)$ rather than $(a + b)$.  Lets keep stepping it through though
+Now I'm aware of it, this too is a perfect square, but of $(a^2 + b^2)$ rather than $(a + b)$.  Let's keep stepping it through though
 
 $$ = a^2(a^2 + b^2) + b^2(a^2 + b^2) = $$
 
