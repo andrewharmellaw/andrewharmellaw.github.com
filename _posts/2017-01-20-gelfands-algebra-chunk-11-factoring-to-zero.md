@@ -7,20 +7,20 @@ tags: [gelfand, factoring, difference-of-squares, square-of-a-sum, roots, powers
 ---
 {% include JB/setup %}
 
-## An Aside: So When am I Done Factoring?
+## A Brief Digression: So When am I Done Factoring?
 
 There is an elephant in the room around all this factoring which I want to call out before we get going any further.  In a lot of the worked examples (and solutions) you'll come across you'll frequently see comments like "this could be factored further, but we're not going as it requires techniques that haven't yet been covered."  But when you're learning, how do you know when you've reached this point in your solution?
 
-Well there is a convention, and its laid out nicely for us over at [MathsIsFun]().  So nicely in fact I'll just wait here while you check out the explanation on their site.
+Well there is a convention and that is to find the "highest common factor", and it's laid out nicely for us over at [MathsIsFun](https://www.mathsisfun.com/algebra/factoring.html).  So nicely in fact I'll just wait here while you head over and take a look.
 
 It also bears repeating the fact that when factoring, there is typically more than one "right" answer, and typically more than one way to get there.  That's when debates about "best" come in, but we'll leave those until we're far more _au fait_ with all this.
 
 ## Coping with Annihilated Terms
-So after [Chunk 10]() you think this factoring lark is easy eh? Well, there's something we've not yet tackled. Sometimes as part of our terms-collection we ended up with terms where the co-efficient totalled zero and so we removed them alltogether.  This felt amazing, because we were getting rid of things and achieving increased simplicity as a result.  But now we're going backwards. How do we cope with that?  How can we see what's no longer there?
+So after [Chunk 10](https://andrewharmellaw.github.io/2017/01/17/gelfands-algebra-chunk-10-factoring) you think this factoring lark is easy eh? Well, there's something we've not yet tackled. Sometimes as part of our terms-collection we ended up with terms where the co-efficient totalled zero and so we removed them alltogether.  This felt amazing, because we were getting rid of things and achieving increased simplicity as a result.  But now we're going backwards. How do we cope with that?  How can we see what's no longer there?
 
 This is just one of the reasons that factoring is "hard".  (Interestingly as I've been writing this, I remember _doing_ factoring at school. I fail to recall any of the details however, most likely due to the terror which this "summoning from the ether" element.)
 
-Gelfand feels our fear, but he encourages us to took into the abyss anyway.  He suggests we look at a factoring of the familiar difference-of-squares to salve our anxiety.  We know the steps because we've worked it the other direction [many a time](Chunk-6).
+Gelfand feels our fear, but he encourages us to took into the abyss anyway.  He suggests we look at a factoring of the familiar difference-of-squares to salve our anxiety.  We know the steps because we've worked it the other direction [many a time](https://andrewharmellaw.github.io/2016/12/17/gelfanfd-algebra-chunk-6-squares-sums-diffs-etc).
 
 $$ a^2 - b^2 = $$
 
@@ -120,7 +120,7 @@ $$ = a^3(a - b) + a^2b(a - b) + ab^2(a - b) + b^3(a - b) = $$
 
 $$ = (a - b)(a^3 + a^2b + ab^2 + b^3)$$
 
-Awesome. This is just the pattern we would expect, plus the descending-ascending powers pattern familiar to us from our polynomials-wrangling back in [Chunk 7]().
+Awesome. This is just the pattern we would expect, plus the descending-ascending powers pattern familiar to us from our Pascal's triangle encounter back in [Chunk 7](https://andrewharmellaw.github.io/2017/01/05/gelfand-algebra-chunk7-pascals-triangle) and Polynomial-wranging in [Chunk 8](https://andrewharmellaw.github.io/2017/01/10/gelfands-algebra-chun-8-nomials).
 
 Does it work with problem 116(a)?
 
@@ -144,7 +144,7 @@ $$ = a^9(a - b) + a^8b(a - b) + a^7b^2(a - b) + a^6b^3(a - b) + a^5b^4(a - b) + 
 
 $$ = (a - b)(a^9 + a^8b + a^7b^2 + a^6b^3 + a^5b^4 + a^4b^5 + a^3b^6 + a^2b^7 + ab^8 + b^9)$$
 
-Done. But that time it got pretty long-winded. Don't you get the impresion we're supposed to be looking back and spotting things we've done previously which we can go back to?  That's typically Gelfand's modus operandi. Can we do that here?  Perhaps (and [Durham certainly thinks so]()) but that's jumping ahead. If we've learned one thing it's to take things at a Gelfand-or-slower pace.  Let's keep going as we are for now.
+Done. But that time it got pretty long-winded. Don't you get the impresion we're supposed to be looking back and spotting things we've done previously which we can go back to?  That's typically Gelfand's modus operandi. Can we do that here?  Perhaps (and [Durham certainly thinks so](https://www.scribd.com/document/243387607/Gelfand-Algebra-Solutions)) but that's jumping ahead. If we've learned one thing it's to take things at a Gelfand-or-slower pace.  Let's keep going as we are for now.
 
 ### Gelfand Problem 116(c)
 Suddenly the obvious pattern of the previous questions is broken.
@@ -184,7 +184,7 @@ Remember a minute ago I suggested that our solution to Problem 116(b) seemed a l
 
 $$a^{10} - b^{10}$$
 
-If we cast our mind back to ways to split powers (c.f. [Chunk XXX]() if you need a refresher) we get this
+If we cast our mind back to ways to multiply powers (c.f. [Chunk 5](https://andrewharmellaw.github.io/2016/12/10/gelfands-algebra-chunk-5-powers) if you need a refresher) we can use the reverse process to split them, and thereby get this
 
 $$a^{10} - b^{10} = (a^5)^2 - (b^5)^2 = $$
 
@@ -233,9 +233,9 @@ $$ = (a - \sqrt{2})(a + \sqrt{2})$$
 
 $$a^2 - 3b^2$$
 
-Here's we're learning how to use our funamental rules of powers knowledge (from (Chunk X]()) to allow us to spot a way to massage things into our difference-of-squares again.
+Here we're learning how to use our funamental rules of powers knowledge (from (Chunk 5](https://andrewharmellaw.github.io/2016/12/10/gelfands-algebra-chunk-5-powers)) to allow us to spot a way to massage things into our difference-of-squares again.
 
-Here we need to convert $3b^2$ into a "perfect" square. (That's something which is squared to you and I, at this point anyway.)  It might sound a trifle complicated, but really it's a series of incredibly simple steps.  The aim is to square root everything, and then square it all again.  To do that you need to split things up a bit and remember that the square root of a value squared is simply the value itself.  
+Here we need to convert $3b^2$ into a "perfect" square. (That's something which is squared to you and I, at this point anyway.)  It might sound a trifle complicated, but really it's a series of incredibly simple steps.  The aim is to square root everything, and then square it all again.  To do that you need to split things up a bit and remember that the square root of a value squared is simply the value itself. 
 
 I'm going to go s-u-p-e-r-s-l-o-w on this one just to check you're following.
 
