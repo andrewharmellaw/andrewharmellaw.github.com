@@ -50,7 +50,7 @@ Not only this, the other bit of our possible starting factor works in a similar 
 
 This is awesome.  We've found a tiny little side door (the when $a = b$ the result is zero one) that is open just a crack, and by forcing a little wedge into it (playing this $a = b$ across both sides of the difference-of-squares) we've found a truism; a first rung on a ladder to the solution as it where.
 
-Aside: Proving that if $a^2 = b^2$ then $a = b$ and $a = -b$.
+### Aside: Proving that if $a^2 = b^2$ then $a = b$ and $a = -b$.
 
 $$a^2 = b^2$$
 
@@ -58,9 +58,9 @@ $$ \rightarrow a^2 - b^2 = 0 $$
 
 $$ \rightarrow (a - b)(a + b) = 0 $$
 
-$$ \rightarrow a - b = 0 OR a + b = 0 $$
+$$ \rightarrow a - b = 0$$ OR $$a + b = 0 $$
 
-$$ \rightarrow a = b OR a = -b $$
+$$ \rightarrow a = b $$ OR $$ a = -b $$
 
 Asides aside, why is this relevant?  Well, Gelfand is drawing our attention to the fact that when factoring a polynomial, it helps to see when it has a zero value.  But why is that useful? Because as we've seen more than once before, if you have a single factor of zero, then the outcome of everything will be zero and this then gives us one of our factors.  Let's try it and see what happens.  But we'll pull out the tricks explicitly just before we move to that.
 
