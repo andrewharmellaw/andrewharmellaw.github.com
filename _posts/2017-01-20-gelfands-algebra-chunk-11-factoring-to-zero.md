@@ -144,7 +144,7 @@ $$ = a^9(a - b) + a^8b(a - b) + a^7b^2(a - b) + a^6b^3(a - b) + a^5b^4(a - b) + 
 
 $$ = (a - b)(a^9 + a^8b + a^7b^2 + a^6b^3 + a^5b^4 + a^4b^5 + a^3b^6 + a^2b^7 + ab^8 + b^9)$$
 
-Done. But that time it got pretty long-winded. Don't you get the impresion we're supposed to be looking back and spotting things we've done previously which we can go back to?  That's typically Gelfand's modus operandi. Can we do that here?  Perhaps (and [Durham certainly thinks so](https://www.scribd.com/document/243387607/Gelfand-Algebra-Solutions)) but that's jumping ahead. If we've learned one thing it's to take things at a Gelfand-or-slower pace.  Let's keep going as we are for now.
+Done. But that time it got pretty long-winded (as indicated by the overflowing lines in my working above). Don't you get the impression we're supposed to be looking back and spotting things we've done previously which we can go back to?  That's typically Gelfand's modus operandi. Can we do that here?  Perhaps (and [Durham certainly thinks so](https://www.scribd.com/document/243387607/Gelfand-Algebra-Solutions)) but that's jumping ahead. If we've learned one thing it's to take things at a Gelfand-or-slower pace.  Let's keep going as we are for now.
 
 ### Gelfand Problem 116(c)
 Suddenly the obvious pattern of the previous questions is broken.
@@ -153,7 +153,7 @@ $$a^7 - 1$$
 
 What are we supposed to see here?  A tiny insight comes to me: $1$ is the same as $1^7$.  Does that help?  Maybe. But remember, if we're still applying the same trick (as no more have been introduced) then we're looking for the circumstances when the expression equals zero.  $1 - 1$ is zero, what must $a$ be to equal $1$?  We just said it: $1$!
 
-LEts try that and see
+Let's try that and see
 
 $$1^7 - 1^7 = 0$$
 
@@ -171,7 +171,7 @@ $$ = (a^7 + -a^6) + (a^6 + -a^5) + (a^5 + -a^4) + (a^4 + -a^3) + (a^3 + -a^2) + 
 
 And then we can find our $(a - 1)$'s
 
-$$(a - 1)a^6 + (a - 1)a^5 + (a - 1)a^4 + (a - 1)a^3 + (a - 1)a^2 + (a - 1)a + (a - 1)1 = $$
+$$ (a - 1)a^6 + (a - 1)a^5 + (a - 1)a^4 + (a - 1)a^3 + (a - 1)a^2 + (a - 1)a + (a - 1)1 = $$
 
 $$ = (a - 1)(a^6 + a^5 + a^4 + a^3 + a^2 + a + 1)$$
 
@@ -200,7 +200,7 @@ We could even keep going if we invoked our learnings from Problem 114, but we'll
 
 This is all working out very nicely. So where next?
 
-## Cheating (ish) with Roots square and otherwise
+## Cheating(ish) with Roots, Square and Otherwise
 Well, for this Chunk there is one more thing to consider.  And this is the first time we're going to encounter roots (square and otherwise).  
 
 But before that we have Problem 117 which is going to get our mind in gear for what is to come.  We start as follows
@@ -219,7 +219,7 @@ $$ = (a - 2b)(a + 2b)$$
 
 Done.  
 
-Now that trick was pretty elegant, and it allowed us to get to something which we could then fit into one of our power-patterns and move on from there.  So what did we do on a meta level?  Well, we in effect took the square root of something ($4 \arrow 2$), and then squared it ($2 -> 2^2$).  We can use this more explicitly anywhere we like.  And this allows us to do some factoring where we might otherwise not think it possible.
+Now that trick was pretty elegant, and it allowed us to get to something which we could then fit into one of our power-patterns and move on from there.  So what did we do on a meta level?  Well, we in effect took the square root of something ($4 \rightarrow 2$), and then squared it ($2 \rightarrow 2^2$).  We can use this more explicitly anywhere we like.  And this allows us to do some factoring where we might otherwise not think it possible.
 
 ### Problem 118(a)
 
@@ -233,11 +233,11 @@ $$ = (a - \sqrt{2})(a + \sqrt{2})$$
 
 $$a^2 - 3b^2$$
 
-Here we're learning how to use our funamental rules of powers knowledge (from (Chunk 5](https://andrewharmellaw.github.io/2016/12/10/gelfands-algebra-chunk-5-powers)) to allow us to spot a way to massage things into our difference-of-squares again.
+Here we're learning how to use our funamental rules of powers knowledge (from [Chunk 5](https://andrewharmellaw.github.io/2016/12/10/gelfands-algebra-chunk-5-powers)) to allow us to spot a way to massage things into our difference-of-squares again.
 
 Here we need to convert $3b^2$ into a "perfect" square. (That's something which is squared to you and I, at this point anyway.)  It might sound a trifle complicated, but really it's a series of incredibly simple steps.  The aim is to square root everything, and then square it all again.  To do that you need to split things up a bit and remember that the square root of a value squared is simply the value itself. 
 
-I'm going to go s-u-p-e-r-s-l-o-w on this one just to check you're following.
+I'm going to go s-u-p-e-r s-l-o-w on this one just to check you're following.
 
 $$ 3b^2 = $$
 
@@ -287,7 +287,7 @@ Is this a square of a sum?  I couldn't get this to fit due to the $4$ and $3$ as
 
 $$ a^2 + 4ab + 3b^2 + b^2 - b^2 = $$
 
-$$ = a^2 + 4ab + 4b^2 - b^2$ = $
+$$ = a^2 + 4ab + 4b^2 - b^2$ = $$
 
 Now we have something we can pull into a square-of-a-sum just like we did in 118(c)
 
@@ -302,7 +302,7 @@ That was simple, but it also feels a little bit like magic.  Maths-super-power m
 ## Tricks Arising
 
 ### Need a Square? Pull Apart Your Powers
-Remember $a^10 = (a^5)^2 - voila! A square!
+Remember $a^10 = (a^5)^2$ - voila! A square!
 
 A word of warning however, this only works when your powers are _even_.  You need another trick for when they are odd.
 
@@ -317,7 +317,7 @@ Much of our new super-powers are based on our getting to the difference-of-squar
 Also note, you might spot the pattern in _a part_ of your current expression.  If you do, its fine to work on that part, and forget about the other bit for a minute until you are ready to return to it. (But don't forget to return!)
 
 ### Need a Square? Root it then Square it
-Take the square root of something (e.g. $4 \arrow 2$), and then square it (e.g. $2 -> 2^2$).  Then use that in place of your initial number.
+Take the square root of something (e.g. $4 \rightarrow 2$), and then square it (e.g. $2 \rightarrow 2^2$).  Then use that in place of your initial number.
 
 This can get a bit more complicated in practice. See Problem 118(b) above for discussion on this.
 
