@@ -5,7 +5,6 @@ tagline: What on Earth is Going on Here?
 ---
 {% include JB/setup %}
 
-## Welcome
 Hi. Welcome to my latest blog.  What am I doing here? Learning mathematics, that's what.  (What are you doing here? I'll leave that up to you.)
 
 Let's start with a picture...

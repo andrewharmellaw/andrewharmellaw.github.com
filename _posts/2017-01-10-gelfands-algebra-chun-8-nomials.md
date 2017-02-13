@@ -49,7 +49,7 @@ Note, you can only collect things which have the same letters _and_ same powers,
 
 $$a^2 + 2ab + bc + ba + 2b^2 = a^2 + 3ab + bc + 2b^2$$
 
-### The Explicit Releationship Betweem Mono- and Polynomials
+### The Explicit Relationship Between Mono- and Polynomials
 I jumped ahead a little. Gelfand stops mid-way through all of this to point out that a polynomial is _made up of_ monomials.  That is to say, _a polynomial can be split up into a set of monomials which could be summed together to get back to the polynomial_.
 
 $$(a + b)(a^3 + b^3) = aa^3 + ab^3 + ba^3 + bb^3 = a^4 + ab^3 + ba^3 + b^4$$
