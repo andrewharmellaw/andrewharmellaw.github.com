@@ -302,7 +302,7 @@ That was simple, but it also feels a little bit like magic.  Maths-super-power m
 ## Tricks Arising
 
 ### Need a Square? Pull Apart Your Powers
-Remember $a^10 = (a^5)^2$ - voila! A square!
+Remember $a^{10} = (a^5)^2$ - voila! A square!
 
 A word of warning however, this only works when your powers are _even_.  You need another trick for when they are odd.
 
