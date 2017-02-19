@@ -54,7 +54,7 @@ $$a^4 + b^4 = $$
 
 $$ = a^4 + 2a^2b^2 - 2a^2b^2 + b^4 = $$
 
-Can we see a pattern from here?  We could take things back to the difference-of-sqaures is we can jiggle powers round a little
+Can we see a pattern from here?  We could take things back to the difference-of-squares is we can jiggle powers round a little
 
 $$ = a^4 + 2a^2b^2 + b^4 - 2a^2b^2 = $$
 
@@ -101,7 +101,84 @@ Now all we're left with is the slightly-trickier case of $a^2 + b^2$ - but that'
 
 We'll just conclude this post with some commentary on the remaining "more difficult problems" with which Gelafnd signs off this section.
 
+## The "More Difficult Problems"
+### Problem 122(a)
 
+Use the previous solution from Problem 119, making $a = x$ and $b = 1$. (Remember, $1 = 1^4 = 1^n$.)
+
+$$x^4 + 1 = $$
+
+$$ = x^4 + 1^4 = $$
+
+$$ = x^4 + 2a^21^2 + 1^4 - 2a^21^2 = $$
+
+$$ = (x^2 + 1^2)^2 - (\sqrt{2}x \times 1)^2 = $$
+
+$$ = (x^2 + 1 + \sqrt{2}x)(x^2 + 1 - \sqrt{2}x)$$
+
+### Problem 122(b)
+
+First we expand everything so see where we're at
+
+$$x(y^2 - z^2) + y(z^2 - x^2) + z(x^2 - y^2) = $$
+
+$$ = xy^2 - xz^2 + yz^2 - yx^2 + zx^2 - zy^2 = $$
+
+Then we group around one of our variables, $x$ seems like as good an option as any
+
+$$ = (z - y)x^2 + (y^2 - z^2)x + yz^2 - zy^2 = $$
+
+Now spot the difference of squares in the middle ($(y^2 - z^2)$) which we can factor out
+
+$$ = (z - y)x^2 + (y + z)(y - z)x + yz^2 - zy^2 = $$
+
+And then pull out a simple factor from the last two terms
+
+$$ = (z - y)x^2 + (y + z)(y - z)x + yz(z - y) = $$
+
+Now we pause. Can we go further?  A common factor of $(z - y)$ is _almost_ emerging, it's just that tricksy difference-of-squares which is making life hard.  Can we re-gig things?  We can
+
+$$ = (z - y)x^2 - (y + z)(z - y)x + yz(z - y) = $$
+
+Now we can pull out this factor
+
+$$ = (z - y)(x^2 - (y + z)x + yz) = $$
+
+Great. Can we go further?  What about the $(x^2 - (y + z)x + yz)$ itself?
+
+We can take this piece on its own for a second and see where we can get.  First up we expand the middle term
+
+$$ x^2 - (y + z)x + yz = $$
+
+$$ = x^2 - xy - xz + yz = $$
+
+That then looks like a nice and simple factoring around these three variables
+
+$$ = (x - y)(x - z)$$
+
+So we can then put it all back together to get our final answer
+
+$$(z - y)(x - y)(x - z)$$
+
+Beautiful.
+
+### Problem 122(c)
+
+Use the same approach as we saw working in Problem 111.
+
+### Problem 122(d)
+[Durham]() thinks this is tough. I agree.  I couldnt find another way to factor it.
+
+### Problem 122(e)
+Start off by multiplying out $(a + b + c)^3$.  Then looking back to the solution from Problem 122(b) gave some hints as to a possible factor.
+
+### Problem 122(f)
+Two options here which Durham expands on:
+
+* use Pascal's triangle to multiply out all cubes, then go from there,
+* use the solution to Problem 114 to start you off.
 
 ## Meta-Trick: There isn't Always a Single, Simple Trick
-We've seen it a little before, but with this Chunk, we're now beginning to confront head on that the fact that the subtleties of numbers and things you can  (and can't do to them) most usually have a set of tricks rather than just one, and the applicability of those tricks depends upon things like odd vs even, and positive / addition vs negative / subtraction.  And don't forget zero - the o-so-special case.
+We've seen it a little before, but with this Chunk, we're now beginning to confront head on that the fact that the subtleties of numbers and things you can  (and can't do to them) most usually have a set of tricks applied to their solving rather than just one. WHat is more, the applicability of those tricks depends upon things like whteher a given key number is odd or even, and / or there is positive / addition vs negative / subtraction.  And don't forget zero - the o-so-special case.
+
+This all means you frequently need to have a second level of awareness in your pattern-spotter and trick-matcher which allows you take this into account.
