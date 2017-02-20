@@ -3,7 +3,7 @@ layout: post
 title: "Gelfand: Chunk 8 - 'Nomials."
 description: "Mono-, Poly-, ..."
 category: 
-tags: [gelfand, tricks, monomials, polynomials, collecting-similar-terms, standard-form, porving-equality, proving-inequality, tricks]
+tags: [gelfand, tricks, monomials, polynomials, collecting-similar-terms, standard-form, porving-equality, proving-inequality]
 ---
 {% include JB/setup %}
 
