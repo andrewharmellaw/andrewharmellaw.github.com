@@ -7,7 +7,7 @@ tags: [gelfand, tricks, factoring, difference-of-squares]
 ---
 {% include JB/setup %}
 
-## Something Fails; Then Something New Comes Along
+## Something Fails. Then Something New Comes Along
 (And by "comes along" I mean Gelfand gifts us another trick-nugget.)
 
 In Problem 119, Gelfand asks us to factor $a^4 + b^4$.  It looks simple enough.  But it's not.  Spot the '$+$'.  That, plus the pesky even-ness of the powers mean our seemingly all-conquering tricks have encountered a crack in their armour.  
@@ -97,7 +97,7 @@ $$ = (a^2 + b^2)((a^2)^{n-1} - (a^2)^{n-2}b^2 + (a^2)^{n-3}(b^2)^2) - ... - (a^2
 
 Brilliant!
 
-Now all we're left with is the slightly-trickier case of $a^2 + b^2$ - but that's not tricky if we just invent a new type of number (which $\sqrt{-1}$ requires in order to do this) which mathematicians called _complex numbers_ (but that's another post.
+Now all we're left with is the slightly-trickier case of $a^2 + b^2$ - but that's not tricky if we just invent a new type of number (which $\sqrt{-1}$ requires in order to do this) which mathematicians called _complex numbers_ (but that's another post).
 
 We'll just conclude this post with some commentary on the remaining "more difficult problems" with which Gelafnd signs off this section.
 
@@ -136,7 +136,7 @@ And then pull out a simple factor from the last two terms
 
 $$ = (z - y)x^2 + (y + z)(y - z)x + yz(z - y) = $$
 
-Now we pause. Can we go further?  A common factor of $(z - y)$ is _almost_ emerging, it's just that tricksy difference-of-squares which is making life hard.  Can we re-gig things?  We can
+Now we pause. Can we go further?  A common factor of $(z - y)$ is _almost_ emerging, it's just that tricksy difference-of-squares which is making life hard.  Can we re-jig things?  We can
 
 $$ = (z - y)x^2 - (y + z)(z - y)x + yz(z - y) = $$
 
@@ -146,7 +146,7 @@ $$ = (z - y)(x^2 - (y + z)x + yz) = $$
 
 Great. Can we go further?  What about the $(x^2 - (y + z)x + yz)$ itself?
 
-We can take this piece on its own for a second and see where we can get.  First up we expand the middle term
+We can take this piece on it's own for a second and see where we can get.  First up we expand the middle term
 
 $$ x^2 - (y + z)x + yz = $$
 
@@ -167,7 +167,7 @@ Beautiful.
 Use the same approach as we saw working in Problem 111.
 
 ### Problem 122(d)
-[Durham]() thinks this is tough. I agree.  I couldnt find another way to factor it.
+[Durham](https://www.scribd.com/document/243387607/Gelfand-Algebra-Solutions) thinks this is tough. I agree.  I couldnt find another way to factor it.
 
 ### Problem 122(e)
 Start off by multiplying out $(a + b + c)^3$.  Then looking back to the solution from Problem 122(b) gave some hints as to a possible factor.
@@ -179,6 +179,6 @@ Two options here which Durham expands on:
 * use the solution to Problem 114 to start you off.
 
 ## Meta-Trick: There isn't Always a Single, Simple Trick
-We've seen it a little before, but with this Chunk, we're now beginning to confront head on that the fact that the subtleties of numbers and things you can  (and can't do to them) most usually have a set of tricks applied to their solving rather than just one. WHat is more, the applicability of those tricks depends upon things like whteher a given key number is odd or even, and / or there is positive / addition vs negative / subtraction.  And don't forget zero - the o-so-special case.
+We've seen it a little before, but with this Chunk, we're now beginning to confront head on that the fact that the subtleties of numbers and things you can  (and can't do to them) most usually have a set of tricks applied to their solving rather than just one. What is more, the applicability of those tricks depends upon things like whteher a given key number is odd or even, and / or there is positive / addition vs negative / subtraction.  And don't forget zero - the o-so-special case.
 
 This all means you frequently need to have a second level of awareness in your pattern-spotter and trick-matcher which allows you take this into account.
