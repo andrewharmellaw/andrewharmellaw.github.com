@@ -26,7 +26,7 @@ We know this is wrong, because we lifted it from $a^4 - b^4$, but how do we make
 
 $$a^2(a + b) - ab(a + b) + b^2(a + b)$$
 
-But here we have two terms - $a^2b(a + b)$ and $ab^2(a + b)$ - to deal with.  Do we make the first one negative and leave the other?  What happens then?
+But here we have two terms, $a^2b(a + b)$ and $ab^2(a + b)$ to deal with.  Do we make the first one negative and leave the other?  What happens then?
 
 $$ = a^3(a + b) - a^2b(a + b) + ab^2(a + b) + b^3(a + b)  = $$
 
