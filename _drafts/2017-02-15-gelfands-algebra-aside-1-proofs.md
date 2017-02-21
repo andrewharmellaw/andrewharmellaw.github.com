@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Gelfand: Aside 1 - Proofs"
-description: "Subtle differences"
+description: "Subtle Differences"
 category: 
-tags: [gelfand, proofs, factoring]
+tags: [gelfand, proofs, factoring, tricks]
 ---
 {% include JB/setup %}
 
@@ -12,7 +12,7 @@ The last few problems in the Factorials section in Gelfand asks you to "prove" t
 (Note: I'm certain that the philosophy of proofs is far more complex than I am about to cover here. In fact I have another book to read at some point in the future which links Haskell, Mathematics, and the construction and use of Proofs.  It all means I'll probably post again at some point in the future on this topic.)
 
 ## A First Stab at a Proof
-Let's dive straight into the first problem - Problem 123
+Let's dive straight into the first problem - Problem 123.
 
 Prove that if $a, b > 1$ then $a + b < 1 + ab$.
 
@@ -86,7 +86,7 @@ $(a - 1)(b - 1) > 0$ when $a, b > 1$
 Now we can see why our factoring helped.  It's obvious from the new-found clarity, that if either $a$ or $b$ (or both) are less than $0$ then the result will be less than zero.  But that if both $a$ and $b$ are greater than zero then the product will be greater than zero too.  That clarity is why it's a _proof_ - the finding is undeniable.
 
 ## Next Stab - Problem 124
-This one looks a bit easier - no greater or less than symbols.
+This one looks a bit easier - no "greater thanb" or "less than" symbols.
 
 Let's write out our starting point first
 
@@ -104,7 +104,7 @@ $$ = (a^2 + ab + b^2)(a - b)$$
 
 Hmmm, there is a direct match in there - the first part of the factored output is the same as our proof starting point.
 
-What does this mean?  I'll admit I had to cheat and read Durham here.  He then combines the two, so I'll do the same (remember that in our case $a^2 + ab + b^2 = 0$)
+But what does this mean?  I'll admit I had to cheat and read Durham here.  He then combines the two, so I'll do the same (remember that in our case $a^2 + ab + b^2 = 0$)
 
 $$ a^3 - b^3 = (0)(a - b) $$
 
@@ -112,5 +112,51 @@ $$\rightarrow a^3 - b^3 = 0 $$
 
 $$\rightarrow a^3 = b^3 $$
 
-That rules-wise makes sense,
+That rules-wise makes sense, but what am I doing here? (What is anyone doing here?)  
 
+ 1. We're aiming to find out the circumstances when $a^2 + ab + b^2 = 0$.  OK.  
+ 2. We've now seen that this forms a part of a factoring of $a^3 - b^3$.  OK.  
+
+What I missed was looking at the $a^3 - b^3$.  Now when is _this_ zero?  This is zero whenever $a = b$.  Nice.  And it's even distilled for us in the remainder of the factored result - $(a - b)$ - which is zero again whenever $a = b$.
+
+Combined, _that's_ the echo of a future solution-reason calling me, and enough to move forward.
+
+So do we have our proof with this alone?  Again (and I might come back to this in an update to this post sometime) _I_ think you could stop at this point, given where we are in the Gelfand-journey.  [Durham]() however goes further. He then analyses $a^2 + ab + b^2 = 0$ directly.  I encourage you to take a look and see what you can glean.
+
+## Problem 125
+Prove that if $a + b + c = 0$ then $a^3 + b^3 + c^3 = 3abc$
+
+First step is again to see have we seen any of this (or parts of this) before?  
+
+We have.  Problem 122(d) had this:
+
+$$a^3 + b^3 + c^3 - 3abc$$
+
+How did we factor that?  Well, I looked back and I didn't - I just fell back on [Durham]() (even he thought it was hard.)  So what does his factoring give us?  There we saw that $a^3 + b^3 + c^3 - 3abc = (a + b + c) \times ...$.
+
+We can work with that, so, when $(a + b + c ) = 0$
+
+$$ a^3 + b^3 + c^3 - 3abc = (a + b + c)(...)$$
+
+$$ \rightarrow a^3 + b^3 + c^3 - 3abc = 0 \times (...)$$
+
+$$ \rightarrow a^3 + b^3 + c^3 - 3abc = 0 $$
+
+$$ \rightarrow a^3 + b^3 + c^3 = 3abc $$
+
+Proved.
+
+## Tricks Arising
+### Look for the Same Pattern in Things You Know (Beyond the Standard Short-Cut Formualas)
+_Many_ of the solutions to the proof-problems in this post have involved looking back to what we have seen worked previously.  It makes the clear (but possibly not self-evident) point that _anything_ can be a pattern to match on.  The Short-cut formulas are key ones because they pop up _a lot_, but others work in just the same way, by giving you a sudden jump into a well-worn path to differently formed expressions and perhaps further leaps.
+
+## Some Kind of a Conclusion
+I'm going to be honest and state that I'm still not 100% certain as to the difference between a solution and a proof.  It'll get clearer I'm sure and I'll come back here and update this when I get something more pithy.
+
+Suffice to say, I'm currently under the impression that for something to be a "proof", you need to be able to get from your starting point, using only allowable mathematical manipulations, to something which allows you to state unequivocally that the proposition you need to make is true (and is the only thing that can be true).  
+
+Having written it out, that actually seems quite correct.  I'm guessing there is also the ideal which I shoudl be aiming for which is something which is "simple" , and in that aspect I would guess that "simple" is an end result where things are plain as day, or where the steps taken to get there are few and direct.
+
+I might come back to this too. 
+
+But now on to the next topic - Rational Expressions.
