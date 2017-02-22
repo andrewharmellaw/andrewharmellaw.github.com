@@ -86,7 +86,7 @@ $(a - 1)(b - 1) > 0$ when $a, b > 1$
 Now we can see why our factoring helped.  It's obvious from the new-found clarity, that if either $a$ or $b$ (or both) are less than $0$ then the result will be less than zero.  But that if both $a$ and $b$ are greater than zero then the product will be greater than zero too.  That clarity is why it's a _proof_ - the finding is undeniable.
 
 ## Next Stab - Problem 124
-This one looks a bit easier - no "greater thanb" or "less than" symbols.
+This one looks a bit easier - no "greater than" or "less than" symbols.
 
 Let's write out our starting point first
 
