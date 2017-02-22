@@ -15,7 +15,7 @@ Why? Because I'm reading [Charles Petzold's "The Annotated Turing"](https://www.
 
 Because I didnt care (and because I thought it was too easy) I didn't blog some highlights of binary when I passed it.  I'm now going to.
 
-## The Additional Algorithm in Binary
+## Visualising Carries in Binary Addition
 I covered the Addition Algorithm in the decimal system in [Chunk 1](https://andrewharmellaw.github.io/algebra/2016/11/16/gelfands-algebra-chunk-1-fundamentals).  Let's see it in action in binary, taking the addition from page 101 of Petzold.
 
 $$\begin{matrix} \phantom0 \phantom0 \phantom0 \phantom0 \phantom0 \phantom0 \texttt{1} \texttt{0} \texttt{1} \texttt{1} \texttt{1} \\ \phantom0 \phantom0 \phantom0 \phantom0 \phantom0 \texttt{1} \texttt{0} \texttt{1} \texttt{1} \texttt{1} \phantom0 \\ \phantom0 \phantom0 \phantom0 \phantom0 \texttt{1} \texttt{0} \texttt{1} \texttt{1} \texttt{1} \phantom0 \phantom0 \\ \phantom0 \phantom0 \phantom0 \texttt{0} \texttt{0} \texttt{0} \texttt{0} \texttt{0} \phantom0 \phantom0 \phantom0 \\ \texttt{+} \phantom0 \texttt{1} \texttt{0} \texttt{1} \texttt{1} \texttt{1} \phantom0 \phantom0 \phantom0 \phantom0 \\ \texttt{1} \texttt{1} \texttt{1} \texttt{1} \texttt{1} \texttt{1} \phantom0 \phantom0 \phantom0 \\
