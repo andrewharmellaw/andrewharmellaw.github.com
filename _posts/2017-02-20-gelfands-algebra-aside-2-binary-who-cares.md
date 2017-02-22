@@ -11,39 +11,39 @@ There is a section in Gelfand (Section 7, Problems 15 to 24) which covers the Bi
 
 I now care.
 
-Why? Because I'm reading Charles Petzold's "The Annotated Turing" which is pretty much a massive (and brilliant) [gloss]() on Alan Turing's classic paper ["On Computable Numbers, with an Application to the Entscheidungsproblem" (1936)]().  It could be argued that the reason modern computers use binary is down to a decision Turing made.  (See pp. 73 of Petzold for some background.)
+Why? Because I'm reading [Charles Petzold's "The Annotated Turing"](https://www.amazon.co.uk/Annotated-Turing-Through-Historic-Computability/dp/0470229055) which is pretty much a massive (and brilliant) [gloss](https://en.wikipedia.org/wiki/Gloss_(annotation)) on Alan Turing's classic paper ["On Computable Numbers, with an Application to the Entscheidungsproblem" (1936)](http://www.turingarchive.org/browse.php/b/12).  It could be argued that the reason modern computers use binary is down to a decision Turing made.  (See pp. 73 of Petzold for some background.)
 
 Because I didnt care (and because I thought it was too easy) I didn't blog some highlights of binary when I passed it.  I'm now going to.
 
 ## The Additional Algorithm in Binary
 I covered the Addition Algorithm in the decimal system in [Chunk 1](https://andrewharmellaw.github.io/algebra/2016/11/16/gelfands-algebra-chunk-1-fundamentals).  Let's see it in action in binary, taking the addition from page 101 of Petzold.
 
-$$\begin{matrix} \phantom0 \phantom0 \phantom0 \phantom0 \phantom0 \phantom0 \texttt{1} \texttt{0} \texttt{1} \texttt{1} \texttt{1}\ \phantom0 \phantom0 \phantom0 \phantom0 \phantom0 \texttt{1} \texttt{0} \texttt{1} \texttt{1} \texttt{1} \phantom0\ \phantom0 \phantom0 \phantom0 \phantom0 \texttt{1} \texttt{0} \texttt{1} \texttt{1} \texttt{1} \phantom0 \phantom0\ \phantom0 \phantom0 \phantom0 \texttt{0} \texttt{0} \texttt{0} \texttt{0} \texttt{0} \phantom0 \phantom0 \phantom0\ \texttt{+} \phantom0 \texttt{1} \texttt{0} \texttt{1} \texttt{1} \texttt{1} \phantom0 \phantom0 \phantom0 \phantom0\ \texttt{1} \texttt{1} \texttt{1} \texttt{1} \texttt{1} \texttt{1} \phantom0 \phantom0 \phantom0\
-\underline{\texttt{1} \texttt{1} \texttt{1} \texttt{1} \texttt{1} \texttt{1} \phantom0 \phantom0 \phantom0 }\ \texttt{1} \texttt{0} \texttt{0} \texttt{0} \texttt{0} \texttt{1} \texttt{0} \texttt{0} \texttt{0} \texttt{1} \texttt{1} \end{matrix}$$
+$$\begin{matrix} \phantom0 \phantom0 \phantom0 \phantom0 \phantom0 \phantom0 \texttt{1} \texttt{0} \texttt{1} \texttt{1} \texttt{1} \\ \phantom0 \phantom0 \phantom0 \phantom0 \phantom0 \texttt{1} \texttt{0} \texttt{1} \texttt{1} \texttt{1} \phantom0 \\ \phantom0 \phantom0 \phantom0 \phantom0 \texttt{1} \texttt{0} \texttt{1} \texttt{1} \texttt{1} \phantom0 \phantom0 \\ \phantom0 \phantom0 \phantom0 \texttt{0} \texttt{0} \texttt{0} \texttt{0} \texttt{0} \phantom0 \phantom0 \phantom0 \\ \texttt{+} \phantom0 \texttt{1} \texttt{0} \texttt{1} \texttt{1} \texttt{1} \phantom0 \phantom0 \phantom0 \phantom0 \\ \texttt{1} \texttt{1} \texttt{1} \texttt{1} \texttt{1} \texttt{1} \phantom0 \phantom0 \phantom0 \\
+\underline{\texttt{1} \texttt{1} \texttt{1} \texttt{1} \texttt{1} \texttt{1} \phantom0 \phantom0 \phantom0 \phantom0} \\ \texttt{1} \texttt{0} \texttt{0} \texttt{0} \texttt{0} \texttt{1} \texttt{0} \texttt{0} \texttt{0} \texttt{1} \texttt{1} \end{matrix}$$
 
-Now this is largely a straight copy, but I've made two things a little clearer -  I've laid the columns of the addition out clearly (the non-fixed-width font makes things a little unclear in the book) and I've also shown the carries (Petzold doesn't, he just assumes you can picture them in your head.)
+Now this is largely a straight copy, but I've made two things a little clearer -  I've laid the out the columns with a monostpaced font (the non-fixed-width font makes things a little unclear in the book, something which is incredibly rare in Petzold) and I've also shown the carries as two extra rows below the line with the $+$ symbol (Petzold doesn't, he just assumes you can picture them in your head.)
 
 It's the showing of the carries which I wanted to talk about a little more.  Grokking this was the key step in getting this to stick.  I had real difficulty in getting this as I kept wanting to fall back to decimal thinking.  That'll confuse you.
 
 We'll start with the super-useful table Petzold gives us on page 100.  But we're going to jig it around a bit and add something - the carries.
 
-First up, here's my version of the table (carries are always absent):
+First up, here's my version of the table (we're not carrying anything in any of these, as denoted by "Carried Digits" but we might end up with one in our output, as denoted by "Carry"):
 
  1. First digit: 0, Second Digit: 0, Carried Digit(s): (none), Result: 0, Carry: 0
  2. First digit: 0, Second Digit: 1, Carried Digit(s): (none), Result: 1, Carry: 0
  3. First digit: 1, Second Digit: 0, Carried Digit(s): (none), Result: 1, Carry: 0
  4. First digit: 1, Second Digit: 1, Carried Digit(s): (none), Result: 0, Carry: 1
 
-See the result of the fourth line?  Thats what I want to highlight.  The result for the column is "0", but we are now also carrying a "1".  Now let's see the next five rows of the new table with this carry:
+See the result of the fourth line?  That's what I want to highlight.  The result for the column is "0", but we are now also carrying a "1".  Now let's see the next five rows of the new table with this carry now being taken into consideration:
 
  5. First digit: 0, Second Digit: 0, Carried Digit(s): 1, Result: 1, Carry: 0
  6. First digit: 0, Second Digit: 1, Carried Digit(s): 1, Result: 0, Carry: 1
  7. First digit: 1, Second Digit: 0, Carried Digit(s): 1, Result: 0, Carry: 1
  8. First digit: 1, Second Digit: 1, Carried Digit(s): 1, Result: 1, Carry: 11
 
-It's all pretty logical as you can see, but I endedup having to pull this out in this form for myself just so I could see the rules in action for myself.  Note how now in all but the fifth line we're now always in carry-land.  Our rules are working just like they do when we do decimal addition, but it's just happening more freuqently as we have less digits to apply per position.
+It's all pretty logical as you can see, but I ended up having to pull this out in this form just so I could see the rules in action for myself.  Note that now in all but the fifth line our results are now always in something-to-carry-land.  Our rules are working just like they do when we do decimal addition, but it's just happening more freuqently as we have less digits to apply per position.
 
-Also note the fact that in the eighth column we are now carrying _two_ ones.  The trick here is to *not* let yourself think of them as "eleven".  They aren't (obviously - but I kept falling into that pit so I thought you'd benefit from having a reminder too.)
+Also note the fact that in the eighth column we are now carrying _two_ 1s.  The trick here is to *not* let yourself think of them as "eleven".  They aren't (obviously - but I kept falling into that pit so I thought you'd benefit from having a reminder too.)
 
 This is great, but what happens when we're adding more than two digits and a carry?  That's not very difficult either, and it's to this point we need to get to feel assured the first addition on page 101 of Petzold is grokked.
 
