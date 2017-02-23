@@ -20,7 +20,7 @@ $$ a - b = -b + a $$
 
 but the same could not be said for the former (the Commutative Law applies to multiplication but _not_ division remember).
 
-$$ 2 * 3 = 3 * 2 $$
+$$ 2 \times 3 = 3 \times 2 $$
 
 but
 
@@ -28,7 +28,7 @@ $$ 2 \div 3 \ne 3 \div 2$$
 
 In fact, if you write this in another way, using fractions, then the inequality becomes patently evident
 
-$$ 2 / 3 \ne 3 / 2$$
+$$ \frac{2}{3} \ne \frac{3}{2}$$
 
 (I'll possibly come back to all this as it seems an area rich in potential discoveries.)
 
@@ -36,9 +36,9 @@ It's nice to note that explicitly - division isn't a flip side of multiplication
 
 But we can keep going.  When we do add division, as we have by expanding things to take in rational expressions, there's also the problem of zero.
 
-$$ 0 / 3 = 0 $$
+$$ \frac{0}{3} = 0 $$
 
-$$ 3/0 = ...$$
+$$ \frac{3}{0} = ...$$
 
 A divide by zero basically blows up on us. Boom! (Or it does until we get on to the concept of infinity which is another post, perhaps when I get back to [Turing](http://www.turingarchive.org/browse.php/b/12) and [Petzold](https://www.amazon.co.uk/Annotated-Turing-Through-Historic-Computability/dp/0470229055)).
 
