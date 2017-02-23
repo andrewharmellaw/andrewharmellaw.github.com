@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Gelfand: Chunk 13 - Rational Expressions"
+title: "Gelfand: Chunk 13 - Rational Expressions Quickie"
 description: "Deceptively Simple (as befits a Thirteenth Chunk)"
 category: 
 tags: [gelfand, tricks, commutative-law, rational-expression, divition, polynomials]
