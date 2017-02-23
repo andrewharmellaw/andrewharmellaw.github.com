@@ -53,4 +53,4 @@ There's not much else to put in this post I don't think.  So to give things some
 
 Rational expressions are so called, because they are ratios of something else, i.e. fractions of polynomials.  
 
-I'm guessing here, but based on the fact that the "_rational_ numbers" are ones which can be expressed as _ratios_ of two integers (e.g. $\frac{2}{3}$) I think this isn;t too much of a leap.
+I'm guessing here, but based on the fact that the "_rational_ numbers" are ones which can be expressed as _ratios_ of two integers (e.g. $\frac{2}{3}$) I think this isn't too much of a leap.
