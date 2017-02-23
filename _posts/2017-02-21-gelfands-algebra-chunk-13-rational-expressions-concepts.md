@@ -49,7 +49,7 @@ With these in mind, we can get back to the concept in hand; Rational Expressions
 In the intro to these, Gelfand basically points out the latter of the two realisations above - you can't have a denominator in a rational expression which is zero, or is _identically equal to zero_ ($x - x$ is his example).  Given the above notes, it's clear why this is the case.
 
 ## Some Form of Concluding Aside
-There's not much else to put in this post I don;t think.  So to give things some kind of conclusion, I wanted to share a bit of knowledge I extrapolated from [Petzold](https://www.amazon.co.uk/Annotated-Turing-Through-Historic-Computability/dp/0470229055) which I'm currently reading in parallel to writing this.  Here it comes:
+There's not much else to put in this post I don't think.  So to give things some kind of conclusion, I wanted to share a bit of knowledge I extrapolated from [Petzold](https://www.amazon.co.uk/Annotated-Turing-Through-Historic-Computability/dp/0470229055) which I'm currently reading in parallel to writing this.  Here it comes:
 
 Rational expressions are so called, because they are ratios of something else, i.e. fractions of polynomials.  
 
