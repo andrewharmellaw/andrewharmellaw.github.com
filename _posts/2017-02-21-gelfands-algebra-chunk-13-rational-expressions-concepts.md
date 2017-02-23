@@ -3,7 +3,7 @@ layout: post
 title: "Gelfand: Chunk 13 - Rational Expressions Quickie"
 description: "Deceptively Simple (as befits a Thirteenth Chunk)"
 category: 
-tags: [gelfand, commutative-law, rational-expressions, division, polynomials]
+tags: [gelfand, commutative-law, rational-expressions, division, fractions, polynomials]
 ---
 {% include JB/setup %}
 
