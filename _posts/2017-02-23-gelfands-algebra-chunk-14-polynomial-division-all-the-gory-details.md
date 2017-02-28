@@ -16,39 +16,27 @@ It is however, a _fundamental_ one, hence why I pulled it out.  Why fundamental?
 
 Now lets break this into pieces and show it visually
 
-1. "... a polynomial contains _only one variable_..." 
+1. "... a polynomial contains _only one variable_..." - i.e. "$x$".  That means $2x^2 + 3x - 3$ meets this criteria, as does $b^{300}$ but $a^2 + 2ab - 3$ doesn't
 
-I.e. $x$.  That means this $2x^2 + 3x - 3$ meets this criteria, as does $b^{300}$ but $a^2 + 2ab - 3$ isn't
+2. "_Standard_ Form" - We discussed this at length in [Chunk 8 - 'Nomials](https://andrewharmellaw.github.io/2017/01/10/gelfands-algebra-chun-8-nomials).  I added at the time that it was nice to order things decreasing by degree. That'll be helpful in the next step. This also means that while $3x - 3 + 2x^2$ and $2x^2 + 3x - 3$ are equivalent, only the latter is in Standard Form.
 
-2. "_Standard_ Form"
+3. "The monomial having the highest degree is called the '_first_ monomial'" - See the reason for ordering?  It will literally be the first monomial in your polynomial if you've done this.  Therefore in $2x^2 + 3x - 3$ the first monomial is $2x^2$, and in $b^{300}$ the first monomial is $b^{300}$
 
-We discussed this at length in [Chunk 8 - 'Nomials](https://andrewharmellaw.github.io/2017/01/10/gelfands-algebra-chun-8-nomials).  I added at the time that it was nice to order things decreasing by degree.  That'll be helpful in the next step
-
-This means that while this $3x - 3 + 2x^2$ and this $2x^2 + 3x - 3$ are equivalent, only the latter is in Standard Form.
-
-3. "The monomial having the highest degree is called the '_first_ monomial'"
-
-See the reason for ordering?  It will literally be the first monomial in your polynomial if you've done this.
-
-Therefore in $2x^2 + 3x - 3$ the first monomial is $2x^2$, and in $b^{300}$ the first monomial is $b^{300}$
-
-4. "It's degree (the first monomial) is called the 'degree of the polynomial'"
-
-That means that in $2x^2 + 3x - 3$ the degree is $2$, and in $b^{300}$ the degree is $300$
+4. "It's degree (the first monomial) is called the 'degree of the polynomial'" - That means that in $2x^2 + 3x - 3$ the degree is $2$, and in $b^{300}$ the degree is $300$
 
 ### Subtlety - Constants
 What if there are no variables? (N.b. this is just equivalent to a polynomial where all variables have co-efficients of value $0$)  In these circumstances, your degree is $0$ too.
 
 Remember
 
-$3 = 3x^0 = 3 \times 1 = 3$
+$$3 = 3x^0 = 3 \times 1 = 3$$
 
 ### Subtlety - Undefined Degrees
 What about monomials with zero-co-efficients? (I.e. with a co-efficient of $0$).  These monomials are ignored, and their degrees (the monomials) are "undefined" (which means you may then fall back on the degree of a constant)
 
 Extending the example we just saw
 
-$0x^2 + 3 = 0x^2 + 3x^0 = 0 + 3x^0 = 3 \times 1 = 3$
+$$0x^2 + 3 = 0x^2 + 3x^0 = 0 + 3x^0 = 3 \times 1 = 3$$
 
 ## Degree Consequences 
 With all this in place, things start to get useful (if also a bit meta).  Via the medium of problems (Problems 137 and 138), Gelfand gets us to realise:
@@ -58,12 +46,12 @@ With all this in place, things start to get useful (if also a bit meta).  Via th
 * the degree of the sum of two polynomials both having degrees $x$ will be $<= x$
 
 ## Tricks Arising
-### You can Represent a _Whole_ Polynomial as a _Single_ Variable
-This powerful concept was snuck in by Gelfand in his further discussions of  Rational Expressions (Section 34, pp 56-57) but he didnt ask you to manipulate them in any way so I didnt bring them up until now.  However, in problem 137 you have to make this mental leap for yourself.
+### You Can Represent a _Whole_ Polynomial as a _Single_ Variable
+This powerful concept was snuck in by Gelfand in his further discussions of  Rational Expressions (Section 34, pp 56-57) but he didnt ask you to manipulate them in any way so I didn't bring them up until now.  However, in problem 137 you have to make this mental leap for yourself.
 
 It looks a little scary, (not so much perhaps for programmers who are used to multiple levels of abstraction) but it's fine. Go on, nothing's stopping you.
 
-This means that we can take $2x^2 + 3x - 3$ and replace it with $A$.  But remember, $A$ is variable too.  We've specified that $A$ is "any polynomial with degree $2$" so $A$ could just as easily represent $1000z^2 - 9z$ or even $-17b^2$.  It couldn't however represent $2x^{300} + 3x - 3$ or $2b^2 + 3ab - 3$ as these don't meet the criteria for being an $A$.  The _degree_ here is key for us as we've specified it in our $A$-rules.  (And for this they must be a polynomial in one variable - though I'm a little shaky on this, perhaps polynomials in multiple variables have multiple degrees, I'll come back here if I'm wrong and update this.)
+This means that we can take $2x^2 + 3x - 3$ and replace it with $A$.  But remember, $A$ is a variable too.  We've specified that $A$ is "any polynomial with degree $2$" so $A$ could just as easily represent $1000z^2 - 9z$ or even $-17b^2$.  It couldn't however represent $2x^{300} + 3x - 3$, nor could it represent $2b^2 + 3ab - 3$ as these don't meet the criteria for being an $A$.  The _degree_ here is key for us as we've specified it in our $A$-rules.  (And for this they must be a polynomial in one variable - though I'm a little shaky on this, perhaps polynomials in multiple variables have multiple degrees, I'll come back here if I'm wrong and update this.)
 
 See now why I said grokking degrees solidly was handy?
 
@@ -87,7 +75,7 @@ You can use a very similar method to do the work of division too, using a form o
 
 There is even a definition (the first of these that we come across in Gelfand too if I recall correctly)
 
-Definition: Assume that we have two polynomials (in one variable), called the dividend and the divisior. To perform a division means to find two other polynomials , called the quotient and the remainder such that (dividend) = (quotient).(divisor) + remainder) where the degree of the remainder is less than the degree of the degree of the divisor (or is zero)
+Definition: Assume that we have two polynomials (both in the same, single variable), called the dividend and the divisior. To perform a division means to find two other polynomials , called the quotient and the remainder such that (dividend) = (quotient).(divisor) + remainder) where the degree of the remainder is less than the degree of the degree of the divisor (or is zero)
 
 For super-clarity, 
 
@@ -116,7 +104,7 @@ $$
       4x^2\phantom{00000000000} && \hbox{($0 - (-4x^2) = 4x^2$)} \\[-3pt]
       \underline{4x^2 -8x\phantom{000000}} && \hbox{($x-2 \times 4x  = 4x^2 -8x$)} \\[-3pt]
       8x\phantom{000000} && \hbox{($0 - (-8x) = 8x$)} \\[-3pt]
-      \underline{8x-16\phantom{00}} && \hbox{($x-2 \times 8  = 8x - 16x$)} \\[-3pt]
+      \underline{8x-16\phantom{00}} && \hbox{($x-2 \times 8  = 8x - 16$)} \\[-3pt]
       16\phantom{00} && \hbox{($\leftarrow$ the remainder: $0 - (-16) = 16$)} \\[-3pt]
   \end{array}
 $$
@@ -137,11 +125,9 @@ For some of you there might be enough in the above to work things through. But i
 
 We begin by getting our $x^4$, and to do this we need to multiply $x-2$ enough to get this. We can get there by multiplying it by $x^3$.  That gives us $x^4 - 2x^3$.  We put our $x^3$ up atop everything as the first part of our quotient. (I've tried to lay things out as nicely as Gelfand does to keep all this clean.  The final step is to then see what we have left of our dividend, and we get this by subtracting $x^4 -2x^3$ from $x^4$
 
-$$
-   x^4 - (x^4 - 2x^3) = 
- = x^4 -x^4 + 2x^3 = 
- = 2x^3
-$$
+$$ x^4 - (x^4 - 2x^3) = $$
+$$ = x^4 -x^4 + 2x^3 = $$
+$$ = 2x^3 $$
 
 From this point on it's just rinse and repeat.  Your new dividend is $2x^3$.
 
@@ -173,33 +159,25 @@ $$
     \frac{1}{2}x^2 + \frac{3}{4}x + \frac{9}{8}\phantom{00000000} && \hbox{(Explanations)} \\[-3pt]
    2x - 3 \enclose{longdiv}{x^3 \phantom{000000000000000000}}\kern-.2ex \\[-3pt]
       \underline{x^3 - \frac{3}{2}x^2 \phantom{000000000000}} && \hbox{($(2x - 3) \times \frac{1}{2}x^2 = x^3 -\frac{3}{2}x^2$)} \\[-3pt]
-      \frac{3}{2}x^2\phantom{000000000000} && \hbox{($2x - (-x^2 + x) = x^2 + x$)} \\[-3pt]
-      \underline{\frac{3}{2}x^2 - \frac{9}{4}x\phantom{0000000}} && \hbox{($(2x - 3)\times \frac{3}{4}x = \frac{3}{2}x^2 - \frac{9}{4}x + 1$)} \\[-3pt]
-      \frac{9}{4}x \phantom{0000000} && \hbox{($2x - (-x^2 + x) = x^2 + x$)} \\[-3pt]
-      \underline{\frac{9}{4}x - \frac{27}{8}x\phantom{0}} && \hbox{($(2x - 3) \times \frac{9}{8} = \frac{27}{8}x$)} \\[-3pt]
-      \frac{27}{8}x \phantom{0} && \hbox{($\leftarrow$ the remainder: $x - (-x + 1) = 2x - 1$)} \\[-3pt]
+      \frac{3}{2}x^2\phantom{000000000000} && \hbox{($0 - (-\frac{3}{2}x^2) = \frac{3}{2}x^2$)} \\[-3pt]
+      \underline{\frac{3}{2}x^2 - \frac{9}{4}x\phantom{0000000}} && \hbox{($(2x - 3)\times \frac{3}{4}x = \frac{3}{2}x^2 - \frac{9}{4}x$)} \\[-3pt]
+      \frac{9}{4}x \phantom{0000000} && \hbox{($0 - (-\frac{9}{4}x) = \frac{9}{4}x$)} \\[-3pt]
+      \underline{\frac{9}{4}x - \frac{27}{8}x\phantom{0}} && \hbox{($(2x - 3) \times \frac{9}{8} = \frac{27}{8}$)} \\[-3pt]
+      \frac{27}{8} \phantom{00} && \hbox{($\leftarrow$ the remainder: $0 - (-\frac{27}{8}) = \frac{27}{8}$)} \\[-3pt]
   \end{array}
 $$
 
 So what's interesting here?  This time we've had to jump through fraction-hoops a little to get the pieces we want.  It looks complicated, but if we pull out the first one for you and show you it in isolation, all should become a lot clearer.
 
-OK, so we need to get an $x^3$, and we have $2x - 3$.  What do we need to do to the latter, to get some of the former? Half it then multiply by $x^2$, or in other words, multiply by $\frac{1}{2}x^2$ clearly.
+OK, so we need to get an $x^3$, and we have $2x - 3$.  What do we need to do to the latter, to get some of the former? Half it then multiply by $x^2$, or in other words, multiply by $\frac{1}{2}x^2$.
 
-$$
-\frac{1}{2}x^2 \times (2x - 3) = 
-$$
+$$ \frac{1}{2}x^2 \times (2x - 3) = $$
 
-$$
- = (\frac{1}{2}x^2 \times \frac{2}{1}x^1) - (\frac{1}{2}x^2 \times \frac{3}{1})
-$$
+$$ = (\frac{1}{2}x^2 \times \frac{2}{1}x^1) - (\frac{1}{2}x^2 \times \frac{3}{1}) $$
 
-$$
- = \frac{2}{2}x^3 - \frac{3}{2}
-$$
+$$ = \frac{2}{2}x^3 - \frac{3}{2} $$
 
-$$
- = x^3 - \frac{3}{2}
-$$
+$$ = x^3 - \frac{3}{2} $$
 
 If you take this method and work it all the way through the rest of the example (perhaps moving things to one side to figure things out in this way) it should all fall into place.
 
@@ -222,8 +200,8 @@ That's actually quite reassuring, especially having just come from Factoring-lan
 The way Gelfand proves it is pretty interesting too. (Sometimes the method is as important as the end result, and you're supposed to be always paying attention.)  The following things are of note:
 
  * he's gone all meta, representing polynomials in a single variable as individual variables again (with capital letters again too - I smell a convention here...)
- * the variables he uses are actually quite simple.  P is the dividend, S is the divisor, Q is the quotient and R is the remainder.  If Q and R have such intuitive names, why then have P and S?  I could thrown up my hands and exclaim "mathematicians" but remember, both the others start with "D", and P and S to make a nice alphabetical run...
- * the formula is simple too. (It even works for non-polynomial division.)  Any number (P) is equal to two other numbers multiplied by each other (Q the quotient and S the divisor) and a remainder (R)
+ * the variables he uses are actually quite simple.  $P$ is the dividend, $S$ is the divisor, $Q$ is the quotient and $R$ is the remainder.  If $Q$ and $R$ have such intuitive names, why then have $P$ and $S$?  I could thrown up my hands and exclaim "mathematicians" but remember, both the others start with "D", and $P$ and $S$ do make a nice alphabetical run...
+ * the formula is simple too. (It even works for non-polynomial division.)  Any number ($P$) is equal to two other numbers multiplied by each other ($Q$ the quotient and $S$ the divisor) and a remainder ($R$)
  * The approach to the proof is to begin by making an assumption (in this case that there might be more than one Quotient, $Q_{1}$ and $Q_{2}$, and more than one Remainder, $R_{1}$ and $R_{2}$) and then logically follow the implications of that assumption.  In this case that $Q_{1} = Q_{2}$ and $R_{1} = R_{2}$ 
 
 ## Another Pseudo-Conclusion
