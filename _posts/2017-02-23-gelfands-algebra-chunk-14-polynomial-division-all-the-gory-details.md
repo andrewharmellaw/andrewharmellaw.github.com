@@ -126,7 +126,9 @@ For some of you there might be enough in the above to work things through. But i
 We begin by getting our $x^4$, and to do this we need to multiply $x-2$ enough to get this. We can get there by multiplying it by $x^3$.  That gives us $x^4 - 2x^3$.  We put our $x^3$ up atop everything as the first part of our quotient. (I've tried to lay things out as nicely as Gelfand does to keep all this clean.  The final step is to then see what we have left of our dividend, and we get this by subtracting $x^4 -2x^3$ from $x^4$
 
 $$ x^4 - (x^4 - 2x^3) = $$
+
 $$ = x^4 -x^4 + 2x^3 = $$
+
 $$ = 2x^3 $$
 
 From this point on it's just rinse and repeat.  Your new dividend is $2x^3$.
