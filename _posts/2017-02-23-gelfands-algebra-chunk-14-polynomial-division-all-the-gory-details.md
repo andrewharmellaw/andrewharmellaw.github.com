@@ -55,7 +55,7 @@ This means that we can take $2x^2 + 3x - 3$ and replace it with $A$.  But rememb
 
 See now why I said grokking degrees solidly was handy?
 
-N.b. Durham does this _a lot_ in his later solutions, so it's worth getting comfortable with it before progressing
+N.b. Durham does this _a lot_ in his later solutions, so it's worth getting comfortable with it before progressing.
 
 ## Proper and Improper Fractions
 Fractions again. Urgh.  And it turns out they get even more complicated with the concepts of "proper" and "improper" ones.  Luckily, this is super-easy to grokk (and not much harder to commit to memory).
