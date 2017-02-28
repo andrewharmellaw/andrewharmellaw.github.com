@@ -3,7 +3,7 @@ layout: post
 title: "Gelfand: Chunk 13 - Rational Expressions Quickie"
 description: "Deceptively Simple (as befits a Thirteenth Chunk)"
 category: 
-tags: [gelfand, tricks, commutative-law, rational-expression, divition, polynomials]
+tags: [gelfand, commutative-law, rational-expressions, division, fractions, polynomials]
 ---
 {% include JB/setup %}
 
@@ -47,6 +47,9 @@ With these in mind, we can get back to the concept in hand; Rational Expressions
 ## Rational Expressions - Zero-Denominator-Disallowed
 
 In the intro to these, Gelfand basically points out the latter of the two realisations above - you can't have a denominator in a rational expression which is zero, or is _identically equal to zero_ ($x - x$ is his example).  Given the above notes, it's clear why this is the case.
+
+## The Actual Work of Rational Expressions
+Usually I'd then go into a long-winded explanation of how I eventually grokked this concept, and the tricks arising, but it was in fact (aside from the above notes) very simple given I'd already got my head round much fo these concepts when confronting Fractions (see [Chunk 4 - Fractions Ugh](https://andrewharmellaw.github.io/2016/11/30/gelfands-algebra-chunk-4-fractions-urgh)).  What you do need to do however is hop over there. You might recall I jumped ahead at that point to discuss the various rules of working with fractions (adding, multiplying, etc) and I jumped ahead to this section of Gelfand.  
 
 ## Some Form of Concluding Aside
 There's not much else to put in this post I don't think.  So to give things some kind of conclusion, I wanted to share a bit of knowledge I extrapolated from [Petzold](https://www.amazon.co.uk/Annotated-Turing-Through-Historic-Computability/dp/0470229055) which I'm currently reading in parallel to writing this.  Here it comes:

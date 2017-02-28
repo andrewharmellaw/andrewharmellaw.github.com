@@ -45,6 +45,8 @@ and so
 
 $$-(b + c) = -b - c$$
 
+We will see a _lot more_ of the Distributive Law over the next few Chunks (and thereafter too).  Adding and removing parentheses seems to be the _raison d'etre_ for algebraists.
+
 ## Tricks Arising
 
 ### Simplifying Addition with the Associative Law

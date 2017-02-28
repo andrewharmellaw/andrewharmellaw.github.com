@@ -71,6 +71,10 @@ Which that under our belt, its a nice check-point to state explicitly everything
  * it is the sum of monimials
  * where each monomial is the product of a number (the co-efficient) and of powers of different letters
  * and where all similar monomials are collected
+ 
+You can also add one more (Gelfand does himself later in Section 35 on pp 61)
+
+ * monomials are arranged in order of decreasing degrees (where the power of a monomial is its degree)
 
 ## Tricks Arising (Pt. 1)
 Now we have everything in Standard Form, we can get to the exciting parts - the tricks. (Or the frst part anyway, we also have a second set later.)
