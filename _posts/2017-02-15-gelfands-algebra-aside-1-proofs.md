@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Gelfand: Aside 1 - Proofs"
+title: "Gelfand: Aside #1 - Proofs!?!?!"
 description: "Subtle Differences"
 category: 
 tags: [gelfand, proofs, factoring, tricks]
@@ -30,7 +30,7 @@ and re-arrange
 
 $$ = ab - a - b + 1 = $$
 
-Does that look a little like a kind-of-polynomial? (I.e. like $x^2 - 2x + 1$ - I was happy to have go to this point without reference to [Durham]()).  Let's try it and see.  If it was, then we could do some nice factorisation on it, but with $a$ as our first $x$ and $b$ as our second.  That gives us this
+Does that look a little like a kind-of-polynomial? (I.e. like $x^2 - 2x + 1$ - I was happy to have go to this point without reference to [Durham](https://www.scribd.com/document/243387607/Gelfand-Algebra-Solutions)).  Let's try it and see.  If it was, then we could do some nice factorisation on it, but with $a$ as our first $x$ and $b$ as our second.  That gives us this
 
 $$ = (a - 1)(b - 1) $$
 
