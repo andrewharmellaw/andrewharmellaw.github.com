@@ -10,6 +10,7 @@ tags: [gelfand, division, polynomials, geometric-progression]
 ## Problems 143(a)-(c) - A Handy Shortcut
 
 We'll work through the first Problem (a) using the long-winded method
+
 $$
 \require{enclose}
 \begin{array}{rll}
