@@ -172,3 +172,6 @@ $$x^4 + 3x^2 + 5x + 1 = (x + 1)(x^3  + x^2 + 4x + 1)$$
 ## Tricks Arising
 ### Nothing subtracted? Try a negative $a$
 If when you look at your polynomial you see that nothing is subtracted (as in Problem 146(b) above) you know that your root will have to be a negative number (so that your sum will add to zero when you mix in the $x$).
+
+### How Many Roots?
+The gory details of how to get to this fact are in Gelfand, but its a truism that a polynomial of degree $x$ will have at most $x$ different roots.  The "different" is important - remember a polynomial can have two roots which are the same (n.b. $(x - 1)(x - 1) = (x - 1)^2$ which translates as two roots which are the same).  Mathematicians say this has "two equal roots".
