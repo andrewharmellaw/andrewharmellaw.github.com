@@ -53,6 +53,7 @@ First thing we need to see with this problem is that when Gelfand states "$P(x)$
 With this in mind, he then gives us a pair of inputs and outputs - the latter being the "values" he mentioned and which we are calling "point two".  We can lay these out as follows:
 
 $$P(1) = 7$$
+
 $$P(2) = 5$$
 
 He then asks us to find $P(x)$ which really means "find the values of $a$ and $b$ and state in the form of a first-degree polynomial."
@@ -60,6 +61,7 @@ He then asks us to find $P(x)$ which really means "find the values of $a$ and $b
 Lets plug our inputs in and see what we can glean:
 
 $$P(1) = a \cdot 1 + b = 7$$
+
 $$P(2) = a \cdot 2 + b = 5$$
 
 The difference between these two is one $a$, or $5 - 7$ which is $-2$.  If we plug in this, then we can find $b$ easily.
@@ -106,7 +108,7 @@ Gelfand then brings in something fundamental - that if two things are the same, 
 
 When he combines the two, we get our proof. We need to have a symbol to represent the outcome of subtracting one polynbomial from another and that is $R(x)$.  The following should now make more sense.
 
-$P(x) - Q(x) = R(x)$
+$$P(x) - Q(x) = R(x)$$
 
 and 
 
