@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Gelfand: Aside #1 - Proofs!?!?!"
+title: "Gelfand: Aside 1 - Proofs!?!?!"
 description: "Subtle Differences"
 category: 
 tags: [gelfand, proofs, factoring, tricks]
