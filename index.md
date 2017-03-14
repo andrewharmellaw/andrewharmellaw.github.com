@@ -11,7 +11,7 @@ Let's start with a picture...
 
 ![Purity from XKCD](https://imgs.xkcd.com/comics/purity.png){:class="img-responsive"}
 
-That [XKCD cartoon](https://imgs.xkcd.com/comics/purity.png) pretty much sums up why I'm here. Math is something I am _OK_ at (I have a Science degree, and it came up every now and then in stats class, etc. etc.) but it's also something which I never felt I truly, deeply understood.  Yet, maths is fundamental to what I do for a profession (I'm a Software Engineer - and aspire to read [Knuth's Concrete Mathematics](https://www.goodreads.com/book/show/112243.Concrete_Mathematics)) and essential if I am to be 100% productive in functional langauges such as [Scala](https://www.scala-lang.org/) and [Haskell](https://www.haskell.org/). I feel like I'm missing out on the full picture without it.
+That [XKCD cartoon](https://imgs.xkcd.com/comics/purity.png) pretty much sums up my original motivation. Math is something I am _OK_ at (I have a Science degree, and it came up every now and then in stats class, etc. etc.) but it's also something which I never felt I truly, deeply understood.  Yet, maths is fundamental to what I do for a profession (I'm a Software Engineer - and aspire to read [Knuth's Concrete Mathematics](https://www.goodreads.com/book/show/112243.Concrete_Mathematics)) and essential if I am to be 100% productive in functional langauges such as [Scala](https://www.scala-lang.org/) and [Haskell](https://www.haskell.org/). I feel like I'm missing out on the full picture without it.
 
 (Oh, and it's also something my kids are soon going to start asking me about very soon.  Dad-panic.)
 
