@@ -140,5 +140,51 @@ The proving they were in fact the same thing but just with two different symbols
 
 It makes you wonder what else we can go-meta with...
 
+## So is this a General Rule?
+It seems like we're on the brink of discovering a general rule about polynomials, roots and interpolation.  Getting our specifics to something more wide-ranging is the point of Problem 166. It's also going to be the last part of this post.
+
+### Problem 166 - Uniquely Defining n-degree Polynomials
+Gelfand gives us a massive tip here - we need to take the solution to Problem 164 (the one we worked through slowly above) and generalise it.  Lets move step by step and see if we can. 
+
+Note, I've ended up following [Durham]() _incredibly closely_ here.  His explanation is as clear as I could make it.
+
+First lets have our two polynomials $P(x)$ and $Q(x)$, but lets say they are degree $n$, not degree $2$ as we had previously.
+
+Then lets have a bunch of values of $x$ ($n$ of them in fact)
+
+$$x_{1}, x_{2}, x_{3} \hbox{...} x_{n-1}, x_{n}, x_{n+1}$$ 
+
+And lets state that in all cases, $P(x) = Q(x)$
+
+$$P(x_{1}) = Q(x_{1})$$
+
+$$P(x_{2}) = Q(x_{2})$$
+
+$$P(x_{3}) = Q(x_{3})$$
+
+...
+
+$$P(x_{n-1}) = Q(x_{n-1})$$
+
+$$P(x_{n}) = Q(x_{n})$$
+
+$$P(x_{n+1}) = Q(x_{n+1})$$
+
+Then again let $R(x) = P(x) - Q(x)$
+
+Which means
+
+$$R(x_{1}) = R(x_{2}) = R(x_{3}) = \hbox{...} = R(x_{n-1}) = R(x_{n}) = R(x_{n+1}) = 0$$
+
+So that means $x_{1}, x_{2}, x_{3} \hbox{...} x_{n-1}, x_{n}, x_{n+1}$ are roots of $R$.
+
+But $R$ can have at most $n$ roots, or it is identically equal to zero for all $x$ therefore 
+
+$$0 = R(x) = P(x) - Q(x)$$ 
+
+Or stated another way, $P(x) = Q(x)$ for all $x$.
+
+In other words, as Durham crisply concludes, "whenever two $n$ degree polynomials are equal on $n+1$  or more points, they are the same polynomial."
+
 ## Break-Time
 There is a lot more gold buried in the various Problems and Solutions (or lack thereof) that comprise the remainder of this section.  I'm going to tackle them in a separate post however.  This one has run on long enough.
