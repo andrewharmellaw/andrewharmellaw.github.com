@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Gelfand: Chunk 19 - Arithmetic Progressions"
-description: ""
+title: "Gelfand: Chunk 18 - Polynomial Interpolation - Subtleties"
+description: "More Gold in these Hills"
 category: 
-tags: [gelfand, tricks, arithmetic-progressions]
+tags: [gelfand, durham, polynomials, degrees, tricks, roots]
 ---
 {% include JB/setup %}
 
