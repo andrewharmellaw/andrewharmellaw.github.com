@@ -52,7 +52,7 @@ $$-2(x - 1)(x - 3)$$
 
 Next is (c). Can we do the same? Yes.
 
-We know that here $P(x) = (x - 2)(x - 3)Q(x)$
+We know that here $P(x) = (x - 2)(x - 3)Q(x)$, so therefore
 
 $$P(1) = (1 - 2)(1 - 3)a = (-1)(-2)a = 2 \times a = 6$$
 
