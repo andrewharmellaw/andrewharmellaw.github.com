@@ -48,6 +48,6 @@ $$\frac{3^3 - 1}{3 - 1} = \frac{26 - 1}{2} = \frac{26}{2} = 13$$
 Much quicker.
 
 ## Problem 144 - A Sneak Peek at Geometric Progressions
-Now while this is handy, we're actually getting a sneak preview of something which Gelfand will later spend quite a lot of time investigating - geometric progressions - but he stops here for now.
+Now while this is handy, we're actually getting a sneak preview of something which Gelfand will later spend quite a lot of time investigating - geometric progressions - but he stops here for now.  (I don't recommend you jump ahead, but if you must, take a look at [Chunk 21 - Geometric Progressions](), but be sure and come right back.
 
 There's little for us to do other than just try substituting the number $2$ for $x$ and realise that what we have just been working with is the reason this progression property. 
