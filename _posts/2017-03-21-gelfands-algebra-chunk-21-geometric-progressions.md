@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Gelfand: Chunk 20 - Geometric Progressions"
+title: "Gelfand: Chunk 21 - Geometric Progressions"
 description: "Moving on to yet more Progressions"
 category: 
 tags: [gelfand, tricks, geometric-progressions, positive, negative]
