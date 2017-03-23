@@ -118,7 +118,7 @@ We can then draw our conclusions.
 * Conclusion 2: if $ab = 0$ then x = 0.  That seems simple enough.
 * Conclusion 3: if $ab > 0$ then there are _two_ possible values for $x$: $\sqrt{ab}$ and $-\sqrt{ab}$.
 
-Notes: This works because we are looking for the _second term_, and it would also have worjed for the fourth, and sixth etc, but not the fifth, seventh, etc.  Remember, we saw before that even roots have this special "could be positive, could equally be negative" property.
+Notes: This works because we are looking for the _second term_, and it would also have worjed for the fourth, and sixth etc, but not the fifth, seventh, etc.  Remember, we saw before that even roots have this special "could be positive, could equally be negative" property.  There is a subtle alusion to this in problem 199. See if you can spot it.
 
 ## Tricks Arising
 ### Sometimes No Answers, Other Times More Than One Answer
