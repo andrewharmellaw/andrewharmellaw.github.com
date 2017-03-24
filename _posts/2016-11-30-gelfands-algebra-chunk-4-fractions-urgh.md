@@ -68,7 +68,7 @@ $$\frac{-a}{b} = - \frac{a}{b} = \frac{a}{-b}$$
 
 ### Division
 
-To divive, invert (the denominator fraction) and mulitply
+To divide, invert (the denominator fraction) and mulitply
 
 $$ \frac{P/Q}{R/S} = $$
 
