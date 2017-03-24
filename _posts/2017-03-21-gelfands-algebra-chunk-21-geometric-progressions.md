@@ -122,4 +122,4 @@ Notes: This works because we are looking for the _second term_, and it would als
 
 ## Tricks Arising
 ### Sometimes No Answers, Other Times More Than One Answer
-Notwithstanding the aside about how $a^2 = b^2$ in [Chunk 11 - Factoring to Zero](https://andrewharmellaw.github.io/2017/01/20/gelfands-algebra-chunk-11-factoring-to-zero) Problem 198 is the first time we've seen something where we need to think about different categories of input.  It's handy to have this in mind for the future (trust me, I've read ahead.)
+Notwithstanding the aside about how $a^2 = b^2$ in [Chunk 11 - Factoring to Zero](https://andrewharmellaw.github.io/2017/01/20/gelfands-algebra-chunk-11-factoring-to-zero), Problem 198 is the first time we've seen something where we need to think about different categories of input.  It's handy to have this in mind for the future (trust me, I've read ahead.)
