@@ -60,7 +60,7 @@ $$ = \frac{PS - QR}{QS} $$
 
 $$ \frac{P}{Q} \cdot \frac{R}{S} = $$
 
-$$ = \frac{PQ}{RS} $$
+$$ = \frac{PR}{QS} $$
 
 Additionally, from Stewart's Calculus Review of Algebra, it is true that
 
