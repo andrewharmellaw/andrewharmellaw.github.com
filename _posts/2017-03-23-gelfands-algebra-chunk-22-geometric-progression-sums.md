@@ -42,7 +42,7 @@ $$(1 - x)(1 + x + x^2 + x^3 + ... + x^{10}) = 1 - x^{11}$$
 
 It's not hard to see if you swap $x$ for $q$, and then make it more generic and rearrange the sides, you have a _pretty_ close (but not exact) match for a bit of our current expression.
 
-$$\rightarrow (1 + q + q^2 + q^3 + ... + q^{n - 1}) = frac\{1 - q^{n}}{(1 - q)}$$
+$$ \rightarrow (1 + q + q^2 + q^3 + ... + q^{n - 1}) = \frac{1 - q^{n}}{(1 - q)} $$
 
 Close, but not the same as what Gelfand is referring us to: 
 
@@ -64,11 +64,11 @@ $$ = x^{11} - 1 $$
 
 We can now pick up with Gelfand again.  Now we know we can swap our $1$a and $q$s we have this:
 
-$$\rightarrow (1 + q + q^2 + q^3 + ... + q^{n - 1}) = frac\{q^n - 1}{(q - 1)}$$ 
+$$\rightarrow (1 + q + q^2 + q^3 + ... + q^{n - 1}) = \frac{q^n - 1}{(q - 1)}$$ 
 
 Now we can put this into our current expression and get the same answer Gelfand has
 
-$$a frac\{q^n - 1}{(q - 1)}$$
+$$a \frac{q^n - 1}{(q - 1)}$$
 
 Well done. Give yourself a slap on the back for following along.
 
@@ -97,7 +97,7 @@ Problem 203 is to find out the gap in the solution to 202.  The solution is pret
 
 The lesson learned is very clear though.  This is another circumstance where our sums-of-geometric-progressions formula is not universally applicable.  We could state it now as:
 
-$$S = a frac\{q^n - 1}{(q - 1)}$$ 
+$$S = a \frac{q^n - 1}{(q - 1)}$$ 
 
 when $q \ne 1$, and 
 
@@ -107,7 +107,7 @@ when $q = 1$.
 
 Aside: This (and previous encounters with this kind of thing) sounds a little like a partial function which I know as a functional programming concept from Scala and Haskell.  The [Haskell Wiki defines it](https://wiki.haskell.org/Partial_functions) as "a function that is not defined for all possible arguments of the specified type."  That sounds like where we are, and if you look at the [examples on wikipedia](https://en.wikipedia.org/wiki/Partial_function#Discussion_and_examples) for the same topic it looks like where we are.
 
-## WHere Next?
+## Where Next?
 That's Gelfand done now on the core rules of progressions (arithmetic and geometric).  What he's about to do is set up a bunch of problems for us to help embed and understand the subtleties of what we learned.
 
 That's the next post. 
