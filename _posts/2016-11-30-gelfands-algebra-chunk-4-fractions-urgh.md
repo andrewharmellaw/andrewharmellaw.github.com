@@ -87,7 +87,7 @@ Gelfand loves to get his readers to compare fractions.  Luckily he gives us a fe
 ### Finding the Common Denominator
 This is the one I recall from school.
 
-Which is bigger, $frac{1}{3}$ or $\frac{2}{7}$?
+Which is bigger, $\frac{1}{3}$ or $\frac{2}{7}$?
 
 $$ \frac{1}{3} = \frac{7}{21}, \frac{2}{7} = \frac{6}{21} $$
 
