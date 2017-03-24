@@ -87,20 +87,20 @@ Gelfand loves to get his readers to compare fractions.  Luckily he gives us a fe
 ### Finding the Common Denominator
 This is the one I recall from school.
 
-Which is bigger, $1/3$ or $2/7$?
+Which is bigger, $frac{1}{3}$ or $\frac{2}{7}$?
 
-$$ 1/3 = 7/21, 2/7 = 6/21 $$
+$$ \frac{1}{3} = \frac{7}{21}, \frac{2}{7} = \frac{6}{21} $$
 
-Therefore the first fraction is the bigger (there are more 21ths): $7/21 > 6/21$
+Therefore the first fraction is the bigger (there are more 21ths): $\frac{7}{21} > \frac{6}{21}$
 
 ### Finding the Common Numerator
 Gelfand next introduces another method, one I'd never seen before, finding a common numerator:
 
-Which is bigger, $1/3$ or $2/7$?
+Which is bigger, $\frac{1}{3}$ or $\frac{2}{7}$?
 
-$$ 1/3 = 2/6 > 2/7 $$
+$$ \frac{1}{3} = \frac{2}{6} > \frac{2}{7} $$
 
-WHat would indicate to you which was worth using?  I presume that if you can see an easy mathematical route to make the denominators the same use the first method, but if you can see an easier route to make the numerators the same, then use that instead.
+What would indicate to you which was worth using?  I presume that if you can see an easy mathematical route to make the denominators the same use the first method, but if you can see an easier route to make the numerators the same, then use that instead.
 
 ### The Difference Between Two Fractions, Both of Which are Less Than One
 
