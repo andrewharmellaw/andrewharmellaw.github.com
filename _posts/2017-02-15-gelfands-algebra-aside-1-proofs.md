@@ -147,7 +147,7 @@ $$ \rightarrow a^3 + b^3 + c^3 = 3abc $$
 Proved.
 
 ## Tricks Arising
-### Look for the Same Pattern in Things You Know (Beyond the Standard Short-Cut Formualas)
+### Look for the Same Pattern in Things You Know (Beyond the Standard Short-Cut Formulas)
 _Many_ of the solutions to the proof-problems in this post have involved looking back to what we have seen worked previously.  It makes the clear (but possibly not self-evident) point that _anything_ can be a pattern to match on.  The Short-cut formulas are key ones because they pop up _a lot_, but others work in just the same way, by giving you a sudden jump into a well-worn path to differently formed expressions and perhaps further leaps.
 
 ## Some Kind of a Conclusion
