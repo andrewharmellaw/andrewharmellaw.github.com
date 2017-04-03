@@ -15,11 +15,11 @@ I used to think them a bit boring.  I now realise that its in these that most of
 
 This is a nice problem to start with.  Lets begin to tackle it as we always do by taking our inputs and laying them out nicely ready for deployment in solutioning.
 
-We know that we can represent a value in an _arithmetic_ progression (key point, we're going back in time a bit here) as the product of a starting value (which we'll keep calling $a$), the difference between terms (which we'll keep calling $d$), and a number representing the position of the term in the progression (which we'll call $n_x, n_y$ and $n_z$).
+We know that we can represent a value in an _arithmetic_ progression (key point, we're going back in time a bit here) as the product of a starting value (which we'll keep calling $a$), the difference between terms (which we'll keep calling $d$), and numbers representing the position of the terms in the progression (which we'll call $n_x, n_y$ and $n_z$).
 
-What is more, if two or more terms are to be in the same progression, then they will share the values of $a$ and $d$ - the starting value and difference respectively.
+What is more, if two or more terms are to be in the same progression, then they will share the values of $a$ and $d$ - the starting value and difference respectively. (A small aside: it's not actually this simple, progressions can have different $a$ values, but still overlap in terms of terms [sic - sorry], but this simplified view works for us here.)
 
-With that in mind, then we can specify our fractions in terms of this separately before seeing if they hang together together [sic]. (Note I've arranged the fractions in increasig order of magnitude. This means our $d$ will be positive.  it could just as easily go the other way, in which case $d$ would be negative.  This just keeps things simpler I found.)
+With that in mind then, we can specify our fractions in terms of this separately before seeing if they hang together [sic]. (Note I've arranged the fractions in increasing order of magnitude. This means our $d$ will be positive.  Things could just as easily go the other way, in which case $d$ would be negative.  This just keeps things simpler I've found.)
 
 $$\frac{1}{5} = a + (n_x - 1)d$$
 
@@ -45,17 +45,19 @@ $$\rightarrow d = \frac{1}{5} \cdot \frac{1}{(n_x - 1)}$$
 
 $$\rightarrow d = \frac{1}{5(n_x - 1)}$$
 
-Nice. (If you need a reminder about the rules for fiddling with fractions, take a peek back at [Chunk 4 - Fractions (Urgh)](https://andrewharmellaw.github.io/2016/11/30/gelfands-algebra-chunk-4-fractions-urgh) and remind yourself.
+Nice. 
 
-We'd be able to rearrange our other starter expressions in the same way. I won't bore you with the working for that, and instead lay them all out side by side as an equality:
+(If you need a reminder about the rules for fiddling with fractions, take a peek back at [Chunk 4 - Fractions (Urgh)](https://andrewharmellaw.github.io/2016/11/30/gelfands-algebra-chunk-4-fractions-urgh).
+
+We're able to rearrange our other starter expressions in the same way. I won't bore you with the working for that, and instead lay them all out side by side as an equality:
 
 $$d = \frac{1}{5(n_x - 1)} = \frac{1}{3(n_y - 1)} = \frac{1}{2(n_z - 1)}$$
 
-Now, we know $n_x$, $n_y$ and $n_z$ are different values.  The question is, can we find values for them that mean everything still stays valid.
+Now, we know that in our case, $n_x$, $n_y$ and $n_z$ are different values because they represent different terms in our progression.  The question is, can we find values for them that mean everything still stays valid.
 
 It's at this point that I'm happy to make a mental leap and simplify things.  I think the following is self-evident
 
-$$\rightarrow = 5(n_x - 1) = 3(n_y - 1) = 2(n_z - 1)$$
+$$\rightarrow 5(n_x - 1) = 3(n_y - 1) = 2(n_z - 1)$$
 
 And from this point, we can take a trick we know from finding common denominators and work out that $d$ is $30$ (or you can take this from Gelfand's tip, but I'm trying to be good and get there without it) and from there work out $n_x$, $n_y$ and $n_z$.
 
@@ -77,7 +79,7 @@ We've actually overshot here. The question was only to find out if the three ter
 Hell yes.  [Durham](https://www.scribd.com/document/243387607/Gelfand-Algebra-Solutions) spotted the common-denominator trick based on the fact that $30 = 2 \times 3 \times 5$ before any fiddling around.  I'm guessing that kind of insight comes with practice and confidence.  I'm personally happy that I worked it all the way through.
 
 ## Problem 205
-We'll now keep going with our all-the-gory-details working for this problem.  Ignoring how Gelfand suggests we solve it for a second, lets take a similarly slow and steady process as we did before.
+We'll keep going with our all-the-gory-details working for this next problem.  Ignoring how Gelfand suggests we solve it for a second, lets take a similarly slow and steady process like we did before and see where that gets us.
 
 First up we know again that there must be a starting point $a$ (because there always is).  There must also a ratio $q$ and a number representing the position of the term in the progression (which we'll again call $n_x, n_y and n_z$).
 
@@ -97,9 +99,13 @@ $$2 = a + q^{n_x - 1}$$
 
 $$\rightarrow q^{n_x - 1} = 2 - a$$
 
-Hmmm, this is about to get all kinds of complicated trying to drag $q$ out into the open on this one.  Is there another way?  There is, and Gelfand wants to show it to us.  Rather than specifying our terms in terms [sic] of the progression we know nothing about, he's going to help us specify them in terms of each other.
+Hmmm, this is about to get all kinds of complicated trying to drag $q$ out into the open on this one.  
 
-This sounds like a bit of a leap, but it's far simpler once you see it.  but firstly, why can we do this?  The answer is that we already know they are related (if they are part of the same progression) simply because of how progressions work - each subsequent term derives from the one before it.
+Is there another way?  There is, and Gelfand wants to show it to us.  Rather than specifying our terms in terms [sic] of the progression we know nothing about, he's going to help us specify them in terms of each other.
+
+This sounds like a bit of a leap, but it's far simpler once you see it.  
+
+Firstly however, why can we do this?  The answer is that we already know they are related simply because of how progressions work - each subsequent term derives from the one before it. (N.b. they are part of the same progression, the question relies upon it.)
 
 Before we get to it, we need one more piece of info - the knowledge of the order in which these terms appear in our as-yet-unknown progression.  It's a safe bet to start with their being in ascending order, but remember Section 42, [back in Chunk 21](https://andrewharmellaw.github.io/2017/03/21/gelfands-algebra-chunk-21-geometric-progressions)? There we found that sometimes in geometric progressions we can flip and flop from positive to negative and back to positive again.  
 
@@ -117,7 +123,7 @@ $$5 = 3q^m$$
 
 The pattern is the same - still a prior term multiplied by a certain power of the same ratio $1$, but because we don't know how many terms are between $3$ and $5$ we have to have a potentially different power of $q$ from the one we used before. We've got $m$.
 
-With this, possibly simpler pair of expressions, we can start putting them in a form where we can compare them.  First, Gelfand begins to isolate the $q$s.
+With this, evidently simpler pair of expressions we can start putting them in a form where we can compare them.  First, Gelfand begins to isolate the $q$s.
 
 $$q^n = \frac{3}{2}$$
 
@@ -133,7 +139,7 @@ and
 
 $$q^{mn} = (\frac{5}{3})^n$$
 
-So now we can combine
+Allows us to then combine as
 
 $$(\frac{3}{2})^m = q^{mn} = (\frac{5}{3})^n$$
 
@@ -149,13 +155,13 @@ $$\rightarrow 3^{m + n} = 2^m \cdot 5^n$$
 
 Now Gelfand gets clever, showing us a new trick, and the real point of this problem I'll wager.  
 
-Clearly we can go no further trying to figure out $m$ and $n$.  Nor would it profit us to do so.  But we could see what we could say about what we have.  
+Clearly we can go no further trying to figure out $m$ and $n$.  Nor would it profit us to do so.  But we could see what statements we can make about what we do have in our hands.  
 
-First up, Gelfand spots that the left hand side must be odd.  Seems like a leap?Try it out.  _An odd number, no matter what power it is raised to, is always odd_.
+First up, Gelfand spots that the left hand side ($3^{m + n}$) _must_ be odd.  Seems like a leap? Try it out.  This is because _an odd number, no matter what power it is raised to, is always odd_.
 
-That's great info.  Now there are a few more moving parts on the right hand side.  What can we say about that?
+That's great info.  Now there are a few more moving parts on the right hand side ($2^m \cdot 5^n$).  What can we say about that?
 
-We know from what we just saw that $5^n$, no matter what $n$ is, will also always be odd.  That leaves the $2^m$.  We should now see that _even numbers, when raised to any power will always be even, except when raised to the power of $0$_.  E.g. in our case with $2^m$  
+We know from what we just saw, that $5^n$, no matter what $n$ is, will also always be odd.  That leaves the $2^m$.  We should now see that _even numbers, when raised to any power will always be even, except when raised to the power of $0$_.  E.g. in our case with $2^m$  
 
 $$2^0 = 1$$
 
@@ -175,7 +181,7 @@ The final piece of the puzzle are the rules for multiplication of odd and even n
 
 If we put all this together, we can see that the left side of our equality will _always_ be odd, but the right hand side can _only ever_ be odd when $m = 0$.
 
-So, following the trail of clues like Miss MArple, we next need to look at what does happen when $m = 0$.
+So, following the trail of clues like Miss Marple, we next need to look at what does happen when $m = 0$.
 
 $$3^{m + n} = 2^m \cdot 5^n$$
 
@@ -244,10 +250,10 @@ $$\rightarrow m = \frac{4}{30} $$
 
 $$\rightarrow n = \frac{5}{30}$$
 
-A great deal of this was unnecassary, but it felt reassuring to work it all through.  
+A great deal of this was unnecassary, but it felt reassuring to work it all through.  And to answer my own question, "yes, I think this way was easier."
 
 ## Problem 206
-This problem is an invitation to think more deeply about what we previously saw in Problem 205 but now with regards to the possibility that $m$, $n$, or both being negative rather than positive as we assumed.
+This problem is an invitation to think more deeply about what we previously saw in Problem 205, but now with regards to the possibility that either $m$ or $n$, or both of them might be negative rather than positive as we assumed.
 
 This gives us three more options to consider:
 
