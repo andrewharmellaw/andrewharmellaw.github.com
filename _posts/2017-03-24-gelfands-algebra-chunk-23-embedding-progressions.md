@@ -7,9 +7,9 @@ tags: [gelfand, arithmetic-progressions, geometric-progressions, tricks, odd, ev
 ---
 {% include JB/setup %}
 
-As mentioned at the close of the previous chunk, this next part (Section 43) is one of Gelfand's now-familiar "lots of problems to embed and highlight subtleties and techniques" sections.
+As mentioned at the close of [the previous chunk](), this next part (Section 43) is one of Gelfand's now-familiar "moar problems to embed and highlight subtleties and techniques from before" sections.
 
-I used to think them a bit boring.  I now realise that its in these that perhaps most of the gold is hidden.  We're going to go slowly.  Perhaps too slowly for some, but just to make sure we squeezed out all the goodness and siphoned it up into our brainboxes, ready for later deployment.
+I used to think them a bit boring.  I now realise that its in these that most of the gold is hidden.  I'm going to go slowly.  Perhaps too slowly for some, but just to make sure we squeezed out all the goodness and siphoned it up into our brainboxes, ready for later deployment.
 
 ##Problem 204
 This is a nice problem to start with.  Lets begin to tackle it as we always do by taking our inputs and laying them out nicely ready for deployment in solutioning.
@@ -166,10 +166,125 @@ $$2^3 = 8$$
 
 Etc.  
 
-The final piece of the puzzle are the rules for multiplication of odd and even numbers. Lets list them as its easier
+The final piece of the puzzle are the rules for multiplication of odd and even numbers. Lets list them as it's easier
 
  * even numbers multiplied by even numbers always give even results
  * odd numbers multiplied by even numbers always give even results
  * odd numbers multiplied by odd numbers always give odd results
 
 If we put all this together, we can see that the left side of our equality will _always_ be odd, but the right hand side can _only ever_ be odd when $m = 0$.
+
+So, following the trail of clues like Miss MArple, we next need to look at what does happen when $m = 0$.
+
+$$3^{m + n} = 2^m \cdot 5^n$$
+
+$$\rightarrow 3^{0 + n} = 2^0 \cdot 5^n$$
+
+$$\rightarrow 3^n = 1 \cdot 5^n$$
+
+$$\rightarrow 3^n = 5^n$$
+
+Hmmm. That can't be right, which means we can't have these three terms being part of the same geometric progression.  Problem solved.
+
+## Tricks Arising
+### When Proving Equalities, Remember Fundamentals
+We knew above that our equality was an inequality because we remembered (prodded by Gelfand I'll admit) that there are some fundamental truisms about odd and even numbers and what you get when you multiply them.  There are probably others which are equally useful but I've not had to use them in a problem yet: 
+
+ * dividing by zero giving "undefined" is one likely candidate,  
+ * anything multiplied by zero being zero being another, 
+ * and multiplication of positive and negative numbers being the last that I can think of.
+
+## Revisting Problem 204
+It was super-useful to define the terms in terms [still sic] of each other in Problem 205.  Could we have made things simpler for ourselves by taking a similar approach in Problem 204?
+
+$$\frac{1}{3} = \frac{1}{5} + (n \cdot x)$$
+
+$$\frac{1}{2} = \frac{1}{3} + (m \cdot x)$$
+
+Then we can isolate the $x$s. The first equality is up first
+
+$$\frac{1}{3} - \frac{1}{5} = n \cdot x$$
+
+$$\rightarrow \frac{(\frac{1}{3} - \frac{1}{5})}{n} = x$$
+
+Then the second equality
+
+$$\frac{1}{2} - \frac{1}{3} = (m \cdot x)$$
+
+$$\rightarrow \frac{(\frac{1}{2} - \frac{1}{3})}{m} = x$$
+
+Then combining
+
+$$\rightarrow \frac{(\frac{1}{2} - \frac{1}{3})}{m} = x = \frac{(\frac{1}{3} - \frac{1}{5})}{n}$$
+
+And dropping the $x$ altogether
+
+$$\rightarrow \frac{(\frac{1}{2} - \frac{1}{3})}{m} = \frac{(\frac{1}{3} - \frac{1}{5})}{n}$$
+
+Then it makes sense to make the denominators of all the top-fractions equal:
+
+$$\rightarrow \frac{(\frac{15}{30} - \frac{10}{30})}{m} = \frac{(\frac{10}{30} - \frac{6}{30})}{n}$$
+
+And do the simple sums
+
+$$\rightarrow \frac{\frac{5}{30}}{m} = \frac{\frac{4}{30}}{n}$$
+
+And finally get to $m$ and $n$.
+
+$$\rightarrow \frac{\frac{5}{30}}{m} - \frac{\frac{4}{30}}{n} = 0$$
+
+$$\rightarrow \frac{n \cdot (\frac{5}{30})}{m \cdot n} - \frac{m \cdot (\frac{4}{30})}{n \cdot m} = 0$$
+
+$$\rightarrow \frac{n \cdot (\frac{5}{30}) - m \cdot (\frac{4}{30})}{m \cdot n} = 0$$
+
+$$\rightarrow m \cdot (\frac{5}{30}) - n \cdot (\frac{4}{30}) = 0$$
+
+$$\rightarrow m = \frac{4}{30} $$
+
+$$\rightarrow n = \frac{5}{30}$$
+
+A great deal of this was unnecassary, but it felt reassuring to work it all through.  
+
+## Problem 206
+This problem is an invitation to think more deeply about what we previously saw in Problem 205 but now with regards to the possibility that $m$, $n$, or both being negative rather than positive as we assumed.
+
+This gives us three more options to consider:
+
+ 1. $m$ is negative and $n$ is positive
+ 1. $m$ is positive and $n$ is negative
+ 1. both $m$ and $n$ are negative
+
+We can work each one in turn. Following [Durham]() it's nice to jump in at the following point, just after we dropped the $q$ and re-jig from there.
+
+$$3^{m + n} = 2^m \cdot 5^n$$
+
+Which means that considering option 1. the above becomes
+
+$$3^{(-m) + n} = (2^{-m}) \cdot (5^n)$$
+
+Despite there being a small error in Durham at this point it's not life-threatening to his solution.  I've corrected it but we can draw the same conclusion: unless $m = 0$, the result of $2^{-m}$ is a fraction, and therefore the right hand side can't be "even" as it won't even [sic - sorry] be an integer.
+
+Up next is option 2. and our starting point becomes
+
+$$3^{m + (-n)} = (2^{m}) \cdot (5^{-n})$$
+
+Again, the result of $5^{-n}$ for anything other than $m = 0$ is again a fraction os our right hand side can't be even again.
+
+Finally it's option 3. where our starting point is now
+
+$$3^{(-m) + (-n)} = (2^{-m}) \cdot (5^{-n})$$
+
+And here the same arguments that we deployed back in Problem 205 when $m$ and $n$ were positive still apply.
+
+TBC!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+## Tricks Arising
+### More Subtleties Around Odd and Even
+There is a pretty big realisation hidden in all of this.  The typical conception of odd and even is as integers, but can other types of numbers (such as rational numbers) be odd and even too?  Well yes, they can.  
+
+Considered like this, what might originally seems like an equally weighted half-and-half type thing rapidly turns into the something where even numbers are now rarified, semi-special occurances, and everything in between them then being demoted to the catch-all concept of "odd".
+
+## Problem 207
+Not so much a problem as a statement this one.  We're back at arithmetic progressions again and you're supposed to think about the difference as we have the first two terms.
+
+In the case mentioned, we know we start with an integer, and then we have a second term which is also an integer.  That means the difference must also be an integer.  And if you add integers to integers, all you ever get are integers.
