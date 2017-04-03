@@ -12,6 +12,7 @@ As mentioned at the close of [the previous chunk](), this next part (Section 43)
 I used to think them a bit boring.  I now realise that its in these that most of the gold is hidden.  I'm going to go slowly.  Perhaps too slowly for some, but just to make sure we squeezed out all the goodness and siphoned it up into our brainboxes, ready for later deployment.
 
 ##Problem 204
+
 This is a nice problem to start with.  Lets begin to tackle it as we always do by taking our inputs and laying them out nicely ready for deployment in solutioning.
 
 We know that we can represent a value in an _arithmetic_ progression (key point, we're going back in time a bit here) as the product of a starting value (which we'll keep calling $a$), the difference between terms (which we'll keep calling $d$), and a number representing the position of the term in the progression (which we'll call $n_x, n_y and n_z$).
