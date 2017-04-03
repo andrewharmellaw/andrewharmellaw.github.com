@@ -15,7 +15,7 @@ I used to think them a bit boring.  I now realise that its in these that most of
 
 This is a nice problem to start with.  Lets begin to tackle it as we always do by taking our inputs and laying them out nicely ready for deployment in solutioning.
 
-We know that we can represent a value in an _arithmetic_ progression (key point, we're going back in time a bit here) as the product of a starting value (which we'll keep calling $a$), the difference between terms (which we'll keep calling $d$), and a number representing the position of the term in the progression (which we'll call $n_x, n_y and n_z$).
+We know that we can represent a value in an _arithmetic_ progression (key point, we're going back in time a bit here) as the product of a starting value (which we'll keep calling $a$), the difference between terms (which we'll keep calling $d$), and a number representing the position of the term in the progression (which we'll call $n_x, n_y$ and $n_z$).
 
 What is more, if two or more terms are to be in the same progression, then they will share the values of $a$ and $d$ - the starting value and difference respectively.
 
