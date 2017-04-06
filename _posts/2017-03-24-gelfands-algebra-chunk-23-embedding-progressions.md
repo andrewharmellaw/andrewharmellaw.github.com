@@ -273,11 +273,11 @@ $$3^{m + n} = 2^m \cdot 5^n$$
 ### Option 2 - when $m$ is negative
 All this means that when considering option 2, the starting point for us becomes
 
-$$3^{(-m) + n} = (2^{-m}) \cdot (5^n)$$
+$$3^{(-m) + n} = 2^{-m} \cdot 5^n$$
 
 Which we can split apart a little as follows
 
-$$(3^{-m}) \cdot (3^n) = (2^{-m}) \cdot (5^n)$$
+$$3^{-m} \cdot 3^n = 2^{-m} \cdot 5^n$$
 
 And then rearrange
 
@@ -290,24 +290,29 @@ Previously, the left-hand side (now $3^n \cdot 2^m$) was always an odd number. W
  * If $m = 0$ then the second element ($2^m$) is equal to $1$ and the right hand side will always be odd, no matter what the value of $n$. 
  * But if $m > 0$ then the right hand side will always be even. 
 
-What about the right-hand side (now 3^m \cdot 5^n)?  Clearly 
+What can we say about the right-hand side (now $3^m \cdot 5^n$)?
 
  * it will _always_ be odd, no matter what the value of $m$ or $n$.
 
-So to complete this section, we need to work things through when $m = 0$
+So to complete this section, we need to work things through when $m = 0$ which looks like our only hope for the equality holding. 
 
-$$3^n \cdot 2^0 = 3^0 \cdot 5^n$$
+$$3^{(-m) + n} = 2^{-m} \cdot 5^n$$
+
+$$\rightarrow 3^{(0) + n} = 2^0 \cdot 5^n$$
+
+$$\rightarrow 3^n = 1 \cdot 5^n$$
+
+$$\rightarrow 3^n = 1 \cdot 5^n$$
 
 $$\rightarrow 3^n = 5^n$$
 
+Argh. No dice.  (Folks with memories better than mine will have realised that the above working very quickly aligned with the working for Option 1. Go back and check it if you like. (It might help embed things even more solidly.
 
+To be nice and clear, this means we can't have these terms being in the same progression if $m$ is negative and $n$ is positive.
 
+However, we still have other options to explore. 
 
-What if $m > 0$?  In these cases the second element is always going to be a negative power of $2$, (i.e. $\frac{1}{2}$, $\frac{1}{4}$, $\frac{1}{8}$, $\frac{1}{16}$ etc) and we're into fractions.  
-
-In that case, just as in Problem 205, what can we say generally about this?  How about "if something can be divided by a higher power of $2$, then it can be divided by $2$ itself."  For us, that means we can say that _the left hand side must be divisible by two_.
-
-And already we've hit a problem, without even tackling the right hand side.  Remember, we're aiming for a progression solely made up of integers.  Yet here we have the situation where the first element of the right hand side of our equality is always odd, no matter what the value of $n$, yet the second element is always going to half it or more which will never produce a whole number.
+Onward!
 
 ### Option 3 - when $n$ is negative
 
@@ -315,96 +320,108 @@ Next up is option 3, where the starting point is now
 
 $$3^{m + (-n)} = (2^{m}) \cdot (5^-n)$$
 
-Which we can split apart a little as follows
+Which we can again split apart as follows
 
-$$(3^{m}) \cdot (3^{-n}) = (2^m) \cdot (5^{-n})$$
+$$3^{m} \cdot 3^{-n} = 2^m \cdot 5^{-n}$$
 
 And then rearrange
 
 $$\frac{3^m}{3^n} = \frac{2^m}{5^n}$$
 
-$$\rightarrow \frac{3^n}{2^m} = \frac{3^m}{5^n}$$
+$$\rightarrow 3^n \cdot 2^m = 3^m \cdot 5^n$$
 
-$$\rightarrow 3^n \cdot 2^{-m} = 3^m \cdot 5^{-n}$$
+Now we need to kick in with the logic again.  We can shortcut matters too if we take a step back.  
 
-Previously, the left-hand side (now $3^n \cdot 2^{-m}$) was always an odd number. What about now? If $m = 0$ then the second element ($2^{-m}$) is still equal to $1$.  That means the $3^n$ is effectively on its own, and _as before it is always odd no matter what the value of $n$_. 
+When we were working through option 2, at this point we had
 
-What if $m > 0$?  In these cases the second element is always going to be a negative power of $2$, (i.e. $\frac{1}{2}$, $\frac{1}{4}$, $\frac{1}{8}$, $\frac{1}{16}$ etc) and we're into fractions.  
+$$\rightarrow 3^n \cdot 2^m = 3^m \cdot 5^n$$
 
-In that case, just as in Problem 205, what can we say generally about this?  How about "if something can be divided by a higher power of $2$, then it can be divided by $2$ itself."  For us, that means we can say that _the left hand side must be divisible by two_.
+_which is exactly what we have now._
 
-And already we've hit a problem, without even tackling the right hand side.  Remember, we're aiming for a progression solely made up of integers.  Yet here we have the situation where the first element of the right hand side of our equality is always odd, no matter what the value of $n$, yet the second element is always going to half it or more which will never produce a whole number.
+And so we can draw a similar conclusion - we will never be able to have a progression containing these terms, when $n$ is negative and $m$ is positive.
 
+One more to tackle. Ready?
 
+### Option 4 - when both $m$ and $n$ are negative
 
+Another option, another starting point. This time its
 
+$$3^{(-m) + (-n)} = (2^{-m}) \cdot (5^-n)$$
 
+Which we can again split apart as follows
 
+$$3^{-m} \cdot 3^{-n} = 2^{-m} \cdot 5^{-n}$$
 
+And then rearrange
 
+$$\frac{1}{3^m} \cdot \frac{1}{3^n} = \frac{1}{2^m} \cdot \frac{1}{5^n}$$
 
+We're now into a bit of uncharted territory so lets put our logic hats back on again. Left-hand side first. Let's begin with some statements of fact:
 
-$$ \rightarrow \frac{(\frac{3^n}{3^m})}{2^{-m}}  = 5^n$$
+ * if $m = n = 0$ then this side will equal $1$
+ * if either $m$ or $n$ is greater than $1$, then this side will be a fraction
+ * and this fraction will always be odd ($3$ to the power of anything, even $0$, is always an odd number, so both fractions on the left will always be odd too, and an odd fraction times an odd fraction gives another odd fraction)
 
-$$ \rightarrow \frac{(\frac{3^n}{3^m})}{2^{-m}}  = 5^n$$
+Now lets move to the right-hand side. Some more statements of fact:
 
+ * if $m = n = 0$ then this side will also equal $1$
+ * if either $m$ or $n$ is greater than $1$, this side will also always be a fraction
+ * If $m = 0$ then $\frac{1}{2^m} = 1$ and so this side will equal $\frac{1}{5^n}$ which is always odd
+ * If $n = 0$ then $\frac{1}{5^n} = 1$ and so this side will equal $\frac{1}{2^m}$ which is always even
 
+There's more in there to think about, but if we pull back, there are only two situations where things might work out for us: 
 
-$$$$
+ * when $m = 0$
+ * when $m = n = 0$
 
+So to complete this section, we need to work these through. We'll start with when $m = 0$. 
 
+$$3^{(-m) + (-n)} = 2^{-m} \cdot 5^{-n}$$
 
+$$\rightarrow 3^{(0) + (-n)} = 2^0 \cdot 5^{-n}$$
 
-$$\frac{3^n}{3^m} \times \frac{1}{2^m} = 5^n$$
+$$\rightarrow 3^{-n} = 1 \cdot 5^{-n}$$
 
+$$\rightarrow \frac{1}{3^n} = \frac{1}{5^n}$$
+
+Hmmm, what's the only way we can get this to work out?  If $n = 0$ too!
+
+$$\frac{1}{3^0} = \frac{1}{5^0}$$
+
+$$\rightarrow \frac{1}{1} = \frac{1}{1}$$
+
+$$\rightarrow 1 = 1$$
+
+Awesome!  So it looks like there is a situation when these numbers can exist in the same progression, when both $m$ and $n$ are equal to zero.
+
+### But this is different from Durham!
+TBC
 
 AIMING FOR (DURHAM): 
 $$(2^{-m}) \cdot (3^n) = (3^{-m}) \cdot (5^n)$$
 
-But why do we do this?
-
-
-Lets look at each side again in turn.  The left hand side ($(3^{-m}) \cdot (3^n)$) first. If $m = 0$ then the value of that side is $3^n$ which as we saw before is always odd.  
-
-If however $m > 1$ then 
-
-
-$$\frac{1}{2} * 3 = \frac{3}{2}$$
-
-
-$$\rightarrow \frac{1}{3^m} \cdot (3^n) = \frac{1}{2^m} \cdot (5^n)$$
-
-
-
-$$(2^{-m}) \cdot (3^n) = (3^{-m}) \cdot (5^n)$$
-
-Now we apply the same logic as we did before.  
-
-
-Despite there being a small error in Durham at this point it's not life-threatening to his solution.  I've corrected it but we can draw the same conclusion: unless $m = 0$, the result of $2^{-m}$ is a fraction, and therefore the right hand side can't be "even" as it won't even [sic - sorry] be an integer.
-
-Up next is option 2. and our starting point becomes
-
-$$3^{m + (-n)} = (2^{m}) \cdot (5^{-n})$$
-
-Again, the result of $5^{-n}$ for anything other than $m = 0$ is again a fraction os our right hand side can't be even again.
-
-Finally it's option 3. where our starting point is now
-
-$$3^{(-m) + (-n)} = (2^{-m}) \cdot (5^{-n})$$
-
-And here the same arguments that we deployed back in Problem 205 when $m$ and $n$ were positive still apply.
-
-TBC!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-
-
 
 ## Tricks Arising
-### More Subtleties Around Odd and Even
-There is a pretty big realisation hidden in all of this.  The typical conception of odd and even is as integers, but can other types of numbers (such as rational numbers) be odd and even too?  Well yes, they can.  
+### Removing fractions in equalities
 
-Considered like this, what might originally seems like an equally weighted half-and-half type thing rapidly turns into the something where even numbers are now rarified, semi-special occurances, and everything in between them then being demoted to the catch-all concept of "odd".
+Remember this leap? I'm not sure we've pulled it out explicitly before.  
+
+$$\frac{3^n}{3^m} = \frac{5^n}{2^m}$$
+
+$$\rightarrow 3^n \cdot 2^m = 3^m \cdot 5^n$$
+
+Gelfand does it himself in his solution to Problem 205.  You simply taken the numerator of one side, and multiply it with the denominator of the other side. That gives you one simplification. Then you do the reverse fo the other side.
+
+Brilliant.
+
+### Think logically
+We're slowly building up a mental set of rules - things which we know always happen, and you can set these against each other logically to reduce the number of options you're facing.
+
+We saw this brilliantly in this problem.  I'm betting it'll come in handy again.
+
+### More Subtleties Around Odd and Even
+TBC - fractions
+
 
 ## Problem 207
 Not so much a problem as a statement this one.  We're back at arithmetic progressions again and you're supposed to think about the difference as we have the first two terms.
