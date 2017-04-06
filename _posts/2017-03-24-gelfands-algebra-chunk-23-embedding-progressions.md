@@ -255,19 +255,131 @@ A great deal of this was unnecassary, but it felt reassuring to work it all thro
 ## Problem 206
 This problem is an invitation to think more deeply about what we previously saw in Problem 205, but now with regards to the possibility that either $m$ or $n$, or both of them might be negative rather than positive as we assumed.
 
-This gives us three more options to consider:
+Let's remind ourselves a little what happens when something is raised to a negative power.  We were introduced to this back in [Chunk 5 - Powers: Positive and Negative](https://andrewharmellaw.github.io/2016/12/10/gelfands-algebra-chunk-5-powers).  The key bit is that $a^{-n} = \frac{1}{a^n}$.
 
+With this in mind, we can start to follow the hint that Gelfand gives us.  We assumed in Problem 205 that $m$ and $n$ were positive. But they could have been negative.  In fact, this gives us three more options to consider, giving us four in total:
+
+ 1. both $m$ and $n$ are positive
  1. $m$ is negative and $n$ is positive
  1. $m$ is positive and $n$ is negative
  1. both $m$ and $n$ are negative
 
-We can work each one in turn. Following [Durham]() it's nice to jump in at the following point, just after we dropped the $q$ and re-jig from there.
+We've already solved the first one when we worked on Problem 205. We can work through each one of the remaining three in turn.  In fact we need to, in order to have covered all our bases. 
+
+Following [Durham]() it's nice to jump in at the following point, just after we dropped the $q$ and re-jig from there.
 
 $$3^{m + n} = 2^m \cdot 5^n$$
 
-Which means that considering option 1. the above becomes
+### Option 2 - when $m$ is negative
+All this means that when considering option 2, the starting point for us becomes
 
 $$3^{(-m) + n} = (2^{-m}) \cdot (5^n)$$
+
+Which we can split apart a little as follows
+
+$$(3^{-m}) \cdot (3^n) = (2^{-m}) \cdot (5^n)$$
+
+And then rearrange
+
+$$\frac{3^n}{3^m} = \frac{5^n}{2^m}$$
+
+$$\rightarrow 3^n \cdot 2^m = 3^m \cdot 5^n$$
+
+Previously, the left-hand side (now $3^n \cdot 2^m$) was always an odd number. What about now? 
+
+ * If $m = 0$ then the second element ($2^m$) is equal to $1$ and the right hand side will always be odd, no matter what the value of $n$. 
+ * But if $m > 0$ then the right hand side will always be even. 
+
+What about the right-hand side (now 3^m \cdot 5^n)?  Clearly 
+
+ * it will _always_ be odd, no matter what the value of $m$ or $n$.
+
+So to complete this section, we need to work things through when $m = 0$
+
+$$3^n \cdot 2^0 = 3^0 \cdot 5^n$$
+
+$$\rightarrow 3^n = 5^n$$
+
+
+
+
+What if $m > 0$?  In these cases the second element is always going to be a negative power of $2$, (i.e. $\frac{1}{2}$, $\frac{1}{4}$, $\frac{1}{8}$, $\frac{1}{16}$ etc) and we're into fractions.  
+
+In that case, just as in Problem 205, what can we say generally about this?  How about "if something can be divided by a higher power of $2$, then it can be divided by $2$ itself."  For us, that means we can say that _the left hand side must be divisible by two_.
+
+And already we've hit a problem, without even tackling the right hand side.  Remember, we're aiming for a progression solely made up of integers.  Yet here we have the situation where the first element of the right hand side of our equality is always odd, no matter what the value of $n$, yet the second element is always going to half it or more which will never produce a whole number.
+
+### Option 3 - when $n$ is negative
+
+Next up is option 3, where the starting point is now
+
+$$3^{m + (-n)} = (2^{m}) \cdot (5^-n)$$
+
+Which we can split apart a little as follows
+
+$$(3^{m}) \cdot (3^{-n}) = (2^m) \cdot (5^{-n})$$
+
+And then rearrange
+
+$$\frac{3^m}{3^n} = \frac{2^m}{5^n}$$
+
+$$\rightarrow \frac{3^n}{2^m} = \frac{3^m}{5^n}$$
+
+$$\rightarrow 3^n \cdot 2^{-m} = 3^m \cdot 5^{-n}$$
+
+Previously, the left-hand side (now $3^n \cdot 2^{-m}$) was always an odd number. What about now? If $m = 0$ then the second element ($2^{-m}$) is still equal to $1$.  That means the $3^n$ is effectively on its own, and _as before it is always odd no matter what the value of $n$_. 
+
+What if $m > 0$?  In these cases the second element is always going to be a negative power of $2$, (i.e. $\frac{1}{2}$, $\frac{1}{4}$, $\frac{1}{8}$, $\frac{1}{16}$ etc) and we're into fractions.  
+
+In that case, just as in Problem 205, what can we say generally about this?  How about "if something can be divided by a higher power of $2$, then it can be divided by $2$ itself."  For us, that means we can say that _the left hand side must be divisible by two_.
+
+And already we've hit a problem, without even tackling the right hand side.  Remember, we're aiming for a progression solely made up of integers.  Yet here we have the situation where the first element of the right hand side of our equality is always odd, no matter what the value of $n$, yet the second element is always going to half it or more which will never produce a whole number.
+
+
+
+
+
+
+
+
+
+
+$$ \rightarrow \frac{(\frac{3^n}{3^m})}{2^{-m}}  = 5^n$$
+
+$$ \rightarrow \frac{(\frac{3^n}{3^m})}{2^{-m}}  = 5^n$$
+
+
+
+$$$$
+
+
+
+
+$$\frac{3^n}{3^m} \times \frac{1}{2^m} = 5^n$$
+
+
+AIMING FOR (DURHAM): 
+$$(2^{-m}) \cdot (3^n) = (3^{-m}) \cdot (5^n)$$
+
+But why do we do this?
+
+
+Lets look at each side again in turn.  The left hand side ($(3^{-m}) \cdot (3^n)$) first. If $m = 0$ then the value of that side is $3^n$ which as we saw before is always odd.  
+
+If however $m > 1$ then 
+
+
+$$\frac{1}{2} * 3 = \frac{3}{2}$$
+
+
+$$\rightarrow \frac{1}{3^m} \cdot (3^n) = \frac{1}{2^m} \cdot (5^n)$$
+
+
+
+$$(2^{-m}) \cdot (3^n) = (3^{-m}) \cdot (5^n)$$
+
+Now we apply the same logic as we did before.  
+
 
 Despite there being a small error in Durham at this point it's not life-threatening to his solution.  I've corrected it but we can draw the same conclusion: unless $m = 0$, the result of $2^{-m}$ is a fraction, and therefore the right hand side can't be "even" as it won't even [sic - sorry] be an integer.
 
@@ -284,6 +396,9 @@ $$3^{(-m) + (-n)} = (2^{-m}) \cdot (5^{-n})$$
 And here the same arguments that we deployed back in Problem 205 when $m$ and $n$ were positive still apply.
 
 TBC!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
 
 ## Tricks Arising
 ### More Subtleties Around Odd and Even
