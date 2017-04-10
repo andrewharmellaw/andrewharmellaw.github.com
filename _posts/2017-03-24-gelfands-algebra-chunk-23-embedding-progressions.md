@@ -7,7 +7,7 @@ tags: [gelfand, arithmetic-progressions, geometric-progressions, tricks, odd, ev
 ---
 {% include JB/setup %}
 
-As mentioned at the close of [the previous chunk](), this next part (Section 43) is one of Gelfand's now-familiar "moar problems to embed and highlight subtleties and techniques from before" sections.
+As mentioned at the close of [the previous chunk](https://andrewharmellaw.github.io/2017/03/23/gelfands-algebra-chunk-22-geometric-progression-sums), this next part (Section 43) is one of Gelfand's now-familiar "moar problems to embed and highlight subtleties and techniques from before" sections.
 
 I used to think them a bit boring.  I now realise that its in these that most of the gold is hidden.  I'm going to go slowly.  Perhaps too slowly for some, but just to make sure we squeezed out all the goodness and siphoned it up into our brainboxes, ready for later deployment.
 
@@ -145,7 +145,7 @@ $$(\frac{3}{2})^m = q^{mn} = (\frac{5}{3})^n$$
 
 And now we can drop $q$ altogether, because if we can prove that equality is valid, then we've proven the three starting terms can exist in a single geometric progression.
 
-$$(\frac{3^m}{2^m}) = (\frac{5^n}{3^n})$$
+$$\frac{3^m}{2^m} = \frac{5^n}{3^n}$$
 
 And simplifying again we can remove our fractions by multiplying the numerator of each by the denominator of the other
 
@@ -253,7 +253,7 @@ $$\rightarrow n = \frac{5}{30}$$
 A great deal of this was unnecassary, but it felt reassuring to work it all through.  And to answer my own question, "yes, I think this way was easier."
 
 ## Problem 206
-This problem is an invitation to think more deeply about what we previously saw in Problem 205, but now with regards to the possibility that either $m$ or $n$, or both of them might be negative rather than positive as we assumed.
+This problem is an invitation to think more deeply about what we saw earlier in Problem 205, but now with regards to the possibility that either $m$ or $n$, or both of them, might be negative rather than positive as we had previously assumed.
 
 Let's remind ourselves a little what happens when something is raised to a negative power.  We were introduced to this back in [Chunk 5 - Powers: Positive and Negative](https://andrewharmellaw.github.io/2016/12/10/gelfands-algebra-chunk-5-powers).  The key bit is that $a^{-n} = \frac{1}{a^n}$.
 
@@ -264,9 +264,9 @@ With this in mind, we can start to follow the hint that Gelfand gives us.  We as
  1. $m$ is positive and $n$ is negative
  1. both $m$ and $n$ are negative
 
-We've already solved the first one when we worked on Problem 205. We can work through each one of the remaining three in turn.  In fact we need to, in order to have covered all our bases. 
+We've already solved the first one when we worked on Problem 205. We can work through each of the remaining three in turn.  In fact we need to, in order to have covered all our bases. 
 
-Following [Durham]() it's nice to jump in at the following point, just after we dropped the $q$ and re-jig from there.
+Following the starting point of [Durham](https://www.scribd.com/document/243387607/Gelfand-Algebra-Solutions)'s solution to this, it's nice to jump in at the following point, just after we dropped the $q$ and re-jig from there.
 
 $$3^{m + n} = 2^m \cdot 5^n$$
 
@@ -287,8 +287,8 @@ $$\rightarrow 3^n \cdot 2^m = 3^m \cdot 5^n$$
 
 Previously, the left-hand side (now $3^n \cdot 2^m$) was always an odd number. What about now? 
 
- * If $m = 0$ then the second element ($2^m$) is equal to $1$ and the right hand side will always be odd, no matter what the value of $n$. 
- * But if $m > 0$ then the right hand side will always be even. 
+ * If $m = 0$ then the second element ($2^m$) is equal to $1$ and the left-hand side will always be odd, no matter what the value of $n$ (as an odd number times another odd number is always an odd number)
+ * But if $m > 0$ then the right hand side will always be even (as an even number times an odd one is always an even number) 
 
 What can we say about the right-hand side (now $3^m \cdot 5^n$)?
 
@@ -346,7 +346,7 @@ One more to tackle. Ready?
 
 Another option, another starting point. This time its
 
-$$3^{(-m) + (-n)} = (2^{-m}) \cdot (5^-n)$$
+$$3^{(-m) + (-n)} = 2^{-m} \cdot 5^{-n}$$
 
 Which we can again split apart as follows
 
@@ -360,12 +360,12 @@ We're now into a bit of uncharted territory so lets put our logic hats back on a
 
  * if $m = n = 0$ then this side will equal $1$
  * if either $m$ or $n$ is greater than $1$, then this side will be a fraction
- * and this fraction will always be odd ($3$ to the power of anything, even $0$, is always an odd number, so both fractions on the left will always be odd too, and an odd fraction times an odd fraction gives another odd fraction)
+ * and this fraction will always be odd ($3$ to the power of anything, even $0$, is always an odd number; so both fractions on the left will always be odd too, and an odd fraction times an odd fraction gives another odd fraction)
 
 Now lets move to the right-hand side. Some more statements of fact:
 
  * if $m = n = 0$ then this side will also equal $1$
- * if either $m$ or $n$ is greater than $1$, this side will also always be a fraction
+ * if either $m$ or $n$ is greater than $0$, this side will also always be a fraction
  * If $m = 0$ then $\frac{1}{2^m} = 1$ and so this side will equal $\frac{1}{5^n}$ which is always odd
  * If $n = 0$ then $\frac{1}{5^n} = 1$ and so this side will equal $\frac{1}{2^m}$ which is always even
 
@@ -393,6 +393,31 @@ $$\rightarrow \frac{1}{1} = \frac{1}{1}$$
 $$\rightarrow 1 = 1$$
 
 Awesome!  So it looks like there is a situation when these numbers can exist in the same progression, when both $m$ and $n$ are equal to zero.
+
+### Putting it back to the start
+If you've been following [Durham](https://www.scribd.com/document/243387607/Gelfand-Algebra-Solutions)'s solution to this you'll have realised I've taken a different route, and also that I have a different result - he concludes that all options fail.  
+
+In that case, lets work our only satisfactory solution, $m=-1, n=-1$ back into our starting point, where we had our terms expressed in terms of powers of $q$, and see what happens.
+
+First up
+
+$$3 = 2q^n$$
+
+$$\rightarrow 3 = 2q^{-1}$$
+
+$$\rightarrow 3 = \frac{2}{q^1}$$
+
+$$\rightarrow q = 6$$
+
+Lets confirm that we get the same value for $q$ when we take 
+
+$$5 = 3q^m$$
+
+
+### Can non-integers be even or odd?
+
+
+
 
 ### But this is different from Durham!
 TBC
