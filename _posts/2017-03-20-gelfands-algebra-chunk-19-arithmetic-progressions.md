@@ -7,7 +7,11 @@ tags: [gelfand, tricks, arithmetic-progressions]
 ---
 {% include JB/setup %}
 
-I'm not sure if it was intended, but after the previous mind-bending of polynomial regression; the next section (39) is a blessed relief.  I'm going to summarise here the main points arising.  Its for my benefit mostly.  If youre working through the book, I suggest you do the problems yourself to help the chunk embed.
+I'm not sure if it was intended, but after the previous mind-bending of polynomial regression; the next section (39) is a blessed relief.  
+
+I'm going to summarise here the main points arising.  
+
+It's for my benefit mostly.  If you're working through Gelfand's book, I suggest you do the problems yourself to help the chunk embed.
 
 ## Definition
 An _arithmetic progression_ is a sequence of numbers where each term is a sum of the preceeding one and a _fixed number_. This fixed number is called the _common difference_, or simply _difference_ of the arithmetic progression.
