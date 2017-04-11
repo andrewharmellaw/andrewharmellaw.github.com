@@ -71,7 +71,7 @@ $$0^1 = 0^2 = 0^3 = 0^4 = 0^5 = 0$$
 
 Gelfand notes that in some circumstances these are verboten, specifiying that the ration is "non-zero".
 
-## Flip it and Reverse It
+## Flip It and Reverse It
 So what happens when we take a progression and write it in reverse?  What happens to the ratio then?  You might have guessed (perhaps casting your mind back to [Chunk 5 - Powers: Positive and Negative](https://andrewharmellaw.github.io/2016/12/10/gelfands-algebra-chunk-5-powers))
 
 Yup, our ratio becomes $\frac{1}{q}$.
