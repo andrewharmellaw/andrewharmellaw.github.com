@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Gelfand: Chunk 19 - Arithmetic Progressions Progress"
+title: "Gelfand: Chunk 20 - Arithmetic Progressions Progress"
 description: "Being Part the Second, in a Series of Posts on Progression"
 category: 
 tags: [gelfand, tricks, arithmetic-progressions, odd, even]
