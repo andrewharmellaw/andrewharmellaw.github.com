@@ -7,7 +7,7 @@ tags: [gelfand, tricks, geometric-progressions, positive, negative]
 ---
 {% include JB/setup %}
 
-You might remember we had a sneak peek at these things back in [Chunk 15 - Polynomial Division Addendum](https://andrewharmellaw.github.io/2017/02/28/gelfands-algebra-chunk-15-polynomial-division-special-cases).  Now we get to really get our teeth into it.
+You might remember we had a sneak peek at these things back in [Chunk 15 - Polynomial Division Addendum](https://andrewharmellaw.github.io/2017/02/28/gelfands-algebra-chunk-15-polynomial-division-special-cases).  Now we can really get our teeth into it.
 
 ## Definition - Geometric Progressions
 As is our wont, lets start with a definition, taken straight out of Gelfand, section 41.
@@ -24,9 +24,9 @@ $$a \cdot q^{n - 1}$$
 ## The "Two Possibilities" Subtlety
 In arithmetic progressions, we only had adding and subtracting and everything was easy.  But now we have multiplication, and that means there are subtleties.  Gelfand leads us to this with Problem 193.
 
-He asks, given a progression with first term of $1$ and third term of $4$, what is the second term.
+He asks, given a progression with first term of $1$ and third term of $4$, what is the second term?
 
-You can get all mathematical, but just looking at it it looks easy.  These are the powers of $2$ right? 
+You can get all mathematical, but just looking at it, it seems easy.  These are the powers of $2$ right? 
 
 $$2^0 = 1$$
 
@@ -55,7 +55,7 @@ $$1 \cdot (-2)^4 = 16$$
 What we're getting strongly hinted at here is the fact that even powers of negative numbers are even, but odd powers of negative numbers are negative.  Odd and even powers of even numbers are always even.
 
 ## The "Is that Really a Geometric Progression?" Subtlety
-If the common ratio ($q$ in our formula) is zero, then you end up with progressions which look similar to
+If the common ratio ($q$ in our formula) is zero, then you end up with progressions which look similar to this
 
 $$1, 0, 0, 0, 0, 0, 0, ...$$
 
@@ -69,7 +69,7 @@ but
 
 $$0^1 = 0^2 = 0^3 = 0^4 = 0^5 = 0$$
 
-Gelfand notes that in some circumstances these are verboten, specifiying that the ration is "non-zero".
+Gelfand notes that in some circumstances these are verboten, specifiying that the ratio is "non-zero".
 
 ## Flip It and Reverse It
 So what happens when we take a progression and write it in reverse?  What happens to the ratio then?  You might have guessed (perhaps casting your mind back to [Chunk 5 - Powers: Positive and Negative](https://andrewharmellaw.github.io/2016/12/10/gelfands-algebra-chunk-5-powers))
@@ -77,17 +77,19 @@ So what happens when we take a progression and write it in reverse?  What happen
 Yup, our ratio becomes $\frac{1}{q}$.
 
 ## Dropping Steps
-Can we drop every second step and still be a geometric progression? Yup, because this will leave the ratio between each constant. Here the common ratio changes from $q$ to $q^2$.
+Can we drop every second step and still be a geometric progression? Yah, because this will leave the ratio between each constant. Here the common ratio changes from $q$ to $q^2$.
 
-Can we drop every third?  No, we can't.  Just as in arithmetic progressions the ratio of the gaps is no longer constant (being $q$ between some and $q^2$ between others) and so these progressions are not geometric.
+Can we drop every third?  No, we can't.  Just as in arithmetic progressions, the ratio of the gaps is no longer constant (being $q$ between some and $q^2$ between others) and so these progressions are no longer geometric.
 
 ## Back to Roots
-The last part of this section (and of this post) is interesting for a few reasons.  Firstly, it gives us another (reverse) angle on the positive / negative aspect (via roots).  Secondly, we're back in the world of zeros not working for us.  Based on what we've seen before now, we know that these aspects are where it gets interesting.
+The last part of this section (but not of this post) is interesting for a few reasons.  Firstly, it gives us another (reverse) angle on the positive / negative aspect (via roots).  Secondly, we're back in the world of zeros not working for us.  Based on what we've seen before now, we know that these aspects are where it gets interesting.
 
 I'm now going to give a little more detail on Gelfand's solution.  (As per, plesae ignore this if you've already got things nice and clear in your head.  For me it personally helps to see all the gory, multi-step, micro-step detail.)
 
-First up, our first term: $a$
-Next our second term: $x$
+First up, our first term: $a$.
+
+Next our second term: $x$.
+
 Then our third term: $b$.
 
 To progress we need to know our common ratio, which I'm calling $z$ for a second  We can determine it using either $a$ or $b$.
