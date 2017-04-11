@@ -253,6 +253,31 @@ $$\rightarrow n = \frac{5}{30}$$
 A great deal of this was unnecassary, but it felt reassuring to work it all through.  And to answer my own question, "yes, I think this way was easier."
 
 ## Problem 206
+I got tied up on this problem for ages.  It helped be embed (hence the title of this chunk) far more deeply as a consequence.
+
+In this problem, Gelfand is asking us to try and think about things differently.  We know (because he has shown us) that the terms $2, 3$ and $5$ can't appear in a geometric progression _in the order presented_ because he showed us it was so.  But what about if they occurred in another order? What, asks Gelfand, should we do in these circumstances?
+
+It makes sense to look back at the previous two posts to see what is even possible in this regard.  We see our first one in [Chunk 21 - Geometric Progressions](https://andrewharmellaw.github.io/2017/03/21/gelfands-algebra-chunk-21-geometric-progressions) section "The 'Two Possibilities' Subtlety".  Here we see that a negative quotient $q$ can have our terms flipping from positive to negative.
+
+There is another alternative in the next section of the same post - "The 'is that Really a Geometric Progression' Subtlety".  In this one we can see that after an initial value which could be anything, the rest of the progression is made up of zeros.
+
+And the subsequent section contains our last possibility - "Flip it and Reverse it".  It gives us the possibility that our progressions don't have an increasing quotient $q$, rather that it might have a decreasing one.
+
+So which of these might change the game in our present $3, 4, 5$ situation?  Clearly the middle possibility, that the quotient is $0$, is out for us as we have three non-zero terms and this option allows us only one. If we were to tackle a progression of this kind it would be easy to spot. 
+
+That them leaves the other two.
+
+The first possibility indicates we _could_ have a negative quotient. We could still have a problem of this kind but sneakily stated only giving positive terms. Can this be happening here? The answer is "no". Progressions of this kind must also work when the quotient is positive, and we know that this doesn't work for us.
+
+The last possibility is that our progression might be going in reverse because our powers ($m$ and $n$) might be negative.  (Remember $n^-2 = \fracc{1}{n^2}$). However, being simply the mirror of the situation we investigated in Problem 205, it's existence does not negate the existence of the former. Therefore, if a progression is impossible in one direction, it is impossible in the other too.  
+
+We can therefore conclude that there are no possibilities when this might be a geometric progression, and after confirming that it is not a progression where the quotient is zero, our original approach sufficed to prove the other options.
+
+
+
+
+
+
 This problem is an invitation to think more deeply about what we saw earlier in Problem 205, but now with regards to the possibility that either $m$ or $n$, or both of them, might be negative rather than positive as we had previously assumed.
 
 Let's remind ourselves a little what happens when something is raised to a negative power.  We were introduced to this back in [Chunk 5 - Powers: Positive and Negative](https://andrewharmellaw.github.io/2016/12/10/gelfands-algebra-chunk-5-powers).  The key bit is that $a^{-n} = \frac{1}{a^n}$.
@@ -271,160 +296,72 @@ Following the starting point of [Durham](https://www.scribd.com/document/2433876
 $$3^{m + n} = 2^m \cdot 5^n$$
 
 ### Option 2 - when $m$ is negative
-All this means that when considering option 2, the starting point for us becomes
+Sometimes it takes me a while to get my head round Durham's solutions.  This question was one of those.  After the intro sentence that I still don't fully grok, he talks about re-writing $3^{m+n} = 2^m \cdot 5^n$ as $(2^{-m}) \cdot (3^n) = (3^{-m}) \cdot (5^n)$.  How did he do that?  I made the mistake of assuming that he'd made the $m$ negative before shoogling things around.  He didn't.  He shoogled them around _to make $m$ negative_.
 
-$$3^{(-m) + n} = 2^{-m} \cdot 5^n$$
+Here is the step-by-step:
 
-Which we can split apart a little as follows
+$$3^{m+n} = 2^m \cdot 5^n$$
 
-$$3^{-m} \cdot 3^n = 2^{-m} \cdot 5^n$$
+$$3^m \cdot 3^n = 2^m \cdot 5^n$$
 
-And then rearrange
+$$frac{3^n}{2^m} = \frac{5^n}{3^m}$$
 
-$$\frac{3^n}{3^m} = \frac{5^n}{2^m}$$
+$$(2^{-m}) \cdot (3^n) = (3^{-m}) \cdot (5^n)$$
 
-$$\rightarrow 3^n \cdot 2^m = 3^m \cdot 5^n$$
+Once he's arrived here he points out that if $m$ is not zero, then the expression on the left-hand side is divisible by $2$ (i.e. it's even) but that the right-hand side is not (i.e. it's odd).
 
-Previously, the left-hand side (now $3^n \cdot 2^m$) was always an odd number. What about now? 
+Let's see that
 
- * If $m = 0$ then the second element ($2^m$) is equal to $1$ and the left-hand side will always be odd, no matter what the value of $n$ (as an odd number times another odd number is always an odd number)
- * But if $m > 0$ then the right hand side will always be even (as an even number times an odd one is always an even number) 
+$$(2^{-m}) \cdot (3^n) = $$
 
-What can we say about the right-hand side (now $3^m \cdot 5^n$)?
+$$ = \frac{3^n}{2^m}$$
 
- * it will _always_ be odd, no matter what the value of $m$ or $n$.
+$$\rightarrow \frac{3^n}{2^1} = $$
 
-So to complete this section, we need to work things through when $m = 0$ which looks like our only hope for the equality holding. 
+$$ = \frac{3^n}{2}$$
 
-$$3^{(-m) + n} = 2^{-m} \cdot 5^n$$
+See the "divisible by $2$"? Durham literally means we're dividing by $2$. He's relying on us getting the fact that if $m > 1$ then we'll be dividing by a power of $2$, (e.g. $4$), and if you can divide by a power of $2$, then you can also divide by $2$.  And that means this side is even whenever $m > 0$.
 
-$$\rightarrow 3^{(0) + n} = 2^0 \cdot 5^n$$
+Let's now see the right-hand side in more detail to compare
 
-$$\rightarrow 3^n = 1 \cdot 5^n$$
+$$(3^{-m}) \cdot (5^n) = $$
 
-$$\rightarrow 3^n = 1 \cdot 5^n$$
+$$ = \frac{5^n}{3^m}$$
+
+$$\rightarrow \frac{5^n}{3^1}$$
+
+$$\frac{5^n}{3}$$
+
+Here see the fact we're dividing by $3$?.  Remember too that an odd number ($3$ in this case) no matter what power it's raised to is always odd.  And consequently we can see that this side must always divide by $3$, or a power thereof, and that therefore this side is always odd whenever $m > 0$.
+
+So when $m > 0$ we have an odd side and an even side.  That's no go.  That leaves when $m = 0$.
+
+$$(2^{-m}) \cdot (3^n) = (3^{-m}) \cdot (5^n)$$
+
+$$\rightarrow 2^{0} \cdot 3^n = 3^0 \cdot 5^n$$
+
+$$\rightarrow 1 \cdot 3^n = 1 \cdot 5^n$$
 
 $$\rightarrow 3^n = 5^n$$
 
-Argh. No dice.  (Folks with memories better than mine will have realised that the above working very quickly aligned with the working for Option 1. Go back and check it if you like. (It might help embed things even more solidly.
-
-To be nice and clear, this means we can't have these terms being in the same progression if $m$ is negative and $n$ is positive.
-
-However, we still have other options to explore. 
-
-Onward!
+Which clearly can't work.
 
 ### Option 3 - when $n$ is negative
+I started to write this out in the same detail to belabour the point, but it didn't seem worth it.  Durham takes the same route, but this time he re-arranges to make the $n$ negative rather than the $m$.  Once he's done this he applies the same stepwise logic as Option 2 above; reaching the same conclusions.
 
-Next up is option 3, where the starting point is now
+### Option 4 - when both $n$ and $m$ are negative
+Ditto, but this time the argument from Option 1 (seen in the discussion about Problem 205 above) applies.
 
-$$3^{m + (-n)} = (2^{m}) \cdot (5^-n)$$
+### How I went astray
+I spent _ages_ trying to grok this problem.  For a long time I thought I'd found an error in Durham.  My mistake was in my starting logic.
 
-Which we can again split apart as follows
+I too had began at $3^{m + n} = 2^m \cdot 5^n$, and I had the same four options to tackle, but from there I'd explicitly changed this formula by, for example, taking $m$ and making it negative as follows:
 
-$$3^{m} \cdot 3^{-n} = 2^m \cdot 5^{-n}$$
+$$3^{(-m) + n} = 2^{-m} \cdot 5^n$$ 
 
-And then rearrange
+And then re-arranging from there before applying my logic.  
 
-$$\frac{3^m}{3^n} = \frac{2^m}{5^n}$$
-
-$$\rightarrow 3^n \cdot 2^m = 3^m \cdot 5^n$$
-
-Now we need to kick in with the logic again.  We can shortcut matters too if we take a step back.  
-
-When we were working through option 2, at this point we had
-
-$$\rightarrow 3^n \cdot 2^m = 3^m \cdot 5^n$$
-
-_which is exactly what we have now._
-
-And so we can draw a similar conclusion - we will never be able to have a progression containing these terms, when $n$ is negative and $m$ is positive.
-
-One more to tackle. Ready?
-
-### Option 4 - when both $m$ and $n$ are negative
-
-Another option, another starting point. This time its
-
-$$3^{(-m) + (-n)} = 2^{-m} \cdot 5^{-n}$$
-
-Which we can again split apart as follows
-
-$$3^{-m} \cdot 3^{-n} = 2^{-m} \cdot 5^{-n}$$
-
-And then rearrange
-
-$$\frac{1}{3^m} \cdot \frac{1}{3^n} = \frac{1}{2^m} \cdot \frac{1}{5^n}$$
-
-We're now into a bit of uncharted territory so lets put our logic hats back on again. Left-hand side first. Let's begin with some statements of fact:
-
- * if $m = n = 0$ then this side will equal $1$
- * if either $m$ or $n$ is greater than $1$, then this side will be a fraction
- * and this fraction will always be odd ($3$ to the power of anything, even $0$, is always an odd number; so both fractions on the left will always be odd too, and an odd fraction times an odd fraction gives another odd fraction)
-
-Now lets move to the right-hand side. Some more statements of fact:
-
- * if $m = n = 0$ then this side will also equal $1$
- * if either $m$ or $n$ is greater than $0$, this side will also always be a fraction
- * If $m = 0$ then $\frac{1}{2^m} = 1$ and so this side will equal $\frac{1}{5^n}$ which is always odd
- * If $n = 0$ then $\frac{1}{5^n} = 1$ and so this side will equal $\frac{1}{2^m}$ which is always even
-
-There's more in there to think about, but if we pull back, there are only two situations where things might work out for us: 
-
- * when $m = 0$
- * when $m = n = 0$
-
-So to complete this section, we need to work these through. We'll start with when $m = 0$. 
-
-$$3^{(-m) + (-n)} = 2^{-m} \cdot 5^{-n}$$
-
-$$\rightarrow 3^{(0) + (-n)} = 2^0 \cdot 5^{-n}$$
-
-$$\rightarrow 3^{-n} = 1 \cdot 5^{-n}$$
-
-$$\rightarrow \frac{1}{3^n} = \frac{1}{5^n}$$
-
-Hmmm, what's the only way we can get this to work out?  If $n = 0$ too!
-
-$$\frac{1}{3^0} = \frac{1}{5^0}$$
-
-$$\rightarrow \frac{1}{1} = \frac{1}{1}$$
-
-$$\rightarrow 1 = 1$$
-
-Awesome!  So it looks like there is a situation when these numbers can exist in the same progression, when both $m$ and $n$ are equal to zero.
-
-### Putting it back to the start
-If you've been following [Durham](https://www.scribd.com/document/243387607/Gelfand-Algebra-Solutions)'s solution to this you'll have realised I've taken a different route, and also that I have a different result - he concludes that all options fail.  
-
-In that case, lets work our only satisfactory solution, $m=-1, n=-1$ back into our starting point, where we had our terms expressed in terms of powers of $q$, and see what happens.
-
-First up
-
-$$3 = 2q^n$$
-
-$$\rightarrow 3 = 2q^{-1}$$
-
-$$\rightarrow 3 = \frac{2}{q^1}$$
-
-$$\rightarrow q = 6$$
-
-Lets confirm that we get the same value for $q$ when we take 
-
-$$5 = 3q^m$$
-
-
-### Can non-integers be even or odd?
-
-
-
-
-### But this is different from Durham!
-TBC
-
-AIMING FOR (DURHAM): 
-$$(2^{-m}) \cdot (3^n) = (3^{-m}) \cdot (5^n)$$
-
+Why was this wrong?  To be honest I'm not entirely sure, but it didn't work
 
 ## Tricks Arising
 ### Removing fractions in equalities
@@ -445,7 +382,7 @@ We're slowly building up a mental set of rules - things which we know always hap
 We saw this brilliantly in this problem.  I'm betting it'll come in handy again.
 
 ### More Subtleties Around Odd and Even
-TBC - fractions
+TBC - odd and even fractions
 
 
 ## Problem 207
