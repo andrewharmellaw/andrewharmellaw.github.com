@@ -26,7 +26,7 @@ where $n$ is the number of fractions after the $1$.
 ## Problem 202 - Two Routes to a Formula
 This problem isn't particularly hard to grasp from the solution Geland provides, but it is instructive to examine the two routes, especially the intuitive leaps, that Gelfand shows us to get to the answer.
 
-Lets start with the first. We'll start where he starts, with the sum
+Lets start with the first. We'll begin where Gelfand does, with the sum
 
 $$a + aq + aq^2 + ... + aq^{n - 1}$$
 
@@ -110,4 +110,4 @@ Aside: This (and previous encounters with this kind of thing) sounds a little li
 ## Where Next?
 That's Gelfand done now on the core rules of progressions (arithmetic and geometric).  What he's about to do is set up a bunch of problems for us to help embed and understand the subtleties of what we learned.
 
-That's the next post. 
+That's the [next post](https://andrewharmellaw.github.io/2017/03/24/gelfands-algebra-chunk-23-embedding-progressions). 
