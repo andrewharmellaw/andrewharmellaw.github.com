@@ -7,7 +7,7 @@ tags: [gelfand, durham, polynomials, degrees, tricks, roots]
 ---
 {% include JB/setup %}
 
-Lets move through the rest of section 38, one problem at a time, pulling out those problems which have a trick to teach us.
+Let's move through the rest of section 38, one problem at a time, pulling out those problems which have a trick to teach us.
 
 ## Problem 165
 In this problem we have three points of a second-degree polynomial, $P(x) = ax^2 + bx + c$.  How so?  Notice
@@ -18,7 +18,7 @@ $$49 = 7^2$$
 
 $$100 = 10^2$$
 
-We also have three roots, and this is only possible for a second-degree polynomial if $P(x) = 0$ because otherwise we would have too many roots (it would need to be a third-degree polynomial for three roots to be permitted.
+We also have three roots, and this is only possible for a second-degree polynomial if $P(x) = 0$ because otherwise we would have too many roots. (It would need to be a third-degree polynomial for three roots to be permitted.)
 
 For $P(x) = 0$ we would have to have $a = b = c = 0$.
 
@@ -64,11 +64,11 @@ $$3(x - 2)(x - 3)$$
 
 Now we must pause.  We can't use the same trick for (d).  But there is a reason why this is a worked example. We're about to get schooled in another technique.  Can we see how it works?
 
-Lets take stock first. We have three polynomials, each of the second degree.  Now lets look and see if anything about (d) looks familiar... It does! It looks like a mash-up of the non-zero-result bits of (a)-(c).  Can we use this to our advantage?
+Lets take stock first. We have three polynomials, each of the second degree.  Now let's look and see if anything about (d) looks familiar... It does! It looks like a mash-up of the non-zero-result bits of (a)-(c).  Can we use this to our advantage?
 
 Yes we can.  We saw in [the previous chunk](https://andrewharmellaw.github.io/2017/03/09/gelfands-algebra-chunk-17-polynomial-and-linear-interpolation) that we could subtract one polynomial form itself, giving us a third polynomial for which $R(x) = 0$.  That felt _a lot like basic maths_ (as we noted).  Here it _seems_ as if we're going to do the reverse. We're going to add together three polynomials, each in the same single variable $x$ (a key point and worth highlighting), and in each case, the areas where they equal $0$ have no effect.  
 
-With this in mind, lets add the results of (a) - (c) together to see how it feels
+With this in mind, let's add the results of (a) - (c) together to see how it feels
 
 $$2(x - 1)(x - 2) - 2(x - 1)(x - 3) + 3(x - 2)(x - 3) = $$
 
@@ -86,7 +86,7 @@ Gelfand gives the game away on this one, and you see it happening all the time w
 
 That means, _if something looks (or feels) familiar, then perhaps it is.  Feel free to flick back._
 
-Note, this is also another reason why skipping ahead, even over simple things, is generally a bad idea and will cause you to come unstuck later on.
+Note, this is also another reason why skipping ahead, even over simple things, is generally a bad idea and will cause you to come unstuck later on.  That's not to say you shouldn't _read ahead_.  That's different, and will help build a general knowledge framework ahead of time.
 
 ### Addition and Subtraction is for Everyone
 It turns out you can keep addition and subtraction in your kit-bag for more than just the simplest of situations.  I'll bet there are circumstances when you need to be careful, but it seems very powerful.
