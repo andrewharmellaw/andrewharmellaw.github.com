@@ -10,13 +10,13 @@ tags: [gelfand, bezout, division, polynomials, remainder-theorem, tricks, factor
 ## There Must be an Easier Way...
 All this polynomial division is very exciting and all, but it's also very long-winded.  Surely there's an easier way? (At least in certain circumstances?)
 
-Well there is, at least for remainders, and factoring, and it's up next, all courtesy of [Bezout](https://en.wikipedia.org/wiki/%C3%89tienne_B%C3%A9zout) and his Remainder Theorem.  
+Reassuringly there is, at least for remainders, and factoring, and this is all up next, courtesy of [Bezout](https://en.wikipedia.org/wiki/%C3%89tienne_B%C3%A9zout) and his Remainder Theorem.  
 
 I'll let you go to Gelfand (section 37) for the simple reason why this works, but in general, if $P$ is an arbitrary polynomial (i.e. any polynomial in a single variable, $x$ in what follows) which we want to divide by $x - a$ then we can use the following equality to give us a jump on things:
 
 $$P(x) = (\hbox{quotient})(x - a) + (\hbox{remainder})$$
 
-This simple formula gives us a bunch of cool stuff.  These cool things are the subject of the rest of this post.
+This simple formula gives us a bunch of cool stuff and these cool things are the subject of the rest of this post.
 
 ## Tricks Arising
 
@@ -33,14 +33,16 @@ This is called the Remainder Theorem, and it was discovered by Etienne Bezout.
 
 Note, this is only a method to find the remainder. If you need the quotient, you still have to take the long way round as we described in the previous post.
 
-### Find out if $P$ is Divisible by $x - a$ - "Roots" to Factoring Joy
-The previous trick was nice, but not too magical.  Up next is a consequence of Bezout's theorem, and it's going to give us another weapon in our fight against factoring.  Now _that's_ magical.
+### Find out if $P$ is Divisible by $x - a$, aka "Roots" to Factoring Joy
+The previous trick was nice, but not too magical.  Up next is a consequence of Bezout's theorem, and it's going to give us another weapon in our fight against factoring.  
+
+Now _that's_ magical.
 
 First we need to take a step back.  Two in fact. Forget about polynomials, and forget about division.  We're going to introduce properly the concept of _roots_.
 
 Polynomials have things called _roots_. If I tell you they are also called a "zero" you might think back to the last time we heard the "zero" word with regards to factoring, in [Chunk 11 - Factoring to Zero](https://andrewharmellaw.github.io/2017/01/20/gelfands-algebra-chunk-11-factoring-to-zero).  In that post we found great solace for our annihilated-terms woes by "looking for the zero result".
 
-Gelfand is now going to take the finding-the-remainder element of this approach, and bring us up to speed with roots in general (without explicitly calling out the link I've just made - I found it by [reading around the topic](http://www.sosmath.com/algebra/factor/fac02/fac02.html).)
+Gelfand is now going to take the finding-the-remainder element of this approach, and bring us up to speed with roots in general (without explicitly calling out the link I've just made - I found it by [reading around the topic](http://www.sosmath.com/algebra/factor/fac02/fac02.html)).
 
 The definition of a root $x = a$ of a function $f(x)$ from the above linked page is as follows:
 
