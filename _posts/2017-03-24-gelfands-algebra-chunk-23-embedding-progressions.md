@@ -383,31 +383,91 @@ $$2^4 - 1 = 15$$
 
 Which means the $100$th term will be $$2^{100} - 1$.
 
-## Problems 214 and 215
-These problems are _very tightly coupled_ and so it makes a lot of sense to approach them together.  Why?  Because, the Fibbonacci sequence shown in 215 is one which meets the requirements of the progression in 214.
+## Problem 214
+I'll come back to this once I get to "Quadratic Equations" which Gelfand points out in his Hint.
 
-Given all this, let's give ourselves a few key facts. 
+## Problem 215
+The Fibbonacci sequence (which will be _incredibly_ familiar to anyone who does any form of agile software development) is a geometric sequence which follows the pattern identified in Problem 214.
 
- 1. We're still on geometric progressions
- 2. We'll be well placed to bring quadratic equations to mind (e.g. equations in the form $ax^2 + bx + c$)
+So what are we being asked to obtain in this problem?  Gelfand wants us to find out what $A$, and $B$ are.
 
-That raises a small question, what are the first two terms in Problem 214?  (Our rule, "a term is the sum of the two proceeding terms" needs this to start off.) The answer is, at least to help us get moving on a soluton, is $1$ and $1$, which we've stolen from Problem 215.
+The simplest way to do this is the approach taken by Durham (but here using my characteristic, every-microscopic-step-shown style) and that is to work things through for two scenarios. For us, that means to calculate using the simplest two knowns which are the first and second terms.  
 
-First term $a$
-Second term $b                            =  a $
-Third term  $c                            =  a +  b =  a +  a = 2a $
-Fourth term $d = b + c = b + a + b        =  a + 2b =  a + 2a = 3a $
-Fifth term  $e = c + d = a + b + a + 2b   = 2a + 3b = 2a + 3a = 5a $
-Sixth term  $f = d + e = a + 2b + 2a + 3b = 3a + 5b = 3a + 5a = 8a s$
+Super-handily these are $1$ and $1$ (which have $n = 1$ and $n = 2$).  We also have our equation which we know must produce these results: $A(\frac{1 + \sqrt{5}{2}) + B(1 - \sqrt{5}{2})$.
 
-$ax^2 + bx + c$
+Let's rearranging for $A$ first.  We begin by plugging in what we know (a result of $1$ and an $n$ of $1$)
 
+$$1 = A(\frac{1 + \sqrt{5}}{2})^1 + B(\frac{1 - \sqrt{5}}{2})^1$$
 
-Given this, can we 
+And then we can remove our powers of 1
 
+$$\rightarrow 1 = A(\frac{1 + \sqrt{5}}{2}) + B(\frac{1 - \sqrt{5}}{2})$$
 
-TBC
+And them remove the parentheses
 
+$$\rightarrow 1 = A \cdot \frac{1}{2} + A \cdot \frac{\sqrt{5}}{2} + B \cdot \frac{1}{2} - B \cdot \frac {\sqrt{5}}{2}$$
 
+Then multiply everything by $2$
 
-## Problem 
+$$\rightarrow 2 = A + A \cdot \sqrt{5} + B - B \cdot \sqrt{5}$$
+
+Then rearrange
+
+$$\rightarrow 2 = A + B + (A - B) \cdot \sqrt{5}$$
+
+Now let's rearrange for $B$.  We begin again by just plugging in what we know (this time a result of $1$ but an $n$ of $2$)
+
+$$1 = A(\frac{1 + \sqrt{5}}{2})^2 + B(\frac{1 - \sqrt{5}}{2})^2$$
+
+And then we can apply our powers of 2
+
+$$\rightarrow 1 = A(\frac{1 + 2 \cdot \sqrt{5} + 5}{4}) + B(\frac{1 - 2 \cdot \sqrt{5} + 5}{4})$$
+
+And them remove the parentheses
+
+$$\rightarrow 1 = A \cdot \frac{1}{4} + A \cdot \frac{\sqrt{5}}{4} + A \cdot \frac{5}{4} + B \cdot \frac{1}{4} - B \cdot \frac {\sqrt{5}}{4} + B \cdot \frac{5}{4}$$
+
+Then multiply everything by $4$
+
+$$\rightarrow 4 = 6 \cdot (A + B) + (A - B)  \cdot 2 \cdot \sqrt{5}$$
+
+Now we have these two pieces we can try and put them together.  The first equation is equal to $2$, but the second is equal to $4$, so let's double the first equation
+
+$$4 = 2 \cdot (A + B) + 2 \cdot (A - B) \cdot \sqrt{5}$$
+
+Now we can put both our equations together
+
+$$2 \cdot (A + B) + 2 \cdot (A - B) \cdot \sqrt{5} = 6 \cdot (A + B) + (A - B)  \cdot 2 \cdot \sqrt{5}$$
+
+If we then simplify by subtracting $2 \cdot (A - B) \cdot \sqrt{5}$ from both sides we get this
+
+$$2 \cdot (A + B) = 6 \cdot (A + B)$$
+
+$$\rightarrow 0 = 4 \cdot (A + B)$$
+
+$$\rightarrow A + B = 0$$
+
+$$\rightarrow A = -B$$
+
+Phew! That's quite a simplification.  Now that we know what $A$ and $B$ are in terms of each other, we can go back to the first of our rearranged equalities and obtain first $B$, and then from that $A$.
+
+Taking 
+
+$$ 2 = A + B + (A - B) \cdot \sqrt{5}$$
+
+and swapping each $A$ for $-B$ we get
+
+$$ 2 = (-B + B) + (-B-B) \cdot \sqrt{5} = -2B \cdot \sqrt{5} $$
+
+$$ \rightarrow B = \frac{-1}{\sqrt{5}} $$
+
+And from there getting $A$
+
+$$ \rightarrow A = -B = \frac{1}{\sqrt{5}} $$
+
+We could equally have done $A$ first and from there obtained $B$, but I followed Durham to keep everything predictable.
+
+## Another (non)-Conclusion
+Phew! That was a lot.  You're probably reeling from the shock of it all.  I'd suggest re-reading all this again, perhaps working through some other options of th last problem, and then taking a break.
+
+See you in the next chunk.
