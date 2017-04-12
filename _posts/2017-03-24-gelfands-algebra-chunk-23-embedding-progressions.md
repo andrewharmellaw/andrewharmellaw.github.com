@@ -201,7 +201,7 @@ We knew above that our equality was an inequality because we remembered (prodded
  * anything multiplied by zero being zero being another, 
  * and multiplication of positive and negative numbers being the last that I can think of.
 
-## Revisting Problem 204
+## Revisiting Problem 204
 It was super-useful to define the terms in terms [still sic] of each other in Problem 205.  Could we have made things simpler for ourselves by taking a similar approach in Problem 204?
 
 $$\frac{1}{3} = \frac{1}{5} + (n \cdot x)$$
@@ -273,17 +273,6 @@ The last possibility is that our progression might be going in reverse because o
 
 We can therefore conclude that there are no possibilities when this might be a geometric progression given these three numbers, and that after confirming that it is not a progression where the quotient is zero, our original approach sufficed to prove that the other two options were also impossible.
 
-### How I went astray
-I spent _ages_ trying to grok this problem.  For a long time I thought I'd found an error in Durham.  My mistake was in my starting logic.
-
-I too had began at $3^{m + n} = 2^m \cdot 5^n$, and I had the same four options to tackle, but from there I'd explicitly changed this formula by, for example, taking $m$ and making it negative as follows:
-
-$$3^{(-m) + n} = 2^{-m} \cdot 5^n$$ 
-
-And then re-arranging from there before applying my logic.  
-
-Why was this wrong?  To be honest I'm not entirely sure, but it didn't work
-
 ## Tricks Arising
 ### Removing fractions in equalities
 
@@ -302,11 +291,123 @@ We're slowly building up a mental set of rules - things which we know always hap
 
 We saw this brilliantly in this problem.  I'm betting it'll come in handy again.
 
-### More Subtleties Around Odd and Even
-TBC - odd and even fractions
-
-
 ## Problem 207
-Not so much a problem as a statement this one.  We're back at arithmetic progressions again and you're supposed to think about the difference as we have the first two terms.
+Not so much a problem as a statement this one.  We're back at _arithmetic_ progressions again, and you're supposed to think about the difference as we have the first two terms.
 
 In the case mentioned, we know we start with an integer, and then we have a second term which is also an integer.  That means the difference must also be an integer.  And if you add integers to integers, all you ever get are integers.
+
+That means it is impossible to have an arithmetic progression where the first two terms are integers, but all subsequent ones are not.
+
+## Problem 208
+This is a similar problem to 207, but we're now talking about _geometric_ progressions.  We saw in our discussion for Problem 205 (above) that geometric progressions can go backwards, and that when the powers of the quotient flip from positive to negative then we enter the realm of fractions with a numerator of $1$, and stay there.  And what is such a fraction not? An integer, that's what.
+
+## Problem 209
+We've flipped back to arithmetic progressions again.  Remember in this type, the difference must always be the same, and if the second term is less than the first, but also less than the third, then this doesn't hold true, because as Gelfand points out, the difference, which might be of the same magnitude, would be positive and negative at the same time, which is verboten.
+
+## Problem 210
+Geometric once again.  Now it is handy to recall Problem 205 again.  Geometric progressions _can_ flip-flop, from positive to negative, when the quotient is negative.  That means it is possible to have a geometric progression where the second term is less than the first term, and also less than the third term.
+
+## Problem 211
+Now we're back on our own again. Well, almost.  Gelfand does give us a hint, but lets see what we can make of things before we take him up on it
+
+First lets lay out what we know:
+
+ * we're talking about arithmetic progressions, which means all our terms can be calculated by the formula $x = a + (n - 1) \cdot d$
+ * we need to have "exactly one integer term" which means all terms must be the same
+
+Following this logic through, that means that to achieve this, then the difference between terms must be zero ($d = 0$). 
+
+Does that tell us what our starting point needs to be?  Nope, we can pick anything we want (i.e. $a$ can be anything).
+
+Let's see how that plays out:
+
+$$n = 1 \rightarrow a + (1 - 1) \cdot 0 = a + 0 = a$$
+
+$$n = 2 \rightarrow a + (2 - 1) \cdot 0 = a + 0 = a$$
+
+$$n = 3 \rightarrow a + (3 - 1) \cdot 0 = a + 0 = a$$
+
+Etc. Etc. ad infinitum.
+
+It seems that you _can_ have an arithmetic progression which contains exactly one integer term.  
+
+But there is a problem with this.  Have we misunderstood the question?  Does Gelfand _really_ mean that we want to find an arithmetic progression which has one integer term, and all other terms are non-integers?  
+
+If that is the case, then it's time to take him up on his offer of the hint.
+
+Again, let's start by laying out what we know:
+
+ * we're still talking about arithmetic progressions, which means all our terms can be calculated by the formula $x = a + (n - 1) \cdot d$
+ * the hint tells us that we're starting at zero, which means $a = 0$. This is our single integer
+ * and it is also hinted that we use a difference, $d$ of $\sqrt{2}$
+ 
+Given all this, then the $n$th term will be $0 + (n - 1) \cdot \sqrt{2}$. It is essential that this be a non-integer when $n > 1$  (i.e. all subsequent terms) if we are to find the progression Gelfand is looking for.
+
+We can simplify this, stating that all terms other than the first (i.e. where $n > 1$) will be in the form $b \cdot \sqrt{2}$.  
+
+It is in this that we need to find our solution, well, actually the reason that this is our solution.  How do we know that $b \cdot \sqrt{2}$ will never give us an integer?
+
+We can approach this from the reverse angle.  If, instead of $d = \sqrt{2}$ our $d$ was an integer, clearly our progression would contain lots more integers, which is a failure.  If on the other hand, our $d$ was a rational number (a fraction) then eventually, as we moved through the progression, we would get to a multiple of that fraction which was a whole number, an integer, and we woulf fail again.
+
+What we need then is a number which no matter how many times you multiply it, it is still a fraction.  For that we need an _irrational_ number.  The simplest one of these is $\sqrt{2}$.  That's why Gelfand picked it.
+
+This all seems a little mind-bending. We'll get around to Irrational Numbers in a later chunk so please trust me and don't worry about it too much for now.
+
+## Problem 212
+Given what we've seen, it's now quite clear why Gelfand answers this problem with a single word - "no".  There is no $d$ which we can use in an arithmetical progression which will give us one more integer after the starting figure $a$, and then never give us one again.
+
+## Problem 213
+This one is a simple geometric progression, but with a little bit of fiddling after the fact. 
+
+Remember this from ["Chunk 21 - Geometric Progressions"]()?
+
+$$2^1 = 2$$
+
+$$2^2 = 4$$
+
+$$2^3 = 8$$
+
+Which came from 
+
+$$a \cdot q^{n-1}$$
+
+Here, our numbers are just one less than that.  I.e.
+
+$$2^1 - 1 = 1$$
+
+$$2^2 - 1 = 3$$
+
+$$2^3 - 1 = 7$$
+
+$$2^4 - 1 = 15$$
+
+Which means the $100$th term will be $$2^{100} - 1$.
+
+## Problems 214 and 215
+These problems are _very tightly coupled_ and so it makes a lot of sense to approach them together.  Why?  Because, the Fibbonacci sequence shown in 215 is one which meets the requirements of the progression in 214.
+
+Given all this, let's give ourselves a few key facts. 
+
+ 1. We're still on geometric progressions
+ 2. We'll be well placed to bring quadratic equations to mind (e.g. equations in the form $ax^2 + bx + c$)
+
+That raises a small question, what are the first two terms in Problem 214?  (Our rule, "a term is the sum of the two proceeding terms" needs this to start off.) The answer is, at least to help us get moving on a soluton, is $1$ and $1$, which we've stolen from Problem 215.
+
+First term $a$
+Second term $b                            =  a $
+Third term  $c                            =  a +  b =  a +  a = 2a $
+Fourth term $d = b + c = b + a + b        =  a + 2b =  a + 2a = 3a $
+Fifth term  $e = c + d = a + b + a + 2b   = 2a + 3b = 2a + 3a = 5a $
+Sixth term  $f = d + e = a + 2b + 2a + 3b = 3a + 5b = 3a + 5a = 8a s$
+
+$ax^2 + bx + c$
+
+
+Given this, can we 
+
+
+TBC
+
+
+
+## Problem 
