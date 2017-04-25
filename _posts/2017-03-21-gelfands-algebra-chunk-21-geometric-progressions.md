@@ -12,7 +12,7 @@ You might remember we had a sneak peek at these things back in [Chunk 15 - Polyn
 ## Definition - Geometric Progressions
 As is our wont, lets start with a definition, taken straight out of Gelfand, section 41.
 
-"A _geometric progression_ is a sequence of numbers where each term is a _product_ of the proceeding one and a fixed number. This fixed number is called the _common ratio_ (or ratio) of the geometric progression."
+> "A _geometric progression_ is a sequence of numbers where each term is a _product_ of the proceeding one and a fixed number. This fixed number is called the _common ratio_ (or ratio) of the geometric progression."
 
 I added the second set of italics.  It highlights the key difference between these and arithmetic progressions - there we were adding, whereas now we're multiplying.
 
