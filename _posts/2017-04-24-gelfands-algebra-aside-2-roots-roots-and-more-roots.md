@@ -8,7 +8,9 @@ tags: [gelfand, roots, radicals, quadratic-equations, polynomials]
 {% include JB/setup %}
 
 ## Roots, Bl**dy Roots
-We need to talk about roots.  They are one of those situations you hit when, as you learn something new, or try and gain a deeper understanding of something you half know, when two _totally separate_ concepts share a common-name, and hence you tie yourself in knots trying to figure out how they are related.
+We need to talk about roots.  
+
+There are situations you come across occasionally, as you learn something new, or try and gain a deeper understanding of something you half know, when two _totally separate_ concepts share a common-name, and hence you tie yourself in knots trying to figure out how they are related.
 
 In algebra, "roots" are one of those situations.
 
