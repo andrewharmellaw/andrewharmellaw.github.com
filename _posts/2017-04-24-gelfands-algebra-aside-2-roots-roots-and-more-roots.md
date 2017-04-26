@@ -44,7 +44,4 @@ There are two brilliantly simple pages covering these:
  * [Sqaure Roots and Radicals](https://www.wyzant.com/resources/lessons/math/algebra/square_roots_and_radicals) (from Wyzant.com)
  * [The Fundamental Theorem of Algebra](https://www.mathsisfun.com/algebra/fundamental-theorem-algebra.html) (from MathsIsFun.com)
 
-https://www.wyzant.com/resources/lessons/math/algebra/square_roots_and_radicals
-https://www.mathsisfun.com/algebra/fundamental-theorem-algebra.html
-
 With all that cleared up, we're free now to move on to Quadratic equations.
