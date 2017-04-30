@@ -21,7 +21,7 @@ What follows are my notes from working through problem 2 (pp. 4) using the chunk
 In the course of doing this I noted some tricks.  I have _highlighted_ (and explained them a little more in a later section).
 
 #### Step 1: "Work a problem all the way through on paper"
-(you'll just have to trust me when I say I did this.)
+(You'll just have to trust me when I say I did this.)
 
 #### Step 2: "Work it through again, paying attention to the key processes"
 The steps I followed were as you'd expect from the worked solution in the book:
@@ -46,19 +46,21 @@ And so we're done, giving us the following solution:
   $$\begin{matrix} \phantom 0 \phantom0 \texttt{1} \texttt{1} \texttt{1} \\ \underline{\texttt{+}\texttt{ }\texttt{ }\texttt{9}\texttt{9}\texttt{9}}  \\ \phantom0 \texttt{1110} \end{matrix}$$
 
 #### Step 3: "Take a break"
-Basically I stopped there and went on to the next set of problems (the ones we get onto later in this post)
+Basically I stopped there and went on to the next set of problems. (The ones we get onto later in this post.)
 
 #### Step 4: "Sleep"
-This involved working each and every of the steps I described above. _Then, dear reader, I slept._
+This involved working each and every of the steps I described above. 
+
+_Then, dear reader, I slept._
 
 #### Step 5: "Do another repetition"
 First thing next morning, I worked the problem yet again, following each and every one of the original steps.  Oakley states "your understanding should be deeper" and she's right - the repetitions (and breaks) meant that now certain visual elements of both the problem and the solution came to me.  I've captured these realisations below in the "Tricks learned" section below as _"many patterns you can spot visually"_ and _"have lots of space around your problems as you work"_
 
 #### Step 6: "Add another problem"
-At this point I kept going into the Multiplication problem in the second half of this post.
+At this point I kept on going, launching into the Multiplication problem that is the subject of the second half of this post.
 
 #### Step 7:  "Do 'active' repetitions"
-I take a walk out at lunch, and drive to and from work which takes 40 - 60 minutes each way, so on all of these occasions I repeated the solutio steps to myself, making sure I visualised evrerything fully.
+I take a walk out at lunch, and drive to and from work which takes 40 - 60 minutes each way, so on all of these occasions I repeated the solution steps to myself, making sure I visualised everything fully.
 
 And that's it.  It felt like it worked really well.  It didn't feel self-patronising either.  By focussing on something mathematically simple, I just freed up space to grokk the process itself, and how it felt when it acted.  I did also get a far better, and more explicit understanding of the nuances of the patterns inherant in the Addition Algorithm.
 
@@ -84,9 +86,11 @@ Unlike previoulsly, I'll not write out in detail my chunking-led approach to thi
   *  The second impact is of addition, which can be seen using the Standard Addition Algorithm (see above), and here the same patterns again apply
 
 ## Long-Division Algorithm
-From [wikipedia](https://en.wikipedia.org/wiki/Elementary_arithmetic#Division): "In mathematics, especially in elementary arithmetic, division is an arithmetic operation which is the inverse of multiplcation."
+From [wikipedia](https://en.wikipedia.org/wiki/Elementary_arithmetic#Division): "In mathematics, especially in elementary arithmetic, division is an arithmetic operation which is the inverse of multiplication."
 
-There is yet again a well-estabilshed algorithm for handling division in the positional number systems called "long division".  It is explained well in the wikipedia page linked above.
+Note: This isn't in my experience strictly speaking 100% true.  It'll help you get along for now, but bear in mind that in time (and we'll get to it in later posts) you'll see some differences, for example multiplying by zero (result: zero) and dividing by zero (result: undefined).
+
+There is yet again a well-established algorithm for handling division in the positional number systems called "long division".  It's explained well in the wikipedia page linked above.
 
 ### Long-Division Patterns and Cyclic Numbers
 Gelfand stops at one point to point out the existence of so-called "cyclic numbers".  There is a [whole load of detail](https://en.wikipedia.org/wiki/Cyclic_number) on this which he doesn't go into, and there is no need to know any more about them than notice their existence and the circumstances under which they arise.  What is important here (I now realise on second reading) is that my previously mentioned "pattern-awareness" can help you notice a lot of things.  I'm going to go into this a little more in the next section.  One thing I want to note here however is that, as a visual thinker, I was happy to see just how much physically "seeing" patterns on the page in front of you was a valuable skill.  
@@ -94,12 +98,23 @@ Gelfand stops at one point to point out the existence of so-called "cyclic numbe
 ## Tricks Arising
 I've alluded to "tricks" that I learned as I went.  It seems to me that these are going to become more and more key as I progress through my maths journey.  The ones I have so far are:
 
-* _Many patterns you can spot visually_ - take time to lay out your problem in a way which is clear.  Areas which are not symmetrical after you have done this may be worthy of attention
-* _Have lots of space around your problems as you work_ - this feels (to me at least) as if it creates a corresponding mental (working memory?) space.  It also helps when trying to spot viaual elements
-* _Eliminate the impossible_ - what can't happen?  This shrinks the problem space, and gives you less to think about, allowing you to focus
-* _Break the problem into smaller, more manageable pieces_ - then work back up to the complete solution - again, simplify
-* _Start from zero, and then work up, one step at a time_ - self-explanatory really
-* _If the order of terms makes no difference to the result, use this to your advantage_ - Are you going to draw out 517 x 1001 or 1001 x 517?  Pick the one which makes things easier
+### Many patterns you can spot visually
+Take time to lay out your problem in a way which is clear.  Areas which are not symmetrical after you have done this may be worthy of attention
+
+### Have lots of space around your problems as you work
+This feels (to me at least) as if it creates a corresponding mental (working memory?) space.  It also helps when trying to spot viaual elements.
+
+### Eliminate the impossible
+What _can't_ happen?  This shrinks the problem space, and gives you less to think about, allowing you to focus.
+
+### Break the problem into smaller, more manageable pieces
+Then work back up to the complete solution - again, simplify.
+
+### Start from zero, and then work up, one step at a time
+Self-explanatory this one really.
+
+### If the order of terms makes no difference to the result, use this to your advantage
+Are you going to draw out 517 x 1001 or 1001 x 517?  Pick the one which makes things easier.
 
 ## Additional Notes
 Well, thats it for this post on the first two Gelfand-chunks. But before I close, a few other things seemed to relevant to bring out as they form part of the basic idiom of mathematics and algebra we are examining here.
@@ -114,7 +129,8 @@ The following terminology was introduced:
 * ['Dividend'](https://www.mathsisfun.com/definitions/dividend.html) (MathIsFun.com)
 * ['Divisor'](https://www.mathsisfun.com/definitions/divisor.html) (MathIsFun.com)
 * ['Quotient'](https://www.mathsisfun.com/definitions/quotient.html) (MathIsFun.com)
-* ['Remainder'](https://www.mathsisfun.com/definitions/remainder.html) (MathIsFun.com)
+* ['Remainder'](https://www.mathsisfun.com/definitions/remainder.html) (MathIsFun.com) 
+* ['Expression'](https://www.mathsisfun.com/definitions/expression.html) (MathIsFun.com)
 
 ### Notation:
 As well as this notation note:
