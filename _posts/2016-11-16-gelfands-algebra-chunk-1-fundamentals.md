@@ -8,7 +8,9 @@ tags: [exchange-of-terms, method-addition, method-multiplication, method-long-di
 {% include JB/setup %}
 NOTE: If you want to know the general idea behind this series of blog posts, check out the [intro-post](/index.html).
 
-In this first post I'm starting at a super-basic level, but with the intention of getting my head used to the method of chunking much advocated in [Oakley's "A Mind for Numbers"](https://www.amazon.co.uk/Mind-Numbers-Science-Flunked-Algebra-ebook/dp/B00G3L19ZU). My aim being that the method, as well as the chunks it produces will embed nicely before I start to use either in anger.  The following is based on problems 1 to 24 from [Gelfand's "Algebra"](https://www.amazon.co.uk/Algebra-I-M-Gelfand/dp/0817636773).
+In this first post I'm starting at a super-basic level with the math-elements because the main intention is to get my head used to the method of chunking much advocated in [Oakley's "A Mind for Numbers"](https://www.amazon.co.uk/Mind-Numbers-Science-Flunked-Algebra-ebook/dp/B00G3L19ZU). My aim being that the method, as well as the chunks it produces will embed nicely before I start to use either in anger.  The following is based on problems 1 to 24 from [Gelfand's "Algebra"](https://www.amazon.co.uk/Algebra-I-M-Gelfand/dp/0817636773).  
+
+Lots of the subsequent posts will be taken from chunks derived from that book too.  You can tell which because it'll be flagged in the title, and a tag ("gelfand").
 
 ## Addition Algorithm
 Gelfand kicks off with the Standard Addition Algorithm. It will surely be familiar to everyone from their elementary mathematics.  It's described nicely [over at wikipedia](https://en.wikipedia.org/wiki/Elementary_arithmetic#Addition_algorithm).
