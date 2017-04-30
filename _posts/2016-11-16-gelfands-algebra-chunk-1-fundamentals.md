@@ -146,7 +146,7 @@ And two number systems were also mentioned. (This is very interesting to look in
 ### "Undefined"
 This is the first time we hit the phrase "undefined" - still in our case in the realm of arithmetic. In this case it is when we try and divide a real number by $0$.  There is also the case of $0^0$.  In both cases these are circumstances when we know what we are trying to do doesnt make sense, so there is no "answer", so the expression is "undefinded". 
 
-### Rational and Real Numbers
-From [wikipedia](https://en.wikipedia.org/wiki/Rational_number): "Rational numbers are any number that can be expressed as the quotient or fraction $p/q$ of two integers, a numerator $p$ and a non-zero denominator $q$. Since $q$ may be equal to $1$, every integer is a rational number."
+### Rational, Real and Irrational Numbers
+From [wikipedia](https://en.wikipedia.org/wiki/Rational_number): "Rational numbers are any number that can be expressed as the quotient or fraction $\frac{p}{q}$ of two integers, a numerator $p$ and a non-zero denominator $q$. Since $q$ may be equal to $1$, every integer is a rational number."
 
 Again from [wikipedia](https://en.wikipedia.org/wiki/Real_number): "Real numbers are values that represent a quantity along a line.  The real numbers include all the rational numbers such as the integer $-5$ and the fraction $\frac{4}{3}$, and all the irrational numbers such as $\sqrt[2]{2}$"
