@@ -122,7 +122,7 @@ $$ = 37000 $$
 
 Again we're looking to arrange things so we can (re-)state our problem in terms of groups of numbers which are simpler to add  / multiply.
 
-But can we take this trick of "re-arrangement" further and add even more to our kit bag?  The answer is "yes", and it's also our first encounter with Karl Gauss - to many the mathematicians mathematician.
+But can we take this trick of "re-arrangement" further and add even more to our kit bag?  The answer is "yes", and it's also our first encounter with [Carl Friedrich Gauss](https://en.wikipedia.org/wiki/Carl_Friedrich_Gauss) - to many the mathematicians mathematician.
 
 To see this, take a look at Problem 35 (pp. 14) in Gelfand.
 
