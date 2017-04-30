@@ -98,7 +98,7 @@ Gelfand stops at one point to point out the existence of so-called "cyclic numbe
 ## Tricks Arising
 I've alluded to "tricks" that I learned as I went.  It seems to me that these are going to become more and more key as I progress through my maths journey.  The ones I have so far are:
 
-### Many patterns you can spot visually
+### You can spot many patterns visually
 Take time to lay out your problem in a way which is clear.  Areas which are not symmetrical after you have done this may be worthy of attention
 
 ### Have lots of space around your problems as you work
