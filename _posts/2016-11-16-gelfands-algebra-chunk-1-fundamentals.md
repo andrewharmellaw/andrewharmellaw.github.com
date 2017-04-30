@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Gelfand: Chunk 1 - Fundamentals"
+title: "Gelfand: Chunk 1 - Fundamentals (but mostly getting to grips with Oakley's approach)"
 description: "This is the very bottom."
 category: [algebra]
 tags: [exchange-of-terms, method-addition, method-multiplication, method-long-division, gelfand, oakley, tricks]
