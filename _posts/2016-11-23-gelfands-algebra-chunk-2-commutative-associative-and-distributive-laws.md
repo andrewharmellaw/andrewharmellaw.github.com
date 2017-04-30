@@ -102,11 +102,23 @@ In all these cases we're looking to arrange things so we can (re-)state our prob
 
 Example 3: when the elements are already in place ready to be simplified: 
 
-$$37 \cdot 25 \cdot 4 = 37 \cdot 100 = 3700$$
+$$37 \cdot 25 \cdot 4 = $$
+
+$$ = 37 \cdot 100 = $$ 
+
+$$ = 3700$$
 
 Example 4: when you need to do some splitting in order to get to your simple elements: 
 
-$$125 \cdot 37 \cdot 8 = 5 \cdot 25 \cdot 8 \cdot 37 = 5 \cdot 200 \cdot 37 = 1000 \cdot 37 = 37000$$
+$$   125 \cdot 37 \cdot 8 = $$
+
+$$ = 5 \cdot 25 \cdot 8 \cdot 37 = $$
+
+$$ = 5 \cdot 200 \cdot 37 = $$
+
+$$ = 1000 \cdot 37 = $$
+
+$$ = 37000 $$
 
 Again we're looking to arrange things so we can (re-)state our problem in terms of groups of numbers which are simpler to add  / multiply.
 
@@ -118,12 +130,18 @@ To see this, take a look at Problem 35 (pp. 14) in Gelfand.
 
 Example 5: the Distributive Law can be applied to remove parentheses in increasingly complex scenarios simply by: 
 
-$$(m+n)(a+b) = ma + mb + na + nb$$
+$$ (m+n)(a+b) = $$
+
+$$ = ma + mb + na + nb $$
 
 ## Tricks Arising
 
 ### Split a number into two numbers which sum / multiply to the same result if it's useful
-e.g. $0 = -5 + 5$, $125 = 5 \cdot 25$
+e.g. 
+
+$$0 = -5 + 5$$ 
+
+$$125 = 5 \cdot 25$$
 
 ## Additional Notes
 
