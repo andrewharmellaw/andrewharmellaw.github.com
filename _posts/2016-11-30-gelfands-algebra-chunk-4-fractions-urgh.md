@@ -15,7 +15,7 @@ Urgh.
 
 It amused me slightly to read on Google's "define" page that they are termed "vulgar fractions".  I couldn't agree more.
 
-But they're important. (Isn't everything?) So I'm forcing myself to work through this slowly to build yet another chunk.  If you're concerned you might be patronised reading this, please pass it by - you probably will be.  It's more an excercise to hammer the full detail home to myself and avoid another skim-read.  Why? I'm enthused already by the power, durability and utility of the first chunks I built up in prior posts, and want to get more.
+But they're important (isn't everything?) and so I'm forcing myself to work through this slowly to build yet another chunk.  If you're concerned you might be patronised reading this, please pass it by - you probably will be.  It's more an excercise to hammer the full detail home to myself and avoid another skim-read.  Why? I'm enthused already by the power, durability and utility of the first chunks I built up in prior posts, and want to get more.
 
 ## The Constituent Parts
 From Google "define":
@@ -24,10 +24,10 @@ From Google "define":
 * Denominator: The part below the line, showing the divisor (how many parts a single thing is divided onto.)
 
 ## Basic Fraction Manipulations
-(from Gelfand, Chapter 34: Converting a Rational Expression into the Quotient of Two Polynomials)
+(from Gelfand, Section 34: Converting a Rational Expression into the Quotient of Two Polynomials)
 
 ### Addition
-To add, if you don't have one to begin with, start by finding a common denominator for $P/Q$ and $R/S$. (If we have no better idea , just multiply $P$ and $Q$ by $S$ and multiply $R$ and $S$ by $Q$).  Then just add the numerators.
+To add, if you don't have one to begin with, start by finding a common denominator for $\frac{P}{Q}$ and $\frac{R}{S}$. (If we have no better idea , just multiply $P$ and $Q$ by $S$ and multiply $R$ and $S$ by $Q$).  Then just add the numerators.
 
 $$ \frac{P}{Q} + \frac{R}{S}  =$$
 
@@ -48,7 +48,7 @@ but remember to avoid the commonly associated pitfall
 $$\frac{a}{b + c} \neq \frac{a}{b} + \frac{a}{c}$$
 
 ### Subtraction
-Subtraction is similar to addition:
+Subtraction is similar to addition. Again start by finding a common denominator for $\frac{P}{Q}$ and $\frac{R}{S}$. (If we have no better idea , just multiply $P$ and $Q$ by $S$ and multiply $R$ and $S$ by $Q$).  Then just subtract the numerators:
 
 $$ \frac{P}{Q} - \frac{R}{S} = $$
 
@@ -57,6 +57,7 @@ $$ = \frac{PS}{QS} - \frac{QR}{QS} = $$
 $$ = \frac{PS - QR}{QS} $$
 
 ### Multiplication
+This is the simplest of the lot. Simply multiply one numerator by the other, and one denominator by the other:
 
 $$ \frac{P}{Q} \cdot \frac{R}{S} = $$
 
