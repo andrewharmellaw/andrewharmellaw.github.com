@@ -20,7 +20,7 @@ $$a^{-n} = \frac{1}{a^n}$$
 
 $$a^0 = 1$$
 
-There's something worth noting explicitly in this general definition, and its a concept we've never encountered before now; a methematical "convention".
+There's something worth noting explicitly in this general definition, and its a concept we've never encountered before now; a mathematical "convention".
 
 ## The Convention of Negative Powers and Fractions
 Writing $\frac{1}{2}$ as $2^{-1}$ is a convention.  But a convenient one.  
