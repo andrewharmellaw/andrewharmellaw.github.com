@@ -7,8 +7,6 @@ tags: [gelfand, stewart-algebra-review, fractions, division, distributive-law, t
 ---
 {% include JB/setup %}
 
-![Fractions Y U No](https://cdn.meme.am/cache/instances/folder741/500x/73770741.jpg)
-
 Yet another of my mental stumbling-blocks today - fractions. 
 
 Urgh.
