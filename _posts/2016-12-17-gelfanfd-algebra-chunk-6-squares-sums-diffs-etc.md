@@ -10,20 +10,30 @@ tags: [gelfand, square-of-a-sum, square-of-a-difference, difference-of-squares, 
 Now that we have a bunch of the fundamentals and some conventions and core tricks in place, things can start to get fun.  First up are the collection known as the "Short Multiplcation Formulas".
 
 ## General Definition of Square of a Sum
-We saw in the previous post that when you multiply two sums you multiply each term in the first, but each term in the second, and then add up all the products.
+We saw in the previous post that when you multiply two sums you multiply each term in the first by each term in the second, and then add up all the products.
 
-$$(a + b)(m + n) = am + an + bm + bn$$
+$$(a + b)(m + n) = $$
 
-The thing that is defined as the "Square of a Sum" is a special case of this - when the numbers in the parentheses are the same
+$$ = am + an + bm + bn$$
 
-$$(a + b)(a + b) = a^2 + ab + ba + b^2 = a^2 + 2ab + b^2$$
+The thing that is defined as the "Square of a Sum" is a special case of this - when the numbers in the parentheses are the same, like so
 
-Or as it is more formally stated (and more obviously a "square of a sum")
+$$(a + b)(a + b) = $$
 
-$$(a + b)^2 = a^2 + ab + ba + b^2 = a^2 + 2ab + b^2$$
+$$ = a^2 + ab + ba + b^2 = $$
 
-### Aside: General Definition of the Sum of two Squares
-Be careful, the Square of a Sum is _not_ the same as a Sum of two Squares.  The latter's not something official, but it's worth pointing out for clarity. 
+$$ = a^2 + 2ab + b^2$$
+
+Or as it is more formally stated (and more obviously a "square of a sum" - there is a sum of $a$ and $b$, and then you multiply that by itself, squaring it)
+
+$$(a + b)^2 = $$
+
+$$ = a^2 + ab + ba + b^2 = $$
+
+$$ = a^2 + 2ab + b^2$$
+
+### Aside: The Sum of Two Squares
+Be careful, _the Square of a Sum is not the same as a Sum of two Squares_.  The latter's not something "official", but it's worth bringing out for clarity. 
 
 The sum of the squares would be (if it was a thing)
 
@@ -31,12 +41,18 @@ $$a^2 + b^2$$
 
 You can see that the sum of a square is $2ab$ _less_ than the square of two sums.
 
+So why is it not "a thing"?  It's because there's not much general call for it. The others on the other hand, pop up quite a lot.
+
 ## General Definition of the Square of a Difference
-Of course, sometimes you are dealing with negative rather then positive numbers.  When this happens, you are _taking things away_ rather than adding them. This is where the Square of a Difference comes in (the "difference" here is whats left after you subtract $b$ from $a$)
+Of course, sometimes you are dealing with negative rather then positive numbers.  When this happens, you are _taking things away_ rather than adding them. This is where the Square of a Difference comes in (the "difference" here is what's left after you subtract $b$ from $a$)
 
-$$(a - b)^2 = a^2 - 2ab + b^2$$
+$$(a - b)^2 = $$
 
-Another way to state this is in words: "The Square of a Difference is the Sum of two Squares minus two times the product of the terms".
+$$ = a^2 - 2ab + b^2$$
+
+Another way to state this is in words: 
+
+ > "The Square of a Difference is the Sum of two Squares minus two times the product of the terms".
 
 ## General Definition of the Difference of Squares
 The Difference of Squares comes into play when you are subtracting one square from another
@@ -44,7 +60,7 @@ The Difference of Squares comes into play when you are subtracting one square fr
 $$a^2 - b^2 = (a + b)(a - b)$$
 
 ## All Together Now: "The Short Multiplcation Formulas"
-Let's put all these next to each other.  Collectively these are know as the "Short Multiplcation Formulas".  It's east to see why - they shorten (and simplify) multiplcation for you.  It's worth at this point laying them out next to each other to see their comparative sizes.  The largest is the Square of a Sum. The next largest is the Sum of two Squares, and the next smallest is the Square of a Difference, and the tiniest is the Difference of Squares.
+Let's put all these next to each other.  Collectively these are know as the "Short Multiplcation Formulas".  It's easy to see why - they shorten (and simplify) multiplcation for you.  It's worth at this point laying them out next to each other to see their comparative sizes.  The largest is the Square of a Sum. The next largest is the Sum of two Squares, and the next smallest is the Square of a Difference, and the tiniest is the Difference of Squares.
 
 $$(a + b)^2 \geq a^2 + b^2 \geq (a - b)^2 \geq a^2 - b^2$$
 
