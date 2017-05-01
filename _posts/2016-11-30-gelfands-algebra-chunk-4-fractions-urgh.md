@@ -59,7 +59,7 @@ $$ = \frac{PS - QR}{QS} $$
 ### Multiplication
 This is the simplest of the lot. Simply multiply one numerator by the other, and one denominator by the other:
 
-$$ \frac{P}{Q} \cdot \frac{R}{S} = $$
+$$ \frac{P}{Q} \times \frac{R}{S} = $$
 
 $$ = \frac{PR}{QS} $$
 
@@ -73,7 +73,7 @@ To divide, invert (the denominator fraction) and mulitply
 
 $$ \frac{P/Q}{R/S} = $$
 
-$$ = \frac{P}{Q} \cdot \frac{S}{R} = $$
+$$ = \frac{P}{Q} \times \frac{S}{R} = $$
 
 $$ = \frac{PS}{QR} $$
 
@@ -90,7 +90,9 @@ This is the one I recall from school.
 
 Which is bigger, $\frac{1}{3}$ or $\frac{2}{7}$?
 
-$$ \frac{1}{3} = \frac{7}{21}, \frac{2}{7} = \frac{6}{21} $$
+$$ \frac{1}{3} = \frac{7}{21} $$
+
+$$ \frac{2}{7} = \frac{6}{21} $$
 
 Therefore the first fraction is the bigger (there are more 21ths): $\frac{7}{21} > \frac{6}{21}$
 
@@ -111,7 +113,7 @@ Which is bigger?:
 
 $\frac{10001}{10002}$ and $\frac{100001}{100002}$
 
-Gelfand gives us a tip - find the difference between each of these and $1/1$, the one which gives the smaller fraction, is the larger.
+Gelfand gives us a tip - find the difference between each of these and $\frac{1}{1}$, the one which gives the smaller fraction, is the larger.
 
 The first fraction first:
 
@@ -143,9 +145,9 @@ Which is bigger?:
 
 $$\frac{12345}{54321}$$ or $$\frac{12346}{54322} $$
 
-In problem 40, where the fractions were also both less than one, we subtracted $1/1$ from each and saw which was smaller.
+In problem 40, where the fractions were also both less than one, we subtracted $\frac{1}{1}$ from each and saw which was smaller.
 
-Lets try that again. The first fraction first:
+Let's try that again. The first fraction first:
 
 $$\frac{54321}{54321} - \frac{12345}{54321} = $$
 
@@ -169,13 +171,13 @@ Therefore:
 
 $$\frac{12345}{54321} < \frac{12346}{54322} $$
 
-### How to know when to try what approch? 
+### How to know which approch to try? 
 All this prompts some (blindingly obvious, but nice to call out all the same) mental images to have in the fraction-wrangling kitbag.  When you are comparing things by denominator, you are saying "the sizes of the pieces of my whole are the same, so how many do I have?" whereas when you are comparing by numerator, you are saying "i have the same number of pieces, but which pieces are bigger / smaller?"
 
 From this therefore drops out the prompt to choose from these two options the state which is easier to get into.  We saw tricks like "subtracting from one" and the standard "common-denominator" approach.  As before, for me I'll be selecting these once I've laid things out mentally to see which makes most sense.
 
-## "Adding" Fractions to find "something inbetween"
-Now something a little different. Finding calues in between two fractions.
+## "Adding" Fractions to find "something in between"
+Now something a little different. Finding values in between two fractions.
 
 We remembered above that to add fractions, you need to find a common denominator. If you don't, and just add them, then you end up instead with something in between the two fractions:
 
@@ -194,11 +196,15 @@ $$20/20$$
 
 We then make the actual cuts at the 20ths.  
 
-This could be a _very_ visual problem.  One which should therefore be ideal for my approach.  Gelfand gets off to a helpful start in his solution by hinting that we can ignore the first and last 20th, as they will have no red or green marks on them.  This makes sense; $1/20$ is less than (i.e. smaller than in stick-bit terms) $1/7$ and $1/13$.
+This could be a _very_ visual problem.  One which should therefore be ideal for my approach.  Gelfand gets off to a helpful start in his solution by hinting that we can ignore the first and last 20th, as they will have no red or green marks on them.  This makes sense; $\frac{1}{20}$ is less than (i.e. smaller than in stick-bit terms) $\frac{1}{7}$ and $\frac{1}{13}$.
 
 He then gives us another tip - after deducting these end-bits, we have 18 pieces left, and 18 marks ($(7-1) + (13-1)$).  This is all good, but there is then a leap which I'm not sure I'm comfortable to make - he states that 18 pieces and 18 marks means no piece will be left without a mark, but what if one piece has two marks? That means one will have none.  Its still not clear to me how this claim can be made.  But lets get to the next step.
 
-Gelfand writes "Red marks correspond to numbers in the form $\frac{k}{7}$, green marks correspond to numbers in the form $\frac{l}{13}$"  We're meant to have realised at this point that 7 + 13 = 20.  Not too much to ask for I suppose.  They we're supposed to realise that we just saw this kind of pattern when we mis-calculated our fraction addition.  So what does that let us then conclude?
+Gelfand writes 
+
+> "Red marks correspond to numbers in the form $\frac{k}{7}$, green marks correspond to numbers in the form $\frac{l}{13}$"  
+
+We're meant to have realised at this point that 7 + 13 = 20.  Not too much to ask for I suppose.  They we're supposed to realise that we just saw this kind of pattern when we mis-calculated our fraction addition.  So what does that let us then conclude?
 
 In the failed adding, we accidentally unearthed a way of finding "something in between two fractions". What would happen then if we just laid out all these sums of $\frac{k}{7}$ plus $\frac{l}{13}$ which we might need to get to our remaining  $\frac{something}{20}$ 
 
@@ -245,7 +251,7 @@ As a result we can conclude:
  * There are _never_ points where a $k$ and an $l$ fall so close that a cut-point is not between them ($7 + 13 = 20$ _always_)
  * the cut-points never fall directly _on_ a red or green line, because as we can see, all cut-points are _between_ reds and greens (again, $7 + 13 = 20$ _always_)
 
-We've travelled a slightly more scenic route to the conclusion that Gelfand reaches much more rapidly.  But I think it is informative to point this out clearly.
+We've travelled a slightly more scenic route to the conclusion that Gelfand reaches much more rapidly.  But I think it's informative to point this out clearly.
 
 ## Problem 45 - Fractions of Fractions
 My solution to this problem was slightly different from the one given in the book (which I don't personally think makes sense without a but of mental stretching) but it gave me a little extra trick to add to our kit bag.  Here we're working with a starting length which is not $1$.  We have instead $\frac{2}{3}m$, but need to find out the difference between this and $\frac{1}{2}m$, an we need this difference in terms of a fraction of $\frac{2}{3}m$.
@@ -273,9 +279,9 @@ So therefore we need to take away $\frac{1}{4}$ of the existing string.  Nice an
 
 We jumped ahead a little in the book, missing out Problem 41.
 
-"Fractions $\frac{a}{b}$ and $\frac{c}{d}$ are called neighbour fractions if their difference $\frac{ad-bc}{bd}$ has numberator $±1$, that is $ad - bc = ±1$."
+> "Fractions $\frac{a}{b}$ and $\frac{c}{d}$ are called neighbour fractions if their difference $\frac{ad-bc}{bd}$ has numberator $±1$, that is $ad - bc = ±1$."
 
-Coming back to them now, I can begin to pick up on why Gelfand might have introduced them.  They made little sense to me however when I came across them chronologically in the book.  This time, bearing in mind some of the other techniques from [Oakley](https://www.goodreads.com/book/show/18693655-a-mind-for-numbers) (namely "read ahead", and "do some additional research") I read around these on wikipedia and came across the [Farey Sequence](https://en.wikipedia.org/wiki/Farey_sequence).  It turns out they are super-interesting, and also have some beautiful physical manifestations (which is very satisfying to me).  
+Coming back to them now, I can begin to pick up on why Gelfand might have introduced them.  They made little sense to me however when I came across them chronologically in the book.  This time, bearing in mind some of the other techniques from [Oakley](https://www.goodreads.com/book/show/18693655-a-mind-for-numbers) (namely "read ahead", and "do some additional research") I read around these on wikipedia and came across the [Farey Sequence](https://en.wikipedia.org/wiki/Farey_sequence).  It turns out they are super-interesting, and also have some beautiful physical manifestations (which was very satisfying to me).  
 
 With this in mind, can we start to tackle the three questions Gelfand has around this?  I'm not so sure, because one [solutions-text available freely on the interwebs](https://www.scribd.com/document/243387607/Gelfand-Algebra-Solutions) states that these three are the hardest in the whole book, and that the author of that text, Adrian Durham thought there was no way a student could get to the proofs requested based on what they can reliably know at this point in their journey.
 
