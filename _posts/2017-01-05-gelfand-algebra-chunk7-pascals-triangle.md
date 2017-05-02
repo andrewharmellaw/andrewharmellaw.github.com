@@ -3,14 +3,12 @@ layout: post
 title: "Gelfand: Chunk 7 - Pascal's Triangle."
 description: "It's a Thing of Beauty."
 category: 
-tags: [gelfand, pascals-triangle]
+tags: [gelfand, powers, square-of-a-sum, difference-of-squares, pascals-triangle]
 ---
 {% include JB/setup %}
 
 ## Pascal's Triangle
-The introduciton to Pascal's triangle section of Gelfand has a _lot_ of explanation.  The author clearly wants you to mentally arrive at the triangle via the process of constructing it ourselves.
-
-He then gets you to use the triangle to do some otherwise-difficult power-work.
+The introduciton to Pascal's triangle section of Gelfand has a _lot_ of explanation, combining and extending Powers, Squares-of-the-Sum and Differences-of_Squares up to lofty heights of cubes and beyond.  He clearly wants you to mentally arrive at the triangle via the process of constructing it ourselves so you'd better brace yourself and get to it.  The pay-back? You can use Pascal's triangle to do some otherwise-difficult power-work by hand.
 
 ### Problem 82 (a) Compute $11^3$
 
@@ -38,7 +36,9 @@ $$ = 14641$$
 
 This is all going swimmingly, and we can see a nice symmetrical result emerging, with the co-efficients of our result-elements echoing the numbers in our nice symmetrical triangle. 
 
-In fact, if you look back at the triangle, not only go we get co-efficient beneits, but you can also see that the ultimate output we're getting in both cases is the same as the numbers in the row in question.  I.e. the row for $(a + b)^4 = 14641$ and our answer is $14641$.  
+In fact, if you look back at the triangle, not only go we get co-efficient beneits, but you can also see that the ultimate output we're getting in both cases is the same as the numbers in the row in question.  
+
+I.e. the row for $(a + b)^4 = 14641$ and our answer is $14641$.  
 
 When you think about how all this is working, it all kind of makes sense that this would be the outcome too - as we work through, we're repeatedly raising $10$ to a decreasing power, and then multiplying this by the co-efficient value.  So in that case its little surprise that $10^2 \cdot 6$ comes out as $600$ in the fourth row working above. And it's doing the same thing in all positions, but with different position-relevant powers, and corresponding co-efficients.
 
@@ -58,24 +58,26 @@ $$ = 161051$$
 
 Hey! What happened? Because the two co-efficients in the centre are greater than $9$ we're ending up with elements of our sum at the end that burst right out of their position in the decimal number system and get carried over to the next column.  No more pretty echo of Pascal's Triangle.  But it still makes sense, and there is a nice shortcut in [an online answer from Adrian Durham](http://documents.tips/documents/gelfand-algebra-solutions.html) which makes how we get our new answer clear again (I've altered this a tiny bit from Adrian's, but the main aspects are all his):
 
-$$11^5 = $$ 
+$$ 11^5 = $$ 
 
-$$= (10 + 1)^5 = $$
+$$ = (10 + 1)^5 = $$
 
-$$= 10^5 + 5 \times 10^4 \times 1 + 10 \times 10^3 \times 1^2 + 10 \times 10^2 \times 1^3  + 5 \times 10^1 \times 1^4 + 1^5 = $$
+$$ = 10^5 + 5 \times 10^4 \times 1 + 10 \times 10^3 \times 1^2 + 10 \times 10^2 \times 1^3  + 5 \times 10^1 \times 1^4 + 1^5 = $$
 
-$$= 1 \times 10^5 + 5 \times 10^4 + 1 \times 10^4 + 1 \times 10^3 + 5 \times 10 + 1 = $$
+$$ = 1 \times 10^5 + 5 \times 10^4 + 1 \times 10^4 + 1 \times 10^3 + 5 \times 10 + 1 = $$
 
-$$= 1 \times 10^5 + (5 + 1) \times 10^4 + 1 \times 10^3 + 5 \times 10 + 1= $$
+$$ = 1 \times 10^5 + (5 + 1) \times 10^4 + 1 \times 10^3 + 5 \times 10 + 1= $$
 
-$$= 1 \times 10^5 + 6 \times 10^4 + 1 \times 10^3 + 0 \times 10 ^2 + 5 \times 10 + 1= $$
+$$ = 1 \times 10^5 + 6 \times 10^4 + 1 \times 10^3 + 0 \times 10 ^2 + 5 \times 10 + 1= $$
 
-$$ = 100000 + 50000 + 10000 +  1000 + 50 + 1 = 161051$$
+$$ = 100000 + 50000 + 10000 +  1000 + 50 + 1 = $$
+
+$$ = 161051$$
 
 It's now pretty clear how this still follows the general way of working of our earlier (and simpler) powers, but now with a little carrying thrown into the mix.
 
 ## What About _Difference_ of Squares and Beyond?
-So we just saw some beauty behind the squares-of-sums and beyond ($(a + b)^n$), but what about differences-of-squares (etc)?
+So we just saw some beauty behind the square-of-a-sumsand beyond ($(a + b)^n$), but what about differences-of-squares (etc)?
 
 There is a trick here too.  Think:
 
@@ -143,9 +145,9 @@ $$=  1 \times 2^72^0 + 7 \times 2^62^1 + 21 \times 2^52^2 + 35 \times 2^42^3 + 3
 
 $$ = 1 \times 128 + 7 \times 128 + 21 \times 128 + 35 \times 128 + 35 \times 128 + 21 \times 128 + 7 \times 128 + 1 \times 128 = $$
 
-If we pause here it looks as if a pattern is emerging: 
+If we pause here it appears as if a pattern is emerging: 
 
-$$(1 + 7 + 21 + 35 + 35 + 21 + 7 + 1) \times 128 = $$
+$$ (1 + 7 + 21 + 35 + 35 + 21 + 7 + 1) \times 128 = $$
 
 $$ = 128 \times 128 = $$
 
@@ -155,11 +157,11 @@ $$ = 16384 $$
 
 Now let's do it with algebra
 
-$$(a + a)^7 =$$
+$$ (a + a)^7 =$$
 
-$$=  1 \times a^7a^0 + 7 \times a^6a^1 + 21 \times a^5a^2 + 35 \times a^4a^3 + 35 \times a^3a^4 + 21 \times a^2a^5 + 7 \times a^2a^6 + 1 \times a^0a^7 = $$
+$$ =  1 \times a^7a^0 + 7 \times a^6a^1 + 21 \times a^5a^2 + 35 \times a^4a^3 + 35 \times a^3a^4 + 21 \times a^2a^5 + 7 \times a^2a^6 + 1 \times a^0a^7 = $$
 
-$$= 1 \times a^7 + 7 \times a^7 + 21 \times a^7 + 35 \times a^7 + 35 \times a^7 + 21 \times a^7 + 7 \times a^7 + 1 \times a^7$$
+$$ = 1 \times a^7 + 7 \times a^7 + 21 \times a^7 + 35 \times a^7 + 35 \times a^7 + 21 \times a^7 + 7 \times a^7 + 1 \times a^7 = $$
 
 $$= 128 \times a^7$$
 
@@ -198,6 +200,6 @@ There is always a takeaway point from every bit of Gelfand.  It seems (and [Durh
 
 Let's say it again 
 
-"the sum of the co-efficients in Pascal's Triangle are always $2^n$, where $n$ is the row number"
+> "the sum of the co-efficients in Pascal's Triangle are always $2^n$, where $n$ is the row number"
 
 Nice. Done.
