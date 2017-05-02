@@ -137,7 +137,9 @@ We have to prove that the two sides of the following are _not equal_.
 
 $$(x - 1)(x - 2)(x - 3)(x - 4) \ne (x + 1)(x + 2)(x + 3)(x + 4)$$
 
-Gelfand requests that we solve it "without computation".  This means, we have to do it in our head.  A quick glance tells you that we are supposed to spot a trick here because to remove the parentheses in our heads would be a hefty task.  So what else do we know which might short-circuit everything?  The one he's hoping we'll settle upon (and remember, all you need is to prove an inequality with one value of x) is that anything multiplied by zero is zero.  All we need to get to in that case is a zero result in one of the parens and then no matter what the values of all other parens calculations (i.e. $(x - 2)$ the result for the side will _always_ be zero.
+Gelfand requests that we solve it "without computation".  This means, we have to do it in our head.  
+
+A quick glance tells you that we are supposed to spot a trick here because to remove the parentheses in our heads would be a hefty task.  So what else do we know which might short-circuit everything?  The one he's hoping we'll settle upon (and remember, all you need is to prove an inequality with one value of x) is that anything multiplied by zero is zero.  All we need to get to in that case is a zero result in one of the parens and then no matter what the values of all other parens calculations (i.e. $(x - 2)$ the result for the side will _always_ be zero.
 
 So what does $x$ have to equal to get a zero on the left hand side?  $1$ is a easy one: 
 
@@ -172,9 +174,9 @@ $$(x^2- 1)(x+ ...) = (x-1)(x+3)(x+...)$$
 
 $$(x+1)(x-1)(x+ ...) = (x-1)(x+3)(x+...)$$
 
-A quick aside, how did I spot it? I recognised the $x^2 - a$ pattern which can be re-stated as $(x + a)(x - a)$.
+A quick aside, how did I spot it? I recognised the "$x^2 - a$" pattern which can be re-stated as $(x + a)(x - a)$. (Remember, $1$ is a square.)
 
-If we then re-arrange what we end up with we get something useful
+If we then re-arrange what this gives us, we get something a little more useful
 
 $$(x+1)(x-1)(x+ ...) = (x-1)(x+...)(x+3)$$
 
@@ -182,7 +184,7 @@ From here I could simplify by removing the $(x-1)$ from both sides
 
 $$(x+1)(x+ ...) = (x+...)(x+3)$$
 
-And then it was clear what the only two values of '$...$' could be: $3$ on the left hand side, and $1$ on the right
+And then it was clear what the only two values of '$...$' could be: "$3$" on the left hand side, and "$1$" on the right
 
 $$(x+1)(x+3) = (x+1)(x+3)$$
 
@@ -194,25 +196,25 @@ Here's the $-1$ attack, left hand side first (to keep the noise down):
 
 $$(x^2 - 1)(x + ...) = ...$$
 
-$$ = (-1^2 - 1)(x + ...) = $$
+$$ \rightarrow ((-1)^2 - 1)(x + ...) = ... $$
 
-$$ = (1 - 1)(x + ...) = $$
+$$ \rightarrow (1 - 1)(x + ...) = ...$$
 
-$$ = 0 \times (x + ...)$$
+$$ \rightarrow 0 \times (x + ...) = ...$$
 
-Just as before, because we've managed to get a zero in one of our multiplicands, which means it will all result in zero overall on the left hand side no matter that '...' is.
+Just as before, because we've managed to get a zero in one of our multiplicands, which means it will all result in zero overall on the left hand side no matter that first '...' is.
 
-Now we know what putting $x = -1$ in the left hand results in we can put the same value of $x$ in and be able to work out what '...' must be to get zero there.
+Now we know what putting $x = -1$ into the left hand side produces, we can put the same value of $x$ into the right hand side and be able to work out what '...' must be to get zero there.
 
-$$... = (x - 1)(x + 3)(x + ...) = $$
+$$... = (x - 1)(x + 3)(x + ...) $$
 
-$$... = (-1 - 1)(-1 + 3)(-1 + ...) = $$ 
+$$\rightarrow ... = (-1 - 1)(-1 + 3)(-1 + ...) $$ 
 
-$$... = (-2)(2)(-1 + ...) = $$
+$$ \rightarrow ... = (-2)(2)(-1 + ...) $$
 
-$$... = -4 \times (-1 + ...) $$
+$$ \rightarrow ... = -4 \times (-1 + ...) $$
 
-We need to get a $0$ multiplicand again, and to get that, we need to offset the $-1$.  For that we need '...' on the right hand side to equal $1$.
+As this hasn't produced us a "$0$", that means we need to get a $0$ multiplicand again from the last parentheses. To get that, we need to offset the $-1$.  Therefore, for that we need the '...' on the right hand side to equal $1$, so we continue as follows
 
 $$... = -4 \times (-1 + 1) = $$
 
@@ -220,7 +222,7 @@ $$... = -4 \times 0 = $$
 
 $$... = 0$$
 
-Right. This is a good mini-milestone.  Given we now know that the '...' on the right hand side, we can look back at things overall. We currently have the following:
+Right. This is a good mini-milestone.  Given that we now know that the '...' on the right hand side is $-1$, we can look back at things overall. We currently have the following:
 
 $$(x^2 - 1)(x + ...) = (x - 1)(x + 3)(x + 1)$$
 
