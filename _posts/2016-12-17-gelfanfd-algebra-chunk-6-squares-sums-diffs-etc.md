@@ -54,9 +54,7 @@ So why is it not "a thing"?  It's because there's not much general call for it. 
 ## 2. General Definition of the Square of a Difference
 Of course, sometimes you are dealing with negative rather then positive numbers (or one number _minus another_ it's the same thing).  When this happens, you are _taking things away_ rather than adding them. This is where the Square of a Difference comes in (the "difference" here is what's left after you subtract $b$ from $a$)
 
-$$(a - b)^2 = $$
-
-$$ = a^2 - 2ab + b^2$$
+$$(a - b)^2 = a^2 - 2ab + b^2$$
 
 Another way to state this is in words: 
 
