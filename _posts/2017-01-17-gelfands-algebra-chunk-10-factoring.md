@@ -202,4 +202,6 @@ $$ = (a - 1)(a - 1) = $$
 
 $$ = (a - 1)^2$$
 
-All good. In fact, this is actually getting a little easy.  Surely there must be a catch...?  There is, and that's the topic of the next post in this series.
+All good. In fact, this is actually getting a little easy.  Surely there must be a catch...?  
+
+Unfortunately there is, and that's the topic of the next post in this series.
