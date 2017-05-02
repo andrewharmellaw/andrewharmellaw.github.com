@@ -159,7 +159,7 @@ $$ = 1a^2 - 1ab - 2ab + 2b^2$$
 
 Please note, this idea is from my own head, and may be revised, or updated at a later stage.
 
-## Gelfand Problems 110(a) and (b)
+## Gelfand Problems 110(a), (b) and (c)
 Now on to problem 110(a).  This one I found challenging again - we're supposed to be learning again.  I took it step by step.
 
 $$a^2 + 4ab  + 4b^2 = $$
