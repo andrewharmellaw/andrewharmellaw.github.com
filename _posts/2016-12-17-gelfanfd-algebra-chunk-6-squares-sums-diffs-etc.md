@@ -66,9 +66,11 @@ Finally we have the Difference of Squares.  This comes into play when you are su
 $$a^2 - b^2 = (a + b)(a - b)$$
 
 ## All Together Now: "The Short Multiplcation Formulas"
-Let's put all these next to each other.  Together, these two are know as the "Short Multiplcation Formulas".  It's easy to see why - they shorten (and simplify) multiplcation for you.  It's worth at this point laying them out next to each other to see their comparative sizes.  The largest is the Square of a Sum. The next is the Sum of two Squares, and the next after that  is the Square of a Difference, with the Difference of Squares bringing up the rear.
+Let's put all these next to each other.  Together, these two are know as the "Short Multiplcation Formulas".  It's easy to see why - they shorten (and simplify) multiplcation for you.  It's worth at this point laying them out next to each other to see their comparative sizes.  
 
-$$(a + b)^2 \geq a^2 + b^2 \geq (a - b)^2 \geq a^2 - b^2$$
+The largest is the Square of a Sum and the next after that is the Square of a Difference, with the Difference of Squares bringing up the rear.
+
+$$(a + b)^2 \geq (a - b)^2 \geq a^2 - b^2$$
 
 Why $\geq$ and not $>$? Because one or both of the terms might be $0$.
 
@@ -77,5 +79,13 @@ Why $\geq$ and not $>$? Because one or both of the terms might be $0$.
 ### Hard Squares can be Split out into Simpler Pieces
 Again following on from some of the break-out tricks from [Post 2: Commutative, Associative and Distributive Laws](https://andrewharmellaw.github.io/2016/11/23/gelfands-algebra-chunk-2-commutative-associative-and-distributive-laws) you can split a square you can't calculate simply into two you can, apply the Square of the  Sum pattern, and add the results.
 
-$$101^2 = (100 + 1)^2 = 100^2 + 2 \cdot 100 \cdot 1 + 1^2 = 10000 + 200 + 1 = 10201$$
+$$101^2 = $$
+
+$$ = (100 + 1)^2 = $$
+
+$$ = 100^2 + 2 \cdot 100 \cdot 1 + 1^2 = $$
+
+$$ = 10000 + 200 + 1 = $$
+
+$$ = 10201$$
 
