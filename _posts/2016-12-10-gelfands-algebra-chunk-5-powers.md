@@ -7,10 +7,10 @@ tags: [gelfand, powers, definition, tricks]
 ---
 {% include JB/setup %}
 
-For me, powers always made sense, but yet again I'd missed some subtleties which are now evident as I come back round with the chunking-cum-visual-grokking approach.
+For me, powers always made sense; but yet again it turns out that I'd missed some subtleties which are now evident as I come back around using the Oakley chunking-cum-visual-grokking approach.
 
 ## General Definition of Powers
-Lets kick off with the lovely General Definition.
+Let's kick off with the lovely General Definition.
 
 For positive integers $n$,
 
@@ -20,17 +20,19 @@ $$a^{-n} = \frac{1}{a^n}$$
 
 $$a^0 = 1$$
 
-There's something worth noting explicitly in this general definition, and its a concept we've never encountered before now; a mathematical "convention".
+There's something worth noting explicitly about this general definition, and it's a concept we've not come across in this series; the presence of a mathematical "convention".
 
 ## The Convention of Negative Powers and Fractions
-Writing $\frac{1}{2}$ as $2^{-1}$ is a convention.  But a convenient one.  
+So what is the convention? Well, it turns out that when we write $\frac{1}{2}$ as $2^{-1}$ we're relying on a convention.  But a convenient one.  
 
-It also helps because it unifies how we conceptually treat very large and very small numbers.  
+This convention helps because it unifies how we conceptually treat very large and very small numbers.  
 
-Because it is a convention rather than a _fact_ it is impossible to _prove_ that $a^{-n} = \frac{1}{a^n}$ because $a^{-n}$ makes no sense without the "$= \frac{1}{2}$" agreement.
+But why the "convention" piece? Because it is a convention rather than a _fact_ it is impossible to _prove_ that $a^{-n} = \frac{1}{a^n}$ because $a^{-n}$ makes no sense without the "$= \frac{1}{2}$" agreement.
+
+Interesting huh?  Let's continue.
 
 ## Tricks Arising
-With all this in place, we can move on to the fun, useful stuff; the tricks we can slot into our memory banks.
+With this in place, we can move on to the fun, useful stuff; the tricks we can slot into our memory banks.
 
 ### Shorten Things
 The long expression
@@ -90,24 +92,40 @@ $$a^5 \cdot a^3 = (a \cdot a \cdot a \cdot a \cdot a)\cdot(a \cdot a \cdot a) = 
 
 This works for negative powers too:
 
-$$a^5 \cdot a^{-3} = a^5 \cdot \frac{1}{a^3} = \frac{a \cdot a \cdot a \cdot a \cdot a}{a \cdot a \cdot a} = a^2$$
+$$a^5 \cdot a^{-3} = $$
+
+$$ = a^5 \cdot \frac{1}{a^3} = $$
+
+$$ = \frac{a \cdot a \cdot a \cdot a \cdot a}{a \cdot a \cdot a} = $$
+
+$$ = a^2$$
 
 That example had only one negative power, but more, even all can be negative and the rule still holds.
 
 And it also works when one or more exponents equals zero
 
-$$a^m \cdot a^0 = a^m \cdot 1 = a^m$$
+$$a^m \cdot a^0 = $$
+
+$$ = a^m \cdot 1 = $$
+
+$$ = a^m$$
 
 In general 
 
 $$a^m \cdot a^n = a^{m+n}$$
 
-### Multiplying Small and Big Numbers Conveniently
+### Use Powers to Multiply Small and Big Numbers Conveniently
 You can lean on powers to allow you to multiply small and big numbers with ease (and without a calculator).
 
 E.g., to multiply $2 \cdot 10^7$ and $3 \cdot 10^{-7}$
 
-$$(2 \cdot 10^7) \cdot (3 \cdot 10^{-11}) = (2 \cdot 3) \cdot (10^7 \cdot 10^{-11}) = 6 \cdot 10^{7 + (-11)} = 6 \cdot 10^{-4}$$
+$$(2 \cdot 10^7) \cdot (3 \cdot 10^{-11}) = $$
+
+$$ = (2 \cdot 3) \cdot (10^7 \cdot 10^{-11}) = $4
+
+$$ = 6 \cdot 10^{7 + (-11)} = $$
+
+$$ = 6 \cdot 10^{-4}$$
 
 ### If Powers are Different, Make the Bases the Same
 In Gelfand Problem 55(b), we have $2^{something}$ on one side and $\frac{1}{4}$ on the other.  To get to work on this, both sides need to be the same power.  Therefore
@@ -116,18 +134,28 @@ $$\frac{1}{4} = \frac{1}{2^2}$$
 
 Later on, in Problem 55(f), we have $4^{something}$ on one side and $2^{something}$ on the other.  Again, we need the same power.
 
-$$4^{100} = (2 \cdot 2)^{100} = 2^{100} \cdot 2^{100} = 2^{200}$$
+$$4^{100} = $$
 
-### If Powers are the Same, Add the Bases
+$$ = (2 \cdot 2)^{100} = $4
+
+$$ = 2^{100} \cdot 2^{100} = $$
+
+$$ = 2^{200}$$
+
+### If Powers are the Same, You Can Add the Bases
 In Gelfand Problem 55(g), we have $2^{100} \cdot 3^{100}$.  The bases are different, but the powers are the same, so
 
-$$2^{100} \cdot 3^{100} = (2 \cdot 3)^{100} = 6^{100}$$
+$$2^{100} \cdot 3^{100} = $4
+
+$$ = (2 \cdot 3)^{100} = $$
+
+$$ = 6^{100}$$
 
 ### Pay Attention to the Question
-Problem 49 asks for "the nuber of digits" rather than "the answer".  Gelfand just before gave a clue as to how to represent $2^{10}$ in terms of $10^n$ (it's $10^3 + 24$).  Then when we have to raise $2^{10}$ to $2^{100}$ (or $(2^{10})^{10}$) we can move across to powers of 10 and only care about the bit which will have the most digits: $(10^3)^{10} \Rightarrow 10^{30}$.  We can stop worrying about $24^{10}$ as it will have less.  (The answer is $31$ by the way, a $3$ followed by 30 $0$s.)
+Problem 49 asks for "the nuber of digits" rather than "the answer".  Gelfand gave us a clue just before as to how to represent $2^{10}$ in terms of $10^n$ (it's $10^3 + 24$).  Thus, when we have to raise $2^{10}$ to $2^{100}$ (or $(2^{10})^{10}$) we can move across to powers of 10 and only care about the bit which will have the most digits: $(10^3)^{10} \Rightarrow 10^{30}$.  We can stop worrying about $24^{10}$ as it will have less.  (The answer is $31$ by the way, a $3$ followed by thirty $0$s.)
 
-### Powers of 2 are quite close to powers of 10
-(For computer scientists anyway.) 
+### Powers of 2 are _Quite Close_ to Powers of 10
+(Close enough for computer scientists anyway.) 
 
 In Gelfand's "Remark" on page 26, we saw that $10^3$ ($1000$) is _pretty close_ to $2^{10}$ ($1024$), close enough for computer scientists to be happy enough to ignore the 24 extra bytes in order to be able to use the term "kilobyte".
 
