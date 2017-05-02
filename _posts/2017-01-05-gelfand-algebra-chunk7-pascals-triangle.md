@@ -42,7 +42,7 @@ I.e. the row for $(a + b)^4 = 14641$ and our answer is $14641$.
 
 When you think about how all this is working, it all kind of makes sense that this would be the outcome too - as we work through, we're repeatedly raising $10$ to a decreasing power, and then multiplying this by the co-efficient value.  So in that case its little surprise that $10^2 \cdot 6$ comes out as $600$ in the fourth row working above. And it's doing the same thing in all positions, but with different position-relevant powers, and corresponding co-efficients.
 
-Awesome. It's about to break though as you might suspect. Lets look at $11^5$
+Awesome. It's about to break though as you might suspect. Let's look at $11^5$
 
 ### Problem 83 (c) Compute $11^5$
 
