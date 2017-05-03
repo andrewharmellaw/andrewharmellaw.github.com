@@ -3,7 +3,7 @@ layout: post
 title: "Gelfand: Chunk 12 - The Hard Ones"
 description: "Still Factoring..."
 category: 
-tags: [gelfand, tricks, factoring, difference-of-squares]
+tags: [gelfand, tricks, factoring, powers, difference-of-squares]
 ---
 {% include JB/setup %}
 
@@ -42,7 +42,7 @@ $$ = a^4 + a^3b - a^3b - a^2b^2 - a^2b^2 - ab^3 + ab^3 + b^4 = $$
 
 That solves our $ab^3$ problem, but now we have two negative $a^2b^2$s.  That sucks.  Both options failed us. It seems we're screwed. 
 
-But before we get pulled into the Sough of Despond, lets see if we can pull any good form this.
+But before we get pulled into the Sough of Despond, lets see if we can pull any good from this.
 
 It turns out that to use this trick - the one which until now had felt pretty generally-awesome - you need to be working with an _odd_ power, because that gives you an odd number of terms to work with at the key step.  If you're working with even powers, you're out of luck as you can't get the positives and negatives to match up.
 
@@ -99,7 +99,7 @@ Brilliant!
 
 Now all we're left with is the slightly-trickier case of $a^2 + b^2$ - but that's not tricky if we just invent a new type of number (which $\sqrt{-1}$ requires in order to do this) which mathematicians called _complex numbers_ (but that's another post).
 
-We'll just conclude this post with some commentary on the remaining "more difficult problems" with which Gelafnd signs off this section.
+We'll just conclude this post with some commentary on the remaining "more difficult problems" with which Gelfand signs off this section.
 
 ## The "More Difficult Problems"
 ### Problem 122(a)
@@ -182,3 +182,6 @@ Two options here which Durham expands on:
 We've seen it a little before, but with this Chunk, we're now beginning to confront head on that the fact that the subtleties of numbers and things you can  (and can't do to them) most usually have a set of tricks applied to their solving rather than just one. What is more, the applicability of those tricks depends upon things like whteher a given key number is odd or even, and / or there is positive / addition vs negative / subtraction.  And don't forget zero - the o-so-special case.
 
 This all means you frequently need to have a second level of awareness in your pattern-spotter and trick-matcher which allows you take this into account.
+
+## Definitions
+ * [Complex Numbers](https://www.mathsisfun.com/numbers/complex-numbers.html) (from MathsIsFun.com)
