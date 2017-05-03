@@ -183,5 +183,5 @@ We've seen it a little before, but with this Chunk, we're now beginning to confr
 
 This all means you frequently need to have a second level of awareness in your pattern-spotter and trick-matcher which allows you take this into account.
 
-## Definitions
+## Terminology
  * [Complex Numbers](https://www.mathsisfun.com/numbers/complex-numbers.html) (from MathsIsFun.com)
