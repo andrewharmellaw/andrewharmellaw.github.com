@@ -18,7 +18,7 @@ _And the two kinds aren't related ._
 
 In our journey so far we have come across the term "root" in two difference circumstances:
 
- * to indicate a number which, when multiplied by itself gives a real, non-negative number  - i.e. a square root is the number which, when multiplied by itself once, gives a square.  _Also known as a "radical"_
+ * to indicate a number which, when multiplied by itself one or more times gives a real, non-negative number  - i.e. a square root is the number which, when multiplied by itself once, gives a square.  
  * to indicate the solutions of polynomial equations - when the function equals zero. _Also known as a "zero"_
  
 So far so simple.  We get that they aren't related, and also that perhaps we should be more explicit and use the alternative terms for them (or at least qualify them.) But can it get more complicated?
@@ -30,7 +30,7 @@ When I'm trying to get my head round something it helps if the two things I'm co
 
 No so with roots and roots.
 
-Casting our minds back to [Chunk 11 - Factoring to Zero](https://andrewharmellaw.github.io/2017/01/20/gelfands-algebra-chunk-11-factoring-to-zero) we see that square roots and other radicals were our way to determine the zero-roots of our polynomials. 
+Casting our minds back to [Chunk 11 - Factoring to Zero](https://andrewharmellaw.github.io/2017/01/20/gelfands-algebra-chunk-11-factoring-to-zero) we see that square roots and others were our way to determine the zero-roots of our polynomials. 
 
 Urgh.
 
@@ -41,7 +41,7 @@ It turns out that once you explicitly seprate these elements nicely in your head
 
 There are two brilliantly simple pages covering these:
 
- * [Sqaure Roots and Radicals](https://www.wyzant.com/resources/lessons/math/algebra/square_roots_and_radicals) (from Wyzant.com)
+ * [Square Roots and Radicals](https://www.wyzant.com/resources/lessons/math/algebra/square_roots_and_radicals) (from Wyzant.com)
  * [The Fundamental Theorem of Algebra](https://www.mathsisfun.com/algebra/fundamental-theorem-algebra.html) (from MathsIsFun.com)
 
 With all that cleared up, we're free now to move on to Quadratic equations.
