@@ -7,14 +7,6 @@ tags: [gelfand, factoring, difference-of-squares, square-of-a-sum, roots, powers
 ---
 {% include JB/setup %}
 
-## A Brief Digression: So When am I Done Factoring?
-
-There is an elephant in the room around all this factoring which I want to call out before we go any further.  In a lot of the worked examples (and solutions) you'll come across you'll frequently see comments like "this could be factored further, but we're not going as it requires techniques that haven't yet been covered."  But when you're learning, how do you know when you've reached this point in your solution?
-
-Well there is a convention and that is to find the "highest common factor", and it's laid out nicely for us over at [MathsIsFun](https://www.mathsisfun.com/algebra/factoring.html).  So nicely in fact I'll just wait here while you head over and take a look.
-
-It also bears repeating the fact that when factoring, there is typically more than one "right" answer, and typically more than one way to get there.  That's when debates about "best" come in, but we'll leave those until we're far more _au fait_ with all this.
-
 ## Coping with Annihilated Terms
 So after [Chunk 10](https://andrewharmellaw.github.io/2017/01/17/gelfands-algebra-chunk-10-factoring) you think this factoring lark is easy eh? Well, there's something we've not yet tackled. Sometimes as part of our terms-collection we ended up with terms where the co-efficient totalled zero and so we removed them alltogether.  This felt amazing, because we were getting rid of things and achieving increased simplicity as a result.  But now we're going backwards. How do we cope with that?  How can we see what's no longer there?
 
