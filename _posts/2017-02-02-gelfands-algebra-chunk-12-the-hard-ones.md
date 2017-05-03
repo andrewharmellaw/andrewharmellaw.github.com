@@ -12,7 +12,7 @@ tags: [gelfand, tricks, factoring, powers, difference-of-squares]
 
 In Problem 119, Gelfand asks us to factor $a^4 + b^4$.  It looks simple enough.  But it's not.  Spot the '$+$'.  That, plus the pesky even-ness of the powers mean our seemingly all-conquering tricks have encountered a crack in their armour.  
 
-But let's pretend for a minute that we didn't know this. What would we have tried to do (and failed?). Probably something like this
+But let's pretend for a minute that we didn't know this. What would we have tried to do (and failed?). Probably something like the following which takes inspiration from our workings in the [previous chunk - Factoring to Zero](https://andrewharmellaw.github.io/2017/01/20/gelfands-algebra-chunk-11-factoring-to-zero).
 
 $$a^4 + b^4 = $$
  
