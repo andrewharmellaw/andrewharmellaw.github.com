@@ -12,6 +12,7 @@ So after [Chunk 10](https://andrewharmellaw.github.io/2017/01/17/gelfands-algebr
 
 This is just one of the reasons that factoring is "hard".  (Interestingly as I've been writing this, I remember _doing_ factoring at school. I fail to recall any of the details however, most likely due to the terror which this "summoning from the ether" element.)
 
+## Look for the Zero(s)
 Gelfand feels our fear, but he encourages us to took into the abyss anyway.  He suggests we look at a factoring of the familiar difference-of-squares to salve our anxiety.  We know the steps because we've worked it the other direction [many a time](https://andrewharmellaw.github.io/2016/12/17/gelfanfd-algebra-chunk-6-squares-sums-diffs-etc).
 
 $$ a^2 - b^2 = $$
@@ -57,11 +58,11 @@ $$ \rightarrow a = b $$ OR $$ a = -b $$
 Asides aside, why is this relevant?  Well, Gelfand is drawing our attention to the fact that when factoring a polynomial, it helps to see when it has a zero value.  But why is that useful? Because as we've seen more than once before, if you have a single factor of zero, then the outcome of everything will be zero and this then gives us one of our factors.  Let's try it and see what happens.  But we'll pull out the tricks explicitly just before we move to that.
 
 ## Tricks Arising
-### When Factoring Find a Simple Case
+### When Factoring, Find a Simple Case
 We got here by trying to see the wood for the trees, and as in many other circumstances on our journey, finding a simple case of something frequently helps, just like it did above.
  
-### When Factoring Look for a Zero Result
-The prime example of "a simple case" is when our result is zero.  If you can find this, you have one of your factors pre-rolled.
+### When Factoring, Look for a Zero Result
+The prime example of "a simple case" is when our result is zero.  If you can find this, you have one of your factors pre-rolled. (N.b. a "factor" can be an expression rather than a number, e.g. $(x - 1)$)
 
 ## Gelfand Problem 113
 We start with this
@@ -70,7 +71,7 @@ $$ a^3 - b^3$$
 
 Using our new trick, we then ask ourselves, when will this have a zero value?  And the answer is "when $a = b$", which therefore, by invoking the difference-of-squares, means it seems reasonable to expect a factor of (a - b).
 
-Let's try. Startoing from the beginning again
+Let's try. Starting from the beginning again
 
 $$ a^3 - b^3 = $$
 
@@ -100,9 +101,9 @@ $$ = (a + b)(a^2 - ab + b^2) $$
 Again I've kept all the individual micro-steps evident, if only for my own clarity.
 
 ### Gelfand Problems 115 and 116 (a) and 116 (b)
-We're now slid into Gelfand spot-the-pattern territory, and there is indeed a pattern.
+We've now slid into Gelfand spot-the-pattern territory, and there is indeed a pattern.
 
-First up we're back at a to the power of something minus $b$ to the power of the same thing.  Here we have a a worked example, which I'm going to do too.  Here Gelfand has acquiesced and already put in the extra step for my benefit.
+First up we're back at a to the power of something minus $b$ to the power of the same thing.  Here we have a a worked example, which I'm going to do too.  Here Gelfand has acquiesced and already put in the extra step for our benefit.
 
 $$a^4 - b^4 = $$
 
@@ -192,10 +193,14 @@ We could even keep going if we invoked our learnings from Problem 114, but we'll
 
 This is all working out very nicely. So where next?
 
-## Cheating(ish) with Roots, Square and Otherwise
-Well, for this Chunk there is one more thing to consider.  And this is the first time we're going to encounter roots (square and otherwise).  
+## Cheating(ish) with Square Roots and beyond
+That's almost it for this chunk, but before we close, there's one more thing to consider.  And this is the first time we're going to encounter roots of the square kind and beyond.  
 
-But before that we have Problem 117 which is going to get our mind in gear for what is to come.  We start as follows
+Note: to help you avoid a future trip-hazard, it's worth pointing out that the term root is overloaded somewhat in Maths, and that at this point we simple mean the ones you're most likely aware of - the roots of numbers, which when multiplied by themselves a number of times give the number that was rooted.  
+
+(If you want to look ahead to a little discussion of the whole troublesome area, jumpt ahead - just for a second to [Aside 2: Roots, Roots and More Roots](https://andrewharmellaw.github.io/2017/04/24/gelfands-algebra-aside-2-roots-roots-and-more-roots))
+
+With this cleared up, let's tackle Problem 117 which is going to get our mind in gear for what is to come.  We start as follows
 
 $$a^2 - 4b^2 = $$
 
@@ -306,7 +311,7 @@ Go on, Gelfand (and Durham) have given you permission.
 ### Advanced Pattern Spotting - Plus, Minus 
 Much of our new super-powers are based on our getting to the difference-of-squares or square-of-sums.  Which one?  Look at the signs of the operations ($+$ or $-$) between your terms.  These will give you a clue.
 
-Also note, you might spot the pattern in _a part_ of your current expression.  If you do, its fine to work on that part, and forget about the other bit for a minute until you are ready to return to it. (But don't forget to return!)
+Also note, you might spot the pattern in _a part_ of your current expression.  If you do, its fine to work on that part, and forget about the other bit for a minute until you are ready to return to it. (But don't forget to return.)
 
 ### Need a Square? Root it then Square it
 Take the square root of something (e.g. $4 \rightarrow 2$), and then square it (e.g. $2 \rightarrow 2^2$).  Then use that in place of your initial number.
