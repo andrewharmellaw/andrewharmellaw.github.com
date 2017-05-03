@@ -328,3 +328,6 @@ This is more of a tip than a trick, but it also plays to what you'll see in Durh
 
 ## What's Left?
 At this point in our factoring journey, it feels like we've come a long way.) Is there anything left?  Gelfand has one more chunk up his sleeve for us.  And that's the next post.
+
+## Terminology
+ * [Root of a Number](http://www.mathopenref.com/root.html) (from MathOpenRef.com)
