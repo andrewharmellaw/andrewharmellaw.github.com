@@ -34,7 +34,7 @@ $$ = a^4 + a^3b - a^3b - a^2b^2 + a^2b^2 + ab^3 + ab^3 + b^4 = $$
 
 Hmmm, that's _almost_ right, but we have two positive $ab^3$s.  That's bad.
 
-So what happens if we make _both_ middle-terms negative? (Making the second middle term nagative while leaving the first positive gives us nothing new.)
+So what happens if we make _both_ middle-terms negative? (Making the second middle term negative while leaving the first positive gives us nothing new.)
 
 $$ = a^3(a + b) - a^2b(a + b) - ab^2(a + b) + b^3(a + b)  = $$
 
@@ -42,13 +42,17 @@ $$ = a^4 + a^3b - a^3b - a^2b^2 - a^2b^2 - ab^3 + ab^3 + b^4 = $$
 
 That solves our $ab^3$ problem, but now we have two negative $a^2b^2$s.  That sucks.  Both options failed us. It seems we're screwed. 
 
-But before we get pulled into the Sough of Despond, lets see if we can pull any good from this.
+But before we get pulled into the Sough of Despond, let's see if we can pull any good from this.
 
-It turns out that to use this trick - the one which until now had felt pretty generally-awesome - you need to be working with an _odd_ power, because that gives you an odd number of terms to work with at the key step.  If you're working with even powers, you're out of luck as you can't get the positives and negatives to match up.
+## Trick Clarifications Arising
+### When Factoring with _Odd Powers_ Ask "What Gives a Zero Result?"
+It turns out that to use the "Ask 'What Gives a Zero Result'" trick - the one which until now had felt pretty generally-awesome - you need to be working with an _odd_ power, because that gives you an odd number of terms to work with at the key step.  If you're working with even powers, you're out of luck as you can't get the positives and negatives to match up.
 
-But what about the other power-move Gelfand showed us: The one where $(a^4 - b^4) = (a - b)(a + b)(a^2 + b^2)$?
+But what about the other power-move Gelfand showed us in Problem 115: The one where $(a^4 - b^4) = (a - b)(a + b)(a^2 + b^2)$?
 
-That's a nice option of a first step for us (albeit with the wrong sign as the starting point) but even if we solved that, we would still get left with $(a^2 + b^2)$ which feels like we should be able to factor it further.  And now we're jumping ahead because Gelfand is about to get round to this after giving us a hint to solve our problem - trying $2a^2b^2$.  Let's see what happens
+That's a nice option of a first step for us (albeit with the wrong sign as the starting point) but even if we solved that, we would still get left with $(a^2 + b^2)$ which feels like we should be able to factor it further.  Hmmm.
+
+But wait, we're jumping ahead because Gelfand is about to get round to this after giving us a hint to solve our problem - trying $2a^2b^2$.  Let's see what happens
 
 $$a^4 + b^4 = $$
 
@@ -64,16 +68,22 @@ $$ = (a^2 + b^2 + \sqrt{2}ab)(a^2 + b^2 - \sqrt{2}ab) $$
 
 That seems quite nice.
 
-## Taking Stock
+## More Trick Arising (Taking Stock)
 Gelfand now wants us to have a checkpoint.  A fuller one than we just had, and then use this to launch off again into something even more generic.  
 
+Let's do this the only way we know how; by pulling out the Tricks.
+
+### If You Have "Something-to-a-Power _Minus_ Something-Else-to-the-Same-Power One Factor Will Be $(a - b)$
 He points out that when we have $a^n - b^b$ (something to a power _minus_ something else to the same power) for any positive integer $n$ then we can factor it - one of the factors will be $(a - b)$.  
 
+### If You Have "Something-to-a-Power _Plus_ Something-Else-to-the-Same-Power, _and your Power is Odd_, One Factor Will Be $(a - (-b))$
 He goes further, pointing out that when $n$ is _odd_ and we are working with _addition_ of powers, then we can just swap in $-b$ for $b$ in the above solution.
 
+### If You Have "Something-to-a-Power _Plus_ Something-Else-to-the-Same-Power, _and your Power is Even_, Find Your Squares and Mix in $2a^nb^n$
 And what we just saw in Problem 119 was the gateway to the final element in our general situation: when $n$ is _even_ and we are working with _addition_ of one power from the other.  I.e. when it's $a^2 + b^2$, $a^4 + b^4$, $a^6 + b^6$, etc.
 
-So can we derive a general rule for this?  Or even better, can we re-state things in our sibling-problems in a way which means we can use this trick again unchanged?  Yes, we can.  
+### A Decision-Tree for All Your Power-Plus-Power Factoring Needs
+So we can't derive a general rule for this. But we can we re-state things in our sibling-problems in a way which means we can use this trick again unchanged?  
 
 When $n$ is _even_ and we're adding powers
 
