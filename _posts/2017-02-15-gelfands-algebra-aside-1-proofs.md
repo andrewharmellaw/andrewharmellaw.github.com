@@ -159,4 +159,4 @@ Having written it out, that actually seems quite correct.  I'm guessing there is
 
 I might come back to this too. 
 
-But now on to the next topic - Rational Expressions.
+You can now jump to th enext post which is [another aside, this time on the Binary Number System](https://andrewharmellaw.github.io/2017/02/20/gelfands-algebra-aside-2-binary-who-cares), or you can skip it and move on to [Chunk 13 - Rational Expressions](https://andrewharmellaw.github.io/2017/02/21/gelfands-algebra-chunk-13-rational-expressions-concepts).
