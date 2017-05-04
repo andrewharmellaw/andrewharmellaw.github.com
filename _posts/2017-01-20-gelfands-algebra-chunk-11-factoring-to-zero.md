@@ -12,7 +12,7 @@ So after [Chunk 10](https://andrewharmellaw.github.io/2017/01/17/gelfands-algebr
 
 This is just one of the reasons that factoring is "hard".  (Interestingly as I've been writing this, I remember _doing_ factoring at school. I fail to recall any of the details however, most likely due to the terror which this "summoning from the ether" element.)
 
-## Look for the Zero(s)
+## Looking for the Zero(s)
 Gelfand feels our fear, but he encourages us to took into the abyss anyway.  He suggests we look at a factoring of the familiar difference-of-squares to salve our anxiety.  We know the steps because we've worked it the other direction [many a time](https://andrewharmellaw.github.io/2016/12/17/gelfanfd-algebra-chunk-6-squares-sums-diffs-etc).
 
 $$ a^2 - b^2 = $$
