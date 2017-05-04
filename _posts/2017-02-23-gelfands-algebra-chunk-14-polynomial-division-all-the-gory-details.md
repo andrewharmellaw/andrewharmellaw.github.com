@@ -10,28 +10,30 @@ tags: [gelfand, petzold, tricks, division, degrees, polynomials, monomials, stan
 ## A Quick Note - Monomial Degrees
 This concept actually is a very simple one (unlike some _seemingly_ simple concepts which in fact turn out to be nebulously nightmarish.)  
 
-It is however, a _fundamental_ one, hence why I pulled it out.  Why fundamental? Because in order to bootstrap your mind into the next set of chunks, you need to be able to snap your fingers at any time and point to the degree of a given monoial.  Here's what it is, in textual form first (from Gelfand pp 61):
+It is however, a _fundamental_ one, hence why I've chosen to highlight it.  Why fundamental? Because in order to bootstrap your mind into the next set of chunks, you'll need to be able to snap your fingers at any time and point to the degree of a given monomial (and thence the entire polynomial to which it belongs).  
 
-"If a polynomial contains only one variable, its standard form consists of its monomials written in order of decreasing degrees. The monomial having the highest degree is called the 'first monomial'. Its degree is called the 'degree of the polynomial."
+So what is the degree of of a monomial? Here it is, in textual form first (from Gelfand pp 61):
 
-Now lets break this into pieces and show it visually
+ > "If a polynomial contains only one variable, it's standard form consists of it's monomials written in order of decreasing degrees. The monomial having the highest degree is called the 'first monomial'. It's degree is called the 'degree of the polynomial."
+
+Now let's break this into pieces and show it visually
 
 1. "... a polynomial contains _only one variable_..." - i.e. "$x$".  That means $2x^2 + 3x - 3$ meets this criteria, as does $b^{300}$ but $a^2 + 2ab - 3$ doesn't
 
-2. "_Standard_ Form" - We discussed this at length in [Chunk 8 - 'Nomials](https://andrewharmellaw.github.io/2017/01/10/gelfands-algebra-chun-8-nomials).  I added at the time that it was nice to order things decreasing by degree. That'll be helpful in the next step. This also means that while $3x - 3 + 2x^2$ and $2x^2 + 3x - 3$ are equivalent, only the latter is in Standard Form.
+2. "_Standard_ Form" - We discussed this at length in [Chunk 8 - 'Nomials](https://andrewharmellaw.github.io/2017/01/10/gelfands-algebra-chun-8-nomials).  I added at the time that it was nice to order things decreasing by degree. That'll be helpful in the next step. This also means that while $3x - 3 + 2x^2$ and $2x^2 + 3x - 3$ are equivalent, but only the latter is in Standard Form.
 
 3. "The monomial having the highest degree is called the '_first_ monomial'" - See the reason for ordering?  It will literally be the first monomial in your polynomial if you've done this.  Therefore in $2x^2 + 3x - 3$ the first monomial is $2x^2$, and in $b^{300}$ the first monomial is $b^{300}$
 
 4. "It's degree (the first monomial) is called the 'degree of the polynomial'" - That means that in $2x^2 + 3x - 3$ the degree is $2$, and in $b^{300}$ the degree is $300$
 
-### Subtlety - Constants
+### A First Subtlety - Constants
 What if there are no variables? (N.b. this is just equivalent to a polynomial where all variables have co-efficients of value $0$)  In these circumstances, your degree is $0$ too.
 
 Remember
 
 $$3 = 3x^0 = 3 \times 1 = 3$$
 
-### Subtlety - Undefined Degrees
+### A Second Subtlety - Undefined Degrees
 What about monomials with zero-co-efficients? (I.e. with a co-efficient of $0$).  These monomials are ignored, and their degrees (the monomials) are "undefined" (which means you may then fall back on the degree of a constant)
 
 Extending the example we just saw
@@ -39,7 +41,7 @@ Extending the example we just saw
 $$0x^2 + 3 = 0x^2 + 3x^0 = 0 + 3x^0 = 3 \times 1 = 3$$
 
 ## Degree Consequences 
-With all this in place, things start to get useful (if also a bit meta).  Via the medium of problems (Problems 137 and 138), Gelfand gets us to realise:
+With all this in place, things start to get useful (if also a bit meta).  Via the medium of problems (Problems 137 and 138), Gelfand gets us to realise the following rules:
 
 * the degree of the _product_ of two polynomials (one with degree $a$ and the other with degree $b$) is $a + b$ (How? Remember [Chunk 5 - Powers](https://andrewharmellaw.github.io/2016/12/10/gelfands-algebra-chunk-5-powers))
 * the degree of the _sum_ of two polynomials with degrees $x$ and $y$, where $x >= y$, will be $x$
@@ -75,7 +77,8 @@ You can use a very similar method to do the work of division too, using a form o
 
 There is even a definition (the first of these that we come across in Gelfand too if I recall correctly)
 
-Definition: Assume that we have two polynomials (both in the same, single variable), called the dividend and the divisior. To perform a division means to find two other polynomials , called the quotient and the remainder such that (dividend) = (quotient).(divisor) + remainder) where the degree of the remainder is less than the degree of the degree of the divisor (or is zero)
+#### Definition
+ > Assume that we have two polynomials (both in the same, single variable), called the dividend and the divisior. To perform a division means to find two other polynomials , called the quotient and the remainder such that (dividend) = (quotient).(divisor) + remainder) where the degree of the remainder is less than the degree of the degree of the divisor (or is zero)
 
 For super-clarity, 
 
@@ -184,18 +187,18 @@ $$ = x^3 - \frac{3}{2} $$
 If you take this method and work it all the way through the rest of the example (perhaps moving things to one side to figure things out in this way) it should all fall into place.
 
 ## Commentary - The "Important Things to Notice" Problems
-As is his way, Gelfand closes out the section with some semi-abstract problems to which you are supposed to have "ah-ha!" moments.  I know to my detriment (I'm not re-reading his book, blogging it as I go for no reason) that you misapprehend (or heaven-forbid skip) these at your peril.  So what are we supposed to grokk here?
+As is his way, Gelfand closes out the section with some semi-abstract problems to which you are supposed to have "ah-ha!" moments.  I know to my detriment (I'm not re-reading his book, blogging it as I go for no reason) that you misapprehend (or heaven-forbid skip) these at your peril.  So what are we supposed to grok here?
 
 ### The Relationships Between Degrees
 This is covered in Problems 140 and 142.  There are some "Laws" hidden in there; things that always hold true, and which, no doubt, will be relied upon in a higher algebraic-storey which builds upon them.
 
-The law are these:
+The laws are as follows:
 
  * If the degree of the dividend is larger than the degree of the divisor the degree of the quotient will clearly be the degree of the dividend polynomial  minus the degree of the divisor polynomial.  The degree of the remainder may then be undefined (there is no remainder) or it may be anywhere from $0$ to $n - 1$ (where $n$ is the degree of the quotient). 
  * If, on the other hand, the degree of the dividend is smaller than the degree of the divisor, the fraction is already proper.  In this case the quotient is equal to zero and the remainder is equal to the dividend.
 
 ### The Uniqueness of Resulting Quotients and Remainders
-This is covered in Problem 141.  The aim here is for Gelfand to show us that the Quotient and Remainders that we've produced via the method he outlines (and which I've gone into more detail on in the majority of this post), that these are unique.  That is to say, the quotient produced is the only quotient in the circumstances, and the remainder is the only remainder. 
+This is covered in Problem 141.  The aim here is for Gelfand to show us that the quotient and remainders which we produced via the method he outlined (and which I've gone into more detail on in the majority of this post) are unique.  That is to say, the quotient produced is the only quotient in the circumstances, and the remainder is the only remainder. 
 
 That's actually quite reassuring, especially having just come from Factoring-land where you're never quite sure if there's something else just around the corner to find, if only you were a bit better at all that stuff...
 
@@ -207,4 +210,4 @@ The way Gelfand proves it is pretty interesting too. (Sometimes the method is as
  * The approach to the proof is to begin by making an assumption (in this case that there might be more than one Quotient, $Q_{1}$ and $Q_{2}$, and more than one Remainder, $R_{1}$ and $R_{2}$) and then logically follow the implications of that assumption.  In this case that $Q_{1} = Q_{2}$ and $R_{1} = R_{2}$ 
 
 ## Another Pseudo-Conclusion
-We're not really completely done with Polynomial Division.  Gelfand has a few more tricks up his sleeve which I'll cover in the next chunk.  But this is a good place to stop for this post.
+We're not really completely done with Polynomial Division.  Gelfand has a few more tricks up his sleeve which I'll cover next in [Chunk 15 - Polynomial Division Addendum](https://andrewharmellaw.github.io/2017/02/28/gelfands-algebra-chunk-15-polynomial-division-special-cases).  But this is a good place to stop for now.
