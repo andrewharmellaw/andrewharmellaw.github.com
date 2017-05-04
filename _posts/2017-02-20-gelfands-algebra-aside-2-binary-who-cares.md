@@ -13,7 +13,7 @@ I now care.
 
 Why? Because I'm reading [Charles Petzold's "The Annotated Turing"](https://www.amazon.co.uk/Annotated-Turing-Through-Historic-Computability/dp/0470229055) which is pretty much a massive (and brilliant) [gloss](https://en.wikipedia.org/wiki/Gloss_(annotation)) on Alan Turing's classic paper ["On Computable Numbers, with an Application to the Entscheidungsproblem" (1936)](http://www.turingarchive.org/browse.php/b/12).  It could be argued that the reason modern computers use binary is down to a decision Turing made.  (See pp. 73 of Petzold for some background.)
 
-Because I didnt care (and because I thought it was too easy) I didn't blog some highlights of binary when I passed it.  I'm now going to.
+Because I didn't care (and because I thought it was too easy) I didn't blog some highlights of binary when I passed it.  I'm now going to.
 
 ## Visualising Carries in Binary Addition
 I covered the Addition Algorithm in the decimal system in [Chunk 1](https://andrewharmellaw.github.io/algebra/2016/11/16/gelfands-algebra-chunk-1-fundamentals).  Let's see it in action in binary, taking the addition from page 101 of Petzold.
