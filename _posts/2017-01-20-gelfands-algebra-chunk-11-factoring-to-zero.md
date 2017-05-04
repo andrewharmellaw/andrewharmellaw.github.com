@@ -304,7 +304,7 @@ Remember $a^{10} = (a^5)^2$ - voila! A square!
 A word of warning however, this only works when your powers are _even_.  You need another trick for when they are odd.
 
 ### Need a Square? Add (and Remove) the Bit You Need
-Don't have what you need?  remember, we're all about the annihilated terms here, so why not use this to your advantage (just like we did in problem 118(d)) and add and remove the things you need to give you the terms you need?
+Don't have what you need?  Remember, we're all about the annihilated terms here, so why not use this to your advantage (just like we did in problem 118(d)) and add and remove the things you need to give you the terms you need?
 
 Go on, Gelfand (and Durham) have given you permission.
 
