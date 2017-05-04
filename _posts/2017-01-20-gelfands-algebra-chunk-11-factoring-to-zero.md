@@ -61,7 +61,7 @@ Asides aside, why is this relevant?  Well, Gelfand is drawing our attention to t
 ### When Factoring, Find a Simple Case
 We got here by trying to see the wood for the trees, and as in many other circumstances on our journey, finding a simple case of something frequently helps, just like it did above.
  
-### When Factoring, Ask "What Gives a a Zero Result?"
+### When Factoring, Ask "What Gives a Zero Result?"
 The prime example of "a simple case" is when our result is zero.  If you can find this, you have one of your factors pre-rolled. (N.b. a "factor" can be an expression rather than a number, e.g. $(x - 1)$)
 
 ## Gelfand Problem 113
