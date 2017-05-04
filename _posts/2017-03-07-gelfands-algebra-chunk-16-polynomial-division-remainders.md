@@ -10,7 +10,9 @@ tags: [gelfand, bezout, division, polynomials, remainder-theorem, tricks, factor
 ## There Must be an Easier Way...
 All this polynomial division is very exciting and all, but it's also very long-winded.  Surely there's an easier way? (At least in certain circumstances?)
 
-Reassuringly there is, at least for remainders, and factoring, and this is all up next, courtesy of [Bezout](https://en.wikipedia.org/wiki/%C3%89tienne_B%C3%A9zout) and his Remainder Theorem.  
+Reassuringly there is, at least for remainders, and factoring, and this is all up next, courtesy of [Bezout](https://en.wikipedia.org/wiki/%C3%89tienne_B%C3%A9zout) and his [Polynomial Remainder Theorem](https://en.wikipedia.org/wiki/Polynomial_remainder_theorem).  
+
+Note: Bezout was a busy guy, and there are other theorems he came up with which you should not confuse with this one, such as what is known as Bezout's Theorem.  Confusing, right?
 
 I'll let you go to Gelfand (section 37) for the simple reason why this works, but in general, if $P$ is an arbitrary polynomial (i.e. any polynomial in a single variable, $x$ in what follows) which we want to divide by $x - a$ then we can use the following equality to give us a jump on things:
 
@@ -29,7 +31,7 @@ $$2^4 = (\hbox{quotient})(2 - 2) + (\hbox{remainder})$$
 
 $$16 = (\hbox{quotient})\cdot 0 + 16$$
 
-This is called the Remainder Theorem, and it was discovered by Etienne Bezout.  
+This is the aforementoned Remainder Theorem, discovered by [Etienne Bezout](https://en.wikipedia.org/wiki/%C3%89tienne_B%C3%A9zout).  
 
 Note, this is only a method to find the remainder. If you need the quotient, you still have to take the long way round as we described in the previous post.
 
@@ -38,11 +40,13 @@ The previous trick was nice, but not too magical.  Up next is a consequence of B
 
 Now _that's_ magical.
 
-First we need to take a step back.  Two in fact. Forget about polynomials, and forget about division.  We're going to introduce properly the concept of _roots_.
+First we need to take a step back.  Two in fact. Forget about polynomials, and forget about division.  We're going to introduce properly the concept of _polynomial roots_.  
+
+Note: polynomial roots _are not_ roots of numbers such as square roots and cube roots.  I've written [a separate section](https://andrewharmellaw.github.io/2017/04/24/gelfands-algebra-aside-2-roots-roots-and-more-roots) to disambiguate all this. If you feel the need jump over there now to make sure you're happy with the difference, and what we are and arent talking about here.
 
 Polynomials have things called _roots_. If I tell you they are also called a "zero" you might think back to the last time we heard the "zero" word with regards to factoring, in [Chunk 11 - Factoring to Zero](https://andrewharmellaw.github.io/2017/01/20/gelfands-algebra-chunk-11-factoring-to-zero).  In that post we found great solace for our annihilated-terms woes by "looking for the zero result".
 
-Gelfand is now going to take the finding-the-remainder element of this approach, and bring us up to speed with roots in general (without explicitly calling out the link I've just made - I found it by [reading around the topic](http://www.sosmath.com/algebra/factor/fac02/fac02.html)).
+Gelfand is now going to take the finding-the-remainder element of this approach, and bring us up to speed with roots in general (without explicitly calling out the link I've just made - I found it by [reading around the topic](http://www.sosmath.com/algebra/factor/fac02/fac02.html)).  ([Oakley](https://www.amazon.co.uk/Mind-Numbers-Science-Flunked-Algebra-ebook/dp/B00G3L19ZU) FTW!)
 
 The definition of a root $x = a$ of a function $f(x)$ from the above linked page is as follows:
 
@@ -60,15 +64,15 @@ Remember this from Bezout?
 
 $$P(x) = (\hbox{quotient})(x - a) + (\hbox{remainder})$$
 
-If we state Bezout in a _different_ way we then can see why this is a consequence.  
+If we state Bezout in a _different_ way we can see why this is a logical consequence.  
 
-"To find whether polynomial $P$ is divisible by $x - a$ (without remainder), test whether it becomes zero after substitution of $a$ for $x$."
+ > "To find whether polynomial $P$ is divisible by $x - a$ (without remainder), test whether it becomes zero after substitution of $a$ for $x$."
 
 That means (and it's not too much of a brain stretch to see it) that when you put a value into your polynomial $P$, and the result does become zero, then it is divisible by $x - a$, then that means $a$ is a _root_ of $P$.  (We have _rooted_ our polynomial $P$.)  That also means $x - a$ is a _factor_ of $P$.
 
-One last point (perhaps self evident, but I dislike loose ends). How does this relate to division (polynomial or otherwise)?  Remember, a two or more factors are the result of _dividing_ a polynomial.  To get back to the original polynomial, you simply take their product (which is just a fancy maths word for _multiply_ them).  Bezout's formula is simply one which make evident both sides of the situation - a polynomial in entirety, and the same, but broken into pieces by division and about to be multiplied and added up again.
+One last point. (Perhaps a self-evident one, but I dislike loose ends). How does this relate to division (polynomial or otherwise)?  Remember, two or more factors are the result of _dividing_ a polynomial.  To get back to the original polynomial, you simply take their product (which is just a fancy maths word for _multiplying_ them together).  Bezout's formula is simply one which make evident both sides of the situation - a polynomial in entirety, and the same, but broken into pieces by division and about to be multiplied and added up again.
  
-## Too Magical? Lets Check With Some Problems
+## Still Too Magical? Let's Check With Some Problems
 Does that seem a little too magical?  Are you feeling that adding strings to factoring bows should be harder-fought?  lets tackle some of the followiung problems to check.
 
 ### Problem 146(a)
@@ -172,8 +176,11 @@ Which means our factoring is as follows:
 $$x^4 + 3x^2 + 5x + 1 = (x + 1)(x^3  + x^2 + 4x + 1)$$
 
 ## Tricks Arising
-### Nothing subtracted? Try a negative $a$
+### Nothing subtracted? Try a Negative $a$
 If when you look at your polynomial you see that nothing is subtracted (as in Problem 146(b) above) you know that your root will have to be a negative number (so that your sum will add to zero when you mix in the $x$).
 
 ### How Many Roots?
 The gory details of how to get to this fact are in Gelfand, but its a truism that a polynomial of degree $x$ will have at most $x$ different roots.  The "different" is important - remember a polynomial can have two roots which are the same (n.b. $(x - 1)(x - 1) = (x - 1)^2$ which translates as two roots which are the same).  Mathematicians say this has "two equal roots".
+
+## Further Reading
+There is a lot more to know about all this, but we've covered what Gelfand needs us to know for now.  If you are excited to learn more, I'd recommend the [Fundamental Theorem of Algebra](https://www.mathsisfun.com/algebra/fundamental-theorem-algebra.html) on MathsIsFun.  It sounds scary, but it is really well written.
