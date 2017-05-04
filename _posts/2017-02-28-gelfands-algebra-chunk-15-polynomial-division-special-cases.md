@@ -25,15 +25,15 @@ $$
   \end{array}
 $$
 
-We could now do the same for (b) and (c), but I think it's evident, even from just the above, that we'd get a pattern emerging.  Gelfand woudl undoubtedly be pleased that we'd spotted this, as he goes on to point out just that they have all been generic forms of a standard formula
+We could now do the same for (b) and (c), but I think it's evident, even from just the above, that we'd get a pattern emerging.  Gelfand would undoubtedly be pleased that we'd spotted this, as he goes on to point out just that they have all been generic forms of a standard formula
 
 $$ \frac{x^n -1}{x - 1} = x^{n-1} + x^{n-2} + \hbox{...} + x^2 + x + 1$$
 
-It turns out that this has a special power - it can be used to compute the sums of consecutive powers of a number $x$.  You can imagine how it would be; just flip the anove stand formula round and reverse the order of addition
+It turns out that this has a special power - it can be used to compute the sums of consecutive powers of a number $x$.  You can imagine how it would be; just flip the above standard formula round and reverse the order of the additions
 
 $$ 1 + x + x^2 + \hbox{...} + x^{n-2} + x^{n-1} = \frac{x^n -1}{x - 1}$$
 
-The left hand side shows the long-winded way you'd have to go about this. I.e. "what are the consecutive powers of $3$ up to the power of three?" you ask.
+The left hand side shows the long-winded way you'd have to go about this. I.e. "what are the consecutive powers of $3$ up to the power of three?" you might ask.
 
 $$3^0 + 3^1 + 3^2= $$
 
