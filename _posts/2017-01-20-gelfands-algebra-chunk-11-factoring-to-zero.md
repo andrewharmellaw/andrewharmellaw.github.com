@@ -55,13 +55,13 @@ $$ \rightarrow a - b = 0$$ OR $$a + b = 0 $$
 
 $$ \rightarrow a = b $$ OR $$ a = -b $$
 
-Asides aside, why is this relevant?  Well, Gelfand is drawing our attention to the fact that when factoring a polynomial, it helps to see when it has a zero value.  But why is that useful? Because as we've seen more than once before, if you have a single factor of zero, then the outcome of everything will be zero and this then gives us one of our factors.  Let's try it and see what happens.  But we'll pull out the tricks explicitly just before we move to that.
+Asides aside, why is this relevant?  Well, Gelfand is drawing our attention to the fact that when factoring a polynomial, it helps to see when it has a zero value.  But why is that useful? Because as we've seen more than once before, if you have a single factor of zero, then the outcome of everything will be zero and this then gives us one of our factors.  Let's try it and see what happens.  But we'll pull out these tricks explicitly just before we move to that.
 
 ## Tricks Arising
 ### When Factoring, Find a Simple Case
 We got here by trying to see the wood for the trees, and as in many other circumstances on our journey, finding a simple case of something frequently helps, just like it did above.
  
-### When Factoring, Look for a Zero Result
+### When Factoring, Ask "What Gives a a Zero Result?"
 The prime example of "a simple case" is when our result is zero.  If you can find this, you have one of your factors pre-rolled. (N.b. a "factor" can be an expression rather than a number, e.g. $(x - 1)$)
 
 ## Gelfand Problem 113
@@ -152,7 +152,7 @@ $$1^7 - 1^7 = 0$$
 
 Therefore, we know that $(a - 1)$ must be a factor.  So how do we take this and move to the complete factoring? Back to the thinking.
 
-My next thought is, "have we accidentally come across another trick which we can use here?"  Well, there is the sum of progressively decreasing powers of $a$ that we've seen in our recent solutions (if you squint a bit and realise that in these circumstances $b = 1$ - always - and therefore any power of $b$ is also always $1$, so this just disappears, leaving the steadily decreasing powers $a$ - or $x$ in this case.)  Let's try that.
+My next thought is, "have we accidentally come across another trick which we can use here?"  Well, there is the sum of progressively decreasing powers of $a$ that we've seen in our recent solutions (if you squint a bit and realise that in these circumstances $b = 1$ - always - and therefore any power of $b$ is also always $1$, so this just disappears, leaving the steadily decreasing powers $a$, or $x$ in this case.)  Let's try that.
 
 $$a^7 - 1 = $$
 
