@@ -298,30 +298,31 @@ That was simple, but it also feels a little bit like magic.  Maths-super-power m
 
 ## Tricks Arising
 
+### Advanced Pattern Spotting - Plus, Minus 
+Much of our new super-powers are based on our getting to the difference-of-squares or square-of-sums.  Which one?  Look at the signs of the operations ($+$ or $-$) between your terms.  These will give you a clue.
+
+Also note, you might spot the pattern in _a part_ of your current expression.  If you do, its fine to work on that part, and forget about the other bit for a minute until you are ready to return to it. (But don't forget to return.)
+
 ### Need a Square? Pull Apart Your Powers
 Remember $a^{10} = (a^5)^2$ - voila! A square!
 
-A word of warning however, this only works when your powers are _even_.  You need another trick for when they are odd.
+A word of warning however, this only works when your powers are _even_.  You need another trick for when they are odd.  We'll come back to that in the [next post - The Hard Ones](https://andrewharmellaw.github.io/2017/02/02/gelfands-algebra-chunk-12-the-hard-ones).
 
 ### Need a Square? Add (and Remove) the Bit You Need
 Don't have what you need?  Remember, we're all about the annihilated terms here, so why not use this to your advantage (just like we did in problem 118(d)) and add and remove the things you need to give you the terms you need?
 
 Go on, Gelfand (and Durham) have given you permission.
 
-### Advanced Pattern Spotting - Plus, Minus 
-Much of our new super-powers are based on our getting to the difference-of-squares or square-of-sums.  Which one?  Look at the signs of the operations ($+$ or $-$) between your terms.  These will give you a clue.
-
-Also note, you might spot the pattern in _a part_ of your current expression.  If you do, its fine to work on that part, and forget about the other bit for a minute until you are ready to return to it. (But don't forget to return.)
-
 ### Need a Square? Root it then Square it
 Take the square root of something (e.g. $4 \rightarrow 2$), and then square it (e.g. $2 \rightarrow 2^2$).  Then use that in place of your initial number.
 
 This can get a bit more complicated in practice. See Problem 118(b) above for discussion on this.
 
-### Split to Root Everything Individually
-If your co-efficient is not 1, then rooting something can seem a little unclear.  But its not hard, there are just some additional intermediate steps which you can  take. 
+### Need a Square? Make a Perfect One
+Sometimes it's a little bit of a struggle to get your square, but you can still make a perfect one.  See Problem 118(b) for a method.
 
-These are the steps I outlined in trying to solve Problem 118(b).  I'll not repeat myself here.
+### Split to Root Everything Individually
+If your co-efficient is not $1$, then rooting something can seem a little unclear.  But it's not hard, there are just some additional intermediate steps which you need to take which are the ones I outlined when solving Problem 118(b).  I'll not repeat myself here.
 
 ### Don't Stop Until You Have To
 This is more of a tip than a trick, but it also plays to what you'll see in Durham is you've been reading along with him too.  Remembering that there are almost always _many_ ways to factor something, with many intermediate steps and many possible results, how do you know when to stop?  When _you_ can go no further, that's when.  This might be because you're done, or you have no more tricks up your sleeve (remember we're not done with this topic yet - there is one more Chunk to come).  Always make sure you're not just stopping because you feel clever at the step you just took (see my write-up of Problem 118(c) above) and gave yourself a break while you patted yourself on the back.  That would be foolish.
