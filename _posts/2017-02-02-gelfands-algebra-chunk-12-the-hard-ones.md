@@ -68,7 +68,7 @@ $$ = (a^2 + b^2 + \sqrt{2}ab)(a^2 + b^2 - \sqrt{2}ab) $$
 
 That seems quite nice.
 
-## More Trick Arising (Taking Stock)
+## More Tricks Arising (Taking Stock)
 Gelfand now wants us to have a checkpoint.  A fuller one than we just had, and then use this to launch off again into something even more generic.  
 
 Let's do this the only way we know how; by pulling out the Tricks.
@@ -82,8 +82,8 @@ He goes further, pointing out that when $n$ is _odd_ and we are working with _ad
 ### If You Have "Something-to-a-Power _Plus_ Something-Else-to-the-Same-Power, _and your Power is Even_, Find Your Squares and Mix in $2a^nb^n$
 And what we just saw in Problem 119 was the gateway to the final element in our general situation: when $n$ is _even_ and we are working with _addition_ of one power from the other.  I.e. when it's $a^2 + b^2$, $a^4 + b^4$, $a^6 + b^6$, etc.
 
-### A Decision-Tree for All Your Power-Plus-Power Factoring Needs
-So we can't derive a general rule for this. But we can we re-state things in our sibling-problems in a way which means we can use this trick again unchanged?  
+## A Decision-Tree for All Your Power-Plus-Power Factoring Needs
+So we can't derive a general rule for this. But we can we re-state things in our sibling-problems in a way which means we can use this trick again unchanged?  Yup. 
 
 When $n$ is _even_ and we're adding powers
 
