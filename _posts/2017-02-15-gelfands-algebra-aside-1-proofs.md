@@ -30,7 +30,7 @@ and re-arrange
 
 $$ = ab - a - b + 1 = $$
 
-Does that look a little like a kind-of-polynomial? (I.e. like $x^2 - 2x + 1$ - I was happy to have go to this point without reference to [Durham](https://www.scribd.com/document/243387607/Gelfand-Algebra-Solutions)).  Let's try it and see.  If it was, then we could do some nice factorisation on it, but with $a$ as our first $x$ and $b$ as our second.  That gives us this
+Does that look a little like a kind-of-polynomial? (I.e. like $x^2 - 2x + 1$ - I was happy to have a go to this point without reference to [Durham](https://www.scribd.com/document/243387607/Gelfand-Algebra-Solutions)).  Let's try it and see.  If it is, then we could do some nice factorisation on it, but with $a$ as our first $x$ and $b$ as our second.  That gives us this
 
 $$ = (a - 1)(b - 1) $$
 
@@ -42,7 +42,7 @@ Awesome!
 
 Now what do we need to do?  Well, the problem requires that we prove that when $a$ and $b$ are both greater than one, then $a + b < 1 + ab$.  If we look at our factorisation, we can easily see that when $a$ and $b$ are greater than one we get a positive result.  If either or both are $<=$ one then we get a zero or negative result.  That's the point of the factorisation I deduce.
 
-So now it _kind of_ feels like we've proved this, but the issue here is still the leap made at the start - how were we to know that doing such a factorisation would lead us to this factorisation and therefore to the proof?  Let's look back at the problem and the thing to factor.
+So, at this point, it _kind of_ felt like we've proved this, but the issue here is still the leap made at the start - how were we to know that doing such a factorisation would lead us to this factorisation and therefore to the proof?  Let's look back at the problem and the thing to factor.
 
 $$ a + b < 1 + ab $$
 
@@ -54,7 +54,7 @@ And subsequent to this there is the effective moving of the right hand side acro
 
 $$ \rightarrow (a + b) - (1 + ab) $$
 
-Now I pondered this next bit for a while.  (In fact I stopped writing this, went off and did other things, and have now come back 24 hours later.)  (Note, I dropped the "$ > 0$" bit as it no longer served any purpose for us. Nigglingly, when we bring it back later in this section, the direction of the symbol changes, but I have looked at both versions every which way and both seem valid and correct in the circumstances they are being used.  To reconcile this in my head I had to remember there will be times when $(a + b) - (1 + ab)$ would be equalt to zero, times when it would be less than zero, and times when it would be greater than zero - in each case based entirely on the input values for $a$ and $b$.)
+I pondered this next bit for a while.  (In fact I stopped writing this, went off and did other things, and have now come back 24 hours later.)  (Note, I dropped the "$ > 0$" bit as it no longer served any purpose for us. Nigglingly, when we bring it back later in this section, the direction of the symbol changes, but I have looked at both versions every which way and both seem valid and correct in the circumstances they are being used.  To reconcile this in my head I had to remember there will be times when $(a + b) - (1 + ab)$ would be equalt to zero, times when it would be less than zero, and times when it would be greater than zero - in each case based entirely on the input values for $a$ and $b$.)
 
 Moving on from this very difference, there are two significant elements in our question which we need to acknowledge. 
 
@@ -121,7 +121,7 @@ What I missed was looking at the $a^3 - b^3$.  Now when is _this_ zero?  This is
 
 Combined, _that's_ the echo of a future solution-reason calling me, and enough to move forward.
 
-So do we have our proof with this alone?  Again (and I might come back to this in an update to this post sometime) _I_ think you could stop at this point, given where we are in the Gelfand-journey.  [Durham]() however goes further. He then analyses $a^2 + ab + b^2 = 0$ directly.  I encourage you to take a look and see what you can glean.
+So do we have our proof with this alone?  Again (and I might come back to this in an update to this post sometime) _I_ think you could stop at this point, given where we are in the Gelfand-journey. [Durham](https://www.scribd.com/document/243387607/Gelfand-Algebra-Solutions) however goes further. He then analyses $a^2 + ab + b^2 = 0$ directly.  I encourage you to take a look and see what you can glean.
 
 ## Problem 125
 Prove that if $a + b + c = 0$ then $a^3 + b^3 + c^3 = 3abc$
