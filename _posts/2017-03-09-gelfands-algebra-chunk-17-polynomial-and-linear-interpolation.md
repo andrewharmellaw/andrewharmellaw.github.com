@@ -91,12 +91,12 @@ $$P(x) = -2x + 9$$
 Bringing his worked example to a close, Gelfand points out what he's hoped we'd notice - that you can use this trick for any polynomial of degree not exceeding one, given two values of $x$.
 
 ## It's Just Lines!
-There has been a dearth of lines in Gelfand for a good while.  We're suddenly about to bring one back.  Gelfand next makes sure we've well and truly cottoned-on to the significance of what we just found.  He gives us the forumla for the graph of a straight line, $y = ax + b$ and then prods us to realise that this is _exactly the same as our first-degree polynomial formula_.  No wonder we can reverse-engineer things for this polynomial-class with two values.  That's how many you need to figure out all the values on a straight line - something which takes in two points.
+There has been a dearth of lines in Gelfand for a good while.  We're suddenly about to bring one back.  Gelfand next makes sure we've well and truly cottoned-on to the significance of what we just found.  He gives us the formula for the graph of a straight line, $y = ax + b$, and then prods us to realise that this is _exactly the same as our first-degree polynomial formula_.  No wonder we can reverse-engineer things for this polynomial-class with two values.  That's how many you need to figure out all the values on a _straight_ line - something which takes in two points.
 
 Now we begin to see why Gelfand used the "regression" word in the title of this section...
 
-## Second-Degrees - Becaus Not all Lines are Straight Lines
-Gelfand marches us onward.  Have we learned a universal fact? Do we only need two values to be able to reverse-engineer a polynomial of any degree?  Only if all lines are straight ones.  Do second-degree polynomials represent straight lines? Gelfand gets on to this later (which I'll get to in another chunk) but for now be satisfied that after a little question-setting he leads us to the conclusion that no, they don't - in fact we need _three_.
+## Second-Degrees - Because Not all Lines are Straight Lines
+Gelfand marches us onward.  Have we learned a universal fact? Do we only need two values to be able to reverse-engineer a polynomial of any degree?  Only if all lines are straight ones.  Do second-degree polynomials represent straight lines? Gelfand gets on to this later (which I'll get to in another chunk) but for now be satisfied that after a little question-setting he leads us to the conclusion that no, they don't represent straight lines - and in fact we need _three_ values to represent them.
 
 After a bunch of specific questions, Gelfand breaks out the meta again, and asks us to "prove that a polynomial of degree not exceeding $2$ is defined uniquely by three of its values."  He gives us a bit of a starter, but I'm going to take my usual tack of working through Gelfand's solution in far-far finer-grained detail.  
 
