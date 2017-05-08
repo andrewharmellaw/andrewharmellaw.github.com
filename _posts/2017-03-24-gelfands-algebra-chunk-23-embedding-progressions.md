@@ -17,7 +17,7 @@ Consequently I'm going to go slowly.  Perhaps too slowly for some, but just to m
 
 This is a nice problem to start with.  Let's begin to tackle it as we always do by taking our inputs and laying them out nicely ready for deployment in solutioning.
 
-We know that we can represent a value in an _arithmetic_ progression {% sidenote 'sn-id-whatever' 'key point, we're going back in time a bit here'%} as the product of a starting value (which we'll keep calling $a$), the difference between terms (which we'll keep calling $d$), and numbers representing the position of the terms in the progression (which we'll call $n_x, n_y$ and $n_z$).
+We know that we can represent a value in an _arithmetic_ progression {% sidenote 'sn-id-whatever' 'key point, we are going back in time a bit here'%} as the product of a starting value (which we'll keep calling $a$), the difference between terms (which we'll keep calling $d$), and numbers representing the position of the terms in the progression (which we'll call $n_x, n_y$ and $n_z$).
 
 What is more, if two or more terms are to be in the same progression, then they will share the values of $a$ and $d$ - the starting value and difference respectively. (A small aside: it's not actually this simple, progressions can have different $a$ values, but still overlap in terms of terms [sic - sorry], but this simplified view works for us here.)
 
