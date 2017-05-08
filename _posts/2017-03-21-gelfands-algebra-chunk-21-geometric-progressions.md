@@ -3,14 +3,14 @@ layout: post
 title: "Gelfand: Chunk 21 - Geometric Progressions"
 description: "Moving on to yet more Progressions"
 category: 
-tags: [gelfand, tricks, geometric-progressions, positive, negative]
+tags: [gelfand, tricks, geometric-progressions, positive, negative, roots]
 ---
 {% include JB/setup %}
 
 You might remember we had a sneak peek at these things back in [Chunk 15 - Polynomial Division Addendum](https://andrewharmellaw.github.io/2017/02/28/gelfands-algebra-chunk-15-polynomial-division-special-cases).  Now we can really get our teeth into it.
 
 ## Definition - Geometric Progressions
-As is our wont, lets start with a definition, taken straight out of Gelfand, section 41.
+As is our wont, let's again start with a definition, taken straight out of Gelfand, section 41.
 
 > "A _geometric progression_ is a sequence of numbers where each term is a _product_ of the proceeding one and a fixed number. This fixed number is called the _common ratio_ (or ratio) of the geometric progression."
 
@@ -36,7 +36,7 @@ $$2^2 = 4$$
 
 $$2^3 = 8$$
 
-Etc.  And in one way we're right.  But there are two answers.  If we now look at the geometric progression formula, $a \cdot q^{n - 1}$, what is $a$ and $q$?.  If the second term is $2$, then $a = 1$, and $q = 2$.  But can $q$ be anything else and still give us $1$ for the first term and $4$ for the third?  Yes, it can be $(-2)$ (those parens are important).
+Etc.  And in one way we're right.  But there are _two_ answers.  If we now look at the geometric progression formula, $a \cdot q^{n - 1}$, what is $a$ and $q$?.  If the second term is $2$, then $a = 1$, and $q = 2$.  But can $q$ be anything else and still give us $1$ for the first term and $4$ for the third?  Yes, it can be $(-2)$ (those parens are important if you're using Google as a calculator).
 
 $$1 \cdot (-2)^0 = 1$$
 
@@ -82,9 +82,9 @@ Can we drop every second step and still be a geometric progression? Yah, because
 Can we drop every third?  No, we can't.  Just as in arithmetic progressions, the ratio of the gaps is no longer constant (being $q$ between some and $q^2$ between others) and so these progressions are no longer geometric.
 
 ## Back to Roots
-The last part of this section (but not of this post) is interesting for a few reasons.  Firstly, it gives us another (reverse) angle on the positive / negative aspect (via roots).  Secondly, we're back in the world of zeros not working for us.  Based on what we've seen before now, we know that these aspects are where it gets interesting.
+The last part of this section (but not of this post) is interesting for a few reasons.  Firstly, it gives us another (reverse) angle on the positive / negative aspect (via roots of the number kind).  Secondly, we're back in the world of zeros (but not the polynomial-root kind) not working for us.  Based on what we've seen before now, we know that these aspects are where it gets interesting.
 
-I'm now going to give a little more detail on Gelfand's solution.  (As per, plesae ignore this if you've already got things nice and clear in your head.  For me it personally helps to see all the gory, multi-step, micro-step detail.)
+I'm now going to give a little more detail on Gelfand's solution.  (As per, please ignore this if you've already got things nice and clear in your head.  For me it personally helps to see all the gory, multi-step, micro-step detail.)
 
 First up, our first term: $a$.
 
@@ -117,11 +117,11 @@ $$\rightarrow x = \sqrt{ab}$$
 We can then draw our conclusions.
 
  * Conclusion 1: if $ab < 0$ then the problem has no solutions.  Why? Because you can't square root a negative number.
-* Conclusion 2: if $ab = 0$ then x = 0.  That seems simple enough.
-* Conclusion 3: if $ab > 0$ then there are _two_ possible values for $x$: $\sqrt{ab}$ and $-\sqrt{ab}$.
+ * Conclusion 2: if $ab = 0$ then x = 0.  That seems simple enough.
+ * Conclusion 3: if $ab > 0$ then there are _two_ possible values for $x$: $\sqrt{ab}$ and $-\sqrt{ab}$.
 
-Notes: This works because we are looking for the _second term_, and it would also have worjed for the fourth, and sixth etc, but not the fifth, seventh, etc.  Remember, we saw before that even roots have this special "could be positive, could equally be negative" property.  There is a subtle alusion to this in problem 199. See if you can spot it.
+Notes: This works because we are looking for the _second term_, and it would also have worked for the fourth, and sixth etc, but not the fifth, seventh, etc.  Remember, we saw before that even numerical roots have this special "could be positive, could equally be negative" property.  There is a subtle alusion to this in problem 199. See if you can spot it.
 
 ## Tricks Arising
 ### Sometimes No Answers, Other Times More Than One Answer
-Notwithstanding the aside about how $a^2 = b^2$ in [Chunk 11 - Factoring to Zero](https://andrewharmellaw.github.io/2017/01/20/gelfands-algebra-chunk-11-factoring-to-zero), Problem 198 is the first time we've seen something where we need to think about different categories of input.  It's handy to have this in mind for the future (trust me, I've read ahead.)
+Notwithstanding the aside about how $a^2 = b^2$ in [Chunk 11 - Factoring to Zero](https://andrewharmellaw.github.io/2017/01/20/gelfands-algebra-chunk-11-factoring-to-zero), Problem 198 is the first time we've seen something where we need to think about different categories of input.  It's handy to have this in mind for the future. (Trust me, I've read ahead.)
