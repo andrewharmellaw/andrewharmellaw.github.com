@@ -280,13 +280,13 @@ The last possibility is that our progression might be going in reverse because o
 We can therefore conclude that there are no possibilities when this might be a geometric progression given these three numbers, and that after confirming that it is not a progression where the quotient is zero, our original approach sufficed to prove that the other two options were also impossible.
 
 ## Tricks Arising
-### Removing fractions in equalities
+### Removing Fractions in Equalities
 
 Remember this leap? I'm not sure we've pulled it out explicitly before.  
 
 $$\frac{3^n}{3^m} = \frac{5^n}{2^m}$$
 
-$$\rightarrow 3^n \cdot 2^m = 3^m \cdot 5^n$$
+$$\rightarrow 3^n \times 2^m = 3^m \times 5^n$$
 
 Gelfand does it himself in his solution to Problem 205.  You simply taken the numerator of one side, and multiply it with the denominator of the other side. That gives you one simplification. Then you do the reverse fo the other side.
 
@@ -316,7 +316,7 @@ Geometric once again.  Now it is handy to recall Problem 205 again.  Geometric p
 ## Problem 211
 Now we're back on our own again. Well, almost.  Gelfand does give us a hint, but let's see what we can make of things before we take him up on it.
 
-First lets lay out what we know:
+First let's lay out what we know:
 
  * we're talking about arithmetic progressions, which means all our terms can be calculated by the formula $x = a + (n - 1) \cdot d$
  * we need to have "exactly one integer term" which means all terms must be the same
@@ -365,7 +365,7 @@ Given what we've seen, it's now quite clear why Gelfand answers this problem wit
 ## Problem 213
 This one is a simple geometric progression, but with a little bit of fiddling after the fact. 
 
-Remember this from ["Chunk 21 - Geometric Progressions"]()?
+Remember this from ["Chunk 21 - Geometric Progressions"](https://andrewharmellaw.github.io/2017/03/21/gelfands-algebra-chunk-21-geometric-progressions)?
 
 $$2^1 = 2$$
 
@@ -405,7 +405,7 @@ For us, that means calculating using the simplest two knowns which are the first
 
 Here's our starting formula. We'll begin by using it with the first term ($1$ with the corresponding $n$ of $1$):
 
-$$A(\frac{1 + \sqrt{5}{2}) + B(1 - \sqrt{5}{2})$$
+$$A(\frac{1 + \sqrt{5}}{2}) + B(\frac{1 - \sqrt{5}}{2})$$
 
 Let's rearrange for $A$ first.  We begin by plugging in what we know (a result of $1$ and an $n$ of $1$)
 
@@ -482,4 +482,4 @@ We could equally have done $A$ first and from there obtained $B$, but I followed
 ## Another (non)-Conclusion
 Phew! That was a lot.  You're probably reeling from the shock of it all.  I'd suggest re-reading all this again, perhaps working through some other options of th last problem, and then taking a break.
 
-See you in the next chunk.
+See you in the [next chunk](https://andrewharmellaw.github.io/2017/04/13/gelfands-algebra-rest-1-the-well-tempered-clavier).
