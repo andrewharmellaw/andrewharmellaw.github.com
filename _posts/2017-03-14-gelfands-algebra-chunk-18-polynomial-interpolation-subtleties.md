@@ -26,11 +26,15 @@ For $P(x) = 0$ we would have to have $a = b = c = 0$.
 The whole trick is in the title to be honest.  But note how the polymonial was hiding in Problem 165.  Spot that, and then you can bring your knowledge to bear.
 
 ## Problem 167
-Part (a) was already solved by/for us in Problem 163.  Problem 162 and its solution is also worth re-visiting.
+Part (a) was already solved by/for us in Problem 163.  Problem 162 and it's solution is also worth re-visiting.
 
-There Gelfand states "any polynomial $P(x)$ such that $P(1) = P(2) = 0$ has the form $P(x) = (x - 1)(x - 2)Q(x)$ where $Q(x)$ is some polynomial."
+There Gelfand states 
 
-He goes on "If we also know that $P(x)$ has a degree not exceding $2$ then $Q(x)$ must be a number (otherwise the degree of $P$ will be too big".
+ > "any polynomial $P(x)$ such that $P(1) = P(2) = 0$ has the form $P(x) = (x - 1)(x - 2)Q(x)$ where $Q(x)$ is some polynomial."
+
+He goes on 
+
+ > "If we also know that $P(x)$ has a degree not exceding $2$ then $Q(x)$ must be a number (otherwise the degree of $P$ will be too big".
 
 In light of this, let's state our answer to (a)
 
@@ -62,11 +66,11 @@ So our answer to (c) is
 
 $$3(x - 2)(x - 3)$$
 
-Now we must pause.  We can't use the same trick for (d).  But there is a reason why this is a worked example. We're about to get schooled in another technique.  Can we see how it works?
+Now we must pause.  We can't use the same trick for (d).  But (as always) there is a reason why this is a worked example;  we're about to get schooled in another technique.  Can we see how it works?
 
-Lets take stock first. We have three polynomials, each of the second degree.  Now let's look and see if anything about (d) looks familiar... It does! It looks like a mash-up of the non-zero-result bits of (a)-(c).  Can we use this to our advantage?
+Let's take stock first. We have three polynomials, each of the second degree.  Now let's look and see if anything about (d) looks familiar... It does! It looks like a mash-up of the non-zero-result bits of (a)-(c).  Can we use this to our advantage? We can.  
 
-Yes we can.  We saw in [the previous chunk](https://andrewharmellaw.github.io/2017/03/09/gelfands-algebra-chunk-17-polynomial-and-linear-interpolation) that we could subtract one polynomial form itself, giving us a third polynomial for which $R(x) = 0$.  That felt _a lot like basic maths_ (as we noted).  Here it _seems_ as if we're going to do the reverse. We're going to add together three polynomials, each in the same single variable $x$ (a key point and worth highlighting), and in each case, the areas where they equal $0$ have no effect.  
+We saw in [the previous chunk](https://andrewharmellaw.github.io/2017/03/09/gelfands-algebra-chunk-17-polynomial-and-linear-interpolation) that we could subtract one polynomial form itself, giving us a third polynomial for which $R(x) = 0$.  That felt _a lot like basic maths_ (as we noted).  Here it _seems_ as if we're going to do the reverse. We're going to add together three polynomials, each in the same single variable $x$ (a key point and worth highlighting), and in each case, the areas where they equal $0$ have no effect.  
 
 With this in mind, let's add the results of (a) - (c) together to see how it feels
 
@@ -97,9 +101,9 @@ Problem 168 simply wants you to follow the steps we took above from Problem 167,
 If you want to see it, [Durham](https://www.scribd.com/document/243387607/Gelfand-Algebra-Solutions) has the workings for the solution.
 
 ## Problem 170
-This problem, while it doesnt add anything new specifically to our arsenal, it is worth stepping through slowly as it requires we use what tools we have gathered so far in a slightly different way.  We're going to follow [Durham](https://www.scribd.com/document/243387607/Gelfand-Algebra-Solutions) closely but a little more slowly as usual.
+This problem, while it doesnt add anything new specifically to our arsenal, is worth stepping through slowly as it requires we use what tools we have gathered so far in a slightly different way.  We're again going to follow [Durham](https://www.scribd.com/document/243387607/Gelfand-Algebra-Solutions) closely, but going even more slowly as usual.
 
-First up, we need to have twigged we're talking about polynomials again (this is just like the Problem 165 starting point remember?) and again in this case a second-degree one.  That means we need to load the $ax^2 + bx + c$ pattern into our level-one matching cache.
+First up, we need to have twigged we're talking about polynomials again (this is just like the Problem 165 starting point remember?) and again in this case a second-degree one.  That means we need to load the $ax^2 + bx + c$ pattern into our level-one brain-pattern-matching cache.
 
 With that done, we can bring in a statement that we know to be true:
 
@@ -132,13 +136,13 @@ $$P(x) = (18.37)x^2 + (0.5)x + (-3)$$
 We'll stop here - in fact Gelfand has told us not to go further in our workings.  It all feels a little magical again, and I'd not discourage you if you wanted to fill in the final blanks of this to get to the actual solution to check.  (I might work it out in secret later myself.)
 
 ## Problem 171
-Gelfand's terse solution wasnt enough for me (yet again).  I needed to work this out a in a slightly more step-wise fashion.
+Gelfand's terse solution wasn't enough for me (yet again).  I needed to work this out a in a slightly more step-wise fashion.
 
 First we know that there are 10 roots - which means the minimal degree of our polynomial is 10.
 
-We also know that the highest co-efficient of $P(x)$ is 1.  This caught me off-guard a little. This is the first explicit mention of a co-efficient in all this  from Gelfand (we brought them in in the solution above, but that was courtesy of Durham.  
+We also know that the highest co-efficient of $P(x)$ is 1.  This caught me off-guard a little. This is the first explicit mention of a co-efficient in all this  from Gelfand. (We brought them in in the solution above, but that was courtesy of Durham.)  
 
-I'll be honest, I had to google things at this point.  Some not-very-successful reading later, I realised that "highest" also meant "not greater than" which also meant "might disappear if written out simply".  That, plus looking back to Problems 162 and 163, meant me realise I could factor things like this
+I'll be honest, I had to Google things at this point.  Some not-very-successful reading later, I realised that "highest" also meant "not greater than" which also meant "might disappear if written out simply".  That, plus looking back to Problems 162 and 163, meant me realise I could factor things like this
 
 $$P(x) = (x - 1)(x - 2)(x - 3)(x - 4)(x - 5)(x - 6)(x - 7)(x - 8)(x - 9)(x - 10)$$
 
@@ -149,7 +153,7 @@ $$P(11) = 10 \times 9 \times 8 \times 7 \times 6 \times 5 \times 4 \times 3 \tim
 Which is the answer we need.
 
 ## Conclusion - Please Check Your Understanding
-I've a confession to make.  The first time round I thought I had all this chunked and nicely embedded. I hadn't.  These concepts, all tightly related and mutually-reinforcing need to be solidly understood if you are to make good progress beyond this point.
+I've another confession to make.  The first time round I thought I had all this chunked and nicely embedded. I hadn't.  Then there was a second time, and that still helped. My conclusion? Factoring and the myriad inter-linked concepts are _hard_. These concepts, all tightly related and mutually-reinforcing need to be solidly understood if you are to make good progress beyond this point.
 
 To that end, I'd recommend you go quickly back over this and the previous [two](https://andrewharmellaw.github.io/2017/03/09/gelfands-algebra-chunk-17-polynomial-and-linear-interpolation) [posts](https://andrewharmellaw.github.io/2017/03/07/gelfands-algebra-chunk-16-polynomial-division-remainders) (and perhaps even do some other problems).  Maybe even blog about it (it helps).
 
