@@ -17,7 +17,7 @@ Consequently I'm going to go slowly.  Again, possibly too slowly for some, but m
 
 This is a nice problem to start with.  Let's begin to tackle it as we always do by taking our inputs and laying them out nicely ready for deployment in solutioning.
 
-We know that we can represent a value in an _arithmetic_ progression (key point, we're going back in time a bit here) as the product of a starting value (which we'll keep calling $a$), the difference between terms (which we'll keep calling $d$), and numbers representing the position of the terms in the progression (which we'll call $n_x, n_y$ and $n_z$).
+We know that we can represent a value in an _arithmetic_ progression{% sidenote 'sn-id-whatever' 'key point, we are going back in time a bit here'%} as the product of a starting value (which we'll keep calling {% m %}a{% em %}), the difference between terms (which we'll keep calling $d$), and numbers representing the position of the terms in the progression (which we'll call $n_x, n_y$ and $n_z$).
 
 What is more, if two or more terms are to be in the same progression, then they will share the values of $a$ and $d$ - the starting value and difference respectively. (A small aside: it's not actually this simple, progressions can have different $a$ values, but still overlap in terms of terms [sic - sorry], but this simplified view works for us here.)
 
@@ -25,11 +25,11 @@ With that in mind, we can specify our fractions separately in terms of this befo
 
 Note I've arranged the fractions in increasing order of magnitude. This means our $d$ will be positive.  Things could just as easily go the other way, in which case $d$ would be negative.  This just keeps things simpler I've found.
 
-$$\frac{1}{5} = a + (n_x - 1)d$$
+{% math %}\frac{1}{5} = a + (n_x - 1)d{% endmath %}
 
-$$\frac{1}{3} = a + (n_y - 1)d$$
+{% math %}\frac{1}{3} = a + (n_y - 1)d{% endmath %}
 
-$$\frac{1}{2} = a + (n_z - 1)d$$
+{% math %}\frac{1}{2} = a + (n_z - 1)d{% endmath %}
 
 How can we simplify these?  The easiest way might be to guess that the starting point, $a$, was zero.  That leaves us with 
 
