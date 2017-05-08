@@ -8,18 +8,18 @@ tags: [gelfand, equations, identities, roots]
 {% include JB/setup %}
 
 ## Some Definitions
-Perhaps the following re-statement of definitions will be useful. (It was useful to have to write it.)
+This section in Gelfand (46) begins with some definitions. I found it useful to take these and re-state them in my own terms. (It was useful to have to write it, and perhaps it will help you to have an alternative too.)
 
 An _Identity_ says "this expression is equal to that expression". If _proved_ (by applying standard algebraic transformations) then it holds for _all_ values of the variables.  That is also the standard mechanism by which an Identity is _refuted_ - by finding values for the variables where the expressions are _not equal_.
 
 An _Equation_ says "these two expressions are equal".  It must be _solved_ (i.e. you must find _all_ the values of the variables for which the left hand side is equal to the right hand side).
 
-Note: Mathematicians don't say an Equation is unsolvable, because they deem it to be solved if they prove it can have no solutions.  To "solve" therefore means to find all, or prove that there are no solutions.
+Note: Mathematicians don't say an Equation is "unsolvable", because they deem it to be solved if they prove it can have no solutions.  To "solve" therefore means to find all, or prove that there are no solutions.
 
 ## One More Key Definition
-Gelfand introduces some more terms for us in a short glossary.  It is worth highlighting and element in the definition of "solutions of an equation".
+Gelfand then introduces some more terms for us in a short glossary (Section 47).  It is worth highlighting and element in the definition of "solutions of an equation".
 
-This brings in the term "root" once again.  you'll recall that we've seen it before [when we talked about Polynomials](https://andrewharmellaw.github.io/tags.html#roots-ref).  To avoid confusion, this "root" is not the same as a "square" root. These are two entirely unrelated concepts.
+This brings in the term "root" once again.  You'll recall that we've seen it before [almost whenever we talked about Polynomials, and more](https://andrewharmellaw.github.io/tags.html#roots-ref).  To avoid confusion, this "root" is not the same as a "square" root. These are two entirely unrelated concepts.  This is why I wrote [my previous aside](https://andrewharmellaw.github.io/2017/04/24/gelfands-algebra-aside-2-roots-roots-and-more-roots) to help me get things super clear.  I you skipped it, you might want to go back to it now. It's short (promise).
 
 ## Quadratic Equations
 ### Problem 224 
