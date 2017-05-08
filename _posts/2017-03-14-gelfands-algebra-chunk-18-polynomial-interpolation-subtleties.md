@@ -44,9 +44,17 @@ Now we move to (b). Can we solve it in a similar way?  Yup.
 
 We know that here $P(x) = (x - 1)(x - 3)Q(x)$
 
-Substitute in $2$ aiming to get $2$
+So substituting in $2$
 
-$$P(2) = (2 - 1)(2 - 3)a = (1)(-1)a = -1 \times a = 2$$
+$$ P(2) = $4
+
+$$ = (2 - 1)(2 - 3)a = $$
+
+$$ = (1)(-1)a = $$
+
+$$ = -1 \times a = $$
+
+$$ = 2$$
 
 $$\rightarrow a = -2$$
 
@@ -58,7 +66,15 @@ Next is (c). Can we do the same? Yes.
 
 We know that here $P(x) = (x - 2)(x - 3)Q(x)$, so therefore
 
-$$P(1) = (1 - 2)(1 - 3)a = (-1)(-2)a = 2 \times a = 6$$
+$$ P(1) = $$
+
+$$ = (1 - 2)(1 - 3)a = $$
+
+$$ = (-1)(-2)a = $$
+
+$$ = 2 \times a = $$
+
+$$ = 6$$
 
 $$\rightarrow a = 3$$
 
