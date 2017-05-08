@@ -30,4 +30,4 @@ An _arithmetic progression_ is a sequence of numbers where each term is a sum of
  * you can calculate all terms in a progression as long as you know the starting term value, the end term value, and the end term position (e.g. "fourth") - Problem 183
  * you can calculate the number of terms in a given progression given a starting term, an end term, and a known term between the two (including the number of that term - e.g. "the third term") - Problem 184
 
- That's all for this post.  I'm sure it will all come into play when we launch into Section 40, which is next up.
+ That's all for this post.  I'm sure it will all come into play when we launch into Section 40, which is up next.
