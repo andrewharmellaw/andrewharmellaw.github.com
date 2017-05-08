@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Gelfand: Chunk 3 - Converting Problems to Algebraic Expressions</title>
+  <meta name="description" content="Proving Multiplication of Negative Numbers - DespairPages 19 and 20 of Gelfand are our first encounter with a proof.  As it’s conceptually such a simple bit ...">
+
+  <!-- Google Fonts loaded here depending on setting in _data/options.yml true loads font, blank does not-->
+  
+    <link href='//fonts.googleapis.com/css?family=Lato:400,400italic' rel='stylesheet' type='text/css'>
+  
+  
+  <!-- Load up MathJax script if needed ... specify in /_data/options.yml file-->
+  
+    <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+
+  <link rel="stylesheet" type="text/css" href="/css/tufte.css">
+  <!-- <link rel="stylesheet" type="text/css" href="/css/print.css" media="print"> -->
+
+  <link rel="canonical" href="/2016/11/28/gelfands-algebra-chunk-3-converting-problems-to-algebraic-expressions">
+
+  <link rel="alternate" type="application/rss+xml" title="Maths from the Ground Up" href="/feed.xml" />
+</head>
+
+  <body>
+    <!--- Header and nav template site-wide -->
+<header>
+    <nav class="group">
+	<a href="/"><img class="badge" src="/assets/img/badge_1.png" alt="CH"></a>
+	
+		
+		    
+		      <a href="/archive.html">Archive</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/atom.xml">Atom Feed</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/categories.html">Categories</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/index.html">Hello & Welcome</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/pages.html">Pages</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/css/print.css"></a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/rss.xml">RSS Feed</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/tags.html">Tags</a>
+		    
+	    
+  	
+		
+  	
+	</nav>
+</header>
+
+    <article class="group">
+      <h1>Gelfand: Chunk 3 - Converting Problems to Algebraic Expressions</h1>
+<p class="subtitle">November 28, 2016</p>
+
+
+<h2 id="proving-multiplication-of-negative-numbers---despair">Proving Multiplication of Negative Numbers - Despair</h2>
+
+<p>Pages 19 and 20 of <a href="https://www.goodreads.com/book/show/20328259-algebra">Gelfand</a> are our first encounter with a <em>proof</em>.  As it’s conceptually such a simple bit of arithmetic, it’s useful to call out the approach explicitly too.</p>
+
+<p>The reason I think there’s value in detailing the approach explicitly is because the first time I read through it (and worked through it) everything made sense logically, but what didn’t click was how I might have arrived at this proof myself.  Reading it in the order presented made me despair.  How would I have known to start where Gelfand started? How would I have known to then rebalance the expression so that the $0$ was alone on the right-hand side? I would never have figured that out.  (Immediately followed by a fall into a pit of woe.)</p>
+
+<h3 id="a-different-perspective---proof-part-one">A Different Perspective - Proof Part One</h3>
+
+<p>Once I climbed back out of my gloom, I focussed on what I did recognise, and there <em>were</em> things to grasp; the fact the problem split in two became very explicit to me, as did the application of the <a href="https://andrewharmellaw.github.io/2016/11/23/gelfands-algebra-chunk-2-commutative-associative-and-distributive-laws">Distributative Law</a>.  (Neither of these are hidden, but I’ve included it here as is just goes to highlight how easy it is to read things and have them “make sense”, but still miss key things.)  That was great, but I still couldn’t grasp what must have been the intuitive leap which gave the jumping-off point.  Then I realised…</p>
+
+<ul>
+  <li>To prove multiplication of a negative and a positive number, I needed to change this from an expression where this happened into another expression where I wasn’t multiplying the negative and positive numbers together, and instead I was doing something else with them, hopefully getting rid of them altogether</li>
+  <li>So what else could I do with them? I could <em>add</em> them…</li>
+  <li>But how could I change multiplication into addition? Or more specifically, how could I re-order my multiplication and addition?  With the aim of turning the multiplicaiton into something I knew how to do - multiply by zero. This is where the <a href="https://andrewharmellaw.github.io/2016/11/23/gelfands-algebra-chunk-2-commutative-associative-and-distributive-laws">Distributive Law</a> came in.</li>
+</ul>
+
+<p>With all this in mind (and it didn’t come all at once, writing this post helped clarify and solidify it all too) we can then possibly see a place to start, and then try and work our way back out to Gelfand’s “starting position”.</p>
+
+<p>Let’s try it:</p>
+
+<p>Realisation;</p>
+
+<script type="math/tex; mode=display">3.(-5 + 5) = 3.0 = 0</script>
+
+<p>So,</p>
+
+<script type="math/tex; mode=display">0 = 3.0 = 3.(-5 + 5) = 3.(-5) + 3.5 = 3.(-5) + 15 = 0</script>
+
+<p>With all this in play, we’re left with the inevitable conclusion that $3.(-5) = -15$ which is what we wanted.  It also feels to me like a mental journey you could take yourself to get to this proof.</p>
+
+<p>Winning.</p>
+
+<h2 id="tricks-arising">Tricks Arising</h2>
+
+<p>We’ve used some tricks in arriving at this. Let’s call them out specifically:</p>
+
+<p>Something multiplied by zero is zero_ e.g. $3 * 0 = 0$ - Blindingly obvious, but worth pointing out all the same</p>
+
+<h3 id="many-patterns-you-can-spot-visually">Many patterns you can spot visually</h3>
+<p>(We saw this before, in post <a href="https://andrewharmellaw.github.io/algebra/2016/11/16/gelfands-algebra-chunk-1-fundamentals">“Chunk 1”</a>) - I got to the fact that there were two halves to this problem, that the core of both was the Distributive Law, and that one half applied it in one direction and the other in the other direction by drawing all this out clearly and “looking”.</p>
+
+<h3 id="the-distributive-law-turns-multiplication-followed-by-addition-into-addition-followed-by-by-multiplication-and-vice-versa">The Distributive Law turns multiplication followed by addition, into addition followed by by multiplication (and vice versa)</h3>
+<p>And this switching of orders can allow you to get some tricky things out of the way (such as multiplying a positive number by a negative number).</p>
+
+<h3 id="split-a-number-into-two-numbers-which-sum--multiply-to-the-same-result-if-its-useful">Split a number into two numbers which sum / multiply to the same result if it’s useful</h3>
+<p>We saw this before too, in post <a href="https://andrewharmellaw.github.io/2016/11/23/gelfands-algebra-chunk-2-commutative-associative-and-distributive-laws">“Chunk 2”</a>) - e.g.</p>
+
+<script type="math/tex; mode=display">0 = -5 + 5</script>
+
+<h2 id="aside---can-we-do-this-in-algebra">Aside - Can we do this in Algebra?</h2>
+<p>One more thing, this isn’t really a proof in the standard, general sense - it’s <em>very</em> specific.  Can we go off-piste a little and make it more general, replacing numbers with letters?</p>
+
+<p>Pretty much:</p>
+
+<script type="math/tex; mode=display">0 =</script>
+
+<script type="math/tex; mode=display">= x \times 0 =</script>
+
+<script type="math/tex; mode=display">= x(-y + y) =</script>
+
+<script type="math/tex; mode=display">= x(-y) + xy =</script>
+
+<script type="math/tex; mode=display">= 0</script>
+
+<p>We can’t quite get as far as the previous proof, but it still has the key element: that $x(-y)$ <em>must</em> be the opposite of $xy$ if the result of adding them is to equal $0$.</p>
+
+<h2 id="different-again---proof-part-two">Different Again - Proof Part Two</h2>
+
+<p>Now let’s now head over to the second half of the proof; proving a negative number multiplyed by another negative number gives a positive number.  Conceptually that’s a harder leap, so is this aspect of the proof harder too?</p>
+
+<p>Again, Gelfand seems to start at a semi-arbitrary point (or so it felt to me).  Can we look again at the point he enacts the <a href="https://andrewharmellaw.github.io/2016/11/23/gelfands-algebra-chunk-2-commutative-associative-and-distributive-laws">Distributive Law</a> for another clue?:</p>
+
+<script type="math/tex; mode=display">((-3) + 3) \times (-5) = 0</script>
+
+<p>Hmmm.  Nothing jumped out at me, but setting this book-proof side-by-side with the first half did indicate something.  In the first half, Gelfand applies the <a href="https://andrewharmellaw.github.io/2016/11/23/gelfands-algebra-chunk-2-commutative-associative-and-distributive-laws">Distributive Law</a> to collapse something down. Here, he applies it in reverse, with the next step being the one to expand things:</p>
+
+<script type="math/tex; mode=display">((-3) + 3) \times 5 =</script>
+
+<script type="math/tex; mode=display">= ((-3) \times -5) + (3 \times (-5)) =</script>
+
+<script type="math/tex; mode=display">= 0</script>
+
+<p>This feels a little like we’re getting somewhere. He then pulls off another new trick and uses the output from the first half of the proof ($3 . (-5) = -15$) to simplify this second half:</p>
+
+<script type="math/tex; mode=display">((-3) + 3) \times 5 =</script>
+
+<script type="math/tex; mode=display">= ((-3) \times (-5)) + (3 \times (-5)) =</script>
+
+<script type="math/tex; mode=display">= ((-3) \times (-5)) + (-15) =</script>
+
+<script type="math/tex; mode=display">= 0</script>
+
+<p>This is now incredibly close to what we need, yet we’ve avoided having to actually “do” the negative times negative part of the expression, and we don’t have to either - we can now just rearrange things by moving the $-15$ over to the right hand side, and voilà, the second half of our proof:</p>
+
+<script type="math/tex; mode=display">(-3) \times (-5) = 15</script>
+
+<p>I actually jumped a little - it all made sense. We haven’t started where Gelfand started - and the known starting position is key in this kind of proof.  With all this together, the $(-3) + 3 = 0$ jumping off point now makes sense - it’s something super-obvious, and from where we can multiply both sides by $-5$ to get to an entry-point into the Law of Distribution.</p>
+
+<h2 id="more-tricks-arising">More Tricks Arising</h2>
+
+<p>Before we conclude, we again alluded to some more tricks in this section. Let’s highlight them:</p>
+
+<h3 id="you-can-apply-the-distributive-law-in-either-direction">You can apply the Distributive Law <em>in either direction</em></h3>
+
+<p>To add or remove parentheses. (The same applies to the Associative and Commutative laws too.) See <a href="https://andrewharmellaw.github.io/2016/11/23/gelfands-algebra-chunk-2-commutative-associative-and-distributive-laws">the previous post</a> for the gory details on all three.</p>
+
+<h3 id="you-can-bring-in-other-proofs-to-simplify-your-current-proof">You can bring in other proofs to simplify your current proof</h3>
+<p>E.g. $3 \times (-5) = -15$ in this case.</p>
+
+<h2 id="conclusions">Conclusions</h2>
+<p>I think I mentioned before, I’m a very visual thinker, and by that I mean I grokk things when I can lay them out as an image and <em>see</em> them.  One thing which got in my way (and also hits me with “noisy” code - I shoud definitely stay away from <a href="https://en.wikipedia.org/wiki/Lisp_(programming_language)">Lisp</a> and <a href="https://en.wikipedia.org/wiki/Clojure">Clojure</a> it seems…) was the proliferation of parentheses.  I couldn’t get rid of them - they were serving a purpose, but just as with getting comfortable with a new language-syntax (<a href="https://en.wikipedia.org/wiki/Scala_(programming_language)">Scala</a>, I’m thinking of you here especially) there’s nothing quite like just looking at it over and over again, casting your eyes over the cadence of the shapes, and getting comfortable with the flow, repetitions, and echos in them.  It sounds a bit esoteric, but it helped me.</p>
+
+<p>The other point I wanted to draw out begins with a question. Given all this for something so stupidly simple, it seems fair to ask “why is it not presented like this by Gelfand? Why is it instead presented in a way which makes sense as you follow it, but not in a way which you can imagine arriving at yourself?” The (I’m sure) would be “for pedagogic purposes”.  Why do I think this? Well (a) as I pointed out, it’s hard to grokk from the perspective I was coming at it from, but also (b) this section of the book isn’t a problem (not even one with a solution which, as Gelfand points out on page one, are the ones to really grasp if you are to follow the chunk-constructing path of the book.)  His aim here is therefore not to lead you to something in the way the problems-with-solutions do, rather he is just telling you something.</p>
+
+
+    </article>
+    <span class="print-footer">Gelfand: Chunk 3 - Converting Problems to Algebraic Expressions - November 28, 2016 - {"name"=>"Andrew Harmel-Law", "github"=>"andrewharmellaw", "twitter"=>"al94781"}</span>
+
+    <footer>
+  <hr class="slender">
+  <ul class="footer-links">
+    <li><a href="mailto:hate@spam.net"><span class="icon-mail"></span></a></li>    
+    
+      <li>
+        <a href="//www.twitter.com/twitter_handle"><span class="icon-twitter"></span></a>
+      </li>
+    
+      <li>
+        <a href="//plus.google.com/+googlePlusName"><span class="icon-googleplus"></span></a>
+      </li>
+    
+      <li>
+        <a href="//github.com/GithubHandle"><span class="icon-github"></span></a>
+      </li>
+    
+      <li>
+        <a href="//www.flickr.com/photos/FlickrUserID"><span class="icon-flickr"></span></a>
+      </li>
+    
+      <li>
+        <a href="/feed"><span class="icon-feed"></span></a>
+      </li>
+      
+  </ul>
+<div class="credits">
+<span>&copy; 2017 &nbsp;&nbsp;{"NAME"=>"ANDREW HARMEL-LAW", "GITHUB"=>"ANDREWHARMELLAW", "TWITTER"=>"AL94781"}</span></br> <br>
+<span>This site created with the <a href="//github.com/clayh53/tufte-jekyll">Tufte theme for  </a> in <a href="//jekyllrb.com">Jekyll</a>.</span> 
+</div>  
+</footer>
+
+  </body>
+</html>

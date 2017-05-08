@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Gelfand: Chunk 22 - Geometric Progression Sums</title>
+  <meta name="description" content="Just as sums of arithmetic progressions were interesting, so are the sums of their geometric siblings.  Here follows some more commentary on what Gelfand bri...">
+
+  <!-- Google Fonts loaded here depending on setting in _data/options.yml true loads font, blank does not-->
+  
+    <link href='//fonts.googleapis.com/css?family=Lato:400,400italic' rel='stylesheet' type='text/css'>
+  
+  
+  <!-- Load up MathJax script if needed ... specify in /_data/options.yml file-->
+  
+    <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+
+  <link rel="stylesheet" type="text/css" href="/css/tufte.css">
+  <!-- <link rel="stylesheet" type="text/css" href="/css/print.css" media="print"> -->
+
+  <link rel="canonical" href="/2017/03/23/gelfands-algebra-chunk-22-geometric-progression-sums">
+
+  <link rel="alternate" type="application/rss+xml" title="Maths from the Ground Up" href="/feed.xml" />
+</head>
+
+  <body>
+    <!--- Header and nav template site-wide -->
+<header>
+    <nav class="group">
+	<a href="/"><img class="badge" src="/assets/img/badge_1.png" alt="CH"></a>
+	
+		
+		    
+		      <a href="/archive.html">Archive</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/atom.xml">Atom Feed</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/categories.html">Categories</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/index.html">Hello & Welcome</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/pages.html">Pages</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/css/print.css"></a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/rss.xml">RSS Feed</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/tags.html">Tags</a>
+		    
+	    
+  	
+		
+  	
+	</nav>
+</header>
+
+    <article class="group">
+      <h1>Gelfand: Chunk 22 - Geometric Progression Sums</h1>
+<p class="subtitle">March 23, 2017</p>
+
+
+<p>Just as <a href="https://andrewharmellaw.github.io/2017/03/21/gelfands-algebra-chunk-20-arithmetic-progressions-progress">sums of arithmetic progressions</a> were interesting, so are the sums of their geometric siblings.  Here follows some more commentary on what Gelfand brings us in Section 42.</p>
+
+<h2 id="problem-201">Problem 201</h2>
+<p>Let’s launch into some problems and see what that gives us, first up, Problem 201.</p>
+
+<script type="math/tex; mode=display">1 + \frac{1}{2} = 1\frac{1}{2} = \frac{3}{2}</script>
+
+<script type="math/tex; mode=display">1 + \frac{1}{2} + \frac{1}{4} = 1\frac{3}{4} = \frac{7}{4}</script>
+
+<script type="math/tex; mode=display">1 + \frac{1}{2} + \frac{1}{4} + \frac{1}{8} = 1\frac{7}{8} = \frac{15}{8}</script>
+
+<script type="math/tex; mode=display">1 + ... + \frac{1}{2^n} = \frac{2^{n+1} - 1}{2^n}</script>
+
+<p>where $n$ is the number of fractions after the $1$.</p>
+
+<h2 id="problem-202---two-routes-to-a-formula">Problem 202 - Two Routes to a Formula</h2>
+<p>This problem isn’t particularly hard to grasp from the solution Geland provides, but it is instructive to examine the two routes, especially their intuitive leaps that Gelfand employs to get to the answer.</p>
+
+<p>Let’s start with the first. We’ll begin where Gelfand does, with the sum</p>
+
+<script type="math/tex; mode=display">a + aq + aq^2 + ... + aq^{n - 1}</script>
+
+<p>I’m guessing that Gelfand is hoping by now that we’re hungry to factor this into something more manageable.  The first step in this is an easy one too - just pull out the $a$.</p>
+
+<script type="math/tex; mode=display">(a)(1 + q + q^2 + ... + q^{n - 1})</script>
+
+<p>Can we go further?  It seems sensible to try.  Have we seen something like any of this before?  Well, I personally couldn’t recall anything, but Gelfand is telling us we should have, and so I went hunting.</p>
+
+<p>What I found was Problem 90 (which I didn’t write about specifically; a possible explanation for my amnesia) which goes like this:</p>
+
+<script type="math/tex; mode=display">(1 - x)(1 + x + x^2 + x^3 + ... + x^{10}) = 1 - x^{11}</script>
+
+<p>It’s not hard to see if you swap $x$ for $q$, and then make it more generic and rearrange the sides, you have a <em>pretty</em> close (but not exact) match for a bit of our current expression.</p>
+
+<script type="math/tex; mode=display">\rightarrow (1 + q + q^2 + q^3 + ... + q^{n - 1}) = \frac{1 - q^{n}}{(1 - q)}</script>
+
+<p>Close, but not the same as what Gelfand is referring us to:</p>
+
+<script type="math/tex; mode=display">q^n - 1 = (q - 1)(q^{n - 1} + ... + q + 1)</script>
+
+<p>Can we simply swap our $1$s and $q$s?  Yes we can. (And here’s the working to prove it.):</p>
+
+<script type="math/tex; mode=display">(x - 1)(1 + x + x^2 + x^3 + ... + x^{10}) =</script>
+
+<script type="math/tex; mode=display">= (x - 1)1 + (x - 1)x + (x - 1)x^2 + (x - 1)x^3 + ... + (x - 1)x^{10} =</script>
+
+<script type="math/tex; mode=display">= (x - 1) + (x^2 - x) + (x^3 - x^2) + (x^4 - x^3) + ... + (x^{11} - x^{10}) =</script>
+
+<script type="math/tex; mode=display">= (-1) + (x - x) + (x^2 - x^2) + (x^3 - x^3) + (x^4 - x^4) + ... + (x^{10} - x^{10}) + x^{11} =</script>
+
+<script type="math/tex; mode=display">= (-1) + x^{11} =</script>
+
+<script type="math/tex; mode=display">= x^{11} - 1</script>
+
+<p>We can now pick up with Gelfand again.  Now we know we can swap our $1$a and $q$s we have this:</p>
+
+<script type="math/tex; mode=display">\rightarrow (1 + q + q^2 + q^3 + ... + q^{n - 1}) = \frac{q^n - 1}{(q - 1)}</script>
+
+<p>Now we can put this into our current expression and get the same answer Gelfand has</p>
+
+<script type="math/tex; mode=display">a \frac{q^n - 1}{(q - 1)}</script>
+
+<p>Well done. Give yourself a slap on the back for following along.</p>
+
+<p>The second path to this solution takes up the $S$-mechanism we’d seen before in Problem 200 (and prior to that too).  This takes more insight, but consequently relies less on brute-force factoring and pattern-memory.</p>
+
+<p>In this approach the first few steps seem obvious to me (and therefore I guess to you too).  It’s when we get to $qS - S = aq^n - a$ that I want to pick up.</p>
+
+<p>How do we get from this to the next step?  We start where I just mentioned makes sense:</p>
+
+<script type="math/tex; mode=display">qS - S = aq^n - a</script>
+
+<p>We’re aiming to re-jig to isolate $S$.  First we factor the left hand side:</p>
+
+<script type="math/tex; mode=display">(q - 1)S = aq^n - a</script>
+
+<p>Then we factor the right hand side:</p>
+
+<script type="math/tex; mode=display">(q - 1)S = a(q^n - 1)</script>
+
+<p>Finally to isolate the $S$ we move the (q - 1) across, getting what Gelfald showed us as the final step (if we remove the parentheses.</p>
+
+<script type="math/tex; mode=display">S = a \frac{(q^n - 1)}{(q - 1)}</script>
+
+<h2 id="problem-203---a-reminder-of-prior-tricks">Problem 203 - A Reminder of Prior Tricks</h2>
+<p>Problem 203 is to find out the gap in the solution to 202.  The solution is pretty easy to spot given the inputs.</p>
+
+<p>The lesson learned is very clear though.  This is another circumstance where our sums-of-geometric-progressions formula is not universally applicable.  We could state it now as:</p>
+
+<script type="math/tex; mode=display">S = a \frac{q^n - 1}{(q - 1)}</script>
+
+<p>when $q \ne 1$, and</p>
+
+<script type="math/tex; mode=display">S = na</script>
+
+<p>when $q = 1$.</p>
+
+<p>Aside: This (and previous encounters with this kind of thing) sounds a little like a partial function which I know as a functional programming concept from Scala and Haskell.  The <a href="https://wiki.haskell.org/Partial_functions">Haskell Wiki defines it</a> as “a function that is not defined for all possible arguments of the specified type.”  That sounds like where we are, and if you look at the <a href="https://en.wikipedia.org/wiki/Partial_function#Discussion_and_examples">examples on wikipedia</a> for the same topic it looks like where we are.</p>
+
+<h2 id="where-next">Where Next?</h2>
+<p>That’s Gelfand done now on the core rules of progressions (arithmetic and geometric).  What he’s about to do is set up a bunch of problems for us to help embed and understand the subtleties of what we learned.</p>
+
+<p>That’s the <a href="https://andrewharmellaw.github.io/2017/03/24/gelfands-algebra-chunk-23-embedding-progressions">next chunk</a>.</p>
+
+
+    </article>
+    <span class="print-footer">Gelfand: Chunk 22 - Geometric Progression Sums - March 23, 2017 - {"name"=>"Andrew Harmel-Law", "github"=>"andrewharmellaw", "twitter"=>"al94781"}</span>
+
+    <footer>
+  <hr class="slender">
+  <ul class="footer-links">
+    <li><a href="mailto:hate@spam.net"><span class="icon-mail"></span></a></li>    
+    
+      <li>
+        <a href="//www.twitter.com/twitter_handle"><span class="icon-twitter"></span></a>
+      </li>
+    
+      <li>
+        <a href="//plus.google.com/+googlePlusName"><span class="icon-googleplus"></span></a>
+      </li>
+    
+      <li>
+        <a href="//github.com/GithubHandle"><span class="icon-github"></span></a>
+      </li>
+    
+      <li>
+        <a href="//www.flickr.com/photos/FlickrUserID"><span class="icon-flickr"></span></a>
+      </li>
+    
+      <li>
+        <a href="/feed"><span class="icon-feed"></span></a>
+      </li>
+      
+  </ul>
+<div class="credits">
+<span>&copy; 2017 &nbsp;&nbsp;{"NAME"=>"ANDREW HARMEL-LAW", "GITHUB"=>"ANDREWHARMELLAW", "TWITTER"=>"AL94781"}</span></br> <br>
+<span>This site created with the <a href="//github.com/clayh53/tufte-jekyll">Tufte theme for  </a> in <a href="//jekyllrb.com">Jekyll</a>.</span> 
+</div>  
+</footer>
+
+  </body>
+</html>
