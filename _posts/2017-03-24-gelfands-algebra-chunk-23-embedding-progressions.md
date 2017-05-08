@@ -11,7 +11,7 @@ As I mentioned at the close of [the previous chunk](https://andrewharmellaw.gith
 
 I used to think them a bit boring.  I now realise that it's in these that a good deal of the gold is hidden.  
 
-Consequently I'm going to go slowly.  Perhaps too slowly for some, but just to make sure we squeezed out all the goodness and siphoned it up into our brainboxes, ready for later deployment.
+Consequently I'm going to go slowly.  Again, possibly too slowly for some, but my aim is simply to make sure we squeeze out all the goodness and siphon it up into our brainboxes, ready for later deployment.
 
 ## Problem 204
 
