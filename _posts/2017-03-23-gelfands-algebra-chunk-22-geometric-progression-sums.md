@@ -7,11 +7,10 @@ tags: [gelfand, geometric-progressions]
 ---
 {% include JB/setup %}
 
-Just as sums of arithmetic progressions were interesting, so are the sums of their geometric siblings.  Here follows some more commentary on what Gelfand brings us in Section 42.
-
-Lets launch into some problems and see what that gives us
+Just as [sums of arithmetic progressions](https://andrewharmellaw.github.io/2017/03/21/gelfands-algebra-chunk-20-arithmetic-progressions-progress) were interesting, so are the sums of their geometric siblings.  Here follows some more commentary on what Gelfand brings us in Section 42.
 
 ## Problem 201
+Let's launch into some problems and see what that gives us, first up, Problem 201.
 
 $$1 + \frac{1}{2} = 1\frac{1}{2} = \frac{3}{2}$$
 
@@ -24,9 +23,9 @@ $$1 + ... + \frac{1}{2^n} = \frac{2^{n+1} - 1}{2^n}$$
 where $n$ is the number of fractions after the $1$.
 
 ## Problem 202 - Two Routes to a Formula
-This problem isn't particularly hard to grasp from the solution Geland provides, but it is instructive to examine the two routes, especially the intuitive leaps, that Gelfand shows us to get to the answer.
+This problem isn't particularly hard to grasp from the solution Geland provides, but it is instructive to examine the two routes, especially their intuitive leaps that Gelfand employs to get to the answer.
 
-Lets start with the first. We'll begin where Gelfand does, with the sum
+Let's start with the first. We'll begin where Gelfand does, with the sum
 
 $$a + aq + aq^2 + ... + aq^{n - 1}$$
 
@@ -34,9 +33,9 @@ I'm guessing that Gelfand is hoping by now that we're hungry to factor this into
 
 $$(a)(1 + q + q^2 + ... + q^{n - 1})$$
 
-Can we go further?  It seems sensible to try.  Have we seen something like any of this before?  Well, I personally couldn't recall anything, but Gelfand is telling us we should have, and so I went huntung.  
+Can we go further?  It seems sensible to try.  Have we seen something like any of this before?  Well, I personally couldn't recall anything, but Gelfand is telling us we should have, and so I went hunting.  
 
-What I found was Problem 90 (which I didn't blog about specifically; a possible explanation for my amnesia) which goes like this:
+What I found was Problem 90 (which I didn't write about specifically; a possible explanation for my amnesia) which goes like this:
 
 $$(1 - x)(1 + x + x^2 + x^3 + ... + x^{10}) = 1 - x^{11}$$
 
@@ -74,7 +73,7 @@ Well done. Give yourself a slap on the back for following along.
 
 The second path to this solution takes up the $S$-mechanism we'd seen before in Problem 200 (and prior to that too).  This takes more insight, but consequently relies less on brute-force factoring and pattern-memory.  
 
-In this approach the first few steps seem obvious to me (and therefore I guess to you too).  It is when we get to $qS - S = aq^n - a$ that I want to pick up.
+In this approach the first few steps seem obvious to me (and therefore I guess to you too).  It's when we get to $qS - S = aq^n - a$ that I want to pick up.
 
 How do we get from this to the next step?  We start where I just mentioned makes sense:
 
