@@ -11,4 +11,4 @@ I'm not (for now) going to provide any gloss or commentary on sections 44 and 45
 
 I might come back to them later I suppose, but at the moment it seems unnecessary.
 
-Instead, let's move on to Section 46 with [Chunk 24 - Equations Schmequations](https://andrewharmellaw.github.io/2017/04/13/gelfands-algebra-rest-1-the-well-tempered-clavier). 
+Instead, you can jump straight to Section 46 with [Chunk 24 - Equations Schmequations](https://andrewharmellaw.github.io/2017/04/25/gelfands-algebra-chunk-24-equations-schmequations) or you can take a detour via [a disambiguation aside on the various meanings in Mathematics of the word "Root"](https://andrewharmellaw.github.io/2017/04/24/gelfands-algebra-aside-2-roots-roots-and-more-roots). 
