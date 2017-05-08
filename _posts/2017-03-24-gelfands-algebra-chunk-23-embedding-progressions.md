@@ -25,11 +25,11 @@ With that in mind, we can specify our fractions separately in terms of this befo
 
 Note I've arranged the fractions in increasing order of magnitude. This means our $d$ will be positive.  Things could just as easily go the other way, in which case $d$ would be negative.  This just keeps things simpler I've found.
 
-$$\frac{1}{5} = a + (n_x - 1)d$$
+{% math %}\frac{1}{5} = a + (n_x - 1)d{% endmath %}
 
-$$\frac{1}{3} = a + (n_y - 1)d$$
+{% math %}\frac{1}{3} = a + (n_y - 1)d{% endmath %}
 
-$$\frac{1}{2} = a + (n_z - 1)d$$
+{% math %}\frac{1}{2} = a + (n_z - 1)d{% endmath %}
 
 How can we simplify these?  The easiest way might be to guess that the starting point, $a$, was zero.  That leaves us with 
 
