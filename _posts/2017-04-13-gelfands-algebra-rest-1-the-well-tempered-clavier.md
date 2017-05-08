@@ -11,4 +11,4 @@ I'm not (for now) going to provide any gloss or commentary on sections 44 and 45
 
 I might come back to them later I suppose, but at the moment it seems unnecessary.
 
-Instead, let's move on to Section 46 with [Chunk 24 - Equations Schmequations](). 
+Instead, let's move on to Section 46 with [Chunk 24 - Equations Schmequations](https://andrewharmellaw.github.io/2017/04/13/gelfands-algebra-rest-1-the-well-tempered-clavier). 
