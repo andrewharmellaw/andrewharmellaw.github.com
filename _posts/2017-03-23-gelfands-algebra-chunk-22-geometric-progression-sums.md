@@ -109,4 +109,4 @@ Aside: This (and previous encounters with this kind of thing) sounds a little li
 ## Where Next?
 That's Gelfand done now on the core rules of progressions (arithmetic and geometric).  What he's about to do is set up a bunch of problems for us to help embed and understand the subtleties of what we learned.
 
-That's the [next post](https://andrewharmellaw.github.io/2017/03/24/gelfands-algebra-chunk-23-embedding-progressions). 
+That's the [next chunk](https://andrewharmellaw.github.io/2017/03/24/gelfands-algebra-chunk-23-embedding-progressions). 
