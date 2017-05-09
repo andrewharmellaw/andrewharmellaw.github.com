@@ -7,24 +7,27 @@ tags: [gelfand, equations, identities, roots, difference-of-squares]
 ---
 {% include JB/setup %}
 
+After the "well Tempered Clavier" interlude we're about to have a little more ground prepared for us before we dive into the next core concept.  That means this should be an easy chunk for you.  Enjoy it. For roots are coming.
+
 ## Some Definitions
 This section in Gelfand (46) begins with some definitions. I found it useful to take these and re-state them in my own terms. (It was useful to have to write it, and perhaps it will help you to have an alternative too.)
 
-An _Identity_ says "this expression is equal to that expression". If _proved_ (by applying standard algebraic transformations) then it holds for _all_ values of the variables.  That is also the standard mechanism by which an Identity is _refuted_ - by finding values for the variables where the expressions are _not equal_.
+ > An _Identity_ says "this expression is equal to that expression". If _proved_ (by applying standard algebraic transformations) then it holds for _all_ values of the variables.  That is also the standard mechanism by which an Identity is _refuted_ - by finding values for the variables where the expressions are _not equal_.
 
-An _Equation_ says "these two expressions are equal".  It must be _solved_ (i.e. you must find _all_ the values of the variables for which the left hand side is equal to the right hand side).
+ > An _Equation_ says "these two expressions are equal".  It must be _solved_ (i.e. you must find _all_ the values of the variables for which the left hand side is equal to the right hand side).
 
 Note: Mathematicians don't say an Equation is "unsolvable", because they deem it to be solved if they prove it can have no solutions.  To "solve" therefore means to find all, or prove that there are no solutions.
 
 ## One More Key Definition
-Gelfand then introduces some more terms for us in a short glossary (Section 47).  It is worth highlighting and element in the definition of "solutions of an equation".
+Gelfand then introduces some more terms for us in a short glossary (Section 47).  It is worth highlighting an element in his definition of "solutions of an equation".
 
 This brings in the term "root" once again.  You'll recall that we've seen it before [almost whenever we talked about Polynomials, and more](https://andrewharmellaw.github.io/tags.html#roots-ref).  To avoid confusion, this "root" is not the same as a "square" root. These are two entirely unrelated concepts.  This is why I wrote [my previous aside](https://andrewharmellaw.github.io/2017/04/24/gelfands-algebra-aside-2-roots-roots-and-more-roots) to help me get things super clear.  I you skipped it, you might want to go back to it now. It's short (promise).
 
 ## Quadratic Equations
-Following on from Gelfand's lead in Problem 223, let's solve some quadratics.
+There then follows a nice set of questions where you're asked to solve some Quadratic equations, following on from Gelfand's lead in Problem 223.  I'm going to step through them here too.  It'll help set a nice pace prior to the next chunk (am I building it up enough?). Some differ a little from the solution in Durham and so much the better.  Please read his solutions too as it all helps.
 
 ### Problem 224(a)
+We start with 
 
 $$x^2 - 4 = 0$$
 
@@ -47,6 +50,8 @@ $$x - 2 = 0 \rightarrow x = 2$$
 Therefore the equation has two roots - $x = 2$ and $x = - 2$
 
 ### Problem 224(b)
+Now we begin with 
+
 $$ x^2 + 2 = 0 $$
 
 Let's take a similar first step to (a)
@@ -74,6 +79,8 @@ Why did we put in that step which takes us from $x^2 + ...$ to $x^2 - ...$?
 Because it makes it easier to factor as it allows us to use a [short multiplication formula](https://andrewharmellaw.github.io/2016/12/17/gelfanfd-algebra-chunk-6-squares-sums-diffs-etc). 
 
 ### Problem 224(c)
+This time we have 
+
 $$ x^2 - 2x + 1 = 0 $$
 
 This looks like a Square-of-a-Sum, let's see
@@ -91,6 +98,8 @@ Which means that
 $$ x = 1 $$
 
 ### Problem 224(d)
+This time we are presented with
+
 $$ x^2 - 2x + 1 = 9 $$
 
 Applying the result from 224(c), we can state
@@ -110,6 +119,8 @@ or
 $$ x = -3 + 1 = -2 $$
 
 ### Problem 224(e)
+This one looks familiar 
+
 $$ x^2 - 2x - 8 = 0 $$
 
 Which is easy enough to rearrange (by adding $9$ to each side)
@@ -119,6 +130,8 @@ $$ \rightarrow x^2 - 2x + 1 = 9 $$
 Which means the answers are the same as 224(d), $4$ and $-2$.
 
 ### Problem 224(e)
+Is this one as simple?
+
 $$ x^2 - 2x - 3 = 0 $$
 
 Again we can rearrange
@@ -142,6 +155,8 @@ or
 $$ x = -2 + 1 = -1 $$
 
 ### Problem 224(f)
+And finally 
+
 $$ x^2 - 5x + 6 = 0 $$
 
 We're not able to keep applying our same pattern here so we need to look elsewhere. The "split similar terms" trick from [Chunk 10 - Factoring](https://andrewharmellaw.github.io/2017/01/17/gelfands-algebra-chunk-10-factoring) seems like it might be handy.
@@ -189,16 +204,9 @@ or
 
 $$ x = 2 $$
 
-
 ### Tricks Arising - Working with Square Roots
-I seem to have a semi mental-block about roots.  I'm not sure why but they still don't sit comfortably with me. Not as comfortably as some other mathematical concepts.  
+You will have probably noted the trick in 224(b) which turned (positive) $\sqrt{2}^2$ into (negative) $-\sqrt{2}^2$. It's achieved by multiplying it by $\sqrt{-1}$.  Why not simply $-1$?  Because we need to square it again alongside the $\sqrt{2}$ to get back to where we started.
 
-Consequently, I'm hoping writing out some of the standard operations you can perform with and on square roots will help me, just in the way that a similar approach with fractions worked wonders.
+I've got a feeling that this little thread is the thing that Gelfand is now going to tug on and end up pulling us up into a whole new level of Algebra-appreciation.
 
-* x -> square it -> root it -> x
-* x -> root it -> square it -> x ???? always true???
-* square root of 2 = irrational number
-* root everything then square everything
-
-### Tricks Arising - 
-Also note the trick to turn (positive) $\sqrt{2}^2$ into (negative) $-\sqrt{2}^2$. It's achieved by multiplying it by $\sqrt{-1}$.
+Onward!
