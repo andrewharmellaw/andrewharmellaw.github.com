@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Gelfand: Chunk 24 - Equations, Schmequations"
-description: ""
+description: "Some New Terms, Then Some Light Factoring"
 category: 
-tags: [gelfand, equations, identities, roots, difference-of-squares]
+tags: [gelfand, equations, quadratic-equations, identities, roots, difference-of-squares, square-of-a-sum]
 ---
 {% include JB/setup %}
 
