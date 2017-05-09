@@ -7,7 +7,7 @@ tags: [gelfand, square-of-a-sum, square-of-a-difference, difference-of-squares, 
 ---
 {% include JB/setup %}
 
-Now that we have a bunch of the fundamentals and some conventions and core tricks in place, things can start to get fun.  First up are the collection known as the "Short Multiplcation Formulas".
+Now that we have a bunch of the fundamentals and some conventions and core tricks in place, things can start to get fun.  First up are the collection known as the _"Short Multiplication Formulas"_.
 
 There are three of them, called:
 
