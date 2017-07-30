@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Gelfand: Chunk 21 - Geometric Progressions</title>
+  <meta name="description" content="You might remember we had a sneak peek at these things back in Chunk 15 - Polynomial Division Addendum.  Now we can really get our teeth into it.Definition -...">
+
+  <!-- Google Fonts loaded here depending on setting in _data/options.yml true loads font, blank does not-->
+  
+    <link href='//fonts.googleapis.com/css?family=Lato:400,400italic' rel='stylesheet' type='text/css'>
+  
+  
+  <!-- Load up MathJax script if needed ... specify in /_data/options.yml file-->
+  
+    <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+
+  <link rel="stylesheet" type="text/css" href="/css/tufte.css">
+  <!-- <link rel="stylesheet" type="text/css" href="/css/print.css" media="print"> -->
+
+  <link rel="canonical" href="/2017/03/21/gelfands-algebra-chunk-21-geometric-progressions">
+
+  <link rel="alternate" type="application/rss+xml" title="Maths from the Ground Up" href="/feed.xml" />
+</head>
+
+  <body>
+    <!--- Header and nav template site-wide -->
+<header>
+    <nav class="group">
+	<a href="/"><img class="badge" src="/assets/img/badge_1.png" alt="CH"></a>
+	
+		
+		    
+		      <a href="/archive.html">Archive</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/atom.xml">Atom Feed</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/categories.html">Categories</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/index.html">Hello & Welcome</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/pages.html">Pages</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/css/print.css"></a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/rss.xml">RSS Feed</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/tags.html">Tags</a>
+		    
+	    
+  	
+		
+  	
+	</nav>
+</header>
+
+    <article class="group">
+      <h1>Gelfand: Chunk 21 - Geometric Progressions</h1>
+<p class="subtitle">March 21, 2017</p>
+
+
+<p>You might remember we had a sneak peek at these things back in <a href="https://andrewharmellaw.github.io/2017/02/28/gelfands-algebra-chunk-15-polynomial-division-special-cases">Chunk 15 - Polynomial Division Addendum</a>.  Now we can really get our teeth into it.</p>
+
+<h2 id="definition---geometric-progressions">Definition - Geometric Progressions</h2>
+<p>As is our wont, let’s again start with a definition, taken straight out of Gelfand, section 41.</p>
+
+<blockquote>
+  <p>“A <em>geometric progression</em> is a sequence of numbers where each term is a <em>product</em> of the proceeding one and a fixed number. This fixed number is called the <em>common ratio</em> (or ratio) of the geometric progression.”</p>
+</blockquote>
+
+<p>I added the second set of italics.  It highlights the key difference between these and arithmetic progressions - there we were adding, whereas now we’re multiplying.</p>
+
+<h2 id="the-general-formula">The General Formula</h2>
+<p>In the solution to Problem 192 Gelfand shows us the general formula for the $n$th term in a geometric progression.</p>
+
+<script type="math/tex; mode=display">a \cdot q^{n - 1}</script>
+
+<h2 id="the-two-possibilities-subtlety">The “Two Possibilities” Subtlety</h2>
+<p>In arithmetic progressions, we only had adding and subtracting and everything was easy.  But now we have multiplication, and that means there are subtleties.  Gelfand leads us to this with Problem 193.</p>
+
+<p>He asks, given a progression with first term of $1$ and third term of $4$, what is the second term?</p>
+
+<p>You can get all mathematical, but just looking at it, it seems easy.  These are the powers of $2$ right?</p>
+
+<script type="math/tex; mode=display">2^0 = 1</script>
+
+<script type="math/tex; mode=display">2^1 = 2</script>
+
+<script type="math/tex; mode=display">2^2 = 4</script>
+
+<script type="math/tex; mode=display">2^3 = 8</script>
+
+<p>Etc.  And in one way we’re right.  But there are <em>two</em> answers.  If we now look at the geometric progression formula, $a \cdot q^{n - 1}$, what is $a$ and $q$?.  If the second term is $2$, then $a = 1$, and $q = 2$.  But can $q$ be anything else and still give us $1$ for the first term and $4$ for the third?  Yes, it can be $(-2)$ (those parens are important if you’re using Google as a calculator).</p>
+
+<script type="math/tex; mode=display">1 \cdot (-2)^0 = 1</script>
+
+<script type="math/tex; mode=display">1 \cdot (-2)^1 = -2</script>
+
+<script type="math/tex; mode=display">1 \cdot (-2)^2 = 4</script>
+
+<p>And continuing on</p>
+
+<script type="math/tex; mode=display">1 \cdot (-2)^3 = -8</script>
+
+<script type="math/tex; mode=display">1 \cdot (-2)^4 = 16</script>
+
+<p>…</p>
+
+<p>What we’re getting strongly hinted at here is the fact that even powers of negative numbers are even, but odd powers of negative numbers are negative.  Odd and even powers of even numbers are always even.</p>
+
+<h2 id="the-is-that-really-a-geometric-progression-subtlety">The “Is that Really a Geometric Progression?” Subtlety</h2>
+<p>If the common ratio ($q$ in our formula) is zero, then you end up with progressions which look similar to this</p>
+
+<script type="math/tex; mode=display">1, 0, 0, 0, 0, 0, 0, ...</script>
+
+<p>Where $a = 1$.  If $a$ equals anything else then that “anything else” will be the first value, and the remainder of the progression will be $0$s.</p>
+
+<p>This is because</p>
+
+<script type="math/tex; mode=display">0^0 = 1</script>
+
+<p>but</p>
+
+<script type="math/tex; mode=display">0^1 = 0^2 = 0^3 = 0^4 = 0^5 = 0</script>
+
+<p>Gelfand notes that in some circumstances these are verboten, specifiying that the ratio is “non-zero”.</p>
+
+<h2 id="flip-it-and-reverse-it">Flip It and Reverse It</h2>
+<p>So what happens when we take a progression and write it in reverse?  What happens to the ratio then?  You might have guessed (perhaps casting your mind back to <a href="https://andrewharmellaw.github.io/2016/12/10/gelfands-algebra-chunk-5-powers">Chunk 5 - Powers: Positive and Negative</a>)</p>
+
+<p>Yup, our ratio becomes $\frac{1}{q}$.</p>
+
+<h2 id="dropping-steps">Dropping Steps</h2>
+<p>Can we drop every second step and still be a geometric progression? Yah, because this will leave the ratio between each constant. Here the common ratio changes from $q$ to $q^2$.</p>
+
+<p>Can we drop every third?  No, we can’t.  Just as in arithmetic progressions, the ratio of the gaps is no longer constant (being $q$ between some and $q^2$ between others) and so these progressions are no longer geometric.</p>
+
+<h2 id="back-to-roots">Back to Roots</h2>
+<p>The last part of this section (but not of this post) is interesting for a few reasons.  Firstly, it gives us another (reverse) angle on the positive / negative aspect (via roots of the number kind).  Secondly, we’re back in the world of zeros (but not the polynomial-root kind) not working for us.  Based on what we’ve seen before now, we know that these aspects are where it gets interesting.</p>
+
+<p>I’m now going to give a little more detail on Gelfand’s solution.  (As per, please ignore this if you’ve already got things nice and clear in your head.  For me it personally helps to see all the gory, multi-step, micro-step detail.)</p>
+
+<p>First up, our first term: $a$.</p>
+
+<p>Next our second term: $x$.</p>
+
+<p>Then our third term: $b$.</p>
+
+<p>To progress we need to know our common ratio, which I’m calling $z$ for a second  We can determine it using either $a$ or $b$.</p>
+
+<p>First using $a$:</p>
+
+<script type="math/tex; mode=display">z = \frac{x}{a}</script>
+
+<p>(because $a = z^0$ and $x = a \cdot z$)</p>
+
+<p>Second using $b$:</p>
+
+<script type="math/tex; mode=display">z = \frac{b}{x}</script>
+
+<p>(because $b = x \cdot z$)</p>
+
+<p>Then we can remove our $z$ altogether:</p>
+
+<script type="math/tex; mode=display">\frac{x}{a} = \frac{b}{x}</script>
+
+<script type="math/tex; mode=display">\rightarrow x^2 = ab</script>
+
+<script type="math/tex; mode=display">\rightarrow x = \sqrt{ab}</script>
+
+<p>We can then draw our conclusions.</p>
+
+<ul>
+  <li>Conclusion 1: if $ab &lt; 0$ then the problem has no solutions.  Why? Because you can’t square root a negative number.</li>
+  <li>Conclusion 2: if $ab = 0$ then x = 0.  That seems simple enough.</li>
+  <li>Conclusion 3: if $ab &gt; 0$ then there are <em>two</em> possible values for $x$: $\sqrt{ab}$ and $-\sqrt{ab}$.</li>
+</ul>
+
+<p>Notes: This works because we are looking for the <em>second term</em>, and it would also have worked for the fourth, and sixth etc, but not the fifth, seventh, etc.  Remember, we saw before that even numerical roots have this special “could be positive, could equally be negative” property.  There is a subtle alusion to this in problem 199. See if you can spot it.</p>
+
+<h2 id="tricks-arising">Tricks Arising</h2>
+<p>### Sometimes No Answers, Other Times More Than One Answer
+Notwithstanding the aside about how $a^2 = b^2$ in <a href="https://andrewharmellaw.github.io/2017/01/20/gelfands-algebra-chunk-11-factoring-to-zero">Chunk 11 - Factoring to Zero</a>, Problem 198 is the first time we’ve seen something where we need to think about different categories of input.  It’s handy to have this in mind for the future. (Trust me, I’ve read ahead.)</p>
+
+
+    </article>
+    <span class="print-footer">Gelfand: Chunk 21 - Geometric Progressions - March 21, 2017 - {"name"=>"Andrew Harmel-Law", "github"=>"andrewharmellaw", "twitter"=>"al94781"}</span>
+
+    <footer>
+  <hr class="slender">
+  <ul class="footer-links">
+    <li><a href="mailto:hate@spam.net"><span class="icon-mail"></span></a></li>    
+    
+      <li>
+        <a href="//www.twitter.com/twitter_handle"><span class="icon-twitter"></span></a>
+      </li>
+    
+      <li>
+        <a href="//plus.google.com/+googlePlusName"><span class="icon-googleplus"></span></a>
+      </li>
+    
+      <li>
+        <a href="//github.com/GithubHandle"><span class="icon-github"></span></a>
+      </li>
+    
+      <li>
+        <a href="//www.flickr.com/photos/FlickrUserID"><span class="icon-flickr"></span></a>
+      </li>
+    
+      <li>
+        <a href="/feed"><span class="icon-feed"></span></a>
+      </li>
+      
+  </ul>
+<div class="credits">
+<span>&copy; 2017 &nbsp;&nbsp;{"NAME"=>"ANDREW HARMEL-LAW", "GITHUB"=>"ANDREWHARMELLAW", "TWITTER"=>"AL94781"}</span></br> <br>
+<span>This site created with the <a href="//github.com/clayh53/tufte-jekyll">Tufte theme for  </a> in <a href="//jekyllrb.com">Jekyll</a>.</span> 
+</div>  
+</footer>
+
+  </body>
+</html>

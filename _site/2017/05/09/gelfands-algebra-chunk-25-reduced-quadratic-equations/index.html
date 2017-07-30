@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Gelfand: Chunk 25 - Ramifications of Reduced Quadratics</title>
+  <meta name="description" content="There are times when you’re learning something new  and you just have to take a leap of faith and follow your teacher despite the fact you might not know whe...">
+
+  <!-- Google Fonts loaded here depending on setting in _data/options.yml true loads font, blank does not-->
+  
+    <link href='//fonts.googleapis.com/css?family=Lato:400,400italic' rel='stylesheet' type='text/css'>
+  
+  
+  <!-- Load up MathJax script if needed ... specify in /_data/options.yml file-->
+  
+    <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+
+  <link rel="stylesheet" type="text/css" href="/css/tufte.css">
+  <!-- <link rel="stylesheet" type="text/css" href="/css/print.css" media="print"> -->
+
+  <link rel="canonical" href="/2017/05/09/gelfands-algebra-chunk-25-reduced-quadratic-equations">
+
+  <link rel="alternate" type="application/rss+xml" title="Maths from the Ground Up" href="/feed.xml" />
+</head>
+
+  <body>
+    <!--- Header and nav template site-wide -->
+<header>
+    <nav class="group">
+	<a href="/"><img class="badge" src="/assets/img/badge_1.png" alt="CH"></a>
+	
+		
+		    
+		      <a href="/archive.html">Archive</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/atom.xml">Atom Feed</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/categories.html">Categories</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/index.html">Hello & Welcome</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/pages.html">Pages</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/css/print.css"></a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/rss.xml">RSS Feed</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/tags.html">Tags</a>
+		    
+	    
+  	
+		
+  	
+	</nav>
+</header>
+
+    <article class="group">
+      <h1>Gelfand: Chunk 25 - Ramifications of Reduced Quadratics</h1>
+<p class="subtitle">May 9, 2017</p>
+
+
+<p><span class="newthought">There are times when you’re learning something new</span>  and you just have to take a leap of faith and follow your teacher despite the fact you might not know where you’re going.  This, for me anyway, is one such situation.</p>
+
+<h2 id="considering-quadratics-in-certain-situations">Considering Quadratics in Certain Situations</h2>
+
+<p><span class="newthought">Let’s go back</span>  to our quadratic standard form, and just trust Gelfand is going to take us somewhere interesting (and useful).  The whole of this section is handily conceived as a set of views of quadratics under certain situations.</p>
+
+<p>Here is our starting point, the standard quadratic form:</p>
+
+<div class="mathblock"><script type="math/tex; mode=display">ax^2 + bx + c = 0</script></div>
+
+<p>And then we play with it a little.  First up, we consider the situation if the co-efficient <span>​<script type="math/tex">a</script></span> was zero.</p>
+
+<div class="mathblock"><script type="math/tex; mode=display">0x^2 + bx + c = 0</script></div>
+
+<p>That gives us the following</p>
+
+<div class="mathblock"><script type="math/tex; mode=display">\rightarrow bx + c = 0</script></div>
+
+<p>Which we can solve for <span>​<script type="math/tex">x</script></span> as follows</p>
+
+<div class="mathblock"><script type="math/tex; mode=display">bx + c = 0</script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display">\rightarrow bx = -c</script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display">\rightarrow x = -\frac{c}{b}</script></div>
+
+<p>But here comes a bump in the road. Gelfand points out that this won’t always work. What if <span>​<script type="math/tex">b</script></span> is zero he asks?  Dividing anything by zero gives an undefined result as we saw previously in the <a href="https://andrewharmellaw.github.io/algebra/2016/11/16/gelfands-algebra-chunk-1-fundamentals/">first chunk - Fundamentals</a>.</p>
+
+<p>Dang.</p>
+
+<p>He then leaves us here, with just the stated Problem 225.  How can we solve it?</p>
+
+<p>Let’s go back a step and put <span>​<script type="math/tex">b = 0</script></span> into a previous step in our working.</p>
+
+<div class="mathblock"><script type="math/tex; mode=display">bx = -c</script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display">\rightarrow 0 \times x = -c</script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display">\rightarrow 0 = -c</script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display">\rightarrow c = 0</script></div>
+
+<p>This is more like it.  We can then bubble this back up to the standard quadratic form and make a statement:</p>
+
+<blockquote>
+  <p>If <span>​<script type="math/tex">a = b = 0</script></span> then <span>​<script type="math/tex">c = 0</script></span>, and if this is the case, then <em>any</em> <span>​<script type="math/tex">x</script></span> will satisfy the equation.</p>
+</blockquote>
+
+<p>Continuing in the standard form, Gelfand now introduces us to another common way of phrasing the exact same thing:</p>
+
+<div class="mathblock"><script type="math/tex; mode=display">ax^2 + bx + c = 0</script></div>
+
+<p>Here he shows us, if <span>​<script type="math/tex">x \ne 0</script></span>, then we can shuffle things as so</p>
+
+<div class="mathblock"><script type="math/tex; mode=display">\rightarrow x^2 + \frac{b}{a}x + \frac{c}{a} = 0</script></div>
+
+<p>This is known as the <em>“reduced” quadratic equation</em>.</p>
+
+<p>Why do we do this? It’s all so that we can have different ways of looking at quadratics, so then our tricks can be applied (pattern matched effectively) in a greater number of circumstances.  In this case, Gelfand tells us, if we can solve the reduced quadratic, we can solve any quadratic.  That sounds handy.</p>
+
+<p>There is one final point from Gelfand before we start mucking about with these reduced quadratics - there is another convention about writing these, and that is to use the following form, which I personally like as it hides those horrid fractions.</p>
+
+<div class="mathblock"><script type="math/tex; mode=display">x^2 + px + q = 0</script></div>
+
+<h2 id="fiddling-with-the-reduced-quadratic---when-span8203script-typemathtexp--0scriptspan">Fiddling with the Reduced Quadratic - when <span>​<script type="math/tex">p = 0</script></span></h2>
+<p><span class="newthought">Having learned from the previous section,</span>  we should be wary of just considering this from only a single angle, and of assuming things stay the same no matter how the constituents vary.  If you are, then that’s good, because it’s how Gelfand wants to approach it too.  He has three angles on the reduced quadratic when <span>​<script type="math/tex">p = 0</script></span>. Let’s get ourselves to the starting blocks first so we’re assured of clarity.</p>
+
+<div class="mathblock"><script type="math/tex; mode=display">x^2 + px + q = 0</script></div>
+
+<p>Then we set <span>​<script type="math/tex">p = 0</script></span></p>
+
+<div class="mathblock"><script type="math/tex; mode=display">\rightarrow x^2 + 0 \times x + q = 0</script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display">\rightarrow x^2 + q = 0</script></div>
+
+<p>Given this, let’s now look at the possible values for <span>​<script type="math/tex">q</script></span> one at a time turn.</p>
+
+<ol>
+  <li><span>​<script type="math/tex">q = 0</script></span>, which means <span>​<script type="math/tex">x</script></span> has only one possible value: <span>​<script type="math/tex">0</script></span></li>
+  <li><span>​<script type="math/tex">q \gt 0</script></span>, which is impossible because <span>​<script type="math/tex">x^2</script></span> is <em>always</em> positive and added to positive <span>​<script type="math/tex">q</script></span> is <em>always</em> more than zero</li>
+  <li><span>​<script type="math/tex">q \lt 0</script></span>, which is where it gets interesting.  So interesting in fact that we should break out of this list and examine things in more detail.</li>
+</ol>
+
+<p>We’re starting here</p>
+
+<div class="mathblock"><script type="math/tex; mode=display">x^2 + q = 0</script></div>
+
+<p>And if <span>​<script type="math/tex">q \lt 0</script></span> (which means it’s negative) we can re-write</p>
+
+<div class="mathblock"><script type="math/tex; mode=display">x^2 + -q = 0</script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display">\rightarrow x^2 = - (-q)</script></div>
+
+<p>Now it’s important here to point out that this is slightly different from how Gelfand presents it.  While his and mine are mathematically equivalent, I’ve made the fact that <span>​<script type="math/tex">q</script></span> is negative explicit symbolically. <label for="sn-id-whatever" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-whatever" class="margin-toggle" /><span class="sidenote">Gelfand achieves the same by saying “is a (positive) number -q” </span></p>
+
+<p>We’re now left with the fact that on one side we have the square of <span>​<script type="math/tex">x</script></span> which is equivalent to <span>​<script type="math/tex">q</script></span>.  Clearly to get to <span>​<script type="math/tex">x</script></span> on it’s own, we need to square root <span>​<script type="math/tex">q</script></span>.  This is why we suddenly launch into “Fact” territory; with a definition of roots.</p>
+
+<blockquote>
+  <p>For any positive number <span>​<script type="math/tex">q</script></span> there is a positive number whose square is <span>​<script type="math/tex">q</script></span>. It is called the square root of <span>​<script type="math/tex">q</script></span>; its notation is <span>​<script type="math/tex">\sqrt{q}</script></span></p>
+</blockquote>
+
+<p>This is the first time Gelfand has really <em>properly</em> defined roots of numbers for us.<label for="sn-id-whatever" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-whatever" class="margin-toggle" /><span class="sidenote">He does admit we’d glimpsed it when we were factoring, but now, as we embark on some more general principles, it’s time to dive into the details.  The fact I went away earlier and <a href="">did it off my own bat</a> was to help disambiguate and prevent prior knowledge getting in the way of things. </span>  Now he has deemed that we are ready to know the full picture.</p>
+
+<p>Let’s follow along. <label for="sn-id-whatever" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-whatever" class="margin-toggle" /><span class="sidenote">I’m not sure why Gelfand makes a jump here with his symbol-usage, dropping the q we had a minute ago  and using c instead.  Suffice to say, the two are equivalent.  I’ll keep going with q as I think it’s every so slightly easier on the mental muscles. </span></p>
+
+<div class="mathblock"><script type="math/tex; mode=display">\rightarrow x^2 = - (-q)</script></div>
+
+<p>First we simplify, negative times negative is positive</p>
+
+<div class="mathblock"><script type="math/tex; mode=display">\rightarrow x^2 = q</script></div>
+
+<p>Then rearrange as per Gelfand</p>
+
+<div class="mathblock"><script type="math/tex; mode=display">\rightarrow x^2 - q = 0</script></div>
+
+<p>Then make <span>​<script type="math/tex">q</script></span> a square, which requires us to root it first</p>
+
+<div class="mathblock"><script type="math/tex; mode=display">\rightarrow x^2 - (\sqrt{q})^2 = 0</script></div>
+
+<p>And now we can factor using Difference of Squares</p>
+
+<div class="mathblock"><script type="math/tex; mode=display">\rightarrow (x - \sqrt{q})(x + \sqrt{q}) = 0</script></div>
+
+<p>This means that there are two solutions, <span>​<script type="math/tex">m = \sqrt{q} </script></span> and <span>​<script type="math/tex">m = -\sqrt{q} </script></span>.</p>
+
+<p>At this point, Gelfand finally confronts the question which had, to me anyway, been in my mind since the start of this chunk: “why are we considering this?”</p>
+
+<p>The answer is a good one.  The reason is we have proven that <span>​<script type="math/tex">x^2 = q</script></span> but we have also proven that <em>there is no other solution</em>. That is to say, there is no other way we could factor this if we want a zero result.</p>
+
+<p>But why is this exciting?  We’re now going on a bit of a history lesson and are about to find out that something which we now take for granted is in fact something which puzzled the Greeks for ages.  Gelfand’s explanation refers to “several pages of a good calculus textbook” which means we’re thinking about lines here.  What he wants us to get to is the fact that if we imagine a plotted line where the x-axis is equal to <span>​<script type="math/tex">x</script></span> and the y-axis is equal to <span>​<script type="math/tex">x^2</script></span>. On this line there is a point somewhere in that space which represents our <span>​<script type="math/tex">q</script></span>.  To get there we travel along the line.</p>
+
+<p>We start with <span>​<script type="math/tex">x = 0</script></span>.  In this state the following is also true <span>​<script type="math/tex">x^2 = 0</script></span>.  But what happens as we increase <span>​<script type="math/tex">x</script></span>?  Well, as it increases, so does <span>​<script type="math/tex">x^2</script></span>.  To begin with, while <span>​<script type="math/tex">x \lt 1</script></span> we can see that <span>​<script type="math/tex">x^2 \lt x</script></span>.  <label for="sn-id-whatever" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-whatever" class="margin-toggle" /><span class="sidenote">Go ahead try it with x = 0.5 and see for yourself. </span>.  If you then jump forward a bit, to a <em>really big <span>​<script type="math/tex">x</script></span></em>, we can see that now <span>​<script type="math/tex">x^2 \gt x</script></span>. <label for="sn-id-whatever" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-whatever" class="margin-toggle" /><span class="sidenote">Again, try it, this time with x = 100. </span></p>
+
+<p>It doesn’t take a lot of imagination to realise that if you pick a value of <span>​<script type="math/tex">x</script></span> <em>in between</em> <span>​<script type="math/tex">0.5</script></span> and <span>​<script type="math/tex">100</script></span>, you will get a value of <span>​<script type="math/tex">x^2</script></span> <em>in between</em> <span>​<script type="math/tex">0.25</script></span> and <span>​<script type="math/tex">10000</script></span>.  You could keep going <em>ad infinitum</em> and end up with something approaching a line.  The point Gelfand wants us to grok is, somewhere on this line we will find <span>​<script type="math/tex">x^2 = q%</script></span>, and therefore we have proven that <span>​<script type="math/tex">q</script></span> exists, even if we can’t calculate it exactly.</p>
+
+<p>The last parts of this section in Gelfand (and of the next chunk) are concerned with stepping you through proving that, while numbers like <span>​<script type="math/tex">\sqrt{2}</script></span> and <span>​<script type="math/tex">\sqrt{3}</script></span> <em>exist</em>, we can’t represent them via <a href="">a rational number</a>.  This is where the Greeks became unstuck as they only had integers and rational numbers based on integers. Luckily, we now have other types of number, the irrational numbers which we introduced in <a href="">chunk x - xxxxxx</a>, and also encountered in <a href="">chunk y - yyyyyy</a>.</p>
+
+<p>However, seeing as we’ve covered a lot in this chunk, we’ll stop for now after the next small section.</p>
+
+<h2 id="tricks-arising---a-subtlety-of-notation">Tricks Arising - A Subtlety of Notation</h2>
+<p>We need to cover a little convention in notation.  It is the fact that there is a difference in maths between <span>​<script type="math/tex">-2</script></span> and <span>​<script type="math/tex">(-2)</script></span>.  What is it?  If we the same “squaring” operation on both of them you’ll see it.</p>
+
+<p>We’ll take the second one first</p>
+
+<p><span>​<script type="math/tex"> (-2)^2 = -2 \cdot -2 = 4. </script></span></p>
+
+<p>Now the first one</p>
+
+<p><span>​<script type="math/tex"> -2^2 = -(2^2) = (-1) \cdot (2^2) = (-1) \cdot (2 \cdot 2) = (-1) \cdot 4 = (-1) \cdot (4) = -4. </script></span></p>
+
+<p>That’s pretty subtle, but important.  (Remember it - Gelfand uses it as the basis of a trick in a few Section’s time.)</p>
+
+<p>Consequently, if you have a value <span>​<script type="math/tex">x</script></span>, (which could be either positive or negative) and you then square it, and then you square root the result, you will be left with either <span>​<script type="math/tex">x</script></span> <em>or</em> <span>​<script type="math/tex">(-x)</script></span> depending on where you started. (This applies for <em>all</em> values of <span>​<script type="math/tex">x</script></span>)</p>
+
+<h2 id="tricks-arising---span8203script-typemathtexsqrt2scriptspan-is-irrational">Tricks Arising - <span>​<script type="math/tex">\sqrt{2}</script></span> is <em>Irrational</em></h2>
+<p>The <span>​<script type="math/tex">\sqrt{2}</script></span> is an <em>irrational</em> number, so you can’t represent it as a quotient of two integers.</p>
+
+<p>However, it’s not simply a convention like we have with <span>​<script type="math/tex">a^{-n} = \frac{1}{a^n}</script></span>. The problem here is that the fraction that represents <span>​<script type="math/tex">\sqrt{2}</script></span> would have a never-ending stream of numbers in the numerator-position if it were to avoid being approximation.  THat’s no good at all, and so we bring in instead the idea of “irrational numbers”.</p>
+
+
+
+    </article>
+    <span class="print-footer">Gelfand: Chunk 25 - Ramifications of Reduced Quadratics - May 9, 2017 - {"name"=>"Andrew Harmel-Law", "github"=>"andrewharmellaw", "twitter"=>"al94781"}</span>
+
+    <footer>
+  <hr class="slender">
+  <ul class="footer-links">
+    <li><a href="mailto:hate@spam.net"><span class="icon-mail"></span></a></li>    
+    
+      <li>
+        <a href="//www.twitter.com/twitter_handle"><span class="icon-twitter"></span></a>
+      </li>
+    
+      <li>
+        <a href="//plus.google.com/+googlePlusName"><span class="icon-googleplus"></span></a>
+      </li>
+    
+      <li>
+        <a href="//github.com/GithubHandle"><span class="icon-github"></span></a>
+      </li>
+    
+      <li>
+        <a href="//www.flickr.com/photos/FlickrUserID"><span class="icon-flickr"></span></a>
+      </li>
+    
+      <li>
+        <a href="/feed"><span class="icon-feed"></span></a>
+      </li>
+      
+  </ul>
+<div class="credits">
+<span>&copy; 2017 &nbsp;&nbsp;{"NAME"=>"ANDREW HARMEL-LAW", "GITHUB"=>"ANDREWHARMELLAW", "TWITTER"=>"AL94781"}</span></br> <br>
+<span>This site created with the <a href="//github.com/clayh53/tufte-jekyll">Tufte theme for  </a> in <a href="//jekyllrb.com">Jekyll</a>.</span> 
+</div>  
+</footer>
+
+  </body>
+</html>

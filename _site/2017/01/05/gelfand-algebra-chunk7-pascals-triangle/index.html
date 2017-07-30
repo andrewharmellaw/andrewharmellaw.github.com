@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Gelfand: Chunk 7 - Pascal's Triangle.</title>
+  <meta name="description" content="Pascal’s TriangleThe introduciton to Pascal’s triangle section of Gelfand has a lot of explanation, combining and extending Powers, Squares-of-the-Sum and Di...">
+
+  <!-- Google Fonts loaded here depending on setting in _data/options.yml true loads font, blank does not-->
+  
+    <link href='//fonts.googleapis.com/css?family=Lato:400,400italic' rel='stylesheet' type='text/css'>
+  
+  
+  <!-- Load up MathJax script if needed ... specify in /_data/options.yml file-->
+  
+    <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+
+  <link rel="stylesheet" type="text/css" href="/css/tufte.css">
+  <!-- <link rel="stylesheet" type="text/css" href="/css/print.css" media="print"> -->
+
+  <link rel="canonical" href="/2017/01/05/gelfand-algebra-chunk7-pascals-triangle">
+
+  <link rel="alternate" type="application/rss+xml" title="Maths from the Ground Up" href="/feed.xml" />
+</head>
+
+  <body>
+    <!--- Header and nav template site-wide -->
+<header>
+    <nav class="group">
+	<a href="/"><img class="badge" src="/assets/img/badge_1.png" alt="CH"></a>
+	
+		
+		    
+		      <a href="/archive.html">Archive</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/atom.xml">Atom Feed</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/categories.html">Categories</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/index.html">Hello & Welcome</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/pages.html">Pages</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/css/print.css"></a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/rss.xml">RSS Feed</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/tags.html">Tags</a>
+		    
+	    
+  	
+		
+  	
+	</nav>
+</header>
+
+    <article class="group">
+      <h1>Gelfand: Chunk 7 - Pascal's Triangle.</h1>
+<p class="subtitle">January 5, 2017</p>
+
+
+<h2 id="pascals-triangle">Pascal’s Triangle</h2>
+<p>The introduciton to Pascal’s triangle section of Gelfand has a <em>lot</em> of explanation, combining and extending Powers, Squares-of-the-Sum and Differences-of_Squares up to lofty heights of cubes and beyond.  He clearly wants you to mentally arrive at the triangle via the process of constructing it ourselves so you’d better brace yourself and get to it.  The pay-back? You can use Pascal’s triangle to do some otherwise-difficult power-work by hand.</p>
+
+<h3 id="problem-82-a-compute-113">Problem 82 (a) Compute $11^3$</h3>
+
+<script type="math/tex; mode=display">11^3 =</script>
+
+<script type="math/tex; mode=display">= (10 + 1)^3 =</script>
+
+<script type="math/tex; mode=display">= 10^3 + 3 \times 10^2 \times 1 + 3 \times 10 \times 1^2 + 1^3 =</script>
+
+<script type="math/tex; mode=display">= 1000 + 300 + 30 + 1</script>
+
+<script type="math/tex; mode=display">= 1331</script>
+
+<h3 id="problem-82-b-compute-114">Problem 82 (b) Compute $11^4$</h3>
+
+<script type="math/tex; mode=display">11^4 =</script>
+
+<script type="math/tex; mode=display">= (10 + 1)^4 =</script>
+
+<script type="math/tex; mode=display">= 10^4 + 4 \times 10^3 \times 1 + 6 \times 10^2 \times 1^2 + 4 \times 10 \times 1^3 + 1^4 =</script>
+
+<script type="math/tex; mode=display">= 10000 + 4000 + 600 + 40 + 1 =</script>
+
+<script type="math/tex; mode=display">= 14641</script>
+
+<p>This is all going swimmingly, and we can see a nice symmetrical result emerging, with the co-efficients of our result-elements echoing the numbers in our nice symmetrical triangle.</p>
+
+<p>In fact, if you look back at the triangle, not only go we get co-efficient beneits, but you can also see that the ultimate output we’re getting in both cases is the same as the numbers in the row in question.</p>
+
+<p>I.e. the row for $(a + b)^4 = 14641$ and our answer is $14641$.</p>
+
+<p>When you think about how all this is working, it all kind of makes sense that this would be the outcome too - as we work through, we’re repeatedly raising $10$ to a decreasing power, and then multiplying this by the co-efficient value.  So in that case its little surprise that $10^2 \cdot 6$ comes out as $600$ in the fourth row working above. And it’s doing the same thing in all positions, but with different position-relevant powers, and corresponding co-efficients.</p>
+
+<p>Awesome. It’s about to break though as you might suspect. Let’s look at $11^5$</p>
+
+<h3 id="problem-83-c-compute-115">Problem 83 (c) Compute $11^5$</h3>
+
+<script type="math/tex; mode=display">11^5 =</script>
+
+<script type="math/tex; mode=display">= (10 + 1)^5</script>
+
+<script type="math/tex; mode=display">= 10^5 + 5 \times 10^4 \times 1 + 10 \times 10^3 \times 1^2 + 10 \times 10^2 \times 1^3  + 5 \times 10^1 \times 1^4 + 1^5 =</script>
+
+<script type="math/tex; mode=display">=  100000 + 50000 + 10000 +  1000 + 50 + 1 =</script>
+
+<script type="math/tex; mode=display">= 161051</script>
+
+<p>Hey! What happened? Because the two co-efficients in the centre are greater than $9$ we’re ending up with elements of our sum at the end that burst right out of their position in the decimal number system and get carried over to the next column.  No more pretty echo of Pascal’s Triangle.  But it still makes sense, and there is a nice shortcut in <a href="http://documents.tips/documents/gelfand-algebra-solutions.html">an online answer from Adrian Durham</a> which makes how we get our new answer clear again (I’ve altered this a tiny bit from Adrian’s, but the main aspects are all his):</p>
+
+<script type="math/tex; mode=display">11^5 =</script>
+
+<script type="math/tex; mode=display">= (10 + 1)^5 =</script>
+
+<script type="math/tex; mode=display">= 10^5 + 5 \times 10^4 \times 1 + 10 \times 10^3 \times 1^2 + 10 \times 10^2 \times 1^3  + 5 \times 10^1 \times 1^4 + 1^5 =</script>
+
+<script type="math/tex; mode=display">= 1 \times 10^5 + 5 \times 10^4 + 1 \times 10^4 + 1 \times 10^3 + 5 \times 10 + 1 =</script>
+
+<script type="math/tex; mode=display">= 1 \times 10^5 + (5 + 1) \times 10^4 + 1 \times 10^3 + 5 \times 10 + 1=</script>
+
+<script type="math/tex; mode=display">= 1 \times 10^5 + 6 \times 10^4 + 1 \times 10^3 + 0 \times 10 ^2 + 5 \times 10 + 1=</script>
+
+<script type="math/tex; mode=display">= 100000 + 50000 + 10000 +  1000 + 50 + 1 =</script>
+
+<script type="math/tex; mode=display">= 161051</script>
+
+<p>It’s now pretty clear how this still follows the general way of working of our earlier (and simpler) powers, but now with a little carrying thrown into the mix.</p>
+
+<h2 id="what-about-difference-of-squares-and-beyond">What About <em>Difference</em> of Squares and Beyond?</h2>
+<p>So we just saw some beauty behind the square-of-a-sumsand beyond ($(a + b)^n$), but what about differences-of-squares (etc)?</p>
+
+<p>There is a trick here too.  Think:</p>
+
+<script type="math/tex; mode=display">a - b = a + (-b)</script>
+
+<p>Which means we can just take everything we just computed, and apply differences-of-squares to it</p>
+
+<script type="math/tex; mode=display">(a - b)^4</script>
+
+<script type="math/tex; mode=display">1 \times a^4(-b)^0 + 4 \times a^3(-b)^1 + 6 \times a^2(-b)^2 + 4 \times a^1(-b)^3 + 1 \times a^0(-b)^4</script>
+
+<script type="math/tex; mode=display">a^4 - 4a^3b + 6a^2b^2 - 4ab^3 + b^4</script>
+
+<p>etc. etc.</p>
+
+<p>Note: remember, when you raise a negative number to an <em>even power</em>, it changes to be positive, but when you raise it to an <em>odd power</em>, it stays as negative.  (You might realise at this point that this means <em>all</em> even powers are positive, and you’d be right, but we’re jumping ahead…)</p>
+
+<h2 id="summing-the-rows-in-pascals-triangle">Summing the Rows in Pascal’s Triangle</h2>
+<p>What happens when you sum all the values in each row?</p>
+
+<p>Row 1: $1 = 1$</p>
+
+<p>Row 2: $1 + 1 = 2$</p>
+
+<p>Row 3: $1 + 2 + 1 = 4$</p>
+
+<p>Row 4: $1 + 3 + 3 + 1 = 8$</p>
+
+<p>Row 5: $1 + 4 + 6 + 4 + 1 = 16$</p>
+
+<p>Row 6: $1 + 5 + 10 + 10 + 5 + 1 = 32$</p>
+
+<p>Row 7: $1 + 6 + 15 + 20 + 15 + 6 + 1 = 64$</p>
+
+<p>Row 8: $1 + 7 + 21 + 35 + 35 + 21 + 7 + 1 = 128$</p>
+
+<p>Etc.</p>
+
+<p>The sums are all powers of 2.  And the power is the same as the row number - 1. E.g. Row 3 $= 2^{(3-1)} = 2^2 = 4$.</p>
+
+<p>So why is this?  That’s precisely the next question Gelfand wants us to work on, and Durham has another nice solution upon which this example is based:</p>
+
+<script type="math/tex; mode=display">2^7 =</script>
+
+<script type="math/tex; mode=display">= (1 + 1)^7 =</script>
+
+<script type="math/tex; mode=display">=  1 \times 1^71^0 + 7 \times 1^61^1 + 21 \times 1^51^2 + 35 \times 1^41^3 + 35 \times 1^31^4 + 21 \times 1^21^5 + 7 \times 1^11^6 + 1 \times 1^01^7 =</script>
+
+<script type="math/tex; mode=display">= 1 + 7 + 21 + 35 + 35 + 21 + 7 + 1 =</script>
+
+<script type="math/tex; mode=display">128</script>
+
+<p>What’s he done here?  What’s the line of reasoning?  It’s terribly simple really.  Remember how, at the start of this post we simplified $11^n$ by breaking the $11$ into $10 + 1$ so we could use the square of sums expansion?  We’ll we’re doing the same here, but now we’re splitting $2$ into $1 + 1$.</p>
+
+<p>We also know that when we have $1$ as one of the input into our expansaion that things get quite simple. With two $1$s it’s simple too, but the position effect that the powers of $10$ give us is gone.  now we’re just ending up adding our co-efficients.</p>
+
+<p>That’s what you see here, and why we end up with a sum that looks a lot like (because its exactly the same as) the sum on the individual numbers in the relevant row of Pascal’s triangle.</p>
+
+<h2 id="so-what-happens-when-a--b">So What Happens When a = b?</h2>
+<p>Let’s do it first with $a = b = 2$ and $n = 7$</p>
+
+<script type="math/tex; mode=display">(2 + 2)^7 =</script>
+
+<script type="math/tex; mode=display">=  1 \times 2^72^0 + 7 \times 2^62^1 + 21 \times 2^52^2 + 35 \times 2^42^3 + 35 \times 2^32^4 + 21 \times 2^22^5 + 7 \times 2^21^6 + 1 \times 2^02^7 =</script>
+
+<script type="math/tex; mode=display">= 1 \times 128 + 7 \times 128 + 21 \times 128 + 35 \times 128 + 35 \times 128 + 21 \times 128 + 7 \times 128 + 1 \times 128 =</script>
+
+<p>If we pause here it appears as if a pattern is emerging:</p>
+
+<script type="math/tex; mode=display">(1 + 7 + 21 + 35 + 35 + 21 + 7 + 1) \times 128 =</script>
+
+<script type="math/tex; mode=display">= 128 \times 128 =</script>
+
+<script type="math/tex; mode=display">= 128^2 =</script>
+
+<script type="math/tex; mode=display">= 16384</script>
+
+<p>Now let’s do it with algebra</p>
+
+<script type="math/tex; mode=display">(a + a)^7 =</script>
+
+<script type="math/tex; mode=display">=  1 \times a^7a^0 + 7 \times a^6a^1 + 21 \times a^5a^2 + 35 \times a^4a^3 + 35 \times a^3a^4 + 21 \times a^2a^5 + 7 \times a^2a^6 + 1 \times a^0a^7 =</script>
+
+<script type="math/tex; mode=display">= 1 \times a^7 + 7 \times a^7 + 21 \times a^7 + 35 \times a^7 + 35 \times a^7 + 21 \times a^7 + 7 \times a^7 + 1 \times a^7 =</script>
+
+<script type="math/tex; mode=display">= 128 \times a^7</script>
+
+<p>And we already know that 128 is $2^7$, so our answer for everything is</p>
+
+<script type="math/tex; mode=display">= 2^7 \times a^7</script>
+
+<p>And if we finally replace the $7$ with $n$ to complete the generalisation</p>
+
+<script type="math/tex; mode=display">2^na^n</script>
+
+<p>Where $n$ is the row in pascals triangle and $a$ is the input value.</p>
+
+<p>And now to check, if we put in $n = 7$ and $a = 2$</p>
+
+<script type="math/tex; mode=display">2^72^7 =</script>
+
+<script type="math/tex; mode=display">= 128 \times 128</script>
+
+<script type="math/tex; mode=display">= 16384</script>
+
+<p>Bingo!</p>
+
+<p>And just to link back to the simpler examples we saw before, what about when $a = b = 1$?</p>
+
+<script type="math/tex; mode=display">2^71^7 =</script>
+
+<script type="math/tex; mode=display">= 128 \times 1</script>
+
+<script type="math/tex; mode=display">= 128</script>
+
+<p>BingoBingo!</p>
+
+<h2 id="the-thing-to-remember">The Thing to Remember</h2>
+<p>There is always a takeaway point from every bit of Gelfand.  It seems (and <a href="http://documents.tips/documents/gelfand-algebra-solutions.html">Durham</a> echos it) that the thing to remember here is about the sum of the co-efficients on a given row of Pascal’s triangle. I.e. $1 = 1$, $1 + 1 = 2$, $1 + 2 + 1 = 4$ etc. These are equal to $2^n$, where $n$ is equal to the row number.</p>
+
+<p>Let’s say it again</p>
+
+<blockquote>
+  <p>“the sum of the co-efficients in Pascal’s Triangle are always $2^n$, where $n$ is the row number”</p>
+</blockquote>
+
+<p>Nice. Done.</p>
+
+
+    </article>
+    <span class="print-footer">Gelfand: Chunk 7 - Pascal's Triangle. - January 5, 2017 - {"name"=>"Andrew Harmel-Law", "github"=>"andrewharmellaw", "twitter"=>"al94781"}</span>
+
+    <footer>
+  <hr class="slender">
+  <ul class="footer-links">
+    <li><a href="mailto:hate@spam.net"><span class="icon-mail"></span></a></li>    
+    
+      <li>
+        <a href="//www.twitter.com/twitter_handle"><span class="icon-twitter"></span></a>
+      </li>
+    
+      <li>
+        <a href="//plus.google.com/+googlePlusName"><span class="icon-googleplus"></span></a>
+      </li>
+    
+      <li>
+        <a href="//github.com/GithubHandle"><span class="icon-github"></span></a>
+      </li>
+    
+      <li>
+        <a href="//www.flickr.com/photos/FlickrUserID"><span class="icon-flickr"></span></a>
+      </li>
+    
+      <li>
+        <a href="/feed"><span class="icon-feed"></span></a>
+      </li>
+      
+  </ul>
+<div class="credits">
+<span>&copy; 2017 &nbsp;&nbsp;{"NAME"=>"ANDREW HARMEL-LAW", "GITHUB"=>"ANDREWHARMELLAW", "TWITTER"=>"AL94781"}</span></br> <br>
+<span>This site created with the <a href="//github.com/clayh53/tufte-jekyll">Tufte theme for  </a> in <a href="//jekyllrb.com">Jekyll</a>.</span> 
+</div>  
+</footer>
+
+  </body>
+</html>
