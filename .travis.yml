@@ -1,5 +1,5 @@
 language: ruby
-install: gem install jekyll
+install: gem install blankslate jekyll
 #script: jekyll build && htmlproofer ./_site
 script: ./build.sh
 branches:
