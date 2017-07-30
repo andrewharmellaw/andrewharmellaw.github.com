@@ -1,7 +1,10 @@
 language: ruby
-script: "./build.sh" # execute this script on each commit
+script: ./build.sh
 branches:
   only:
-  - gh-pages # only take into account `gh-pages' branch
+  - gh-pages
 rvm:
-- 2.1.2 # version of `ruby'
+- 2.1.2
+env:
+  global:
+    secure: n1aCNIBrXZmRF2lbXB4l6w7KWOASuN0uVgB0qetpAhDFXlElITVPhm+zD7S3Wg+mWLcbUlH0xNWAUndVZ0h5vLrbAdWEqq2C+RB2PD/oY/leOqHtq2Et82aWFKmM6cFI5DnWW6GAf8b3vHebPWdCE4tLYTz2Z0tUgqiYe3q39UK0LFQB6O6ww41s8Jofv/Q0nJtQ3ivqx9pILojWbBK2HQaEMrJHZwMKuRq2U0NIbFetPR7ux5c6iuvCZZMDufIbzxABwzg8pVKs1hyYpW84zTSeCnye6VGxNIAICcwD5wekzG3eDoGZ9V4u2R4GRScoajWCjxOmB6KkYoGjXto8X9tvM/yVh0Tfqr30Qh/S0EXP7DeF/qzBrDXFDeCdr3TEtdChJjzLaIJVwg0CZX64xXZyMIjJrgHAAN2puM8mij33WMmkHVYmJP6bWDKfcP9AM+RGopXA/EtIdzIFagsdrIz6fngtD2/MNDjtGuTQjNoeD5LtRWdKF7JYRGul79GNRjznW0sfCbpy+/2t5Vuwy/UFKIGoXR/6dxmEqb0cb3C17ldmzRzQXzGeK3OBTVXn3JJBUnFGI5QpGkslyYoSQ18jEXG2mEvKE2ZVtMNhPFUGBvAePvMijeg/19hXvafW0axCTCFlaguW+rxJ44qauuM7hU5MhrpOqMY0BJG6rt4=
