@@ -140,12 +140,23 @@ The last parts of this section in Gelfand (and of the next chunk) are concerned 
 
 However, seeing as we've covered a lot in this chunk, we'll stop for now after the next small section.
 
-## Tricks Arising - Squares and Square Root Outcomes
-Just as a summary, here are some of the standard outcomes of performing squares and square root operations.
+## Tricks Arising - A Subtlety of Notation
+We need to cover a little convention in notation.  It is the fact that there is a difference in maths between {% m %}-2{% em %} and {% m %}(-2){% em %}.  What is it?  If we the same "squaring" operation on both of them you'll see it.  
 
-If you have a value {% m %}x{% em %}, and you then square it, and then you square root the result, then you will be left with either {% m %}x{% em %} _or_ {% m %}-x{% em %} (This applies for _all_ values of {% m %}x{% em %})
+We'll take the second one first
 
-However, if you perform the same pair of operations, but in the opposite order (i,e. start with {% m %}x{% em %}, then you square root it, then you square it) then you only get {% m %}x{% em %}. (NOTE: this only works for positive values of {% m %}x{% em %})
+{% m %} (-2)^2 = -2 \cdot -2 = 4. {% em %}
 
-The {% m %}\sqrt{2}{% em %} is an _irrational_ number, so you can't represent it as a quotient of two integers.
+Now the first one
+
+{% m %} -2^2 = -(2^2) = (-1) \cdot (2^2) = (-1) \cdot (2 \cdot 2) = (-1) \cdot 4 = (-1) \cdot (4) = -4. {% em %}
+
+That's pretty subtle, but important.  (Remember it - Gelfand uses it as the basis of a trick in a few Section's time.)
+
+Consequently, if you have a value {% m %}x{% em %}, (which could be either positive or negative) and you then square it, and then you square root the result, you will be left with either {% m %}x{% em %} _or_ {% m %}(-x){% em %} depending on where you started. (This applies for _all_ values of {% m %}x{% em %})
+
+## Tricks Arising - {% m %}\sqrt{2}{% em %} is _Irrational_
+The {% m %}\sqrt{2}{% em %} is an _irrational_ number, so you can't represent it as a quotient of two integers.  
+
+However, it's not simply a convention like we have with {% m %}a^{-n} = \frac{1}{a^n}{% em %}. The problem here is that the fraction that represents {% m %}\sqrt{2}{% em %} would have a never-ending stream of numbers in the numerator-position if it were to avoid being approximation.  THat's no good at all, and so we bring in instead the idea of "irrational numbers".
 
