@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Gelfand: Chunk 14 - Polynomial Division</title>
+  <meta name="description" content="A Quick Note - Monomial DegreesThis concept actually is a very simple one (unlike some seemingly simple concepts which in fact turn out to be nebulously nigh...">
+
+  <!-- Google Fonts loaded here depending on setting in _data/options.yml true loads font, blank does not-->
+  
+    <link href='//fonts.googleapis.com/css?family=Lato:400,400italic' rel='stylesheet' type='text/css'>
+  
+  
+  <!-- Load up MathJax script if needed ... specify in /_data/options.yml file-->
+  
+    <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+
+  <link rel="stylesheet" type="text/css" href="/css/tufte.css">
+  <!-- <link rel="stylesheet" type="text/css" href="/css/print.css" media="print"> -->
+
+  <link rel="canonical" href="/2017/02/23/gelfands-algebra-chunk-14-polynomial-division-all-the-gory-details">
+
+  <link rel="alternate" type="application/rss+xml" title="Maths from the Ground Up" href="/feed.xml" />
+</head>
+
+  <body>
+    <!--- Header and nav template site-wide -->
+<header>
+    <nav class="group">
+	<a href="/"><img class="badge" src="/assets/img/badge_1.png" alt="CH"></a>
+	
+		
+		    
+		      <a href="/archive.html">Archive</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/atom.xml">Atom Feed</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/categories.html">Categories</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/index.html">Hello & Welcome</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/pages.html">Pages</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/css/print.css"></a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/rss.xml">RSS Feed</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/tags.html">Tags</a>
+		    
+	    
+  	
+		
+  	
+	</nav>
+</header>
+
+    <article class="group">
+      <h1>Gelfand: Chunk 14 - Polynomial Division</h1>
+<p class="subtitle">February 23, 2017</p>
+
+
+<h2 id="a-quick-note---monomial-degrees">A Quick Note - Monomial Degrees</h2>
+<p>This concept actually is a very simple one (unlike some <em>seemingly</em> simple concepts which in fact turn out to be nebulously nightmarish.)</p>
+
+<p>It is however, a <em>fundamental</em> one, hence why I’ve chosen to highlight it.  Why fundamental? Because in order to bootstrap your mind into the next set of chunks, you’ll need to be able to snap your fingers at any time and point to the degree of a given monomial (and thence the entire polynomial to which it belongs).</p>
+
+<p>So what is the degree of of a monomial? Here it is, in textual form first (from Gelfand pp 61):</p>
+
+<blockquote>
+  <p>“If a polynomial contains only one variable, it’s standard form consists of it’s monomials written in order of decreasing degrees. The monomial having the highest degree is called the ‘first monomial’. It’s degree is called the ‘degree of the polynomial.”</p>
+</blockquote>
+
+<p>Now let’s break this into pieces and show it visually</p>
+
+<ol>
+  <li>
+    <p>“… a polynomial contains <em>only one variable</em>…” - i.e. “$x$”.  That means $2x^2 + 3x - 3$ meets this criteria, as does $b^{300}$ but $a^2 + 2ab - 3$ doesn’t</p>
+  </li>
+  <li>
+    <p>“<em>Standard</em> Form” - We discussed this at length in <a href="https://andrewharmellaw.github.io/2017/01/10/gelfands-algebra-chun-8-nomials">Chunk 8 - ‘Nomials</a>.  I added at the time that it was nice to order things decreasing by degree. That’ll be helpful in the next step. This also means that while $3x - 3 + 2x^2$ and $2x^2 + 3x - 3$ are equivalent, but only the latter is in Standard Form.</p>
+  </li>
+  <li>
+    <p>“The monomial having the highest degree is called the ‘<em>first</em> monomial’” - See the reason for ordering?  It will literally be the first monomial in your polynomial if you’ve done this.  Therefore in $2x^2 + 3x - 3$ the first monomial is $2x^2$, and in $b^{300}$ the first monomial is $b^{300}$</p>
+  </li>
+  <li>
+    <p>“It’s degree (the first monomial) is called the ‘degree of the polynomial’” - That means that in $2x^2 + 3x - 3$ the degree is $2$, and in $b^{300}$ the degree is $300$</p>
+  </li>
+</ol>
+
+<h3 id="a-first-subtlety---constants">A First Subtlety - Constants</h3>
+<p>What if there are no variables? (N.b. this is just equivalent to a polynomial where all variables have co-efficients of value $0$)  In these circumstances, your degree is $0$ too.</p>
+
+<p>Remember</p>
+
+<script type="math/tex; mode=display">3 = 3x^0 = 3 \times 1 = 3</script>
+
+<h3 id="a-second-subtlety---undefined-degrees">A Second Subtlety - Undefined Degrees</h3>
+<p>What about monomials with zero-co-efficients? (I.e. with a co-efficient of $0$).  These monomials are ignored, and their degrees (the monomials) are “undefined” (which means you may then fall back on the degree of a constant)</p>
+
+<p>Extending the example we just saw</p>
+
+<script type="math/tex; mode=display">0x^2 + 3 = 0x^2 + 3x^0 = 0 + 3x^0 = 3 \times 1 = 3</script>
+
+<h2 id="degree-consequences">Degree Consequences</h2>
+<p>With all this in place, things start to get useful (if also a bit meta).  Via the medium of problems (Problems 137 and 138), Gelfand gets us to realise the following rules:</p>
+
+<ul>
+  <li>the degree of the <em>product</em> of two polynomials (one with degree $a$ and the other with degree $b$) is $a + b$ (How? Remember <a href="https://andrewharmellaw.github.io/2016/12/10/gelfands-algebra-chunk-5-powers">Chunk 5 - Powers</a>)</li>
+  <li>the degree of the <em>sum</em> of two polynomials with degrees $x$ and $y$, where $x &gt;= y$, will be $x$</li>
+  <li>the degree of the sum of two polynomials both having degrees $x$ will be $&lt;= x$</li>
+</ul>
+
+<h2 id="tricks-arising">Tricks Arising</h2>
+<p>### You Can Represent a <em>Whole</em> Polynomial as a <em>Single</em> Variable
+This powerful concept was snuck in by Gelfand in his further discussions of  Rational Expressions (Section 34, pp 56-57) but he didnt ask you to manipulate them in any way so I didn’t bring them up until now.  However, in problem 137 you have to make this mental leap for yourself.</p>
+
+<p>It looks a little scary, (not so much perhaps for programmers who are used to multiple levels of abstraction) but it’s fine. Go on, nothing’s stopping you.</p>
+
+<p>This means that we can take $2x^2 + 3x - 3$ and replace it with $A$.  But remember, $A$ is a variable too.  We’ve specified that $A$ is “any polynomial with degree $2$” so $A$ could just as easily represent $1000z^2 - 9z$ or even $-17b^2$.  It couldn’t however represent $2x^{300} + 3x - 3$, nor could it represent $2b^2 + 3ab - 3$ as these don’t meet the criteria for being an $A$.  The <em>degree</em> here is key for us as we’ve specified it in our $A$-rules.  (And for this they must be a polynomial in one variable - though I’m a little shaky on this, perhaps polynomials in multiple variables have multiple degrees, I’ll come back here if I’m wrong and update this.)</p>
+
+<p>See now why I said grokking degrees solidly was handy?</p>
+
+<p>N.b. Durham does this <em>a lot</em> in his later solutions, so it’s worth getting comfortable with it before progressing.</p>
+
+<h2 id="proper-and-improper-fractions">Proper and Improper Fractions</h2>
+<p>Fractions again. Urgh.  And it turns out they get even more complicated with the concepts of “proper” and “improper” ones.  Luckily, this is super-easy to grokk (and not much harder to commit to memory).</p>
+
+<p>As we’re building on previous blocks again mathematicians have come up with a nice short-hard to flag if a fraction really is <em>just a fraction</em> or if it is in fact a whole number and a fraction.</p>
+
+<p>If something is <em>just a fraction</em> then the numerator (the bit on the top) will be smaller than the denominator (the bit at the bottom).</p>
+
+<p>If something is <em>a whole number and a fraction</em> then the numerator will be greater than or equal to the denominator.</p>
+
+<p>Any improper fraction can therefore simply be broken out into a whole number, and the <em>remaining</em> proper fraction.  It’s what you get from long division in fact (the one you know from school, and that we revised in <a href="https://andrewharmellaw.github.io/algebra/2016/11/16/gelfands-algebra-chunk-1-fundamentals">Chunk 1 - Fundamentals</a>)</p>
+
+<h3 id="proper-and-improper-and-fractions-and-polynomials">Proper and Improper and Fractions and Polynomials</h3>
+<p>What happens when you divide two polynomials in one variable?  It’s the same as regular numbers. You can have improper and improper fractions, and you can convert the former to the latter in the same way.</p>
+
+<p>You can use a very similar method to do the work of division too, using a form of the long-division algorithm.</p>
+
+<p>There is even a definition (the first of these that we come across in Gelfand too if I recall correctly)</p>
+
+<h4 id="definition">Definition</h4>
+<blockquote>
+  <p>Assume that we have two polynomials (both in the same, single variable), called the dividend and the divisior. To perform a division means to find two other polynomials , called the quotient and the remainder such that (dividend) = (quotient).(divisor) + remainder) where the degree of the remainder is less than the degree of the degree of the divisor (or is zero)</p>
+</blockquote>
+
+<p>For super-clarity,</p>
+
+<ul>
+  <li>the dividend is the polynomial <em>inside</em> the long-division “L” (and also the numerator when expressed as an improper fraction)</li>
+  <li>the divisor is is the polynomial <em>outside and to the left of</em> the long-division “L” (and also the denominator when expressed as an improper fraction)</li>
+  <li>the quotient is the resulting polynomial <em>on top of</em> the long-division “L” (and also the whole polynomial element resulting from the division)</li>
+  <li>the remainder is either zero or the undivisable element at the bottom of the working in the long-division (and also the proper fraction polynomial element resulting from the division)</li>
+</ul>
+
+<h2 id="polynomial-division---worked-examples">Polynomial Division - Worked Examples</h2>
+<p>Given <a href="https://andrewharmellaw.github.io/2016/11/30/gelfands-algebra-chunk-4-fractions-urgh">my history</a>, the very concept of “Polynomial Division” sounded horrifing to me when I first thought if it, but compared to the actual physical pain that factoring can cause you this is actually a nice return to the world of mechanistically applying a set of steps to something to achive an end result.  Nice.</p>
+
+<p>Now we have all the elements in place to dive into this, lets see a few worked examples, taken from Gelfand, but with more inline explanation than might to help things embed mentally.</p>
+
+<p>(Props by the way to <a href="https://stackoverflow.com/users/502334/davide-cervone">Davide Cervone</a> for his <a href="http://stackoverflow.com/a/22871404">very handy answer</a> on the tex.stackexchange.com forums.)</p>
+
+<h3 id="example-from-page-63">Example from Page 63</h3>
+
+<script type="math/tex; mode=display">% <![CDATA[
+\require{enclose}
+\begin{array}{rll}
+    x^3 + 2x^2 + 4x + 8 \phantom{00000000} && \hbox{(Explanations)} \\[-3pt]
+   x-2 \enclose{longdiv}{x^4 \phantom{000000000000000000000}}\kern-.2ex \\[-3pt]
+      \underline{x^4 -2x^3\phantom{0000000000000000}} && \hbox{($x-2 \times x^3 = x^4 -2x^3$)} \\[-3pt]
+      2x^3\phantom{0000000000000000} && \hbox{($0 - (-2x^3) = 2x^3$)} \\[-3pt]
+      \underline{2x^3 -4x^2\phantom{00000000000}} && \hbox{($x-2\times 2x^2 = 2x^3 -4x^2$)} \\[-3pt]
+      4x^2\phantom{00000000000} && \hbox{($0 - (-4x^2) = 4x^2$)} \\[-3pt]
+      \underline{4x^2 -8x\phantom{000000}} && \hbox{($x-2 \times 4x  = 4x^2 -8x$)} \\[-3pt]
+      8x\phantom{000000} && \hbox{($0 - (-8x) = 8x$)} \\[-3pt]
+      \underline{8x-16\phantom{00}} && \hbox{($x-2 \times 8  = 8x - 16$)} \\[-3pt]
+      16\phantom{00} && \hbox{($\leftarrow$ the remainder: $0 - (-16) = 16$)} \\[-3pt]
+  \end{array} %]]></script>
+
+<p>Which means our answer is</p>
+
+<script type="math/tex; mode=display">\frac{x^4}{x - 2} = x^3 + 2x^2 + 4x + 8 + \frac{16}{x - 2}</script>
+
+<script type="math/tex; mode=display">\rightarrow x^4 = (x^3 + 2x^2 + 4x + 8)(x - 2) + 16</script>
+
+<p>Which is the way things are stated in the definition above.</p>
+
+<p>For some of you there might be enough in the above to work things through. But it’s nice to pull out the key steps.  We start with our divisor ($x-2$) and our dividend ($x^4$).  We then repeat the following steps, again and again to slowly reveal our quotient, and eventually distill out our remainder.</p>
+
+<p>We begin by getting our $x^4$, and to do this we need to multiply $x-2$ enough to get this. We can get there by multiplying it by $x^3$.  That gives us $x^4 - 2x^3$.  We put our $x^3$ up atop everything as the first part of our quotient. (I’ve tried to lay things out as nicely as Gelfand does to keep all this clean.  The final step is to then see what we have left of our dividend, and we get this by subtracting $x^4 -2x^3$ from $x^4$</p>
+
+<script type="math/tex; mode=display">x^4 - (x^4 - 2x^3) =</script>
+
+<script type="math/tex; mode=display">= x^4 -x^4 + 2x^3 =</script>
+
+<script type="math/tex; mode=display">= 2x^3</script>
+
+<p>From this point on it’s just rinse and repeat.  Your new dividend is $2x^3$.</p>
+
+<p>I’ll work through the next two in sub-Gelfand detail too.</p>
+
+<h3 id="first-example-from-page-64">First Example from Page 64</h3>
+
+<script type="math/tex; mode=display">% <![CDATA[
+\require{enclose}
+\begin{array}{rll}
+    x + 1 \phantom{0000000000} && \hbox{(Explanations)} \\[-3pt]
+   x^2 - x +1 \enclose{longdiv}{x^3 + \phantom{0000} 2x \phantom{0000}}\kern-.2ex \\[-3pt]
+      \underline{x^3 - x^2 + x\phantom{00000}} && \hbox{($x^2 - x + 1 \times x = x^3 -x^2 + x$)} \\[-3pt]
+      x^2 + x\phantom{00000} && \hbox{($2x - (-x^2 + x) = x^2 + x$)} \\[-3pt]
+      \underline{x^2 - x + 1 \phantom{00}} && \hbox{($x^2 - x + 1\times 1 = x^2 - x + 1$)} \\[-3pt]
+      2x - 1\phantom{0} && \hbox{($\leftarrow$ the remainder: $x - (-x + 1) = 2x - 1$)} \\[-3pt]
+  \end{array} %]]></script>
+
+<p>The difference between this one and the example before is that the subtractions to get the remaining dividend are a <em>little more</em> complicated.  Not much though. I’ve tried to push the $2x$ right a bit in the example above so the columns stay lined up and you can follow things through.</p>
+
+<h3 id="second-example-from-page-64">Second Example from Page 64</h3>
+
+<p>As previously, here’s the deeply-worked example first.</p>
+
+<script type="math/tex; mode=display">% <![CDATA[
+\require{enclose}
+\begin{array}{rll}
+    \frac{1}{2}x^2 + \frac{3}{4}x + \frac{9}{8}\phantom{00000000} && \hbox{(Explanations)} \\[-3pt]
+   2x - 3 \enclose{longdiv}{x^3 \phantom{000000000000000000}}\kern-.2ex \\[-3pt]
+      \underline{x^3 - \frac{3}{2}x^2 \phantom{000000000000}} && \hbox{($(2x - 3) \times \frac{1}{2}x^2 = x^3 -\frac{3}{2}x^2$)} \\[-3pt]
+      \frac{3}{2}x^2\phantom{000000000000} && \hbox{($0 - (-\frac{3}{2}x^2) = \frac{3}{2}x^2$)} \\[-3pt]
+      \underline{\frac{3}{2}x^2 - \frac{9}{4}x\phantom{0000000}} && \hbox{($(2x - 3)\times \frac{3}{4}x = \frac{3}{2}x^2 - \frac{9}{4}x$)} \\[-3pt]
+      \frac{9}{4}x \phantom{0000000} && \hbox{($0 - (-\frac{9}{4}x) = \frac{9}{4}x$)} \\[-3pt]
+      \underline{\frac{9}{4}x - \frac{27}{8}x\phantom{0}} && \hbox{($(2x - 3) \times \frac{9}{8} = \frac{27}{8}$)} \\[-3pt]
+      \frac{27}{8} \phantom{00} && \hbox{($\leftarrow$ the remainder: $0 - (-\frac{27}{8}) = \frac{27}{8}$)} \\[-3pt]
+  \end{array} %]]></script>
+
+<p>So what’s interesting here?  This time we’ve had to jump through fraction-hoops a little to get the pieces we want.  It looks complicated, but if we pull out the first one for you and show you it in isolation, all should become a lot clearer.</p>
+
+<p>OK, so we need to get an $x^3$, and we have $2x - 3$.  What do we need to do to the latter, to get some of the former? Half it then multiply by $x^2$, or in other words, multiply by $\frac{1}{2}x^2$.</p>
+
+<script type="math/tex; mode=display">\frac{1}{2}x^2 \times (2x - 3) =</script>
+
+<script type="math/tex; mode=display">= (\frac{1}{2}x^2 \times \frac{2}{1}x^1) - (\frac{1}{2}x^2 \times \frac{3}{1})</script>
+
+<script type="math/tex; mode=display">= \frac{2}{2}x^3 - \frac{3}{2}</script>
+
+<script type="math/tex; mode=display">= x^3 - \frac{3}{2}</script>
+
+<p>If you take this method and work it all the way through the rest of the example (perhaps moving things to one side to figure things out in this way) it should all fall into place.</p>
+
+<h2 id="commentary---the-important-things-to-notice-problems">Commentary - The “Important Things to Notice” Problems</h2>
+<p>As is his way, Gelfand closes out the section with some semi-abstract problems to which you are supposed to have “ah-ha!” moments.  I know to my detriment (I’m not re-reading his book, blogging it as I go for no reason) that you misapprehend (or heaven-forbid skip) these at your peril.  So what are we supposed to grok here?</p>
+
+<h3 id="the-relationships-between-degrees">The Relationships Between Degrees</h3>
+<p>This is covered in Problems 140 and 142.  There are some “Laws” hidden in there; things that always hold true, and which, no doubt, will be relied upon in a higher algebraic-storey which builds upon them.</p>
+
+<p>The laws are as follows:</p>
+
+<ul>
+  <li>If the degree of the dividend is larger than the degree of the divisor the degree of the quotient will clearly be the degree of the dividend polynomial  minus the degree of the divisor polynomial.  The degree of the remainder may then be undefined (there is no remainder) or it may be anywhere from $0$ to $n - 1$ (where $n$ is the degree of the quotient).</li>
+  <li>If, on the other hand, the degree of the dividend is smaller than the degree of the divisor, the fraction is already proper.  In this case the quotient is equal to zero and the remainder is equal to the dividend.</li>
+</ul>
+
+<h3 id="the-uniqueness-of-resulting-quotients-and-remainders">The Uniqueness of Resulting Quotients and Remainders</h3>
+<p>This is covered in Problem 141.  The aim here is for Gelfand to show us that the quotient and remainders which we produced via the method he outlined (and which I’ve gone into more detail on in the majority of this post) are unique.  That is to say, the quotient produced is the only quotient in the circumstances, and the remainder is the only remainder.</p>
+
+<p>That’s actually quite reassuring, especially having just come from Factoring-land where you’re never quite sure if there’s something else just around the corner to find, if only you were a bit better at all that stuff…</p>
+
+<p>The way Gelfand proves it is pretty interesting too. (Sometimes the method is as important as the end result, and you’re supposed to be always paying attention.)  The following things are of note:</p>
+
+<ul>
+  <li>he’s gone all meta, representing polynomials in a single variable as individual variables again (with capital letters again too - I smell a convention here…)</li>
+  <li>the variables he uses are actually quite simple.  $P$ is the dividend, $S$ is the divisor, $Q$ is the quotient and $R$ is the remainder.  If $Q$ and $R$ have such intuitive names, why then have $P$ and $S$?  I could thrown up my hands and exclaim “mathematicians” but remember, both the others start with “D”, and $P$ and $S$ do make a nice alphabetical run…</li>
+  <li>the formula is simple too. (It even works for non-polynomial division.)  Any number ($P$) is equal to two other numbers multiplied by each other ($Q$ the quotient and $S$ the divisor) and a remainder ($R$)</li>
+  <li>The approach to the proof is to begin by making an assumption (in this case that there might be more than one Quotient, $Q_{1}$ and $Q_{2}$, and more than one Remainder, $R_{1}$ and $R_{2}$) and then logically follow the implications of that assumption.  In this case that $Q_{1} = Q_{2}$ and $R_{1} = R_{2}$</li>
+</ul>
+
+<h2 id="another-pseudo-conclusion">Another Pseudo-Conclusion</h2>
+<p>We’re not really completely done with Polynomial Division.  Gelfand has a few more tricks up his sleeve which I’ll cover next in <a href="https://andrewharmellaw.github.io/2017/02/28/gelfands-algebra-chunk-15-polynomial-division-special-cases">Chunk 15 - Polynomial Division Addendum</a>.  But this is a good place to stop for now.</p>
+
+
+    </article>
+    <span class="print-footer">Gelfand: Chunk 14 - Polynomial Division - February 23, 2017 - {"name"=>"Andrew Harmel-Law", "github"=>"andrewharmellaw", "twitter"=>"al94781"}</span>
+
+    <footer>
+  <hr class="slender">
+  <ul class="footer-links">
+    <li><a href="mailto:hate@spam.net"><span class="icon-mail"></span></a></li>    
+    
+      <li>
+        <a href="//www.twitter.com/twitter_handle"><span class="icon-twitter"></span></a>
+      </li>
+    
+      <li>
+        <a href="//plus.google.com/+googlePlusName"><span class="icon-googleplus"></span></a>
+      </li>
+    
+      <li>
+        <a href="//github.com/GithubHandle"><span class="icon-github"></span></a>
+      </li>
+    
+      <li>
+        <a href="//www.flickr.com/photos/FlickrUserID"><span class="icon-flickr"></span></a>
+      </li>
+    
+      <li>
+        <a href="/feed"><span class="icon-feed"></span></a>
+      </li>
+      
+  </ul>
+<div class="credits">
+<span>&copy; 2017 &nbsp;&nbsp;{"NAME"=>"ANDREW HARMEL-LAW", "GITHUB"=>"ANDREWHARMELLAW", "TWITTER"=>"AL94781"}</span></br> <br>
+<span>This site created with the <a href="//github.com/clayh53/tufte-jekyll">Tufte theme for  </a> in <a href="//jekyllrb.com">Jekyll</a>.</span> 
+</div>  
+</footer>
+
+  </body>
+</html>
