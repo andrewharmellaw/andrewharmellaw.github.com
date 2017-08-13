@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "Gelfand: Chunk 2 - Commutative, Associative and Distributive Laws"
-description: "Simplifying Addition and Multiplication"
-category: 
 tags: [commutative-law, associative-law, distributive-law, gelfand, stewart-algebra-review, tricks]
 ---
 {% include JB/setup %}
@@ -10,63 +8,58 @@ tags: [commutative-law, associative-law, distributive-law, gelfand, stewart-alge
 ## The Assocative and Commutative Laws
 These laws allow you to jiggle around the numbers in your sums and multiplications, to make them easier to do in your head (and manipulate in other ways).
 
-There are Associative Laws for addition:
+There are _Associative Laws_ for addition:
 
-$$(a + b) + c = a + (b + c)$$
+{% math %}(a + b) + c = a + (b + c){% endmath %}
     
 and multiplication:
 
-$$(ab)c = a(bc)$$
+{% math %}(ab)c = a(bc){% endmath %}
 
-The Associative Laws are all about the order in which you do the individual two-element sums / multiplications in a bigger expression.
+The _Associative Laws_ are all about the order in which you do the individual two-element sums / multiplications in a bigger expression.
 
-There are Commutative Laws for addition:
+There are _Commutative Laws_ for addition:
 
-$$a + b = b + a$$
+{% math %}a + b = b + a{% endmath %}
 
 and multiplication:
 
-$$ab = ba$$
+{% math %}ab = ba{% endmath %}
 
-The Commutative Laws are about the fact you can move the order of numbers around in an expression.
+The _Commutative Laws_ are about the fact you can move the order of numbers around in an expression.
 
-Combined, the Associative and Commutative Laws are the basis of most tricks you probably know without knowing for handling mental arithmetic.  More on them below.
+Combined, the _Associative_ and _Commutative Laws_ are the basis of most tricks you probably know without knowing for handling mental arithmetic.  More on them below.
 
-Some handy mnemonics to remember these two laws are as follows:
+Some handy mnemonics{% sidenote 'sn-id-whatever' "taken from [Onlinemathlearning.com](http://www.onlinemathlearning.com/pre-algebra-mnemonics.html)." %} to remember these two laws are as follows:
 
- * the Associative Law is about association or _grouping_ - who you are paired with
- * the Commutative Law is about things being the same either way - like a _commute_ to and from work
- 
-Note: Mnemonics taken from [Onlinemathlearning.com](http://www.onlinemathlearning.com/pre-algebra-mnemonics.html).
+The _Associative Law_ is about association or _grouping_ - who you are paired with?
+
+The _Commutative Law_ is about things being the same either way - like a _commute_ to and from work
 
 ## The Distributive Law
-The Distributive Law is a rule for removing parentheses:  
+The _Distributive Law_ is a rule for removing parentheses:  
 
-$$c(a + b) = ca + cb$$
+{% math %}c(a + b) = ca + cb {% endmath %}
 
 From Gelfand (pp. 15): 
 
 > "To multiply two sums you need to multiply each term of the first sum by each term in the second one and then add them all together."
 
-Additionally (from the Stewart Calculus "Review of Algebra") it's worth nothing that putting $a = -1$ into the Distributive law you get:
+Additionally (from the Stewart Calculus "[Review of Algebra](http://www.stewartcalculus.com/data/ESSENTIAL%20CALCULUS%20Early%20Transcendentals/upfiles/ess-reviewofalgebra.pdf)") it's worth nothing that putting {% m %}a = -1{% em %} into the _Distributive Law_ you get:
 
-$$-(b + c) = $$
+{% math %} -(b + c) = {% endmath %}
 
-$$ = (-1)(b + c) = $$
+{% math %} = (-1)(b + c) = {% endmath %}
 
-$$ = (-1)b + (-1)c $$
+{% math %} = (-1)b + (-1)c {% endmath %}
 
 and so
 
-$$-(b + c) = -b - c$$
+{% math %} -(b + c) = -b - c {% endmath %}
 
-A handy mnemonic to remember this law is as follows: the Distributive law is about _distributing_ or "giving out" things outside some parentheses to the things inside them.
+A handy mnemonic to remember this law is as follows: the _Distributive Law_ is about _distributing_ or "giving out" things outside some parentheses to the things inside them.{% sidenote 'sn-id-whatever' "Again this mnemonic is taken from [Onlinemathlearning.com](http://www.onlinemathlearning.com/pre-algebra-mnemonics.html)." %}
 
- * the Associative Law is about association or _grouping_ - who you are paired with
- 
-Note: Again this mnemonic is taken from [Onlinemathlearning.com](http://www.onlinemathlearning.com/pre-algebra-mnemonics.html).
-
-We will see a _lot more_ of the Distributive Law over the next few Chunks (and thereafter too).  Adding and removing parentheses seems to be the _raison d'etre_ for algebraists.
+We will see a _lot more_ of the _Distributive Law_ over the next few Chunks (and thereafter too).{% sidenote 'sn-id-whatever' "Adding and removing parentheses seems to be the _raison d'etre_ for algebraists." %}
 
 ## Tricks Arising
 
@@ -74,76 +67,78 @@ We will see a _lot more_ of the Distributive Law over the next few Chunks (and t
 
 Example 1: when the pieces are already in place to simplify: 
 
-$$   1 + 357 + 17999 = $$
+{% math %}   1 + 357 + 17999 = {% endmath %}
 
-$$ = 357 + (1 + 17999) = $$
+{% math %} = 357 + (1 + 17999) = {% endmath %}
 
-$$ = 357 + 18000 = $$
+{% math %} = 357 + 18000 = {% endmath %}
 
-$$ = 18357 $$
+{% math %} = 18357 {% endmath %}
 
 Example 2: when you need to do some splitting in order to get the simple parts: 
 
-$$    357 + 17999 = $$
+{% math %}    357 + 17999 = {% endmath %}
 
-$$ = (356 + 1) + 17999 = $$
+{% math %} = (356 + 1) + 17999 = {% endmath %}
 
-$$ =  356 + (1 + 17999) = $$
+{% math %} =  356 + (1 + 17999) = {% endmath %}
 
-$$ =  356 + 18000 = $$
+{% math %} =  356 + 18000 = {% endmath %}
 
-$$ =  18356 $$
+{% math %} =  18356 {% endmath %}
 
-Remember, we saw in the [previous post](https://andrewharmellaw.github.io/algebra/2016/11/16/gelfands-algebra-chunk-1-fundamentals) how we can use the Associative Law to make application of the Standard Multiplcation Algorithm simpler, and to spot patterns 
+Remember, we saw in the [previous post](https://andrewharmellaw.github.io/algebra/2016/11/16/gelfands-algebra-chunk-1-fundamentals) how we can use the _Associative Law_ to make application of the _Standard Multiplcation Algorithm_ simpler, and to spot patterns. 
 
-In all these cases we're looking to arrange things so we can (re-)state our problem in terms of groups of numbers which are simpler to add / multiply. This "simpler" form is usually one where there are lots of $0$'s which ultimately results in lots of simple column arithmetic, and therefore no carries, and therefore less to wrangle with in your working memory. (And less chance of errors.)
+In all these cases we're looking to arrange things so we can (re-)state our problem in terms of groups of numbers which are simpler to add / multiply. This "simpler" form is usually one where there are lots of {% m %}0{% em %}'s which ultimately results in lots of simple column arithmetic, and therefore no carries, and therefore less to wrangle with in your working memory.{% sidenote 'sn-id-whatever' "And with less chance of errors." %}
 
 ### Simplifying Multiplication with the Commutative Law
 
 Example 3: when the elements are already in place ready to be simplified: 
 
-$$37 \cdot 25 \cdot 4 = $$
+{% math %}37 \cdot 25 \cdot 4 = {% endmath %}
 
-$$ = 37 \cdot 100 = $$ 
+{% math %} = 37 \cdot 100 = {% endmath %}
 
-$$ = 3700$$
+{% math %} = 3700 {% endmath %}
 
 Example 4: when you need to do some splitting in order to get to your simple elements: 
 
-$$   125 \cdot 37 \cdot 8 = $$
+{% math %}   125 \cdot 37 \cdot 8 = {% endmath %}
 
-$$ = 5 \cdot 25 \cdot 8 \cdot 37 = $$
+{% math %} = 5 \cdot 25 \cdot 8 \cdot 37 = {% endmath %}
 
-$$ = 5 \cdot 200 \cdot 37 = $$
+{% math %} = 5 \cdot 200 \cdot 37 = {% endmath %}
 
-$$ = 1000 \cdot 37 = $$
+{% math %} = 1000 \cdot 37 = {% endmath %}
 
-$$ = 37000 $$
+{% math %} = 37000 {% endmath %}
 
 Again we're looking to arrange things so we can (re-)state our problem in terms of groups of numbers which are simpler to add  / multiply.
 
-But can we take this trick of "re-arrangement" further and add even more to our kit bag?  The answer is "yes", and it's also our first encounter with [Carl Friedrich Gauss](https://en.wikipedia.org/wiki/Carl_Friedrich_Gauss) - to many the mathematicians mathematician.
+But can we take this trick of "re-arrangement" further and add even more to our kit bag?  The answer is "yes", and it's also our first encounter with [Carl Friedrich Gauss](https://en.wikipedia.org/wiki/Carl_Friedrich_Gauss), to many the mathematicians mathematician.
 
 To see this, take a look at Problem 35 (pp. 14) in Gelfand.
 
 ### Remove Parentheses with the Distributive Law
 
-Example 5: the Distributive Law can be applied to remove parentheses in increasingly complex scenarios simply by: 
+Example 5: the _Distributive Law_ can be applied to remove parentheses in increasingly complex scenarios simply by: 
 
-$$ (m+n)(a+b) = $$
+{% math %} (m+n)(a+b) = {% endmath %}
 
-$$ = ma + mb + na + nb $$
+{% math %} = ma + mb + na + nb {% endmath %}
 
 ## Tricks Arising
 
 ### Split a number into two numbers which sum / multiply to the same result if it's useful
 e.g. 
 
-$$0 = -5 + 5$$ 
+{% math %} 0 = -5 + 5 {% endmath %}
 
-$$125 = 5 \cdot 25$$
+{% math %} 125 = 5 \cdot 25 {% endmath %}
 
-## Additional Notes
+## Additional Note
 
 ### Why U No Laws for Division?
-TBC - (refer back to the [previous post](https://andrewharmellaw.github.io/algebra/2016/11/16/gelfands-algebra-chunk-1-fundamentals) where we had to introduce "Not Defined" and Real and Rational Numbers...).  Multiplication and division _aren't really_ two sides of the same coin.
+Remember in the [previous post](https://andrewharmellaw.github.io/algebra/2016/11/16/gelfands-algebra-chunk-1-fundamentals) where we said that "multiplication and division" were kind-of-but-not-really the same sides of a coin? Remember then that we had to trail the concepts of "Not Defined" and "Real" and "Rational" Numbers?  
+
+Well now here is another fly in the ointment - why are thereno equivalents of these three laws for division? Things are looking less and less simple aren't they?
