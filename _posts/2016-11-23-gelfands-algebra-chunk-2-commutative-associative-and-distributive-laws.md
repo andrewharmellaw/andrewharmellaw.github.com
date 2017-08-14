@@ -141,4 +141,4 @@ e.g.
 ### Why U No Laws for Division?
 Remember in the [previous post](https://andrewharmellaw.github.io/algebra/2016/11/16/gelfands-algebra-chunk-1-fundamentals) where we said that "multiplication and division" were kind-of-but-not-really the same sides of a coin? Remember then that we had to trail the concepts of "Not Defined" and "Real" and "Rational" Numbers?  
 
-Well now here is another fly in the ointment - why are thereno equivalents of these three laws for division? Things are looking less and less simple aren't they?
+Well now here is another fly in the ointment - why are there no equivalents of these three laws for division? Things are looking less and less simple aren't they?
