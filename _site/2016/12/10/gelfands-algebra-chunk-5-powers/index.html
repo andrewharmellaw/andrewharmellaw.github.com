@@ -40,25 +40,13 @@
   	
 		
 		    
-		      <a href="/atom.xml">Atom Feed</a>
+		      <a href="/atom.xml">Atom</a>
 		    
 	    
   	
 		
 		    
-		      <a href="/categories.html">Categories</a>
-		    
-	    
-  	
-		
-		    
-		      <a href="/index.html">Hello & Welcome</a>
-		    
-	    
-  	
-		
-		    
-		      <a href="/pages.html">Pages</a>
+		      <a href="/index.html">Hi, Welcome</a>
 		    
 	    
   	
@@ -70,7 +58,7 @@
   	
 		
 		    
-		      <a href="/rss.xml">RSS Feed</a>
+		      <a href="/rss.xml">RSS</a>
 		    
 	    
   	
@@ -95,22 +83,24 @@
 <h2 id="general-definition-of-powers">General Definition of Powers</h2>
 <p>Let’s kick off with the lovely General Definition.</p>
 
-<p>For positive integers $n$,</p>
+<p>For positive integers <span>​<script type="math/tex">n</script></span>,</p>
 
-<p><script type="math/tex">a^n = a \cdot a \cdot  \cdot  \cdot a</script> (<script type="math/tex">n</script> times)</p>
+<div class="mathblock"><script type="math/tex; mode=display">a^n = a \cdot a \cdot  \cdot  \cdot a</script></div>
 
-<script type="math/tex; mode=display">a^{-n} = \frac{1}{a^n}</script>
+<p>(<span>​<script type="math/tex">n</script></span> times)</p>
 
-<script type="math/tex; mode=display">a^0 = 1</script>
+<div class="mathblock"><script type="math/tex; mode=display">a^{-n} = \frac{1}{a^n}</script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display">a^0 = 1</script></div>
 
 <p>There’s something worth noting explicitly about this general definition, and it’s a concept we’ve not come across in this series; the presence of a mathematical “convention”.</p>
 
 <h2 id="the-convention-of-negative-powers-and-fractions">The Convention of Negative Powers and Fractions</h2>
-<p>So what is the convention? Well, it turns out that when we write $\frac{1}{2}$ as $2^{-1}$ we’re relying on a convention.  But a convenient one.</p>
+<p>So what is the convention? Well, it turns out that when we write <span>​<script type="math/tex">\frac{1}{2}</script></span> as <span>​<script type="math/tex">2^{-1}</script></span> we’re relying on a convention.  But a convenient one.</p>
 
 <p>This convention helps because it unifies how we conceptually treat very large and very small numbers.</p>
 
-<p>But why the “convention” piece? Because it is a convention rather than a <em>fact</em> it is impossible to <em>prove</em> that $a^{-n} = \frac{1}{a^n}$ because $a^{-n}$ makes no sense without the “$= \frac{1}{2}$” agreement.</p>
+<p>But why the “convention” piece? Because it is a convention rather than a <em>fact</em> it is impossible to <em>prove</em> that <span>​<script type="math/tex">a^{-n} = \frac{1}{a^n}</script></span> because <span>​<script type="math/tex">a^{-n}</script></span> makes no sense without the “<span>​<script type="math/tex">= \frac{1}{2}</script></span>” agreement.</p>
 
 <p>Interesting huh?  Let’s continue.</p>
 
@@ -120,127 +110,129 @@
 <h3 id="shorten-things">Shorten Things</h3>
 <p>The long expression</p>
 
-<script type="math/tex; mode=display">2 \cdot a \cdot a \cdot a \cdot a \cdot b \cdot b \cdot b \cdot c \cdot c \cdot d</script>
+<div class="mathblock"><script type="math/tex; mode=display">2 \cdot a \cdot a \cdot a \cdot a \cdot b \cdot b \cdot b \cdot c \cdot c \cdot d</script></div>
 
 <p>can be written in the shorter form</p>
 
-<script type="math/tex; mode=display">2a^4b^3c^2d</script>
+<div class="mathblock"><script type="math/tex; mode=display">2a^4b^3c^2d</script></div>
 
 <p>and you can also write</p>
 
-<script type="math/tex; mode=display">\frac{2 \cdot a \cdot a \cdot a \cdot a \cdot c \cdot c}{b \cdot b \cdot b \cdot d}</script>
+<div class="mathblock"><script type="math/tex; mode=display">\frac{2 \cdot a \cdot a \cdot a \cdot a \cdot c \cdot c}{b \cdot b \cdot b \cdot d}</script></div>
 
 <p>in the form</p>
 
-<script type="math/tex; mode=display">2a^4b^{-3}c^2d^{-1}</script>
+<div class="mathblock"><script type="math/tex; mode=display">2a^4b^{-3}c^2d^{-1}</script></div>
 
 <h3 id="negative-powers-to-fractions-of-powers--back">Negative Powers to Fractions of Powers (&amp; Back)</h3>
 <p>As it said in the definition,</p>
 
-<script type="math/tex; mode=display">a^{-n} = \frac{1}{a^n}</script>
+<div class="mathblock"><script type="math/tex; mode=display">a^{-n} = \frac{1}{a^n}</script></div>
 
 <p>This means we can take advantage of this equality to re-phrase things in either of the formats.</p>
 
 <p>E.g. re-writing to use only positive powers</p>
 
-<script type="math/tex; mode=display">a^3b^{-5} = \frac{a^3}{b^5}</script>
+<div class="mathblock"><script type="math/tex; mode=display">a^3b^{-5} = \frac{a^3}{b^5}</script></div>
 
 <p>and</p>
 
-<script type="math/tex; mode=display">a^{-2}b^{-7} = \frac{1}{a^2b^7}</script>
+<div class="mathblock"><script type="math/tex; mode=display">a^{-2}b^{-7} = \frac{1}{a^2b^7}</script></div>
 
 <p>And don’t forget you can go the other way too.</p>
 
-<script type="math/tex; mode=display">\frac{1}{a^2b^7} = a^{-2}b^{-7}</script>
+<div class="mathblock"><script type="math/tex; mode=display">\frac{1}{a^2b^7} = a^{-2}b^{-7}</script></div>
 
 <h3 id="everything-has-a-power">Everything has a Power</h3>
-<p>If a number is just a number, and seems to have no power, then it secretly also has a power of 1</p>
+<p>If a number is just a number, and seems to have no power, then it secretly also has a power of <span>​<script type="math/tex">1</script></span></p>
 
-<script type="math/tex; mode=display">a = a^1 = 1 \cdot a</script>
+<div class="mathblock"><script type="math/tex; mode=display">a = a^1 = 1 \cdot a</script></div>
 
 <p>This even works when the base is zero</p>
 
-<script type="math/tex; mode=display">0 = 0^1</script>
+<div class="mathblock"><script type="math/tex; mode=display">0 = 0^1</script></div>
 
 <p>In fact, when the base is zero, the power can be <em>anything</em></p>
 
-<script type="math/tex; mode=display">0 = 0^{10} = 0^{999} = ...</script>
+<div class="mathblock"><script type="math/tex; mode=display">0 = 0^{10} = 0^{999} = ... </script></div>
 
 <p>etc.</p>
 
 <h3 id="multiplying-powers">Multiplying Powers</h3>
 <p>When multiplying powers with the same base, just add the exponents and keep the base the same:</p>
 
-<script type="math/tex; mode=display">a^5 \cdot a^3 = (a \cdot a \cdot a \cdot a \cdot a)\cdot(a \cdot a \cdot a) = a^{5+3} = a^8</script>
+<div class="mathblock"><script type="math/tex; mode=display">a^5 \cdot a^3 = (a \cdot a \cdot a \cdot a \cdot a)\cdot(a \cdot a \cdot a) = a^{5+3} = a^8</script></div>
 
 <p>This works for negative powers too:</p>
 
-<script type="math/tex; mode=display">a^5 \cdot a^{-3} =</script>
+<div class="mathblock"><script type="math/tex; mode=display">a^5 \cdot a^{-3} = </script></div>
 
-<script type="math/tex; mode=display">= a^5 \cdot \frac{1}{a^3} =</script>
+<div class="mathblock"><script type="math/tex; mode=display"> = a^5 \cdot \frac{1}{a^3} = </script></div>
 
-<script type="math/tex; mode=display">= \frac{a \cdot a \cdot a \cdot a \cdot a}{a \cdot a \cdot a} =</script>
+<div class="mathblock"><script type="math/tex; mode=display"> = \frac{a \cdot a \cdot a \cdot a \cdot a}{a \cdot a \cdot a} = </script></div>
 
-<script type="math/tex; mode=display">= a^2</script>
+<div class="mathblock"><script type="math/tex; mode=display"> = a^2</script></div>
 
 <p>That example had only one negative power, but more, even all can be negative and the rule still holds.</p>
 
 <p>And it also works when one or more exponents equals zero</p>
 
-<script type="math/tex; mode=display">a^m \cdot a^0 =</script>
+<div class="mathblock"><script type="math/tex; mode=display">a^m \cdot a^0 = </script></div>
 
-<script type="math/tex; mode=display">= a^m \cdot 1 =</script>
+<div class="mathblock"><script type="math/tex; mode=display"> = a^m \cdot 1 = </script></div>
 
-<script type="math/tex; mode=display">= a^m</script>
+<div class="mathblock"><script type="math/tex; mode=display"> = a^m</script></div>
 
 <p>In general</p>
 
-<script type="math/tex; mode=display">a^m \cdot a^n = a^{m+n}</script>
+<div class="mathblock"><script type="math/tex; mode=display">a^m \cdot a^n = a^{m+n}</script></div>
 
 <h3 id="use-powers-to-multiply-small-and-big-numbers-conveniently">Use Powers to Multiply Small and Big Numbers Conveniently</h3>
 <p>You can lean on powers to allow you to multiply small and big numbers with ease (and without a calculator).</p>
 
-<p>E.g., to multiply $2 \cdot 10^7$ and $3 \cdot 10^{-7}$</p>
+<p>E.g., to multiply <span>​<script type="math/tex">2 \cdot 10^7</script></span> and <span>​<script type="math/tex">3 \cdot 10^{-7}</script></span></p>
 
-<script type="math/tex; mode=display">(2 \cdot 10^7) \cdot (3 \cdot 10^{-11}) =</script>
+<div class="mathblock"><script type="math/tex; mode=display">(2 \cdot 10^7) \cdot (3 \cdot 10^{-11}) = </script></div>
 
-<p>$$ = (2 \cdot 3) \cdot (10^7 \cdot 10^{-11}) = $4</p>
+<div class="mathblock"><script type="math/tex; mode=display"> = (2 \cdot 3) \cdot (10^7 \cdot 10^{-11}) = </script></div>
 
-<script type="math/tex; mode=display">= 6 \cdot 10^{7 + (-11)} =</script>
+<div class="mathblock"><script type="math/tex; mode=display"> = 6 \cdot 10^{7 + (-11)} = </script></div>
 
-<script type="math/tex; mode=display">= 6 \cdot 10^{-4}</script>
+<div class="mathblock"><script type="math/tex; mode=display"> = 6 \cdot 10^{-4}</script></div>
 
 <h3 id="if-powers-are-different-make-the-bases-the-same">If Powers are Different, Make the Bases the Same</h3>
-<p>In Gelfand Problem 55(b), we have $2^{something}$ on one side and $\frac{1}{4}$ on the other.  To get to work on this, both sides need to be the same power.  Therefore</p>
+<p>In Gelfand Problem 55(b), we have <span>​<script type="math/tex">2^{something}</script></span> on one side and <span>​<script type="math/tex">\frac{1}{4}</script></span> on the other.  To get to work on this, both sides need to be the same power.  Therefore</p>
 
-<script type="math/tex; mode=display">\frac{1}{4} = \frac{1}{2^2}</script>
+<div class="mathblock"><script type="math/tex; mode=display">\frac{1}{4} = \frac{1}{2^2}</script></div>
 
-<p>Later on, in Problem 55(f), we have $4^{something}$ on one side and $2^{something}$ on the other.  Again, we need the same power.</p>
+<p>Later on, in Problem 55(f), we have <span>​<script type="math/tex">4^{something}</script></span> on one side and <span>​<script type="math/tex">2^{something}</script></span> on the other.  Again, we need the same power.</p>
 
-<script type="math/tex; mode=display">4^{100} =</script>
+<div class="mathblock"><script type="math/tex; mode=display">4^{100} = </script></div>
 
-<p>$$ = (2 \cdot 2)^{100} = $4</p>
+<div class="mathblock"><script type="math/tex; mode=display"> = (2 \cdot 2)^{100} = </script></div>
 
-<script type="math/tex; mode=display">= 2^{100} \cdot 2^{100} =</script>
+<div class="mathblock"><script type="math/tex; mode=display"> = 2^{100} \cdot 2^{100} = </script></div>
 
-<script type="math/tex; mode=display">= 2^{200}</script>
+<div class="mathblock"><script type="math/tex; mode=display"> = 2^{200}</script></div>
 
 <h3 id="if-powers-are-the-same-you-can-add-the-bases">If Powers are the Same, You Can Add the Bases</h3>
-<p>In Gelfand Problem 55(g), we have $2^{100} \cdot 3^{100}$.  The bases are different, but the powers are the same, so</p>
+<p>In Gelfand Problem 55(g), we have <span>​<script type="math/tex">2^{100} \cdot 3^{100}</script></span>.  The bases are different, but the powers are the same, so</p>
 
-<p>$$2^{100} \cdot 3^{100} = $4</p>
+<div class="mathblock"><script type="math/tex; mode=display">2^{100} \cdot 3^{100} = </script></div>
 
-<script type="math/tex; mode=display">= (2 \cdot 3)^{100} =</script>
+<div class="mathblock"><script type="math/tex; mode=display"> = (2 \cdot 3)^{100} = </script></div>
 
-<script type="math/tex; mode=display">= 6^{100}</script>
+<div class="mathblock"><script type="math/tex; mode=display"> = 6^{100} </script></div>
 
 <h3 id="pay-attention-to-the-question">Pay Attention to the Question</h3>
-<p>Problem 49 asks for “the nuber of digits” rather than “the answer”.  Gelfand gave us a clue just before as to how to represent $2^{10}$ in terms of $10^n$ (it’s $10^3 + 24$).  Thus, when we have to raise $2^{10}$ to $2^{100}$ (or $(2^{10})^{10}$) we can move across to powers of 10 and only care about the bit which will have the most digits: $(10^3)^{10} \Rightarrow 10^{30}$.  We can stop worrying about $24^{10}$ as it will have less.  (The answer is $31$ by the way, a $3$ followed by thirty $0$s.)</p>
+<p>Problem 49 asks for “the nuber of digits” rather than “the answer”.  Gelfand gave us a clue just before as to how to represent <span>​<script type="math/tex">2^{10}</script></span> in terms of <span>​<script type="math/tex">10^n</script></span> (it’s <span>​<script type="math/tex">10^3 + 24</script></span>).  Thus, when we have to raise <span>​<script type="math/tex">2^{10}</script></span> to <span>​<script type="math/tex">2^{100}</script></span> (or <span>​<script type="math/tex">(2^{10})^{10}</script></span>) we can move across to powers of <span>​<script type="math/tex">10</script></span> and only care about the bit which will have the most digits: <span>​<script type="math/tex">(10^3)^{10} \Rightarrow 10^{30}</script></span>.  We can stop worrying about <span>​<script type="math/tex">24^{10}</script></span> as it will have less.</p>
+
+<p>(The answer is <span>​<script type="math/tex">31</script></span> by the way, a <span>​<script type="math/tex">3</script></span> followed by thirty <span>​<script type="math/tex">0</script></span>s.)</p>
 
 <h3 id="powers-of-2-are-quite-close-to-powers-of-10">Powers of 2 are <em>Quite Close</em> to Powers of 10</h3>
 <p>(Close enough for computer scientists anyway.)</p>
 
-<p>In Gelfand’s “Remark” on page 26, we saw that $10^3$ ($1000$) is <em>pretty close</em> to $2^{10}$ ($1024$), close enough for computer scientists to be happy enough to ignore the 24 extra bytes in order to be able to use the term “kilobyte”.</p>
+<p>In Gelfand’s “Remark” on page 26, we saw that <span>​<script type="math/tex">10^3</script></span> ($1000$) is <em>pretty close</em> to <span>​<script type="math/tex">2^{10}</script></span> ($1024$), close enough for computer scientists to be happy enough to ignore the 24 extra bytes in order to be able to use the term “kilobyte”.</p>
 
 <p>This then brought up the fact that other powers of 2 were not a million miles away from some powers of 10, and that when we were calculating numbers of digits rather than the actual result, then this was useful.</p>
 
@@ -249,7 +241,7 @@
 
 <p>E.g.</p>
 
-<script type="math/tex; mode=display">1024 = (10^3 + 24)</script>
+<div class="mathblock"><script type="math/tex; mode=display">1024 = (10^3 + 24)</script></div>
 
 <h2 id="terminology">Terminology</h2>
 
@@ -265,32 +257,19 @@
     <footer>
   <hr class="slender">
   <ul class="footer-links">
-    <li><a href="mailto:hate@spam.net"><span class="icon-mail"></span></a></li>    
     
       <li>
-        <a href="//www.twitter.com/twitter_handle"><span class="icon-twitter"></span></a>
+        <a href="//www.twitter.com/al94781"><span class="icon-twitter"></span></a>
       </li>
     
       <li>
-        <a href="//plus.google.com/+googlePlusName"><span class="icon-googleplus"></span></a>
-      </li>
-    
-      <li>
-        <a href="//github.com/GithubHandle"><span class="icon-github"></span></a>
-      </li>
-    
-      <li>
-        <a href="//www.flickr.com/photos/FlickrUserID"><span class="icon-flickr"></span></a>
-      </li>
-    
-      <li>
-        <a href="/feed"><span class="icon-feed"></span></a>
+        <a href="//github.com/andrewharmellaw"><span class="icon-github"></span></a>
       </li>
       
   </ul>
 <div class="credits">
-<span>&copy; 2017 &nbsp;&nbsp;{"NAME"=>"ANDREW HARMEL-LAW", "GITHUB"=>"ANDREWHARMELLAW", "TWITTER"=>"AL94781"}</span></br> <br>
-<span>This site created with the <a href="//github.com/clayh53/tufte-jekyll">Tufte theme for  </a> in <a href="//jekyllrb.com">Jekyll</a>.</span> 
+<span>&copy; 2017 &nbsp;&nbsp;ANDREW HARMEL-LAW</span></br> <br>
+<span>This site was created using the <a href="//github.com/clayh53/tufte-jekyll">Tufte theme</a> for <a href="//jekyllrb.com">Jekyll</a>.</span> 
 </div>  
 </footer>
 

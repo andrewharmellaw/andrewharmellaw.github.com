@@ -1,23 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
----
-layout: default
----
-<h1>Hello & Welcome</h1>
-<p class="subtitle"></p>
+  <title>Hi, Welcome</title>
+  <meta name="description" content="">
 
+  <!-- Google Fonts loaded here depending on setting in _data/options.yml true loads font, blank does not-->
+  
+    <link href='//fonts.googleapis.com/css?family=Lato:400,400italic' rel='stylesheet' type='text/css'>
+  
+  
+  <!-- Load up MathJax script if needed ... specify in /_data/options.yml file-->
+  
+    <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
 
+  <link rel="stylesheet" type="text/css" href="/css/tufte.css">
+  <!-- <link rel="stylesheet" type="text/css" href="/css/print.css" media="print"> -->
 
-<p>Hi. Welcome to my latest blog.  What am I doing here? Learning mathematics, that’s what.  (What are you doing here? I’ll leave that up to you.)</p>
+  <link rel="canonical" href="/">
 
-<p>Let’s start with a picture…</p>
+  <link rel="alternate" type="application/rss+xml" title="Maths from the Ground Up" href="/feed.xml" />
+</head>
+
+  <body>
+    <!--- Header and nav template site-wide -->
+<header>
+    <nav class="group">
+	<a href="/"><img class="badge" src="/assets/img/badge_1.png" alt="CH"></a>
+	
+		
+		    
+		      <a href="/archive.html">Archive</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/atom.xml">Atom</a>
+		    
+	    
+  	
+		
+		    
+		      <a class="active" href="/index.html" class="active">Hi, Welcome</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/css/print.css"></a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/rss.xml">RSS</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/tags.html">Tags</a>
+		    
+	    
+  	
+		
+  	
+	</nav>
+</header>
+
+    <article class="group">
+	    <h1>Hi, Welcome</h1>
+		<p class="subtitle"></p>	
+	      
+<p>Hi. Welcome to my Math<label for="sn-id-whatever" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-whatever" class="margin-toggle" /><span class="sidenote">Despite my better judgement, I’m going to refer to the topic as ‘Math’ rather than ‘Maths’. Despite being from the UK, it just sounds better that way.  (Sorry.) </span> blog.  This is where I’m recording my journey to learn just enough mathematics to enrich my life.  Why would I want to do such a thing?  Let’s start with a picture…</p>
 
 <p><img src="https://imgs.xkcd.com/comics/purity.png" alt="Purity from XKCD" class="img-responsive" /></p>
 
-<p>This <a href="https://imgs.xkcd.com/comics/purity.png">XKCD cartoon</a> pretty much sums up my original motivation. Math is something I am <em>OK</em> at (I have a Science degree, and it came up every now and then in stats class, etc. etc.) but it’s also something which I never felt I truly, deeply understood.  Yet, maths is fundamental to what I do for a profession (I’m a Software Engineer - and aspire to read <a href="https://www.goodreads.com/book/show/112243.Concrete_Mathematics">Knuth’s Concrete Mathematics</a>) and essential if I am to be 100% productive in functional langauges such as <a href="https://www.scala-lang.org/">Scala</a> and <a href="https://www.haskell.org/">Haskell</a>. I feel like I’m missing out on the full picture without it.</p>
+<p>That <a href="https://imgs.xkcd.com/comics/purity.png">XKCD cartoon</a> pretty much sums up my original motivation. Math is something I am <em>OK</em> at (I have a Science degree, and it came up every now and then in Stats class, etc. etc.) but it’s also something which I never felt I truly, deeply understood.  Yet, Math is fundamental to what I do for a profession (I’m a Software Engineer - and aspire to both understand what is happening in the rapidly-rising and interconnected fields of A.I., Machine Learning and Deep Learning, and also to read <a href="https://www.goodreads.com/book/show/112243.Concrete_Mathematics">Knuth’s Concrete Mathematics</a>) and essential if I am to be 100% productive in functional langauges such as <a href="https://www.scala-lang.org/">Scala</a> and <a href="https://www.haskell.org/">Haskell</a>. I feel like I’m missing out on the full picture without it.<label for="sn-id-whatever" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-whatever" class="margin-toggle" /><span class="sidenote">Oh, and it’s also something my kids are going to start asking me about very soon.  Dad-panic. </span></p>
 
-<p>(Oh, and it’s also something my kids are soon going to start asking me about very soon.  Dad-panic.)</p>
-
-<p>But it’s not just the math itself which is important; there’s also the fact that to grokk maths you need to take a different kind of approach to learning than you might apply to almost any other topic.  As a Psych-graduate, that’s very interesting to me.  Learning maths for me is a great way to get meta, and observe and examine myself as I learn this incredibly (for me) challenging topic.</p>
+<p>But it’s not just the subject area itself which is important; there’s also the fact that to grokk Math you need to take a different kind of approach to learning.  As a Psych-graduate<label for="sn-id-whatever" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-whatever" class="margin-toggle" /><span class="sidenote">Sorry, still channelling the wrong side of the pond… </span>, that’s very interesting to me.  Learning Math for me is a great way to get meta, and observe and examine myself as I learn this incredibly (for me) challenging topic.  That’s cool.</p>
 
 <p>So why then am I blogging this? It’s primarily for my own benefit - to explain something means you really have to understand it - but if occasionally I produce something which others find useful then that’s an awesome side-effect.  That means I’d like to hear what you think, and especially if I got something wrong, or missed something, then please leave a comment.</p>
 
@@ -25,16 +91,17 @@ layout: default
 
 <p>The next job was to give myself an insight into a possible approach to this learning task.  I found my starter for that in <a href="https://www.goodreads.com/book/show/18693655-a-mind-for-numbers">Oakley’s “A Mind for Numbers”</a> and the concept of chunks.  As I write this I’ve completed my first in-depth read of Gelfand, and have also read Oakley.  My next task is to work back through Gelfand, applying the techniques from Oakley, confirming my coverage with Stewart’s Review, and checking on the chunks I need to have formed as I go.  This process will consequently feed most of the written output.</p>
 
-<p>The posts which follow will be focussed on one or more of the following areas:</p>
+<p>The posts which follow will be focussed on one or more of the following four areas:</p>
 
-<ul>
-  <li>posts on chunks themselves,</li>
-  <li>meta-posts on the experience of chunking</li>
-  <li>review-posts looking back across a series to further consilidate things as appropriate.</li>
-  <li>posts on the learning path I take (it was hard to find a place to start, and I want to share my thoughts on this, and also my path)</li>
-</ul>
+<p>The chunks themselves<label for="sn-id-whatever" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-whatever" class="margin-toggle" /><span class="sidenote">This is the majority of the content. </span>;</p>
 
-<p>Finally, and as this is a blog mainly used to drive my learning, I’ll not hesitate to come back to previous posts and update / correct / enhance them as necessarily. I’ll flag this clearly when I do so however.</p>
+<p>Meta-posts on the experience of chunking<label for="sn-id-whatever" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-whatever" class="margin-toggle" /><span class="sidenote">Typically I’ve slotted this into the content posts as it made most sense in context. </span>;</p>
+
+<p>Review-posts looking back across a series to further consilidate things as appropriate;</p>
+
+<p>Posts on the learning path I take (it was hard to find a place to start, and I want to share my thoughts on this, and also my path).</p>
+
+<p>One more thing to point out. As this is a blog mainly used to drive my learning, I’ll not hesitate to come back to previous posts and update / correct / enhance them as necessarily.</p>
 
 <h2 id="posts-to-date">Posts to Date</h2>
 <p>Here’s a list of the posts so far:</p>
@@ -100,7 +167,31 @@ layout: default
   
     <li><span>23 Nov 2016</span> &raquo; <a href="/2016/11/23/gelfands-algebra-chunk-2-commutative-associative-and-distributive-laws">Gelfand: Chunk 2 - Commutative, Associative and Distributive Laws</a></li>
   
-    <li><span>16 Nov 2016</span> &raquo; <a href="/2016/11/16/gelfands-algebra-chunk-1-fundamentals">Gelfand: Chunk 1 - Fundamentals (but mostly getting to grips with Oakley's approach)</a></li>
+    <li><span>16 Nov 2016</span> &raquo; <a href="/2016/11/16/gelfands-algebra-chunk-1-fundamentals">Gelfand: Chunk 1 - Fundamentals</a></li>
   
 </ul>
 
+    </article>
+    <span class="print-footer">Hi, Welcome - {"name"=>"Andrew Harmel-Law", "github"=>"andrewharmellaw", "twitter"=>"al94781"}</span>
+
+    <footer>
+  <hr class="slender">
+  <ul class="footer-links">
+    
+      <li>
+        <a href="//www.twitter.com/al94781"><span class="icon-twitter"></span></a>
+      </li>
+    
+      <li>
+        <a href="//github.com/andrewharmellaw"><span class="icon-github"></span></a>
+      </li>
+      
+  </ul>
+<div class="credits">
+<span>&copy; 2017 &nbsp;&nbsp;ANDREW HARMEL-LAW</span></br> <br>
+<span>This site was created using the <a href="//github.com/clayh53/tufte-jekyll">Tufte theme</a> for <a href="//jekyllrb.com">Jekyll</a>.</span> 
+</div>  
+</footer>
+
+  </body>
+</html>
