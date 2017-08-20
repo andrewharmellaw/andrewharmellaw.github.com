@@ -161,9 +161,9 @@ Problem 49 asks for "the nuber of digits" rather than "the answer".  Gelfand gav
 ### Powers of 2 are _Quite Close_ to Powers of 10
 (Close enough for computer scientists anyway.) 
 
-In Gelfand's "Remark" on page 26, we saw that {% m %}10^3{% em %} ($1000$) is _pretty close_ to {% m %}2^{10}{% em %} ($1024$), close enough for computer scientists to be happy enough to ignore the 24 extra bytes in order to be able to use the term "kilobyte".
+In Gelfand's "Remark" on page 26, we saw that {% m %}10^3{% em %} ({% m %}1000{% em %}) is _pretty close_ to {% m %}2^{10}{% em %} ({% m %}1024{% em %}), close enough for computer scientists to be happy enough to ignore the {% m %}24{% em %} extra bytes in order to be able to use the term "kilobyte".
 
-This then brought up the fact that other powers of 2 were not a million miles away from some powers of 10, and that when we were calculating numbers of digits rather than the actual result, then this was useful.
+This then brought up the fact that other powers of {% m %}2{% em %} were not a million miles away from some powers of {% m %}10{% em %}, and that when we were calculating numbers of digits rather than the actual result, then this was useful.
 
 ### Break Out Powers to Simplify Things
 Last in this post is this handy trick which builds on some of the chunks we identified for simplifying things in [Post 2: Commutative, Associative and Distributive Laws](https://andrewharmellaw.github.io/2016/11/23/gelfands-algebra-chunk-2-commutative-associative-and-distributive-laws)
@@ -174,5 +174,5 @@ E.g.
 
 ## Terminology
 
-* [base number](https://www.mathsisfun.com/definitions/base-numbers-.html) - the number that is going to be raised to a power (definition from mathsisfun.com)
-* [exponent](https://www.mathsisfun.com/definitions/exponent.html) - the exponent of a number says how many times to use that number in multiplication.  Aka "index" and "power" (definition from mathsisfun.com)
+> [base number](https://www.mathsisfun.com/definitions/base-numbers-.html) - the number that is going to be raised to a power (definition from mathsisfun.com)
+> [exponent](https://www.mathsisfun.com/definitions/exponent.html) - the exponent of a number says how many times to use that number in multiplication.  Aka "index" and "power" (definition from mathsisfun.com)
