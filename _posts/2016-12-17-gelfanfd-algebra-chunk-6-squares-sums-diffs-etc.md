@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "Gelfand: Chunk 6 - Squares, Sums, Differences etc."
-description: "Pretty Much the Short Multiplication Formulas."
-category: 
 tags: [gelfand, square-of-a-sum, square-of-a-difference, difference-of-squares, short-multiplcation-formulas, tricks]
 ---
 {% include JB/setup %}
