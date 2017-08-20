@@ -8,7 +8,7 @@ tags: [gelfand, algebraic-problem-solving, proof, tricks]
 
 ## Proving Multiplication of Negative Numbers - Despair
 
-Pages 19 and 20 of [Gelfand](https://www.goodreads.com/book/show/20328259-algebra) are our first encounter with a _proof_.  As it's conceptually such a simple bit of arithmetic, it's useful to call out the approach explicitly too.
+{% newthought "Pages 19 and 20 of [Gelfand](https://www.goodreads.com/book/show/20328259-algebra)" %} are our first encounter with a _proof_.  As it's conceptually such a simple bit of arithmetic, it's useful to call out the approach explicitly too.
 
 The reason I think there's value in detailing the approach explicitly is because the first time I read through it (and worked through it) everything made sense logically, but what didn't click was how I might have arrived at this proof myself.  Reading it in the order presented made me despair.  How would I have known to start where Gelfand started? How would I have known to then rebalance the expression so that the {% m %}0{% em %} was alone on the right-hand side? I would never have figured that out.  (Immediately followed by a fall into a pit of woe.)
 
@@ -40,7 +40,7 @@ Winning.
 
 ## Tricks Arising
 
-We've used some tricks in arriving at this. Let's call them out specifically.
+{% newthought "We've used some tricks" %} in arriving at this. Let's call them out specifically.
 
 ### Something multiplied by Zero is Zero 
 
@@ -62,7 +62,7 @@ We saw this before too, in post ["Chunk 2"](https://andrewharmellaw.github.io/20
 {% math %} 0 = -5 + 5 {% endmath %}
 
 ## Aside - Can we do this in Algebra?
-One more thing, this isn't really a proof in the standard, general sense - it's _very_ specific.  Can we go off-piste a little and make it more general, replacing numbers with letters? 
+{% newthought "One more thing," %} this isn't really a proof in the standard, general sense - it's _very_ specific.  Can we go off-piste a little and make it more general, replacing numbers with letters? 
 
 Pretty much:
 
@@ -80,7 +80,7 @@ We can't quite get as far as the previous proof, but it still has the key elemen
 
 ## Different Again - Proof Part Two
 
-Now let's now head over to the second half of the proof; proving a negative number multiplyed by another negative number gives a positive number.  Conceptually that's a harder leap, so is this aspect of the proof harder too?
+{% newthought "Now let's now head over" %} to the second half of the proof; proving a negative number multiplyed by another negative number gives a positive number.  Conceptually that's a harder leap, so is this aspect of the proof harder too?
 
 Again, Gelfand seems to start at a semi-arbitrary point (or so it felt to me).  Can we look again at the point he enacts the [Distributive Law](https://andrewharmellaw.github.io/2016/11/23/gelfands-algebra-chunk-2-commutative-associative-and-distributive-laws) for another clue?:
 
@@ -123,6 +123,6 @@ To add or remove parentheses. (The same applies to the _Associative and Commutat
 E.g. {% m %}3 \times (-5) = -15{% em %} in this case.
 
 ## Conclusions
-I think I mentioned before, I'm a very visual thinker, and by that I mean I grokk things when I can lay them out as an image and _see_ them.  One thing which got in my way{% sidenote 'sn-id-whaterever' "And also hits me with "noisy" code - I shoud definitely stay away from [Lisp](https://en.wikipedia.org/wiki/Lisp_(programming_language)) and [Clojure](https://en.wikipedia.org/wiki/Clojure) it seems..." %} was the proliferation of parentheses.  I couldn't get rid of them - they were serving a purpose, but just as with getting comfortable with a new language-syntax{% sidenote 'sn-id-whaterever' "[Scala](https://en.wikipedia.org/wiki/Scala_(programming_language)), I'm thinking of you here especially." %} there's nothing quite like just looking at it over and over again, casting your eyes over the cadence of the shapes, and getting comfortable with the flow, repetitions, and echos in them.  It sounds a bit esoteric, but it helped me. 
+{% newthought "I think I mentioned before" %}, I'm a very visual thinker, and by that I mean I grokk things when I can lay them out as an image and _see_ them.  One thing which got in my way{% sidenote 'sn-id-whaterever' "And also hits me with "noisy" code - I shoud definitely stay away from [Lisp](https://en.wikipedia.org/wiki/Lisp_(programming_language)) and [Clojure](https://en.wikipedia.org/wiki/Clojure) it seems..." %} was the proliferation of parentheses.  I couldn't get rid of them - they were serving a purpose, but just as with getting comfortable with a new language-syntax{% sidenote 'sn-id-whaterever' "[Scala](https://en.wikipedia.org/wiki/Scala_(programming_language)), I'm thinking of you here especially." %} there's nothing quite like just looking at it over and over again, casting your eyes over the cadence of the shapes, and getting comfortable with the flow, repetitions, and echos in them.  It sounds a bit esoteric, but it helped me. 
 
 The other point I wanted to draw out begins with a question. Given all this for something so stupidly simple, it seems fair to ask "why is it not presented like this by Gelfand? Why is it instead presented in a way which makes sense as you follow it, but not in a way which you can imagine arriving at yourself?" The (I'm sure) would be "for pedagogic purposes".  Why do I think this? Well (a) as I pointed out, it's hard to grokk from the perspective I was coming at it from, but also (b) this section of the book isn't a problem (not even one with a solution which, as Gelfand points out on page one, are the ones to really grasp if you are to follow the chunk-constructing path of the book.)  His aim here is therefore not to lead you to something in the way the problems-with-solutions do, rather he is just telling you something.

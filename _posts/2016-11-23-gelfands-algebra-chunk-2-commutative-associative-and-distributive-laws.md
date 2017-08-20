@@ -6,7 +6,7 @@ tags: [commutative-law, associative-law, distributive-law, gelfand, stewart-alge
 {% include JB/setup %}
 
 ## The Assocative and Commutative Laws
-These laws allow you to jiggle around the numbers in your sums and multiplications, to make them easier to do in your head (and manipulate in other ways).
+{% newthought "These laws allow you to jiggle around" %} the numbers in your sums and multiplications, to make them easier to do in your head (and manipulate in other ways).
 
 There are _Associative Laws_ for addition:
 
@@ -136,9 +136,7 @@ e.g.
 
 {% math %} 125 = 5 \cdot 25 {% endmath %}
 
-## Additional Note
-
-### Why U No Laws for Division?
-Remember in the [previous post](https://andrewharmellaw.github.io/algebra/2016/11/16/gelfands-algebra-chunk-1-fundamentals) where we said that "multiplication and division" were kind-of-but-not-really the same sides of a coin? Remember then that we had to trail the concepts of "Not Defined" and "Real" and "Rational" Numbers?  
+## Why U No Laws for Division?
+{% newthought "Remember in the [previous post](https://andrewharmellaw.github.io/algebra/2016/11/16/gelfands-algebra-chunk-1-fundamentals)" %} where we said that "multiplication and division" were kind-of-but-not-really the same sides of a coin? Remember then that we had to trail the concepts of "Not Defined" and "Real" and "Rational" Numbers?  
 
 Well now here is another fly in the ointment - why are there no equivalents of these three laws for division? Things are looking less and less simple aren't they?

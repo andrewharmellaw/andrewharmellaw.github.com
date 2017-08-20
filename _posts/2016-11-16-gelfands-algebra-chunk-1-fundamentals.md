@@ -13,7 +13,7 @@ The following is based on problems 1 to 24 from [Gelfand's "Algebra"](https://ww
 Lots of the subsequent posts will be taken from chunks derived from that book too.  You can tell which because it'll be flagged in the title, and a tag ("[gelfand](/tags.html#gelfand-ref)").
 
 ## Chunking the _Standard Addition Algorithm_
-Gelfand kicks off with the _Standard Addition Algorithm_. It will surely be familiar to everyone from their elementary mathematics.  It's described nicely [over at wikipedia](https://en.wikipedia.org/wiki/Elementary_arithmetic#Addition_algorithm) so I won't repeat it here.
+{% newthought "Gelfand kicks off" %} with the _Standard Addition Algorithm_. It will surely be familiar to everyone from their elementary mathematics.  It's described nicely [over at wikipedia](https://en.wikipedia.org/wiki/Elementary_arithmetic#Addition_algorithm) so I won't repeat it here.
 
 What follows is a tidied up{% sidenote 'sn-id-whatever' "I did them initially using pen and paper." %} verison of my notes from working through problem 2 (pp. 4) using the chunking approach from Oakley (chapter 7, "How to Build a Powerful Chunk").  
 
@@ -80,7 +80,7 @@ If there is a sum-value which has no values above it, then it must be the same a
 If two columns have the same values, but different sum-values, then the difference is solely a result of the carry values.
 
 ## The Multiplication Algorithm for Multi-Digit Factors
-Next up were problems relating to the _Multiplication Algorithm for Multi-Digit Factors_. This was unfamiliar to me.  It too is described nicely [over at wikipedia](https://en.wikipedia.org/wiki/Elementary_arithmetic#Multiplication_algorithm_for_multi-digit_factors).
+{% newthought "Next up" %} were problems relating to the _Multiplication Algorithm for Multi-Digit Factors_. This was unfamiliar to me.  It too is described nicely [over at wikipedia](https://en.wikipedia.org/wiki/Elementary_arithmetic#Multiplication_algorithm_for_multi-digit_factors).
 
 From this point onwards I'll not write out in detail my chunking-led approach to things (there's little point) but following it further embedded the tricks I'd already spotted, as well as making the following patterns evident to me.
 
@@ -95,9 +95,10 @@ A {% m %}1{% em %} at a given position in the first term has the effect of takin
 The second impact is of addition, which can be seen using the _Standard Addition Algorithm_ (see above), and here the same patterns again apply.
 
 ## The Long-Division Algorithm
-From [wikipedia](https://en.wikipedia.org/wiki/Elementary_arithmetic#Division): "In mathematics, especially in elementary arithmetic, division is an arithmetic operation which is the inverse of multiplication."
+> "In mathematics, especially in elementary arithmetic, division is an arithmetic operation which is the inverse of multiplication."
+(from [wikipedia](https://en.wikipedia.org/wiki/Elementary_arithmetic#Division))
 
-Note: This isn't, in my experience, strictly speaking 100% true.  It'll help you get along for now, but bear in mind that in time (and we'll get to it in later posts) you'll see some differences.{% sidenote 'sn-id-whatever' "For example multiplying by zero (result: zero) and dividing by zero (result: undefined)." %}
+{% newthought "Note, this isn't," %} in my experience, strictly speaking 100% true.  It'll help you get along for now, but bear in mind that in time (and we'll get to it in later posts) you'll see some differences.{% sidenote 'sn-id-whatever' "For example multiplying by zero (result: zero) and dividing by zero (result: undefined)." %}
 
 There is yet again a well-established algorithm for handling division in the positional number systems called "long division".  It's explained well in the wikipedia page linked above.
 
@@ -105,7 +106,7 @@ There is yet again a well-established algorithm for handling division in the pos
 Gelfand stops at one point to point out the existence of so-called "cyclic numbers".  There is a [whole load of detail](https://en.wikipedia.org/wiki/Cyclic_number) on this which he doesn't go into, and there is no need to know any more about them than notice their existence and the circumstances under which they arise.  What is important here (I now realise on second reading) is that my previously mentioned "pattern-awareness" can help you notice a lot of things.  I'm going to go into this a little more in the next section.  One thing I want to note here however is that, as a visual thinker, I was happy to see just how much physically "seeing" patterns on the page in front of you was a valuable skill.  
 
 ## Tricks Arising
-I've alluded to "tricks" that I learned as I went.  It seems to me that these are going to become more and more key as I progress through my maths journey.  
+{% newthought "I've alluded to \"tricks\"" %} that I learned as I went.  It seems to me that these are going to become more and more key as I progress through my maths journey.  
 
 The ones I have so far are:
 
@@ -128,7 +129,7 @@ Self-explanatory this one really.
 Are you going to draw out 517 x 1001 or 1001 x 517?  Pick the one which makes things easier.
 
 ## Additional Notes
-Well, that's it for this post on the first two Gelfand-chunks. But before I close, a few other things seemed to relevant to bring out as they form part of the basic idiom of mathematics and algebra we are examining here.
+{% newthought "Well," %} that's it for this post on the first two Gelfand-chunks. But before I close, a few other things seemed to relevant to bring out as they form part of the basic idiom of mathematics and algebra we are examining here.
 
 ### Terminology:
 The following terminology was introduced in this post:

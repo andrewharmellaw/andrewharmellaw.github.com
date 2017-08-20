@@ -10,7 +10,7 @@ tags: [gelfand, powers, definition, tricks]
 {% newthought "For me, powers always made sense," %} but yet again it turns out that I'd missed some subtleties which are now evident as I come back around using the Oakley chunking-cum-visual-grokking approach.
 
 ## General Definition of Powers
-Let's kick off with the lovely General Definition.
+{% newthought "Let's kick off" %} with the lovely General Definition.
 
 For positive integers {% m %}n{% em %},
 
@@ -25,7 +25,7 @@ For positive integers {% m %}n{% em %},
 There's something worth noting explicitly about this general definition, and it's a concept we've not come across in this series; the presence of a mathematical "convention".
 
 ## The Convention of Negative Powers and Fractions
-So what is the convention? Well, it turns out that when we write {% m %}\frac{1}{2}{% em %} as {% m %}2^{-1}{% em %} we're relying on a convention.  But a convenient one.  
+{% newthought "So what is the convention?" %} Well, it turns out that when we write {% m %}\frac{1}{2}{% em %} as {% m %}2^{-1}{% em %} we're relying on a convention.  But a convenient one.  
 
 This convention helps because it unifies how we conceptually treat very large and very small numbers.  
 
@@ -34,7 +34,7 @@ But why the "convention" piece? Because it is a convention rather than a _fact_ 
 Interesting huh?  Let's continue.
 
 ## Tricks Arising
-With this in place, we can move on to the fun, useful stuff; the tricks we can slot into our memory banks.
+{% newthought "With this in place," %} we can move on to the fun, useful stuff; the tricks we can slot into our memory banks.
 
 ### Shorten Things
 The long expression

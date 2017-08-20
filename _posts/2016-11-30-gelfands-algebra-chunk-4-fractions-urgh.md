@@ -5,7 +5,7 @@ tags: [gelfand, stewart-algebra-review, fractions, division, distributive-law, t
 ---
 {% include JB/setup %}
 
-Yet another of my mental stumbling-blocks today: fractions.{% sidenote 'sn-id-whatever' "Urgh." %}
+{% newthought "Yet another" %} of my mental stumbling-blocks today: fractions.{% sidenote 'sn-id-whatever' "Urgh." %}
 
 It amused me slightly to read on Google's "define" page that they are termed "vulgar fractions".  I couldn't agree more.
 
@@ -78,7 +78,7 @@ Sometimes during the transformation we are able to simplify the expression, elim
 {% math %} \frac{PX}{QX} = \frac{P}{Q} {% endmath %}
 
 ## Tricks for Comparing Fractions
-Gelfand loves to get his readers to compare fractions.  Luckily he gives us a few tricks along the way.
+{% newthought "Gelfand loves" %} to get his readers to compare fractions.  Luckily he gives us a few tricks along the way.
 
 ### Finding the Common Denominator
 This is the one I recall from school.
@@ -168,7 +168,7 @@ All this prompts some mental images{% sidenote 'sn-id-whatever' "Blindingly obvi
 From this therefore drops out the prompt to choose from these two options the state which is easier to get into.  We saw tricks like "subtracting from one" and the standard "common-denominator" approach.  As before, for me I'll be selecting these once I've laid things out mentally to see which makes most sense.
 
 ## "Adding" Fractions to find "something in between"
-Now something a little different. Finding values in between two fractions.
+{% newthought "Now something a little different." %} Finding values in between two fractions.
 
 We remembered above that to add fractions, you need to find a common denominator. If you don't, and just add them, then you end up instead with something in between the two fractions:
 
@@ -246,7 +246,7 @@ And secondly, the cut-points never fall directly _on_ a red or green line, becau
 We've travelled a slightly more scenic route to the conclusion that Gelfand reaches much more rapidly.  But I think it's informative to point this out clearly.
 
 ## Problem 45 - Fractions of Fractions
-My solution to this problem was slightly different from the one given in the book (which I don't personally think makes sense without a but of mental stretching) but it gave me a little extra trick to add to our kit bag.  Here we're working with a starting length which is not {% m %}1{% em %}.  We have instead {% m %}\frac{2}{3}m{% em %}, but need to find out the difference between this and {% m %}\frac{1}{2}m{% em %}, an we need this difference in terms of a fraction of {% m %}\frac{2}{3}m{% em %}.
+{% newthought "My solution to this problem" %} was slightly different from the one given in the book (which I don't personally think makes sense without a but of mental stretching) but it gave me a little extra trick to add to our kit bag.  Here we're working with a starting length which is not {% m %}1{% em %}.  We have instead {% m %}\frac{2}{3}m{% em %}, but need to find out the difference between this and {% m %}\frac{1}{2}m{% em %}, an we need this difference in terms of a fraction of {% m %}\frac{2}{3}m{% em %}.
 
 We could go the route of making the denominators common:
 
@@ -269,7 +269,7 @@ So therefore we need to take away {% m %}\frac{1}{4}{% em %} of the existing str
 ## Neighbour Fractions
 (From Gelfand, Problem 42)
 
-We jumped ahead a little in the book, missing out Problem 41.
+{% newthought "We jumped ahead a little" %} in the book, missing out Problem 41.
 
 > "Fractions {% m %}\frac{a}{b}{% em %} and {% m %}\frac{c}{d}{% em %} are called "_Neighbour Fractions"_ if their difference {% m %}\frac{ad-bc}{bd}{% em %} has numberator {% m %}±1{% em %}, that is {% m %}ad - bc = ±1{% em %}."
 
@@ -293,5 +293,6 @@ A difference is one fraction minus another.  So let's enact these steps formally
 
 Just what we'd expect.  Nice.
 
-I'll be back to this super-interesting topic in the future.  
+I'll be back to this super-interesting topic in the future.
+
 Meanwhile, have a crack at them yourself if you like.
