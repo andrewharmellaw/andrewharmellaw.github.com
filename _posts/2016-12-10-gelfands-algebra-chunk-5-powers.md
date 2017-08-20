@@ -7,7 +7,7 @@ tags: [gelfand, powers, definition, tricks]
 ---
 {% include JB/setup %}
 
-For me, powers always made sense; but yet again it turns out that I'd missed some subtleties which are now evident as I come back around using the Oakley chunking-cum-visual-grokking approach.
+{% newthought "For me, powers always made sense," %} but yet again it turns out that I'd missed some subtleties which are now evident as I come back around using the Oakley chunking-cum-visual-grokking approach.
 
 ## General Definition of Powers
 Let's kick off with the lovely General Definition.
@@ -73,7 +73,7 @@ And don't forget you can go the other way too.
 {% math %}\frac{1}{a^2b^7} = a^{-2}b^{-7}{% endmath %}
 
 ### Everything has a Power
-If a number is just a number, and seems to have no power, then it secretly also has a power of {% m %}1{% em %}
+If a number is just a number, and seems to have no power, then it secretly has a power of {% m %}1{% em %}
 
 {% math %}a = a^1 = 1 \cdot a{% endmath %}
 
@@ -166,7 +166,7 @@ In Gelfand's "Remark" on page 26, we saw that {% m %}10^3{% em %} ({% m %}1000{%
 This then brought up the fact that other powers of {% m %}2{% em %} were not a million miles away from some powers of {% m %}10{% em %}, and that when we were calculating numbers of digits rather than the actual result, then this was useful.
 
 ### Break Out Powers to Simplify Things
-Last in this post is this handy trick which builds on some of the chunks we identified for simplifying things in [Post 2: Commutative, Associative and Distributive Laws](https://andrewharmellaw.github.io/2016/11/23/gelfands-algebra-chunk-2-commutative-associative-and-distributive-laws)
+Last in this post is this handy trick which builds on some of the chunks we identified for simplifying things in [post 2 (Commutative, Associative and Distributive Laws)](https://andrewharmellaw.github.io/2016/11/23/gelfands-algebra-chunk-2-commutative-associative-and-distributive-laws)
 
 E.g.
 
@@ -174,5 +174,5 @@ E.g.
 
 ## Terminology
 
-> [base number](https://www.mathsisfun.com/definitions/base-numbers-.html) - the number that is going to be raised to a power (definition from mathsisfun.com)
-> [exponent](https://www.mathsisfun.com/definitions/exponent.html) - the exponent of a number says how many times to use that number in multiplication.  Aka "index" and "power" (definition from mathsisfun.com)
+* [base number](https://www.mathsisfun.com/definitions/base-numbers-.html) - the number that is going to be raised to a power (definition from mathsisfun.com)
+* [exponent](https://www.mathsisfun.com/definitions/exponent.html) - the exponent of a number says how many times to use that number in multiplication.  Aka "index" and "power" (definition from mathsisfun.com)
