@@ -4,7 +4,7 @@ title: Hi, Welcome
 ---
 {% include JB/setup %}
 
-Hi. Welcome to my Math{% sidenote 'sn-id-whatever' "Despite my better judgement, I'm going to refer to the topic as 'Math' rather than 'Maths'. Despite being from the UK, it just sounds better that way.  (Sorry.)" %} blog.  This is where I'm recording my journey to learn just enough mathematics to enrich my life.  Why would I want to do such a thing?  Let's start with a picture...
+{% newthought "Welcome to" %} my Math{% sidenote 'sn-id-whatever' "Despite my better judgement, I'm going to refer to the topic as 'Math' rather than 'Maths'. Despite being from the UK, it just sounds better that way.  (Sorry.)" %} blog.  This is where I'm recording my journey to learn just enough mathematics to enrich my life.  Why would I want to do such a thing?  Let's start with a picture...
 
 ![Purity from XKCD](https://imgs.xkcd.com/comics/purity.png){:class="img-responsive"}
 
@@ -32,7 +32,7 @@ Posts on the learning path I take (it was hard to find a place to start, and I w
 One more thing to point out. As this is a blog mainly used to drive my learning, I'll not hesitate to come back to previous posts and update / correct / enhance them as necessarily.
     
 ## Posts to Date
-Here's a list of the posts so far:
+{% newthought "Here's a list" %} of the posts so far:
 <ul class="posts">
   {% for post in site.posts %}
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
