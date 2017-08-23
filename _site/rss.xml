@@ -5,8 +5,8 @@
         <description>Maths from the Ground Up - Andrew Harmel-Law</description>
         <link>http://andrewharmellaw.github.io</link>
         <atom:link href="http://andrewharmellaw.github.io" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Wed, 23 Aug 2017 06:31:07 +0100</lastBuildDate>
-        <pubDate>Wed, 23 Aug 2017 06:31:07 +0100</pubDate>
+        <lastBuildDate>Wed, 23 Aug 2017 06:48:36 +0100</lastBuildDate>
+        <pubDate>Wed, 23 Aug 2017 06:48:36 +0100</pubDate>
         <ttl>60</ttl>
 
 
@@ -2682,63 +2682,59 @@ This powerful concept was snuck in by Gelfand in his further discussions of  Rat
         <item>
                 <title>Gelfand: Aside 1 - Proofs!?!?!</title>
                 <description>
-&lt;p&gt;The last few problems in the Factorials section in Gelfand asks you to “prove” things.  I wasn’t sure how to approach this.  Up until now I’ve just been “solving”.  This post catalogs the process of my working this out.&lt;/p&gt;
-
-&lt;p&gt;(Note: I’m certain that the philosophy of proofs is far more complex than I am about to cover here. In fact I have another book to read at some point in the future which links Haskell, Mathematics, and the construction and use of Proofs.  It all means I’ll probably post again at some point in the future on this topic.)&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;In the last few problems in the Factorials section of Gelfand&lt;/span&gt;  he asks you to “prove” things.  I wasn’t sure how to approach this.  Up until now I’ve just been “solving”.  This post catalogs the process of my working this out.&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;I’m certain that the philosophy of proofs is far more complex than I am about to cover here. In fact I have another book to read at some point in the future which links Haskell, Mathematics, and the construction and use of Proofs.  It all means I’ll probably post again at some point in the future on this topic. &lt;/span&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;a-first-stab-at-a-proof&quot;&gt;A First Stab at a Proof&lt;/h2&gt;
-&lt;p&gt;Let’s dive straight into the first problem - Problem 123.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;Let’s dive straight into the first problem&lt;/span&gt;  - Problem 123.&lt;/p&gt;
 
-&lt;p&gt;Prove that if $a, b &amp;gt; 1$ then $a + b &amp;lt; 1 + ab$.&lt;/p&gt;
+&lt;p&gt;Prove that if &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a, b \gt 1&lt;/script&gt;&lt;/span&gt; then &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a + b \lt 1 + ab&lt;/script&gt;&lt;/span&gt;.&lt;/p&gt;
 
-&lt;p&gt;Now on it’s own, I initially had no idea how to approach this. But we get a clue.  Gelfand suggests we “factor $(1 + ab) - (a + b)$”.  You can see in here that the component parts have clearly come from the original formula which we need to prove.&lt;/p&gt;
+&lt;p&gt;Now on it’s own, I initially had no idea how to approach this. But we get a clue.  Gelfand suggests we “factor &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;(1 + ab) - (a + b)&lt;/script&gt;&lt;/span&gt;”.  You can see in here that the component parts have clearly come from the original formula which we need to prove.&lt;/p&gt;
 
 &lt;p&gt;Let’s factor using our new-found skills.&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;(1 + ab) - (a + b) =&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;(1 + ab) - (a + b) = &lt;/script&gt;&lt;/div&gt;
 
 &lt;p&gt;Hmmm, not like anything we’ve seen before really. And not much to do. Perhaps if we simply remove the brackets&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;= 1 + ab - a - b =&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = 1 + ab - a - b = &lt;/script&gt;&lt;/div&gt;
 
 &lt;p&gt;and re-arrange&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;= ab - a - b + 1 =&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = ab - a - b + 1 = &lt;/script&gt;&lt;/div&gt;
 
-&lt;p&gt;Does that look a little like a kind-of-polynomial? (I.e. like $x^2 - 2x + 1$ - I was happy to have a go to this point without reference to &lt;a href=&quot;https://www.scribd.com/document/243387607/Gelfand-Algebra-Solutions&quot;&gt;Durham&lt;/a&gt;).  Let’s try it and see.  If it is, then we could do some nice factorisation on it, but with $a$ as our first $x$ and $b$ as our second.  That gives us this&lt;/p&gt;
+&lt;p&gt;Does that look a little like a kind-of-polynomial? (I.e. like &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;x^2 - 2x + 1&lt;/script&gt;&lt;/span&gt; - I was happy to have a go to this point without reference to &lt;a href=&quot;https://www.scribd.com/document/243387607/Gelfand-Algebra-Solutions&quot;&gt;Durham&lt;/a&gt;).  Let’s try it and see.  If it is, then we could do some nice factorisation on it, but with &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a&lt;/script&gt;&lt;/span&gt; as our first &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;x&lt;/script&gt;&lt;/span&gt; and &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;b&lt;/script&gt;&lt;/span&gt; as our second.  That gives us this&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;= (a - 1)(b - 1)&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = (a - 1)(b - 1) &lt;/script&gt;&lt;/div&gt;
 
 &lt;p&gt;Is that right?  Sometimes I doubt myself. Let’s quickly multiply it back out to check.&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;ab - a - b - 1&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; ab - a - b - 1&lt;/script&gt;&lt;/div&gt;
 
 &lt;p&gt;Awesome!&lt;/p&gt;
 
-&lt;p&gt;Now what do we need to do?  Well, the problem requires that we prove that when $a$ and $b$ are both greater than one, then $a + b &amp;lt; 1 + ab$.  If we look at our factorisation, we can easily see that when $a$ and $b$ are greater than one we get a positive result.  If either or both are $&amp;lt;=$ one then we get a zero or negative result.  That’s the point of the factorisation I deduce.&lt;/p&gt;
+&lt;p&gt;Now what do we need to do?  Well, the problem requires that we prove that when &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a&lt;/script&gt;&lt;/span&gt; and &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;b&lt;/script&gt;&lt;/span&gt; are both greater than one, then &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a + b \lt 1 + ab&lt;/script&gt;&lt;/span&gt;.  If we look at our factorisation, we can easily see that when &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a&lt;/script&gt;&lt;/span&gt; and &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;b&lt;/script&gt;&lt;/span&gt; are greater than one we get a positive result.  If either or both are less than or equal to one then we get a zero or negative result.  That’s the point of the factorisation I deduce.&lt;/p&gt;
 
 &lt;p&gt;So, at this point, it &lt;em&gt;kind of&lt;/em&gt; felt like we’ve proved this, but the issue here is still the leap made at the start - how were we to know that doing such a factorisation would lead us to this factorisation and therefore to the proof?  Let’s look back at the problem and the thing to factor.&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
-a + b &lt; 1 + ab %]]&gt;&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; a + b &lt; 1 + ab &lt;/script&gt;&lt;/div&gt;
 
 &lt;p&gt;The first step of the transformation from this statement into the expression we want to factor is the simple addition of brackets:&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
-= (a + b) &lt; (1 + ab) = %]]&gt;&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = (a + b) &lt; (1 + ab) = &lt;/script&gt;&lt;/div&gt;
 
 &lt;p&gt;And subsequent to this there is the effective moving of the right hand side across to the left hand side (with corresponding change in sign from positive to negative.)&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\rightarrow (a + b) - (1 + ab)&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; \rightarrow (a + b) - (1 + ab) &lt;/script&gt;&lt;/div&gt;
 
-&lt;p&gt;I pondered this next bit for a while.  (In fact I stopped writing this, went off and did other things, and have now come back 24 hours later.)  (Note, I dropped the “$ &amp;gt; 0$” bit as it no longer served any purpose for us. Nigglingly, when we bring it back later in this section, the direction of the symbol changes, but I have looked at both versions every which way and both seem valid and correct in the circumstances they are being used.  To reconcile this in my head I had to remember there will be times when $(a + b) - (1 + ab)$ would be equalt to zero, times when it would be less than zero, and times when it would be greater than zero - in each case based entirely on the input values for $a$ and $b$.)&lt;/p&gt;
+&lt;p&gt;I pondered this next bit for a while.  (In fact I stopped writing this, went off and did other things, and have now come back 24 hours later.)  (Note, I dropped the “&lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt; \gt 0&lt;/script&gt;&lt;/span&gt;” bit as it no longer served any purpose for us. Nigglingly, when we bring it back later in this section, the direction of the symbol changes, but I have looked at both versions every which way and both seem valid and correct in the circumstances they are being used.  To reconcile this in my head I had to remember there will be times when &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;(a + b) - (1 + ab)&lt;/script&gt;&lt;/span&gt; would be equalt to zero, times when it would be less than zero, and times when it would be greater than zero - in each case based entirely on the input values for &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a&lt;/script&gt;&lt;/span&gt; and &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;b&lt;/script&gt;&lt;/span&gt;.)&lt;/p&gt;
 
 &lt;p&gt;Moving on from this very difference, there are two significant elements in our question which we need to acknowledge.&lt;/p&gt;
 
-&lt;ol&gt;
-  &lt;li&gt;we have a $&amp;lt;$ in our starting point rather than an $=$&lt;/li&gt;
-  &lt;li&gt;we have a statement: “if $a, b &amp;gt; 1$ then …” that our starting formula has applied to it&lt;/li&gt;
-&lt;/ol&gt;
+&lt;ul&gt;
+  &lt;li&gt;we have a &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;\lt&lt;/script&gt;&lt;/span&gt; in our starting point rather than an &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;=&lt;/script&gt;&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;we have a statement: “if &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a, b \gt 1&lt;/script&gt;&lt;/span&gt; then …” that our starting formula has applied to it&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;Unlike in everything we’ve done previously, we’re now looking at a problem of the type “when something is the case, then something else is also the case.”  Can we do anything with that?&lt;/p&gt;
 
@@ -2746,96 +2742,94 @@ a + b &lt; 1 + ab %]]&gt;&lt;/script&gt;
 
 &lt;p&gt;Or to put it more clearly in a symbolic fashion&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
-a &lt; b %]]&gt;&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; a &lt; b &lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
-a - b &lt; 0 %]]&gt;&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; a - b &lt; 0 &lt;/script&gt;&lt;/div&gt;
 
-&lt;p&gt;And you then test it by putting in values for a and b which meet the criteria $a &amp;lt; b$.&lt;/p&gt;
+&lt;p&gt;And you then test it by putting in values for a and b which meet the criteria &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a \lt b&lt;/script&gt;&lt;/span&gt;.&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
-3 &lt; 4 %]]&gt;&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; 3 &lt; 4 &lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;3 - 4 = -1&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; 3 - 4 = -1 &lt;/script&gt;&lt;/div&gt;
 
-&lt;p&gt;Which is correct as $-1$ is indeed less than $0$.&lt;/p&gt;
+&lt;p&gt;Which is correct as &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;-1&lt;/script&gt;&lt;/span&gt; is indeed less than &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;0&lt;/script&gt;&lt;/span&gt;.&lt;/p&gt;
 
-&lt;p&gt;So how do we take this back to our problem?  We know, because we followed mathematical rules when we factored, that $(a - 1)(b - 1)$ and $(a + b) - (1 + ab)$ are equivalent.  We are now in the position to put back in our less-than statement and test our conjecture.&lt;/p&gt;
+&lt;p&gt;So how do we take this back to our problem?  We know, because we followed mathematical rules when we factored, that &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;(a - 1)(b - 1)&lt;/script&gt;&lt;/span&gt; and &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;(a + b) - (1 + ab)&lt;/script&gt;&lt;/span&gt; are equivalent.  We are now in the position to put back in our less-than statement and test our conjecture.&lt;/p&gt;
 
-&lt;p&gt;$(a - 1)(b - 1) &amp;gt; 0$ when $a, b &amp;gt; 1$&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;(a - 1)(b - 1) \gt 0&lt;/script&gt;&lt;/span&gt; when &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a, b \gt 1&lt;/script&gt;&lt;/span&gt;&lt;/p&gt;
 
-&lt;p&gt;Now we can see why our factoring helped.  It’s obvious from the new-found clarity, that if either $a$ or $b$ (or both) are less than $0$ then the result will be less than zero.  But that if both $a$ and $b$ are greater than zero then the product will be greater than zero too.  That clarity is why it’s a &lt;em&gt;proof&lt;/em&gt; - the finding is undeniable.&lt;/p&gt;
+&lt;p&gt;Now we can see why our factoring helped.  It’s obvious from the new-found clarity, that if either &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a&lt;/script&gt;&lt;/span&gt; or &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;b&lt;/script&gt;&lt;/span&gt; (or both) are less than &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;0&lt;/script&gt;&lt;/span&gt; then the result will be less than zero.  But that if both &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a&lt;/script&gt;&lt;/span&gt; and &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;b&lt;/script&gt;&lt;/span&gt; are greater than zero then the product will be greater than zero too.  That clarity is why it’s a &lt;em&gt;proof&lt;/em&gt;; because the finding is undeniable.&lt;/p&gt;
 
 &lt;h2 id=&quot;next-stab---problem-124&quot;&gt;Next Stab - Problem 124&lt;/h2&gt;
-&lt;p&gt;This one looks a bit easier - no “greater than” or “less than” symbols.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;This one looks a bit easier.&lt;/span&gt;  No “greater than” or “less than” symbols.&lt;/p&gt;
 
 &lt;p&gt;Let’s write out our starting point first&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;a^2 + ab + b^2 = 0&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;a^2 + ab + b^2 = 0&lt;/script&gt;&lt;/div&gt;
 
-&lt;p&gt;And then bring in the factoring of $a^3 - b^3$ to look at side-by-side as suggested by Gelfand.&lt;/p&gt;
+&lt;p&gt;And then bring in the factoring of &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a^3 - b^3&lt;/script&gt;&lt;/span&gt; to look at side-by-side as suggested by Gelfand.&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;a^3 - b^3 =&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; a^3 - b^3 = &lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;= a^3 - a^2b + a^2b - ab^2 + ab^2 - b^3 =&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = a^3 - a^2b + a^2b - ab^2 + ab^2 - b^3 = &lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;= a^2(a - b) - ab(a - b) + b^2(a - b) =&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = a^2(a - b) - ab(a - b) + b^2(a - b) = &lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;= (a^2 + ab + b^2)(a - b)&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = (a^2 + ab + b^2)(a - b)&lt;/script&gt;&lt;/div&gt;
 
 &lt;p&gt;Hmmm, there is a direct match in there - the first part of the factored output is the same as our proof starting point.&lt;/p&gt;
 
-&lt;p&gt;But what does this mean?  I’ll admit I had to cheat and read Durham here.  He then combines the two, so I’ll do the same (remember that in our case $a^2 + ab + b^2 = 0$)&lt;/p&gt;
+&lt;p&gt;But what does this mean?  I’ll admit I had to cheat and read Durham here.  He then combines the two, so I’ll do the same (remember that in our case &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a^2 + ab + b^2 = 0&lt;/script&gt;&lt;/span&gt;)&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;a^3 - b^3 = (0)(a - b)&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; a^3 - b^3 = (0)(a - b) &lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\rightarrow a^3 - b^3 = 0&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;\rightarrow a^3 - b^3 = 0 &lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\rightarrow a^3 = b^3&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;\rightarrow a^3 = b^3 &lt;/script&gt;&lt;/div&gt;
 
 &lt;p&gt;That rules-wise makes sense, but what am I doing here? (What is anyone doing here?)&lt;/p&gt;
 
-&lt;ol&gt;
-  &lt;li&gt;We’re aiming to find out the circumstances when $a^2 + ab + b^2 = 0$.  OK.&lt;/li&gt;
-  &lt;li&gt;We’ve now seen that this forms a part of a factoring of $a^3 - b^3$.  OK.&lt;/li&gt;
-&lt;/ol&gt;
+&lt;ul&gt;
+  &lt;li&gt;We’re aiming to find out the circumstances when &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a^2 + ab + b^2 = 0&lt;/script&gt;&lt;/span&gt;.  OK.&lt;/li&gt;
+  &lt;li&gt;We’ve now seen that this forms a part of a factoring of &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a^3 - b^3&lt;/script&gt;&lt;/span&gt;.  OK.&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;What I missed was looking at the $a^3 - b^3$.  Now when is &lt;em&gt;this&lt;/em&gt; zero?  This is zero whenever $a = b$.  Nice.  And it’s even distilled for us in the remainder of the factored result - $(a - b)$ - which is zero again whenever $a = b$.&lt;/p&gt;
+&lt;p&gt;What I missed was looking at the &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a^3 - b^3&lt;/script&gt;&lt;/span&gt;.  Now when is &lt;em&gt;this&lt;/em&gt; zero?  This is zero whenever &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a = b&lt;/script&gt;&lt;/span&gt;.  Nice.  And it’s even distilled for us in the remainder of the factored result - &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;(a - b)&lt;/script&gt;&lt;/span&gt; - which is zero again whenever &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a = b&lt;/script&gt;&lt;/span&gt;.&lt;/p&gt;
 
 &lt;p&gt;Combined, &lt;em&gt;that’s&lt;/em&gt; the echo of a future solution-reason calling me, and enough to move forward.&lt;/p&gt;
 
-&lt;p&gt;So do we have our proof with this alone?  Again (and I might come back to this in an update to this post sometime) &lt;em&gt;I&lt;/em&gt; think you could stop at this point, given where we are in the Gelfand-journey. &lt;a href=&quot;https://www.scribd.com/document/243387607/Gelfand-Algebra-Solutions&quot;&gt;Durham&lt;/a&gt; however goes further. He then analyses $a^2 + ab + b^2 = 0$ directly.  I encourage you to take a look and see what you can glean.&lt;/p&gt;
+&lt;p&gt;So do we have our proof with this alone?  Again &lt;em&gt;I&lt;/em&gt; think you could stop at this point, given where we are in the Gelfand-journey.&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;I might come back to this in an update to this post sometime. &lt;/span&gt; &lt;a href=&quot;https://www.scribd.com/document/243387607/Gelfand-Algebra-Solutions&quot;&gt;Durham&lt;/a&gt; however goes further. He then analyses &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a^2 + ab + b^2 = 0&lt;/script&gt;&lt;/span&gt; directly.  I encourage you to take a look and see what you can glean.&lt;/p&gt;
 
 &lt;h2 id=&quot;problem-125&quot;&gt;Problem 125&lt;/h2&gt;
-&lt;p&gt;Prove that if $a + b + c = 0$ then $a^3 + b^3 + c^3 = 3abc$&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;Prove that&lt;/span&gt;  if &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a + b + c = 0&lt;/script&gt;&lt;/span&gt; then &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a^3 + b^3 + c^3 = 3abc&lt;/script&gt;&lt;/span&gt;&lt;/p&gt;
 
 &lt;p&gt;First step is again to see have we seen any of this (or parts of this) before?&lt;/p&gt;
 
 &lt;p&gt;We have.  Problem 122(d) had this:&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;a^3 + b^3 + c^3 - 3abc&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;a^3 + b^3 + c^3 - 3abc&lt;/script&gt;&lt;/div&gt;
 
-&lt;p&gt;How did we factor that?  Well, I looked back and I didn’t - I just fell back on &lt;a href=&quot;&quot;&gt;Durham&lt;/a&gt; (even he thought it was hard.)  So what does his factoring give us?  There we saw that $a^3 + b^3 + c^3 - 3abc = (a + b + c) \times …$.&lt;/p&gt;
+&lt;p&gt;How did we factor that?  Well, I looked back and I didn’t - I just fell back on &lt;a href=&quot;https://www.scribd.com/document/243387607/Gelfand-Algebra-Solutions&quot;&gt;Durham&lt;/a&gt; (even he thought it was hard.)  So what does his factoring give us?  There we saw that &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a^3 + b^3 + c^3 - 3abc = (a + b + c) \times ...&lt;/script&gt;&lt;/span&gt;.&lt;/p&gt;
 
-&lt;p&gt;We can work with that, so, when $(a + b + c ) = 0$&lt;/p&gt;
+&lt;p&gt;We can work with that, so, when &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;(a + b + c ) = 0&lt;/script&gt;&lt;/span&gt;&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;a^3 + b^3 + c^3 - 3abc = (a + b + c)(...)&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; a^3 + b^3 + c^3 - 3abc = (a + b + c)(...)&lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\rightarrow a^3 + b^3 + c^3 - 3abc = 0 \times (...)&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; \rightarrow a^3 + b^3 + c^3 - 3abc = 0 \times (...)&lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\rightarrow a^3 + b^3 + c^3 - 3abc = 0&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; \rightarrow a^3 + b^3 + c^3 - 3abc = 0 &lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\rightarrow a^3 + b^3 + c^3 = 3abc&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; \rightarrow a^3 + b^3 + c^3 = 3abc &lt;/script&gt;&lt;/div&gt;
 
 &lt;p&gt;Proved.&lt;/p&gt;
 
 &lt;h2 id=&quot;tricks-arising&quot;&gt;Tricks Arising&lt;/h2&gt;
-&lt;p&gt;### Look for the Same Pattern in Things You Know (Beyond the Standard Short-Cut Formulas)
-&lt;em&gt;Many&lt;/em&gt; of the solutions to the proof-problems in this post have involved looking back to what we have seen worked previously.  It makes the clear (but possibly not self-evident) point that &lt;em&gt;anything&lt;/em&gt; can be a pattern to match on.  The Short-cut formulas are key ones because they pop up &lt;em&gt;a lot&lt;/em&gt;, but others work in just the same way, by giving you a sudden jump into a well-worn path to differently formed expressions and perhaps further leaps.&lt;/p&gt;
+
+&lt;h3 id=&quot;look-for-the-same-pattern-in-things-you-know-beyond-the-standard-short-cut-formulas&quot;&gt;Look for the Same Pattern in Things You Know (Beyond the Standard Short-Cut Formulas)&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Many&lt;/em&gt; of the solutions to the proof-problems in this post have involved looking back to what we have seen worked previously.  It makes the clear (but possibly not self-evident) point that &lt;em&gt;anything&lt;/em&gt; can be a pattern to match on.  The &lt;em&gt;short-cut formulas&lt;/em&gt; are key ones because they pop up &lt;em&gt;a lot&lt;/em&gt;, but others work in just the same way, by giving you a sudden jump into a well-worn path to differently formed expressions and perhaps further leaps.&lt;/p&gt;
 
 &lt;h2 id=&quot;some-kind-of-a-conclusion&quot;&gt;Some Kind of a Conclusion&lt;/h2&gt;
-&lt;p&gt;I’m going to be honest and state that I’m still not 100% certain as to the difference between a solution and a proof.  It’ll get clearer I’m sure and I’ll come back here and update this when I get something more pithy.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;I’m going to be honest&lt;/span&gt;  and state that I’m still not 100% certain as to the difference between a solution and a proof.  It’ll get clearer I’m sure and I’ll come back here and update this when I get something more pithy.&lt;/p&gt;
 
 &lt;p&gt;Suffice to say, I’m currently under the impression that for something to be a “proof”, you need to be able to get from your starting point, using only allowable mathematical manipulations, to something which allows you to state unequivocally that the proposition you need to make is true (and is the only thing that can be true).&lt;/p&gt;
 
