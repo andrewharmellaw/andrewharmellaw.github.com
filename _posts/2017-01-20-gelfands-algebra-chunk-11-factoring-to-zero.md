@@ -8,12 +8,12 @@ tags: [gelfand, factoring, difference-of-squares, square-of-a-sum, roots, powers
 {% include JB/setup %}
 
 ## Coping with Annihilated Terms
-{% newthought "So after [Chunk 10](https://andrewharmellaw.github.io/2017/01/17/gelfands-algebra-chunk-10-factoring)" %} you think this factoring lark is easy eh? Well, there's something we've not yet tackled. Sometimes as part of our terms-collection we ended up with terms where the co-efficient totalled zero and so we removed them alltogether.  This felt amazing, because we were getting rid of things and achieving increased simplicity as a result.  But now we're going backwards. How do we cope with that?  How can we see what's no longer there?
+{% newthought "So after [Chunk 10](https://andrewharmellaw.github.io/2017/01/17/gelfands-algebra-chunk-10-factoring)" %} you think this factoring lark is easy eh? Well, there's something we've not yet tackled. Sometimes as part of our terms-collection we ended up with terms where the co-efficient totalled zero and so we removed them altogether.  This felt amazing, because we were getting rid of things and achieving increased simplicity as a result.  But now we're going backwards. How do we cope with that?  How can we see what's no longer there?
 
-This is just one of the reasons that factoring is "hard".  (Interestingly as I've been writing this, I remember _doing_ factoring at school. I fail to recall any of the details however, most likely due to the terror which this "summoning from the ether" element.)
+This is just one of the reasons that factoring is "hard".{% sidenote 'sn-id-whatever' "Interestingly as I've been writing this, I remember _doing_ factoring at school. I fail to recall any of the details however, most likely due to the terror which this \"summoning from the ether\" element." %}
 
 ## Looking for the Zero(s)
-{% newthought "Gelfand feels our fear," %} but he encourages us to took into the abyss anyway.  He suggests we look at a factoring of the familiar difference-of-squares to salve our anxiety.  We know the steps because we've worked it the other direction [many a time](https://andrewharmellaw.github.io/2016/12/17/gelfanfd-algebra-chunk-6-squares-sums-diffs-etc).
+{% newthought "Gelfand feels our fear," %} but he encourages us to look into the abyss anyway by suggesting we consider a factoring of the familiar _Difference of Squares_ to salve our anxiety.  We know the steps because we've worked it the other direction [many a time](https://andrewharmellaw.github.io/2016/12/17/gelfanfd-algebra-chunk-6-squares-sums-diffs-etc).
 
 {% math %} a^2 - b^2 = {% endmath %}
 
@@ -39,7 +39,7 @@ Hmmm. Point made - in life we're not always going to be lucky with the expressio
 
 The focus is on simple versions of our situation. The specific consideration here is the one that arises whenever {% m %}a = b{% em %}.  In these circumstances, the value of the right hand side ({% m %}(a + b)(a - b){% em %}) _must_ be zero because one of the factors will be zero (the {% m %}(a - b){% em %} bit) which in turn means that the left hand side ({% m %}a^2 - b^2{% em %}) _must_ be zero too.  Furthermore, this means that {% m %}a^2 = b^2{% em %} when {% m %}a = b{% em %}.  
 
-Not only this, the other bit of our possible starting factor works in a similar way. If {% m %}a + b = 0{% em %} (the other factor on the right hand side) then {% m %}a^2 = b^2{% em %} (remember squaring a negative makes it positive - here {% m %}a = -b{% em %}.)
+Not only this, the other bit of our possible starting factor works in a similar way. If {% m %}a + b = 0{% em %} (the other factor on the right hand side) then {% m %}a^2 = b^2{% em %} (remember squaring a negative makes it positive. E.g. here {% m %}a = -b{% em %}.)
 
 This is awesome.  We've found a tiny little side door (the when {% m %}a = b{% em %} the result is zero one) that is open just a crack, and by forcing a little wedge into it (playing this {% m %}a = b{% em %} across both sides of the _Difference of Squares_) we've found a truism; a first rung on a ladder to the solution as it where.
 
@@ -66,6 +66,7 @@ OR
 Asides aside, why is this relevant?  Well, Gelfand is drawing our attention to the fact that when factoring a polynomial, it helps to see when it has a zero value.  But why is that useful? Because as we've seen more than once before, if you have a single factor of zero, then the outcome of everything will be zero and this then gives us one of our factors.  Let's try it and see what happens.  But we'll pull out these tricks explicitly just before we move to that.
 
 ## Tricks Arising
+
 ### When Factoring, Find a Simple Case
 We got here by trying to see the wood for the trees, and as in many other circumstances on our journey, finding a simple case of something frequently helps, just like it did above.
  
@@ -83,7 +84,7 @@ Let's try. Starting from the beginning again
 
 {% math %} a^3 - b^3 = {% endmath %}
 
-You quickly remember (especially if you sneak a peek at Gelfand's solution) that we can't easily jump to the line with {% m %}(a - b){% em %} in it.  It makes sense if you think of what we've done previously, and also our reason for doing this, to facilitate the restoration of annihilated terms.  Therefore
+You quickly remember{% sidenote 'sn-id-whatever' "Especially if you sneak a peek at Gelfand's solution." %} that we can't easily jump to the line with {% m %}(a - b){% em %} in it.  It makes sense if you think of what we've done previously, and also our reason for doing this, to facilitate the restoration of annihilated terms.  Therefore
 
 {% math %} = a^3 - a^2b + a^2b - ab^2 + ab^2 - b^3 = {% endmath %}
 
@@ -98,7 +99,7 @@ We start with addition this time
 
 {% math %} a^3 + b^3 = {% endmath %}
 
-Now we know our factor will be {% m %}(a + b){% em %}, and it seems a good deal of the rest will stay the same as Problem 113; as indeed it does.  (Gelfand points out just this - we can get here from the previous example by substituting {% m %}-b{% em %} for the previous {% m %}b{% em %}.)
+Now we know our factor will be {% m %}(a + b){% em %}, and it seems a good deal of the rest will stay the same as Problem 113; as indeed it does.  (Gelfand points out just this. We can get here from the previous example by substituting {% m %}-b{% em %} for the previous {% m %}b{% em %}.)
 
 {% math %} = a^3 + a^2b - a^2b + ab^2 - ab^2 + b^3 = {% endmath %}
 
@@ -111,7 +112,7 @@ Again I've kept all the individual micro-steps evident, if only for my own clari
 ### Gelfand Problems 115 and 116 (a) and 116 (b)
 We've now slid into Gelfand spot-the-pattern territory, and there is indeed a pattern.
 
-First up we're back at a to the power of something minus {% m %}b{% em %} to the power of the same thing.  Here we have a a worked example, which I'm going to do too.  Here Gelfand has acquiesced and already put in the extra step for our benefit.
+First up we're back at {% m %}a{% em %} to the power of {% m %}something{% em %} minus {% m %}b{% em %} to the power of {% m %}the same thing{% em %}.  Here we have a a worked example, which I'm going to do too.  Gelfand has acquiesced and already put in the extra step for our benefit.
 
 {% math %}a^4 - b^4 = {% endmath %}
 
@@ -181,7 +182,9 @@ This might have moved a little fast, so pause here if you didn't _entirely_ foll
 ## Getting Cleverer with What We Know
 {% newthought "Remember a minute ago" %} I suggested that our solution to Problem 116(b) seemed a little long-winded?  Now we get to the point where Gelfand is going to agree with us, but he does it with {% m %}a^2 - b^2{% em %} and {% m %}a^4 - b^4{% em %}.  
 
-"Doesn't one look like a higher power of the other?" he whispers to us.  And he's right.  Let's not just copy him though, and instead apply the same method to our {% m %}a^5 - b^5{% em %} and {% m %}a^{10} - b^{10}{% em %} problem instead.
+> "Doesn't one look like a higher power of the other?" 
+
+he whispers to us.  And he's right.  Let's not just copy him though, and instead apply the same method to our {% m %}a^5 - b^5{% em %} and {% m %}a^{10} - b^{10}{% em %} problem instead.
 
 {% math %}a^{10} - b^{10}{% endmath %}
 
@@ -202,11 +205,9 @@ We could even keep going if we invoked our learnings from Problem 114, but we'll
 This is all working out very nicely. So where next?
 
 ## Cheating(ish) with Square Roots and beyond
-{% newthought "That's almost it for this chunk," %} but before we close, there's one more thing to consider.  And this is the first time we're going to encounter roots of the square kind and beyond.  
+{% newthought "That's almost it for this chunk," %} but before we close, there's one more thing to consider.{% sidenote 'sn-id-whatever' "This is also the first time we're going to encounter roots of the square kind and beyond." %}
 
-Note: to help you avoid a future trip-hazard, it's worth pointing out that the term root is overloaded somewhat in Maths, and that at this point we simple mean the ones you're most likely aware of - the roots of numbers, which when multiplied by themselves a number of times give the number that was rooted.  
-
-(If you want to look ahead to a little discussion of the whole troublesome area, jumpt ahead - just for a second to [Aside 2: Roots, Roots and More Roots](https://andrewharmellaw.github.io/2017/04/24/gelfands-algebra-aside-2-roots-roots-and-more-roots))
+Note: to help you avoid a future trip-hazard, it's worth pointing out that the term "root" is overloaded somewhat in Maths, and that at this point we simply mean the ones you're most likely aware of - the roots of numbers, which when multiplied by themselves a number of times give the number that was rooted.{% sidenote 'sn-id-whatever' "If you want to look ahead to a little discussion of the whole troublesome area, jumpt ahead - just for a second to [Aside 2: Roots, Roots and More Roots](https://andrewharmellaw.github.io/2017/04/24/gelfands-algebra-aside-2-roots-roots-and-more-roots)." %}
 
 With this cleared up, let's tackle Problem 117 which is going to get our mind in gear for what is to come.  We start as follows
 
@@ -240,7 +241,7 @@ Now that trick was pretty elegant, and it allowed us to get to something which w
 
 Here we're learning how to use our funamental rules of powers knowledge (from [Chunk 5](https://andrewharmellaw.github.io/2016/12/10/gelfands-algebra-chunk-5-powers)) to allow us to spot a way to massage things into our difference-of-squares again.
 
-Here we need to convert {% m %}3b^2{% em %} into a "perfect" square. (That's something which is squared to you and I, at this point anyway.)  It might sound a trifle complicated, but really it's a series of incredibly simple steps.  The aim is to square root everything, and then square it all again.  To do that you need to split things up a bit and remember that the square root of a value squared is simply the value itself. 
+Here we need to convert {% m %}3b^2{% em %} into a "perfect" square.{% sidenote 'sn-id-whatever' "That's something which is squared to you and I, at this point anyway." %}  It might sound a trifle complicated, but really it's a series of incredibly simple steps.  The aim is to square root everything, and then square it all again.  To do that you need to split things up a bit and remember that the square root of a value squared is simply the value itself. 
 
 I'm going to go s-u-p-e-r s-l-o-w on this one just to check you're following.
 
@@ -278,7 +279,7 @@ Spot the _Square of a Sum_?  Great, lets use it.
 
 {% math %} = (a + b)^2 - c^2 = {% endmath %}
 
-At this point I felt super-satisfied with myself that I'd spotted the square-of-a-sum and stopped.  But I'd missed one more pattern - a difference-of-squares.  Let's apply that too.
+At this point I felt super-satisfied with myself that I'd spotted the _Square of a Sum_ and stopped.  But I'd missed one more pattern - a _Difference of Squares_.  Let's apply that too.
 
 {% math %} = (a + b - c)(a + b + c){% endmath %}
 
@@ -302,14 +303,14 @@ And from there we can apply _Difference of Squares_
 
 {% math %} = ((a + 2b) - b)((a + 2b) + b){% endmath %}
 
-That was simple, but it also feels a little bit like magic.  Maths-super-power magic. A feeling I personally nver felt in high school when I was chipping away (unsuccessfully) at all this.
+That was simple, but it also feels a little bit like magic.  Maths-super-power magic.{% sidenote 'sn-id-whatever' "A feeling I personally never felt in high school when I was chipping away (unsuccessfully) at all this." %}
 
 ## Tricks Arising
 
 ### Advanced Pattern Spotting - Plus, Minus 
 Much of our new super-powers are based on our getting to the _Difference of Squares_ or _Square of a Sum_.  Which one?  Look at the signs of the operations ({% m %}+{% em %} or {% m %}-{% em %}) between your terms.  These will give you a clue.
 
-Also note, you might spot the pattern in _a part_ of your current expression.  If you do, its fine to work on that part, and forget about the other bit for a minute until you are ready to return to it. (But don't forget to return.)
+Also note, you might spot the pattern in _a part_ of your current expression.  If you do, its fine to work on that part, and forget about the other bit for a minute until you are ready to return to it.{% sidenote 'sn-id-whatever' "But don't forget to return." %}
 
 ### Need a Square? Pull Apart Your Powers
 Remember {% m %}a^{10} = (a^5)^2{% em %} - voila! A square!
@@ -333,10 +334,10 @@ Sometimes it's a little bit of a struggle to get your square, but you can still 
 If your co-efficient is not {% m %}1{% em %}, then rooting something can seem a little unclear.  But it's not hard, there are just some additional intermediate steps which you need to take which are the ones I outlined when solving Problem 118(b).  I'll not repeat myself here.
 
 ### Don't Stop Until You Have To
-This is more of a tip than a trick, but it also plays to what you'll see in Durham is you've been reading along with him too.  Remembering that there are almost always _many_ ways to factor something, with many intermediate steps and many possible results, how do you know when to stop?  When _you_ can go no further, that's when.  This might be because you're done, or you have no more tricks up your sleeve (remember we're not done with this topic yet - there is one more Chunk to come).  Always make sure you're not just stopping because you feel clever at the step you just took (see my write-up of Problem 118(c) above) and gave yourself a break while you patted yourself on the back.  That would be foolish.
+This is more of a tip than a trick, but it also plays to what you'll see in Durham is you've been reading along with him too.  Remembering that there are almost always _many_ ways to factor something, with many intermediate steps and many possible results, how do you know when to stop?  When _you_ can go no further, that's when.  This might be because you're done, or you have no more tricks up your sleeve.{% sidenote 'sn-id-whatever' "Remember we're not done with this topic yet - there is one more Chunk to come." %}  Always make sure you're not just stopping because you feel clever at the step you just took{% sidenote 'sn-id-whatever' "See my write-up of Problem 118(c) above." %} and gave yourself a break while you patted yourself on the back.  That would be foolish.
 
 ## What's Left?
-At this point in our factoring journey, it feels like we've come a long way.) Is there anything left?  Gelfand has one more chunk up his sleeve for us.  And that's the next post.
+At this point in our factoring journey, it feels like we've come a long way. Is there anything left?  Gelfand has one more chunk up his sleeve for us.  And that's the next post.
 
 ## Terminology
  * [Root of a Number](http://www.mathopenref.com/root.html) (from MathOpenRef.com)
