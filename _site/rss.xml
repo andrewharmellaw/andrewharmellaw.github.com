@@ -5,8 +5,8 @@
         <description>Maths from the Ground Up - Andrew Harmel-Law</description>
         <link>http://andrewharmellaw.github.io</link>
         <atom:link href="http://andrewharmellaw.github.io" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Wed, 23 Aug 2017 06:14:14 +0100</lastBuildDate>
-        <pubDate>Wed, 23 Aug 2017 06:14:14 +0100</pubDate>
+        <lastBuildDate>Wed, 23 Aug 2017 06:31:07 +0100</lastBuildDate>
+        <pubDate>Wed, 23 Aug 2017 06:31:07 +0100</pubDate>
         <ttl>60</ttl>
 
 
@@ -2854,190 +2854,193 @@ a - b &lt; 0 %]]&gt;&lt;/script&gt;
                 <title>Gelfand: Chunk 12 - The Hard Ones</title>
                 <description>
 &lt;h2 id=&quot;something-fails-then-something-new-comes-along&quot;&gt;Something Fails. Then Something New Comes Along&lt;/h2&gt;
-&lt;p&gt;(And by “comes along” I mean Gelfand gifts us another trick-nugget.)&lt;/p&gt;
+&lt;p&gt;(&lt;span class=&quot;newthought&quot;&gt;And by “comes along” I mean Gelfand gifts us another trick-nugget.&lt;/span&gt; )&lt;/p&gt;
 
-&lt;p&gt;In Problem 119, Gelfand asks us to factor $a^4 + b^4$.  It looks simple enough.  But it’s not.  Spot the ‘$+$’.  That, plus the pesky even-ness of the powers mean our seemingly all-conquering tricks have encountered a crack in their armour.&lt;/p&gt;
+&lt;p&gt;In Problem 119, Gelfand asks us to factor &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a^4 + b^4&lt;/script&gt;&lt;/span&gt;.  It looks simple enough.  But it’s not.  Spot the ‘&lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;+&lt;/script&gt;&lt;/span&gt;’.  That, plus the pesky even-ness of the powers mean our seemingly all-conquering tricks have encountered a crack in their armour.&lt;/p&gt;
 
-&lt;p&gt;But let’s pretend for a minute that we didn’t know this. What would we have tried to do (and failed?). Probably something like the following which takes inspiration from our workings in the &lt;a href=&quot;https://andrewharmellaw.github.io/2017/01/20/gelfands-algebra-chunk-11-factoring-to-zero&quot;&gt;previous chunk - Factoring to Zero&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;But let’s pretend for a minute that we didn’t know this. What would we have tried to do.&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;And failed? &lt;/span&gt; Probably something like the following which takes inspiration from our workings in the &lt;a href=&quot;https://andrewharmellaw.github.io/2017/01/20/gelfands-algebra-chunk-11-factoring-to-zero&quot;&gt;previous chunk - Factoring to Zero&lt;/a&gt;.&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;a^4 + b^4 =&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;a^4 + b^4 = &lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;= a^4 + a^3b - a^3b + a^2b^2 - a^2b^2 + ab^3 - ab^3 - b^4 =&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = a^4 + a^3b - a^3b + a^2b^2 - a^2b^2 + ab^3 - ab^3 - b^4 = &lt;/script&gt;&lt;/div&gt;
 
-&lt;p&gt;That first bit works; now the next step - pulling out the factor $(a + b)$.  We might start by copying the line straight from the $a^4 - b^4$ example we’re following which gives us&lt;/p&gt;
+&lt;p&gt;That first bit works; now the next step: pulling out the factor &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;(a + b)&lt;/script&gt;&lt;/span&gt;.  We might start by copying the line straight from the &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a^4 - b^4&lt;/script&gt;&lt;/span&gt; example we’re following which gives us&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;= a^3(a + b) + a^2b(a + b) + ab^2(a + b) + b^3(a + b)  =&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = a^3(a + b) + a^2b(a + b) + ab^2(a + b) + b^3(a + b)  = &lt;/script&gt;&lt;/div&gt;
 
-&lt;p&gt;We know this is wrong, because we lifted it from $a^4 - b^4$, but how do we make it right? We know we need to get our negatively-signed terms which we un-annihilated from somewhere.  When we were starting with powers of three, this was easy. We would have had the following, with the middle term negative&lt;/p&gt;
+&lt;p&gt;We know this is wrong, because we lifted it from &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a^4 - b^4&lt;/script&gt;&lt;/span&gt;, but how do we make it right? We know we need to get our negatively-signed terms which we un-annihilated from somewhere.  When we were starting with powers of three, this was easy. We would have had the following, with the middle term negative&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;a^2(a + b) - ab(a + b) + b^2(a + b)&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;a^2(a + b) - ab(a + b) + b^2(a + b)&lt;/script&gt;&lt;/div&gt;
 
-&lt;p&gt;But here we have two terms, $a^2b(a + b)$ and $ab^2(a + b)$ to deal with.  Do we make the first one negative and leave the other?  What happens then?&lt;/p&gt;
+&lt;p&gt;But here we have two terms, &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a^2b(a + b)&lt;/script&gt;&lt;/span&gt; and &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;ab^2(a + b)&lt;/script&gt;&lt;/span&gt; to deal with.  Do we make the first one negative and leave the other?  What happens then?&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;= a^3(a + b) - a^2b(a + b) + ab^2(a + b) + b^3(a + b)  =&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = a^3(a + b) - a^2b(a + b) + ab^2(a + b) + b^3(a + b)  = &lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;= a^4 + a^3b - a^3b - a^2b^2 + a^2b^2 + ab^3 + ab^3 + b^4 =&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = a^4 + a^3b - a^3b - a^2b^2 + a^2b^2 + ab^3 + ab^3 + b^4 = &lt;/script&gt;&lt;/div&gt;
 
-&lt;p&gt;Hmmm, that’s &lt;em&gt;almost&lt;/em&gt; right, but we have two positive $ab^3$s.  That’s bad.&lt;/p&gt;
+&lt;p&gt;Hmmm, that’s &lt;em&gt;almost&lt;/em&gt; right, but we have two positive &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;ab^3&lt;/script&gt;&lt;/span&gt;s.  That’s bad.&lt;/p&gt;
 
-&lt;p&gt;So what happens if we make &lt;em&gt;both&lt;/em&gt; middle-terms negative? (Making the second middle term negative while leaving the first positive gives us nothing new.)&lt;/p&gt;
+&lt;p&gt;So what happens if we make &lt;em&gt;both&lt;/em&gt; middle-terms negative?&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Making the second middle term negative while leaving the first positive gives us nothing new. &lt;/span&gt;&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;= a^3(a + b) - a^2b(a + b) - ab^2(a + b) + b^3(a + b)  =&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = a^3(a + b) - a^2b(a + b) - ab^2(a + b) + b^3(a + b)  = &lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;= a^4 + a^3b - a^3b - a^2b^2 - a^2b^2 - ab^3 + ab^3 + b^4 =&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = a^4 + a^3b - a^3b - a^2b^2 - a^2b^2 - ab^3 + ab^3 + b^4 = &lt;/script&gt;&lt;/div&gt;
 
-&lt;p&gt;That solves our $ab^3$ problem, but now we have two negative $a^2b^2$s.  That sucks.  Both options failed us. It seems we’re screwed.&lt;/p&gt;
+&lt;p&gt;That solves our &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;ab^3&lt;/script&gt;&lt;/span&gt; problem, but now we have two negative &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a^2b^2&lt;/script&gt;&lt;/span&gt;s.  That sucks.  Both options failed us. It seems we’re screwed.&lt;/p&gt;
 
 &lt;p&gt;But before we get pulled into the Sough of Despond, let’s see if we can pull any good from this.&lt;/p&gt;
 
 &lt;h2 id=&quot;trick-clarifications-arising&quot;&gt;Trick Clarifications Arising&lt;/h2&gt;
-&lt;p&gt;### When Factoring with &lt;em&gt;Odd Powers&lt;/em&gt; Ask “What Gives a Zero Result?”
-It turns out that to use the “Ask ‘What Gives a Zero Result’” trick - the one which until now had felt pretty generally-awesome - you need to be working with an &lt;em&gt;odd&lt;/em&gt; power, because that gives you an odd number of terms to work with at the key step.  If you’re working with even powers, you’re out of luck as you can’t get the positives and negatives to match up.&lt;/p&gt;
 
-&lt;p&gt;But what about the other power-move Gelfand showed us in Problem 115: The one where $(a^4 - b^4) = (a - b)(a + b)(a^2 + b^2)$?&lt;/p&gt;
+&lt;h3 id=&quot;when-factoring-with-odd-powers-ask-what-gives-a-zero-result&quot;&gt;When Factoring with &lt;em&gt;Odd Powers&lt;/em&gt; Ask “What Gives a Zero Result?”&lt;/h3&gt;
+&lt;p&gt;It turns out that to use the “Ask ‘What Gives a Zero Result’” trick; the one which until now had felt pretty generally-awesome; you need to be working with an &lt;em&gt;odd&lt;/em&gt; power, because that gives you an odd number of terms to work with at the key step.  If you’re working with even powers, you’re out of luck as you can’t get the positives and negatives to match up.&lt;/p&gt;
 
-&lt;p&gt;That’s a nice option of a first step for us (albeit with the wrong sign as the starting point) but even if we solved that, we would still get left with $(a^2 + b^2)$ which feels like we should be able to factor it further.  Hmmm.&lt;/p&gt;
+&lt;p&gt;But what about the other power-move Gelfand showed us in Problem 115: The one where&lt;/p&gt;
 
-&lt;p&gt;But wait, we’re jumping ahead because Gelfand is about to get round to this after giving us a hint to solve our problem - trying $2a^2b^2$.  Let’s see what happens&lt;/p&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;(a^4 - b^4) = (a - b)(a + b)(a^2 + b^2)&lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;a^4 + b^4 =&lt;/script&gt;
+&lt;p&gt;That’s a nice option of a first step for us (albeit with the wrong sign as the starting point) but even if we solved that, we would still get left with &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;(a^2 + b^2)&lt;/script&gt;&lt;/span&gt; which feels like we should be able to factor it further.  Hmmm.&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;= a^4 + 2a^2b^2 - 2a^2b^2 + b^4 =&lt;/script&gt;
+&lt;p&gt;But wait, we’re jumping ahead because Gelfand is about to get round to this after giving us a hint to solve our problem - trying &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;2a^2b^2&lt;/script&gt;&lt;/span&gt;.  Let’s see what happens&lt;/p&gt;
 
-&lt;p&gt;Can we see a pattern from here?  We could take things back to the difference-of-squares is we can jiggle powers round a little&lt;/p&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;a^4 + b^4 = &lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;= a^4 + 2a^2b^2 + b^4 - 2a^2b^2 =&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = a^4 + 2a^2b^2 - 2a^2b^2 + b^4 = &lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;= (a^2 + b^2)^2 - (\sqrt{2}ab)^2 =&lt;/script&gt;
+&lt;p&gt;Can we see a pattern from here?  We could take things back to the &lt;em&gt;Difference of Squares&lt;/em&gt; is we can jiggle powers round a little&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;= (a^2 + b^2 + \sqrt{2}ab)(a^2 + b^2 - \sqrt{2}ab)&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = a^4 + 2a^2b^2 + b^4 - 2a^2b^2 = &lt;/script&gt;&lt;/div&gt;
+
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = (a^2 + b^2)^2 - (\sqrt{2}ab)^2 = &lt;/script&gt;&lt;/div&gt;
+
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = (a^2 + b^2 + \sqrt{2}ab)(a^2 + b^2 - \sqrt{2}ab) &lt;/script&gt;&lt;/div&gt;
 
 &lt;p&gt;That seems quite nice.&lt;/p&gt;
 
 &lt;h2 id=&quot;more-tricks-arising-taking-stock&quot;&gt;More Tricks Arising (Taking Stock)&lt;/h2&gt;
-&lt;p&gt;Gelfand now wants us to have a checkpoint.  A fuller one than we just had, and then use this to launch off again into something even more generic.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;Gelfand now wants us to have a checkpoint.&lt;/span&gt;   A fuller one than we just had, and then use this to launch off again into something even more generic.&lt;/p&gt;
 
 &lt;p&gt;Let’s do this the only way we know how; by pulling out the Tricks.&lt;/p&gt;
 
-&lt;h3 id=&quot;if-you-have-something-to-a-power-minus-something-else-to-the-same-power-one-factor-will-be-a---b&quot;&gt;If You Have “Something-to-a-Power &lt;em&gt;Minus&lt;/em&gt; Something-Else-to-the-Same-Power One Factor Will Be $(a - b)$&lt;/h3&gt;
-&lt;p&gt;He points out that when we have $a^n - b^b$ (something to a power &lt;em&gt;minus&lt;/em&gt; something else to the same power) for any positive integer $n$ then we can factor it - one of the factors will be $(a - b)$.&lt;/p&gt;
+&lt;h3 id=&quot;if-you-have-something-to-a-power-minus-something-else-to-the-same-power-one-factor-will-be-span8203script-typemathtexa---bscriptspan&quot;&gt;If You Have “Something-to-a-Power &lt;em&gt;Minus&lt;/em&gt; Something-Else-to-the-Same-Power One Factor Will Be &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;(a - b)&lt;/script&gt;&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;He points out that when we have &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a^n - b^b&lt;/script&gt;&lt;/span&gt; (something to a power &lt;em&gt;minus&lt;/em&gt; something else to the same power) for any positive integer &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt;&lt;/span&gt; then we can factor it - one of the factors will be &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;(a - b)&lt;/script&gt;&lt;/span&gt;.&lt;/p&gt;
 
-&lt;h3 id=&quot;if-you-have-something-to-a-power-plus-something-else-to-the-same-power-and-your-power-is-odd-one-factor-will-be-a----b&quot;&gt;If You Have “Something-to-a-Power &lt;em&gt;Plus&lt;/em&gt; Something-Else-to-the-Same-Power, &lt;em&gt;and your Power is Odd&lt;/em&gt;, One Factor Will Be $(a - (-b))$&lt;/h3&gt;
-&lt;p&gt;He goes further, pointing out that when $n$ is &lt;em&gt;odd&lt;/em&gt; and we are working with &lt;em&gt;addition&lt;/em&gt; of powers, then we can just swap in $-b$ for $b$ in the above solution.&lt;/p&gt;
+&lt;h3 id=&quot;if-you-have-something-to-a-power-plus-something-else-to-the-same-power-and-your-power-is-odd-one-factor-will-be-span8203script-typemathtexa----bscriptspan&quot;&gt;If You Have “Something-to-a-Power &lt;em&gt;Plus&lt;/em&gt; Something-Else-to-the-Same-Power, &lt;em&gt;and your Power is Odd&lt;/em&gt;, One Factor Will Be &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;(a - (-b))&lt;/script&gt;&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;He goes further, pointing out that when &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt;&lt;/span&gt; is &lt;em&gt;odd&lt;/em&gt; and we are working with &lt;em&gt;addition&lt;/em&gt; of powers, then we can just swap in &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;-b&lt;/script&gt;&lt;/span&gt; for &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;b&lt;/script&gt;&lt;/span&gt; in the above solution.&lt;/p&gt;
 
-&lt;h3 id=&quot;if-you-have-something-to-a-power-plus-something-else-to-the-same-power-and-your-power-is-even-find-your-squares-and-mix-in-2anbn&quot;&gt;If You Have “Something-to-a-Power &lt;em&gt;Plus&lt;/em&gt; Something-Else-to-the-Same-Power, &lt;em&gt;and your Power is Even&lt;/em&gt;, Find Your Squares and Mix in $2a^nb^n$&lt;/h3&gt;
-&lt;p&gt;And what we just saw in Problem 119 was the gateway to the final element in our general situation: when $n$ is &lt;em&gt;even&lt;/em&gt; and we are working with &lt;em&gt;addition&lt;/em&gt; of one power from the other.  I.e. when it’s $a^2 + b^2$, $a^4 + b^4$, $a^6 + b^6$, etc.&lt;/p&gt;
+&lt;h3 id=&quot;if-you-have-something-to-a-power-plus-something-else-to-the-same-power-and-your-power-is-even-find-your-squares-and-mix-in-span8203script-typemathtex2anbnscriptspan&quot;&gt;If You Have “Something-to-a-Power &lt;em&gt;Plus&lt;/em&gt; Something-Else-to-the-Same-Power, &lt;em&gt;and your Power is Even&lt;/em&gt;, Find Your Squares and Mix in &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;2a^nb^n&lt;/script&gt;&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;And what we just saw in Problem 119 was the gateway to the final element in our general situation: when &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt;&lt;/span&gt; is &lt;em&gt;even&lt;/em&gt; and we are working with &lt;em&gt;addition&lt;/em&gt; of one power from the other.  I.e. when it’s &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a^2 + b^2&lt;/script&gt;&lt;/span&gt;, &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a^4 + b^4&lt;/script&gt;&lt;/span&gt;, &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a^6 + b^6&lt;/script&gt;&lt;/span&gt;, etc.&lt;/p&gt;
 
 &lt;h2 id=&quot;a-decision-tree-for-all-your-power-plus-power-factoring-needs&quot;&gt;A Decision-Tree for All Your Power-Plus-Power Factoring Needs&lt;/h2&gt;
-&lt;p&gt;So we can’t derive a general rule for this. But we can we re-state things in our sibling-problems in a way which means we can use this trick again unchanged?  Yup.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;So we can’t derive a general rule for this.&lt;/span&gt;  But we can we re-state things in our sibling-problems in a way which means we can use this trick again unchanged?  Yup.&lt;/p&gt;
 
-&lt;p&gt;When $n$ is &lt;em&gt;even&lt;/em&gt; and we’re adding powers&lt;/p&gt;
+&lt;p&gt;When &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt;&lt;/span&gt; is &lt;em&gt;even&lt;/em&gt; and we’re adding powers&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;a^{2n} + b^{2n} =&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;a^{2n} + b^{2n} = &lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;= (a^n)^2 + (b^n)^2 =&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = (a^n)^2 + (b^n)^2 = &lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;= (a^n)^2 + 2a^nb^n + (b^n)^2 - 2a^nb^n =&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = (a^n)^2 + 2a^nb^n + (b^n)^2 - 2a^nb^n = &lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;= (a^{2n} + b^{2n})^2 - (\sqrt{2}(a^n)(b^n))^2 =&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = (a^{2n} + b^{2n})^2 - (\sqrt{2}(a^n)(b^n))^2 = &lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;= (a^{2n} + b^{2n} + \sqrt{2}(a^n)(b^n))(a^{2n} + b^{2n} - \sqrt{2}(a^n)(b^n))&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = (a^{2n} + b^{2n} + \sqrt{2}(a^n)(b^n))(a^{2n} + b^{2n} - \sqrt{2}(a^n)(b^n))&lt;/script&gt;&lt;/div&gt;
 
-&lt;p&gt;And when $n$ is &lt;em&gt;odd&lt;/em&gt; and we’re adding powers&lt;/p&gt;
+&lt;p&gt;And when &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt;&lt;/span&gt; is &lt;em&gt;odd&lt;/em&gt; and we’re adding powers&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;a^{2n} + b^{2n} =&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;a^{2n} + b^{2n} = &lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;= (a^n)^2 + (b^n)^2 =&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = (a^n)^2 + (b^n)^2 = &lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;= (a^2 + b^2)((a^2)^{n-1} - (a^2)^{n-2}b^2 + (a^2)^{n-3}(b^2)^2) - ... - (a^2)(b^2)^{n-2} + (b^2)^{n-1})&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = (a^2 + b^2)((a^2)^{n-1} - (a^2)^{n-2}b^2 + (a^2)^{n-3}(b^2)^2) - ... - (a^2)(b^2)^{n-2} + (b^2)^{n-1})&lt;/script&gt;&lt;/div&gt;
 
 &lt;p&gt;Brilliant!&lt;/p&gt;
 
-&lt;p&gt;Now all we’re left with is the slightly-trickier case of $a^2 + b^2$ - but that’s not tricky if we just invent a new type of number (which $\sqrt{-1}$ requires in order to do this) which mathematicians called &lt;em&gt;complex numbers&lt;/em&gt; (but that’s another post).&lt;/p&gt;
+&lt;p&gt;Now all we’re left with is the slightly-trickier case of &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a^2 + b^2&lt;/script&gt;&lt;/span&gt; - but that’s not tricky if we just invent a new type of number (which &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;\sqrt{-1}&lt;/script&gt;&lt;/span&gt; requires in order to do this) which mathematicians called &lt;em&gt;complex numbers&lt;/em&gt; (but that’s another post).&lt;/p&gt;
 
 &lt;p&gt;We’ll just conclude this post with some commentary on the remaining “more difficult problems” with which Gelfand signs off this section.&lt;/p&gt;
 
 &lt;h2 id=&quot;the-more-difficult-problems&quot;&gt;The “More Difficult Problems”&lt;/h2&gt;
-&lt;p&gt;### Problem 122(a)&lt;/p&gt;
 
-&lt;p&gt;Use the previous solution from Problem 119, making $a = x$ and $b = 1$. (Remember, $1 = 1^4 = 1^n$.)&lt;/p&gt;
+&lt;h3 id=&quot;problem-122a&quot;&gt;Problem 122(a)&lt;/h3&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;x^4 + 1 =&lt;/script&gt;
+&lt;p&gt;Use the previous solution from Problem 119, making &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a = x&lt;/script&gt;&lt;/span&gt; and &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;b = 1&lt;/script&gt;&lt;/span&gt;. (Remember, &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;1 = 1^4 = 1^n&lt;/script&gt;&lt;/span&gt;.)&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;= x^4 + 1^4 =&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;x^4 + 1 = &lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;= x^4 + 2a^21^2 + 1^4 - 2a^21^2 =&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = x^4 + 1^4 = &lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;= (x^2 + 1^2)^2 - (\sqrt{2}x \times 1)^2 =&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = x^4 + 2a^21^2 + 1^4 - 2a^21^2 = &lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;= (x^2 + 1 + \sqrt{2}x)(x^2 + 1 - \sqrt{2}x)&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = (x^2 + 1^2)^2 - (\sqrt{2}x \times 1)^2 = &lt;/script&gt;&lt;/div&gt;
+
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = (x^2 + 1 + \sqrt{2}x)(x^2 + 1 - \sqrt{2}x)&lt;/script&gt;&lt;/div&gt;
 
 &lt;h3 id=&quot;problem-122b&quot;&gt;Problem 122(b)&lt;/h3&gt;
 
 &lt;p&gt;First we expand everything so see where we’re at&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;x(y^2 - z^2) + y(z^2 - x^2) + z(x^2 - y^2) =&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;x(y^2 - z^2) + y(z^2 - x^2) + z(x^2 - y^2) = &lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;= xy^2 - xz^2 + yz^2 - yx^2 + zx^2 - zy^2 =&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = xy^2 - xz^2 + yz^2 - yx^2 + zx^2 - zy^2 = &lt;/script&gt;&lt;/div&gt;
 
-&lt;p&gt;Then we group around one of our variables, $x$ seems like as good an option as any&lt;/p&gt;
+&lt;p&gt;Then we group around one of our variables, &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;x&lt;/script&gt;&lt;/span&gt; seems like as good an option as any&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;= (z - y)x^2 + (y^2 - z^2)x + yz^2 - zy^2 =&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = (z - y)x^2 + (y^2 - z^2)x + yz^2 - zy^2 = &lt;/script&gt;&lt;/div&gt;
 
-&lt;p&gt;Now spot the difference of squares in the middle ($(y^2 - z^2)$) which we can factor out&lt;/p&gt;
+&lt;p&gt;Now spot the difference of squares in the middle (&lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;(y^2 - z^2)&lt;/script&gt;&lt;/span&gt;) which we can factor out&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;= (z - y)x^2 + (y + z)(y - z)x + yz^2 - zy^2 =&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = (z - y)x^2 + (y + z)(y - z)x + yz^2 - zy^2 = &lt;/script&gt;&lt;/div&gt;
 
 &lt;p&gt;And then pull out a simple factor from the last two terms&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;= (z - y)x^2 + (y + z)(y - z)x + yz(z - y) =&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = (z - y)x^2 + (y + z)(y - z)x + yz(z - y) = &lt;/script&gt;&lt;/div&gt;
 
-&lt;p&gt;Now we pause. Can we go further?  A common factor of $(z - y)$ is &lt;em&gt;almost&lt;/em&gt; emerging, it’s just that tricksy difference-of-squares which is making life hard.  Can we re-jig things?  We can&lt;/p&gt;
+&lt;p&gt;Now we pause. Can we go further?  A common factor of &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;(z - y)&lt;/script&gt;&lt;/span&gt; is &lt;em&gt;almost&lt;/em&gt; emerging, it’s just that tricksy difference-of-squares which is making life hard.  Can we re-jig things?  We can&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;= (z - y)x^2 - (y + z)(z - y)x + yz(z - y) =&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = (z - y)x^2 - (y + z)(z - y)x + yz(z - y) = &lt;/script&gt;&lt;/div&gt;
 
 &lt;p&gt;Now we can pull out this factor&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;= (z - y)(x^2 - (y + z)x + yz) =&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = (z - y)(x^2 - (y + z)x + yz) = &lt;/script&gt;&lt;/div&gt;
 
-&lt;p&gt;Great. Can we go further?  What about the $(x^2 - (y + z)x + yz)$ itself?&lt;/p&gt;
+&lt;p&gt;Great. Can we go further?  What about the &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;(x^2 - (y + z)x + yz)&lt;/script&gt;&lt;/span&gt; itself?&lt;/p&gt;
 
 &lt;p&gt;We can take this piece on it’s own for a second and see where we can get.  First up we expand the middle term&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;x^2 - (y + z)x + yz =&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; x^2 - (y + z)x + yz = &lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;= x^2 - xy - xz + yz =&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = x^2 - xy - xz + yz = &lt;/script&gt;&lt;/div&gt;
 
 &lt;p&gt;That then looks like a nice and simple factoring around these three variables&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;= (x - y)(x - z)&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = (x - y)(x - z)&lt;/script&gt;&lt;/div&gt;
 
 &lt;p&gt;So we can then put it all back together to get our final answer&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;(z - y)(x - y)(x - z)&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;(z - y)(x - y)(x - z)&lt;/script&gt;&lt;/div&gt;
 
 &lt;p&gt;Beautiful.&lt;/p&gt;
 
 &lt;h3 id=&quot;problem-122c&quot;&gt;Problem 122(c)&lt;/h3&gt;
-
 &lt;p&gt;Use the same approach as we saw working in Problem 111.&lt;/p&gt;
 
 &lt;h3 id=&quot;problem-122d&quot;&gt;Problem 122(d)&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&quot;https://www.scribd.com/document/243387607/Gelfand-Algebra-Solutions&quot;&gt;Durham&lt;/a&gt; thinks this is tough. I agree.  I couldnt find another way to factor it.&lt;/p&gt;
 
 &lt;h3 id=&quot;problem-122e&quot;&gt;Problem 122(e)&lt;/h3&gt;
-&lt;p&gt;Start off by multiplying out $(a + b + c)^3$.  Then looking back to the solution from Problem 122(b) gave some hints as to a possible factor.&lt;/p&gt;
+&lt;p&gt;Start off by multiplying out &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;(a + b + c)^3&lt;/script&gt;&lt;/span&gt;.  Then looking back to the solution from Problem 122(b) gave some hints as to a possible factor.&lt;/p&gt;
 
 &lt;h3 id=&quot;problem-122f&quot;&gt;Problem 122(f)&lt;/h3&gt;
 &lt;p&gt;Two options here which Durham expands on:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;use Pascal’s triangle to multiply out all cubes, then go from there,&lt;/li&gt;
-  &lt;li&gt;use the solution to Problem 114 to start you off.&lt;/li&gt;
+  &lt;li&gt;Use Pascal’s triangle to multiply out all cubes, then go from there,&lt;/li&gt;
+  &lt;li&gt;Use the solution to Problem 114 to start you off.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;meta-trick-there-isnt-always-a-single-simple-trick&quot;&gt;Meta-Trick: There isn’t Always a Single, Simple Trick&lt;/h2&gt;
-&lt;p&gt;We’ve seen it a little before, but with this Chunk, we’re now beginning to confront head on that the fact that the subtleties of numbers and things you can  (and can’t do to them) most usually have a set of tricks applied to their solving rather than just one. What is more, the applicability of those tricks depends upon things like whteher a given key number is odd or even, and / or there is positive / addition vs negative / subtraction.  And don’t forget zero - the o-so-special case.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;We’ve seen it a little before,&lt;/span&gt;  but with this Chunk, we’re now beginning to confront head on that the fact that the subtleties of numbers and things you can  (and can’t do to them) most usually have a set of tricks applied to their solving rather than just one. What is more, the applicability of those tricks depends upon things like whteher a given key number is odd or even, and / or there is positive / addition vs negative / subtraction.  And don’t forget zero - the o-so-special case.&lt;/p&gt;
 
 &lt;p&gt;This all means you frequently need to have a second level of awareness in your pattern-spotter and trick-matcher which allows you take this into account.&lt;/p&gt;
 
