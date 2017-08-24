@@ -5,8 +5,8 @@
         <description>Maths from the Ground Up - Andrew Harmel-Law</description>
         <link>http://andrewharmellaw.github.io</link>
         <atom:link href="http://andrewharmellaw.github.io" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Tue, 22 Aug 2017 20:38:10 +0100</lastBuildDate>
-        <pubDate>Tue, 22 Aug 2017 20:38:10 +0100</pubDate>
+        <lastBuildDate>Thu, 24 Aug 2017 08:24:19 +0100</lastBuildDate>
+        <pubDate>Thu, 24 Aug 2017 08:24:19 +0100</pubDate>
         <ttl>60</ttl>
 
 
@@ -2618,61 +2618,61 @@ This powerful concept was snuck in by Gelfand in his further discussions of  Rat
         <item>
                 <title>Gelfand: Aside 2 - Binary? Who Cares?</title>
                 <description>
-&lt;p&gt;There is a section in Gelfand (Section 7, Problems 15 to 24) which covers the Binary Number system.  It kind of comes out of the blue, and while it’s handy to see that all of the tricks you have just seen from the Decimal Number System still apply it’s sometimes hard to see why you should care beyond nothing that both are posiotional and lots of our tricks are based on this rather than on the digits we’re allowed to use.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;There is a section in Gelfand&lt;/span&gt; &lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Section 7, Problems 15 to 24. &lt;/span&gt; which covers the Binary Number system.  It kind of comes out of the blue, and while it’s handy to see that all of the tricks you have just seen from the Decimal Number System still apply it’s sometimes hard to see why you should care beyond nothing that both are posiotional and lots of our tricks are based on this rather than on the digits we’re allowed to use.&lt;/p&gt;
 
 &lt;p&gt;I now care.&lt;/p&gt;
 
-&lt;p&gt;Why? Because I’m reading &lt;a href=&quot;https://www.amazon.co.uk/Annotated-Turing-Through-Historic-Computability/dp/0470229055&quot;&gt;Charles Petzold’s “The Annotated Turing”&lt;/a&gt; which is pretty much a massive (and brilliant) &lt;a href=&quot;https://en.wikipedia.org/wiki/Gloss_(annotation)&quot;&gt;gloss&lt;/a&gt; on Alan Turing’s classic paper &lt;a href=&quot;http://www.turingarchive.org/browse.php/b/12&quot;&gt;“On Computable Numbers, with an Application to the Entscheidungsproblem” (1936)&lt;/a&gt;.  It could be argued that the reason modern computers use binary is down to a decision Turing made.  (See pp. 73 of Petzold for some background.)&lt;/p&gt;
+&lt;p&gt;Why? Because I’m reading &lt;a href=&quot;https://www.amazon.co.uk/Annotated-Turing-Through-Historic-Computability/dp/0470229055&quot;&gt;Charles Petzold’s “The Annotated Turing”&lt;/a&gt; which is pretty much a massive (and brilliant) &lt;a href=&quot;https://en.wikipedia.org/wiki/Gloss_(annotation)&quot;&gt;gloss&lt;/a&gt; on Alan Turing’s classic paper &lt;a href=&quot;http://www.turingarchive.org/browse.php/b/12&quot;&gt;“On Computable Numbers, with an Application to the Entscheidungsproblem” (1936)&lt;/a&gt;.  It could be argued that the reason modern computers use binary is down to a decision Turing made.&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;See pp. 73 of Petzold for some background. &lt;/span&gt;&lt;/p&gt;
 
-&lt;p&gt;Because I didn’t care (and because I thought it was too easy) I didn’t blog some highlights of binary when I passed it.  I’m now going to.&lt;/p&gt;
+&lt;p&gt;Because I didn’t care&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;And because I thought it was too easy &lt;/span&gt; I didn’t blog some highlights of binary when I passed it.  I’m going to make up for that now.&lt;/p&gt;
 
 &lt;h2 id=&quot;visualising-carries-in-binary-addition&quot;&gt;Visualising Carries in Binary Addition&lt;/h2&gt;
-&lt;p&gt;I covered the Addition Algorithm in the decimal system in &lt;a href=&quot;https://andrewharmellaw.github.io/algebra/2016/11/16/gelfands-algebra-chunk-1-fundamentals&quot;&gt;Chunk 1&lt;/a&gt;.  Let’s see it in action in binary, taking the addition from page 101 of Petzold.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;I covered the &lt;em&gt;Addition Algorithm&lt;/em&gt;&lt;/span&gt;  in the decimal system in &lt;a href=&quot;https://andrewharmellaw.github.io/algebra/2016/11/16/gelfands-algebra-chunk-1-fundamentals&quot;&gt;Chunk 1&lt;/a&gt;.  Let’s see it in action in binary, taking the addition from page 101 of Petzold.&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\begin{matrix} \phantom0 \phantom0 \phantom0 \phantom0 \phantom0 \phantom0 \texttt{1} \texttt{0} \texttt{1} \texttt{1} \texttt{1} \\ \phantom0 \phantom0 \phantom0 \phantom0 \phantom0 \texttt{1} \texttt{0} \texttt{1} \texttt{1} \texttt{1} \phantom0 \\ \phantom0 \phantom0 \phantom0 \phantom0 \texttt{1} \texttt{0} \texttt{1} \texttt{1} \texttt{1} \phantom0 \phantom0 \\ \phantom0 \phantom0 \phantom0 \texttt{0} \texttt{0} \texttt{0} \texttt{0} \texttt{0} \phantom0 \phantom0 \phantom0 \\ \texttt{+} \phantom0 \texttt{1} \texttt{0} \texttt{1} \texttt{1} \texttt{1} \phantom0 \phantom0 \phantom0 \phantom0 \\ \texttt{1} \texttt{1} \texttt{1} \texttt{1} \texttt{1} \texttt{1} \phantom0 \phantom0 \phantom0 \\
-\underline{\texttt{1} \texttt{1} \texttt{1} \texttt{1} \texttt{1} \texttt{1} \phantom0 \phantom0 \phantom0 \phantom0 \phantom0 } \\ \texttt{1} \texttt{0} \texttt{0} \texttt{0} \texttt{0} \texttt{1} \texttt{0} \texttt{0} \texttt{0} \texttt{1} \texttt{1} \end{matrix}&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;\begin{matrix} \phantom0 \phantom0 \phantom0 \phantom0 \phantom0 \phantom0 \texttt{1} \texttt{0} \texttt{1} \texttt{1} \texttt{1} \\ \phantom0 \phantom0 \phantom0 \phantom0 \phantom0 \texttt{1} \texttt{0} \texttt{1} \texttt{1} \texttt{1} \phantom0 \\ \phantom0 \phantom0 \phantom0 \phantom0 \texttt{1} \texttt{0} \texttt{1} \texttt{1} \texttt{1} \phantom0 \phantom0 \\ \phantom0 \phantom0 \phantom0 \texttt{0} \texttt{0} \texttt{0} \texttt{0} \texttt{0} \phantom0 \phantom0 \phantom0 \\ \texttt{+} \phantom0 \texttt{1} \texttt{0} \texttt{1} \texttt{1} \texttt{1} \phantom0 \phantom0 \phantom0 \phantom0 \\ \texttt{1} \texttt{1} \texttt{1} \texttt{1} \texttt{1} \texttt{1} \phantom0 \phantom0 \phantom0 \\
+\underline{\texttt{1} \texttt{1} \texttt{1} \texttt{1} \texttt{1} \texttt{1} \phantom0 \phantom0 \phantom0 \phantom0 \phantom0 } \\ \texttt{1} \texttt{0} \texttt{0} \texttt{0} \texttt{0} \texttt{1} \texttt{0} \texttt{0} \texttt{0} \texttt{1} \texttt{1} \end{matrix}&lt;/script&gt;&lt;/div&gt;
 
-&lt;p&gt;Now this is largely a straight copy, but I’ve made two things a little clearer -  I’ve tried to lay the out the columns with a monostpaced font (the non-fixed-width font makes things a little unclear in the book, something which is incredibly rare in Petzold) and I’ve also shown the carries as two extra rows below the line with the $+$ symbol (Petzold doesn’t, he just assumes you can picture them in your head.)&lt;/p&gt;
+&lt;p&gt;Now this is largely a straight copy, but I’ve made two things a little clearer -  I’ve tried to lay the out the columns with a monostpaced font&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;The non-fixed-width font makes things a little unclear in the book, something which is &lt;em&gt;incredibly&lt;/em&gt; rare in Petzold. &lt;/span&gt; and I’ve also shown the carries as two extra rows below the line with the &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;+&lt;/script&gt;&lt;/span&gt; symbol.&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Petzold doesn’t, he just assumes you can picture them in your head. &lt;/span&gt;&lt;/p&gt;
 
 &lt;p&gt;It’s the showing of the carries which I wanted to talk about a little more.  Grokking this was the key step in getting this to stick.  I had real difficulty in getting this as I kept wanting to fall back to decimal thinking.  That’ll confuse you.&lt;/p&gt;
 
 &lt;p&gt;We’ll start with the super-useful table Petzold gives us on page 100.  But we’re going to jig it around a bit and add something - the carries.&lt;/p&gt;
 
-&lt;p&gt;First up, here’s my version of the table (we’re not carrying anything in any of these, as denoted by “Carried Digits” but we might end up with one in our output, as denoted by “Carry”):&lt;/p&gt;
+&lt;p&gt;First up, here’s my version of the table (we’re not carrying anything in any of these, as denoted by “Carried Digits” but we still might end up with one in our output, as denoted by “Carry”):&lt;/p&gt;
 
-&lt;ol&gt;
+&lt;ul&gt;
   &lt;li&gt;First digit: 0, Second Digit: 0, Carried Digit(s): (none), Result: 0, Carry: 0&lt;/li&gt;
   &lt;li&gt;First digit: 0, Second Digit: 1, Carried Digit(s): (none), Result: 1, Carry: 0&lt;/li&gt;
   &lt;li&gt;First digit: 1, Second Digit: 0, Carried Digit(s): (none), Result: 1, Carry: 0&lt;/li&gt;
   &lt;li&gt;First digit: 1, Second Digit: 1, Carried Digit(s): (none), Result: 0, Carry: 1&lt;/li&gt;
-&lt;/ol&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;See the result of the fourth line?  That’s what I want to highlight.  The result for the column is “0”, but we are now also carrying a “1”.  Now let’s see the next five rows of the new table with this carry now being taken into consideration:&lt;/p&gt;
+&lt;p&gt;See the result of the fourth line?  That’s what I want to highlight.  The result for the column is “&lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;0&lt;/script&gt;&lt;/span&gt;”, but we are now also carrying a “&lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;1&lt;/script&gt;&lt;/span&gt;”.  Now let’s see the next five rows of the new table with this carry now being taken into consideration:&lt;/p&gt;
 
-&lt;ol&gt;
+&lt;ul&gt;
   &lt;li&gt;First digit: 0, Second Digit: 0, Carried Digit(s): 1, Result: 1, Carry: 0&lt;/li&gt;
   &lt;li&gt;First digit: 0, Second Digit: 1, Carried Digit(s): 1, Result: 0, Carry: 1&lt;/li&gt;
   &lt;li&gt;First digit: 1, Second Digit: 0, Carried Digit(s): 1, Result: 0, Carry: 1&lt;/li&gt;
   &lt;li&gt;First digit: 1, Second Digit: 1, Carried Digit(s): 1, Result: 1, Carry: 11&lt;/li&gt;
-&lt;/ol&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;It’s all pretty logical as you can see, but I ended up having to pull this out in this form just so I could see the rules in action for myself.  Note that now in all but the fifth line our results are now always in something-to-carry-land.  Our rules are working just like they do when we do decimal addition, but it’s just happening more freuqently as we have less digits to apply per position.&lt;/p&gt;
 
-&lt;p&gt;Also note the fact that in the eighth column we are now carrying &lt;em&gt;two&lt;/em&gt; 1s.  The trick here is to &lt;em&gt;not&lt;/em&gt; let yourself think of them as “eleven”.  They aren’t (obviously - but I kept falling into that pit so I thought you’d benefit from having a reminder too.)&lt;/p&gt;
+&lt;p&gt;Also note the fact that in the eighth column we are now carrying &lt;em&gt;two&lt;/em&gt; &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;1&lt;/script&gt;&lt;/span&gt;s.  The trick here is to &lt;em&gt;not&lt;/em&gt; let yourself think of them as “eleven”.  They aren’t.&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Obviously - but I kept falling into that pit so I thought you’d benefit from having a reminder too. &lt;/span&gt;&lt;/p&gt;
 
 &lt;p&gt;This is great, but what happens when we’re adding more than two digits and a carry?  That’s not very difficult either, and it’s to this point we need to get to feel assured the first addition on page 101 of Petzold is grokked.&lt;/p&gt;
 
 &lt;p&gt;We’re also going to drop the “carried digit(s)” concept now.  Carried digits are just treated like any other additional digits, and that’s the secret to all of this.&lt;/p&gt;
 
-&lt;p&gt;The key to this is that when we have two 1’s to add, we get a 0, and carry a 1, and any more than this, we stil get a 0, but we carry more ones.  When we’re considering the carried 1’s, they are &lt;em&gt;now&lt;/em&gt; treated just like additional digits.  Carried two 1’s? Treat them as 1 and 1 (so if everything else is 0 then you will have a result of 0 and a carry of 1).  Carried three 1’s? Treat them as 1 and 1 and 1, etc. etc.&lt;/p&gt;
+&lt;p&gt;The key to this is that when we have two &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;1&lt;/script&gt;&lt;/span&gt;’s to add, we get a &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;0&lt;/script&gt;&lt;/span&gt;, and carry a &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;1&lt;/script&gt;&lt;/span&gt;, and any more than this, we stil get a &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;0&lt;/script&gt;&lt;/span&gt;, but we carry more ones.  When we’re considering the carried &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;1&lt;/script&gt;&lt;/span&gt;’s, they are &lt;em&gt;now&lt;/em&gt; treated just like additional digits.  Carried two &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;1&lt;/script&gt;&lt;/span&gt;’s? Treat them as &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;1&lt;/script&gt;&lt;/span&gt; and &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;1&lt;/script&gt;&lt;/span&gt; (so if everything else is &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;0&lt;/script&gt;&lt;/span&gt; then you will have a result of &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;0&lt;/script&gt;&lt;/span&gt; and a carry of &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;1&lt;/script&gt;&lt;/span&gt;).  Carried three &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;1&lt;/script&gt;&lt;/span&gt;’s? Treat them as &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;1&lt;/script&gt;&lt;/span&gt; and &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;1&lt;/script&gt;&lt;/span&gt; and &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;1&lt;/script&gt;&lt;/span&gt;, etc. etc.&lt;/p&gt;
 
-&lt;p&gt;So what happens when you use this and work through the addition in Petzold?  Well, the worst you have to deal with is a bunch of “11” carries, which at the end result in the far-left 1 in the answer.&lt;/p&gt;
+&lt;p&gt;So what happens when you use this and work through the addition in Petzold?  Well, the worst you have to deal with is a bunch of “&lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;11&lt;/script&gt;&lt;/span&gt;” carries, which at the end result in the far-left &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;1&lt;/script&gt;&lt;/span&gt; in the answer.&lt;/p&gt;
 
 &lt;h2 id=&quot;the-multiplication-algorithm-in-binary&quot;&gt;The Multiplication Algorithm in Binary&lt;/h2&gt;
-&lt;p&gt;So what about multiplication.  I’ve actually been lying this whole post - the top sum on page 101 of Petzold is actually the second step consequent to us using the standard “Multiplication Algorithm for Multi-Digit Factors” (see &lt;a href=&quot;https://andrewharmellaw.github.io/algebra/2016/11/16/gelfands-algebra-chunk-1-fundamentals&quot;&gt;my previoulsy-mentioned first Chunk post&lt;/a&gt; for more.)  To get to this addition, we just applied the same rules as we would have in decimal-land to the multiplicands.  It’s actually super-easy in binary land because we’re either just left-shifting (when we see a 1) or having a row of zeros (when we see a 0).  It’s so simple in fact I’ll just leave you to look at Petzold.  There’s little point in my repeating it here.&lt;/p&gt;
+&lt;p&gt;So what about multiplication?  I’ve actually been lying this whole post - the top sum on page 101 of Petzold is actually the second step consequent to us using the standard “Multiplication Algorithm for Multi-Digit Factors” (see &lt;a href=&quot;https://andrewharmellaw.github.io/algebra/2016/11/16/gelfands-algebra-chunk-1-fundamentals&quot;&gt;my previoulsy-mentioned first Chunk post&lt;/a&gt; for more.)  To get to this addition, we just applied the same rules as we would have in decimal-land to the multiplicands.  It’s actually super-easy in binary land because we’re either just left-shifting (when we see a 1) or having a row of zeros (when we see a 0).  It’s so simple in fact I’ll just leave you to look at Petzold.  There’s little point in my repeating it here.&lt;/p&gt;
 
 &lt;h2 id=&quot;conclusion-of-sorts&quot;&gt;Conclusion (of Sorts)&lt;/h2&gt;
-&lt;p&gt;“Left-shifting”?  Doesnt that sound like a feature of primitives that gets mentioned (and ignored if you’re me) whenever you read about support for the more primitive data types and their manipulation in programming languages?  Yup, I think so.  But I’ll save that for another post.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;“Left-shifting”?&lt;/span&gt;   Doesn’t that sound like a feature of primitives in many programming languages&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;E.g. Java &lt;/span&gt; that gets mentioned (and ignored if you’re me) whenever you read about support for the more primitive data types and their manipulation?  Yup, I think so.  But I’ll save that for another post.&lt;/p&gt;
 </description>
                 <link>http://andrewharmellaw.github.io/2017/02/20/gelfands-algebra-aside-2-binary-who-cares</link>
                 <guid>http://andrewharmellaw.github.io/2017/02/20/gelfands-algebra-aside-2-binary-who-cares</guid>
@@ -2682,63 +2682,59 @@ This powerful concept was snuck in by Gelfand in his further discussions of  Rat
         <item>
                 <title>Gelfand: Aside 1 - Proofs!?!?!</title>
                 <description>
-&lt;p&gt;The last few problems in the Factorials section in Gelfand asks you to “prove” things.  I wasn’t sure how to approach this.  Up until now I’ve just been “solving”.  This post catalogs the process of my working this out.&lt;/p&gt;
-
-&lt;p&gt;(Note: I’m certain that the philosophy of proofs is far more complex than I am about to cover here. In fact I have another book to read at some point in the future which links Haskell, Mathematics, and the construction and use of Proofs.  It all means I’ll probably post again at some point in the future on this topic.)&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;In the last few problems in the Factorials section of Gelfand&lt;/span&gt;  he asks you to “prove” things.  I wasn’t sure how to approach this.  Up until now I’ve just been “solving”.  This post catalogs the process of my working this out.&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;I’m certain that the philosophy of proofs is far more complex than I am about to cover here. In fact I have another book to read at some point in the future which links Haskell, Mathematics, and the construction and use of Proofs.  It all means I’ll probably post again at some point in the future on this topic. &lt;/span&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;a-first-stab-at-a-proof&quot;&gt;A First Stab at a Proof&lt;/h2&gt;
-&lt;p&gt;Let’s dive straight into the first problem - Problem 123.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;Let’s dive straight into the first problem&lt;/span&gt;  - Problem 123.&lt;/p&gt;
 
-&lt;p&gt;Prove that if $a, b &amp;gt; 1$ then $a + b &amp;lt; 1 + ab$.&lt;/p&gt;
+&lt;p&gt;Prove that if &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a, b \gt 1&lt;/script&gt;&lt;/span&gt; then &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a + b \lt 1 + ab&lt;/script&gt;&lt;/span&gt;.&lt;/p&gt;
 
-&lt;p&gt;Now on it’s own, I initially had no idea how to approach this. But we get a clue.  Gelfand suggests we “factor $(1 + ab) - (a + b)$”.  You can see in here that the component parts have clearly come from the original formula which we need to prove.&lt;/p&gt;
+&lt;p&gt;Now on it’s own, I initially had no idea how to approach this. But we get a clue.  Gelfand suggests we “factor &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;(1 + ab) - (a + b)&lt;/script&gt;&lt;/span&gt;”.  You can see in here that the component parts have clearly come from the original formula which we need to prove.&lt;/p&gt;
 
 &lt;p&gt;Let’s factor using our new-found skills.&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;(1 + ab) - (a + b) =&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;(1 + ab) - (a + b) = &lt;/script&gt;&lt;/div&gt;
 
 &lt;p&gt;Hmmm, not like anything we’ve seen before really. And not much to do. Perhaps if we simply remove the brackets&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;= 1 + ab - a - b =&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = 1 + ab - a - b = &lt;/script&gt;&lt;/div&gt;
 
 &lt;p&gt;and re-arrange&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;= ab - a - b + 1 =&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = ab - a - b + 1 = &lt;/script&gt;&lt;/div&gt;
 
-&lt;p&gt;Does that look a little like a kind-of-polynomial? (I.e. like $x^2 - 2x + 1$ - I was happy to have a go to this point without reference to &lt;a href=&quot;https://www.scribd.com/document/243387607/Gelfand-Algebra-Solutions&quot;&gt;Durham&lt;/a&gt;).  Let’s try it and see.  If it is, then we could do some nice factorisation on it, but with $a$ as our first $x$ and $b$ as our second.  That gives us this&lt;/p&gt;
+&lt;p&gt;Does that look a little like a kind-of-polynomial? (I.e. like &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;x^2 - 2x + 1&lt;/script&gt;&lt;/span&gt; - I was happy to have a go to this point without reference to &lt;a href=&quot;https://www.scribd.com/document/243387607/Gelfand-Algebra-Solutions&quot;&gt;Durham&lt;/a&gt;).  Let’s try it and see.  If it is, then we could do some nice factorisation on it, but with &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a&lt;/script&gt;&lt;/span&gt; as our first &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;x&lt;/script&gt;&lt;/span&gt; and &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;b&lt;/script&gt;&lt;/span&gt; as our second.  That gives us this&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;= (a - 1)(b - 1)&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = (a - 1)(b - 1) &lt;/script&gt;&lt;/div&gt;
 
 &lt;p&gt;Is that right?  Sometimes I doubt myself. Let’s quickly multiply it back out to check.&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;ab - a - b - 1&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; ab - a - b - 1&lt;/script&gt;&lt;/div&gt;
 
 &lt;p&gt;Awesome!&lt;/p&gt;
 
-&lt;p&gt;Now what do we need to do?  Well, the problem requires that we prove that when $a$ and $b$ are both greater than one, then $a + b &amp;lt; 1 + ab$.  If we look at our factorisation, we can easily see that when $a$ and $b$ are greater than one we get a positive result.  If either or both are $&amp;lt;=$ one then we get a zero or negative result.  That’s the point of the factorisation I deduce.&lt;/p&gt;
+&lt;p&gt;Now what do we need to do?  Well, the problem requires that we prove that when &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a&lt;/script&gt;&lt;/span&gt; and &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;b&lt;/script&gt;&lt;/span&gt; are both greater than one, then &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a + b \lt 1 + ab&lt;/script&gt;&lt;/span&gt;.  If we look at our factorisation, we can easily see that when &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a&lt;/script&gt;&lt;/span&gt; and &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;b&lt;/script&gt;&lt;/span&gt; are greater than one we get a positive result.  If either or both are less than or equal to one then we get a zero or negative result.  That’s the point of the factorisation I deduce.&lt;/p&gt;
 
 &lt;p&gt;So, at this point, it &lt;em&gt;kind of&lt;/em&gt; felt like we’ve proved this, but the issue here is still the leap made at the start - how were we to know that doing such a factorisation would lead us to this factorisation and therefore to the proof?  Let’s look back at the problem and the thing to factor.&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
-a + b &lt; 1 + ab %]]&gt;&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; a + b &lt; 1 + ab &lt;/script&gt;&lt;/div&gt;
 
 &lt;p&gt;The first step of the transformation from this statement into the expression we want to factor is the simple addition of brackets:&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
-= (a + b) &lt; (1 + ab) = %]]&gt;&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = (a + b) &lt; (1 + ab) = &lt;/script&gt;&lt;/div&gt;
 
 &lt;p&gt;And subsequent to this there is the effective moving of the right hand side across to the left hand side (with corresponding change in sign from positive to negative.)&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\rightarrow (a + b) - (1 + ab)&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; \rightarrow (a + b) - (1 + ab) &lt;/script&gt;&lt;/div&gt;
 
-&lt;p&gt;I pondered this next bit for a while.  (In fact I stopped writing this, went off and did other things, and have now come back 24 hours later.)  (Note, I dropped the “$ &amp;gt; 0$” bit as it no longer served any purpose for us. Nigglingly, when we bring it back later in this section, the direction of the symbol changes, but I have looked at both versions every which way and both seem valid and correct in the circumstances they are being used.  To reconcile this in my head I had to remember there will be times when $(a + b) - (1 + ab)$ would be equalt to zero, times when it would be less than zero, and times when it would be greater than zero - in each case based entirely on the input values for $a$ and $b$.)&lt;/p&gt;
+&lt;p&gt;I pondered this next bit for a while.  (In fact I stopped writing this, went off and did other things, and have now come back 24 hours later.)  (Note, I dropped the “&lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt; \gt 0&lt;/script&gt;&lt;/span&gt;” bit as it no longer served any purpose for us. Nigglingly, when we bring it back later in this section, the direction of the symbol changes, but I have looked at both versions every which way and both seem valid and correct in the circumstances they are being used.  To reconcile this in my head I had to remember there will be times when &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;(a + b) - (1 + ab)&lt;/script&gt;&lt;/span&gt; would be equalt to zero, times when it would be less than zero, and times when it would be greater than zero - in each case based entirely on the input values for &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a&lt;/script&gt;&lt;/span&gt; and &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;b&lt;/script&gt;&lt;/span&gt;.)&lt;/p&gt;
 
 &lt;p&gt;Moving on from this very difference, there are two significant elements in our question which we need to acknowledge.&lt;/p&gt;
 
-&lt;ol&gt;
-  &lt;li&gt;we have a $&amp;lt;$ in our starting point rather than an $=$&lt;/li&gt;
-  &lt;li&gt;we have a statement: “if $a, b &amp;gt; 1$ then …” that our starting formula has applied to it&lt;/li&gt;
-&lt;/ol&gt;
+&lt;ul&gt;
+  &lt;li&gt;we have a &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;\lt&lt;/script&gt;&lt;/span&gt; in our starting point rather than an &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;=&lt;/script&gt;&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;we have a statement: “if &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a, b \gt 1&lt;/script&gt;&lt;/span&gt; then …” that our starting formula has applied to it&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;Unlike in everything we’ve done previously, we’re now looking at a problem of the type “when something is the case, then something else is also the case.”  Can we do anything with that?&lt;/p&gt;
 
@@ -2746,96 +2742,94 @@ a + b &lt; 1 + ab %]]&gt;&lt;/script&gt;
 
 &lt;p&gt;Or to put it more clearly in a symbolic fashion&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
-a &lt; b %]]&gt;&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; a &lt; b &lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
-a - b &lt; 0 %]]&gt;&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; a - b &lt; 0 &lt;/script&gt;&lt;/div&gt;
 
-&lt;p&gt;And you then test it by putting in values for a and b which meet the criteria $a &amp;lt; b$.&lt;/p&gt;
+&lt;p&gt;And you then test it by putting in values for a and b which meet the criteria &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a \lt b&lt;/script&gt;&lt;/span&gt;.&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
-3 &lt; 4 %]]&gt;&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; 3 &lt; 4 &lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;3 - 4 = -1&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; 3 - 4 = -1 &lt;/script&gt;&lt;/div&gt;
 
-&lt;p&gt;Which is correct as $-1$ is indeed less than $0$.&lt;/p&gt;
+&lt;p&gt;Which is correct as &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;-1&lt;/script&gt;&lt;/span&gt; is indeed less than &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;0&lt;/script&gt;&lt;/span&gt;.&lt;/p&gt;
 
-&lt;p&gt;So how do we take this back to our problem?  We know, because we followed mathematical rules when we factored, that $(a - 1)(b - 1)$ and $(a + b) - (1 + ab)$ are equivalent.  We are now in the position to put back in our less-than statement and test our conjecture.&lt;/p&gt;
+&lt;p&gt;So how do we take this back to our problem?  We know, because we followed mathematical rules when we factored, that &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;(a - 1)(b - 1)&lt;/script&gt;&lt;/span&gt; and &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;(a + b) - (1 + ab)&lt;/script&gt;&lt;/span&gt; are equivalent.  We are now in the position to put back in our less-than statement and test our conjecture.&lt;/p&gt;
 
-&lt;p&gt;$(a - 1)(b - 1) &amp;gt; 0$ when $a, b &amp;gt; 1$&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;(a - 1)(b - 1) \gt 0&lt;/script&gt;&lt;/span&gt; when &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a, b \gt 1&lt;/script&gt;&lt;/span&gt;&lt;/p&gt;
 
-&lt;p&gt;Now we can see why our factoring helped.  It’s obvious from the new-found clarity, that if either $a$ or $b$ (or both) are less than $0$ then the result will be less than zero.  But that if both $a$ and $b$ are greater than zero then the product will be greater than zero too.  That clarity is why it’s a &lt;em&gt;proof&lt;/em&gt; - the finding is undeniable.&lt;/p&gt;
+&lt;p&gt;Now we can see why our factoring helped.  It’s obvious from the new-found clarity, that if either &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a&lt;/script&gt;&lt;/span&gt; or &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;b&lt;/script&gt;&lt;/span&gt; (or both) are less than &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;0&lt;/script&gt;&lt;/span&gt; then the result will be less than zero.  But that if both &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a&lt;/script&gt;&lt;/span&gt; and &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;b&lt;/script&gt;&lt;/span&gt; are greater than zero then the product will be greater than zero too.  That clarity is why it’s a &lt;em&gt;proof&lt;/em&gt;; because the finding is undeniable.&lt;/p&gt;
 
 &lt;h2 id=&quot;next-stab---problem-124&quot;&gt;Next Stab - Problem 124&lt;/h2&gt;
-&lt;p&gt;This one looks a bit easier - no “greater than” or “less than” symbols.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;This one looks a bit easier.&lt;/span&gt;  No “greater than” or “less than” symbols.&lt;/p&gt;
 
 &lt;p&gt;Let’s write out our starting point first&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;a^2 + ab + b^2 = 0&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;a^2 + ab + b^2 = 0&lt;/script&gt;&lt;/div&gt;
 
-&lt;p&gt;And then bring in the factoring of $a^3 - b^3$ to look at side-by-side as suggested by Gelfand.&lt;/p&gt;
+&lt;p&gt;And then bring in the factoring of &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a^3 - b^3&lt;/script&gt;&lt;/span&gt; to look at side-by-side as suggested by Gelfand.&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;a^3 - b^3 =&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; a^3 - b^3 = &lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;= a^3 - a^2b + a^2b - ab^2 + ab^2 - b^3 =&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = a^3 - a^2b + a^2b - ab^2 + ab^2 - b^3 = &lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;= a^2(a - b) - ab(a - b) + b^2(a - b) =&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = a^2(a - b) - ab(a - b) + b^2(a - b) = &lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;= (a^2 + ab + b^2)(a - b)&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = (a^2 + ab + b^2)(a - b)&lt;/script&gt;&lt;/div&gt;
 
 &lt;p&gt;Hmmm, there is a direct match in there - the first part of the factored output is the same as our proof starting point.&lt;/p&gt;
 
-&lt;p&gt;But what does this mean?  I’ll admit I had to cheat and read Durham here.  He then combines the two, so I’ll do the same (remember that in our case $a^2 + ab + b^2 = 0$)&lt;/p&gt;
+&lt;p&gt;But what does this mean?  I’ll admit I had to cheat and read Durham here.  He then combines the two, so I’ll do the same (remember that in our case &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a^2 + ab + b^2 = 0&lt;/script&gt;&lt;/span&gt;)&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;a^3 - b^3 = (0)(a - b)&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; a^3 - b^3 = (0)(a - b) &lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\rightarrow a^3 - b^3 = 0&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;\rightarrow a^3 - b^3 = 0 &lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\rightarrow a^3 = b^3&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;\rightarrow a^3 = b^3 &lt;/script&gt;&lt;/div&gt;
 
 &lt;p&gt;That rules-wise makes sense, but what am I doing here? (What is anyone doing here?)&lt;/p&gt;
 
-&lt;ol&gt;
-  &lt;li&gt;We’re aiming to find out the circumstances when $a^2 + ab + b^2 = 0$.  OK.&lt;/li&gt;
-  &lt;li&gt;We’ve now seen that this forms a part of a factoring of $a^3 - b^3$.  OK.&lt;/li&gt;
-&lt;/ol&gt;
+&lt;ul&gt;
+  &lt;li&gt;We’re aiming to find out the circumstances when &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a^2 + ab + b^2 = 0&lt;/script&gt;&lt;/span&gt;.  OK.&lt;/li&gt;
+  &lt;li&gt;We’ve now seen that this forms a part of a factoring of &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a^3 - b^3&lt;/script&gt;&lt;/span&gt;.  OK.&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;What I missed was looking at the $a^3 - b^3$.  Now when is &lt;em&gt;this&lt;/em&gt; zero?  This is zero whenever $a = b$.  Nice.  And it’s even distilled for us in the remainder of the factored result - $(a - b)$ - which is zero again whenever $a = b$.&lt;/p&gt;
+&lt;p&gt;What I missed was looking at the &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a^3 - b^3&lt;/script&gt;&lt;/span&gt;.  Now when is &lt;em&gt;this&lt;/em&gt; zero?  This is zero whenever &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a = b&lt;/script&gt;&lt;/span&gt;.  Nice.  And it’s even distilled for us in the remainder of the factored result - &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;(a - b)&lt;/script&gt;&lt;/span&gt; - which is zero again whenever &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a = b&lt;/script&gt;&lt;/span&gt;.&lt;/p&gt;
 
 &lt;p&gt;Combined, &lt;em&gt;that’s&lt;/em&gt; the echo of a future solution-reason calling me, and enough to move forward.&lt;/p&gt;
 
-&lt;p&gt;So do we have our proof with this alone?  Again (and I might come back to this in an update to this post sometime) &lt;em&gt;I&lt;/em&gt; think you could stop at this point, given where we are in the Gelfand-journey. &lt;a href=&quot;https://www.scribd.com/document/243387607/Gelfand-Algebra-Solutions&quot;&gt;Durham&lt;/a&gt; however goes further. He then analyses $a^2 + ab + b^2 = 0$ directly.  I encourage you to take a look and see what you can glean.&lt;/p&gt;
+&lt;p&gt;So do we have our proof with this alone?  Again &lt;em&gt;I&lt;/em&gt; think you could stop at this point, given where we are in the Gelfand-journey.&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;I might come back to this in an update to this post sometime. &lt;/span&gt; &lt;a href=&quot;https://www.scribd.com/document/243387607/Gelfand-Algebra-Solutions&quot;&gt;Durham&lt;/a&gt; however goes further. He then analyses &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a^2 + ab + b^2 = 0&lt;/script&gt;&lt;/span&gt; directly.  I encourage you to take a look and see what you can glean.&lt;/p&gt;
 
 &lt;h2 id=&quot;problem-125&quot;&gt;Problem 125&lt;/h2&gt;
-&lt;p&gt;Prove that if $a + b + c = 0$ then $a^3 + b^3 + c^3 = 3abc$&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;Prove that&lt;/span&gt;  if &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a + b + c = 0&lt;/script&gt;&lt;/span&gt; then &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a^3 + b^3 + c^3 = 3abc&lt;/script&gt;&lt;/span&gt;&lt;/p&gt;
 
 &lt;p&gt;First step is again to see have we seen any of this (or parts of this) before?&lt;/p&gt;
 
 &lt;p&gt;We have.  Problem 122(d) had this:&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;a^3 + b^3 + c^3 - 3abc&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;a^3 + b^3 + c^3 - 3abc&lt;/script&gt;&lt;/div&gt;
 
-&lt;p&gt;How did we factor that?  Well, I looked back and I didn’t - I just fell back on &lt;a href=&quot;&quot;&gt;Durham&lt;/a&gt; (even he thought it was hard.)  So what does his factoring give us?  There we saw that $a^3 + b^3 + c^3 - 3abc = (a + b + c) \times …$.&lt;/p&gt;
+&lt;p&gt;How did we factor that?  Well, I looked back and I didn’t - I just fell back on &lt;a href=&quot;https://www.scribd.com/document/243387607/Gelfand-Algebra-Solutions&quot;&gt;Durham&lt;/a&gt; (even he thought it was hard.)  So what does his factoring give us?  There we saw that &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a^3 + b^3 + c^3 - 3abc = (a + b + c) \times ...&lt;/script&gt;&lt;/span&gt;.&lt;/p&gt;
 
-&lt;p&gt;We can work with that, so, when $(a + b + c ) = 0$&lt;/p&gt;
+&lt;p&gt;We can work with that, so, when &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;(a + b + c ) = 0&lt;/script&gt;&lt;/span&gt;&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;a^3 + b^3 + c^3 - 3abc = (a + b + c)(...)&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; a^3 + b^3 + c^3 - 3abc = (a + b + c)(...)&lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\rightarrow a^3 + b^3 + c^3 - 3abc = 0 \times (...)&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; \rightarrow a^3 + b^3 + c^3 - 3abc = 0 \times (...)&lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\rightarrow a^3 + b^3 + c^3 - 3abc = 0&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; \rightarrow a^3 + b^3 + c^3 - 3abc = 0 &lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\rightarrow a^3 + b^3 + c^3 = 3abc&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; \rightarrow a^3 + b^3 + c^3 = 3abc &lt;/script&gt;&lt;/div&gt;
 
 &lt;p&gt;Proved.&lt;/p&gt;
 
 &lt;h2 id=&quot;tricks-arising&quot;&gt;Tricks Arising&lt;/h2&gt;
-&lt;p&gt;### Look for the Same Pattern in Things You Know (Beyond the Standard Short-Cut Formulas)
-&lt;em&gt;Many&lt;/em&gt; of the solutions to the proof-problems in this post have involved looking back to what we have seen worked previously.  It makes the clear (but possibly not self-evident) point that &lt;em&gt;anything&lt;/em&gt; can be a pattern to match on.  The Short-cut formulas are key ones because they pop up &lt;em&gt;a lot&lt;/em&gt;, but others work in just the same way, by giving you a sudden jump into a well-worn path to differently formed expressions and perhaps further leaps.&lt;/p&gt;
+
+&lt;h3 id=&quot;look-for-the-same-pattern-in-things-you-know-beyond-the-standard-short-cut-formulas&quot;&gt;Look for the Same Pattern in Things You Know (Beyond the Standard Short-Cut Formulas)&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Many&lt;/em&gt; of the solutions to the proof-problems in this post have involved looking back to what we have seen worked previously.  It makes the clear (but possibly not self-evident) point that &lt;em&gt;anything&lt;/em&gt; can be a pattern to match on.  The &lt;em&gt;short-cut formulas&lt;/em&gt; are key ones because they pop up &lt;em&gt;a lot&lt;/em&gt;, but others work in just the same way, by giving you a sudden jump into a well-worn path to differently formed expressions and perhaps further leaps.&lt;/p&gt;
 
 &lt;h2 id=&quot;some-kind-of-a-conclusion&quot;&gt;Some Kind of a Conclusion&lt;/h2&gt;
-&lt;p&gt;I’m going to be honest and state that I’m still not 100% certain as to the difference between a solution and a proof.  It’ll get clearer I’m sure and I’ll come back here and update this when I get something more pithy.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;I’m going to be honest&lt;/span&gt;  and state that I’m still not 100% certain as to the difference between a solution and a proof.  It’ll get clearer I’m sure and I’ll come back here and update this when I get something more pithy.&lt;/p&gt;
 
 &lt;p&gt;Suffice to say, I’m currently under the impression that for something to be a “proof”, you need to be able to get from your starting point, using only allowable mathematical manipulations, to something which allows you to state unequivocally that the proposition you need to make is true (and is the only thing that can be true).&lt;/p&gt;
 
@@ -2854,190 +2848,193 @@ a - b &lt; 0 %]]&gt;&lt;/script&gt;
                 <title>Gelfand: Chunk 12 - The Hard Ones</title>
                 <description>
 &lt;h2 id=&quot;something-fails-then-something-new-comes-along&quot;&gt;Something Fails. Then Something New Comes Along&lt;/h2&gt;
-&lt;p&gt;(And by “comes along” I mean Gelfand gifts us another trick-nugget.)&lt;/p&gt;
+&lt;p&gt;(&lt;span class=&quot;newthought&quot;&gt;And by “comes along” I mean Gelfand gifts us another trick-nugget.&lt;/span&gt; )&lt;/p&gt;
 
-&lt;p&gt;In Problem 119, Gelfand asks us to factor $a^4 + b^4$.  It looks simple enough.  But it’s not.  Spot the ‘$+$’.  That, plus the pesky even-ness of the powers mean our seemingly all-conquering tricks have encountered a crack in their armour.&lt;/p&gt;
+&lt;p&gt;In Problem 119, Gelfand asks us to factor &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a^4 + b^4&lt;/script&gt;&lt;/span&gt;.  It looks simple enough.  But it’s not.  Spot the ‘&lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;+&lt;/script&gt;&lt;/span&gt;’.  That, plus the pesky even-ness of the powers mean our seemingly all-conquering tricks have encountered a crack in their armour.&lt;/p&gt;
 
-&lt;p&gt;But let’s pretend for a minute that we didn’t know this. What would we have tried to do (and failed?). Probably something like the following which takes inspiration from our workings in the &lt;a href=&quot;https://andrewharmellaw.github.io/2017/01/20/gelfands-algebra-chunk-11-factoring-to-zero&quot;&gt;previous chunk - Factoring to Zero&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;But let’s pretend for a minute that we didn’t know this. What would we have tried to do.&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;And failed? &lt;/span&gt; Probably something like the following which takes inspiration from our workings in the &lt;a href=&quot;https://andrewharmellaw.github.io/2017/01/20/gelfands-algebra-chunk-11-factoring-to-zero&quot;&gt;previous chunk - Factoring to Zero&lt;/a&gt;.&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;a^4 + b^4 =&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;a^4 + b^4 = &lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;= a^4 + a^3b - a^3b + a^2b^2 - a^2b^2 + ab^3 - ab^3 - b^4 =&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = a^4 + a^3b - a^3b + a^2b^2 - a^2b^2 + ab^3 - ab^3 - b^4 = &lt;/script&gt;&lt;/div&gt;
 
-&lt;p&gt;That first bit works; now the next step - pulling out the factor $(a + b)$.  We might start by copying the line straight from the $a^4 - b^4$ example we’re following which gives us&lt;/p&gt;
+&lt;p&gt;That first bit works; now the next step: pulling out the factor &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;(a + b)&lt;/script&gt;&lt;/span&gt;.  We might start by copying the line straight from the &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a^4 - b^4&lt;/script&gt;&lt;/span&gt; example we’re following which gives us&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;= a^3(a + b) + a^2b(a + b) + ab^2(a + b) + b^3(a + b)  =&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = a^3(a + b) + a^2b(a + b) + ab^2(a + b) + b^3(a + b)  = &lt;/script&gt;&lt;/div&gt;
 
-&lt;p&gt;We know this is wrong, because we lifted it from $a^4 - b^4$, but how do we make it right? We know we need to get our negatively-signed terms which we un-annihilated from somewhere.  When we were starting with powers of three, this was easy. We would have had the following, with the middle term negative&lt;/p&gt;
+&lt;p&gt;We know this is wrong, because we lifted it from &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a^4 - b^4&lt;/script&gt;&lt;/span&gt;, but how do we make it right? We know we need to get our negatively-signed terms which we un-annihilated from somewhere.  When we were starting with powers of three, this was easy. We would have had the following, with the middle term negative&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;a^2(a + b) - ab(a + b) + b^2(a + b)&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;a^2(a + b) - ab(a + b) + b^2(a + b)&lt;/script&gt;&lt;/div&gt;
 
-&lt;p&gt;But here we have two terms, $a^2b(a + b)$ and $ab^2(a + b)$ to deal with.  Do we make the first one negative and leave the other?  What happens then?&lt;/p&gt;
+&lt;p&gt;But here we have two terms, &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a^2b(a + b)&lt;/script&gt;&lt;/span&gt; and &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;ab^2(a + b)&lt;/script&gt;&lt;/span&gt; to deal with.  Do we make the first one negative and leave the other?  What happens then?&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;= a^3(a + b) - a^2b(a + b) + ab^2(a + b) + b^3(a + b)  =&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = a^3(a + b) - a^2b(a + b) + ab^2(a + b) + b^3(a + b)  = &lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;= a^4 + a^3b - a^3b - a^2b^2 + a^2b^2 + ab^3 + ab^3 + b^4 =&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = a^4 + a^3b - a^3b - a^2b^2 + a^2b^2 + ab^3 + ab^3 + b^4 = &lt;/script&gt;&lt;/div&gt;
 
-&lt;p&gt;Hmmm, that’s &lt;em&gt;almost&lt;/em&gt; right, but we have two positive $ab^3$s.  That’s bad.&lt;/p&gt;
+&lt;p&gt;Hmmm, that’s &lt;em&gt;almost&lt;/em&gt; right, but we have two positive &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;ab^3&lt;/script&gt;&lt;/span&gt;s.  That’s bad.&lt;/p&gt;
 
-&lt;p&gt;So what happens if we make &lt;em&gt;both&lt;/em&gt; middle-terms negative? (Making the second middle term negative while leaving the first positive gives us nothing new.)&lt;/p&gt;
+&lt;p&gt;So what happens if we make &lt;em&gt;both&lt;/em&gt; middle-terms negative?&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Making the second middle term negative while leaving the first positive gives us nothing new. &lt;/span&gt;&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;= a^3(a + b) - a^2b(a + b) - ab^2(a + b) + b^3(a + b)  =&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = a^3(a + b) - a^2b(a + b) - ab^2(a + b) + b^3(a + b)  = &lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;= a^4 + a^3b - a^3b - a^2b^2 - a^2b^2 - ab^3 + ab^3 + b^4 =&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = a^4 + a^3b - a^3b - a^2b^2 - a^2b^2 - ab^3 + ab^3 + b^4 = &lt;/script&gt;&lt;/div&gt;
 
-&lt;p&gt;That solves our $ab^3$ problem, but now we have two negative $a^2b^2$s.  That sucks.  Both options failed us. It seems we’re screwed.&lt;/p&gt;
+&lt;p&gt;That solves our &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;ab^3&lt;/script&gt;&lt;/span&gt; problem, but now we have two negative &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a^2b^2&lt;/script&gt;&lt;/span&gt;s.  That sucks.  Both options failed us. It seems we’re screwed.&lt;/p&gt;
 
 &lt;p&gt;But before we get pulled into the Sough of Despond, let’s see if we can pull any good from this.&lt;/p&gt;
 
 &lt;h2 id=&quot;trick-clarifications-arising&quot;&gt;Trick Clarifications Arising&lt;/h2&gt;
-&lt;p&gt;### When Factoring with &lt;em&gt;Odd Powers&lt;/em&gt; Ask “What Gives a Zero Result?”
-It turns out that to use the “Ask ‘What Gives a Zero Result’” trick - the one which until now had felt pretty generally-awesome - you need to be working with an &lt;em&gt;odd&lt;/em&gt; power, because that gives you an odd number of terms to work with at the key step.  If you’re working with even powers, you’re out of luck as you can’t get the positives and negatives to match up.&lt;/p&gt;
 
-&lt;p&gt;But what about the other power-move Gelfand showed us in Problem 115: The one where $(a^4 - b^4) = (a - b)(a + b)(a^2 + b^2)$?&lt;/p&gt;
+&lt;h3 id=&quot;when-factoring-with-odd-powers-ask-what-gives-a-zero-result&quot;&gt;When Factoring with &lt;em&gt;Odd Powers&lt;/em&gt; Ask “What Gives a Zero Result?”&lt;/h3&gt;
+&lt;p&gt;It turns out that to use the “Ask ‘What Gives a Zero Result’” trick; the one which until now had felt pretty generally-awesome; you need to be working with an &lt;em&gt;odd&lt;/em&gt; power, because that gives you an odd number of terms to work with at the key step.  If you’re working with even powers, you’re out of luck as you can’t get the positives and negatives to match up.&lt;/p&gt;
 
-&lt;p&gt;That’s a nice option of a first step for us (albeit with the wrong sign as the starting point) but even if we solved that, we would still get left with $(a^2 + b^2)$ which feels like we should be able to factor it further.  Hmmm.&lt;/p&gt;
+&lt;p&gt;But what about the other power-move Gelfand showed us in Problem 115: The one where&lt;/p&gt;
 
-&lt;p&gt;But wait, we’re jumping ahead because Gelfand is about to get round to this after giving us a hint to solve our problem - trying $2a^2b^2$.  Let’s see what happens&lt;/p&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;(a^4 - b^4) = (a - b)(a + b)(a^2 + b^2)&lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;a^4 + b^4 =&lt;/script&gt;
+&lt;p&gt;That’s a nice option of a first step for us (albeit with the wrong sign as the starting point) but even if we solved that, we would still get left with &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;(a^2 + b^2)&lt;/script&gt;&lt;/span&gt; which feels like we should be able to factor it further.  Hmmm.&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;= a^4 + 2a^2b^2 - 2a^2b^2 + b^4 =&lt;/script&gt;
+&lt;p&gt;But wait, we’re jumping ahead because Gelfand is about to get round to this after giving us a hint to solve our problem - trying &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;2a^2b^2&lt;/script&gt;&lt;/span&gt;.  Let’s see what happens&lt;/p&gt;
 
-&lt;p&gt;Can we see a pattern from here?  We could take things back to the difference-of-squares is we can jiggle powers round a little&lt;/p&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;a^4 + b^4 = &lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;= a^4 + 2a^2b^2 + b^4 - 2a^2b^2 =&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = a^4 + 2a^2b^2 - 2a^2b^2 + b^4 = &lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;= (a^2 + b^2)^2 - (\sqrt{2}ab)^2 =&lt;/script&gt;
+&lt;p&gt;Can we see a pattern from here?  We could take things back to the &lt;em&gt;Difference of Squares&lt;/em&gt; is we can jiggle powers round a little&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;= (a^2 + b^2 + \sqrt{2}ab)(a^2 + b^2 - \sqrt{2}ab)&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = a^4 + 2a^2b^2 + b^4 - 2a^2b^2 = &lt;/script&gt;&lt;/div&gt;
+
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = (a^2 + b^2)^2 - (\sqrt{2}ab)^2 = &lt;/script&gt;&lt;/div&gt;
+
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = (a^2 + b^2 + \sqrt{2}ab)(a^2 + b^2 - \sqrt{2}ab) &lt;/script&gt;&lt;/div&gt;
 
 &lt;p&gt;That seems quite nice.&lt;/p&gt;
 
 &lt;h2 id=&quot;more-tricks-arising-taking-stock&quot;&gt;More Tricks Arising (Taking Stock)&lt;/h2&gt;
-&lt;p&gt;Gelfand now wants us to have a checkpoint.  A fuller one than we just had, and then use this to launch off again into something even more generic.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;Gelfand now wants us to have a checkpoint.&lt;/span&gt;   A fuller one than we just had, and then use this to launch off again into something even more generic.&lt;/p&gt;
 
 &lt;p&gt;Let’s do this the only way we know how; by pulling out the Tricks.&lt;/p&gt;
 
-&lt;h3 id=&quot;if-you-have-something-to-a-power-minus-something-else-to-the-same-power-one-factor-will-be-a---b&quot;&gt;If You Have “Something-to-a-Power &lt;em&gt;Minus&lt;/em&gt; Something-Else-to-the-Same-Power One Factor Will Be $(a - b)$&lt;/h3&gt;
-&lt;p&gt;He points out that when we have $a^n - b^b$ (something to a power &lt;em&gt;minus&lt;/em&gt; something else to the same power) for any positive integer $n$ then we can factor it - one of the factors will be $(a - b)$.&lt;/p&gt;
+&lt;h3 id=&quot;if-you-have-something-to-a-power-minus-something-else-to-the-same-power-one-factor-will-be-span8203script-typemathtexa---bscriptspan&quot;&gt;If You Have “Something-to-a-Power &lt;em&gt;Minus&lt;/em&gt; Something-Else-to-the-Same-Power One Factor Will Be &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;(a - b)&lt;/script&gt;&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;He points out that when we have &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a^n - b^b&lt;/script&gt;&lt;/span&gt; (something to a power &lt;em&gt;minus&lt;/em&gt; something else to the same power) for any positive integer &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt;&lt;/span&gt; then we can factor it - one of the factors will be &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;(a - b)&lt;/script&gt;&lt;/span&gt;.&lt;/p&gt;
 
-&lt;h3 id=&quot;if-you-have-something-to-a-power-plus-something-else-to-the-same-power-and-your-power-is-odd-one-factor-will-be-a----b&quot;&gt;If You Have “Something-to-a-Power &lt;em&gt;Plus&lt;/em&gt; Something-Else-to-the-Same-Power, &lt;em&gt;and your Power is Odd&lt;/em&gt;, One Factor Will Be $(a - (-b))$&lt;/h3&gt;
-&lt;p&gt;He goes further, pointing out that when $n$ is &lt;em&gt;odd&lt;/em&gt; and we are working with &lt;em&gt;addition&lt;/em&gt; of powers, then we can just swap in $-b$ for $b$ in the above solution.&lt;/p&gt;
+&lt;h3 id=&quot;if-you-have-something-to-a-power-plus-something-else-to-the-same-power-and-your-power-is-odd-one-factor-will-be-span8203script-typemathtexa----bscriptspan&quot;&gt;If You Have “Something-to-a-Power &lt;em&gt;Plus&lt;/em&gt; Something-Else-to-the-Same-Power, &lt;em&gt;and your Power is Odd&lt;/em&gt;, One Factor Will Be &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;(a - (-b))&lt;/script&gt;&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;He goes further, pointing out that when &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt;&lt;/span&gt; is &lt;em&gt;odd&lt;/em&gt; and we are working with &lt;em&gt;addition&lt;/em&gt; of powers, then we can just swap in &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;-b&lt;/script&gt;&lt;/span&gt; for &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;b&lt;/script&gt;&lt;/span&gt; in the above solution.&lt;/p&gt;
 
-&lt;h3 id=&quot;if-you-have-something-to-a-power-plus-something-else-to-the-same-power-and-your-power-is-even-find-your-squares-and-mix-in-2anbn&quot;&gt;If You Have “Something-to-a-Power &lt;em&gt;Plus&lt;/em&gt; Something-Else-to-the-Same-Power, &lt;em&gt;and your Power is Even&lt;/em&gt;, Find Your Squares and Mix in $2a^nb^n$&lt;/h3&gt;
-&lt;p&gt;And what we just saw in Problem 119 was the gateway to the final element in our general situation: when $n$ is &lt;em&gt;even&lt;/em&gt; and we are working with &lt;em&gt;addition&lt;/em&gt; of one power from the other.  I.e. when it’s $a^2 + b^2$, $a^4 + b^4$, $a^6 + b^6$, etc.&lt;/p&gt;
+&lt;h3 id=&quot;if-you-have-something-to-a-power-plus-something-else-to-the-same-power-and-your-power-is-even-find-your-squares-and-mix-in-span8203script-typemathtex2anbnscriptspan&quot;&gt;If You Have “Something-to-a-Power &lt;em&gt;Plus&lt;/em&gt; Something-Else-to-the-Same-Power, &lt;em&gt;and your Power is Even&lt;/em&gt;, Find Your Squares and Mix in &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;2a^nb^n&lt;/script&gt;&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;And what we just saw in Problem 119 was the gateway to the final element in our general situation: when &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt;&lt;/span&gt; is &lt;em&gt;even&lt;/em&gt; and we are working with &lt;em&gt;addition&lt;/em&gt; of one power from the other.  I.e. when it’s &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a^2 + b^2&lt;/script&gt;&lt;/span&gt;, &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a^4 + b^4&lt;/script&gt;&lt;/span&gt;, &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a^6 + b^6&lt;/script&gt;&lt;/span&gt;, etc.&lt;/p&gt;
 
 &lt;h2 id=&quot;a-decision-tree-for-all-your-power-plus-power-factoring-needs&quot;&gt;A Decision-Tree for All Your Power-Plus-Power Factoring Needs&lt;/h2&gt;
-&lt;p&gt;So we can’t derive a general rule for this. But we can we re-state things in our sibling-problems in a way which means we can use this trick again unchanged?  Yup.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;So we can’t derive a general rule for this.&lt;/span&gt;  But we can we re-state things in our sibling-problems in a way which means we can use this trick again unchanged?  Yup.&lt;/p&gt;
 
-&lt;p&gt;When $n$ is &lt;em&gt;even&lt;/em&gt; and we’re adding powers&lt;/p&gt;
+&lt;p&gt;When &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt;&lt;/span&gt; is &lt;em&gt;even&lt;/em&gt; and we’re adding powers&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;a^{2n} + b^{2n} =&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;a^{2n} + b^{2n} = &lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;= (a^n)^2 + (b^n)^2 =&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = (a^n)^2 + (b^n)^2 = &lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;= (a^n)^2 + 2a^nb^n + (b^n)^2 - 2a^nb^n =&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = (a^n)^2 + 2a^nb^n + (b^n)^2 - 2a^nb^n = &lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;= (a^{2n} + b^{2n})^2 - (\sqrt{2}(a^n)(b^n))^2 =&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = (a^{2n} + b^{2n})^2 - (\sqrt{2}(a^n)(b^n))^2 = &lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;= (a^{2n} + b^{2n} + \sqrt{2}(a^n)(b^n))(a^{2n} + b^{2n} - \sqrt{2}(a^n)(b^n))&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = (a^{2n} + b^{2n} + \sqrt{2}(a^n)(b^n))(a^{2n} + b^{2n} - \sqrt{2}(a^n)(b^n))&lt;/script&gt;&lt;/div&gt;
 
-&lt;p&gt;And when $n$ is &lt;em&gt;odd&lt;/em&gt; and we’re adding powers&lt;/p&gt;
+&lt;p&gt;And when &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt;&lt;/span&gt; is &lt;em&gt;odd&lt;/em&gt; and we’re adding powers&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;a^{2n} + b^{2n} =&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;a^{2n} + b^{2n} = &lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;= (a^n)^2 + (b^n)^2 =&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = (a^n)^2 + (b^n)^2 = &lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;= (a^2 + b^2)((a^2)^{n-1} - (a^2)^{n-2}b^2 + (a^2)^{n-3}(b^2)^2) - ... - (a^2)(b^2)^{n-2} + (b^2)^{n-1})&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = (a^2 + b^2)((a^2)^{n-1} - (a^2)^{n-2}b^2 + (a^2)^{n-3}(b^2)^2) - ... - (a^2)(b^2)^{n-2} + (b^2)^{n-1})&lt;/script&gt;&lt;/div&gt;
 
 &lt;p&gt;Brilliant!&lt;/p&gt;
 
-&lt;p&gt;Now all we’re left with is the slightly-trickier case of $a^2 + b^2$ - but that’s not tricky if we just invent a new type of number (which $\sqrt{-1}$ requires in order to do this) which mathematicians called &lt;em&gt;complex numbers&lt;/em&gt; (but that’s another post).&lt;/p&gt;
+&lt;p&gt;Now all we’re left with is the slightly-trickier case of &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a^2 + b^2&lt;/script&gt;&lt;/span&gt; - but that’s not tricky if we just invent a new type of number (which &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;\sqrt{-1}&lt;/script&gt;&lt;/span&gt; requires in order to do this) which mathematicians called &lt;em&gt;complex numbers&lt;/em&gt; (but that’s another post).&lt;/p&gt;
 
 &lt;p&gt;We’ll just conclude this post with some commentary on the remaining “more difficult problems” with which Gelfand signs off this section.&lt;/p&gt;
 
 &lt;h2 id=&quot;the-more-difficult-problems&quot;&gt;The “More Difficult Problems”&lt;/h2&gt;
-&lt;p&gt;### Problem 122(a)&lt;/p&gt;
 
-&lt;p&gt;Use the previous solution from Problem 119, making $a = x$ and $b = 1$. (Remember, $1 = 1^4 = 1^n$.)&lt;/p&gt;
+&lt;h3 id=&quot;problem-122a&quot;&gt;Problem 122(a)&lt;/h3&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;x^4 + 1 =&lt;/script&gt;
+&lt;p&gt;Use the previous solution from Problem 119, making &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a = x&lt;/script&gt;&lt;/span&gt; and &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;b = 1&lt;/script&gt;&lt;/span&gt;. (Remember, &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;1 = 1^4 = 1^n&lt;/script&gt;&lt;/span&gt;.)&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;= x^4 + 1^4 =&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;x^4 + 1 = &lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;= x^4 + 2a^21^2 + 1^4 - 2a^21^2 =&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = x^4 + 1^4 = &lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;= (x^2 + 1^2)^2 - (\sqrt{2}x \times 1)^2 =&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = x^4 + 2a^21^2 + 1^4 - 2a^21^2 = &lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;= (x^2 + 1 + \sqrt{2}x)(x^2 + 1 - \sqrt{2}x)&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = (x^2 + 1^2)^2 - (\sqrt{2}x \times 1)^2 = &lt;/script&gt;&lt;/div&gt;
+
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = (x^2 + 1 + \sqrt{2}x)(x^2 + 1 - \sqrt{2}x)&lt;/script&gt;&lt;/div&gt;
 
 &lt;h3 id=&quot;problem-122b&quot;&gt;Problem 122(b)&lt;/h3&gt;
 
 &lt;p&gt;First we expand everything so see where we’re at&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;x(y^2 - z^2) + y(z^2 - x^2) + z(x^2 - y^2) =&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;x(y^2 - z^2) + y(z^2 - x^2) + z(x^2 - y^2) = &lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;= xy^2 - xz^2 + yz^2 - yx^2 + zx^2 - zy^2 =&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = xy^2 - xz^2 + yz^2 - yx^2 + zx^2 - zy^2 = &lt;/script&gt;&lt;/div&gt;
 
-&lt;p&gt;Then we group around one of our variables, $x$ seems like as good an option as any&lt;/p&gt;
+&lt;p&gt;Then we group around one of our variables, &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;x&lt;/script&gt;&lt;/span&gt; seems like as good an option as any&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;= (z - y)x^2 + (y^2 - z^2)x + yz^2 - zy^2 =&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = (z - y)x^2 + (y^2 - z^2)x + yz^2 - zy^2 = &lt;/script&gt;&lt;/div&gt;
 
-&lt;p&gt;Now spot the difference of squares in the middle ($(y^2 - z^2)$) which we can factor out&lt;/p&gt;
+&lt;p&gt;Now spot the difference of squares in the middle (&lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;(y^2 - z^2)&lt;/script&gt;&lt;/span&gt;) which we can factor out&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;= (z - y)x^2 + (y + z)(y - z)x + yz^2 - zy^2 =&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = (z - y)x^2 + (y + z)(y - z)x + yz^2 - zy^2 = &lt;/script&gt;&lt;/div&gt;
 
 &lt;p&gt;And then pull out a simple factor from the last two terms&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;= (z - y)x^2 + (y + z)(y - z)x + yz(z - y) =&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = (z - y)x^2 + (y + z)(y - z)x + yz(z - y) = &lt;/script&gt;&lt;/div&gt;
 
-&lt;p&gt;Now we pause. Can we go further?  A common factor of $(z - y)$ is &lt;em&gt;almost&lt;/em&gt; emerging, it’s just that tricksy difference-of-squares which is making life hard.  Can we re-jig things?  We can&lt;/p&gt;
+&lt;p&gt;Now we pause. Can we go further?  A common factor of &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;(z - y)&lt;/script&gt;&lt;/span&gt; is &lt;em&gt;almost&lt;/em&gt; emerging, it’s just that tricksy difference-of-squares which is making life hard.  Can we re-jig things?  We can&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;= (z - y)x^2 - (y + z)(z - y)x + yz(z - y) =&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = (z - y)x^2 - (y + z)(z - y)x + yz(z - y) = &lt;/script&gt;&lt;/div&gt;
 
 &lt;p&gt;Now we can pull out this factor&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;= (z - y)(x^2 - (y + z)x + yz) =&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = (z - y)(x^2 - (y + z)x + yz) = &lt;/script&gt;&lt;/div&gt;
 
-&lt;p&gt;Great. Can we go further?  What about the $(x^2 - (y + z)x + yz)$ itself?&lt;/p&gt;
+&lt;p&gt;Great. Can we go further?  What about the &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;(x^2 - (y + z)x + yz)&lt;/script&gt;&lt;/span&gt; itself?&lt;/p&gt;
 
 &lt;p&gt;We can take this piece on it’s own for a second and see where we can get.  First up we expand the middle term&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;x^2 - (y + z)x + yz =&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; x^2 - (y + z)x + yz = &lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;= x^2 - xy - xz + yz =&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = x^2 - xy - xz + yz = &lt;/script&gt;&lt;/div&gt;
 
 &lt;p&gt;That then looks like a nice and simple factoring around these three variables&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;= (x - y)(x - z)&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = (x - y)(x - z)&lt;/script&gt;&lt;/div&gt;
 
 &lt;p&gt;So we can then put it all back together to get our final answer&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;(z - y)(x - y)(x - z)&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;(z - y)(x - y)(x - z)&lt;/script&gt;&lt;/div&gt;
 
 &lt;p&gt;Beautiful.&lt;/p&gt;
 
 &lt;h3 id=&quot;problem-122c&quot;&gt;Problem 122(c)&lt;/h3&gt;
-
 &lt;p&gt;Use the same approach as we saw working in Problem 111.&lt;/p&gt;
 
 &lt;h3 id=&quot;problem-122d&quot;&gt;Problem 122(d)&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&quot;https://www.scribd.com/document/243387607/Gelfand-Algebra-Solutions&quot;&gt;Durham&lt;/a&gt; thinks this is tough. I agree.  I couldnt find another way to factor it.&lt;/p&gt;
 
 &lt;h3 id=&quot;problem-122e&quot;&gt;Problem 122(e)&lt;/h3&gt;
-&lt;p&gt;Start off by multiplying out $(a + b + c)^3$.  Then looking back to the solution from Problem 122(b) gave some hints as to a possible factor.&lt;/p&gt;
+&lt;p&gt;Start off by multiplying out &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;(a + b + c)^3&lt;/script&gt;&lt;/span&gt;.  Then looking back to the solution from Problem 122(b) gave some hints as to a possible factor.&lt;/p&gt;
 
 &lt;h3 id=&quot;problem-122f&quot;&gt;Problem 122(f)&lt;/h3&gt;
 &lt;p&gt;Two options here which Durham expands on:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;use Pascal’s triangle to multiply out all cubes, then go from there,&lt;/li&gt;
-  &lt;li&gt;use the solution to Problem 114 to start you off.&lt;/li&gt;
+  &lt;li&gt;Use Pascal’s triangle to multiply out all cubes, then go from there,&lt;/li&gt;
+  &lt;li&gt;Use the solution to Problem 114 to start you off.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;meta-trick-there-isnt-always-a-single-simple-trick&quot;&gt;Meta-Trick: There isn’t Always a Single, Simple Trick&lt;/h2&gt;
-&lt;p&gt;We’ve seen it a little before, but with this Chunk, we’re now beginning to confront head on that the fact that the subtleties of numbers and things you can  (and can’t do to them) most usually have a set of tricks applied to their solving rather than just one. What is more, the applicability of those tricks depends upon things like whteher a given key number is odd or even, and / or there is positive / addition vs negative / subtraction.  And don’t forget zero - the o-so-special case.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;We’ve seen it a little before,&lt;/span&gt;  but with this Chunk, we’re now beginning to confront head on that the fact that the subtleties of numbers and things you can  (and can’t do to them) most usually have a set of tricks applied to their solving rather than just one. What is more, the applicability of those tricks depends upon things like whteher a given key number is odd or even, and / or there is positive / addition vs negative / subtraction.  And don’t forget zero - the o-so-special case.&lt;/p&gt;
 
 &lt;p&gt;This all means you frequently need to have a second level of awareness in your pattern-spotter and trick-matcher which allows you take this into account.&lt;/p&gt;
 

@@ -40,12 +40,6 @@
   	
 		
 		    
-		      <a href="/atom.xml">Atom</a>
-		    
-	    
-  	
-		
-		    
 		      <a href="/index.html">Hi, Welcome</a>
 		    
 	    
@@ -79,12 +73,12 @@
 
 
 <h2 id="coping-with-annihilated-terms">Coping with Annihilated Terms</h2>
-<p><span class="newthought">So after <a href="https://andrewharmellaw.github.io/2017/01/17/gelfands-algebra-chunk-10-factoring">Chunk 10</a></span>  you think this factoring lark is easy eh? Well, there’s something we’ve not yet tackled. Sometimes as part of our terms-collection we ended up with terms where the co-efficient totalled zero and so we removed them alltogether.  This felt amazing, because we were getting rid of things and achieving increased simplicity as a result.  But now we’re going backwards. How do we cope with that?  How can we see what’s no longer there?</p>
+<p><span class="newthought">So after <a href="https://andrewharmellaw.github.io/2017/01/17/gelfands-algebra-chunk-10-factoring">Chunk 10</a></span>  you think this factoring lark is easy eh? Well, there’s something we’ve not yet tackled. Sometimes as part of our terms-collection we ended up with terms where the co-efficient totalled zero and so we removed them altogether.  This felt amazing, because we were getting rid of things and achieving increased simplicity as a result.  But now we’re going backwards. How do we cope with that?  How can we see what’s no longer there?</p>
 
-<p>This is just one of the reasons that factoring is “hard”.  (Interestingly as I’ve been writing this, I remember <em>doing</em> factoring at school. I fail to recall any of the details however, most likely due to the terror which this “summoning from the ether” element.)</p>
+<p>This is just one of the reasons that factoring is “hard”.<label for="sn-id-whatever" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-whatever" class="margin-toggle" /><span class="sidenote">Interestingly as I’ve been writing this, I remember <em>doing</em> factoring at school. I fail to recall any of the details however, most likely due to the terror which this “summoning from the ether” element. </span></p>
 
 <h2 id="looking-for-the-zeros">Looking for the Zero(s)</h2>
-<p><span class="newthought">Gelfand feels our fear,</span>  but he encourages us to took into the abyss anyway.  He suggests we look at a factoring of the familiar difference-of-squares to salve our anxiety.  We know the steps because we’ve worked it the other direction <a href="https://andrewharmellaw.github.io/2016/12/17/gelfanfd-algebra-chunk-6-squares-sums-diffs-etc">many a time</a>.</p>
+<p><span class="newthought">Gelfand feels our fear,</span>  but he encourages us to look into the abyss anyway by suggesting we consider a factoring of the familiar <em>Difference of Squares</em> to salve our anxiety.  We know the steps because we’ve worked it the other direction <a href="https://andrewharmellaw.github.io/2016/12/17/gelfanfd-algebra-chunk-6-squares-sums-diffs-etc">many a time</a>.</p>
 
 <div class="mathblock"><script type="math/tex; mode=display"> a^2 - b^2 = </script></div>
 
@@ -110,7 +104,7 @@
 
 <p>The focus is on simple versions of our situation. The specific consideration here is the one that arises whenever <span>​<script type="math/tex">a = b</script></span>.  In these circumstances, the value of the right hand side (<span>​<script type="math/tex">(a + b)(a - b)</script></span>) <em>must</em> be zero because one of the factors will be zero (the <span>​<script type="math/tex">(a - b)</script></span> bit) which in turn means that the left hand side (<span>​<script type="math/tex">a^2 - b^2</script></span>) <em>must</em> be zero too.  Furthermore, this means that <span>​<script type="math/tex">a^2 = b^2</script></span> when <span>​<script type="math/tex">a = b</script></span>.</p>
 
-<p>Not only this, the other bit of our possible starting factor works in a similar way. If <span>​<script type="math/tex">a + b = 0</script></span> (the other factor on the right hand side) then <span>​<script type="math/tex">a^2 = b^2</script></span> (remember squaring a negative makes it positive - here <span>​<script type="math/tex">a = -b</script></span>.)</p>
+<p>Not only this, the other bit of our possible starting factor works in a similar way. If <span>​<script type="math/tex">a + b = 0</script></span> (the other factor on the right hand side) then <span>​<script type="math/tex">a^2 = b^2</script></span> (remember squaring a negative makes it positive. E.g. here <span>​<script type="math/tex">a = -b</script></span>.)</p>
 
 <p>This is awesome.  We’ve found a tiny little side door (the when <span>​<script type="math/tex">a = b</script></span> the result is zero one) that is open just a crack, and by forcing a little wedge into it (playing this <span>​<script type="math/tex">a = b</script></span> across both sides of the <em>Difference of Squares</em>) we’ve found a truism; a first rung on a ladder to the solution as it where.</p>
 
@@ -137,8 +131,9 @@
 <p>Asides aside, why is this relevant?  Well, Gelfand is drawing our attention to the fact that when factoring a polynomial, it helps to see when it has a zero value.  But why is that useful? Because as we’ve seen more than once before, if you have a single factor of zero, then the outcome of everything will be zero and this then gives us one of our factors.  Let’s try it and see what happens.  But we’ll pull out these tricks explicitly just before we move to that.</p>
 
 <h2 id="tricks-arising">Tricks Arising</h2>
-<p>### When Factoring, Find a Simple Case
-We got here by trying to see the wood for the trees, and as in many other circumstances on our journey, finding a simple case of something frequently helps, just like it did above.</p>
+
+<h3 id="when-factoring-find-a-simple-case">When Factoring, Find a Simple Case</h3>
+<p>We got here by trying to see the wood for the trees, and as in many other circumstances on our journey, finding a simple case of something frequently helps, just like it did above.</p>
 
 <h3 id="when-factoring-ask-what-gives-a-zero-result">When Factoring, Ask “What Gives a Zero Result?”</h3>
 <p>The prime example of “a simple case” is when our result is zero.  If you can find this, you have one of your factors pre-rolled. (N.b. a “factor” can be an expression rather than a number, e.g. <span>​<script type="math/tex">(x - 1)</script></span>)</p>
@@ -154,7 +149,7 @@ We got here by trying to see the wood for the trees, and as in many other circum
 
 <div class="mathblock"><script type="math/tex; mode=display"> a^3 - b^3 = </script></div>
 
-<p>You quickly remember (especially if you sneak a peek at Gelfand’s solution) that we can’t easily jump to the line with <span>​<script type="math/tex">(a - b)</script></span> in it.  It makes sense if you think of what we’ve done previously, and also our reason for doing this, to facilitate the restoration of annihilated terms.  Therefore</p>
+<p>You quickly remember<label for="sn-id-whatever" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-whatever" class="margin-toggle" /><span class="sidenote">Especially if you sneak a peek at Gelfand’s solution. </span> that we can’t easily jump to the line with <span>​<script type="math/tex">(a - b)</script></span> in it.  It makes sense if you think of what we’ve done previously, and also our reason for doing this, to facilitate the restoration of annihilated terms.  Therefore</p>
 
 <div class="mathblock"><script type="math/tex; mode=display"> = a^3 - a^2b + a^2b - ab^2 + ab^2 - b^3 = </script></div>
 
@@ -169,7 +164,7 @@ We got here by trying to see the wood for the trees, and as in many other circum
 
 <div class="mathblock"><script type="math/tex; mode=display"> a^3 + b^3 = </script></div>
 
-<p>Now we know our factor will be <span>​<script type="math/tex">(a + b)</script></span>, and it seems a good deal of the rest will stay the same as Problem 113; as indeed it does.  (Gelfand points out just this - we can get here from the previous example by substituting <span>​<script type="math/tex">-b</script></span> for the previous <span>​<script type="math/tex">b</script></span>.)</p>
+<p>Now we know our factor will be <span>​<script type="math/tex">(a + b)</script></span>, and it seems a good deal of the rest will stay the same as Problem 113; as indeed it does.  (Gelfand points out just this. We can get here from the previous example by substituting <span>​<script type="math/tex">-b</script></span> for the previous <span>​<script type="math/tex">b</script></span>.)</p>
 
 <div class="mathblock"><script type="math/tex; mode=display"> = a^3 + a^2b - a^2b + ab^2 - ab^2 + b^3 = </script></div>
 
@@ -182,7 +177,7 @@ We got here by trying to see the wood for the trees, and as in many other circum
 <h3 id="gelfand-problems-115-and-116-a-and-116-b">Gelfand Problems 115 and 116 (a) and 116 (b)</h3>
 <p>We’ve now slid into Gelfand spot-the-pattern territory, and there is indeed a pattern.</p>
 
-<p>First up we’re back at a to the power of something minus <span>​<script type="math/tex">b</script></span> to the power of the same thing.  Here we have a a worked example, which I’m going to do too.  Here Gelfand has acquiesced and already put in the extra step for our benefit.</p>
+<p>First up we’re back at <span>​<script type="math/tex">a</script></span> to the power of <span>​<script type="math/tex">something</script></span> minus <span>​<script type="math/tex">b</script></span> to the power of <span>​<script type="math/tex">the same thing</script></span>.  Here we have a a worked example, which I’m going to do too.  Gelfand has acquiesced and already put in the extra step for our benefit.</p>
 
 <div class="mathblock"><script type="math/tex; mode=display">a^4 - b^4 = </script></div>
 
@@ -252,7 +247,11 @@ We got here by trying to see the wood for the trees, and as in many other circum
 <h2 id="getting-cleverer-with-what-we-know">Getting Cleverer with What We Know</h2>
 <p><span class="newthought">Remember a minute ago</span>  I suggested that our solution to Problem 116(b) seemed a little long-winded?  Now we get to the point where Gelfand is going to agree with us, but he does it with <span>​<script type="math/tex">a^2 - b^2</script></span> and <span>​<script type="math/tex">a^4 - b^4</script></span>.</p>
 
-<p>“Doesn’t one look like a higher power of the other?” he whispers to us.  And he’s right.  Let’s not just copy him though, and instead apply the same method to our <span>​<script type="math/tex">a^5 - b^5</script></span> and <span>​<script type="math/tex">a^{10} - b^{10}</script></span> problem instead.</p>
+<blockquote>
+  <p>“Doesn’t one look like a higher power of the other?”</p>
+</blockquote>
+
+<p>he whispers to us.  And he’s right.  Let’s not just copy him though, and instead apply the same method to our <span>​<script type="math/tex">a^5 - b^5</script></span> and <span>​<script type="math/tex">a^{10} - b^{10}</script></span> problem instead.</p>
 
 <div class="mathblock"><script type="math/tex; mode=display">a^{10} - b^{10}</script></div>
 
@@ -273,11 +272,9 @@ We got here by trying to see the wood for the trees, and as in many other circum
 <p>This is all working out very nicely. So where next?</p>
 
 <h2 id="cheatingish-with-square-roots-and-beyond">Cheating(ish) with Square Roots and beyond</h2>
-<p><span class="newthought">That’s almost it for this chunk,</span>  but before we close, there’s one more thing to consider.  And this is the first time we’re going to encounter roots of the square kind and beyond.</p>
+<p><span class="newthought">That’s almost it for this chunk,</span>  but before we close, there’s one more thing to consider.<label for="sn-id-whatever" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-whatever" class="margin-toggle" /><span class="sidenote">This is also the first time we’re going to encounter roots of the square kind and beyond. </span></p>
 
-<p>Note: to help you avoid a future trip-hazard, it’s worth pointing out that the term root is overloaded somewhat in Maths, and that at this point we simple mean the ones you’re most likely aware of - the roots of numbers, which when multiplied by themselves a number of times give the number that was rooted.</p>
-
-<p>(If you want to look ahead to a little discussion of the whole troublesome area, jumpt ahead - just for a second to <a href="https://andrewharmellaw.github.io/2017/04/24/gelfands-algebra-aside-2-roots-roots-and-more-roots">Aside 2: Roots, Roots and More Roots</a>)</p>
+<p>Note: to help you avoid a future trip-hazard, it’s worth pointing out that the term “root” is overloaded somewhat in Maths, and that at this point we simply mean the ones you’re most likely aware of - the roots of numbers, which when multiplied by themselves a number of times give the number that was rooted.<label for="sn-id-whatever" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-whatever" class="margin-toggle" /><span class="sidenote">If you want to look ahead to a little discussion of the whole troublesome area, jumpt ahead - just for a second to <a href="https://andrewharmellaw.github.io/2017/04/24/gelfands-algebra-aside-2-roots-roots-and-more-roots">Aside 2: Roots, Roots and More Roots</a>. </span></p>
 
 <p>With this cleared up, let’s tackle Problem 117 which is going to get our mind in gear for what is to come.  We start as follows</p>
 
@@ -311,7 +308,7 @@ We got here by trying to see the wood for the trees, and as in many other circum
 
 <p>Here we’re learning how to use our funamental rules of powers knowledge (from <a href="https://andrewharmellaw.github.io/2016/12/10/gelfands-algebra-chunk-5-powers">Chunk 5</a>) to allow us to spot a way to massage things into our difference-of-squares again.</p>
 
-<p>Here we need to convert <span>​<script type="math/tex">3b^2</script></span> into a “perfect” square. (That’s something which is squared to you and I, at this point anyway.)  It might sound a trifle complicated, but really it’s a series of incredibly simple steps.  The aim is to square root everything, and then square it all again.  To do that you need to split things up a bit and remember that the square root of a value squared is simply the value itself.</p>
+<p>Here we need to convert <span>​<script type="math/tex">3b^2</script></span> into a “perfect” square.<label for="sn-id-whatever" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-whatever" class="margin-toggle" /><span class="sidenote">That’s something which is squared to you and I, at this point anyway. </span>  It might sound a trifle complicated, but really it’s a series of incredibly simple steps.  The aim is to square root everything, and then square it all again.  To do that you need to split things up a bit and remember that the square root of a value squared is simply the value itself.</p>
 
 <p>I’m going to go s-u-p-e-r s-l-o-w on this one just to check you’re following.</p>
 
@@ -349,7 +346,7 @@ We got here by trying to see the wood for the trees, and as in many other circum
 
 <div class="mathblock"><script type="math/tex; mode=display"> = (a + b)^2 - c^2 = </script></div>
 
-<p>At this point I felt super-satisfied with myself that I’d spotted the square-of-a-sum and stopped.  But I’d missed one more pattern - a difference-of-squares.  Let’s apply that too.</p>
+<p>At this point I felt super-satisfied with myself that I’d spotted the <em>Square of a Sum</em> and stopped.  But I’d missed one more pattern - a <em>Difference of Squares</em>.  Let’s apply that too.</p>
 
 <div class="mathblock"><script type="math/tex; mode=display"> = (a + b - c)(a + b + c)</script></div>
 
@@ -373,14 +370,14 @@ We got here by trying to see the wood for the trees, and as in many other circum
 
 <div class="mathblock"><script type="math/tex; mode=display"> = ((a + 2b) - b)((a + 2b) + b)</script></div>
 
-<p>That was simple, but it also feels a little bit like magic.  Maths-super-power magic. A feeling I personally nver felt in high school when I was chipping away (unsuccessfully) at all this.</p>
+<p>That was simple, but it also feels a little bit like magic.  Maths-super-power magic.<label for="sn-id-whatever" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-whatever" class="margin-toggle" /><span class="sidenote">A feeling I personally never felt in high school when I was chipping away (unsuccessfully) at all this. </span></p>
 
 <h2 id="tricks-arising-1">Tricks Arising</h2>
 
 <h3 id="advanced-pattern-spotting---plus-minus">Advanced Pattern Spotting - Plus, Minus</h3>
 <p>Much of our new super-powers are based on our getting to the <em>Difference of Squares</em> or <em>Square of a Sum</em>.  Which one?  Look at the signs of the operations (<span>​<script type="math/tex">+</script></span> or <span>​<script type="math/tex">-</script></span>) between your terms.  These will give you a clue.</p>
 
-<p>Also note, you might spot the pattern in <em>a part</em> of your current expression.  If you do, its fine to work on that part, and forget about the other bit for a minute until you are ready to return to it. (But don’t forget to return.)</p>
+<p>Also note, you might spot the pattern in <em>a part</em> of your current expression.  If you do, its fine to work on that part, and forget about the other bit for a minute until you are ready to return to it.<label for="sn-id-whatever" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-whatever" class="margin-toggle" /><span class="sidenote">But don’t forget to return. </span></p>
 
 <h3 id="need-a-square-pull-apart-your-powers">Need a Square? Pull Apart Your Powers</h3>
 <p>Remember <span>​<script type="math/tex">a^{10} = (a^5)^2</script></span> - voila! A square!</p>
@@ -404,10 +401,10 @@ We got here by trying to see the wood for the trees, and as in many other circum
 <p>If your co-efficient is not <span>​<script type="math/tex">1</script></span>, then rooting something can seem a little unclear.  But it’s not hard, there are just some additional intermediate steps which you need to take which are the ones I outlined when solving Problem 118(b).  I’ll not repeat myself here.</p>
 
 <h3 id="dont-stop-until-you-have-to">Don’t Stop Until You Have To</h3>
-<p>This is more of a tip than a trick, but it also plays to what you’ll see in Durham is you’ve been reading along with him too.  Remembering that there are almost always <em>many</em> ways to factor something, with many intermediate steps and many possible results, how do you know when to stop?  When <em>you</em> can go no further, that’s when.  This might be because you’re done, or you have no more tricks up your sleeve (remember we’re not done with this topic yet - there is one more Chunk to come).  Always make sure you’re not just stopping because you feel clever at the step you just took (see my write-up of Problem 118(c) above) and gave yourself a break while you patted yourself on the back.  That would be foolish.</p>
+<p>This is more of a tip than a trick, but it also plays to what you’ll see in Durham is you’ve been reading along with him too.  Remembering that there are almost always <em>many</em> ways to factor something, with many intermediate steps and many possible results, how do you know when to stop?  When <em>you</em> can go no further, that’s when.  This might be because you’re done, or you have no more tricks up your sleeve.<label for="sn-id-whatever" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-whatever" class="margin-toggle" /><span class="sidenote">Remember we’re not done with this topic yet - there is one more Chunk to come. </span>  Always make sure you’re not just stopping because you feel clever at the step you just took<label for="sn-id-whatever" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-whatever" class="margin-toggle" /><span class="sidenote">See my write-up of Problem 118(c) above. </span> and gave yourself a break while you patted yourself on the back.  That would be foolish.</p>
 
 <h2 id="whats-left">What’s Left?</h2>
-<p>At this point in our factoring journey, it feels like we’ve come a long way.) Is there anything left?  Gelfand has one more chunk up his sleeve for us.  And that’s the next post.</p>
+<p>At this point in our factoring journey, it feels like we’ve come a long way. Is there anything left?  Gelfand has one more chunk up his sleeve for us.  And that’s the next post.</p>
 
 <h2 id="terminology">Terminology</h2>
 <ul>
