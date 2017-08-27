@@ -5,8 +5,8 @@
         <description>Maths from the Ground Up - Andrew Harmel-Law</description>
         <link>http://andrewharmellaw.github.io</link>
         <atom:link href="http://andrewharmellaw.github.io" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Sun, 27 Aug 2017 20:11:33 +0100</lastBuildDate>
-        <pubDate>Sun, 27 Aug 2017 20:11:33 +0100</pubDate>
+        <lastBuildDate>Sun, 27 Aug 2017 20:48:54 +0100</lastBuildDate>
+        <pubDate>Sun, 27 Aug 2017 20:48:54 +0100</pubDate>
         <ttl>60</ttl>
 
 
@@ -2333,11 +2333,11 @@ If when you look at your polynomial you see that nothing is subtracted (as in Pr
                 <title>Gelfand: Chunk 14 - Polynomial Division</title>
                 <description>
 &lt;h2 id=&quot;a-quick-note---monomial-degrees&quot;&gt;A Quick Note - Monomial Degrees&lt;/h2&gt;
-&lt;p&gt;This concept actually is a very simple one (unlike some &lt;em&gt;seemingly&lt;/em&gt; simple concepts which in fact turn out to be nebulously nightmarish.)&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;This concept actually is a very simple one&lt;/span&gt; &lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Unlike some &lt;em&gt;seemingly&lt;/em&gt; simple concepts which in fact turn out to be nebulously nightmarish. &lt;/span&gt;&lt;/p&gt;
 
 &lt;p&gt;It is however, a &lt;em&gt;fundamental&lt;/em&gt; one, hence why I’ve chosen to highlight it.  Why fundamental? Because in order to bootstrap your mind into the next set of chunks, you’ll need to be able to snap your fingers at any time and point to the degree of a given monomial (and thence the entire polynomial to which it belongs).&lt;/p&gt;
 
-&lt;p&gt;So what is the degree of of a monomial? Here it is, in textual form first (from Gelfand pp 61):&lt;/p&gt;
+&lt;p&gt;So what is the degree of of a monomial? Here it is, in textual form first:&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;From Gelfand pp 61 &lt;/span&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;“If a polynomial contains only one variable, it’s standard form consists of it’s monomials written in order of decreasing degrees. The monomial having the highest degree is called the ‘first monomial’. It’s degree is called the ‘degree of the polynomial.”&lt;/p&gt;
@@ -2345,75 +2345,73 @@ If when you look at your polynomial you see that nothing is subtracted (as in Pr
 
 &lt;p&gt;Now let’s break this into pieces and show it visually&lt;/p&gt;
 
-&lt;ol&gt;
+&lt;ul&gt;
   &lt;li&gt;
-    &lt;p&gt;“… a polynomial contains &lt;em&gt;only one variable&lt;/em&gt;…” - i.e. “$x$”.  That means $2x^2 + 3x - 3$ meets this criteria, as does $b^{300}$ but $a^2 + 2ab - 3$ doesn’t&lt;/p&gt;
+    &lt;p&gt;“… a polynomial contains &lt;em&gt;only one variable&lt;/em&gt;…” - i.e. “&lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;x&lt;/script&gt;&lt;/span&gt;”.  That means &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;2x^2 + 3x - 3&lt;/script&gt;&lt;/span&gt; meets this criteria, as does &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;b^{300}&lt;/script&gt;&lt;/span&gt; but &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a^2 + 2ab - 3&lt;/script&gt;&lt;/span&gt; does not&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;“&lt;em&gt;Standard&lt;/em&gt; Form” - We discussed this at length in &lt;a href=&quot;https://andrewharmellaw.github.io/2017/01/10/gelfands-algebra-chun-8-nomials&quot;&gt;Chunk 8 - ‘Nomials&lt;/a&gt;.  I added at the time that it was nice to order things decreasing by degree. That’ll be helpful in the next step. This also means that while $3x - 3 + 2x^2$ and $2x^2 + 3x - 3$ are equivalent, but only the latter is in Standard Form.&lt;/p&gt;
+    &lt;p&gt;“&lt;em&gt;Standard Form&lt;/em&gt;” - We discussed this at length in &lt;a href=&quot;https://andrewharmellaw.github.io/2017/01/10/gelfands-algebra-chun-8-nomials&quot;&gt;Chunk 8 - ‘Nomials&lt;/a&gt;.  I added at the time that it was nice to order things decreasing by degree. That’ll be helpful in the next step. This also means that while &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;3x - 3 + 2x^2&lt;/script&gt;&lt;/span&gt; and &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;2x^2 + 3x - 3&lt;/script&gt;&lt;/span&gt; are equivalent, but only the latter is in &lt;em&gt;Standard Form&lt;/em&gt;.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;“The monomial having the highest degree is called the ‘&lt;em&gt;first&lt;/em&gt; monomial’” - See the reason for ordering?  It will literally be the first monomial in your polynomial if you’ve done this.  Therefore in $2x^2 + 3x - 3$ the first monomial is $2x^2$, and in $b^{300}$ the first monomial is $b^{300}$&lt;/p&gt;
+    &lt;p&gt;“The monomial having the highest degree is called the ‘&lt;em&gt;first&lt;/em&gt; monomial’” - See the reason for ordering?  It will literally be the first monomial in your polynomial if you’ve done this.  Therefore in &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;2x^2 + 3x - 3&lt;/script&gt;&lt;/span&gt; the first monomial is &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;2x^2&lt;/script&gt;&lt;/span&gt;, and in &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;b^{300}&lt;/script&gt;&lt;/span&gt; the first monomial is &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;b^{300}&lt;/script&gt;&lt;/span&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;“It’s degree (the first monomial) is called the ‘degree of the polynomial’” - That means that in $2x^2 + 3x - 3$ the degree is $2$, and in $b^{300}$ the degree is $300$&lt;/p&gt;
+    &lt;p&gt;“It’s degree (the first monomial) is called the ‘degree of the polynomial’” - That means that in &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;2x^2 + 3x - 3&lt;/script&gt;&lt;/span&gt; the degree is &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;2&lt;/script&gt;&lt;/span&gt;, and in &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;b^{300}&lt;/script&gt;&lt;/span&gt; the degree is &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;300&lt;/script&gt;&lt;/span&gt;&lt;/p&gt;
   &lt;/li&gt;
-&lt;/ol&gt;
+&lt;/ul&gt;
 
 &lt;h3 id=&quot;a-first-subtlety---constants&quot;&gt;A First Subtlety - Constants&lt;/h3&gt;
-&lt;p&gt;What if there are no variables? (N.b. this is just equivalent to a polynomial where all variables have co-efficients of value $0$)  In these circumstances, your degree is $0$ too.&lt;/p&gt;
+&lt;p&gt;What if there are no variables? (N.b. this is just equivalent to a polynomial where all variables have co-efficients of value &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;0&lt;/script&gt;&lt;/span&gt;). In these circumstances, your degree is &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;0&lt;/script&gt;&lt;/span&gt; too.&lt;/p&gt;
 
 &lt;p&gt;Remember&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;3 = 3x^0 = 3 \times 1 = 3&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;3 = 3x^0 = 3 \times 1 = 3&lt;/script&gt;&lt;/div&gt;
 
 &lt;h3 id=&quot;a-second-subtlety---undefined-degrees&quot;&gt;A Second Subtlety - Undefined Degrees&lt;/h3&gt;
-&lt;p&gt;What about monomials with zero-co-efficients? (I.e. with a co-efficient of $0$).  These monomials are ignored, and their degrees (the monomials) are “undefined” (which means you may then fall back on the degree of a constant)&lt;/p&gt;
+&lt;p&gt;What about monomials with zero-co-efficients? (I.e. with a co-efficient of &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;0&lt;/script&gt;&lt;/span&gt;).  These monomials are ignored, and their degrees (the monomials) are “undefined” (which means you may then fall back on the degree of a constant).&lt;/p&gt;
 
 &lt;p&gt;Extending the example we just saw&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;0x^2 + 3 = 0x^2 + 3x^0 = 0 + 3x^0 = 3 \times 1 = 3&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;0x^2 + 3 = 0x^2 + 3x^0 = 0 + 3x^0 = 3 \times 1 = 3&lt;/script&gt;&lt;/div&gt;
 
 &lt;h2 id=&quot;degree-consequences&quot;&gt;Degree Consequences&lt;/h2&gt;
-&lt;p&gt;With all this in place, things start to get useful (if also a bit meta).  Via the medium of problems (Problems 137 and 138), Gelfand gets us to realise the following rules:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;With all this in place,&lt;/span&gt;  things start to get useful.&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;If also a bit meta &lt;/span&gt;  Via the medium of problems,&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Problems 137 and 138 &lt;/span&gt; Gelfand gets us to realise the following rules:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;the degree of the &lt;em&gt;product&lt;/em&gt; of two polynomials (one with degree $a$ and the other with degree $b$) is $a + b$ (How? Remember &lt;a href=&quot;https://andrewharmellaw.github.io/2016/12/10/gelfands-algebra-chunk-5-powers&quot;&gt;Chunk 5 - Powers&lt;/a&gt;)&lt;/li&gt;
-  &lt;li&gt;the degree of the &lt;em&gt;sum&lt;/em&gt; of two polynomials with degrees $x$ and $y$, where $x &amp;gt;= y$, will be $x$&lt;/li&gt;
-  &lt;li&gt;the degree of the sum of two polynomials both having degrees $x$ will be $&amp;lt;= x$&lt;/li&gt;
+  &lt;li&gt;the degree of the &lt;em&gt;product&lt;/em&gt; of two polynomials (one with degree &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a&lt;/script&gt;&lt;/span&gt; and the other with degree &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;b&lt;/script&gt;&lt;/span&gt;) is &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a + b&lt;/script&gt;&lt;/span&gt;&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;How? Remember &lt;a href=&quot;https://andrewharmellaw.github.io/2016/12/10/gelfands-algebra-chunk-5-powers&quot;&gt;Chunk 5 - Powers&lt;/a&gt; &lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;the degree of the &lt;em&gt;sum&lt;/em&gt; of two polynomials with degrees &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;x&lt;/script&gt;&lt;/span&gt; and &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;y&lt;/script&gt;&lt;/span&gt;, where &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;x \ge y&lt;/script&gt;&lt;/span&gt;, will be &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;x&lt;/script&gt;&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;the degree of the sum of two polynomials both having degrees &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;x&lt;/script&gt;&lt;/span&gt; will be &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;\le x&lt;/script&gt;&lt;/span&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;tricks-arising&quot;&gt;Tricks Arising&lt;/h2&gt;
-&lt;p&gt;### You Can Represent a &lt;em&gt;Whole&lt;/em&gt; Polynomial as a &lt;em&gt;Single&lt;/em&gt; Variable
-This powerful concept was snuck in by Gelfand in his further discussions of  Rational Expressions (Section 34, pp 56-57) but he didnt ask you to manipulate them in any way so I didn’t bring them up until now.  However, in problem 137 you have to make this mental leap for yourself.&lt;/p&gt;
 
-&lt;p&gt;It looks a little scary, (not so much perhaps for programmers who are used to multiple levels of abstraction) but it’s fine. Go on, nothing’s stopping you.&lt;/p&gt;
+&lt;h3 id=&quot;you-can-represent-a-whole-polynomial-as-a-single-variable&quot;&gt;You Can Represent a &lt;em&gt;Whole&lt;/em&gt; Polynomial as a &lt;em&gt;Single&lt;/em&gt; Variable&lt;/h3&gt;
+&lt;p&gt;This powerful concept was snuck in by Gelfand in his further discussions of  Rational Expressions&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Section 34, pp 56-57 &lt;/span&gt; but he didnt ask you to manipulate them in any way so I didn’t bring them up until now.  However, in problem 137 you have to make this mental leap for yourself.&lt;/p&gt;
 
-&lt;p&gt;This means that we can take $2x^2 + 3x - 3$ and replace it with $A$.  But remember, $A$ is a variable too.  We’ve specified that $A$ is “any polynomial with degree $2$” so $A$ could just as easily represent $1000z^2 - 9z$ or even $-17b^2$.  It couldn’t however represent $2x^{300} + 3x - 3$, nor could it represent $2b^2 + 3ab - 3$ as these don’t meet the criteria for being an $A$.  The &lt;em&gt;degree&lt;/em&gt; here is key for us as we’ve specified it in our $A$-rules.  (And for this they must be a polynomial in one variable - though I’m a little shaky on this, perhaps polynomials in multiple variables have multiple degrees, I’ll come back here if I’m wrong and update this.)&lt;/p&gt;
+&lt;p&gt;It looks a little scary,&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Not so much perhaps for programmers who are used to multiple levels of abstraction &lt;/span&gt; but it’s fine. Go on, nothing’s stopping you.&lt;/p&gt;
+
+&lt;p&gt;This means that we can take &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;2x^2 + 3x - 3&lt;/script&gt;&lt;/span&gt; and replace it with &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt;&lt;/span&gt;.  But remember, &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt;&lt;/span&gt; is a variable too.  We’ve specified that &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt;&lt;/span&gt; is “any polynomial with degree &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;2&lt;/script&gt;&lt;/span&gt;” so &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt;&lt;/span&gt; could just as easily represent &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;1000z^2 - 9z&lt;/script&gt;&lt;/span&gt; or even &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;-17b^2&lt;/script&gt;&lt;/span&gt;.  It couldn’t however represent &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;2x^{300} + 3x - 3&lt;/script&gt;&lt;/span&gt;, nor could it represent &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;2b^2 + 3ab - 3&lt;/script&gt;&lt;/span&gt; as these don’t meet the criteria for being an &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt;&lt;/span&gt;.  The &lt;em&gt;degree&lt;/em&gt; here is key for us as we’ve specified it in our &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt;&lt;/span&gt;-rules.&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;And for this they must be a polynomial in one variable - though I’m a little shaky on this, perhaps polynomials in multiple variables have multiple degrees, I’ll come back here if I’m wrong and update this. &lt;/span&gt;&lt;/p&gt;
 
 &lt;p&gt;See now why I said grokking degrees solidly was handy?&lt;/p&gt;
 
 &lt;p&gt;N.b. Durham does this &lt;em&gt;a lot&lt;/em&gt; in his later solutions, so it’s worth getting comfortable with it before progressing.&lt;/p&gt;
 
 &lt;h2 id=&quot;proper-and-improper-fractions&quot;&gt;Proper and Improper Fractions&lt;/h2&gt;
-&lt;p&gt;Fractions again. Urgh.  And it turns out they get even more complicated with the concepts of “proper” and “improper” ones.  Luckily, this is super-easy to grokk (and not much harder to commit to memory).&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;Fractions again.&lt;/span&gt;  Urgh.  And it turns out they get even more complicated with the concepts of “proper” and “improper” ones.  Luckily, this is super-easy to grokk.&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;And not much harder to commit to memory. &lt;/span&gt;&lt;/p&gt;
 
 &lt;p&gt;As we’re building on previous blocks again mathematicians have come up with a nice short-hard to flag if a fraction really is &lt;em&gt;just a fraction&lt;/em&gt; or if it is in fact a whole number and a fraction.&lt;/p&gt;
 
-&lt;p&gt;If something is &lt;em&gt;just a fraction&lt;/em&gt; then the numerator (the bit on the top) will be smaller than the denominator (the bit at the bottom).&lt;/p&gt;
+&lt;p&gt;If something is &lt;em&gt;just a fraction&lt;/em&gt; then the numerator&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;The bit on the top. &lt;/span&gt; will be smaller than the denominator.&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;The bit on the bottom. &lt;/span&gt;&lt;/p&gt;
 
 &lt;p&gt;If something is &lt;em&gt;a whole number and a fraction&lt;/em&gt; then the numerator will be greater than or equal to the denominator.&lt;/p&gt;
 
-&lt;p&gt;Any improper fraction can therefore simply be broken out into a whole number, and the &lt;em&gt;remaining&lt;/em&gt; proper fraction.  It’s what you get from long division in fact (the one you know from school, and that we revised in &lt;a href=&quot;https://andrewharmellaw.github.io/algebra/2016/11/16/gelfands-algebra-chunk-1-fundamentals&quot;&gt;Chunk 1 - Fundamentals&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;Any improper fraction can therefore simply be broken out into a whole number, and the &lt;em&gt;remaining&lt;/em&gt; proper fraction.  It’s what you get from long division in fact&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;The one you know from school, and that we revised in &lt;a href=&quot;https://andrewharmellaw.github.io/algebra/2016/11/16/gelfands-algebra-chunk-1-fundamentals&quot;&gt;Chunk 1 - Fundamentals&lt;/a&gt;. &lt;/span&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;proper-and-improper-and-fractions-and-polynomials&quot;&gt;Proper and Improper and Fractions and Polynomials&lt;/h3&gt;
 &lt;p&gt;What happens when you divide two polynomials in one variable?  It’s the same as regular numbers. You can have improper and improper fractions, and you can convert the former to the latter in the same way.&lt;/p&gt;
 
-&lt;p&gt;You can use a very similar method to do the work of division too, using a form of the long-division algorithm.&lt;/p&gt;
+&lt;p&gt;You can use a very similar method to do the work of division too, using a form of the long-division algorithm. There is even a definition&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;The first of these that we come across in Gelfand if I recall correctly. &lt;/span&gt;&lt;/p&gt;
 
-&lt;p&gt;There is even a definition (the first of these that we come across in Gelfand too if I recall correctly)&lt;/p&gt;
-
-&lt;h4 id=&quot;definition&quot;&gt;Definition&lt;/h4&gt;
 &lt;blockquote&gt;
   &lt;p&gt;Assume that we have two polynomials (both in the same, single variable), called the dividend and the divisior. To perform a division means to find two other polynomials , called the quotient and the remainder such that (dividend) = (quotient).(divisor) + remainder) where the degree of the remainder is less than the degree of the degree of the divisor (or is zero)&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -2421,22 +2419,20 @@ This powerful concept was snuck in by Gelfand in his further discussions of  Rat
 &lt;p&gt;For super-clarity,&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;the dividend is the polynomial &lt;em&gt;inside&lt;/em&gt; the long-division “L” (and also the numerator when expressed as an improper fraction)&lt;/li&gt;
-  &lt;li&gt;the divisor is is the polynomial &lt;em&gt;outside and to the left of&lt;/em&gt; the long-division “L” (and also the denominator when expressed as an improper fraction)&lt;/li&gt;
-  &lt;li&gt;the quotient is the resulting polynomial &lt;em&gt;on top of&lt;/em&gt; the long-division “L” (and also the whole polynomial element resulting from the division)&lt;/li&gt;
-  &lt;li&gt;the remainder is either zero or the undivisable element at the bottom of the working in the long-division (and also the proper fraction polynomial element resulting from the division)&lt;/li&gt;
+  &lt;li&gt;the dividend is the polynomial &lt;em&gt;inside&lt;/em&gt; the long-division “L”&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;And also the numerator when expressed as an improper fraction. &lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;the divisor is is the polynomial &lt;em&gt;outside and to the left of&lt;/em&gt; the long-division “L”&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;And also the denominator when expressed as an improper fraction. &lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;the quotient is the resulting polynomial &lt;em&gt;on top of&lt;/em&gt; the long-division “L”&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;And also the whole polynomial element resulting from the division. &lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;the remainder is either zero or the undivisable element at the bottom of the working in the long-division&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;And also the proper fraction polynomial element resulting from the division.  &lt;/span&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;polynomial-division---worked-examples&quot;&gt;Polynomial Division - Worked Examples&lt;/h2&gt;
-&lt;p&gt;Given &lt;a href=&quot;https://andrewharmellaw.github.io/2016/11/30/gelfands-algebra-chunk-4-fractions-urgh&quot;&gt;my history&lt;/a&gt;, the very concept of “Polynomial Division” sounded horrifing to me when I first thought if it, but compared to the actual physical pain that factoring can cause you this is actually a nice return to the world of mechanistically applying a set of steps to something to achive an end result.  Nice.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;Given &lt;a href=&quot;https://andrewharmellaw.github.io/2016/11/30/gelfands-algebra-chunk-4-fractions-urgh&quot;&gt;my history&lt;/a&gt;,&lt;/span&gt;  the very concept of “Polynomial Division” sounded horrifing to me when I first thought if it, but compared to the actual physical pain that factoring can cause you this is actually a nice return to the world of mechanistically applying a set of steps to something to achive an end result.  Nice.&lt;/p&gt;
 
-&lt;p&gt;Now we have all the elements in place to dive into this, lets see a few worked examples, taken from Gelfand, but with more inline explanation than might to help things embed mentally.&lt;/p&gt;
-
-&lt;p&gt;(Props by the way to &lt;a href=&quot;https://stackoverflow.com/users/502334/davide-cervone&quot;&gt;Davide Cervone&lt;/a&gt; for his &lt;a href=&quot;http://stackoverflow.com/a/22871404&quot;&gt;very handy answer&lt;/a&gt; on the tex.stackexchange.com forums.)&lt;/p&gt;
+&lt;p&gt;Now we have all the elements in place to dive into this, lets see a few worked examples, taken from Gelfand, but with more inline explanation than might to help things embed mentally.&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Props by the way to &lt;a href=&quot;https://stackoverflow.com/users/502334/davide-cervone&quot;&gt;Davide Cervone&lt;/a&gt; for his &lt;a href=&quot;http://stackoverflow.com/a/22871404&quot;&gt;very handy answer&lt;/a&gt; on the tex.stackexchange.com forums. &lt;/span&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;example-from-page-63&quot;&gt;Example from Page 63&lt;/h3&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;
 \require{enclose}
 \begin{array}{rll}
     x^3 + 2x^2 + 4x + 8 \phantom{00000000} &amp;&amp; \hbox{(Explanations)} \\[-3pt]
@@ -2449,33 +2445,34 @@ This powerful concept was snuck in by Gelfand in his further discussions of  Rat
       8x\phantom{000000} &amp;&amp; \hbox{($0 - (-8x) = 8x$)} \\[-3pt]
       \underline{8x-16\phantom{00}} &amp;&amp; \hbox{($x-2 \times 8  = 8x - 16$)} \\[-3pt]
       16\phantom{00} &amp;&amp; \hbox{($\leftarrow$ the remainder: $0 - (-16) = 16$)} \\[-3pt]
-  \end{array} %]]&gt;&lt;/script&gt;
+  \end{array}
+&lt;/script&gt;&lt;/div&gt;
 
 &lt;p&gt;Which means our answer is&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\frac{x^4}{x - 2} = x^3 + 2x^2 + 4x + 8 + \frac{16}{x - 2}&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; \frac{x^4}{x - 2} = x^3 + 2x^2 + 4x + 8 + \frac{16}{x - 2} &lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\rightarrow x^4 = (x^3 + 2x^2 + 4x + 8)(x - 2) + 16&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; \rightarrow x^4 = (x^3 + 2x^2 + 4x + 8)(x - 2) + 16 &lt;/script&gt;&lt;/div&gt;
 
 &lt;p&gt;Which is the way things are stated in the definition above.&lt;/p&gt;
 
-&lt;p&gt;For some of you there might be enough in the above to work things through. But it’s nice to pull out the key steps.  We start with our divisor ($x-2$) and our dividend ($x^4$).  We then repeat the following steps, again and again to slowly reveal our quotient, and eventually distill out our remainder.&lt;/p&gt;
+&lt;p&gt;For some of you there might be enough in the above to work things through. But it’s nice to pull out the key steps.  We start with our divisor (&lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;x-2&lt;/script&gt;&lt;/span&gt;) and our dividend (&lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;x^4&lt;/script&gt;&lt;/span&gt;).  We then repeat the following steps, again and again to slowly reveal our quotient, and eventually distill out our remainder.&lt;/p&gt;
 
-&lt;p&gt;We begin by getting our $x^4$, and to do this we need to multiply $x-2$ enough to get this. We can get there by multiplying it by $x^3$.  That gives us $x^4 - 2x^3$.  We put our $x^3$ up atop everything as the first part of our quotient. (I’ve tried to lay things out as nicely as Gelfand does to keep all this clean.  The final step is to then see what we have left of our dividend, and we get this by subtracting $x^4 -2x^3$ from $x^4$&lt;/p&gt;
+&lt;p&gt;We begin by getting our &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;x^4&lt;/script&gt;&lt;/span&gt;, and to do this we need to multiply &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;x-2&lt;/script&gt;&lt;/span&gt; enough to get this. We can get there by multiplying it by &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;x^3&lt;/script&gt;&lt;/span&gt;.  That gives us &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;x^4 - 2x^3&lt;/script&gt;&lt;/span&gt;.  We put our &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;x^3&lt;/script&gt;&lt;/span&gt; up atop everything as the first part of our quotient. (I’ve tried to lay things out as nicely as Gelfand does to keep all this clean.  The final step is to then see what we have left of our dividend, and we get this by subtracting &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;x^4 -2x^3&lt;/script&gt;&lt;/span&gt; from &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;x^4&lt;/script&gt;&lt;/span&gt;&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;x^4 - (x^4 - 2x^3) =&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; x^4 - (x^4 - 2x^3) = &lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;= x^4 -x^4 + 2x^3 =&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = x^4 -x^4 + 2x^3 = &lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;= 2x^3&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = 2x^3 &lt;/script&gt;&lt;/div&gt;
 
-&lt;p&gt;From this point on it’s just rinse and repeat.  Your new dividend is $2x^3$.&lt;/p&gt;
+&lt;p&gt;From this point on it’s just rinse and repeat.  Your new dividend is &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;2x^3&lt;/script&gt;&lt;/span&gt;.&lt;/p&gt;
 
 &lt;p&gt;I’ll work through the next two in sub-Gelfand detail too.&lt;/p&gt;
 
 &lt;h3 id=&quot;first-example-from-page-64&quot;&gt;First Example from Page 64&lt;/h3&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;
 \require{enclose}
 \begin{array}{rll}
     x + 1 \phantom{0000000000} &amp;&amp; \hbox{(Explanations)} \\[-3pt]
@@ -2484,15 +2481,16 @@ This powerful concept was snuck in by Gelfand in his further discussions of  Rat
       x^2 + x\phantom{00000} &amp;&amp; \hbox{($2x - (-x^2 + x) = x^2 + x$)} \\[-3pt]
       \underline{x^2 - x + 1 \phantom{00}} &amp;&amp; \hbox{($x^2 - x + 1\times 1 = x^2 - x + 1$)} \\[-3pt]
       2x - 1\phantom{0} &amp;&amp; \hbox{($\leftarrow$ the remainder: $x - (-x + 1) = 2x - 1$)} \\[-3pt]
-  \end{array} %]]&gt;&lt;/script&gt;
+  \end{array}
+&lt;/script&gt;&lt;/div&gt;
 
-&lt;p&gt;The difference between this one and the example before is that the subtractions to get the remaining dividend are a &lt;em&gt;little more&lt;/em&gt; complicated.  Not much though. I’ve tried to push the $2x$ right a bit in the example above so the columns stay lined up and you can follow things through.&lt;/p&gt;
+&lt;p&gt;The difference between this one and the example before is that the subtractions to get the remaining dividend are a &lt;em&gt;little more&lt;/em&gt; complicated.  Not much though. I’ve tried to push the &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;2x&lt;/script&gt;&lt;/span&gt; right a bit in the example above so the columns stay lined up and you can follow things through.&lt;/p&gt;
 
 &lt;h3 id=&quot;second-example-from-page-64&quot;&gt;Second Example from Page 64&lt;/h3&gt;
 
 &lt;p&gt;As previously, here’s the deeply-worked example first.&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;
 \require{enclose}
 \begin{array}{rll}
     \frac{1}{2}x^2 + \frac{3}{4}x + \frac{9}{8}\phantom{00000000} &amp;&amp; \hbox{(Explanations)} \\[-3pt]
@@ -2503,24 +2501,25 @@ This powerful concept was snuck in by Gelfand in his further discussions of  Rat
       \frac{9}{4}x \phantom{0000000} &amp;&amp; \hbox{($0 - (-\frac{9}{4}x) = \frac{9}{4}x$)} \\[-3pt]
       \underline{\frac{9}{4}x - \frac{27}{8}x\phantom{0}} &amp;&amp; \hbox{($(2x - 3) \times \frac{9}{8} = \frac{27}{8}$)} \\[-3pt]
       \frac{27}{8} \phantom{00} &amp;&amp; \hbox{($\leftarrow$ the remainder: $0 - (-\frac{27}{8}) = \frac{27}{8}$)} \\[-3pt]
-  \end{array} %]]&gt;&lt;/script&gt;
+  \end{array}
+&lt;/script&gt;&lt;/div&gt;
 
 &lt;p&gt;So what’s interesting here?  This time we’ve had to jump through fraction-hoops a little to get the pieces we want.  It looks complicated, but if we pull out the first one for you and show you it in isolation, all should become a lot clearer.&lt;/p&gt;
 
-&lt;p&gt;OK, so we need to get an $x^3$, and we have $2x - 3$.  What do we need to do to the latter, to get some of the former? Half it then multiply by $x^2$, or in other words, multiply by $\frac{1}{2}x^2$.&lt;/p&gt;
+&lt;p&gt;OK, so we need to get an &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;x^3&lt;/script&gt;&lt;/span&gt;, and we have &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;2x - 3&lt;/script&gt;&lt;/span&gt;.  What do we need to do to the latter, to get some of the former? Half it then multiply by &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;x^2&lt;/script&gt;&lt;/span&gt;, or in other words, multiply by &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;\frac{1}{2}x^2&lt;/script&gt;&lt;/span&gt;.&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\frac{1}{2}x^2 \times (2x - 3) =&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; \frac{1}{2}x^2 \times (2x - 3) = &lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;= (\frac{1}{2}x^2 \times \frac{2}{1}x^1) - (\frac{1}{2}x^2 \times \frac{3}{1})&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = (\frac{1}{2}x^2 \times \frac{2}{1}x^1) - (\frac{1}{2}x^2 \times \frac{3}{1}) &lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;= \frac{2}{2}x^3 - \frac{3}{2}&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = \frac{2}{2}x^3 - \frac{3}{2} &lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;= x^3 - \frac{3}{2}&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = x^3 - \frac{3}{2} &lt;/script&gt;&lt;/div&gt;
 
 &lt;p&gt;If you take this method and work it all the way through the rest of the example (perhaps moving things to one side to figure things out in this way) it should all fall into place.&lt;/p&gt;
 
 &lt;h2 id=&quot;commentary---the-important-things-to-notice-problems&quot;&gt;Commentary - The “Important Things to Notice” Problems&lt;/h2&gt;
-&lt;p&gt;As is his way, Gelfand closes out the section with some semi-abstract problems to which you are supposed to have “ah-ha!” moments.  I know to my detriment (I’m not re-reading his book, blogging it as I go for no reason) that you misapprehend (or heaven-forbid skip) these at your peril.  So what are we supposed to grok here?&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;As is his way,&lt;/span&gt;  Gelfand closes out the section with some semi-abstract problems to which you are supposed to have “ah-ha!” moments.  I know to my detriment&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;I’m not re-reading his book, blogging it as I go for no reason. &lt;/span&gt; that you misapprehend&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Or heaven-forbid skip. &lt;/span&gt; these at your peril.  So what are we supposed to grok here?&lt;/p&gt;
 
 &lt;h3 id=&quot;the-relationships-between-degrees&quot;&gt;The Relationships Between Degrees&lt;/h3&gt;
 &lt;p&gt;This is covered in Problems 140 and 142.  There are some “Laws” hidden in there; things that always hold true, and which, no doubt, will be relied upon in a higher algebraic-storey which builds upon them.&lt;/p&gt;
@@ -2528,26 +2527,26 @@ This powerful concept was snuck in by Gelfand in his further discussions of  Rat
 &lt;p&gt;The laws are as follows:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;If the degree of the dividend is larger than the degree of the divisor the degree of the quotient will clearly be the degree of the dividend polynomial  minus the degree of the divisor polynomial.  The degree of the remainder may then be undefined (there is no remainder) or it may be anywhere from $0$ to $n - 1$ (where $n$ is the degree of the quotient).&lt;/li&gt;
+  &lt;li&gt;If the degree of the dividend is larger than the degree of the divisor the degree of the quotient will clearly be the degree of the dividend polynomial  minus the degree of the divisor polynomial.  The degree of the remainder may then be undefined (there is no remainder) or it may be anywhere from &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;0&lt;/script&gt;&lt;/span&gt; to &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;n - 1&lt;/script&gt;&lt;/span&gt; (where &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt;&lt;/span&gt; is the degree of the quotient).&lt;/li&gt;
   &lt;li&gt;If, on the other hand, the degree of the dividend is smaller than the degree of the divisor, the fraction is already proper.  In this case the quotient is equal to zero and the remainder is equal to the dividend.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;the-uniqueness-of-resulting-quotients-and-remainders&quot;&gt;The Uniqueness of Resulting Quotients and Remainders&lt;/h3&gt;
-&lt;p&gt;This is covered in Problem 141.  The aim here is for Gelfand to show us that the quotient and remainders which we produced via the method he outlined (and which I’ve gone into more detail on in the majority of this post) are unique.  That is to say, the quotient produced is the only quotient in the circumstances, and the remainder is the only remainder.&lt;/p&gt;
+&lt;p&gt;This is covered in Problem 141.  The aim here is for Gelfand to show us that the quotient and remainders which we produced via the method he outlined&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;And which I’ve gone into more detail on in the majority of this post. &lt;/span&gt; are unique.  That is to say, the quotient produced is the only quotient in the circumstances, and the remainder is the only remainder.&lt;/p&gt;
 
 &lt;p&gt;That’s actually quite reassuring, especially having just come from Factoring-land where you’re never quite sure if there’s something else just around the corner to find, if only you were a bit better at all that stuff…&lt;/p&gt;
 
-&lt;p&gt;The way Gelfand proves it is pretty interesting too. (Sometimes the method is as important as the end result, and you’re supposed to be always paying attention.)  The following things are of note:&lt;/p&gt;
+&lt;p&gt;The way Gelfand proves it is pretty interesting too.&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Sometimes the method is as important as the end result, and you’re supposed to be always paying attention. &lt;/span&gt;  The following things are of note:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;he’s gone all meta, representing polynomials in a single variable as individual variables again (with capital letters again too - I smell a convention here…)&lt;/li&gt;
-  &lt;li&gt;the variables he uses are actually quite simple.  $P$ is the dividend, $S$ is the divisor, $Q$ is the quotient and $R$ is the remainder.  If $Q$ and $R$ have such intuitive names, why then have $P$ and $S$?  I could thrown up my hands and exclaim “mathematicians” but remember, both the others start with “D”, and $P$ and $S$ do make a nice alphabetical run…&lt;/li&gt;
-  &lt;li&gt;the formula is simple too. (It even works for non-polynomial division.)  Any number ($P$) is equal to two other numbers multiplied by each other ($Q$ the quotient and $S$ the divisor) and a remainder ($R$)&lt;/li&gt;
-  &lt;li&gt;The approach to the proof is to begin by making an assumption (in this case that there might be more than one Quotient, $Q_{1}$ and $Q_{2}$, and more than one Remainder, $R_{1}$ and $R_{2}$) and then logically follow the implications of that assumption.  In this case that $Q_{1} = Q_{2}$ and $R_{1} = R_{2}$&lt;/li&gt;
+  &lt;li&gt;he’s gone all meta, representing polynomials in a single variable as individual variables again&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;With capital letters again too - I smell a convention here… &lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;the variables he uses are actually quite simple.  &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;P&lt;/script&gt;&lt;/span&gt; is the dividend, &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;S&lt;/script&gt;&lt;/span&gt; is the divisor, &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;Q&lt;/script&gt;&lt;/span&gt; is the quotient and &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;R&lt;/script&gt;&lt;/span&gt; is the remainder.  If &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;Q&lt;/script&gt;&lt;/span&gt; and &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;R&lt;/script&gt;&lt;/span&gt; have such intuitive names, why then have &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;P&lt;/script&gt;&lt;/span&gt; and &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;S&lt;/script&gt;&lt;/span&gt;?  I could thrown up my hands and exclaim “mathematicians” but remember, both the others start with “D”, and &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;P&lt;/script&gt;&lt;/span&gt; and &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;S&lt;/script&gt;&lt;/span&gt; do make a nice alphabetical run…&lt;/li&gt;
+  &lt;li&gt;the formula is simple too.&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;It even works for non-polynomial division. &lt;/span&gt;  Any number (&lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;P&lt;/script&gt;&lt;/span&gt;) is equal to two other numbers multiplied by each other (&lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;Q&lt;/script&gt;&lt;/span&gt; the quotient and &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;S&lt;/script&gt;&lt;/span&gt; the divisor) and a remainder (&lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;R&lt;/script&gt;&lt;/span&gt;)&lt;/li&gt;
+  &lt;li&gt;The approach to the proof is to begin by making an assumption (in this case that there might be more than one Quotient, &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;Q_{1}&lt;/script&gt;&lt;/span&gt; and &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;Q_{2}&lt;/script&gt;&lt;/span&gt;, and more than one Remainder, &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;R_{1}&lt;/script&gt;&lt;/span&gt; and &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;R_{2}&lt;/script&gt;&lt;/span&gt;) and then logically follow the implications of that assumption.  In this case that &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;Q_{1} = Q_{2}&lt;/script&gt;&lt;/span&gt; and &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;R_{1} = R_{2}&lt;/script&gt;&lt;/span&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;another-pseudo-conclusion&quot;&gt;Another Pseudo-Conclusion&lt;/h2&gt;
-&lt;p&gt;We’re not really completely done with Polynomial Division.  Gelfand has a few more tricks up his sleeve which I’ll cover next in &lt;a href=&quot;https://andrewharmellaw.github.io/2017/02/28/gelfands-algebra-chunk-15-polynomial-division-special-cases&quot;&gt;Chunk 15 - Polynomial Division Addendum&lt;/a&gt;.  But this is a good place to stop for now.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;We’re not really completely done with Polynomial Division.&lt;/span&gt;   Gelfand has a few more tricks up his sleeve which I’ll cover next in &lt;a href=&quot;https://andrewharmellaw.github.io/2017/02/28/gelfands-algebra-chunk-15-polynomial-division-special-cases&quot;&gt;Chunk 15 - Polynomial Division Addendum&lt;/a&gt;.  But this is a good place to stop for now.&lt;/p&gt;
 </description>
                 <link>http://andrewharmellaw.github.io/2017/02/23/gelfands-algebra-chunk-14-polynomial-division-all-the-gory-details</link>
                 <guid>http://andrewharmellaw.github.io/2017/02/23/gelfands-algebra-chunk-14-polynomial-division-all-the-gory-details</guid>
