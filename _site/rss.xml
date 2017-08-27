@@ -5,8 +5,8 @@
         <description>Maths from the Ground Up - Andrew Harmel-Law</description>
         <link>http://andrewharmellaw.github.io</link>
         <atom:link href="http://andrewharmellaw.github.io" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Thu, 24 Aug 2017 06:49:42 +0100</lastBuildDate>
-        <pubDate>Thu, 24 Aug 2017 06:49:42 +0100</pubDate>
+        <lastBuildDate>Sun, 27 Aug 2017 20:11:08 +0100</lastBuildDate>
+        <pubDate>Sun, 27 Aug 2017 20:11:08 +0100</pubDate>
         <ttl>60</ttl>
 
 
@@ -2557,58 +2557,55 @@ This powerful concept was snuck in by Gelfand in his further discussions of  Rat
         <item>
                 <title>Gelfand: Chunk 13 - Rational Expressions Quickie</title>
                 <description>
-&lt;p&gt;Section 33 of &lt;a href=&quot;https://www.amazon.co.uk/Algebra-I-M-Gelfand/dp/0817636773&quot;&gt;Gelfand’s Algebra&lt;/a&gt; introduces the &lt;em&gt;incredibly&lt;/em&gt; simple concept of Rational Expressions.  These are in effect a super-set of polynomials, created by &lt;em&gt;slightly&lt;/em&gt; relaxing the rules of what makes a polynomial a polynomial and allowing in division.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;Section 33 of &lt;a href=&quot;https://www.amazon.co.uk/Algebra-I-M-Gelfand/dp/0817636773&quot;&gt;Gelfand’s Algebra&lt;/a&gt;&lt;/span&gt;  introduces the &lt;em&gt;incredibly&lt;/em&gt; simple concept of Rational Expressions.  These are in effect a super-set of polynomials, created by &lt;em&gt;slightly&lt;/em&gt; relaxing the rules of what makes a polynomial a polynomial and allowing in division.&lt;/p&gt;
 
 &lt;p&gt;Did I say “incredibly simple”?  How could I possibly be mistaken? Let’s take a step back for a second to bring something subtle to mind.&lt;/p&gt;
 
 &lt;h2 id=&quot;the-subtleties-of-division&quot;&gt;The Subtleties of Division&lt;/h2&gt;
-&lt;p&gt;In coming back to all this algebra after my last two posts, a few fundamental misconceptions from my early maths history have been challenged.  Amongst these was my mistaken belief that multiplication and division were two sides of the same coin in the same way that addition and subtraction actually are.  What I’d failed to grasp was that whereas in the latter, a movement in position of terms &lt;em&gt;was&lt;/em&gt; always possible in my simple world-view (it’s the &lt;a href=&quot;https://andrewharmellaw.github.io/2016/11/23/gelfands-algebra-chunk-2-commutative-associative-and-distributive-laws&quot;&gt;Commutative Law&lt;/a&gt;, in it’s addition-form)&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;In coming back to all this algebra after my last two posts,&lt;/span&gt;  a few fundamental misconceptions from my early maths history have been challenged.  Amongst these was my mistaken belief that multiplication and division were two sides of the same coin in the same way that addition and subtraction actually are.  What I’d failed to grasp was that whereas in the latter, a movement in position of terms &lt;em&gt;was&lt;/em&gt; always possible in my simple world-view (it’s the &lt;a href=&quot;https://andrewharmellaw.github.io/2016/11/23/gelfands-algebra-chunk-2-commutative-associative-and-distributive-laws&quot;&gt;&lt;em&gt;Commutative Law&lt;/em&gt;&lt;/a&gt;, in it’s addition-form)&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;a + b = b + a&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; a + b = b + a &lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;a - b = -b + a&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; a - b = -b + a &lt;/script&gt;&lt;/div&gt;
 
 &lt;p&gt;but the same could not be said for the former (the Commutative Law applies to multiplication but &lt;em&gt;not&lt;/em&gt; division remember).&lt;/p&gt;
 
 &lt;p&gt;Therefore&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;2 \times 3 = 3 \times 2&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; 2 \times 3 = 3 \times 2 &lt;/script&gt;&lt;/div&gt;
 
 &lt;p&gt;but&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;2 \div 3 \ne 3 \div 2&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; 2 \div 3 \ne 3 \div 2&lt;/script&gt;&lt;/div&gt;
 
-&lt;p&gt;In fact, if you write this in another way, using fractions, then the inequality becomes patently evident&lt;/p&gt;
+&lt;p&gt;In fact, if you write this in another way, using fractions, then the inequality becomes patently evident.&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;I’ll possibly come back to all this as it seems an area rich in potential discoveries. &lt;/span&gt;&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\frac{2}{3} \ne \frac{3}{2}&lt;/script&gt;
-
-&lt;p&gt;(I’ll possibly come back to all this as it seems an area rich in potential discoveries.)&lt;/p&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; \frac{2}{3} \ne \frac{3}{2}&lt;/script&gt;&lt;/div&gt;
 
 &lt;p&gt;It’s nice to note that explicitly - division isn’t a flip side of multiplication.  So keep it in a difference place in your head.&lt;/p&gt;
 
 &lt;p&gt;But we can keep going.  When we do add division, as we have by expanding things to take in rational expressions, there’s also the problem of zero.&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\frac{0}{3} = 0&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; \frac{0}{3} = 0 &lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\frac{3}{0} = ...&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; \frac{3}{0} = ...&lt;/script&gt;&lt;/div&gt;
 
-&lt;p&gt;A divide by zero basically blows up on us. Boom! (Or it does until we get on to the concept of infinity which is another post, perhaps when I get back to &lt;a href=&quot;http://www.turingarchive.org/browse.php/b/12&quot;&gt;Turing&lt;/a&gt; and &lt;a href=&quot;https://www.amazon.co.uk/Annotated-Turing-Through-Historic-Computability/dp/0470229055&quot;&gt;Petzold&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;A divide by zero basically blows up on us. Boom!&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Or it does until we get on to the concept of infinity which is another post, perhaps when I get back to &lt;a href=&quot;http://www.turingarchive.org/browse.php/b/12&quot;&gt;Turing&lt;/a&gt; and &lt;a href=&quot;https://www.amazon.co.uk/Annotated-Turing-Through-Historic-Computability/dp/0470229055&quot;&gt;Petzold&lt;/a&gt;. &lt;/span&gt;&lt;/p&gt;
 
-&lt;p&gt;With these in hand, we can now get back to the concept the post shoudl be about: Rational Expressions.&lt;/p&gt;
+&lt;p&gt;With these in hand, we can now get back to the concept the post should be about: Rational Expressions.&lt;/p&gt;
 
 &lt;h2 id=&quot;rational-expressions---zero-denominator-disallowed&quot;&gt;Rational Expressions - Zero-Denominator-Disallowed&lt;/h2&gt;
-
-&lt;p&gt;In his introduction to these, Gelfand basically points out the latter of the two realisations above - you can’t have a denominator in a rational expression which is zero, or is &lt;em&gt;identically equal to zero&lt;/em&gt; ($x - x$ is his example).  Given the above notes, it’s clear why this is the case.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;In his introduction to these,&lt;/span&gt;  Gelfand basically points out the latter of the two realisations above - you can’t have a denominator in a rational expression which is zero, or is &lt;em&gt;identically equal to zero&lt;/em&gt; (&lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;x - x&lt;/script&gt;&lt;/span&gt; is his example).  Given the above notes, it’s clear why this is the case.&lt;/p&gt;
 
 &lt;h2 id=&quot;the-actual-work-of-rational-expressions&quot;&gt;The Actual Work of Rational Expressions&lt;/h2&gt;
-&lt;p&gt;Usually I’d now embark on a long-winded explanation of how I eventually grokked this concept, and the tricks arising, but it was in fact (aside from the above notes) very simple given I’d already got my head round much fo these concepts when confronting Fractions (see &lt;a href=&quot;https://andrewharmellaw.github.io/2016/11/30/gelfands-algebra-chunk-4-fractions-urgh&quot;&gt;Chunk 4 - Fractions Ugh&lt;/a&gt;).  What you do need to do however is hop over there. You might recall I jumped ahead at that point to discuss the various rules of working with fractions (adding, multiplying, etc) and I jumped ahead to this section of Gelfand.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;Usually I’d now embark on a long-winded explanation&lt;/span&gt;  of how I eventually grokked this concept, and the tricks arising, but it was in fact (aside from the above notes) very simple given I’d already got my head round much fo these concepts when confronting Fractions (see &lt;a href=&quot;https://andrewharmellaw.github.io/2016/11/30/gelfands-algebra-chunk-4-fractions-urgh&quot;&gt;Chunk 4 - Fractions Ugh&lt;/a&gt;).  What you do need to do however is hop over there. You might recall I jumped ahead at that point to discuss the various rules of working with fractions&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Adding, multiplying, etc. &lt;/span&gt; and I jumped ahead to this section of Gelfand.&lt;/p&gt;
 
 &lt;h2 id=&quot;some-form-of-concluding-aside&quot;&gt;Some Form of Concluding Aside&lt;/h2&gt;
-&lt;p&gt;There’s not much else to put in this chunk I don’t think.  So to give things some kind of conclusion, I wanted to share a bit of knowledge I extrapolated from &lt;a href=&quot;https://www.amazon.co.uk/Annotated-Turing-Through-Historic-Computability/dp/0470229055&quot;&gt;Petzold&lt;/a&gt; which I’m currently reading in parallel to writing this.  Here it comes:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;There’s not much else to put in this chunk&lt;/span&gt;  I don’t think.  So to give things some kind of conclusion, I wanted to share a bit of knowledge I extrapolated from &lt;a href=&quot;https://www.amazon.co.uk/Annotated-Turing-Through-Historic-Computability/dp/0470229055&quot;&gt;Petzold&lt;/a&gt; which I’m currently reading in parallel to writing this.  Here it comes:&lt;/p&gt;
 
 &lt;p&gt;Rational expressions are so called, because they are ratios of something else, i.e. fractions of polynomials.&lt;/p&gt;
 
-&lt;p&gt;I’m guessing here, but based on the fact that the “&lt;em&gt;rational&lt;/em&gt; numbers” are ones which can be expressed as &lt;em&gt;ratios&lt;/em&gt; of two integers (e.g. $\frac{2}{3}$) I think this isn’t too much of a leap.&lt;/p&gt;
+&lt;p&gt;I’m guessing here, but based on the fact that the “&lt;em&gt;rational&lt;/em&gt; numbers” are ones which can be expressed as &lt;em&gt;ratios&lt;/em&gt; of two integers (e.g. &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;\frac{2}{3}&lt;/script&gt;&lt;/span&gt;). I think this isn’t too much of a leap.&lt;/p&gt;
 </description>
                 <link>http://andrewharmellaw.github.io/2017/02/21/gelfands-algebra-chunk-13-rational-expressions-concepts</link>
                 <guid>http://andrewharmellaw.github.io/2017/02/21/gelfands-algebra-chunk-13-rational-expressions-concepts</guid>
