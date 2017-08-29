@@ -5,8 +5,8 @@
         <description>Maths from the Ground Up - Andrew Harmel-Law</description>
         <link>http://andrewharmellaw.github.io</link>
         <atom:link href="http://andrewharmellaw.github.io" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Tue, 29 Aug 2017 17:20:05 +0100</lastBuildDate>
-        <pubDate>Tue, 29 Aug 2017 17:20:05 +0100</pubDate>
+        <lastBuildDate>Tue, 29 Aug 2017 17:29:29 +0100</lastBuildDate>
+        <pubDate>Tue, 29 Aug 2017 17:29:29 +0100</pubDate>
         <ttl>60</ttl>
 
 
@@ -1508,37 +1508,33 @@ Notwithstanding the aside about how $a^2 = b^2$ in &lt;a href=&quot;https://andr
         <item>
                 <title>Gelfand: Chunk 20 - Arithmetic Progressions Progress</title>
                 <description>
-&lt;p&gt;This is another pretty straight-forward section.  I’m going to leave Gelfand pretty largely to his own devices, only occasionally providing a summary-gloss over the top.  You might find it useful to read this chunk in it’s entirety, then work through the section in Gelfand, before coming back here again to check your chunk is embedded nicely.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;This is another pretty straight-forward section.&lt;/span&gt;   I’m going to leave Gelfand pretty largely to his own devices, only occasionally providing a summary-gloss over the top.  You might find it useful to read this chunk in it’s entirety, then work through the section in Gelfand, before coming back here again to check your chunk is embedded nicely.&lt;/p&gt;
 
 &lt;h2 id=&quot;racing-through-the-sums&quot;&gt;Racing Through the Sums&lt;/h2&gt;
 
-&lt;p&gt;Section 39 of Gelfand ended with a question about calculating the number of terms in a given arithmetic progression. Section 40 opens by using that technique to calculate the sum of the values in a specified range of a given arithmetic progression.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;Section 39 ended with a question&lt;/span&gt;  about calculating the number of terms in a given arithmetic progression. Section 40 opens by using that technique to calculate the sum of the values in a specified range of a given arithmetic progression.&lt;/p&gt;
 
-&lt;p&gt;As is his general style, Gelfand begins by asking us to solve a specific problmem in our current domain.  This comes in Problem 185.&lt;/p&gt;
+&lt;p&gt;As is his general style, Gelfand begins by asking us to solve a specific problmem in our current domain.  This comes in Problem 185.&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;The solution to this problem might remind you of the Gauss solution to Problem 33 which we saw back in [Chunk &lt;/span&gt;&lt;/p&gt;
 
-&lt;p&gt;Note: The solution to this problem might remind you of the Gauss solution to Problem 33 which we saw back in &lt;a href=&quot;https://andrewharmellaw.github.io/2016/11/23/gelfands-algebra-chunk-2-commutative-associative-and-distributive-laws&quot;&gt;“Chunk 2 - Commutative, Associative and Distributive Laws”&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The next Problem&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Problem 186. &lt;/span&gt; asks us to figure out a general formula for sums of terms.  This is solved for us, and makes a lot of sense if we self-solved problem 185, and also if we looked back at chunk 2.  The general formula is just a symbolic representation of this pairing &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;(a + b)&lt;/script&gt;&lt;/span&gt; and subsequent multiplication of this by &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;\frac{n}{2}&lt;/script&gt;&lt;/span&gt;.&lt;/p&gt;
 
-&lt;p&gt;The next Problem (186) asks us to figure out a general formula for sums of terms.  This is solved for us, and makes a lot of sense if we self-solved problem 185, and also if we looked back at chunk 2.  The general formula is just a symbolic representation of this pairing $(a + b)$ and subsequent multiplication of this by $\frac{n}{2}$.&lt;/p&gt;
-
-&lt;p&gt;Problem 187 then points out that we might have been tripped up had we had an odd number of terms.&lt;/p&gt;
-
-&lt;p&gt;Dammit!&lt;/p&gt;
+&lt;p&gt;Problem 187 then points out that we might have been tripped up had we had an odd number of terms.&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Dammit! &lt;/span&gt;&lt;/p&gt;
 
 &lt;p&gt;Those dashed odd-numbers again!  Note that the forumla derived to calculate the answer is unchanged, but the mental model that you might be using to get there needs more detail.&lt;/p&gt;
 
 &lt;p&gt;Not content with explaining this to us numerically, Gelfand then breaks into some of his glorious imagery to explain the latest solution to the current problem in hand.  Personally I found this second approach mentally-sticky (in a good way) and it’s lodged up in my brain box nice and solid with very little rehersal as a consequence.&lt;/p&gt;
 
-&lt;p&gt;There is a reason Gelfand gave us a picture, and also a reason for his stressing of the &lt;em&gt;arithmetic&lt;/em&gt; in the name of the progression - it’s because he was about to introduce the next level of complexity in Problem 188.&lt;/p&gt;
+&lt;p&gt;There is a reason Gelfand gave us a picture, and also a reason for his stressing of the &lt;em&gt;arithmetic&lt;/em&gt; in the name of the progression; it’s because he was about to introduce the next level of complexity in Problem 188.&lt;/p&gt;
 
 &lt;p&gt;This problem is about to illustrate a key property of the geometric progression that is known as “the odd numbers” - that their sums are always perfect squares.&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;1 = 1^2&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;1 = 1^2&lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;1 + 3 = 4 = 2^2&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;1 + 3 = 4 = 2^2&lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;1 + 3 + 5 = 9 = 3^2&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;1 + 3 + 5 = 9 = 3^2&lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;1 + 3 + 5 + 7 = 16= 4^2&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;1 + 3 + 5 + 7 = 16= 4^2&lt;/script&gt;&lt;/div&gt;
 
 &lt;p&gt;etc.&lt;/p&gt;
 
@@ -1546,23 +1542,23 @@ Notwithstanding the aside about how $a^2 = b^2$ in &lt;a href=&quot;https://andr
 
 &lt;p&gt;Remember, from Problem 186 the formula we need to calculate is&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\frac{n(a + b)}{2}&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;\frac{n(a + b)}{2}&lt;/script&gt;&lt;/div&gt;
 
-&lt;p&gt;And here $a = 1$ and $b = 2n - 1$ (the formula for calculating any $n$th odd number)&lt;/p&gt;
+&lt;p&gt;And here &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a = 1&lt;/script&gt;&lt;/span&gt; and &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;b = 2n - 1&lt;/script&gt;&lt;/span&gt;&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;The formula for calculating any nth odd number. &lt;/span&gt;&lt;/p&gt;
 
 &lt;p&gt;Putting the together we get&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\frac{n(1 + 2n - 1)}{2}&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;\frac{n(1 + 2n - 1)}{2}&lt;/script&gt;&lt;/div&gt;
 
 &lt;p&gt;And simplifying&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;= \frac{n(2n)}{2} =&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = \frac{n(2n)}{2} = &lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;= \frac{n(2n)}{2} =&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = \frac{n(2n)}{2} = &lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;= n^2&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = n^2&lt;/script&gt;&lt;/div&gt;
 
-&lt;p&gt;Proven!  $n^2$ it is.&lt;/p&gt;
+&lt;p&gt;Proven!  &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;n^2&lt;/script&gt;&lt;/span&gt; it is.&lt;/p&gt;
 </description>
                 <link>http://andrewharmellaw.github.io/2017/03/21/gelfands-algebra-chunk-20-arithmetic-progressions-progress</link>
                 <guid>http://andrewharmellaw.github.io/2017/03/21/gelfands-algebra-chunk-20-arithmetic-progressions-progress</guid>
@@ -1586,18 +1582,18 @@ Notwithstanding the aside about how $a^2 = b^2$ in &lt;a href=&quot;https://andr
 
 &lt;h2 id=&quot;key-facts-about-arithmetic-progressions&quot;&gt;Key Facts about Arithmetic Progressions&lt;/h2&gt;
 &lt;ul&gt;
-  &lt;li&gt;arithmetic progressions can go forwards&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;In which case the difference is positive. &lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;arithmetic progressions can also go backwards&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;In which case the difference is negative. &lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;you can find the next term in an arithmetic progression given only the two preceeding numbers&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;See Problem 173 &lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;if you know enough of an arithmetic progression to know the details (the start value and the difference) then you can calculate the nth term&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;See Problems 174, 175 and 176. &lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;there is a formula for arithmetic progressions, where &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a&lt;/script&gt;&lt;/span&gt; is the starting point, &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;d&lt;/script&gt;&lt;/span&gt; handily signifies the difference, and &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt;&lt;/span&gt; the term you’re wanting to calculate. The most basic formula is &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a + (n - 1)d&lt;/script&gt;&lt;/span&gt;&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;See Problem 177. &lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;to make an arithmetic progression go backwards, reverse the sign of the &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;d&lt;/script&gt;&lt;/span&gt;.  In this case the actual &lt;em&gt;size&lt;/em&gt; of &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;d&lt;/script&gt;&lt;/span&gt; is unchanged&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;See Problem 178. &lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;you can remove every second value in an arithmetic progression and still have an arithmetic progression. In this case its difference will be &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;2d&lt;/script&gt;&lt;/span&gt;&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;See Problem 179. &lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;you &lt;em&gt;cannot&lt;/em&gt; remove every third value in an arithmetic progression without it stopping being an arithmetic progression. This because the difference will no longer be fixed&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;See Problem 180. &lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;the difference need not be a whole number&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;See Problem 181. &lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;you can find the middle term between two known terms (&lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a&lt;/script&gt;&lt;/span&gt; and &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;b&lt;/script&gt;&lt;/span&gt;) using the formula &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;\frac{(a + b)}{2}&lt;/script&gt;&lt;/span&gt;&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;See Problem 182. Note: this is also the formula for calculating an average of a and b. &lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;you can calculate all terms in a progression as long as you know the starting term value, the end term value, and the end term position (e.g. “fourth”)&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;See Problem 183. &lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;you can calculate the number of terms in a given progression given a starting term, an end term, and a known term between the two (including the number of that term - e.g. “the third term”)&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;See Problem 184. &lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;Arithmetic progressions can go forwards&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;In which case the difference is positive. &lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;Arithmetic progressions can also go backwards&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;In which case the difference is negative. &lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;You can find the next term in an arithmetic progression given only the two preceeding numbers&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;See Problem 173 &lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;If you know enough of an arithmetic progression to know the details (the start value and the difference) then you can calculate the nth term&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;See Problems 174, 175 and 176. &lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;There is a formula for arithmetic progressions, where &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a&lt;/script&gt;&lt;/span&gt; is the starting point, &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;d&lt;/script&gt;&lt;/span&gt; handily signifies the difference, and &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt;&lt;/span&gt; the term you’re wanting to calculate. The most basic formula is &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a + (n - 1)d&lt;/script&gt;&lt;/span&gt;&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;See Problem 177. &lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;To make an arithmetic progression go backwards, reverse the sign of the &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;d&lt;/script&gt;&lt;/span&gt;.  In this case the actual &lt;em&gt;size&lt;/em&gt; of &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;d&lt;/script&gt;&lt;/span&gt; is unchanged&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;See Problem 178. &lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;You can remove every second value in an arithmetic progression and still have an arithmetic progression. In this case its difference will be &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;2d&lt;/script&gt;&lt;/span&gt;&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;See Problem 179. &lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;You &lt;em&gt;cannot&lt;/em&gt; remove every third value in an arithmetic progression without it stopping being an arithmetic progression. This because the difference will no longer be fixed&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;See Problem 180. &lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;The difference need not be a whole number&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;See Problem 181. &lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;You can find the middle term between two known terms (&lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a&lt;/script&gt;&lt;/span&gt; and &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;b&lt;/script&gt;&lt;/span&gt;) using the formula &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;\frac{(a + b)}{2}&lt;/script&gt;&lt;/span&gt;&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;See Problem 182. Note: this is also the formula for calculating an average of a and b. &lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;You can calculate all terms in a progression as long as you know the starting term value, the end term value, and the end term position (e.g. “fourth”)&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;See Problem 183. &lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;You can calculate the number of terms in a given progression given a starting term, an end term, and a known term between the two (including the number of that term - e.g. “the third term”)&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;See Problem 184. &lt;/span&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;That’s all for this post.  I’m sure it will all come into play when we launch into Section 40, which is up next.&lt;/p&gt;
