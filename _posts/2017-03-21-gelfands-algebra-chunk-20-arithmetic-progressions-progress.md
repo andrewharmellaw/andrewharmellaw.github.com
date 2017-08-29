@@ -9,7 +9,7 @@ tags: [gelfand, tricks, arithmetic-progressions, odd, even]
 
 ## Racing Through the Sums
 
-{% newthought "Section 39 ended with a question" %} about calculating the number of terms in a given arithmetic progression. Section 40 opens by using that technique to calculate the sum of the values in a specified range of a given arithmetic progression.
+{% newthought "Section 39 ended with a question" %} about calculating the number of terms in a given _Arithmetic Progression_. Section 40 opens by using that technique to calculate the sum of the values in a specified range of a given arithmetic progression.
 
 As is his general style, Gelfand begins by asking us to solve a specific problmem in our current domain.  This comes in Problem 185.{% sidenote 'sn-id-whatever' "The solution to this problem might remind you of the Gauss solution to Problem 33 which we saw back in ["Chunk 2 - Commutative, Associative and Distributive Laws"](https://andrewharmellaw.github.io/2016/11/23/gelfands-algebra-chunk-2-commutative-associative-and-distributive-laws)." %}
 
@@ -23,7 +23,7 @@ Not content with explaining this to us numerically, Gelfand then breaks into som
 
 There is a reason Gelfand gave us a picture, and also a reason for his stressing of the _arithmetic_ in the name of the progression; it's because he was about to introduce the next level of complexity in Problem 188.
 
-This problem is about to illustrate a key property of the geometric progression that is known as "the odd numbers" - that their sums are always perfect squares.
+This problem is about to illustrate a key property of the _Geometric Progression_ that is known as "the odd numbers" - that their sums are always perfect squares.
 
 {% math %}1 = 1^2{% endmath %}
 
