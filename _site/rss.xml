@@ -5,8 +5,8 @@
         <description>Maths from the Ground Up - Andrew Harmel-Law</description>
         <link>http://andrewharmellaw.github.io</link>
         <atom:link href="http://andrewharmellaw.github.io" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Tue, 29 Aug 2017 17:29:29 +0100</lastBuildDate>
-        <pubDate>Tue, 29 Aug 2017 17:29:29 +0100</pubDate>
+        <lastBuildDate>Tue, 29 Aug 2017 19:28:12 +0100</lastBuildDate>
+        <pubDate>Tue, 29 Aug 2017 19:28:12 +0100</pubDate>
         <ttl>60</ttl>
 
 
@@ -1377,128 +1377,127 @@ We knew above that our equality was actually an inequality because we remembered
         <item>
                 <title>Gelfand: Chunk 21 - Geometric Progressions</title>
                 <description>
-&lt;p&gt;You might remember we had a sneak peek at these things back in &lt;a href=&quot;https://andrewharmellaw.github.io/2017/02/28/gelfands-algebra-chunk-15-polynomial-division-special-cases&quot;&gt;Chunk 15 - Polynomial Division Addendum&lt;/a&gt;.  Now we can really get our teeth into it.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;You might remember we had a sneak peek at these things&lt;/span&gt;  back in &lt;a href=&quot;https://andrewharmellaw.github.io/2017/02/28/gelfands-algebra-chunk-15-polynomial-division-special-cases&quot;&gt;Chunk 15 - Polynomial Division Addendum&lt;/a&gt;.  Now we can really get our teeth into it.&lt;/p&gt;
 
 &lt;h2 id=&quot;definition---geometric-progressions&quot;&gt;Definition - Geometric Progressions&lt;/h2&gt;
-&lt;p&gt;As is our wont, let’s again start with a definition, taken straight out of Gelfand, section 41.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;As is our wont,&lt;/span&gt;  let’s again start with a definition, taken straight out of Gelfand, section 41.&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;“A &lt;em&gt;geometric progression&lt;/em&gt; is a sequence of numbers where each term is a &lt;em&gt;product&lt;/em&gt; of the proceeding one and a fixed number. This fixed number is called the &lt;em&gt;common ratio&lt;/em&gt; (or ratio) of the geometric progression.”&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;I added the second set of italics.  It highlights the key difference between these and arithmetic progressions - there we were adding, whereas now we’re multiplying.&lt;/p&gt;
+&lt;p&gt;I added the second set of &lt;em&gt;italics&lt;/em&gt;.  It highlights the key difference between these and &lt;em&gt;Arithmetic Progressions&lt;/em&gt; - there we were adding, whereas now we’re multiplying.&lt;/p&gt;
 
 &lt;h2 id=&quot;the-general-formula&quot;&gt;The General Formula&lt;/h2&gt;
-&lt;p&gt;In the solution to Problem 192 Gelfand shows us the general formula for the $n$th term in a geometric progression.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;In the solution to Problem 192&lt;/span&gt;  Gelfand shows us the general formula for the &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt;&lt;/span&gt;th term in a &lt;em&gt;Geometric Progression&lt;/em&gt;.&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;a \cdot q^{n - 1}&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;a \cdot q^{n - 1}&lt;/script&gt;&lt;/div&gt;
 
 &lt;h2 id=&quot;the-two-possibilities-subtlety&quot;&gt;The “Two Possibilities” Subtlety&lt;/h2&gt;
-&lt;p&gt;In arithmetic progressions, we only had adding and subtracting and everything was easy.  But now we have multiplication, and that means there are subtleties.  Gelfand leads us to this with Problem 193.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;In &lt;em&gt;Arithmetic Progressions&lt;/em&gt;&lt;/span&gt; , we only had adding and subtracting and everything was easy.  But now we have multiplication, and that means there are subtleties.  Gelfand leads us to this with Problem 193.&lt;/p&gt;
 
-&lt;p&gt;He asks, given a progression with first term of $1$ and third term of $4$, what is the second term?&lt;/p&gt;
+&lt;p&gt;He asks, given a progression with first term of &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;1&lt;/script&gt;&lt;/span&gt; and third term of &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;4&lt;/script&gt;&lt;/span&gt;, what is the second term?&lt;/p&gt;
 
-&lt;p&gt;You can get all mathematical, but just looking at it, it seems easy.  These are the powers of $2$ right?&lt;/p&gt;
+&lt;p&gt;You can get all mathematical, but just looking at it, it seems easy.  These are the powers of &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;2&lt;/script&gt;&lt;/span&gt; right?&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;2^0 = 1&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;2^0 = 1&lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;2^1 = 2&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;2^1 = 2&lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;2^2 = 4&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;2^2 = 4&lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;2^3 = 8&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;2^3 = 8&lt;/script&gt;&lt;/div&gt;
 
-&lt;p&gt;Etc.  And in one way we’re right.  But there are &lt;em&gt;two&lt;/em&gt; answers.  If we now look at the geometric progression formula, $a \cdot q^{n - 1}$, what is $a$ and $q$?.  If the second term is $2$, then $a = 1$, and $q = 2$.  But can $q$ be anything else and still give us $1$ for the first term and $4$ for the third?  Yes, it can be $(-2)$ (those parens are important if you’re using Google as a calculator).&lt;/p&gt;
+&lt;p&gt;Etc.  And in one way we’re right.  But there are &lt;em&gt;two&lt;/em&gt; answers.  If we now look at the &lt;em&gt;Geometric Progression&lt;/em&gt; formula, &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a \cdot q^{n - 1}&lt;/script&gt;&lt;/span&gt;, what is &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a&lt;/script&gt;&lt;/span&gt; and &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;q&lt;/script&gt;&lt;/span&gt;?.  If the second term is &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;2&lt;/script&gt;&lt;/span&gt;, then &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a = 1&lt;/script&gt;&lt;/span&gt;, and &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;q = 2&lt;/script&gt;&lt;/span&gt;.  But can &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;q&lt;/script&gt;&lt;/span&gt; be anything else and still give us &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;1&lt;/script&gt;&lt;/span&gt; for the first term and &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;4&lt;/script&gt;&lt;/span&gt; for the third?  Yes, it can be &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;(-2)&lt;/script&gt;&lt;/span&gt;&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Tip: Those parens are important if you’re using Google as a calculator. &lt;/span&gt;&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;1 \cdot (-2)^0 = 1&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;1 \cdot (-2)^0 = 1&lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;1 \cdot (-2)^1 = -2&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;1 \cdot (-2)^1 = -2&lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;1 \cdot (-2)^2 = 4&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;1 \cdot (-2)^2 = 4&lt;/script&gt;&lt;/div&gt;
 
 &lt;p&gt;And continuing on&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;1 \cdot (-2)^3 = -8&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;1 \cdot (-2)^3 = -8&lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;1 \cdot (-2)^4 = 16&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;1 \cdot (-2)^4 = 16&lt;/script&gt;&lt;/div&gt;
 
-&lt;p&gt;…&lt;/p&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;... &lt;/script&gt;&lt;/div&gt;
 
 &lt;p&gt;What we’re getting strongly hinted at here is the fact that even powers of negative numbers are even, but odd powers of negative numbers are negative.  Odd and even powers of even numbers are always even.&lt;/p&gt;
 
 &lt;h2 id=&quot;the-is-that-really-a-geometric-progression-subtlety&quot;&gt;The “Is that Really a Geometric Progression?” Subtlety&lt;/h2&gt;
-&lt;p&gt;If the common ratio ($q$ in our formula) is zero, then you end up with progressions which look similar to this&lt;/p&gt;
+&lt;p&gt;If the common ratio (&lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;q&lt;/script&gt;&lt;/span&gt; in our formula) is zero, then you end up with progressions which look similar to this&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;1, 0, 0, 0, 0, 0, 0, ...&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;1, 0, 0, 0, 0, 0, 0, ...&lt;/script&gt;&lt;/div&gt;
 
-&lt;p&gt;Where $a = 1$.  If $a$ equals anything else then that “anything else” will be the first value, and the remainder of the progression will be $0$s.&lt;/p&gt;
+&lt;p&gt;Where &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a = 1&lt;/script&gt;&lt;/span&gt;.  If &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a&lt;/script&gt;&lt;/span&gt; equals anything else then that “anything else” will be the first value, and the remainder of the progression will be &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;0&lt;/script&gt;&lt;/span&gt;s.&lt;/p&gt;
 
 &lt;p&gt;This is because&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;0^0 = 1&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;0^0 = 1&lt;/script&gt;&lt;/div&gt;
 
 &lt;p&gt;but&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;0^1 = 0^2 = 0^3 = 0^4 = 0^5 = 0&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;0^1 = 0^2 = 0^3 = 0^4 = 0^5 = 0&lt;/script&gt;&lt;/div&gt;
 
-&lt;p&gt;Gelfand notes that in some circumstances these are verboten, specifiying that the ratio is “non-zero”.&lt;/p&gt;
+&lt;p&gt;Gelfand notes that in some circumstances these are &lt;em&gt;verboten&lt;/em&gt;, specifiying that the ratio is “non-zero”.&lt;/p&gt;
 
 &lt;h2 id=&quot;flip-it-and-reverse-it&quot;&gt;Flip It and Reverse It&lt;/h2&gt;
-&lt;p&gt;So what happens when we take a progression and write it in reverse?  What happens to the ratio then?  You might have guessed (perhaps casting your mind back to &lt;a href=&quot;https://andrewharmellaw.github.io/2016/12/10/gelfands-algebra-chunk-5-powers&quot;&gt;Chunk 5 - Powers: Positive and Negative&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;So what happens&lt;/span&gt;  when we take a progression and write it in reverse?  What happens to the ratio then?  You might have guessed.&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Perhaps casting your mind back to &lt;a href=&quot;https://andrewharmellaw.github.io/2016/12/10/gelfands-algebra-chunk-5-powers&quot;&gt;Chunk 5 - Powers: Positive and Negative&lt;/a&gt;. &lt;/span&gt;&lt;/p&gt;
 
-&lt;p&gt;Yup, our ratio becomes $\frac{1}{q}$.&lt;/p&gt;
+&lt;p&gt;Yup, our ratio becomes &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;\frac{1}{q}&lt;/script&gt;&lt;/span&gt;.&lt;/p&gt;
 
 &lt;h2 id=&quot;dropping-steps&quot;&gt;Dropping Steps&lt;/h2&gt;
-&lt;p&gt;Can we drop every second step and still be a geometric progression? Yah, because this will leave the ratio between each constant. Here the common ratio changes from $q$ to $q^2$.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;Can we drop every second step&lt;/span&gt;  and still be a geometric progression? Yah, because this will leave the ratio between each constant. Here the common ratio changes from &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;q&lt;/script&gt;&lt;/span&gt; to &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;q^2&lt;/script&gt;&lt;/span&gt;.&lt;/p&gt;
 
-&lt;p&gt;Can we drop every third?  No, we can’t.  Just as in arithmetic progressions, the ratio of the gaps is no longer constant (being $q$ between some and $q^2$ between others) and so these progressions are no longer geometric.&lt;/p&gt;
+&lt;p&gt;Can we drop every third?  No, we can’t.  Just as in arithmetic progressions, the ratio of the gaps is no longer constant (being &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;q&lt;/script&gt;&lt;/span&gt; between some and &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;q^2&lt;/script&gt;&lt;/span&gt; between others) and so these progressions are no longer geometric.&lt;/p&gt;
 
 &lt;h2 id=&quot;back-to-roots&quot;&gt;Back to Roots&lt;/h2&gt;
-&lt;p&gt;The last part of this section (but not of this post) is interesting for a few reasons.  Firstly, it gives us another (reverse) angle on the positive / negative aspect (via roots of the number kind).  Secondly, we’re back in the world of zeros (but not the polynomial-root kind) not working for us.  Based on what we’ve seen before now, we know that these aspects are where it gets interesting.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;The last part of this section&lt;/span&gt; &lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;But not of this post &lt;/span&gt; is interesting for a few reasons.  Firstly, it gives us another (reverse) angle on the positive / negative aspect.&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Via roots of the number kind. &lt;/span&gt;  Secondly, we’re back in the world of zeros&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;But not the polynomial-root kind. &lt;/span&gt; not working for us.  Based on what we’ve seen before now, we know that these aspects are where it gets interesting.&lt;/p&gt;
 
-&lt;p&gt;I’m now going to give a little more detail on Gelfand’s solution.  (As per, please ignore this if you’ve already got things nice and clear in your head.  For me it personally helps to see all the gory, multi-step, micro-step detail.)&lt;/p&gt;
+&lt;p&gt;I’m now going to give a little more detail on Gelfand’s solution.&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;As per, please ignore this if you’ve already got things nice and clear in your head.  For me it personally helps to see all the gory, multi-step, micro-step detail. &lt;/span&gt;&lt;/p&gt;
 
-&lt;p&gt;First up, our first term: $a$.&lt;/p&gt;
+&lt;p&gt;First up, our first term: &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a&lt;/script&gt;&lt;/span&gt;.&lt;/p&gt;
 
-&lt;p&gt;Next our second term: $x$.&lt;/p&gt;
+&lt;p&gt;Next our second term: &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;x&lt;/script&gt;&lt;/span&gt;.&lt;/p&gt;
 
-&lt;p&gt;Then our third term: $b$.&lt;/p&gt;
+&lt;p&gt;Then our third term: &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;b&lt;/script&gt;&lt;/span&gt;.&lt;/p&gt;
 
-&lt;p&gt;To progress we need to know our common ratio, which I’m calling $z$ for a second  We can determine it using either $a$ or $b$.&lt;/p&gt;
+&lt;p&gt;To progress we need to know our common ratio, which I’m calling &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;z&lt;/script&gt;&lt;/span&gt; for a second  We can determine it using either &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a&lt;/script&gt;&lt;/span&gt; or &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;b&lt;/script&gt;&lt;/span&gt;.&lt;/p&gt;
 
-&lt;p&gt;First using $a$:&lt;/p&gt;
+&lt;p&gt;First using &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a&lt;/script&gt;&lt;/span&gt;:&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;z = \frac{x}{a}&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;z = \frac{x}{a}&lt;/script&gt;&lt;/div&gt;
 
-&lt;p&gt;(because $a = z^0$ and $x = a \cdot z$)&lt;/p&gt;
+&lt;p&gt;(because &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a = z^0&lt;/script&gt;&lt;/span&gt; and &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;x = a \cdot z&lt;/script&gt;&lt;/span&gt;)&lt;/p&gt;
 
-&lt;p&gt;Second using $b$:&lt;/p&gt;
+&lt;p&gt;Second using &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;b&lt;/script&gt;&lt;/span&gt;:&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;z = \frac{b}{x}&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;z = \frac{b}{x}&lt;/script&gt;&lt;/div&gt;
 
-&lt;p&gt;(because $b = x \cdot z$)&lt;/p&gt;
+&lt;p&gt;(because &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;b = x \cdot z&lt;/script&gt;&lt;/span&gt;)&lt;/p&gt;
 
-&lt;p&gt;Then we can remove our $z$ altogether:&lt;/p&gt;
+&lt;p&gt;Then we can remove our &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;z&lt;/script&gt;&lt;/span&gt; altogether:&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\frac{x}{a} = \frac{b}{x}&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;\frac{x}{a} = \frac{b}{x}&lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\rightarrow x^2 = ab&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;\rightarrow x^2 = ab&lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\rightarrow x = \sqrt{ab}&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;\rightarrow x = \sqrt{ab}&lt;/script&gt;&lt;/div&gt;
 
-&lt;p&gt;We can then draw our conclusions.&lt;/p&gt;
+&lt;p&gt;We can then draw our conclusions.&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;This works because we are looking for the &lt;em&gt;second term&lt;/em&gt;, and it would also have worked for the fourth, and sixth etc, but not the fifth, seventh, etc.  Remember, we saw before that even numerical roots have this special “could be positive, could equally be negative” property.  There is a subtle alusion to this in problem 199. See if you can spot it. &lt;/span&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Conclusion 1: if $ab &amp;lt; 0$ then the problem has no solutions.  Why? Because you can’t square root a negative number.&lt;/li&gt;
-  &lt;li&gt;Conclusion 2: if $ab = 0$ then x = 0.  That seems simple enough.&lt;/li&gt;
-  &lt;li&gt;Conclusion 3: if $ab &amp;gt; 0$ then there are &lt;em&gt;two&lt;/em&gt; possible values for $x$: $\sqrt{ab}$ and $-\sqrt{ab}$.&lt;/li&gt;
+  &lt;li&gt;Conclusion 1: if &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;ab \lt 0&lt;/script&gt;&lt;/span&gt; then the problem has no solutions.  Why? Because you can’t square root a negative number.&lt;/li&gt;
+  &lt;li&gt;Conclusion 2: if &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;ab = 0&lt;/script&gt;&lt;/span&gt; then &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;x = 0&lt;/script&gt;&lt;/span&gt;.  That seems simple enough.&lt;/li&gt;
+  &lt;li&gt;Conclusion 3: if &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;ab \gt 0&lt;/script&gt;&lt;/span&gt; then there are &lt;em&gt;two&lt;/em&gt; possible values for &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;x&lt;/script&gt;&lt;/span&gt;: &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;\sqrt{ab}&lt;/script&gt;&lt;/span&gt; and &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;-\sqrt{ab}&lt;/script&gt;&lt;/span&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Notes: This works because we are looking for the &lt;em&gt;second term&lt;/em&gt;, and it would also have worked for the fourth, and sixth etc, but not the fifth, seventh, etc.  Remember, we saw before that even numerical roots have this special “could be positive, could equally be negative” property.  There is a subtle alusion to this in problem 199. See if you can spot it.&lt;/p&gt;
-
 &lt;h2 id=&quot;tricks-arising&quot;&gt;Tricks Arising&lt;/h2&gt;
-&lt;p&gt;### Sometimes No Answers, Other Times More Than One Answer
-Notwithstanding the aside about how $a^2 = b^2$ in &lt;a href=&quot;https://andrewharmellaw.github.io/2017/01/20/gelfands-algebra-chunk-11-factoring-to-zero&quot;&gt;Chunk 11 - Factoring to Zero&lt;/a&gt;, Problem 198 is the first time we’ve seen something where we need to think about different categories of input.  It’s handy to have this in mind for the future. (Trust me, I’ve read ahead.)&lt;/p&gt;
+
+&lt;h3 id=&quot;sometimes-no-answers-other-times-more-than-one-answer&quot;&gt;Sometimes No Answers, Other Times More Than One Answer&lt;/h3&gt;
+&lt;p&gt;Notwithstanding the aside about how &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a^2 = b^2&lt;/script&gt;&lt;/span&gt; in &lt;a href=&quot;https://andrewharmellaw.github.io/2017/01/20/gelfands-algebra-chunk-11-factoring-to-zero&quot;&gt;Chunk 11 - Factoring to Zero&lt;/a&gt;, Problem 198 is the first time we’ve seen something where we need to think about different categories of input.  It’s handy to have this in mind for the future.&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Trust me, I’ve read ahead. &lt;/span&gt;&lt;/p&gt;
 </description>
                 <link>http://andrewharmellaw.github.io/2017/03/21/gelfands-algebra-chunk-21-geometric-progressions</link>
                 <guid>http://andrewharmellaw.github.io/2017/03/21/gelfands-algebra-chunk-21-geometric-progressions</guid>
