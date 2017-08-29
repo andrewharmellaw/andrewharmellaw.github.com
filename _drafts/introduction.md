@@ -4,6 +4,7 @@ title: Introduction
 ---
 {% include JB/setup %}
 
+* Pre-Algebra? (Seems like a US-thing)
 * All the answers and all the mental leaps are here.  Just reading this alone won't get you where you need to be - "No Royal Road" 
 * Route map
 * Inputs - the sources
