@@ -5,8 +5,8 @@
         <description>Maths from the Ground Up - Andrew Harmel-Law</description>
         <link>http://andrewharmellaw.github.io</link>
         <atom:link href="http://andrewharmellaw.github.io" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Thu, 31 Aug 2017 08:01:00 +0100</lastBuildDate>
-        <pubDate>Thu, 31 Aug 2017 08:01:00 +0100</pubDate>
+        <lastBuildDate>Thu, 31 Aug 2017 08:03:10 +0100</lastBuildDate>
+        <pubDate>Thu, 31 Aug 2017 08:03:10 +0100</pubDate>
         <ttl>60</ttl>
 
 
@@ -1318,7 +1318,7 @@ We knew above that our equality was actually an inequality because we remembered
 
 &lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = x^{11} - 1 &lt;/script&gt;&lt;/div&gt;
 
-&lt;p&gt;We can now pick up with Gelfand again.  Now we know we can swap our &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;1&lt;/script&gt;&lt;/span&gt;’s and &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;q&lt;span&gt;&amp;#8203;&lt;script type=&quot;math/tex&quot;&gt;&#39;s we have this:&lt;/script&gt;&lt;/span&gt;&lt;/script&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;We can now pick up with Gelfand again.  Now we know we can swap our &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;1&lt;/script&gt;&lt;/span&gt;’s and &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;q&lt;/script&gt;&lt;/span&gt;’s we have this:&lt;/p&gt;
 
 &lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;\rightarrow (1 + q + q^2 + q^3 + ... + q^{n - 1}) = \frac{q^n - 1}{(q - 1)}&lt;/script&gt;&lt;/div&gt;
 
