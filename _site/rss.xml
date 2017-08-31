@@ -5,8 +5,8 @@
         <description>Maths from the Ground Up - Andrew Harmel-Law</description>
         <link>http://andrewharmellaw.github.io</link>
         <atom:link href="http://andrewharmellaw.github.io" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Thu, 31 Aug 2017 06:42:40 +0100</lastBuildDate>
-        <pubDate>Thu, 31 Aug 2017 06:42:40 +0100</pubDate>
+        <lastBuildDate>Thu, 31 Aug 2017 06:57:37 +0100</lastBuildDate>
+        <pubDate>Thu, 31 Aug 2017 06:57:37 +0100</pubDate>
         <ttl>60</ttl>
 
 
@@ -772,15 +772,14 @@
         <item>
                 <title>Gelfand: Chunk 23 - Embedding Progressions</title>
                 <description>
-&lt;p&gt;As I mentioned at the close of &lt;a href=&quot;https://andrewharmellaw.github.io/2017/03/23/gelfands-algebra-chunk-22-geometric-progression-sums&quot;&gt;the previous chunk&lt;/a&gt;, this next part (Section 43) is one of Gelfand’s now-familiar “moar problems to embed and highlight subtleties and techniques from before” sections.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;As I mentioned at the close of &lt;a href=&quot;https://andrewharmellaw.github.io/2017/03/23/gelfands-algebra-chunk-22-geometric-progression-sums&quot;&gt;the previous chunk&lt;/a&gt;,&lt;/span&gt;  this next part (Section 43) is one of Gelfand’s now-familiar “moar problems to embed and highlight subtleties and techniques from before” sections.&lt;/p&gt;
 
 &lt;p&gt;I used to think them a bit boring.  I now realise that it’s in these that a good deal of the gold is hidden.&lt;/p&gt;
 
 &lt;p&gt;Consequently I’m going to go slowly.  Again, possibly too slowly for some, but my aim is simply to make sure we squeeze out all the goodness and siphon it up into our brainboxes, ready for later deployment.&lt;/p&gt;
 
 &lt;h2 id=&quot;problem-204&quot;&gt;Problem 204&lt;/h2&gt;
-
-&lt;p&gt;This is a nice problem to start with.  Let’s begin to tackle it as we always do by taking our inputs and laying them out nicely ready for deployment in solutioning.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;This is a nice problem to start with.&lt;/span&gt;   Let’s begin to tackle it as we always do by taking our inputs and laying them out nicely ready for deployment in solutioning.&lt;/p&gt;
 
 &lt;p&gt;We know that we can represent a value in an &lt;em&gt;arithmetic&lt;/em&gt; progression&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;key point, we are going back in time a bit here &lt;/span&gt; as the product of a starting value (which we’ll keep calling &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a&lt;/script&gt;&lt;/span&gt;), the difference between terms (which we’ll keep calling $d$), and numbers representing the position of the terms in the progression (which we’ll call $n_x, n_y$ and $n_z$).&lt;/p&gt;
 
@@ -814,9 +813,7 @@
 
 &lt;script type=&quot;math/tex; mode=display&quot;&gt;\rightarrow d = \frac{1}{5(n_x - 1)}&lt;/script&gt;
 
-&lt;p&gt;Nice.&lt;/p&gt;
-
-&lt;p&gt;(If you need a reminder about the rules for fiddling with fractions, take a peek back at &lt;a href=&quot;https://andrewharmellaw.github.io/2016/11/30/gelfands-algebra-chunk-4-fractions-urgh&quot;&gt;Chunk 4 - Fractions (Urgh)&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Nice.&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;If you need a reminder about the rules for fiddling with fractions, take a peek back at &lt;a href=&quot;https://andrewharmellaw.github.io/2016/11/30/gelfands-algebra-chunk-4-fractions-urgh&quot;&gt;Chunk 4 - Fractions (Urgh)&lt;/a&gt;. &lt;/span&gt;&lt;/p&gt;
 
 &lt;p&gt;We’re able to rearrange our other starter expressions in the same way. I won’t bore you with the working for them. Instead let’s jump to laying them all out side by side as an equality:&lt;/p&gt;
 
@@ -828,7 +825,7 @@
 
 &lt;script type=&quot;math/tex; mode=display&quot;&gt;\rightarrow 5(n_x - 1) = 3(n_y - 1) = 2(n_z - 1)&lt;/script&gt;
 
-&lt;p&gt;And from this point, we can take a trick we know from finding common denominators and work out that $d$ is $30$ (or you can take this from Gelfand’s tip, but I’m trying to be good and get there without it) and from there work out $n_x$, $n_y$ and $n_z$.&lt;/p&gt;
+&lt;p&gt;And from this point, we can take a trick we know from finding common denominators and work out that $d$ is $30$&lt;label for=&quot;sn-id-whetever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whetever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Or you can take this from Gelfand’s tip, but I’m trying to be good and get there without it. &lt;/span&gt; and from there work out $n_x$, $n_y$ and $n_z$.&lt;/p&gt;
 
 &lt;script type=&quot;math/tex; mode=display&quot;&gt;5 \times ((3 \times 2 + 1) - 1 ) = 30&lt;/script&gt;
 
@@ -850,9 +847,9 @@
 &lt;h2 id=&quot;problem-205&quot;&gt;Problem 205&lt;/h2&gt;
 &lt;p&gt;We’ll keep going with our all-the-gory-details working for this next problem.  Ignoring how Gelfand suggests we solve it for a second, let’s take a similarly slow and steady process like we did before and see where that gets us.&lt;/p&gt;
 
-&lt;p&gt;First up we know again that there must be a starting point $a$ (because there always is).  There must also a ratio $q$ and a number representing the position of the term in the progression (which we’ll again call $n_x, n_y$ and $n_z$).&lt;/p&gt;
+&lt;p&gt;First up we know again that there must be a starting point $a$.&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Because there always is. &lt;/span&gt;  There must also a ratio $q$ and a number representing the position of the term in the progression (which we’ll again call $n_x, n_y$ and $n_z$).&lt;/p&gt;
 
-&lt;p&gt;Yet again, if things are to be in the same &lt;em&gt;geometric&lt;/em&gt; progression (note we’re not in arithmetic land any more) then $a$ and $q$ &lt;em&gt;must&lt;/em&gt; be the same in each case.&lt;/p&gt;
+&lt;p&gt;Yet again, if things are to be in the same &lt;em&gt;Geometric Progression&lt;/em&gt;&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Note we’re not in arithmetic land any more. &lt;/span&gt; then $a$ and $q$ &lt;em&gt;must&lt;/em&gt; be the same in each case.&lt;/p&gt;
 
 &lt;p&gt;Now we can specify our terms in the form of expressions:&lt;/p&gt;
 
@@ -878,7 +875,7 @@
 
 &lt;p&gt;This sounds like a bit of a leap, but it’s far simpler once you see it.&lt;/p&gt;
 
-&lt;p&gt;Firstly however, why can we do this?  The answer is that we already know they are related simply because of how progressions work - each subsequent term derives from the one before it. (N.b. they are part of the same progression, the question relies upon it.)&lt;/p&gt;
+&lt;p&gt;Firstly however, why can we do this?  The answer is that we already know they are related simply because of how progressions work - each subsequent term derives from the one before it.&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;N.b. they are part of the same progression, the question relies upon it. &lt;/span&gt;&lt;/p&gt;
 
 &lt;p&gt;Before we get to it, we need one more piece of info - the knowledge of the order in which these terms appear in our as-yet-unknown progression.  It’s a safe bet to start with their being in ascending order, but remember Section 42, &lt;a href=&quot;https://andrewharmellaw.github.io/2017/03/21/gelfands-algebra-chunk-21-geometric-progressions&quot;&gt;back in Chunk 21&lt;/a&gt;? There we found that sometimes in geometric progressions we can flip and flop from positive to negative and back to positive again.  Don’t worry about that for now - Gelfand will come back to it later. Luckily we know that our terms are all positive, and so we are pretty safe in dealing with them in the order $2 \rightarrow 3 \rightarrow 5$.&lt;/p&gt;
 
@@ -968,7 +965,7 @@
 
 &lt;h2 id=&quot;tricks-arising&quot;&gt;Tricks Arising&lt;/h2&gt;
 &lt;p&gt;### When Proving Equalities, Remember Fundamentals
-We knew above that our equality was actually an inequality because we remembered (prodded by Gelfand I’ll admit) that there are some fundamental truisms about odd and even numbers and what you get when you multiply them.  There are probably others which are equally useful but I’ve not had to use them in a problem yet:&lt;/p&gt;
+We knew above that our equality was actually an inequality because we remembered &lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Prodded by Gelfand I’ll admit &lt;/span&gt; that there are some fundamental truisms about odd and even numbers and what you get when you multiply them.  There are probably others which are equally useful but I’ve not had to use them in a problem yet:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;dividing by zero giving “undefined” is one likely candidate,&lt;/li&gt;
@@ -977,7 +974,7 @@ We knew above that our equality was actually an inequality because we remembered
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;revisiting-problem-204&quot;&gt;Revisiting Problem 204&lt;/h2&gt;
-&lt;p&gt;It was super-useful to define the terms in terms [still sic] of each other in Problem 205.  Could we have made things simpler for ourselves by taking a similar approach in Problem 204?&lt;/p&gt;
+&lt;p&gt;It was super-useful to define the terms in terms&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Still [sic] &lt;/span&gt; of each other in Problem 205.  Could we have made things simpler for ourselves by taking a similar approach in Problem 204?&lt;/p&gt;
 
 &lt;script type=&quot;math/tex; mode=display&quot;&gt;\frac{1}{3} = \frac{1}{5} + (n \cdot x)&lt;/script&gt;
 
@@ -1028,13 +1025,13 @@ We knew above that our equality was actually an inequality because we remembered
 &lt;p&gt;A great deal of this was unnecassary, but it felt reassuring to work it all through.  And to answer my own question, “yes, I think this way was easier.”&lt;/p&gt;
 
 &lt;h2 id=&quot;problem-206&quot;&gt;Problem 206&lt;/h2&gt;
-&lt;p&gt;I got tied up on this problem for ages.  But it helped be embed (hence the title of this chunk) progressions far more deeply as a consequence.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;I got tied up on this problem for ages.&lt;/span&gt;   But it helped be embed&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Hence the title of this chunk &lt;/span&gt; progressions far more deeply as a consequence.&lt;/p&gt;
 
-&lt;p&gt;In this problem, Gelfand is asking us to try and think about things differently.  We know (because he has shown us) that the terms $2, 3$ and $5$ can’t appear in a geometric progression &lt;em&gt;in the order presented&lt;/em&gt; because he showed us it was so.  But what about if they occurred in another order? What, asks Gelfand, should we do in these circumstances?&lt;/p&gt;
+&lt;p&gt;In this problem, Gelfand is asking us to try and think about things differently.  We know&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Because he has shown us &lt;/span&gt; that the terms $2, 3$ and $5$ can’t appear in a &lt;em&gt;Geometric Progression&lt;/em&gt; &lt;em&gt;in the order presented&lt;/em&gt; because he showed us it was so.  But what about if they occurred in another order? What, asks Gelfand, should we do in these circumstances?&lt;/p&gt;
 
 &lt;p&gt;It makes sense to look back at the previous two posts to see what is even possible in this regard.  We see our first one in &lt;a href=&quot;https://andrewharmellaw.github.io/2017/03/21/gelfands-algebra-chunk-21-geometric-progressions&quot;&gt;Chunk 21 - Geometric Progressions&lt;/a&gt; section “The ‘Two Possibilities’ Subtlety”.  Here we see that a negative quotient $q$ can have our terms flipping from positive to negative.&lt;/p&gt;
 
-&lt;p&gt;There is another alternative in the next section of the same post - “The ‘is that Really a Geometric Progression’ Subtlety”.  In this one we can see that after an initial value which could be anything, the rest of the progression is made up of zeros.&lt;/p&gt;
+&lt;p&gt;There is another alternative in the next section of the same post - “The ‘is that Really a &lt;em&gt;Geometric Progression&lt;/em&gt;’ Subtlety”.  In this one we can see that after an initial value which could be anything, the rest of the progression is made up of zeros.&lt;/p&gt;
 
 &lt;p&gt;And the subsequent section contains our last possibility - “Flip it and Reverse it”.  It gives us the possibility that our progressions don’t have an increasing quotient $q$, rather that it might have a decreasing one.&lt;/p&gt;
 
@@ -1067,28 +1064,28 @@ We knew above that our equality was actually an inequality because we remembered
 &lt;p&gt;We saw this brilliantly in this problem.  I’m betting it’ll come in handy again.&lt;/p&gt;
 
 &lt;h2 id=&quot;problem-207&quot;&gt;Problem 207&lt;/h2&gt;
-&lt;p&gt;Not so much a problem as a statement this one.  We’re back at &lt;em&gt;arithmetic&lt;/em&gt; progressions again, and you’re supposed to think about the difference as we have the first two terms.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;Not so much a problem as a statement this one.&lt;/span&gt;   We’re back at &lt;em&gt;arithmetic&lt;/em&gt; progressions again, and you’re supposed to think about the difference as we have the first two terms.&lt;/p&gt;
 
 &lt;p&gt;In the case mentioned, we know we start with an integer, and then we have a second term which is also an integer.  That means the difference must also be an integer.  And if you add integers to integers, all you ever get are integers.&lt;/p&gt;
 
 &lt;p&gt;That means it is impossible to have an arithmetic progression where the first two terms are integers, but all subsequent ones are not.&lt;/p&gt;
 
 &lt;h2 id=&quot;problem-208&quot;&gt;Problem 208&lt;/h2&gt;
-&lt;p&gt;This is a similar problem to 207, but we’re now talking about &lt;em&gt;geometric&lt;/em&gt; progressions.  We saw in our discussion for Problem 206 (above) that geometric progressions can go backwards, and that when the powers of the quotient flip from positive to negative then we enter the realm of fractions with a numerator of $1$, and stay there.  And what is such a fraction not? An integer, that’s what.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;This is a similar problem to 207,&lt;/span&gt;  but we’re now talking about &lt;em&gt;Geometric Progressions&lt;/em&gt;.  We saw in our discussion for Problem 206 (above) that &lt;em&gt;Geometric Progressions&lt;/em&gt; can go backwards, and that when the powers of the quotient flip from positive to negative then we enter the realm of fractions with a numerator of $1$, and stay there.  And what is such a fraction not? An integer, that’s what.&lt;/p&gt;
 
 &lt;h2 id=&quot;problem-209&quot;&gt;Problem 209&lt;/h2&gt;
-&lt;p&gt;We’ve flipped back to arithmetic progressions again.  Remember in this type, the difference must always be the same, and if the second term is less than the first, but also less than the third, then this doesn’t hold true, because as Gelfand points out, the difference, which might be of the same magnitude, would be positive and negative at the same time, which is verboten.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;We’ve flipped back to &lt;em&gt;Arithmetic Progressions&lt;/em&gt; again.&lt;/span&gt;   Remember that in this type, the difference must always be the same, and if the second term is less than the first, but also less than the third, then this doesn’t hold true, because as Gelfand points out, the difference, which might be of the same magnitude, would be positive and negative at the same time, which is &lt;em&gt;verboten&lt;/em&gt;.&lt;/p&gt;
 
 &lt;h2 id=&quot;problem-210&quot;&gt;Problem 210&lt;/h2&gt;
-&lt;p&gt;Geometric once again.  Now it is handy to recall Problem 205 again.  Geometric progressions &lt;em&gt;can&lt;/em&gt; flip-flop, from positive to negative, when the quotient is negative.  That means it is possible to have a geometric progression where the second term is less than the first term, and also less than the third term.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;&lt;em&gt;Geometric Progression&lt;/em&gt; once again.&lt;/span&gt;   Now it is handy to recall Problem 205 again.  &lt;em&gt;Geometric Progressions&lt;/em&gt; &lt;em&gt;can&lt;/em&gt; flip-flop, from positive to negative, when the quotient is negative.  That means it is possible to have a &lt;em&gt;Geometric Progression&lt;/em&gt; where the second term is less than the first term, and also less than the third term.&lt;/p&gt;
 
 &lt;h2 id=&quot;problem-211&quot;&gt;Problem 211&lt;/h2&gt;
-&lt;p&gt;Now we’re back on our own again. Well, almost.  Gelfand does give us a hint, but let’s see what we can make of things before we take him up on it.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;Now we’re back on our own again.&lt;/span&gt;  Well, almost.  Gelfand does give us a hint, but let’s see what we can make of things before we take him up on it.&lt;/p&gt;
 
 &lt;p&gt;First let’s lay out what we know:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;we’re talking about arithmetic progressions, which means all our terms can be calculated by the formula $x = a + (n - 1) \cdot d$&lt;/li&gt;
+  &lt;li&gt;we’re talking about &lt;em&gt;Arithmetic Progressions&lt;/em&gt;, which means all our terms can be calculated by the formula $x = a + (n - 1) \cdot d$&lt;/li&gt;
   &lt;li&gt;we need to have “exactly one integer term” which means all terms must be the same&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -1106,16 +1103,16 @@ We knew above that our equality was actually an inequality because we remembered
 
 &lt;p&gt;Etc. Etc. ad infinitum.&lt;/p&gt;
 
-&lt;p&gt;It seems that you &lt;em&gt;can&lt;/em&gt; have an arithmetic progression which contains exactly one integer term.&lt;/p&gt;
+&lt;p&gt;It seems that you &lt;em&gt;can&lt;/em&gt; have an &lt;em&gt;Arithmetic Progression&lt;/em&gt; which contains exactly one integer term.&lt;/p&gt;
 
-&lt;p&gt;But there is a problem with this.  Have we misunderstood the question?  Does Gelfand &lt;em&gt;really&lt;/em&gt; mean that we want to find an arithmetic progression which has one integer term, and all other terms are non-integers?&lt;/p&gt;
+&lt;p&gt;But there is a problem with this.  Have we misunderstood the question?  Does Gelfand &lt;em&gt;really&lt;/em&gt; mean that we want to find an &lt;em&gt;Arithmetic Progression&lt;/em&gt; which has one integer term, and all other terms are non-integers?&lt;/p&gt;
 
 &lt;p&gt;If that is the case, then it’s time to take him up on his offer of the hint.&lt;/p&gt;
 
 &lt;p&gt;Again, let’s start by laying out what we know:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;we’re still talking about arithmetic progressions, which means all our terms can be calculated by the formula $x = a + (n - 1) \cdot d$&lt;/li&gt;
+  &lt;li&gt;we’re still talking about &lt;em&gt;Arithmetic Progressions&lt;/em&gt;, which means all our terms can be calculated by the formula $x = a + (n - 1) \cdot d$&lt;/li&gt;
   &lt;li&gt;the hint tells us that we’re starting at zero, which means $a = 0$. This is our single integer&lt;/li&gt;
   &lt;li&gt;and it is also hinted that we use a difference, $d$ of $\sqrt{2}$&lt;/li&gt;
 &lt;/ul&gt;
@@ -1130,13 +1127,13 @@ We knew above that our equality was actually an inequality because we remembered
 
 &lt;p&gt;What we need then is a number which no matter how many times you multiply it, it never becomes an integer.  For that we need an &lt;em&gt;irrational&lt;/em&gt; number.  The simplest one of these that we know of is $\sqrt{2}$.  That’s why Gelfand picked it.&lt;/p&gt;
 
-&lt;p&gt;This all seems a little mind-bending. We’ll get around to Irrational Numbers in a later chunk so please trust me and don’t worry about it too much for now.&lt;/p&gt;
+&lt;p&gt;This all seems a little mind-bending. We’ll get around to &lt;em&gt;Irrational Numbers&lt;/em&gt; in a later chunk so please trust me and don’t worry about it too much for now.&lt;/p&gt;
 
 &lt;h2 id=&quot;problem-212&quot;&gt;Problem 212&lt;/h2&gt;
-&lt;p&gt;Given what we’ve seen, it’s now quite clear why Gelfand answers this problem with a single word - “no”.  There is no $d$ which we can use in an arithmetical progression which will give us one more integer after the starting figure $a$, and then never give us one again.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;Given what we’ve seen,&lt;/span&gt;  it’s now quite clear why Gelfand answers this problem with a single word - “no”.  There is no $d$ which we can use in an arithmetical progression which will give us one more integer after the starting figure $a$, and then never give us one again.&lt;/p&gt;
 
 &lt;h2 id=&quot;problem-213&quot;&gt;Problem 213&lt;/h2&gt;
-&lt;p&gt;This one is a simple geometric progression, but with a little bit of fiddling after the fact.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;This one is a simple &lt;em&gt;Geometric Progression&lt;/em&gt;,&lt;/span&gt;  but with a little bit of fiddling after the fact.&lt;/p&gt;
 
 &lt;p&gt;Remember this from &lt;a href=&quot;https://andrewharmellaw.github.io/2017/03/21/gelfands-algebra-chunk-21-geometric-progressions&quot;&gt;“Chunk 21 - Geometric Progressions”&lt;/a&gt;?&lt;/p&gt;
 
@@ -1163,10 +1160,10 @@ We knew above that our equality was actually an inequality because we remembered
 &lt;p&gt;Which means the $100$th term will be $2^{100} - 1$.&lt;/p&gt;
 
 &lt;h2 id=&quot;problem-214&quot;&gt;Problem 214&lt;/h2&gt;
-&lt;p&gt;I’ll come back to this once I get to “Quadratic Equations” which Gelfand points out in his Hint.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;I’ll come back to this once I get to &lt;em&gt;Quadratic Equations&lt;/em&gt;&lt;/span&gt;  which Gelfand points out in his Hint.&lt;/p&gt;
 
 &lt;h2 id=&quot;problem-215&quot;&gt;Problem 215&lt;/h2&gt;
-&lt;p&gt;The Fibbonacci sequence (which will be &lt;em&gt;incredibly&lt;/em&gt; familiar to anyone who does any form of agile software development) is a geometric sequence which follows the pattern identified in Problem 214.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;The Fibbonacci sequence&lt;/span&gt;  (which will be &lt;em&gt;incredibly&lt;/em&gt; familiar to anyone who does any form of agile software development) is a geometric sequence which follows the pattern identified in Problem 214.&lt;/p&gt;
 
 &lt;p&gt;So what are we being asked to obtain in this problem?  Gelfand wants us to find out what $A$, and $B$ are.&lt;/p&gt;
 
@@ -1253,7 +1250,7 @@ We knew above that our equality was actually an inequality because we remembered
 &lt;p&gt;We could equally have done $A$ first and from there obtained $B$, but I followed Durham to keep everything predictable.&lt;/p&gt;
 
 &lt;h2 id=&quot;another-non-conclusion&quot;&gt;Another (non)-Conclusion&lt;/h2&gt;
-&lt;p&gt;Phew! That was a lot.  You’re probably reeling from the shock of it all.  I’d suggest re-reading all this again, perhaps working through some other options of th last problem, and then taking a break.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;Blimey!&lt;/span&gt;  That was a lot.  You’re probably reeling from the shock of it all.  I’d suggest re-reading all this again, perhaps working through some other options of th last problem, and then taking a break.&lt;/p&gt;
 
 &lt;p&gt;See you in the &lt;a href=&quot;https://andrewharmellaw.github.io/2017/04/13/gelfands-algebra-rest-1-the-well-tempered-clavier&quot;&gt;next chunk&lt;/a&gt;.&lt;/p&gt;
 </description>
@@ -1362,7 +1359,7 @@ We knew above that our equality was actually an inequality because we remembered
 
 &lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;S = na&lt;/script&gt;&lt;/div&gt;
 
-&lt;p&gt;when &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;q = 1&lt;/script&gt;&lt;/span&gt;.&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;This (and previous encounters with this kind of thing) sounds a little like a partial function which I know as a functional programming concept from Scala and Haskell.  The &lt;a href=&quot;https://wiki.haskell.org/Partial_functions&quot;&gt;Haskell Wiki defines it&lt;/a&gt; as “a function that is not defined for all possible arguments of the specified type.”  That &lt;em&gt;sounds&lt;/em&gt; like where we are, and if you look at the &lt;a href=&quot;https://en.wikipedia.org/wiki/Partial_function#Discussion_and_examples&quot;&gt;examples on wikipedia&lt;/a&gt; for the same topic it &lt;em&gt;looks&lt;/em&gt; like where we are too. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;when &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;q = 1&lt;/script&gt;&lt;/span&gt;.&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;This (and previous encounters with this kind of thing) sounds a little like a partial function which I know as a functional programming concept from Scala and Haskell.  The &lt;a href=&quot;https://wiki.haskell.org/Partial_functions&quot;&gt;Haskell Wiki defines it&lt;/a&gt; as “a function that is not defined for all possible arguments of the specified type.”  That &lt;em&gt;sounds&lt;/em&gt; like where we are, and if you look at the &lt;a href=&quot;https://en.wikipedia.org/wiki/Partial_function#Discussion_and_examples&quot;&gt;examples on Wikipedia&lt;/a&gt; for the same topic it &lt;em&gt;looks&lt;/em&gt; like where we are too. &lt;/span&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;where-next&quot;&gt;Where Next?&lt;/h2&gt;
 &lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;That’s Gelfand done now&lt;/span&gt;  on the core rules of progressions.&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Both arithmetic and geometric &lt;/span&gt;  What he’s about to do is set up a bunch of problems for us to help embed and understand the subtleties of what we learned.&lt;/p&gt;

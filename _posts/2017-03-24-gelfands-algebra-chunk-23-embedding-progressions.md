@@ -7,15 +7,14 @@ tags: [gelfand, arithmetic-progressions, geometric-progressions, tricks, odd, ev
 ---
 {% include JB/setup %}
 
-As I mentioned at the close of [the previous chunk](https://andrewharmellaw.github.io/2017/03/23/gelfands-algebra-chunk-22-geometric-progression-sums), this next part (Section 43) is one of Gelfand's now-familiar "moar problems to embed and highlight subtleties and techniques from before" sections.
+{% newthought "As I mentioned at the close of [the previous chunk](https://andrewharmellaw.github.io/2017/03/23/gelfands-algebra-chunk-22-geometric-progression-sums)," %} this next part (Section 43) is one of Gelfand's now-familiar "moar problems to embed and highlight subtleties and techniques from before" sections.
 
 I used to think them a bit boring.  I now realise that it's in these that a good deal of the gold is hidden.  
 
 Consequently I'm going to go slowly.  Again, possibly too slowly for some, but my aim is simply to make sure we squeeze out all the goodness and siphon it up into our brainboxes, ready for later deployment.
 
 ## Problem 204
-
-This is a nice problem to start with.  Let's begin to tackle it as we always do by taking our inputs and laying them out nicely ready for deployment in solutioning.
+{% newthought "This is a nice problem to start with." %}  Let's begin to tackle it as we always do by taking our inputs and laying them out nicely ready for deployment in solutioning.
 
 We know that we can represent a value in an _arithmetic_ progression{% sidenote 'sn-id-whatever' 'key point, we are going back in time a bit here'%} as the product of a starting value (which we'll keep calling {% m %}a{% em %}), the difference between terms (which we'll keep calling $d$), and numbers representing the position of the terms in the progression (which we'll call $n_x, n_y$ and $n_z$).
 
@@ -49,9 +48,7 @@ $$\rightarrow d = \frac{1}{5} \cdot \frac{1}{(n_x - 1)}$$
 
 $$\rightarrow d = \frac{1}{5(n_x - 1)}$$
 
-Nice. 
-
-(If you need a reminder about the rules for fiddling with fractions, take a peek back at [Chunk 4 - Fractions (Urgh)](https://andrewharmellaw.github.io/2016/11/30/gelfands-algebra-chunk-4-fractions-urgh).
+Nice.{% sidenote 'sn-id-whatever' "If you need a reminder about the rules for fiddling with fractions, take a peek back at [Chunk 4 - Fractions (Urgh)](https://andrewharmellaw.github.io/2016/11/30/gelfands-algebra-chunk-4-fractions-urgh)." %}
 
 We're able to rearrange our other starter expressions in the same way. I won't bore you with the working for them. Instead let's jump to laying them all out side by side as an equality:
 
@@ -63,7 +60,7 @@ It's at this point that I'm happy to make a mental leap and simplify things.  I 
 
 $$\rightarrow 5(n_x - 1) = 3(n_y - 1) = 2(n_z - 1)$$
 
-And from this point, we can take a trick we know from finding common denominators and work out that $d$ is $30$ (or you can take this from Gelfand's tip, but I'm trying to be good and get there without it) and from there work out $n_x$, $n_y$ and $n_z$.
+And from this point, we can take a trick we know from finding common denominators and work out that $d$ is $30${% sidenote 'sn-id-whetever' "Or you can take this from Gelfand's tip, but I'm trying to be good and get there without it." %} and from there work out $n_x$, $n_y$ and $n_z$.
 
 $$5 \times ((3 \times 2 + 1) - 1 ) = 30$$
 
@@ -85,9 +82,9 @@ Hell yes.  [Durham](https://www.scribd.com/document/243387607/Gelfand-Algebra-So
 ## Problem 205
 We'll keep going with our all-the-gory-details working for this next problem.  Ignoring how Gelfand suggests we solve it for a second, let's take a similarly slow and steady process like we did before and see where that gets us.
 
-First up we know again that there must be a starting point $a$ (because there always is).  There must also a ratio $q$ and a number representing the position of the term in the progression (which we'll again call $n_x, n_y$ and $n_z$).
+First up we know again that there must be a starting point $a$.{% sidenote 'sn-id-whatever' "Because there always is." %}  There must also a ratio $q$ and a number representing the position of the term in the progression (which we'll again call $n_x, n_y$ and $n_z$).
 
-Yet again, if things are to be in the same _geometric_ progression (note we're not in arithmetic land any more) then $a$ and $q$ _must_ be the same in each case.
+Yet again, if things are to be in the same _Geometric Progression_{% sidenote 'sn-id-whatever' "Note we're not in arithmetic land any more." %} then $a$ and $q$ _must_ be the same in each case.
 
 Now we can specify our terms in the form of expressions:
 
@@ -113,7 +110,7 @@ Rather than specifying our terms in terms [sic] of the progression we know nothi
 
 This sounds like a bit of a leap, but it's far simpler once you see it.  
 
-Firstly however, why can we do this?  The answer is that we already know they are related simply because of how progressions work - each subsequent term derives from the one before it. (N.b. they are part of the same progression, the question relies upon it.)
+Firstly however, why can we do this?  The answer is that we already know they are related simply because of how progressions work - each subsequent term derives from the one before it.{% sidenote 'sn-id-whatever' "N.b. they are part of the same progression, the question relies upon it." %}
 
 Before we get to it, we need one more piece of info - the knowledge of the order in which these terms appear in our as-yet-unknown progression.  It's a safe bet to start with their being in ascending order, but remember Section 42, [back in Chunk 21](https://andrewharmellaw.github.io/2017/03/21/gelfands-algebra-chunk-21-geometric-progressions)? There we found that sometimes in geometric progressions we can flip and flop from positive to negative and back to positive again.  Don't worry about that for now - Gelfand will come back to it later. Luckily we know that our terms are all positive, and so we are pretty safe in dealing with them in the order $2 \rightarrow 3 \rightarrow 5$.
 
@@ -201,14 +198,14 @@ Hmmm. That can't be right, which means we can't have these three terms being par
 
 ## Tricks Arising
 ### When Proving Equalities, Remember Fundamentals
-We knew above that our equality was actually an inequality because we remembered (prodded by Gelfand I'll admit) that there are some fundamental truisms about odd and even numbers and what you get when you multiply them.  There are probably others which are equally useful but I've not had to use them in a problem yet: 
+We knew above that our equality was actually an inequality because we remembered {% sidenote 'sn-id-whatever' "Prodded by Gelfand I'll admit" %} that there are some fundamental truisms about odd and even numbers and what you get when you multiply them.  There are probably others which are equally useful but I've not had to use them in a problem yet: 
 
  * dividing by zero giving "undefined" is one likely candidate,  
  * anything multiplied by zero being zero being another, 
  * and multiplication of positive and negative numbers being the last that I can think of.
 
 ## Revisiting Problem 204
-It was super-useful to define the terms in terms [still sic] of each other in Problem 205.  Could we have made things simpler for ourselves by taking a similar approach in Problem 204?
+It was super-useful to define the terms in terms{% sidenote 'sn-id-whatever' "Still [sic]" %} of each other in Problem 205.  Could we have made things simpler for ourselves by taking a similar approach in Problem 204?
 
 $$\frac{1}{3} = \frac{1}{5} + (n \cdot x)$$
 
@@ -259,13 +256,13 @@ $$\rightarrow n = \frac{5}{30}$$
 A great deal of this was unnecassary, but it felt reassuring to work it all through.  And to answer my own question, "yes, I think this way was easier."
 
 ## Problem 206
-I got tied up on this problem for ages.  But it helped be embed (hence the title of this chunk) progressions far more deeply as a consequence.
+{% newthought "I got tied up on this problem for ages." %}  But it helped be embed{% sidenote 'sn-id-whatever' "Hence the title of this chunk" %} progressions far more deeply as a consequence.
 
-In this problem, Gelfand is asking us to try and think about things differently.  We know (because he has shown us) that the terms $2, 3$ and $5$ can't appear in a geometric progression _in the order presented_ because he showed us it was so.  But what about if they occurred in another order? What, asks Gelfand, should we do in these circumstances?
+In this problem, Gelfand is asking us to try and think about things differently.  We know{% sidenote 'sn-id-whatever' "Because he has shown us" %} that the terms $2, 3$ and $5$ can't appear in a _Geometric Progression_ _in the order presented_ because he showed us it was so.  But what about if they occurred in another order? What, asks Gelfand, should we do in these circumstances?
 
 It makes sense to look back at the previous two posts to see what is even possible in this regard.  We see our first one in [Chunk 21 - Geometric Progressions](https://andrewharmellaw.github.io/2017/03/21/gelfands-algebra-chunk-21-geometric-progressions) section "The 'Two Possibilities' Subtlety".  Here we see that a negative quotient $q$ can have our terms flipping from positive to negative.
 
-There is another alternative in the next section of the same post - "The 'is that Really a Geometric Progression' Subtlety".  In this one we can see that after an initial value which could be anything, the rest of the progression is made up of zeros.
+There is another alternative in the next section of the same post - "The 'is that Really a _Geometric Progression_' Subtlety".  In this one we can see that after an initial value which could be anything, the rest of the progression is made up of zeros.
 
 And the subsequent section contains our last possibility - "Flip it and Reverse it".  It gives us the possibility that our progressions don't have an increasing quotient $q$, rather that it might have a decreasing one.
 
@@ -298,27 +295,27 @@ We're slowly building up a mental set of rules - things which we know always hap
 We saw this brilliantly in this problem.  I'm betting it'll come in handy again.
 
 ## Problem 207
-Not so much a problem as a statement this one.  We're back at _arithmetic_ progressions again, and you're supposed to think about the difference as we have the first two terms.
+{% newthought "Not so much a problem as a statement this one." %}  We're back at _arithmetic_ progressions again, and you're supposed to think about the difference as we have the first two terms.
 
 In the case mentioned, we know we start with an integer, and then we have a second term which is also an integer.  That means the difference must also be an integer.  And if you add integers to integers, all you ever get are integers.
 
 That means it is impossible to have an arithmetic progression where the first two terms are integers, but all subsequent ones are not.
 
 ## Problem 208
-This is a similar problem to 207, but we're now talking about _geometric_ progressions.  We saw in our discussion for Problem 206 (above) that geometric progressions can go backwards, and that when the powers of the quotient flip from positive to negative then we enter the realm of fractions with a numerator of $1$, and stay there.  And what is such a fraction not? An integer, that's what.
+{% newthought "This is a similar problem to 207," %} but we're now talking about _Geometric Progressions_.  We saw in our discussion for Problem 206 (above) that _Geometric Progressions_ can go backwards, and that when the powers of the quotient flip from positive to negative then we enter the realm of fractions with a numerator of $1$, and stay there.  And what is such a fraction not? An integer, that's what.
 
 ## Problem 209
-We've flipped back to arithmetic progressions again.  Remember in this type, the difference must always be the same, and if the second term is less than the first, but also less than the third, then this doesn't hold true, because as Gelfand points out, the difference, which might be of the same magnitude, would be positive and negative at the same time, which is verboten.
+{% newthought "We've flipped back to _Arithmetic Progressions_ again." %}  Remember that in this type, the difference must always be the same, and if the second term is less than the first, but also less than the third, then this doesn't hold true, because as Gelfand points out, the difference, which might be of the same magnitude, would be positive and negative at the same time, which is _verboten_.
 
 ## Problem 210
-Geometric once again.  Now it is handy to recall Problem 205 again.  Geometric progressions _can_ flip-flop, from positive to negative, when the quotient is negative.  That means it is possible to have a geometric progression where the second term is less than the first term, and also less than the third term.
+{% newthought "_Geometric Progression_ once again." %}  Now it is handy to recall Problem 205 again.  _Geometric Progressions_ _can_ flip-flop, from positive to negative, when the quotient is negative.  That means it is possible to have a _Geometric Progression_ where the second term is less than the first term, and also less than the third term.
 
 ## Problem 211
-Now we're back on our own again. Well, almost.  Gelfand does give us a hint, but let's see what we can make of things before we take him up on it.
+{% newthought "Now we're back on our own again." %} Well, almost.  Gelfand does give us a hint, but let's see what we can make of things before we take him up on it.
 
 First let's lay out what we know:
 
- * we're talking about arithmetic progressions, which means all our terms can be calculated by the formula $x = a + (n - 1) \cdot d$
+ * we're talking about _Arithmetic Progressions_, which means all our terms can be calculated by the formula $x = a + (n - 1) \cdot d$
  * we need to have "exactly one integer term" which means all terms must be the same
 
 Following this logic through, that means that to achieve this, then the difference between terms must be zero ($d = 0$). 
@@ -335,15 +332,15 @@ $$n = 3 \rightarrow a + (3 - 1) \cdot 0 = a + 0 = a$$
 
 Etc. Etc. ad infinitum.
 
-It seems that you _can_ have an arithmetic progression which contains exactly one integer term.  
+It seems that you _can_ have an _Arithmetic Progression_ which contains exactly one integer term.  
 
-But there is a problem with this.  Have we misunderstood the question?  Does Gelfand _really_ mean that we want to find an arithmetic progression which has one integer term, and all other terms are non-integers?  
+But there is a problem with this.  Have we misunderstood the question?  Does Gelfand _really_ mean that we want to find an _Arithmetic Progression_ which has one integer term, and all other terms are non-integers?  
 
 If that is the case, then it's time to take him up on his offer of the hint.
 
 Again, let's start by laying out what we know:
 
- * we're still talking about arithmetic progressions, which means all our terms can be calculated by the formula $x = a + (n - 1) \cdot d$
+ * we're still talking about _Arithmetic Progressions_, which means all our terms can be calculated by the formula $x = a + (n - 1) \cdot d$
  * the hint tells us that we're starting at zero, which means $a = 0$. This is our single integer
  * and it is also hinted that we use a difference, $d$ of $\sqrt{2}$
  
@@ -357,13 +354,13 @@ We can approach this from the reverse angle.  If, instead of $d = \sqrt{2}$ our 
 
 What we need then is a number which no matter how many times you multiply it, it never becomes an integer.  For that we need an _irrational_ number.  The simplest one of these that we know of is $\sqrt{2}$.  That's why Gelfand picked it.
 
-This all seems a little mind-bending. We'll get around to Irrational Numbers in a later chunk so please trust me and don't worry about it too much for now.
+This all seems a little mind-bending. We'll get around to _Irrational Numbers_ in a later chunk so please trust me and don't worry about it too much for now.
 
 ## Problem 212
-Given what we've seen, it's now quite clear why Gelfand answers this problem with a single word - "no".  There is no $d$ which we can use in an arithmetical progression which will give us one more integer after the starting figure $a$, and then never give us one again.
+{% newthought "Given what we've seen," %} it's now quite clear why Gelfand answers this problem with a single word - "no".  There is no $d$ which we can use in an arithmetical progression which will give us one more integer after the starting figure $a$, and then never give us one again.
 
 ## Problem 213
-This one is a simple geometric progression, but with a little bit of fiddling after the fact. 
+{% newthought "This one is a simple _Geometric Progression_," %} but with a little bit of fiddling after the fact. 
 
 Remember this from ["Chunk 21 - Geometric Progressions"](https://andrewharmellaw.github.io/2017/03/21/gelfands-algebra-chunk-21-geometric-progressions)?
 
@@ -390,10 +387,10 @@ $$2^4 - 1 = 15$$
 Which means the $100$th term will be $2^{100} - 1$.
 
 ## Problem 214
-I'll come back to this once I get to "Quadratic Equations" which Gelfand points out in his Hint.
+{% newthought "I'll come back to this once I get to _Quadratic Equations_" %} which Gelfand points out in his Hint.
 
 ## Problem 215
-The Fibbonacci sequence (which will be _incredibly_ familiar to anyone who does any form of agile software development) is a geometric sequence which follows the pattern identified in Problem 214.
+{% newthought "The Fibbonacci sequence" %} (which will be _incredibly_ familiar to anyone who does any form of agile software development) is a geometric sequence which follows the pattern identified in Problem 214.
 
 So what are we being asked to obtain in this problem?  Gelfand wants us to find out what $A$, and $B$ are.
 
@@ -480,6 +477,6 @@ $$ \rightarrow A = -B = \frac{1}{\sqrt{5}} $$
 We could equally have done $A$ first and from there obtained $B$, but I followed Durham to keep everything predictable.
 
 ## Another (non)-Conclusion
-Phew! That was a lot.  You're probably reeling from the shock of it all.  I'd suggest re-reading all this again, perhaps working through some other options of th last problem, and then taking a break.
+{% newthought "Blimey!" %} That was a lot.  You're probably reeling from the shock of it all.  I'd suggest re-reading all this again, perhaps working through some other options of th last problem, and then taking a break.
 
 See you in the [next chunk](https://andrewharmellaw.github.io/2017/04/13/gelfands-algebra-rest-1-the-well-tempered-clavier).

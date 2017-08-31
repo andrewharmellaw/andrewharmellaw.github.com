@@ -42,6 +42,9 @@ Consequently, I've retrospectively pulled together the following. (Fig 1.)
 [Route map here - Fig 1]
 
 ## The Sights
+
+!!!!!!!!!!!!!!!!! HOPW ARE THEY PICKED OUT IN TEXT? ITALICS? UNDERLINES? !!!!!!!
+
 As you progress along your way you will encounter many things beyond these key milestones. So that they are easier to identify, consume and digest I have tried to list the core types.
 
 You will first be conscious of the _problems_.  The entirety of Gelfand (and by extension Durham) is driven by them, and they are fundamental to the action of Oakley's method.  They will most likely torment you, but when you defeat them you will be glad of them.
