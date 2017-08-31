@@ -61,7 +61,7 @@ Can we simply swap our {% m %}1{% em %}'s and {% m %}q{% em %}'s?  Yes we can{% 
 
 {% math %} = x^{11} - 1 {% endmath %}
 
-We can now pick up with Gelfand again.  Now we know we can swap our {% m %}1{% em %}'s and {% m %}q{% m %}'s we have this:
+We can now pick up with Gelfand again.  Now we know we can swap our {% m %}1{% em %}'s and {% m %}q{% em %}'s we have this:
 
 {% math %}\rightarrow (1 + q + q^2 + q^3 + ... + q^{n - 1}) = \frac{q^n - 1}{(q - 1)}{% endmath %} 
 
