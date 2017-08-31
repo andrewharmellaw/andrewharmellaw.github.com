@@ -5,8 +5,8 @@
         <description>Maths from the Ground Up - Andrew Harmel-Law</description>
         <link>http://andrewharmellaw.github.io</link>
         <atom:link href="http://andrewharmellaw.github.io" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Wed, 30 Aug 2017 07:02:08 +0100</lastBuildDate>
-        <pubDate>Wed, 30 Aug 2017 07:02:08 +0100</pubDate>
+        <lastBuildDate>Thu, 31 Aug 2017 06:42:40 +0100</lastBuildDate>
+        <pubDate>Thu, 31 Aug 2017 06:42:40 +0100</pubDate>
         <ttl>60</ttl>
 
 
@@ -1265,107 +1265,107 @@ We knew above that our equality was actually an inequality because we remembered
         <item>
                 <title>Gelfand: Chunk 22 - Geometric Progression Sums</title>
                 <description>
-&lt;p&gt;Just as &lt;a href=&quot;https://andrewharmellaw.github.io/2017/03/21/gelfands-algebra-chunk-20-arithmetic-progressions-progress&quot;&gt;sums of arithmetic progressions&lt;/a&gt; were interesting, so are the sums of their geometric siblings.  Here follows some more commentary on what Gelfand brings us in Section 42.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;Just as &lt;a href=&quot;https://andrewharmellaw.github.io/2017/03/21/gelfands-algebra-chunk-20-arithmetic-progressions-progress&quot;&gt;sums of arithmetic progressions&lt;/a&gt; were interesting,&lt;/span&gt;  so are the sums of their geometric siblings.  Here follows some more commentary on what Gelfand brings us in Section 42.&lt;/p&gt;
 
 &lt;h2 id=&quot;problem-201&quot;&gt;Problem 201&lt;/h2&gt;
-&lt;p&gt;Let’s launch into some problems and see what that gives us, first up, Problem 201.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;Let’s launch into some problems&lt;/span&gt;  and see what that gives us.&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;1 + \frac{1}{2} = 1\frac{1}{2} = \frac{3}{2}&lt;/script&gt;
+&lt;p&gt;First up, Problem 201.&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;1 + \frac{1}{2} + \frac{1}{4} = 1\frac{3}{4} = \frac{7}{4}&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;1 + \frac{1}{2} = 1\frac{1}{2} = \frac{3}{2}&lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;1 + \frac{1}{2} + \frac{1}{4} + \frac{1}{8} = 1\frac{7}{8} = \frac{15}{8}&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;1 + \frac{1}{2} + \frac{1}{4} = 1\frac{3}{4} = \frac{7}{4}&lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;1 + ... + \frac{1}{2^n} = \frac{2^{n+1} - 1}{2^n}&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;1 + \frac{1}{2} + \frac{1}{4} + \frac{1}{8} = 1\frac{7}{8} = \frac{15}{8}&lt;/script&gt;&lt;/div&gt;
 
-&lt;p&gt;where $n$ is the number of fractions after the $1$.&lt;/p&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;1 + ... + \frac{1}{2^n} = \frac{2^{n+1} - 1}{2^n}&lt;/script&gt;&lt;/div&gt;
+
+&lt;p&gt;where &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt;&lt;/span&gt; is the number of fractions after the &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;1&lt;/script&gt;&lt;/span&gt;.&lt;/p&gt;
 
 &lt;h2 id=&quot;problem-202---two-routes-to-a-formula&quot;&gt;Problem 202 - Two Routes to a Formula&lt;/h2&gt;
-&lt;p&gt;This problem isn’t particularly hard to grasp from the solution Geland provides, but it is instructive to examine the two routes, especially their intuitive leaps that Gelfand employs to get to the answer.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;This problem isn’t particularly hard to grasp&lt;/span&gt;  from the solution Geland provides, but it is instructive to examine the two routes, especially their intuitive leaps that Gelfand employs to get to the answer.&lt;/p&gt;
 
 &lt;p&gt;Let’s start with the first. We’ll begin where Gelfand does, with the sum&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;a + aq + aq^2 + ... + aq^{n - 1}&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;a + aq + aq^2 + ... + aq^{n - 1}&lt;/script&gt;&lt;/div&gt;
 
-&lt;p&gt;I’m guessing that Gelfand is hoping by now that we’re hungry to factor this into something more manageable.  The first step in this is an easy one too - just pull out the $a$.&lt;/p&gt;
+&lt;p&gt;I’m guessing that Gelfand is hoping by now that we’re hungry to factor this into something more manageable.  The first step in this is an easy one too - just pull out the &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a&lt;/script&gt;&lt;/span&gt;.&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;(a)(1 + q + q^2 + ... + q^{n - 1})&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;(a)(1 + q + q^2 + ... + q^{n - 1})&lt;/script&gt;&lt;/div&gt;
 
 &lt;p&gt;Can we go further?  It seems sensible to try.  Have we seen something like any of this before?  Well, I personally couldn’t recall anything, but Gelfand is telling us we should have, and so I went hunting.&lt;/p&gt;
 
-&lt;p&gt;What I found was Problem 90 (which I didn’t write about specifically; a possible explanation for my amnesia) which goes like this:&lt;/p&gt;
+&lt;p&gt;What I found was Problem 90&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Which I didn’t write about specifically; a possible explanation for my amnesia &lt;/span&gt; which goes like this:&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;(1 - x)(1 + x + x^2 + x^3 + ... + x^{10}) = 1 - x^{11}&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;(1 - x)(1 + x + x^2 + x^3 + ... + x^{10}) = 1 - x^{11}&lt;/script&gt;&lt;/div&gt;
 
-&lt;p&gt;It’s not hard to see if you swap $x$ for $q$, and then make it more generic and rearrange the sides, you have a &lt;em&gt;pretty&lt;/em&gt; close (but not exact) match for a bit of our current expression.&lt;/p&gt;
+&lt;p&gt;It’s not hard to see if you swap &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;x&lt;/script&gt;&lt;/span&gt; for &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;q&lt;/script&gt;&lt;/span&gt;, and then make it more generic and rearrange the sides, you have a &lt;em&gt;pretty&lt;/em&gt; close&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Though not exact. &lt;/span&gt; match for a bit of our current expression.&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\rightarrow (1 + q + q^2 + q^3 + ... + q^{n - 1}) = \frac{1 - q^{n}}{(1 - q)}&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; \rightarrow (1 + q + q^2 + q^3 + ... + q^{n - 1}) = \frac{1 - q^{n}}{(1 - q)} &lt;/script&gt;&lt;/div&gt;
 
 &lt;p&gt;Close, but not the same as what Gelfand is referring us to:&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;q^n - 1 = (q - 1)(q^{n - 1} + ... + q + 1)&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;q^n - 1 = (q - 1)(q^{n - 1} + ... + q + 1)&lt;/script&gt;&lt;/div&gt;
 
-&lt;p&gt;Can we simply swap our $1$s and $q$s?  Yes we can. (And here’s the working to prove it.):&lt;/p&gt;
+&lt;p&gt;Can we simply swap our &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;1&lt;/script&gt;&lt;/span&gt;’s and &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;q&lt;/script&gt;&lt;/span&gt;’s?  Yes we can&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;And here’s the working to prove it &lt;/span&gt;:&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;(x - 1)(1 + x + x^2 + x^3 + ... + x^{10}) =&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;(x - 1)(1 + x + x^2 + x^3 + ... + x^{10}) = &lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;= (x - 1)1 + (x - 1)x + (x - 1)x^2 + (x - 1)x^3 + ... + (x - 1)x^{10} =&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = (x - 1)1 + (x - 1)x + (x - 1)x^2 + (x - 1)x^3 + ... + (x - 1)x^{10} = &lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;= (x - 1) + (x^2 - x) + (x^3 - x^2) + (x^4 - x^3) + ... + (x^{11} - x^{10}) =&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = (x - 1) + (x^2 - x) + (x^3 - x^2) + (x^4 - x^3) + ... + (x^{11} - x^{10}) = &lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;= (-1) + (x - x) + (x^2 - x^2) + (x^3 - x^3) + (x^4 - x^4) + ... + (x^{10} - x^{10}) + x^{11} =&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = (-1) + (x - x) + (x^2 - x^2) + (x^3 - x^3) + (x^4 - x^4) + ... + (x^{10} - x^{10}) + x^{11} = &lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;= (-1) + x^{11} =&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = (-1) + x^{11} = &lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;= x^{11} - 1&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = x^{11} - 1 &lt;/script&gt;&lt;/div&gt;
 
-&lt;p&gt;We can now pick up with Gelfand again.  Now we know we can swap our $1$a and $q$s we have this:&lt;/p&gt;
+&lt;p&gt;We can now pick up with Gelfand again.  Now we know we can swap our &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;1&lt;/script&gt;&lt;/span&gt;’s and &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;q&lt;span&gt;&amp;#8203;&lt;script type=&quot;math/tex&quot;&gt;&#39;s we have this:&lt;/script&gt;&lt;/span&gt;&lt;/script&gt;&lt;/span&gt;&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\rightarrow (1 + q + q^2 + q^3 + ... + q^{n - 1}) = \frac{q^n - 1}{(q - 1)}&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;\rightarrow (1 + q + q^2 + q^3 + ... + q^{n - 1}) = \frac{q^n - 1}{(q - 1)}&lt;/script&gt;&lt;/div&gt;
 
 &lt;p&gt;Now we can put this into our current expression and get the same answer Gelfand has&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;a \frac{q^n - 1}{(q - 1)}&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;a \frac{q^n - 1}{(q - 1)}&lt;/script&gt;&lt;/div&gt;
 
 &lt;p&gt;Well done. Give yourself a slap on the back for following along.&lt;/p&gt;
 
-&lt;p&gt;The second path to this solution takes up the $S$-mechanism we’d seen before in Problem 200 (and prior to that too).  This takes more insight, but consequently relies less on brute-force factoring and pattern-memory.&lt;/p&gt;
+&lt;p&gt;The second path to this solution takes up the &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;S&lt;/script&gt;&lt;/span&gt;-mechanism we’d seen before in Problem 200 (and prior to that too).  This takes more insight, but consequently relies less on brute-force factoring and pattern-memory.&lt;/p&gt;
 
-&lt;p&gt;In this approach the first few steps seem obvious to me (and therefore I guess to you too).  It’s when we get to $qS - S = aq^n - a$ that I want to pick up.&lt;/p&gt;
+&lt;p&gt;In this approach the first few steps seem obvious to me.&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;And therefore I guess to you too. &lt;/span&gt;  It’s when we get to &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;qS - S = aq^n - a&lt;/script&gt;&lt;/span&gt; that I want to pick up.&lt;/p&gt;
 
 &lt;p&gt;How do we get from this to the next step?  We start where I just mentioned makes sense:&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;qS - S = aq^n - a&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;qS - S = aq^n - a&lt;/script&gt;&lt;/div&gt;
 
-&lt;p&gt;We’re aiming to re-jig to isolate $S$.  First we factor the left hand side:&lt;/p&gt;
+&lt;p&gt;We’re aiming to re-jig to isolate &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;S&lt;/script&gt;&lt;/span&gt;.  First we factor the left hand side:&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;(q - 1)S = aq^n - a&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;(q - 1)S = aq^n - a&lt;/script&gt;&lt;/div&gt;
 
 &lt;p&gt;Then we factor the right hand side:&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;(q - 1)S = a(q^n - 1)&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;(q - 1)S = a(q^n - 1)&lt;/script&gt;&lt;/div&gt;
 
-&lt;p&gt;Finally to isolate the $S$ we move the (q - 1) across, getting what Gelfald showed us as the final step (if we remove the parentheses.&lt;/p&gt;
+&lt;p&gt;Finally to isolate the &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;S&lt;/script&gt;&lt;/span&gt; we move the &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;(q - 1)&lt;/script&gt;&lt;/span&gt; across, getting what Gelfald showed us as the final step.&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Provided we remove the parentheses. &lt;/span&gt;&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;S = a \frac{(q^n - 1)}{(q - 1)}&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;S = a \frac{(q^n - 1)}{(q - 1)}&lt;/script&gt;&lt;/div&gt;
 
 &lt;h2 id=&quot;problem-203---a-reminder-of-prior-tricks&quot;&gt;Problem 203 - A Reminder of Prior Tricks&lt;/h2&gt;
-&lt;p&gt;Problem 203 is to find out the gap in the solution to 202.  The solution is pretty easy to spot given the inputs.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;Problem 203 is to find out the gap in the solution to 202.&lt;/span&gt;   The solution is pretty easy to spot given the inputs.&lt;/p&gt;
 
 &lt;p&gt;The lesson learned is very clear though.  This is another circumstance where our sums-of-geometric-progressions formula is not universally applicable.  We could state it now as:&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;S = a \frac{q^n - 1}{(q - 1)}&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;S = a \frac{q^n - 1}{(q - 1)}&lt;/script&gt;&lt;/div&gt;
 
-&lt;p&gt;when $q \ne 1$, and&lt;/p&gt;
+&lt;p&gt;when &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;q \ne 1&lt;/script&gt;&lt;/span&gt;, and&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;S = na&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;S = na&lt;/script&gt;&lt;/div&gt;
 
-&lt;p&gt;when $q = 1$.&lt;/p&gt;
-
-&lt;p&gt;Aside: This (and previous encounters with this kind of thing) sounds a little like a partial function which I know as a functional programming concept from Scala and Haskell.  The &lt;a href=&quot;https://wiki.haskell.org/Partial_functions&quot;&gt;Haskell Wiki defines it&lt;/a&gt; as “a function that is not defined for all possible arguments of the specified type.”  That sounds like where we are, and if you look at the &lt;a href=&quot;https://en.wikipedia.org/wiki/Partial_function#Discussion_and_examples&quot;&gt;examples on wikipedia&lt;/a&gt; for the same topic it looks like where we are.&lt;/p&gt;
+&lt;p&gt;when &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;q = 1&lt;/script&gt;&lt;/span&gt;.&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;This (and previous encounters with this kind of thing) sounds a little like a partial function which I know as a functional programming concept from Scala and Haskell.  The &lt;a href=&quot;https://wiki.haskell.org/Partial_functions&quot;&gt;Haskell Wiki defines it&lt;/a&gt; as “a function that is not defined for all possible arguments of the specified type.”  That &lt;em&gt;sounds&lt;/em&gt; like where we are, and if you look at the &lt;a href=&quot;https://en.wikipedia.org/wiki/Partial_function#Discussion_and_examples&quot;&gt;examples on wikipedia&lt;/a&gt; for the same topic it &lt;em&gt;looks&lt;/em&gt; like where we are too. &lt;/span&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;where-next&quot;&gt;Where Next?&lt;/h2&gt;
-&lt;p&gt;That’s Gelfand done now on the core rules of progressions (arithmetic and geometric).  What he’s about to do is set up a bunch of problems for us to help embed and understand the subtleties of what we learned.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;That’s Gelfand done now&lt;/span&gt;  on the core rules of progressions.&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Both arithmetic and geometric &lt;/span&gt;  What he’s about to do is set up a bunch of problems for us to help embed and understand the subtleties of what we learned.&lt;/p&gt;
 
 &lt;p&gt;That’s the &lt;a href=&quot;https://andrewharmellaw.github.io/2017/03/24/gelfands-algebra-chunk-23-embedding-progressions&quot;&gt;next chunk&lt;/a&gt;.&lt;/p&gt;
 </description>
