@@ -10,11 +10,11 @@ tags: [gelfand, algebraic-problem-solving, proof, tricks]
 
 {% newthought "Pages 19 and 20 of [Gelfand](https://www.goodreads.com/book/show/20328259-algebra)" %} are our first encounter with a _proof_.  As it's conceptually such a simple bit of arithmetic, it's useful to call out the approach explicitly too.
 
-The reason I think there's value in detailing the approach explicitly is because the first time I read through it (and worked through it) everything made sense logically, but what didn't click was how I might have arrived at this proof myself.  Reading it in the order presented made me despair.  How would I have known to start where Gelfand started? How would I have known to then rebalance the expression so that the {% m %}0{% em %} was alone on the right-hand side? I would never have figured that out.  (Immediately followed by a fall into a pit of woe.)
+The reason I think there's value in detailing the approach explicitly is because the first time I read through it (and worked through it) everything made sense logically, but what didn't click was how I might have arrived at this proof myself.  Reading it in the order presented made me despair.  How would I have known to start where Gelfand started? How would I have known to then rebalance the expression so that the {% m %}0{% em %} was alone on the right-hand side? I would never have figured that out.{% sidenote 'sn-id-whatever' "Immediately followed by a fall into a pit of woe." %}
 
 ### A Different Perspective - Proof Part One
 
-Once I climbed back out of my gloom, I focussed on what I did recognise, and there _were_ things to grasp; the fact the problem split in two became very explicit to me, as did the application of the [Distributive Law](https://andrewharmellaw.github.io/2016/11/23/gelfands-algebra-chunk-2-commutative-associative-and-distributive-laws).{% sidenote 'sn-id-whatever' "Neither of these are hidden, but I've included it here as is just goes to highlight how easy it is to read things and have them "make sense", but still miss key things." %}  That was great, but I still couldn't grasp what must have been the intuitive leap which gave the jumping-off point.  Then I realised...
+Once I climbed back out of my gloom, I focussed on what I did recognise, and there _were_ things to grasp; the fact the problem split in two became very explicit to me, as did the application of the [_Distributive Law_](https://andrewharmellaw.github.io/2016/11/23/gelfands-algebra-chunk-2-commutative-associative-and-distributive-laws).{% sidenote 'sn-id-whatever' "Neither of these are hidden, but I've included it here as is just goes to highlight how easy it is to read things and have them "make sense", but still miss key things." %}  That was great, but I still couldn't grasp what must have been the intuitive leap which gave the jumping-off point.  Then I realised...
 
 To prove multiplication of a negative and a positive number, I needed to change this from an expression where this happened into another expression where I wasn't multiplying the negative and positive numbers together, and instead I was doing something else with them, hopefully getting rid of them altogether.
 
@@ -50,7 +50,7 @@ E.g.
 
 Blindingly obvious, but worth pointing out all the same.
 
-### Many patterns you can spot visually
+### You can spot many patterns visually
 (We saw this before, in post ["Chunk 1"](https://andrewharmellaw.github.io/algebra/2016/11/16/gelfands-algebra-chunk-1-fundamentals)) - I got to the fact that there were two halves to this problem, that the core of both was the _Distributive Law_, and that one half applied it in one direction and the other in the other direction by drawing all this out clearly and "looking".
 
 ### The Distributive Law turns multiplication followed by addition, into addition followed by by multiplication (and vice versa)
@@ -116,7 +116,7 @@ Before we conclude, we again alluded to some more tricks in this section. Let's 
 
 ### You can apply the Distributive Law _in either direction_
 
-To add or remove parentheses. (The same applies to the _Associative and Commutative Laws_ too.){% sidenote 'sn-id-whaterever' "See [the previous post](https://andrewharmellaw.github.io/2016/11/23/gelfands-algebra-chunk-2-commutative-associative-and-distributive-laws) for the gory details on all three." %}
+To add or remove parentheses. (The same applies to the _Associative and Commutative Laws_ too.){% sidenote 'sn-id-whatever' "See [the previous post](https://andrewharmellaw.github.io/2016/11/23/gelfands-algebra-chunk-2-commutative-associative-and-distributive-laws) for the gory details on all three." %}
 
 ### You can bring in other proofs to simplify your current proof
 

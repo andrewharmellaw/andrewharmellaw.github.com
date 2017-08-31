@@ -56,7 +56,7 @@ Basically I stopped at this point and went on to the next set of problems. (The 
 This involved working each and every of the steps I described above. 
 
 ### Step 5: "Do another repetition"
-First thing next morning, I worked the problem yet again, following each and every one of the original steps.  Oakley states "your understanding should be deeper" and she's right - the repetitions (and breaks) meant that now certain visual elements of both the problem and the solution came to me.  I've captured these realisations below in the "Tricks learned" section below as _"many patterns you can spot visually"_ and _"have lots of space around your problems as you work"_
+First thing next morning, I worked the problem yet again, following each and every one of the original steps.  Oakley states "your understanding should be deeper" and she's right - the repetitions (and breaks) meant that now certain visual elements of both the problem and the solution came to me.  I've captured these realisations below in the "Tricks Arising" section below as _"many patterns you can spot visually"_ and _"have lots of space around your problems as you work"_
 
 ### Step 6: "Add another problem"
 At this point I kept on going, launching into the Multiplication problem that is the subject of the second half of this post.
@@ -114,7 +114,7 @@ The ones I have so far are:
 Take time to lay out your problem in a way which is clear.  Areas which are not symmetrical after you have done this may be worthy of attention
 
 ### Have lots of space around your problems as you work
-This feels (to me at least) as if it creates a corresponding mental (working memory?) space.  It also helps when trying to spot viaual elements.
+This feels{% sidenote 'sn-id-whatever' "To me at least." %} as if it creates a corresponding mental{% sidenote 'sn-id-whatever' "Working memory?" %} space.  It also helps when trying to spot visual elements.
 
 ### Eliminate the impossible
 What _can't_ happen?  This shrinks the problem space, and gives you less to think about, allowing you to focus.
@@ -126,7 +126,7 @@ Then work back up to the complete solution - again, simplify.
 Self-explanatory this one really.
 
 ### If the order of terms makes no difference to the result, use this to your advantage
-Are you going to draw out 517 x 1001 or 1001 x 517?  Pick the one which makes things easier.
+Are you going to draw out {$ m %}517 \times 1001{% em %} or {% m %}1001 \times 517{% em %}?  Pick the one which makes things easier.
 
 ## Additional Notes
 {% newthought "Well," %} that's it for this post on the first two Gelfand-chunks. But before I close, a few other things seemed to relevant to bring out as they form part of the basic idiom of mathematics and algebra we are examining here.

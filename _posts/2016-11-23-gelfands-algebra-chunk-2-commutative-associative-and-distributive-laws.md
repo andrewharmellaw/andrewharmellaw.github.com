@@ -5,8 +5,8 @@ tags: [commutative-law, associative-law, distributive-law, gelfand, stewart-alge
 ---
 {% include JB/setup %}
 
-## The Assocative and Commutative Laws
-{% newthought "These laws allow you to jiggle around" %} the numbers in your sums and multiplications, to make them easier to do in your head (and manipulate in other ways).
+## The _Assocative_ and _Commutative Laws_
+{% newthought "These laws allow you to jiggle around" %} the numbers in your sums and multiplications, to make them easier to do in your head.{% sidenote 'sn-id-whatever' "and manipulate in other ways." %}
 
 There are _Associative Laws_ for addition:
 
@@ -36,7 +36,7 @@ The _Associative Law_ is about association or _grouping_ - who you are paired wi
 
 The _Commutative Law_ is about things being the same either way - like a _commute_ to and from work
 
-## The Distributive Law
+## The _Distributive Law_
 The _Distributive Law_ is a rule for removing parentheses:  
 
 {% math %}c(a + b) = ca + cb {% endmath %}
@@ -63,7 +63,7 @@ We will see a _lot more_ of the _Distributive Law_ over the next few Chunks (and
 
 ## Tricks Arising
 
-### Simplifying Addition with the Associative Law
+### Simplifying Addition with the _Associative Law_
 
 Example 1: when the pieces are already in place to simplify: 
 
@@ -91,7 +91,7 @@ Remember, we saw in the [previous post](https://andrewharmellaw.github.io/algebr
 
 In all these cases we're looking to arrange things so we can (re-)state our problem in terms of groups of numbers which are simpler to add / multiply. This "simpler" form is usually one where there are lots of {% m %}0{% em %}'s which ultimately results in lots of simple column arithmetic, and therefore no carries, and therefore less to wrangle with in your working memory.{% sidenote 'sn-id-whatever' "And with less chance of errors." %}
 
-### Simplifying Multiplication with the Commutative Law
+### Simplifying Multiplication with the _Commutative Law_
 
 Example 3: when the elements are already in place ready to be simplified: 
 
@@ -119,15 +119,13 @@ But can we take this trick of "re-arrangement" further and add even more to our 
 
 To see this, take a look at Problem 35 (pp. 14) in Gelfand.
 
-### Remove Parentheses with the Distributive Law
+### Remove Parentheses with the _Distributive Law_
 
 Example 5: the _Distributive Law_ can be applied to remove parentheses in increasingly complex scenarios simply by: 
 
 {% math %} (m+n)(a+b) = {% endmath %}
 
 {% math %} = ma + mb + na + nb {% endmath %}
-
-## Tricks Arising
 
 ### Split a number into two numbers which sum / multiply to the same result if it's useful
 e.g. 

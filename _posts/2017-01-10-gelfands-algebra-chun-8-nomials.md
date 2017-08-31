@@ -12,7 +12,7 @@ tags: [gelfand, tricks, monomials, polynomials, collecting-similar-terms, standa
  * the specific tricks and manipulations you can pull off with polynomials in this form to solve bigger problems, and;
  * the fact you can draw them as lines.
 
-I'm going to cover the first two in this post.  Gelfand (but not everyone) leaves the "Linear" element of algebra until later, and so will we.
+I'm going to cover the first two in this post.  Gelfand{% sidenote 'sn-id-whatever' "But not everyone." %} leaves the "Linear" element of algebra until later, and so will we.
 
 ## Representing 'Nomials
 {% newthought "A polynomial is basically" %} a subset of algebraic knowledge which defines a set of rules which your expression must comply with to be considered as one of the gang.  The qualifiying rules are simple:

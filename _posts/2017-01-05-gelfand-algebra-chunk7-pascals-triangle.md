@@ -138,7 +138,7 @@ We also know that when we have {% m %}1{% em %} as one of the input into our exp
 
 That's what you see here, and why we end up with a sum that looks a lot like (because its exactly the same as) the sum on the individual numbers in the relevant row of Pascal's triangle.
 
-## So What Happens When a = b?
+## So What Happens When {% m %}a = b{% em %}?
 {% newthought "Let's do it first" %} with {% m %}a = b = 2{% em %} and {% m %}n = 7{% em %}
 
 {% math %} (2 + 2)^7 = {% endmath %}
