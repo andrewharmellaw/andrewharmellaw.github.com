@@ -188,13 +188,13 @@ From [Chunk 17 - Polynomial (and Linear) Interpolation]().
 From [Chunk 21 - Geometric Progressions]().
 
 ### When Proving Equalities, Remember Fundamentals
-From [Chunk 22 - Embedding Progressions]().
+From [Chunk 23 - Embedding Progressions]().
 
 ### Removing Fractions in Equalities
-From [Chunk 22 - Embedding Progressions]().
+From [Chunk 23 - Embedding Progressions]().
 
 ### Think logically - that's Maths too!
-From [Chunk 22 - Embedding Progressions]().
+From [Chunk 23 - Embedding Progressions]().
 
 ## Formatting your Mathjax
 
