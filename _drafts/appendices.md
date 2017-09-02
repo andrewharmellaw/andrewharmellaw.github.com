@@ -98,22 +98,103 @@ From [Chunk 5 - Powers: Positive and Negative]().
 From [Chunk 6 - Squares, Sums, Differences etc.]().
 
 ### Adding Two Polynomials in Standard Form
-From [Chunk 8 - 'Nomials.]().
+From [Chunk 8 - 'Nomials]().
 
 ### Multiplying Two Polynomials in Standard Form
-From [Chunk 8 - 'Nomials.]().
+From [Chunk 8 - 'Nomials]().
 
 ### One Side at a Time
-From [Chunk 8 - 'Nomials.]().
+From [Chunk 8 - 'Nomials]().
 
 ### Try and Find the Simplest Way to Zero
-From [Chunk 8 - 'Nomials.]().
+From [Chunk 8 - 'Nomials]().
 
 ### Try it with {% m %}x = 0{% em %} (and also {% m %}1{% em %} and {% m %}-1{% em %})
-From [Chunk 8 - 'Nomials.]().
+From [Chunk 8 - 'Nomials]().
 
 ### Always Convert Your Polynomials to Standard Form
-From [Chunk 8 - 'Nomials.]().
+From [Chunk 8 - 'Nomials]().
+
+### When Factoring _With Odd Powers_, Look for Patterns of Common Multiplicands
+From [Chunk 10 - Factoring 101]().
+
+### When Factoring, It Can Help to Split Similar Terms
+From [Chunk 10 - Factoring 101]().
+
+### When Factoring, Find a Simple Case
+From [Chunk 11 - Factoring to Zero]().
+ 
+### When Factoring, Ask "What Gives a Zero Result?"
+From [Chunk 11 - Factoring to Zero]().
+
+### Advanced Pattern Spotting - Plus, Minus 
+From [Chunk 11 - Factoring to Zero]().
+
+### Need a Square? Pull Apart Your Powers
+From [Chunk 11 - Factoring to Zero]().
+
+### Need a Square? Add (and Remove) the Bit You Need
+From [Chunk 11 - Factoring to Zero]().
+
+### Need a Square? Root it then Square it
+From [Chunk 11 - Factoring to Zero]().
+
+### Need a Square? Make a Perfect One
+From [Chunk 11 - Factoring to Zero]().
+
+### Split to Root Everything Individually
+From [Chunk 11 - Factoring to Zero]().
+
+### Don't Stop Until You Have To
+From [Chunk 11 - Factoring to Zero]().
+
+### If You Have "Something-to-a-Power _Minus_ Something-Else-to-the-Same-Power One Factor Will Be {% m %}(a - b){% em %}
+From [Chunk 12 - The Hard Ones]().
+
+### If You Have "Something-to-a-Power _Plus_ Something-Else-to-the-Same-Power, _and your Power is Odd_, One Factor Will Be {% m %}(a - (-b)){% em %}
+From [Chunk 12 - The Hard Ones]().
+
+### If You Have "Something-to-a-Power _Plus_ Something-Else-to-the-Same-Power, _and your Power is Even_, Find Your Squares and Mix in {% m %}2a^nb^n{% em %}
+From [Chunk 12 - The Hard Ones]().
+
+### Meta-Trick: There isn't Always a Single, Simple Trick
+From [Chunk 12 - The Hard Ones]().
+
+### Look for the Same Pattern in Things You Know (Beyond the Standard Short-Cut Formulas)
+From [Aside 1 - Proofs!?!?!]()
+
+### You Can Represent a _Whole_ Polynomial as a _Single_ Variable
+From [Chunk 14 - Polynomial Division]().
+
+### Find the Remainder Quickly and Simply - Bezout's Remainder Theorem
+From [Chunk 16 - Polynomial Division - Remainders, Bezout and Roots]().
+
+### Find out if {% m %}P{% em %} is Divisible by {% m %}x - a{% em %}, aka "Roots" to Factoring Joy
+From [Chunk 16 - Polynomial Division - Remainders, Bezout and Roots]().
+
+### Nothing Subtracted? Try a Negative
+From [Chunk 16 - Polynomial Division - Remainders, Bezout and Roots]().
+
+### How Many Roots?
+From [Chunk 16 - Polynomial Division - Remainders, Bezout and Roots]().
+
+### Flip It
+From [Chunk 17 - Polynomial (and Linear) Interpolation]().
+
+### Go Back to the Fundamentals
+From [Chunk 17 - Polynomial (and Linear) Interpolation]().
+
+### Sometimes There's No Answers, Other Times There's More Than One Answer
+From [Chunk 21 - Geometric Progressions]().
+
+### When Proving Equalities, Remember Fundamentals
+From [Chunk 22 - Embedding Progressions]().
+
+### Removing Fractions in Equalities
+From [Chunk 22 - Embedding Progressions]().
+
+### Think logically - that's Maths too!
+From [Chunk 22 - Embedding Progressions]().
 
 ## Formatting your Mathjax
 

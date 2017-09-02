@@ -1,8 +1,6 @@
 ---
 layout: post
-title: "Gelfand: Aside 2 - Roots, Roots and More Roots"
-description: ""
-category: 
+title: "Gelfand: Aside 3 - Roots, Roots and More Roots"
 tags: [gelfand, roots, radicals, quadratic-equations, polynomials]
 ---
 {% include JB/setup %}

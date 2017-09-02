@@ -141,7 +141,7 @@ And now problem (b)
 
 ## Tricks Arising (Pt. 2)
 
-### Split Similar Terms
+### When Factoring, It Can Help to Split Similar Terms
 
 Remember the ones you collected when you were doing the busy-work of obtaining [nice, clean "Standard Form" polynomials](https://andrewharmellaw.github.io/2017/01/10/gelfands-algebra-chun-8-nomials)?  Well if you're working backwards (as you are when "Factoring Down the Line") then you need to break things up.  
 

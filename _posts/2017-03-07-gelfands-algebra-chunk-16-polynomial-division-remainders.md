@@ -16,7 +16,7 @@ I'll let you go to Gelfand{% sidenote 'sn-id-whatever' "Section 37." %} for the 
 
 This simple formula gives us a bunch of cool stuff and these cool things are the subject of the rest of this post.
 
-## Tricks Arising
+## Tricks Arising (Pt. 1)
 
 ### Find the Remainder Quickly and Simply - Bezout's Remainder Theorem
 We can use Bezout's theorem in a sneaky way. To find the remainder when {% m %}P{% em %} is divided by {% m %}x - a{% em %}, simply substitute {% m %}a{% em %} for {% m %}x{% em %}. We don't need to calculate the quotient to be able to do this either.
@@ -167,7 +167,7 @@ Which means our factoring is as follows:
 
 {% math %}x^4 + 3x^2 + 5x + 1 = (x + 1)(x^3  + x^2 + 4x + 1){% endmath %}
 
-## Tricks Arising
+## Tricks Arising (Pt. 2)
 
 ### Nothing Subtracted? Try a Negative
 If when you look at your polynomial you see that nothing is subtracted{% sidenote 'sn-id-whateved' "As in Problem 146(b) above." %} you know that your root will have to be a negative number (so that your sum will add to zero when you mix in the {% m %}x{% em %}).

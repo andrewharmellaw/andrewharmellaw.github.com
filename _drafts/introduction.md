@@ -35,6 +35,9 @@ Third there are Adrian S. Durham's "[Solutions to the Unsolved Problems in Gelfa
 Taken as a collective, they are what sit behind everything that follows in this volume.  Gelfand forms the spine - we will work it through, problem by problem, calling out to Durham as and when required.  Oakley is called upon as needed, and thanked as required.  She is the inspiration for some of the more prosaic paragraphs, having implicitly given her permission to explicitly describe and discuss the mental experiences of the journey. She is also the source of the key concept of "chunks".  If Gelfand is the direction of travel, Oakley's chunks inform the size and shape of the steps.  This is more than a mere pedagogical construct, helping to delineate chapters and sections; they are the units of thought-currency which must be grasped, encoded and manipulated if you are to stand any chance of arriving at your destination.{% sidenote 'sn-id-whatever' "Which is not to say that all will be hard-fought.  Perhaps you are one of the lucky ones for whom all this comes easily, with concept after concept seeming self-evident and graspable from the moment it is introduced.  I wish I was so blessed." %}
 
 ## The Journey
+
+!!!!!!!!CONFIDENCE!!!!!!!
+
 I have learned in the course of writing that having a visual representation of even wholly abstract concepts makes them far easier to process.  I know well that one thing I've frequently wished for is a map of the key mental stages of a journey before I've even taken a single step.
 
 Consequently, I've retrospectively pulled together the following. (Fig 1.)

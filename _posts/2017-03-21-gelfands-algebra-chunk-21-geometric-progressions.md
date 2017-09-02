@@ -120,5 +120,5 @@ We can then draw our conclusions.{% sidenote 'sn-id-whatever' "This works becaus
 
 ## Tricks Arising
 
-### Sometimes No Answers, Other Times More Than One Answer
+### Sometimes There's No Answers, Other Times There's More Than One Answer
 Notwithstanding the aside about how {% m %}a^2 = b^2{% em %} in [Chunk 11 - Factoring to Zero](https://andrewharmellaw.github.io/2017/01/20/gelfands-algebra-chunk-11-factoring-to-zero), Problem 198 is the first time we've seen something where we need to think about different categories of input.  It's handy to have this in mind for the future.{% sidenote 'sn-id-whatever' "Trust me, I've read ahead." %}

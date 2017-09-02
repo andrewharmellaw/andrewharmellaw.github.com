@@ -305,7 +305,7 @@ And from there we can apply _Difference of Squares_
 
 That was simple, but it also feels a little bit like magic.  Maths-super-power magic.{% sidenote 'sn-id-whatever' "A feeling I personally never felt in high school when I was chipping away (unsuccessfully) at all this." %}
 
-## Tricks Arising
+## Tricks Arising (Pt. 2)
 
 ### Advanced Pattern Spotting - Plus, Minus 
 Much of our new super-powers are based on our getting to the _Difference of Squares_ or _Square of a Sum_.  Which one?  Look at the signs of the operations ({% m %}+{% em %} or {% m %}-{% em %}) between your terms.  These will give you a clue.
