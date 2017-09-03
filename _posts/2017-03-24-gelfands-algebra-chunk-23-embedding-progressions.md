@@ -476,7 +476,7 @@ And from there getting {% m %}A{% em %}
 
 We could equally have done {% m %}A{% em %} first and from there obtained {% m %}B{% em %}, but I followed Durham to keep everything predictable.
 
-## Another (non)-Conclusion
+## Another (Non-)Conclusion
 {% newthought "Blimey!" %} That was a lot.  You're probably reeling from the shock of it all.  I'd suggest re-reading all this again, perhaps working through some other options of th last problem, and then taking a break.
 
 See you in the [next chunk](https://andrewharmellaw.github.io/2017/04/13/gelfands-algebra-rest-1-the-well-tempered-clavier).
