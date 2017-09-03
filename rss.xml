@@ -5,8 +5,8 @@
         <description>Maths from the Ground Up - Andrew Harmel-Law</description>
         <link>http://andrewharmellaw.github.io</link>
         <atom:link href="http://andrewharmellaw.github.io" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Sat, 02 Sep 2017 20:58:35 +0100</lastBuildDate>
-        <pubDate>Sat, 02 Sep 2017 20:58:35 +0100</pubDate>
+        <lastBuildDate>Sun, 03 Sep 2017 21:09:43 +0100</lastBuildDate>
+        <pubDate>Sun, 03 Sep 2017 21:09:43 +0100</pubDate>
         <ttl>60</ttl>
 
 
@@ -491,10 +491,10 @@
         <item>
                 <title>Gelfand: Chunk 24 - Equations, Schmequations</title>
                 <description>
-&lt;p&gt;After the “well Tempered Clavier” interlude we’re about to have a little more ground prepared for us before we dive into the next core concept.  That means this should be an easy chunk for you.  Enjoy it. For roots are coming.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;After the “Well Tempered Clavier” interlude&lt;/span&gt;  we’re about to have a little more ground prepared for us before we dive into the next core concept.  That means this should be an easy chunk for you.  Enjoy it. For roots are coming.&lt;/p&gt;
 
 &lt;h2 id=&quot;some-definitions&quot;&gt;Some Definitions&lt;/h2&gt;
-&lt;p&gt;This section in Gelfand (46) begins with some definitions. I found it useful to take these and re-state them in my own terms. (It was useful to have to write it, and perhaps it will help you to have an alternative too.)&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;This section in Gelfand (46)&lt;/span&gt;  begins with some definitions. I found it useful to take these and re-state them in my own terms.&lt;label for=&quot;sn-id&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;It was useful to have to write it, and perhaps it will help you to have an alternative too. &lt;/span&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;An &lt;em&gt;Identity&lt;/em&gt; says “this expression is equal to that expression”. If &lt;em&gt;proved&lt;/em&gt; (by applying standard algebraic transformations) then it holds for &lt;em&gt;all&lt;/em&gt; values of the variables.  That is also the standard mechanism by which an Identity is &lt;em&gt;refuted&lt;/em&gt; - by finding values for the variables where the expressions are &lt;em&gt;not equal&lt;/em&gt;.&lt;/p&gt;
@@ -504,196 +504,198 @@
   &lt;p&gt;An &lt;em&gt;Equation&lt;/em&gt; says “these two expressions are equal”.  It must be &lt;em&gt;solved&lt;/em&gt; (i.e. you must find &lt;em&gt;all&lt;/em&gt; the values of the variables for which the left hand side is equal to the right hand side).&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Note: Mathematicians don’t say an Equation is “unsolvable”, because they deem it to be solved if they prove it can have no solutions.  To “solve” therefore means to find all, or prove that there are no solutions.&lt;/p&gt;
+&lt;p&gt;Note: Mathematicians don’t say an Equation is “unsolvable”, because they deem it to be solved if they prove it can have no solutions.  To “solve” therefore means to find all, or prove that there are no, solutions.&lt;/p&gt;
 
 &lt;h2 id=&quot;one-more-key-definition&quot;&gt;One More Key Definition&lt;/h2&gt;
-&lt;p&gt;Gelfand then introduces some more terms for us in a short glossary (Section 47).  It is worth highlighting an element in his definition of “solutions of an equation”.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;Gelfand then introduces&lt;/span&gt;  some more terms for us in a short glossary (Section 47).  It is worth highlighting an element in his definition of “solutions of an equation”.&lt;/p&gt;
 
-&lt;p&gt;This brings in the term “root” once again.  You’ll recall that we’ve seen it before &lt;a href=&quot;https://andrewharmellaw.github.io/tags.html#roots-ref&quot;&gt;almost whenever we talked about Polynomials, and more&lt;/a&gt;.  To avoid confusion, this “root” is not the same as a “square” root. These are two entirely unrelated concepts.  This is why I wrote &lt;a href=&quot;https://andrewharmellaw.github.io/2017/04/24/gelfands-algebra-aside-2-roots-roots-and-more-roots&quot;&gt;my previous aside&lt;/a&gt; to help me get things super clear.  I you skipped it, you might want to go back to it now. It’s short (promise).&lt;/p&gt;
+&lt;p&gt;This brings in the term “root” once again.  You’ll recall that we’ve seen it before &lt;a href=&quot;https://andrewharmellaw.github.io/tags.html#roots-ref&quot;&gt;almost whenever we talked about Polynomials, and more&lt;/a&gt;.  To avoid confusion, this “root” is not the same as a “square” root. These are two entirely unrelated concepts.  This is why I wrote &lt;a href=&quot;https://andrewharmellaw.github.io/2017/04/24/gelfands-algebra-aside-3-roots-roots-and-more-roots&quot;&gt;my previous aside&lt;/a&gt; to help me get things super clear.  I you skipped it, you might want to go back to it now. It’s short.&lt;label for=&quot;sn-id&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;I promise. &lt;/span&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;quadratic-equations&quot;&gt;Quadratic Equations&lt;/h2&gt;
-&lt;p&gt;There then follows a nice set of questions where you’re asked to solve some Quadratic equations, following on from Gelfand’s lead in Problem 223.  I’m going to step through them here too.  It’ll help set a nice pace prior to the next chunk (am I building it up enough?). Some differ a little from the solution in Durham and so much the better.  Please read his solutions too as it all helps.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;There then follows a nice set of questions&lt;/span&gt;  where you’re asked to solve some &lt;em&gt;Quadratic Equations&lt;/em&gt;, following on from Gelfand’s lead in Problem 223.  I’m going to step through them here too.  It’ll help set a nice pace prior to the next chunk.&lt;label for=&quot;sn-id&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Am I building it up enough? &lt;/span&gt; Some differ a little from the solution in &lt;a href=&quot;https://www.scribd.com/document/243387607/Gelfand-Algebra-Solutions&quot;&gt;Durham&lt;/a&gt; and so much the better.  Please read his solutions too as it all helps.&lt;/p&gt;
 
 &lt;h3 id=&quot;problem-224a&quot;&gt;Problem 224(a)&lt;/h3&gt;
 &lt;p&gt;We start with&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;x^2 - 4 = 0&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;x^2 - 4 = 0&lt;/script&gt;&lt;/div&gt;
 
 &lt;p&gt;If we do a little fiddling&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\rightarrow (x^2)-(2^2) = 0&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;\rightarrow (x^2)-(2^2) = 0&lt;/script&gt;&lt;/div&gt;
 
-&lt;p&gt;then we can see the Difference-of-Sqaures which we can factor easily&lt;/p&gt;
+&lt;p&gt;then we can see the &lt;em&gt;Difference of Squares&lt;/em&gt; which we can factor easily&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\rightarrow (x + 2)(x - 2) = 0&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; \rightarrow (x + 2)(x - 2) = 0&lt;/script&gt;&lt;/div&gt;
 
 &lt;p&gt;Which means that&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;x + 2 = 0 \rightarrow x = -2&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;x + 2 = 0 \rightarrow x = -2&lt;/script&gt;&lt;/div&gt;
 
 &lt;p&gt;or&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;x - 2 = 0 \rightarrow x = 2&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;x - 2 = 0 \rightarrow x = 2&lt;/script&gt;&lt;/div&gt;
 
-&lt;p&gt;Therefore the equation has two roots - $x = 2$ and $x = - 2$&lt;/p&gt;
+&lt;p&gt;Therefore the equation has two roots - &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;x = 2&lt;/script&gt;&lt;/span&gt; and &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;x = - 2&lt;/script&gt;&lt;/span&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;problem-224b&quot;&gt;Problem 224(b)&lt;/h3&gt;
 &lt;p&gt;Now we begin with&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;x^2 + 2 = 0&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; x^2 + 2 = 0 &lt;/script&gt;&lt;/div&gt;
 
 &lt;p&gt;Let’s take a similar first step to (a)&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\rightarrow x^2 + \sqrt{2}^2 = 0&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; \rightarrow x^2 + \sqrt{2}^2 = 0 &lt;/script&gt;&lt;/div&gt;
 
-&lt;p&gt;Hmmm, but this has a $+$ rather than a $-$ so we need to do some more shuffling before we have a Difference-of-Squares.&lt;/p&gt;
+&lt;p&gt;Hmmm, but this has a &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;+&lt;/script&gt;&lt;/span&gt; rather than a &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;-&lt;/script&gt;&lt;/span&gt; so we need to do some more shuffling before we have a &lt;em&gt;Difference of Squares&lt;/em&gt;.&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\rightarrow x^2 - (\sqrt{-1} \times \sqrt{2})^2 = 0&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; \rightarrow x^2 - (\sqrt{-1} \times \sqrt{2})^2 = 0&lt;/script&gt;&lt;/div&gt;
 
-&lt;p&gt;Note in the step above the flip from $x^2 + ..$. to $x^2 - …$&lt;/p&gt;
+&lt;p&gt;Note in the step above the flip from &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;x^2 + ..&lt;/script&gt;&lt;/span&gt;. to &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;x^2 - ...&lt;/script&gt;&lt;/span&gt;&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\rightarrow (x - \sqrt{-1} \times \sqrt{2})(x + \sqrt{-1} \times \sqrt{2}) = 0&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; \rightarrow (x - \sqrt{-1} \times \sqrt{2})(x + \sqrt{-1} \times \sqrt{2}) = 0&lt;/script&gt;&lt;/div&gt;
 
 &lt;p&gt;Which means that&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;x = \sqrt{-1} \times \sqrt{2}&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; x = \sqrt{-1} \times \sqrt{2} &lt;/script&gt;&lt;/div&gt;
 
 &lt;p&gt;or&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;x = -\sqrt{-1} \times \sqrt{2}&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; x = -\sqrt{-1} \times \sqrt{2} &lt;/script&gt;&lt;/div&gt;
 
-&lt;p&gt;Why did we put in that step which takes us from $x^2 + …$ to $x^2 - …$?&lt;/p&gt;
+&lt;p&gt;Why did we put in that step which takes us from &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;x^2 + ...&lt;/script&gt;&lt;/span&gt; to &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;x^2 - ...&lt;/script&gt;&lt;/span&gt;?&lt;/p&gt;
 
-&lt;p&gt;Because it makes it easier to factor as it allows us to use a &lt;a href=&quot;https://andrewharmellaw.github.io/2016/12/17/gelfanfd-algebra-chunk-6-squares-sums-diffs-etc&quot;&gt;short multiplication formula&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Because it makes it easier to factor as it allows us to use a &lt;a href=&quot;https://andrewharmellaw.github.io/2016/12/17/gelfanfd-algebra-chunk-6-squares-sums-diffs-etc&quot;&gt;&lt;em&gt;Short Multiplication Formula&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h3 id=&quot;problem-224c&quot;&gt;Problem 224(c)&lt;/h3&gt;
 &lt;p&gt;This time we have&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;x^2 - 2x + 1 = 0&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; x^2 - 2x + 1 = 0 &lt;/script&gt;&lt;/div&gt;
 
-&lt;p&gt;This looks like a Square-of-a-Sum, let’s see&lt;/p&gt;
+&lt;p&gt;This looks like a &lt;em&gt;Square of a Sum&lt;/em&gt;, let’s see&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\rightarrow x^2 - 2x \cdot 1 + 1^2&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; \rightarrow x^2 - 2x \cdot 1 + 1^2 &lt;/script&gt;&lt;/div&gt;
 
 &lt;p&gt;Yup, it is, which means we can factor&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\rightarrow (x - 1)(x - 1) = 0&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; \rightarrow (x - 1)(x - 1) = 0 &lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\rightarrow (x - 1)^2 = 0&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; \rightarrow (x - 1)^2 = 0 &lt;/script&gt;&lt;/div&gt;
 
 &lt;p&gt;Which means that&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;x = 1&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; x = 1 &lt;/script&gt;&lt;/div&gt;
 
 &lt;h3 id=&quot;problem-224d&quot;&gt;Problem 224(d)&lt;/h3&gt;
 &lt;p&gt;This time we are presented with&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;x^2 - 2x + 1 = 9&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; x^2 - 2x + 1 = 9 &lt;/script&gt;&lt;/div&gt;
 
 &lt;p&gt;Applying the result from 224(c), we can state&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;(x - 1)^2 = 9&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; (x - 1)^2 = 9 &lt;/script&gt;&lt;/div&gt;
 
 &lt;p&gt;And therefore&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;x - 1 = ±3&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; x - 1 = ±3 &lt;/script&gt;&lt;/div&gt;
 
 &lt;p&gt;Which means that&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;x = 3 + 1 = 4&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; x = 3 + 1 = 4&lt;/script&gt;&lt;/div&gt;
 
 &lt;p&gt;or&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;x = -3 + 1 = -2&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; x = -3 + 1 = -2 &lt;/script&gt;&lt;/div&gt;
 
 &lt;h3 id=&quot;problem-224e&quot;&gt;Problem 224(e)&lt;/h3&gt;
 &lt;p&gt;This one looks familiar&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;x^2 - 2x - 8 = 0&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; x^2 - 2x - 8 = 0 &lt;/script&gt;&lt;/div&gt;
 
-&lt;p&gt;Which is easy enough to rearrange (by adding $9$ to each side)&lt;/p&gt;
+&lt;p&gt;Which is easy enough to rearrange (by adding &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;9&lt;/script&gt;&lt;/span&gt; to each side)&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\rightarrow x^2 - 2x + 1 = 9&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; \rightarrow x^2 - 2x + 1 = 9 &lt;/script&gt;&lt;/div&gt;
 
-&lt;p&gt;Which means the answers are the same as 224(d), $4$ and $-2$.&lt;/p&gt;
+&lt;p&gt;Which means the answers are the same as 224(d), &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;4&lt;/script&gt;&lt;/span&gt; and &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;-2&lt;/script&gt;&lt;/span&gt;.&lt;/p&gt;
 
 &lt;h3 id=&quot;problem-224e-1&quot;&gt;Problem 224(e)&lt;/h3&gt;
 &lt;p&gt;Is this one as simple?&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;x^2 - 2x - 3 = 0&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; x^2 - 2x - 3 = 0 &lt;/script&gt;&lt;/div&gt;
 
 &lt;p&gt;Again we can rearrange&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;x^2 - 2x + 1 = 4&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; x^2 - 2x + 1 = 4 &lt;/script&gt;&lt;/div&gt;
 
 &lt;p&gt;Though we’ve not got a pre-canned answer for this one so we need to do some leg-work&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\rightarrow (x - 1)^2 = 4&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; \rightarrow (x - 1)^2 = 4 &lt;/script&gt;&lt;/div&gt;
 
 &lt;p&gt;And therefore&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\rightarrow x - 1 = ±2&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; \rightarrow x - 1 = ±2 &lt;/script&gt;&lt;/div&gt;
 
 &lt;p&gt;Which means that&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;x = 2 + 1 = 3&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; x = 2 + 1 = 3&lt;/script&gt;&lt;/div&gt;
 
 &lt;p&gt;or&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;x = -2 + 1 = -1&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; x = -2 + 1 = -1 &lt;/script&gt;&lt;/div&gt;
 
 &lt;h3 id=&quot;problem-224f&quot;&gt;Problem 224(f)&lt;/h3&gt;
 &lt;p&gt;And finally&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;x^2 - 5x + 6 = 0&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; x^2 - 5x + 6 = 0 &lt;/script&gt;&lt;/div&gt;
 
 &lt;p&gt;We’re not able to keep applying our same pattern here so we need to look elsewhere. The “split similar terms” trick from &lt;a href=&quot;https://andrewharmellaw.github.io/2017/01/17/gelfands-algebra-chunk-10-factoring&quot;&gt;Chunk 10 - Factoring&lt;/a&gt; seems like it might be handy.&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\rightarrow x^2 - 5x + 2 \times 3 = 0&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; \rightarrow x^2 - 5x + 2 \times 3 = 0 &lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\rightarrow x^2 - 2x - 3x + 2 \times 3 = 0&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; \rightarrow x^2 - 2x - 3x + 2 \times 3 = 0 &lt;/script&gt;&lt;/div&gt;
 
 &lt;p&gt;Then we can change the signs of some of our elements so the final factoring is easy&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\rightarrow x^2 - 2x - 3x + -2 \times -3 = 0&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; \rightarrow x^2 - 2x - 3x + -2 \times -3 = 0 &lt;/script&gt;&lt;/div&gt;
 
 &lt;p&gt;And we can they collect it all together&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\rightarrow (x - 2)(x - 3) = 0&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; \rightarrow (x - 2)(x - 3) = 0&lt;/script&gt;&lt;/div&gt;
 
 &lt;p&gt;Which means that&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;x = 2&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; x = 2 &lt;/script&gt;&lt;/div&gt;
 
 &lt;p&gt;or&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;x = 3&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; x = 3 &lt;/script&gt;&lt;/div&gt;
 
 &lt;h3 id=&quot;problem-224f-1&quot;&gt;Problem 224(f)&lt;/h3&gt;
-&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;x^2 - x - 2 = 0&lt;/script&gt;&lt;/p&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; x^2 - x - 2 = 0 &lt;/script&gt;&lt;/div&gt;
 
 &lt;p&gt;Again we have to think for ourselves a little here, but just as in 224(e) we can use much the same trick&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\rightarrow x^2 - x - 1 \times 2 = 0&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; \rightarrow x^2 - x - 1 \times 2 = 0&lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\rightarrow x^2 - (1 - 2)x + (1 \times -2) = 0&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; \rightarrow x^2 - (1 - 2)x + (1 \times -2) = 0&lt;/script&gt;&lt;/div&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\rightarrow x^2 - (1 - 2)x + (1 \times -2) = 0&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; \rightarrow x^2 - (1 - 2)x + (1 \times -2) = 0&lt;/script&gt;&lt;/div&gt;
 
 &lt;p&gt;And then collecting it all together&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\rightarrow (x + 1)(x - 2) = 0&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; \rightarrow (x + 1)(x - 2) = 0&lt;/script&gt;&lt;/div&gt;
 
 &lt;p&gt;Which means that&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;x = -1&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; x = -1 &lt;/script&gt;&lt;/div&gt;
 
 &lt;p&gt;or&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;x = 2&lt;/script&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; x = 2 &lt;/script&gt;&lt;/div&gt;
 
-&lt;h3 id=&quot;tricks-arising---working-with-square-roots&quot;&gt;Tricks Arising - Working with Square Roots&lt;/h3&gt;
-&lt;p&gt;You will have probably noted the trick in 224(b) which turned (positive) $\sqrt{2}^2$ into (negative) $-\sqrt{2}^2$. It’s achieved by multiplying it by $\sqrt{-1}$.  Why not simply $-1$?  Because we need to square it again alongside the $\sqrt{2}$ to get back to where we started.&lt;/p&gt;
+&lt;h2 id=&quot;tricks-arising&quot;&gt;Tricks Arising&lt;/h2&gt;
+
+&lt;h3 id=&quot;keeping-positive-or-negative-when-working-with-square-roots&quot;&gt;Keeping Positive (or Negative) when Working with Square Roots&lt;/h3&gt;
+&lt;p&gt;You will have probably noted the trick in 224(b) which turned (positive) &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;\sqrt{2}^2&lt;/script&gt;&lt;/span&gt; into (negative) &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;-\sqrt{2}^2&lt;/script&gt;&lt;/span&gt;. It’s achieved by multiplying it by &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;\sqrt{-1}&lt;/script&gt;&lt;/span&gt;.  Why not simply &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;-1&lt;/script&gt;&lt;/span&gt;?  Because we need to square it again alongside the &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;\sqrt{2}&lt;/script&gt;&lt;/span&gt; to get back to where we started.&lt;/p&gt;
 
 &lt;p&gt;I’ve got a feeling that this little thread is the thing that Gelfand is now going to tug on and end up pulling us up into a whole new level of Algebra-appreciation.&lt;/p&gt;
 
@@ -708,27 +710,25 @@
                 <title>Gelfand: Aside 3 - Roots, Roots and More Roots</title>
                 <description>
 &lt;h2 id=&quot;roots-bldy-roots&quot;&gt;Roots, Bl**dy Roots&lt;/h2&gt;
-&lt;p&gt;We need to talk about roots.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;We need to talk about roots.&lt;/span&gt;&lt;/p&gt;
 
-&lt;p&gt;There are situations you come across occasionally, as you learn something new, or try and gain a deeper understanding of something you half know, when two &lt;em&gt;totally separate&lt;/em&gt; concepts share a common-name, and hence you tie yourself in knots trying to figure out how they are related.&lt;/p&gt;
+&lt;p&gt;There are situations you come across occasionally, as you learn something new, or try and gain a deeper understanding of something you half know, when two &lt;em&gt;totally separate&lt;/em&gt;&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Repeat after me “SE-PAR-ATE”. Good &lt;/span&gt; concepts share a common-name, and hence you tie yourself in knots trying to figure out how they are related.&lt;/p&gt;
 
-&lt;p&gt;In algebra, “roots” are one of those situations.&lt;/p&gt;
+&lt;p&gt;In algebra, “roots” are one of those situations; and the two kinds aren’t related, &lt;em&gt;at all&lt;/em&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;And the two kinds aren’t related .&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;In our journey so far we have come across the term “root” in two difference circumstances:&lt;/p&gt;
+&lt;p&gt;In our journey so far we have come across the term “root” in two different circumstances:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;to indicate a number which, when multiplied by itself one or more times gives a real, non-negative number  - i.e. a square root is the number which, when multiplied by itself once, gives a square.&lt;/li&gt;
+  &lt;li&gt;to indicate a number which, when multiplied by itself one or more times gives a real, non-negative number  - i.e. a square root is the number which, when multiplied by itself once, gives the square&lt;/li&gt;
   &lt;li&gt;to indicate the solutions of polynomial equations - when the function equals zero. &lt;em&gt;Also known as a “zero”&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;So far so simple.  We get that they aren’t related, and also that perhaps we should be more explicit and use the alternative terms for them (or at least qualify them.) But can it get more complicated?&lt;/p&gt;
 
-&lt;p&gt;Yup. (You know maths is hard right?)&lt;/p&gt;
+&lt;p&gt;Yup.&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;You know maths is hard right? &lt;/span&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;they-can-occur-together&quot;&gt;They &lt;em&gt;Can&lt;/em&gt; Occur Together…&lt;/h2&gt;
-&lt;p&gt;When I’m trying to get my head round something it helps if the two things I’m conflating are actually in real life nice and separate, living on separate continents as it where, completely unaware of each other.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;When I’m trying to get my head round something&lt;/span&gt;  it helps if the two things I’m conflating are actually in real life nice and separate, living on separate continents as it where, completely unaware of each other.&lt;/p&gt;
 
 &lt;p&gt;No so with roots and roots.&lt;/p&gt;
 
@@ -736,10 +736,10 @@
 
 &lt;p&gt;Urgh.&lt;/p&gt;
 
-&lt;p&gt;I’ll leave you to go back and read that section again.  It was all correct, but perhaps I (and Gelfand) would have done better to point out the Root-Rubicon that was being crosses completely unknowingly.&lt;/p&gt;
+&lt;p&gt;I’ll leave you to go back and read that section again.  It was all correct, but perhaps I (and Gelfand) would have done better to point out the Root-Rubicon that was being crossed completely unknowingly mid-problem.&lt;/p&gt;
 
 &lt;h2 id=&quot;further-reading&quot;&gt;Further Reading&lt;/h2&gt;
-&lt;p&gt;It turns out that once you explicitly seprate these elements nicely in your head, a lot of other things become a lot simpler.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;It turns out that once you explicitly separate these elements nicely in your head,&lt;/span&gt;  a lot of other things become a lot simpler.&lt;/p&gt;
 
 &lt;p&gt;There are two brilliantly simple pages covering these:&lt;/p&gt;
 
@@ -748,21 +748,23 @@
   &lt;li&gt;&lt;a href=&quot;https://www.mathsisfun.com/algebra/fundamental-theorem-algebra.html&quot;&gt;The Fundamental Theorem of Algebra&lt;/a&gt; (from MathsIsFun.com)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;With all that cleared up, we’re free now to move on to Quadratic equations.&lt;/p&gt;
+&lt;p&gt;With all that cleared up, we’re free now to move on to &lt;em&gt;Quadratic Equations&lt;/em&gt;.&lt;label for=&quot;sn-id&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;(Is that the sound of knees knocking?) &lt;/span&gt;&lt;/p&gt;
 </description>
-                <link>http://andrewharmellaw.github.io/2017/04/24/gelfands-algebra-aside-2-roots-roots-and-more-roots</link>
-                <guid>http://andrewharmellaw.github.io/2017/04/24/gelfands-algebra-aside-2-roots-roots-and-more-roots</guid>
+                <link>http://andrewharmellaw.github.io/2017/04/24/gelfands-algebra-aside-3-roots-roots-and-more-roots</link>
+                <guid>http://andrewharmellaw.github.io/2017/04/24/gelfands-algebra-aside-3-roots-roots-and-more-roots</guid>
                 <pubDate>Mon, 24 Apr 2017 00:00:00 +0100</pubDate>
         </item>
 
         <item>
                 <title>Gelfand: Rest 1 - The Well-Tempered Clavier, Tortoises, Hares and Greeks</title>
                 <description>
-&lt;p&gt;I’m not (for now) going to provide any gloss or commentary on sections 44 and 45 of Gelfand, nor do I see much purpose in adding to the builds provded by Durham.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;I’m not (for now) going to provide any gloss or commentary on sections 44 and 45 of Gelfand,&lt;/span&gt;  nor do I see much purpose in adding to the builds provded by Durham.&lt;/p&gt;
 
 &lt;p&gt;I might come back to them later I suppose, but at the moment it seems unnecessary.&lt;/p&gt;
 
-&lt;p&gt;Instead, you can jump straight to Section 46 with &lt;a href=&quot;https://andrewharmellaw.github.io/2017/04/25/gelfands-algebra-chunk-24-equations-schmequations&quot;&gt;Chunk 24 - Equations Schmequations&lt;/a&gt; or you can take a detour via &lt;a href=&quot;https://andrewharmellaw.github.io/2017/04/24/gelfands-algebra-aside-2-roots-roots-and-more-roots&quot;&gt;a disambiguation aside on the various meanings in Mathematics of the word “Root”&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Instead, you can jump straight to Section 46 with &lt;a href=&quot;https://andrewharmellaw.github.io/2017/04/25/gelfands-algebra-chunk-24-equations-schmequations&quot;&gt;Chunk 24 - Equations Schmequations&lt;/a&gt; or you can take a detour via &lt;a href=&quot;https://andrewharmellaw.github.io/2017/04/24/gelfands-algebra-aside-3-roots-roots-and-more-roots&quot;&gt;a disambiguation  of the various meanings in Mathematics of the word “Root”&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;It’s your choice.&lt;/p&gt;
 </description>
                 <link>http://andrewharmellaw.github.io/2017/04/13/gelfands-algebra-rest-1-the-well-tempered-clavier</link>
                 <guid>http://andrewharmellaw.github.io/2017/04/13/gelfands-algebra-rest-1-the-well-tempered-clavier</guid>
@@ -1251,7 +1253,7 @@
 
 &lt;p&gt;We could equally have done &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt;&lt;/span&gt; first and from there obtained &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;B&lt;/script&gt;&lt;/span&gt;, but I followed Durham to keep everything predictable.&lt;/p&gt;
 
-&lt;h2 id=&quot;another-non-conclusion&quot;&gt;Another (non)-Conclusion&lt;/h2&gt;
+&lt;h2 id=&quot;another-non-conclusion&quot;&gt;Another (Non-)Conclusion&lt;/h2&gt;
 &lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;Blimey!&lt;/span&gt;  That was a lot.  You’re probably reeling from the shock of it all.  I’d suggest re-reading all this again, perhaps working through some other options of th last problem, and then taking a break.&lt;/p&gt;
 
 &lt;p&gt;See you in the &lt;a href=&quot;https://andrewharmellaw.github.io/2017/04/13/gelfands-algebra-rest-1-the-well-tempered-clavier&quot;&gt;next chunk&lt;/a&gt;.&lt;/p&gt;
