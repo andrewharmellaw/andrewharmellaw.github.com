@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "Gelfand: Chunk 25 - Ramifications of Reduced Quadratics"
-description: "(Plus: Gelfand does Square Roots)"
-category: 
 tags: [gelfand, quadratic-equations, positive, negative, roots, difference-of-squares]
 ---
 {% include JB/setup %}
@@ -33,7 +31,7 @@ Which we can solve for {% m %}x{% em %} as follows
 
 {% math %}\rightarrow x = -\frac{c}{b}{% endmath %}
 
-But here comes a bump in the road. Gelfand points out that this won't always work. What if {% m %}b{% em %} is zero he asks?  Dividing anything by zero gives an undefined result as we saw previously in the [first chunk - Fundamentals](https://andrewharmellaw.github.io/algebra/2016/11/16/gelfands-algebra-chunk-1-fundamentals/).  
+But here comes a bump in the road. Gelfand points out that this won't always work. What if {% m %}b{% em %} is zero he asks?  Dividing anything by zero gives an undefined result as we saw previously in the [first Chunk - Fundamentals](https://andrewharmellaw.github.io/algebra/2016/11/16/gelfands-algebra-chunk-1-fundamentals/).  
 
 Dang.
 
@@ -63,7 +61,7 @@ Here he shows us, if {% m %}x \ne 0{% em %}, then we can shuffle things as so
 
 This is known as the _"reduced" quadratic equation_.
 
-Why do we do this? It's all so that we can have different ways of looking at quadratics, so then our tricks can be applied (pattern matched effectively) in a greater number of circumstances.  In this case, Gelfand tells us, if we can solve the reduced quadratic, we can solve any quadratic.  That sounds handy.
+Why do we do this? It's all so that we can have different ways of looking at quadratics, so then our tricks can be applied{% sidenote 'sn-id' "I.e. Pattern matched effectively." %} in a greater number of circumstances.  In this case, Gelfand tells us, if we can solve the reduced quadratic, we can solve any quadratic.  That sounds handy.
 
 There is one final point from Gelfand before we start mucking about with these reduced quadratics - there is another convention about writing these, and that is to use the following form, which I personally like as it hides those horrid fractions.
 
@@ -90,7 +88,7 @@ We're starting here
 
 {% math %}x^2 + q = 0{% endmath %}
 
-And if {% m %}q \lt 0{% em %} (which means it's negative) we can re-write
+And if {% m %}q \lt 0{% em %}{% sidenote 'sn-id' "Which means it's negative." %} we can re-write
 
 {% math %}x^2 + -q = 0{% endmath %}
 
@@ -102,9 +100,9 @@ We're now left with the fact that on one side we have the square of {% m %}x{% e
 
  > For any positive number {% m %}q{% em %} there is a positive number whose square is {% m %}q{% em %}. It is called the square root of {% m %}q{% em %}; its notation is {% m %}\sqrt{q}{% em %}
 
-This is the first time Gelfand has really _properly_ defined roots of numbers for us.{% sidenote 'sn-id-whatever' "He does admit we'd glimpsed it when we were factoring, but now, as we embark on some more general principles, it's time to dive into the details.  The fact I went away earlier and [did it off my own bat]() was to help disambiguate and prevent prior knowledge getting in the way of things." %}  Now he has deemed that we are ready to know the full picture. 
+This is the first time Gelfand has really _properly_ defined roots of numbers for us.{% sidenote 'sn-id-whatever' "He does admit we'd glimpsed it when we were factoring, but now, as we embark on some more general principles, it's time to dive into the details.  The fact I went away earlier and [did it off my own bat](http://localhost:4000/2017/04/24/gelfands-algebra-aside-3-roots-roots-and-more-roots/) was to help disambiguate and prevent prior knowledge getting in the way of things." %}  Now he has deemed that we are ready to know the full picture. 
 
-Let's follow along. {% sidenote 'sn-id-whatever' "I'm not sure why Gelfand makes a jump here with his symbol-usage, dropping the q we had a minute ago  and using c instead.  Suffice to say, the two are equivalent.  I'll keep going with q as I think it's every so slightly easier on the mental muscles." %}
+Let's follow along.{% sidenote 'sn-id-whatever' "I'm not sure why Gelfand makes a jump here with his symbol-usage, dropping the q we had a minute ago  and using c instead.  Suffice to say, the two are equivalent.  I'll keep going with q as I think it's every so slightly easier on the mental muscles." %}
 
 {% math %}\rightarrow x^2 = - (-q){% endmath %}
 
@@ -126,7 +124,7 @@ And now we can factor using Difference of Squares
 
 This means that there are two solutions, {% m %}m = \sqrt{q} {% em %} and {% m %}m = -\sqrt{q} {% em %}.
 
-At this point, Gelfand finally confronts the question which had, to me anyway, been in my mind since the start of this chunk: "why are we considering this?"
+At this point, Gelfand finally confronts the question which had, to me anyway, been in my mind since the start of this Chunk: "why are we considering this?"
 
 The answer is a good one.  The reason is we have proven that {% m %}x^2 = q{% em %} but we have also proven that _there is no other solution_. That is to say, there is no other way we could factor this if we want a zero result.  
 
@@ -136,11 +134,13 @@ We start with {% m %}x = 0{% em %}.  In this state the following is also true {%
 
 It doesn't take a lot of imagination to realise that if you pick a value of {% m %}x{% em %} _in between_ {% m %}0.5{% em %} and {% m %}100{% em %}, you will get a value of {% m %}x^2{% em %} _in between_ {% m %}0.25{% em %} and {% m %}10000{% em %}.  You could keep going _ad infinitum_ and end up with something approaching a line.  The point Gelfand wants us to grok is, somewhere on this line we will find {% m %}x^2 = q%{% em %}, and therefore we have proven that {% m %}q{% em %} exists, even if we can't calculate it exactly.
 
-The last parts of this section in Gelfand (and of the next chunk) are concerned with stepping you through proving that, while numbers like {% m %}\sqrt{2}{% em %} and {% m %}\sqrt{3}{% em %} _exist_, we can't represent them via [a rational number]().  This is where the Greeks became unstuck as they only had integers and rational numbers based on integers. Luckily, we now have other types of number, the irrational numbers which we introduced in [chunk x - xxxxxx](), and also encountered in [chunk y - yyyyyy](). 
+The last parts of this section in Gelfand{% sidenote 'sn-id' "And of [the next Chunk.](https://andrewharmellaw.github.io/2017/05/16/gelfands-algebra-chunk-26-proving-irrational-roots/)" %} are concerned with stepping you through proving that, while numbers like {% m %}\sqrt{2}{% em %} and {% m %}\sqrt{3}{% em %} _exist_, we can't represent them via [a rational number](https://www.mathsisfun.com/definitions/rational-number.html).  This is where the Greeks became unstuck as they only had integers and rational numbers based on integers. Luckily, we now have other types of number, the irrational numbers which we introduced in [Chunk 1 - Fundamentals](https://andrewharmellaw.github.io/2016/11/16/gelfands-algebra-chunk-1-fundamentals/), and also encountered in [the previous Chunk - Equations, Schmequations](https://andrewharmellaw.github.io/2017/04/25/gelfands-algebra-chunk-24-equations-schmequations/). 
 
 However, seeing as we've covered a lot in this chunk, we'll stop for now after the next small section.
 
-## Tricks Arising - A Subtlety of Notation
+## Tricks Arising
+
+### More Than a Subtlety of Notation - The Difference Between {% m %}-2{% em %} and {% m %}(-2){% em %}
 We need to cover a little convention in notation.  It is the fact that there is a difference in maths between {% m %}-2{% em %} and {% m %}(-2){% em %}.  What is it?  If we the same "squaring" operation on both of them you'll see it.  
 
 We'll take the second one first
@@ -151,12 +151,14 @@ Now the first one
 
 {% m %} -2^2 = -(2^2) = (-1) \cdot (2^2) = (-1) \cdot (2 \cdot 2) = (-1) \cdot 4 = (-1) \cdot (4) = -4. {% em %}
 
-That's pretty subtle, but important.  (Remember it - Gelfand uses it as the basis of a trick in a few Section's time.)
+That's pretty subtle, but important.{% sidenote 'sn-id' "Remember it - Gelfand uses it as the basis of another Trick in a few Sections time." %}
 
-Consequently, if you have a value {% m %}x{% em %}, (which could be either positive or negative) and you then square it, and then you square root the result, you will be left with either {% m %}x{% em %} _or_ {% m %}(-x){% em %} depending on where you started. (This applies for _all_ values of {% m %}x{% em %})
+Consequently, if you have a value {% m %}x{% em %}, (which could be either positive or negative) and you then square it, and then you square root the result, you will be left with either {% m %}x{% em %} _or_ {% m %}(-x){% em %} depending on where you started. (This applies for _all_ values of {% m %}x{% em %}.)
 
-## Tricks Arising - {% m %}\sqrt{2}{% em %} is _Irrational_
+### {% m %}\sqrt{2}{% em %} is _Irrational_
 The {% m %}\sqrt{2}{% em %} is an _irrational_ number, so you can't represent it as a quotient of two integers.  
 
-However, it's not simply a convention like we have with {% m %}a^{-n} = \frac{1}{a^n}{% em %}. The problem here is that the fraction that represents {% m %}\sqrt{2}{% em %} would have a never-ending stream of numbers in the numerator-position if it were to avoid being approximation.  THat's no good at all, and so we bring in instead the idea of "irrational numbers".
+However, it's not simply a convention like we have with {% m %}a^{-n} = \frac{1}{a^n}{% em %}. The problem here is that the fraction that represents {% m %}\sqrt{2}{% em %} would have a never-ending stream of numbers in the numerator-position if it were to avoid being approximation.  That's no good at all, and so we bring in instead the previously discussed idea of "irrational numbers".
+
+That's [the next Chunk](http://localhost:4000/2017/05/16/gelfands-algebra-chunk-26-proving-irrational-roots/).
 

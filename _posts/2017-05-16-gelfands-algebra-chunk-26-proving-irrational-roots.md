@@ -1,18 +1,16 @@
 ---
 layout: post
 title: "Gelfand: Chunk 26 - Some Square Roots are Irrational"
-description: "In which we deploy more proof-fu"
-category: 
 tags: [gelfand, positive, negative, odd, even, roots, rational-numbers, irrational-numbers]
 ---
 {% include JB/setup %}
 
-{% newthought "We're stepping away" %} from quadratics completely for this chunk.  Like a dog following an interesting scent, Gelfand is off on what might to the uninitiated seem like a tangent.  If you've been following along you'll know that in fact you should in fact be paying _more attention_.  It's in these digressions that Gelfand typically hides gold which we will rely on later on in our journey.
+{% newthought "We're stepping away" %} from quadratics completely for this Chunk.  Like a dog following an interesting scent, Gelfand is off on what might to the uninitiated seem like a tangent.  If you've been following along you'll know that in fact you should be paying _more attention_ at such times.  It's in these digressions that Gelfand typically hides gold which we will rely on later on in our journey.
 
-We're going to work through the next two problems in our traditional painful levels of detail.  While interesting, the thing we are proving - that certain numeric roots are irrational numbers - is not the reason for our travails.  The point is that Gelfand's worked solutions are going to give us more than a few new tools for our problem-solving kitbag.  Ones which we'll need to chunk solidly if we are to progress much further than this.
+We're going to work through the next two problems in our traditional painful levels of detail.  While interesting, the thing we are proving - that certain numeric roots are irrational numbers - is not the reason for our travails.  The point is that Gelfand's worked solutions are going to give us more than a few new mental tools for our problem-solving kitbag.  Ones which we'll need to chunk solidly if we are to progress much further than this.
 
 ## Proving {% m %}\sqrt{2}{% em %} is Irrational
-Gelfand begins his{% sidenote 'sn-id-whatever' "Remember, there are _many_ solutions to most problems in mathematics.  Simply because this is the one Gelfand shows us does not mean it is the only one.  We should however assume that (a) it is correct and (b) there are pedagogic reasons for choosing this one." %} solution to Problem 226 by setting out his stall in a way that should now be familiar.  
+Gelfand begins his solution{% sidenote 'sn-id-whatever' "Remember, there are _many_ solutions to most problems in mathematics.  Simply because this is the one Gelfand shows us does not mean it is the only one.  We should however assume that (a) it is correct and (b) there are pedagogic reasons for choosing this one." %} to Problem 226 by setting out his stall in a way that should now be familiar.  
 
 ### Laying Out the Stall
 First he represents all the elements symbolically:
@@ -37,7 +35,7 @@ Next up, note the approach Gelfand is taking; he is proving something is the cas
 
 This is why we have our three options which we prove in turn - Gelfand's proof-approach is based on _an-odd-can't-be-even_ and _an-even-can't-be-odd_ statements of fact.  For this to hold water, he needs to consider all the odd/even inputs, to be able to draw general odd/even conclusions.
 
-With all this in our level-one mental caches, let's continue.
+With all this in our [level-one mental cache](https://en.wikipedia.org/wiki/CPU_cache), let's continue.
 
 ### Representing Odd and Even Symbolically
 Now we need to represent odd numbers and even numbers, but we need to use symbols, so that we're proving things for _all odd_ and _all even_ numbers.  We use something that we've seen before.  
@@ -59,19 +57,19 @@ We start where Gelfand starts, by restating our (in)equality in terms of {% m %}
 
 Then we work this through, starting by squaring both sides
 
-{% math %} 2 = \left(\frac{2k + 1}{2l + 1}\right)^2, {% endmath %}
+{% math %} 2 = \left(\frac{2k + 1}{2l + 1}\right)^2 {% endmath %}
 
 and re-writing the same a little more cleanly
 
-{% math %} 2 = \frac{(2k + 1)^2}{(2l + 1)^2}, {% endmath %}
+{% math %} 2 = \frac{(2k + 1)^2}{(2l + 1)^2} {% endmath %}
 
 then rearranging
 
-{% math %} 2 \cdot (2l + 1)^2 = (2k + 1)^2, {% endmath %}
+{% math %} 2 \cdot (2l + 1)^2 = (2k + 1)^2 {% endmath %}
 
 and finally expanding the right hand side
 
-{% math %} 2 \cdot (2l + 1)^2 = 4k^2 + 4k + 1. {% endmath %}
+{% math %} 2 \cdot (2l + 1)^2 = 4k^2 + 4k + 1 {% endmath %}
 
 Now we can stop.  We have what we need to prove our first inequality.  
 
@@ -81,7 +79,7 @@ Now the right hand side. It comprises _two unknown values_ {% m %}4k^2{% em %} a
 
 This is summarised much more pithily by Gelfand
 
- > Contradiction: (even number) + 1 = (even number)
+> Contradiction: (even number) + 1 = (even number)
  
 ### Proof Part (b) - {% m %}\frac{even}{odd}{% em %}
 Up next, even divided by odd.  We start in an equivalent place to before:
@@ -90,23 +88,23 @@ Up next, even divided by odd.  We start in an equivalent place to before:
 
 Working this through as before, we again start by squaring both sides
 
-{% math %} 2 = \left( \frac{2k}{2l + 1} \right) ^2, {% endmath %}
+{% math %} 2 = \left( \frac{2k}{2l + 1} \right) ^2 {% endmath %}
 
 then rearranging (no need for cleaning up this time)
 
-{% math %} 2 \cdot (2l + 1)^2 = (2k)^2, {% endmath %}
+{% math %} 2 \cdot (2l + 1)^2 = (2k)^2 {% endmath %}
 
 next we expand the right hand side
 
-{% math %} 2 \cdot (2l + 1)^2 = 4k^2, {% endmath %}
+{% math %} 2 \cdot (2l + 1)^2 = 4k^2 {% endmath %}
 
 before expanding the left hand side
 
-{% math %} 2 \cdot (4l^2 + 4l + 1) = 4k^2, {% endmath %}
+{% math %} 2 \cdot (4l^2 + 4l + 1) = 4k^2 {% endmath %}
 
 and finally dividing both sides by {% m %}2{% em %}
 
-{% math %} 4l^2 + 4l + 1 = 2k^2. {% endmath %}
+{% math %} 4l^2 + 4l + 1 = 2k^2 {% endmath %}
 
 We can stop here as we have what we need to prove our second inequality.
 
@@ -116,28 +114,28 @@ Now the right hand side. It is slightly different from part (a), comprising _som
 
 Yet again we have something which is odd, equalling something which is even, which is not possible.  Back to Gelfand again for the punchline:
 
- > Contradiction: (even number) + 1 = (even number)
+> Contradiction: (even number) + 1 = (even number)
   
 ### Proof Part (c) - {% m %}\frac{odd}{even}{% em %}
-FInally, odd divided by even.  We start yet again in our equivalent place:
+Finally, odd divided by even.  We start yet again in our equivalent place:
 
 {% math %} \sqrt{2} = \frac{2k + 1}{2l} {% endmath %}
 
 Working through again we square both sides
 
-{% math %} 2 = \left( \frac{2k + 1}{2l} \right) ^2, {% endmath %}
+{% math %} 2 = \left( \frac{2k + 1}{2l} \right) ^2 {% endmath %}
 
 And then multiply both sides by {% m %}2l^2{% em %}
 
-{% math %} 2 \cdot (2l)^2 = (2k + 1)^2, {% endmath %}
+{% math %} 2 \cdot (2l)^2 = (2k + 1)^2 {% endmath %}
 
 before finally expanding the right hand side
 
-{% math %} 2 \cdot (2l)^2 = 4k^2 + 4k + 1. {% endmath %}
+{% math %} 2 \cdot (2l)^2 = 4k^2 + 4k + 1 {% endmath %}
 
 The result is pretty easy to read now given the practice we've had in (a) and (b).  The right hand side is clearly always even, while the left hand side can only ever be odd.  Back to Gelfand for one last statement:
 
- > Contradiction: (even number) = (even number) + 1
+> Contradiction: (even number) = (even number) + 1
  
 ### In Conclusion
 To conclude, we have shown that {% m %}\sqrt{2}{% em %} is always an irrational number, because we have shown that all the ways in which we _might_ represent it as a rational number are impossible.
@@ -146,6 +144,8 @@ To conclude, we have shown that {% m %}\sqrt{2}{% em %} is always an irrational 
 This is Problem 227.  You can prove it using exactly the same method Gelfand laid out for us.  I'll not set it out here.  I suggest you follow it through yourself however as the doing helps the chunking.
 
 ## We Cheated?!?
-We're almost done.  Hurrah!  But Gelfand wants to keep us on our toes.  Apparently we (let by him admittedly) cheated.  What? How so?  It turns out that the Greeks weren't completely incompetent. When we _made up_ {% m %}\sqrt{2}{% em %} we were in fact admitting defeat.  {% m %}\sqrt{2}{% em %} means nothing except as "the positive solution to {% m %}x^2 - 2 = 0{% em %}".  
+We're almost done.  Hurrah!  But Gelfand wants to keep us on our toes.  Apparently we{% sidenote 'sn-id' "Led by him admittedly." %} cheated.  What? How so?  It turns out that the Greeks weren't completely incompetent. When we _made up_ {% m %}\sqrt{2}{% em %} we were in fact admitting defeat.  {% m %}\sqrt{2}{% em %} means nothing except as 
+
+> "the positive solution to {% m %}x^2 - 2 = 0{% em %}".  
 
 It's worth letting that sink in for a while, just to keep you frosty.

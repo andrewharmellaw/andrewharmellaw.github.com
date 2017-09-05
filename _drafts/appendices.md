@@ -199,6 +199,20 @@ From [Chunk 23 - Embedding Progressions]().
 ### Keeping Positive (or Negative) when Working with Square Roots
 From [Chunk 24 - Equations, Schmequations]().
 
+### More Than a Subtlety of Notation - The Difference Between {% m %}-2{% em %} and {% m %}(-2){% em %}
+From [Chunk 25 - Ramifications of Reduced Quadratics]().
+
+### {% m %}\sqrt{2}{% em %} is _Irrational_
+From [Chunk 25 - Ramifications of Reduced Quadratics]().
+
+### Lose the Roots
+From [Chunk 27 - Proving Some Rules for Roots]().
+
+### {% m %}\sqrt{ab} = \sqrt{a}\sqrt{b}{% em %} is a Handy Pattern
+From [Chunk 27 - Proving Some Rules for Roots]().
+
+### {% m %}\sqrt{ab} = \sqrt{a}\sqrt{b}{% em %} is Another Handy Pattern
+
 ## Formatting your Mathjax
 
 * have spaces between your tags and your mathjax - it's important your raw markdown is easy to read
