@@ -5,8 +5,8 @@
         <description>Maths from the Ground Up - Andrew Harmel-Law</description>
         <link>http://andrewharmellaw.github.io</link>
         <atom:link href="http://andrewharmellaw.github.io" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Tue, 05 Sep 2017 07:00:45 +0100</lastBuildDate>
-        <pubDate>Tue, 05 Sep 2017 07:00:45 +0100</pubDate>
+        <lastBuildDate>Tue, 05 Sep 2017 08:01:44 +0100</lastBuildDate>
+        <pubDate>Tue, 05 Sep 2017 08:01:44 +0100</pubDate>
         <ttl>60</ttl>
 
 
@@ -15,7 +15,7 @@
                 <description>
 &lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;Given the last chunk was proof-rich&lt;/span&gt;  it’s no surprise to find that this Section sees Gelfand asking us (with less help now) to do some more proving.  Let’s see what we can learn, both facts-wise, and skills wise too.&lt;/p&gt;
 
-&lt;h2 id=&quot;proof-span8203script-typemathtexsqrtab--sqrtasqrtbscriptspan&quot;&gt;Proof: &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;\sqrt{ab} = \sqrt{a}\sqrt{b}&lt;/script&gt;&lt;/span&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;proof-for-span8203script-typemathtexa-b-ge-0scriptspan-span8203script-typemathtexsqrtab--sqrtasqrtbscriptspan&quot;&gt;Proof: (For &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a, b \ge 0&lt;/script&gt;&lt;/span&gt;) &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;\sqrt{ab} = \sqrt{a}\sqrt{b}&lt;/script&gt;&lt;/span&gt;&lt;/h2&gt;
 &lt;p&gt;This one looks interesting.  First we note that this isnt for all values of &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a&lt;/script&gt;&lt;/span&gt; and &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;b&lt;/script&gt;&lt;/span&gt;.  Negatives are excluded.  Does that help us to our solution? Probably not, but it means we have less to worry about.&lt;/p&gt;
 
 &lt;p&gt;We need to both sides of our equality the same.  Let’s start&lt;label for=&quot;sn-id&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;As is usual. &lt;/span&gt; by getting rid of the roots&lt;/p&gt;
@@ -42,10 +42,10 @@
 &lt;p&gt;When confronted by any expression with roots in it, it seems like a good idea to get rid of them as quickly as possible.  It’s not failed me yet as an approach.&lt;/p&gt;
 
 &lt;h3 id=&quot;span8203script-typemathtexsqrtab--sqrtasqrtbscriptspan-is-a-handy-pattern&quot;&gt;&lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;\sqrt{ab} = \sqrt{a}\sqrt{b}&lt;/script&gt;&lt;/span&gt; is a Handy Pattern&lt;/h3&gt;
-&lt;p&gt;It’s worth pointing out that &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;\sqrt{ab} = \sqrt{a}\sqrt{b}&lt;/script&gt;&lt;/span&gt; is a handy pattern and expansion for you to have in your trick-box.  Store it deep in  your chunk-bank, all cosy yet sprung, ready for quick deployment at a moment’s notice.&lt;/p&gt;
+&lt;p&gt;It’s worth pointing out that &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;\sqrt{ab} = \sqrt{a}\sqrt{b}&lt;/script&gt;&lt;/span&gt; is a handy pattern and expansion for you to have in your trick-box.  While remembering that it’s _only for non-negative &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a&lt;/script&gt;&lt;/span&gt; and &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;b&lt;/script&gt;&lt;/span&gt;, btore it deep in  your chunk-bank, all cosy yet sprung, ready for quick deployment at a moment’s notice.&lt;/p&gt;
 
-&lt;h2 id=&quot;proof-span8203script-typemathtexsqrtab--sqrtasqrtbscriptspan-1&quot;&gt;Proof: &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;\sqrt{ab} = \sqrt{a}\sqrt{b}&lt;/script&gt;&lt;/span&gt;&lt;/h2&gt;
-&lt;p&gt;Another interesting one.  Again we note that this isn’t for all values of &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a&lt;/script&gt;&lt;/span&gt; and &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;b&lt;/script&gt;&lt;/span&gt;.  Again negatives are out.  That’s obviously for the same reason as the last proof.  But why can’t &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;b&lt;/script&gt;&lt;/span&gt; be zero?  Because it’s the denominator in a fraction is why, and as you’ll no doubt recall from &lt;a href=&quot;https://andrewharmellaw.github.io/2016/11/16/gelfands-algebra-chunk-1-fundamentals/&quot;&gt;Chunk 1 - Fundamentals&lt;/a&gt; that if you have a zero denominator, then the fraction is undefined.&lt;/p&gt;
+&lt;h2 id=&quot;proof-for-span8203script-typemathtexa-ge-0-b-gt-0scriptspan-span8203script-typemathtexsqrtfracab--fracsqrtasqrtbscriptspan&quot;&gt;Proof: (For &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a \ge 0, b \gt 0&lt;/script&gt;&lt;/span&gt;) &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;\sqrt{\frac{a}{b}} = \frac{\sqrt{a}}{\sqrt{b}}&lt;/script&gt;&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;Another interesting one.  Again we note that this isn’t for all values of &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a&lt;/script&gt;&lt;/span&gt; and &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;b&lt;/script&gt;&lt;/span&gt;.  Again negative &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a&lt;/script&gt;&lt;/span&gt;s are out.  That’s obviously for the same reason as the last proof.  But why can’t &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;b&lt;/script&gt;&lt;/span&gt; be zero?  Because it’s the denominator in a fraction is why, and as you’ll no doubt recall from &lt;a href=&quot;https://andrewharmellaw.github.io/2016/11/16/gelfands-algebra-chunk-1-fundamentals/&quot;&gt;Chunk 1 - Fundamentals&lt;/a&gt; that if you have a zero denominator, then the fraction is &lt;em&gt;undefined&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;With that out of the way, we can attack our proof.  It seems sensible to do the same as usual and get rid of our roots first.&lt;/p&gt;
 
@@ -59,8 +59,8 @@
 
 &lt;p&gt;Proved.&lt;/p&gt;
 
-&lt;h3 id=&quot;span8203script-typemathtexsqrtab--sqrtasqrtbscriptspan-is-another-handy-pattern&quot;&gt;&lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;\sqrt{ab} = \sqrt{a}\sqrt{b}&lt;/script&gt;&lt;/span&gt; is Another Handy Pattern&lt;/h3&gt;
-&lt;p&gt;&lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;\sqrt{ab} = \sqrt{a}\sqrt{b}&lt;/script&gt;&lt;/span&gt; is also a handy pattern and expansion.  Wrap it up in your brainbox alongside it’s close cousin, where they can keep each other company.&lt;/p&gt;
+&lt;h3 id=&quot;span8203script-typemathtexsqrtfracab--fracsqrtasqrtbscriptspan-is-another-handy-pattern&quot;&gt;&lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;\sqrt{\frac{a}{b}} = frac{\sqrt{a}}{\sqrt{b}}&lt;/script&gt;&lt;/span&gt; is Another Handy Pattern&lt;/h3&gt;
+&lt;p&gt;As long as we keep in mind the restrictions on applicability, &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;\sqrt{ab} = \sqrt{a}\sqrt{b}&lt;/script&gt;&lt;/span&gt; is also a handy pattern and expansion.  Wrap it up in your brainbox alongside it’s close cousin, where they can keep each other company.&lt;/p&gt;
 
 &lt;h2 id=&quot;proof-span8203script-typemathtexsqrta2-ne-ascriptspan-for-all-span8203script-typemathtexascriptspan&quot;&gt;Proof: &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;\sqrt{a}^2 \ne a&lt;/script&gt;&lt;/span&gt; for all &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a&lt;/script&gt;&lt;/span&gt;&lt;/h2&gt;
 &lt;p&gt;I could hear &lt;a href=&quot;https://en.wikipedia.org/wiki/Admiral_Ackbar&quot;&gt;Admiral Akbar&lt;/a&gt; in the back of my head here.  The clear implication from Gelfand is that it’s not true for all &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a&lt;/script&gt;&lt;/span&gt;.  Let’s try our go-to zero and negatives and see what we get.&lt;/p&gt;
@@ -110,7 +110,7 @@
 &lt;/blockquote&gt;
 
 &lt;h2 id=&quot;some-lovely-new-notation---absolute-value&quot;&gt;Some Lovely New Notation - Absolute Value&lt;/h2&gt;
-&lt;p&gt;One the side-reasons I’m writing this is to learn some LaTeX.  Consequently, it’s always nice to get some new notation as I have to go off and find out how to script it.  Up next, the “absolute value of &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a&lt;/script&gt;&lt;/span&gt;”.&lt;/p&gt;
+&lt;p&gt;One the side-reasons I’m writing this is to learn some &lt;a href=&quot;https://www.latex-project.org/about/&quot;&gt;LaTeX&lt;/a&gt;.  Consequently, it’s always nice to get some new notation as I have to go off and find out how to script it.  Up next, the “absolute value of &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a&lt;/script&gt;&lt;/span&gt;”.&lt;/p&gt;
 
 &lt;p&gt;But first the concept. The “absolute value” of something is how far it is from zero.  I.e. the absolute value of &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;10&lt;/script&gt;&lt;/span&gt; is &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;10&lt;/script&gt;&lt;/span&gt;, and the absolute value of &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;-10&lt;/script&gt;&lt;/span&gt; is also &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;10&lt;/script&gt;&lt;/span&gt;.&lt;/p&gt;
 
@@ -120,7 +120,7 @@
 
 &lt;p&gt;So what is Gelfand doing with this new notation?  Well it turns out there is actually a more formal way of using absolute values.  When a number (or symbol) is positive or zero, we leave it alone.  But when it’s negative we change it to be positive and write the following:&lt;/p&gt;
 
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; \sqrt{2}^2 = |a| \lbrace a, \text{if } a \ge 0. -a, \text{if } a \lt 0&lt;/script&gt;&lt;/div&gt;
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; \sqrt{2}^2 = |a| \lbrace a, \text{if } a \ge 0. -a, \text{if } a \lt 0 &lt;/script&gt;&lt;/div&gt;
 
 &lt;h2 id=&quot;problem-231a&quot;&gt;Problem 231(a)&lt;/h2&gt;
 &lt;p&gt;Gelfand asks us to prove the following&lt;/p&gt;
@@ -148,7 +148,7 @@
 
 &lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;2 = (\sqrt{7} - \sqrt{5})(\sqrt{5} + \sqrt{7}),&lt;/script&gt;&lt;/div&gt;
 
-&lt;p&gt;which then leaves us with another nice pattern which we can spot as a difference of squares if we shuffle the &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;\sqrt{5} + \sqrt{7}&lt;/script&gt;&lt;/span&gt; which is perfectly valid.&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Which we will remember as the Commutative Law. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;which then leaves us with another nice pattern which we can spot as a difference of squares if we shuffle the &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;\sqrt{5} + \sqrt{7}&lt;/script&gt;&lt;/span&gt; which is perfectly valid.&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Which we will remember as the &lt;em&gt;Commutative Law&lt;/em&gt;. &lt;/span&gt;&lt;/p&gt;
 
 &lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;2 = \sqrt{7}^2 - \sqrt{5}^2,&lt;/script&gt;&lt;/div&gt;
 

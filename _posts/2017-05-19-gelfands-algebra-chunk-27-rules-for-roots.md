@@ -7,7 +7,7 @@ tags: [gelfand, roots, proofs, positive, negative, undefined, absolute-value, no
 
 {% newthought "Given the last chunk was proof-rich" %} it's no surprise to find that this Section sees Gelfand asking us (with less help now) to do some more proving.  Let's see what we can learn, both facts-wise, and skills wise too.
 
-## Proof: {% m %}\sqrt{ab} = \sqrt{a}\sqrt{b}{% em %} 
+## Proof: (For {% m %}a, b \ge 0{% em %}) {% m %}\sqrt{ab} = \sqrt{a}\sqrt{b}{% em %} 
 This one looks interesting.  First we note that this isnt for all values of {% m %}a{% em %} and {% m %}b{% em %}.  Negatives are excluded.  Does that help us to our solution? Probably not, but it means we have less to worry about.
 
 We need to both sides of our equality the same.  Let's start{% sidenote 'sn-id' "As is usual." %} by getting rid of the roots
@@ -34,10 +34,10 @@ Before we move on, why not {% m %}a, b \lt 0{% em %}?  Because you can't root a 
 When confronted by any expression with roots in it, it seems like a good idea to get rid of them as quickly as possible.  It's not failed me yet as an approach.
 
 ### {% m %}\sqrt{ab} = \sqrt{a}\sqrt{b}{% em %} is a Handy Pattern
-It's worth pointing out that {% m %}\sqrt{ab} = \sqrt{a}\sqrt{b}{% em %} is a handy pattern and expansion for you to have in your trick-box.  Store it deep in  your chunk-bank, all cosy yet sprung, ready for quick deployment at a moment's notice.
+It's worth pointing out that {% m %}\sqrt{ab} = \sqrt{a}\sqrt{b}{% em %} is a handy pattern and expansion for you to have in your trick-box.  While remembering that it's _only for non-negative {% m %}a{% em %} and {% m %}b{% em %}, btore it deep in  your chunk-bank, all cosy yet sprung, ready for quick deployment at a moment's notice.
 
-## Proof: {% m %}\sqrt{ab} = \sqrt{a}\sqrt{b}{% em %} 
-Another interesting one.  Again we note that this isn't for all values of {% m %}a{% em %} and {% m %}b{% em %}.  Again negatives are out.  That's obviously for the same reason as the last proof.  But why can't {% m %}b{% em %} be zero?  Because it's the denominator in a fraction is why, and as you'll no doubt recall from [Chunk 1 - Fundamentals](https://andrewharmellaw.github.io/2016/11/16/gelfands-algebra-chunk-1-fundamentals/) that if you have a zero denominator, then the fraction is undefined.
+## Proof: (For {% m %}a \ge 0, b \gt 0{% em %}) {% m %}\sqrt{\frac{a}{b}} = \frac{\sqrt{a}}{\sqrt{b}}{% em %} 
+Another interesting one.  Again we note that this isn't for all values of {% m %}a{% em %} and {% m %}b{% em %}.  Again negative {% m %}a{% em %}s are out.  That's obviously for the same reason as the last proof.  But why can't {% m %}b{% em %} be zero?  Because it's the denominator in a fraction is why, and as you'll no doubt recall from [Chunk 1 - Fundamentals](https://andrewharmellaw.github.io/2016/11/16/gelfands-algebra-chunk-1-fundamentals/) that if you have a zero denominator, then the fraction is _undefined_.
 
 With that out of the way, we can attack our proof.  It seems sensible to do the same as usual and get rid of our roots first.
 
@@ -51,8 +51,8 @@ which after we tidy up gives us
 
 Proved.
 
-### {% m %}\sqrt{ab} = \sqrt{a}\sqrt{b}{% em %} is Another Handy Pattern
-{% m %}\sqrt{ab} = \sqrt{a}\sqrt{b}{% em %} is also a handy pattern and expansion.  Wrap it up in your brainbox alongside it's close cousin, where they can keep each other company.
+### {% m %}\sqrt{\frac{a}{b}} = frac{\sqrt{a}}{\sqrt{b}}{% em %} is Another Handy Pattern
+As long as we keep in mind the restrictions on applicability, {% m %}\sqrt{ab} = \sqrt{a}\sqrt{b}{% em %} is also a handy pattern and expansion.  Wrap it up in your brainbox alongside it's close cousin, where they can keep each other company.
 
 ## Proof: {% m %}\sqrt{a}^2 \ne a{% em %} for all {% m %}a{% em %}
 I could hear [Admiral Akbar](https://en.wikipedia.org/wiki/Admiral_Ackbar) in the back of my head here.  The clear implication from Gelfand is that it's not true for all {% m %}a{% em %}.  Let's try our go-to zero and negatives and see what we get.
@@ -100,7 +100,7 @@ or to returm to Gelfand
 > when {% m %}a{% em %} is negative, {% m %}\sqrt{a}^2{% em %} is equal to {% m %}-a{% em %}.
 
 ## Some Lovely New Notation - Absolute Value
-One the side-reasons I'm writing this is to learn some LaTeX.  Consequently, it's always nice to get some new notation as I have to go off and find out how to script it.  Up next, the "absolute value of {% m %}a{% em %}".
+One the side-reasons I'm writing this is to learn some [LaTeX](https://www.latex-project.org/about/).  Consequently, it's always nice to get some new notation as I have to go off and find out how to script it.  Up next, the "absolute value of {% m %}a{% em %}".
 
 But first the concept. The "absolute value" of something is how far it is from zero.  I.e. the absolute value of {% m %}10{% em %} is {% m %}10{% em %}, and the absolute value of {% m %}-10{% em %} is also {% m %}10{% em %}.
 
@@ -110,7 +110,7 @@ This is shown, as Gelfand has just used, using two vertical lines, one on either
 
 So what is Gelfand doing with this new notation?  Well it turns out there is actually a more formal way of using absolute values.  When a number (or symbol) is positive or zero, we leave it alone.  But when it's negative we change it to be positive and write the following:
 
-{% math %} \sqrt{2}^2 = |a| \lbrace a, \text{if } a \ge 0. -a, \text{if } a \lt 0{% endmath %}
+{% math %} \sqrt{2}^2 = |a| \lbrace a, \text{if } a \ge 0. -a, \text{if } a \lt 0 {% endmath %}
 
 ## Problem 231(a)
 Gelfand asks us to prove the following
@@ -138,7 +138,7 @@ We can start by losing the fractions on both sides using our standard pattern
 
 {% math %}2 = (\sqrt{7} - \sqrt{5})(\sqrt{5} + \sqrt{7}),{% endmath %}
 
-which then leaves us with another nice pattern which we can spot as a difference of squares if we shuffle the {% m %}\sqrt{5} + \sqrt{7}{% em %} which is perfectly valid.{%sidenote 'sn-id-whatever' "Which we will remember as the Commutative Law." %}
+which then leaves us with another nice pattern which we can spot as a difference of squares if we shuffle the {% m %}\sqrt{5} + \sqrt{7}{% em %} which is perfectly valid.{%sidenote 'sn-id-whatever' "Which we will remember as the _Commutative Law_." %}
 
 {% math %}2 = \sqrt{7}^2 - \sqrt{5}^2,{% endmath %}
 

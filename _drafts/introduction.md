@@ -65,6 +65,11 @@ Penultimately there are standardisations in the form of various _conventions_ (e
 
 Finally, to cement all this together, I've allowed myself some digressions in the form of _asides, comments, explicit disambiguations and personal conclusions_.  I hope they are more useful than they are distracting.{% sidenote 'sn-id-whatever' "You'll see these in the form of sidenotes." %}
 
+## !!!!!! TO COMPLETE !!!!!!!!!!! A Note on Already (Half) Knowing Things
+e.g. Square Roots
+
+You are going on a pedagogic ourney.  There are others.  But respect this one. It'll make life easier.  Then, once it is complete, you can go back and chart a different path around and between the same mental landmarks.
+
 ## Afore ye go
 Hopefully with all this making sense you should be ready to embark on the journey itself.  I hope you enjoy it.  Personally I found it _massively_ rewarding.  But before you go, I've one small favour to ask.
 
