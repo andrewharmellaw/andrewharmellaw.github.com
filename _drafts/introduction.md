@@ -79,3 +79,6 @@ To do this just visit [GITHUB] and create a new issue with as much information a
 
 ## Acknowledgements
 (Just me so far)
+
+
+https://mathwithbaddrawings.com/2017/09/20/the-state-of-being-stuck/amp/
