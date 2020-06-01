@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Gelfand: Chunk 6 - Squares, Sums, Differences etc.</title>
+  <meta name="description" content="Now that we have a bunch  of the fundamentals and some conventions and core tricks in place, things can start to get fun.  First up are the collection known ...">
+
+  <!-- Google Fonts loaded here depending on setting in _data/options.yml true loads font, blank does not-->
+  
+    <link href='//fonts.googleapis.com/css?family=Lato:400,400italic' rel='stylesheet' type='text/css'>
+  
+  
+  <!-- Load up MathJax script if needed ... specify in /_data/options.yml file-->
+  
+    <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+
+  <link rel="stylesheet" type="text/css" href="/css/tufte.css">
+  <!-- <link rel="stylesheet" type="text/css" href="/css/print.css" media="print"> -->
+
+  <link rel="canonical" href="/2016/12/17/gelfanfd-algebra-chunk-6-squares-sums-diffs-etc">
+
+  <link rel="alternate" type="application/rss+xml" title="Maths from the Ground Up" href="/feed.xml" />
+</head>
+
+  <body>
+    <!--- Header and nav template site-wide -->
+<header>
+    <nav class="group">
+	<a href="/"><img class="badge" src="/assets/img/badge_1.png" alt="CH"></a>
+	
+		
+		    
+		      <a href="/archive">Archive</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/">Hi, Welcome</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/css/print.css"></a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/rss.xml">RSS</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/tags">Tags</a>
+		    
+	    
+  	
+		
+  	
+	</nav>
+</header>
+
+    <article class="group">
+      <h1>Gelfand: Chunk 6 - Squares, Sums, Differences etc.</h1>
+<p class="subtitle">December 17, 2016</p>
+
+
+<p><span class="newthought">Now that we have a bunch</span>  of the fundamentals and some conventions and core tricks in place, things can start to get fun.  First up are the collection known as the <em>“Short Multiplication Formulas”</em>.</p>
+
+<p>There are three of them;</p>
+
+<ul>
+  <li><em>The Square of a Sum</em></li>
+  <li><em>The Square of a Difference</em></li>
+  <li><em>The Difference of Squares</em></li>
+</ul>
+
+<p>I’d advise you pay close attention to what follows.  These things are going to pop up <em>a lot</em> in your mathematical journey.</p>
+
+<h2 id="1-general-definition-of-square-of-a-sum">1. General Definition of Square of a Sum</h2>
+<p><span class="newthought">We saw in the previous post</span>  that when you multiply two sums you multiply each term in the first by each term in the second, and then add up all the products.</p>
+
+<div class="mathblock"><script type="math/tex; mode=display">(a + b)(m + n) = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = am + an + bm + bn </script></div>
+
+<p>The thing that is defined as the <em>“Square of a Sum”</em> is a special case of this - when the numbers in the parentheses are the same, like so</p>
+
+<div class="mathblock"><script type="math/tex; mode=display"> (a + b)(a + b) = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = a^2 + ab + ba + b^2 = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = a^2 + 2ab + b^2 </script></div>
+
+<p>Or as it is more formally stated (and more obviously a <em>“Square of a Sum”</em> - there is a sum of <span>​<script type="math/tex">a</script></span> and <span>​<script type="math/tex">b</script></span>, and then you multiply that by itself, thereby squaring it)</p>
+
+<div class="mathblock"><script type="math/tex; mode=display">(a + b)^2 = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = a^2 + ab + ba + b^2 = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = a^2 + 2ab + b^2 </script></div>
+
+<p>Why is this a thing? Because it allows us to short-cut a form of multiplication which, it turns out, we’ll see a lot from now on.</p>
+
+<h3 id="detour-the-sum-of-two-squares">Detour: The Sum of Two Squares</h3>
+<p>Be careful, <em>the Square of a Sum is not the same as a Sum of two Squares</em>.  The latter’s not something “official”, and I’m only bringing it out explicitly here for clarity.</p>
+
+<p>The sum of the squares would be (if it was a thing)</p>
+
+<div class="mathblock"><script type="math/tex; mode=display"> a^2 + b^2 </script></div>
+
+<p>You can see that the sum of a square is <span>​<script type="math/tex">2ab</script></span> <em>less</em> than the square of two sums.</p>
+
+<p>So why is it not “a thing”?  It’s because there’s not much general call for it. The others on the other hand, pop up quite a lot.</p>
+
+<h2 id="2-general-definition-of-the-square-of-a-difference">2. General Definition of the Square of a Difference</h2>
+<p><span class="newthought">Of course,</span>  sometimes you are dealing with negative rather then positive numbers (or one number <em>minus another</em> it’s the same thing).  When this happens, you are <em>taking things away</em> rather than adding them. This is where the <em>Square of a Difference</em> comes in (the “difference” here is what’s left after you subtract <span>​<script type="math/tex">b</script></span> from <span>​<script type="math/tex">a</script></span>)</p>
+
+<div class="mathblock"><script type="math/tex; mode=display"> (a - b)^2 = a^2 - 2ab + b^2 </script></div>
+
+<p>Another way to state this is in words:</p>
+
+<blockquote>
+  <p>“The <em>Square of a Difference</em> is the Sum of two Squares minus two times the product of the terms”.</p>
+</blockquote>
+
+<h2 id="3-general-definition-of-the-difference-of-squares">3. General Definition of the Difference of Squares</h2>
+<p><span class="newthought">Finally we have</span>  the <em>Difference of Squares</em>.  This comes into play when you are subtracting one <em>square</em> from another</p>
+
+<div class="mathblock"><script type="math/tex; mode=display"> a^2 - b^2 = (a + b)(a - b) </script></div>
+
+<h2 id="all-together-now-the-short-multiplcation-formulas">All Together Now: “The Short Multiplcation Formulas”</h2>
+<p><span class="newthought">Let’s put all these next to each other.</span>   Together, these two are know as the <em>“Short Multiplication Formulas”</em>.  It’s easy to see why - they shorten (and simplify) multiplcation for you.  It’s worth at this point laying them out next to each other to see their comparative sizes.</p>
+
+<p>The largest is the <em>Square of a Sum</em> and the next after that is the <em>Square of a Difference</em>, with the <em>Difference of Squares</em> bringing up the rear.</p>
+
+<div class="mathblock"><script type="math/tex; mode=display"> (a + b)^2 \geq (a - b)^2 \geq a^2 - b^2 </script></div>
+
+<p>Why <span>​<script type="math/tex">\geq</script></span> and not <span>​<script type="math/tex">\gt</script></span>? Because one or both of the terms might be <span>​<script type="math/tex">0</script></span>.</p>
+
+<h2 id="tricks-arising">Tricks Arising</h2>
+
+<h3 id="hard-squares-can-be-split-out-into-simpler-pieces">Hard Squares can be Split out into Simpler Pieces</h3>
+<p>Again following on from some of the break-out tricks from <a href="https://andrewharmellaw.github.io/2016/11/23/gelfands-algebra-chunk-2-commutative-associative-and-distributive-laws">post 2 (Commutative, Associative and Distributive Laws)</a> you can split a square you can’t calculate simply into two you can, apply the <em>Square of a  Sum</em> pattern, and add the results.</p>
+
+<div class="mathblock"><script type="math/tex; mode=display"> 101^2 = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = (100 + 1)^2 = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = 100^2 + 2 \cdot 100 \cdot 1 + 1^2 = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = 10000 + 200 + 1 = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = 10201 </script></div>
+
+
+
+    </article>
+    <span class="print-footer">Gelfand: Chunk 6 - Squares, Sums, Differences etc. - December 17, 2016 - {"name"=>"Andrew Harmel-Law", "github"=>"andrewharmellaw", "twitter"=>"al94781"}</span>
+
+    <footer>
+  <hr class="slender">
+  <ul class="footer-links">
+    
+      <li>
+        <a href="//www.twitter.com/al94781"><span class="icon-twitter"></span></a>
+      </li>
+    
+      <li>
+        <a href="//github.com/andrewharmellaw"><span class="icon-github"></span></a>
+      </li>
+      
+  </ul>
+<div class="credits">
+<span>&copy; 2020 &nbsp;&nbsp;ANDREW HARMEL-LAW</span></br> <br>
+<span>This site was created using the <a href="//github.com/clayh53/tufte-jekyll">Tufte theme</a> for <a href="//jekyllrb.com">Jekyll</a>.</span> 
+</div>  
+</footer>
+
+  </body>
+</html>

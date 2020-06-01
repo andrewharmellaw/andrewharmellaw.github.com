@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Gelfand: Chunk 16 - Polynomial Division - Remainders, Bezout and Roots</title>
+  <meta name="description" content="There Must be an Easier Way…All this polynomial division is very exciting and all,  but it’s also very long-winded.  Surely there’s an easier way? (At least ...">
+
+  <!-- Google Fonts loaded here depending on setting in _data/options.yml true loads font, blank does not-->
+  
+    <link href='//fonts.googleapis.com/css?family=Lato:400,400italic' rel='stylesheet' type='text/css'>
+  
+  
+  <!-- Load up MathJax script if needed ... specify in /_data/options.yml file-->
+  
+    <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+
+  <link rel="stylesheet" type="text/css" href="/css/tufte.css">
+  <!-- <link rel="stylesheet" type="text/css" href="/css/print.css" media="print"> -->
+
+  <link rel="canonical" href="/2017/03/07/gelfands-algebra-chunk-16-polynomial-division-remainders">
+
+  <link rel="alternate" type="application/rss+xml" title="Maths from the Ground Up" href="/feed.xml" />
+</head>
+
+  <body>
+    <!--- Header and nav template site-wide -->
+<header>
+    <nav class="group">
+	<a href="/"><img class="badge" src="/assets/img/badge_1.png" alt="CH"></a>
+	
+		
+		    
+		      <a href="/archive">Archive</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/">Hi, Welcome</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/css/print.css"></a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/rss.xml">RSS</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/tags">Tags</a>
+		    
+	    
+  	
+		
+  	
+	</nav>
+</header>
+
+    <article class="group">
+      <h1>Gelfand: Chunk 16 - Polynomial Division - Remainders, Bezout and Roots</h1>
+<p class="subtitle">March 7, 2017</p>
+
+
+<h2 id="there-must-be-an-easier-way">There Must be an Easier Way…</h2>
+<p><span class="newthought">All this polynomial division is very exciting and all,</span>  but it’s also very long-winded.  Surely there’s an easier way? (At least in certain circumstances?)</p>
+
+<p>Reassuringly there is, at least for remainders, and factoring, and this is all up next, courtesy of <a href="https://en.wikipedia.org/wiki/%C3%89tienne_B%C3%A9zout">Bezout</a> and his <a href="https://en.wikipedia.org/wiki/Polynomial_remainder_theorem">Polynomial Remainder Theorem</a>.<label for="sn-id-whatever" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-whatever" class="margin-toggle" /><span class="sidenote">Bezout was a busy guy, and there are other theorems he came up with which you should not confuse with this one.  There is even one called “Bezout’s Theorem” which is <em>not</em> this one.  Confusing, right? </span></p>
+
+<p>I’ll let you go to Gelfand<label for="sn-id-whatever" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-whatever" class="margin-toggle" /><span class="sidenote">Section 37. </span> for the simple reason why this works, but in general, if <span>​<script type="math/tex">P</script></span> is an arbitrary polynomial (i.e. any polynomial in a single variable, <span>​<script type="math/tex">x</script></span> in what follows) which we want to divide by <span>​<script type="math/tex">x - a</script></span> then we can use the following equality to give us a jump on things:</p>
+
+<div class="mathblock"><script type="math/tex; mode=display">P(x) = (\hbox{quotient})(x - a) + (\hbox{remainder})</script></div>
+
+<p>This simple formula gives us a bunch of cool stuff and these cool things are the subject of the rest of this post.</p>
+
+<h2 id="tricks-arising-pt-1">Tricks Arising (Pt. 1)</h2>
+
+<h3 id="find-the-remainder-quickly-and-simply---bezouts-remainder-theorem">Find the Remainder Quickly and Simply - Bezout’s Remainder Theorem</h3>
+<p>We can use Bezout’s theorem in a sneaky way. To find the remainder when <span>​<script type="math/tex">P</script></span> is divided by <span>​<script type="math/tex">x - a</script></span>, simply substitute <span>​<script type="math/tex">a</script></span> for <span>​<script type="math/tex">x</script></span>. We don’t need to calculate the quotient to be able to do this either.</p>
+
+<p>E.g. we have a polynomial <span>​<script type="math/tex">P</script></span> which is <span>​<script type="math/tex">x^4</script></span>, and we want to know what the remainder is when we divide it by <span>​<script type="math/tex">x - 2</script></span>.  In this scenario, <span>​<script type="math/tex">a = 2</script></span>, and we can put this along with <span>​<script type="math/tex">x = 2</script></span> into our equality.</p>
+
+<div class="mathblock"><script type="math/tex; mode=display">2^4 = (\hbox{quotient})(2 - 2) + (\hbox{remainder})</script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display">16 = (\hbox{quotient})\cdot 0 + 16</script></div>
+
+<p>This is the aforementoned Remainder Theorem, discovered by <a href="https://en.wikipedia.org/wiki/%C3%89tienne_B%C3%A9zout">Etienne Bezout</a>.<label for="sn-id-whatever" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-whatever" class="margin-toggle" /><span class="sidenote">Note, this is <em>only</em> a method for finding the remainder. If you need the quotient, you still have to take the long way round as we described in <a href="https://andrewharmellaw.github.io/2017/02/23/gelfands-algebra-chunk-14-polynomial-division-all-the-gory-details/">Chunk 14.</a> </span></p>
+
+<h3 id="find-out-if-p-is-divisible-by-x---a-aka-roots-to-factoring-joy">Find out if <span>​<script type="math/tex">P</script></span> is Divisible by <span>​<script type="math/tex">x - a</script></span>, aka “Roots” to Factoring Joy</h3>
+<p>The previous trick was nice, but not too magical.  Up next is a consequence of Bezout’s theorem, and it’s going to give us another weapon in our fight against factoring.</p>
+
+<p>Now <em>that’s</em> magical.</p>
+
+<p>First we need to take a step back.  Two in fact. Forget about polynomials, and forget about division.  We’re going to introduce properly the concept of <em>polynomial roots</em>.<label for="sn-id-whatever" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-whatever" class="margin-toggle" /><span class="sidenote">Polynomial roots <em>are not</em> roots of numbers such as square roots and cube roots.  I’ve written <a href="https://andrewharmellaw.github.io/2017/04/24/gelfands-algebra-aside-2-roots-roots-and-more-roots">a separate section</a> to disambiguate all this. If you feel the need jump over there now to make sure you’re happy with the difference, and what we are and arent talking about here. </span></p>
+
+<p>Polynomials have things called <em>roots</em>. If I tell you they are also called a “zero” you might think back to the last time we heard the “zero” word with regards to factoring, in <a href="https://andrewharmellaw.github.io/2017/01/20/gelfands-algebra-chunk-11-factoring-to-zero">Chunk 11 - Factoring to Zero</a>.  In that post we found great solace for our annihilated-terms woes by “looking for the zero result”.</p>
+
+<p>Gelfand is now going to take the finding-the-remainder element of this approach, and bring us up to speed with roots in general (without explicitly calling out the link I’ve just made - I found it by <a href="http://www.sosmath.com/algebra/factor/fac02/fac02.html">reading around the topic</a>).  (<a href="https://www.amazon.co.uk/Mind-Numbers-Science-Flunked-Algebra-ebook/dp/B00G3L19ZU">Oakley</a> FTW!)</p>
+
+<p>The definition of a root <span>​<script type="math/tex">x = a</script></span> of a function <span>​<script type="math/tex">f(x)</script></span> from the above linked page is as follows:</p>
+
+<div class="mathblock"><script type="math/tex; mode=display">f(a) = 0</script></div>
+
+<p>I.e. the number represented by <span>​<script type="math/tex">a</script></span> is a root of the function represented by <span>​<script type="math/tex">f(x)</script></span> because when you make <span>​<script type="math/tex">a = x</script></span> the result is <span>​<script type="math/tex">0</script></span>.</p>
+
+<p>Pause a while for that to sink in.  It’s very simple, but powerful.  It means if we find an <span>​<script type="math/tex">a</script></span> (and there could be more than one, then we have a root of <span>​<script type="math/tex">f(x)</script></span>.</p>
+
+<p>Now consider the fact that <span>​<script type="math/tex">f(x)</script></span> is just another way of representing our polynomial, <span>​<script type="math/tex">P</script></span>.  We have seen that <span>​<script type="math/tex">a</script></span> is the root of this polynomial. When this is the case,  <span>​<script type="math/tex">x - a</script></span> will be a factor (because <span>​<script type="math/tex">x - a = 0</script></span>, we’re just rearranging our expression using standard laws).</p>
+
+<p>That last bit might have been a bit fast, so lets step up on it slowly, and we’ll do it from the Bezout angle this time.</p>
+
+<p>Remember this from Bezout?</p>
+
+<div class="mathblock"><script type="math/tex; mode=display">P(x) = (\hbox{quotient})(x - a) + (\hbox{remainder})</script></div>
+
+<p>If we state Bezout in a <em>different</em> way we can see why this is a logical consequence.</p>
+
+<blockquote>
+  <p>“To find whether polynomial <span>​<script type="math/tex">P</script></span> is divisible by <span>​<script type="math/tex">x - a</script></span> (without remainder), test whether it becomes zero after substitution of <span>​<script type="math/tex">a</script></span> for <span>​<script type="math/tex">x</script></span>.”</p>
+</blockquote>
+
+<p>That means (and it’s not too much of a brain stretch to see it) that when you put a value into your polynomial <span>​<script type="math/tex">P</script></span>, and the result does become zero, then it is divisible by <span>​<script type="math/tex">x - a</script></span>, then that means <span>​<script type="math/tex">a</script></span> is a <em>root</em> of <span>​<script type="math/tex">P</script></span>.  (We have <em>rooted</em> our polynomial <span>​<script type="math/tex">P</script></span>.)  That also means <span>​<script type="math/tex">x - a</script></span> is a <em>factor</em> of <span>​<script type="math/tex">P</script></span>.</p>
+
+<p>One last point<label for="sn-id-whatever" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-whatever" class="margin-toggle" /><span class="sidenote">Perhaps a self-evident one, but I dislike loose ends. </span> How does this relate to division (polynomial or otherwise)?  Remember, two or more factors are the result of <em>dividing</em> a polynomial.  To get back to the original polynomial, you simply take their product<label for="sn-id-whatever" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-whatever" class="margin-toggle" /><span class="sidenote">Which is just a fancy maths word for <em>multiplying</em> them together. </span>  Bezout’s formula is simply one which make evident both sides of the situation - a polynomial in entirety, and the same, but broken into pieces by division and about to be multiplied and added up again.</p>
+
+<h2 id="still-too-magical-lets-check-with-some-problems">Still Too Magical? Let’s Check With Some Problems</h2>
+<p><span class="newthought">Does that seem a little too magical?</span>   Are you feeling that adding strings to factoring bows should be harder-fought?  lets tackle some of the followiung problems to check.</p>
+
+<h3 id="problem-146a">Problem 146(a)</h3>
+
+<div class="mathblock"><script type="math/tex; mode=display">x^4 + 5x - 6</script></div>
+
+<p>Lets start trying values for <span>​<script type="math/tex">x</script></span> to see if we get a zero result.  <span>​<script type="math/tex">0</script></span> first.</p>
+
+<div class="mathblock"><script type="math/tex; mode=display">0^4 + 5 \cdot 0 - 6 = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = 0 + 0 - 6 = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = -6</script></div>
+
+<p>Nope. Not the answer we were looking for.  How about <span>​<script type="math/tex">1</script></span>?</p>
+
+<div class="mathblock"><script type="math/tex; mode=display">1^4 + 5 \cdot 1 - 6 = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = 1 + 5 - 6 = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = 0</script></div>
+
+<p>Super!  That means <span>​<script type="math/tex">1</script></span> is a root of <span>​<script type="math/tex">x^4 + 5x - 6</script></span>, which in turn means that <span>​<script type="math/tex">x - 1</script></span> must be a factor of the same polynomial.</p>
+
+<p>To factor from here we need to use the good-ole polynomial division to see what’s left once we factor out <span>​<script type="math/tex">x - a</script></span></p>
+
+<div class="mathblock"><script type="math/tex; mode=display">
+\require{enclose}
+\begin{array}{rll}
+   x^3  + x^2 \phantom{0} + x + 6 \phantom{00000} && \hbox{} \\[-3pt]
+   x - 1 \enclose{longdiv}{x^4 \phantom{000000000} + 5x - 6}\kern-.2ex \\[-3pt]
+      \underline{x^4 - x^3 \phantom{0000000000000}} && \hbox{} \\[-3pt]
+      x^3 \phantom{00000} +5x -6 && \hbox{} \\[-3pt]
+      \underline{x^3 \phantom{0} - x^2\phantom{00000000}} && \hbox{} \\[-3pt]
+      x^2 + 5x - 6  && \hbox{} \\[-3pt]
+      \underline{x^2 \phantom{0} - x \phantom{0000}} && \hbox{} \\[-3pt]
+      6x - 6  && \hbox{} \\[-3pt]
+      \underline{6x - 6} && \hbox{} \\[-3pt]
+      0  && \hbox{} \\[-3pt]
+  \end{array}
+</script></div>
+
+<p>Awesome.  That means our factoring is as follows:</p>
+
+<div class="mathblock"><script type="math/tex; mode=display">x^4 + 5x - 6 = (x - 1)(x^3 + x^2 + x - 6)</script></div>
+
+<p>We could go farther, and factor <span>​<script type="math/tex">x^3 + x^2 + x - 6</script></span>, but you get the gist.</p>
+
+<p>We’ll do one more before moving on, because it introduces another little clue for us to pick up on</p>
+
+<h3 id="problem-146b">Problem 146(b)</h3>
+
+<div class="mathblock"><script type="math/tex; mode=display">x^4 + 3x^2 + 5x + 1</script></div>
+
+<p>First up, let’s try with <span>​<script type="math/tex">0</script></span></p>
+
+<div class="mathblock"><script type="math/tex; mode=display">0^4 + 3\cdot0^2 + 5 \cdot 0 + 1 = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = 0 + 0 + 0 + 1 = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = 1</script></div>
+
+<p>Thats no good.  How about <span>​<script type="math/tex">1</script></span>?</p>
+
+<div class="mathblock"><script type="math/tex; mode=display">1^4 + 3\cdot1^2 + 5 \cdot 1 + 1 = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = 1 + 3 + 5 + 1 = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = 10</script></div>
+
+<p>That’s no good either.  And we’re actually <em>moving away</em> from a zero result too.  How about <span>​<script type="math/tex">-1</script></span>?</p>
+
+<div class="mathblock"><script type="math/tex; mode=display">-1^4 + 3\cdot-1^2 + 5 \cdot -1 + 1 = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = 1 + 3 - 5 + 1 = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = 0</script></div>
+
+<p>That’s our root!</p>
+
+<p>We can then take this into our division to get the quotient for our factoring.</p>
+
+<div class="mathblock"><script type="math/tex; mode=display">
+\require{enclose}
+\begin{array}{rll}
+   x^3  + x^2 + 4x \phantom{0} + 1 \phantom{00000} && \hbox{} \\[-3pt]
+   x + 1 \enclose{longdiv}{x^4 \phantom{00000} + 3x^2 + 5x + 1}\kern-.2ex \\[-3pt]
+      \underline{x^4 + x^3 \phantom{00000000000000}} && \hbox{} \\[-3pt]
+      -x^3 + 3x^2 + 5x + 1 && \hbox{} \\[-3pt]
+      \underline{-x^3 \phantom{0} - x^2\phantom{00000000}} && \hbox{} \\[-3pt]
+      4x^2 + 5x + 1  && \hbox{} \\[-3pt]
+      \underline{4x^2 + 4x \phantom{0000}} && \hbox{} \\[-3pt]
+      x + 1  && \hbox{} \\[-3pt]
+      \underline{x + 1} && \hbox{} \\[-3pt]
+      0  && \hbox{} \\[-3pt]
+  \end{array}
+</script></div>
+
+<p>Which means our factoring is as follows:</p>
+
+<div class="mathblock"><script type="math/tex; mode=display">x^4 + 3x^2 + 5x + 1 = (x + 1)(x^3  + x^2 + 4x + 1)</script></div>
+
+<h2 id="tricks-arising-pt-2">Tricks Arising (Pt. 2)</h2>
+
+<h3 id="nothing-subtracted-try-a-negative">Nothing Subtracted? Try a Negative</h3>
+<p>If when you look at your polynomial you see that nothing is subtracted<label for="sn-id-whateved" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-whateved" class="margin-toggle" /><span class="sidenote">As in Problem 146(b) above. </span> you know that your root will have to be a negative number (so that your sum will add to zero when you mix in the <span>​<script type="math/tex">x</script></span>).</p>
+
+<h3 id="how-many-roots">How Many Roots?</h3>
+<p>The gory details of how to get to this fact are in Gelfand, but its a truism that a polynomial of degree <span>​<script type="math/tex">x</script></span> will have at most <span>​<script type="math/tex">x</script></span> different roots.  The “different” is important - remember a polynomial can have two roots which are the same (n.b. <span>​<script type="math/tex">(x - 1)(x - 1) = (x - 1)^2</script></span> which translates as two roots which are the same).  Mathematicians say this has “two equal roots”.</p>
+
+<h2 id="further-reading">Further Reading</h2>
+<p><span class="newthought">There is a lot more to know about all this,</span>  but we’ve covered what Gelfand needs us to know for now.  If you are excited to learn more, I’d recommend the <a href="https://www.mathsisfun.com/algebra/fundamental-theorem-algebra.html">Fundamental Theorem of Algebra</a> on MathsIsFun.  It sounds scary, but it is really well written.</p>
+
+
+    </article>
+    <span class="print-footer">Gelfand: Chunk 16 - Polynomial Division - Remainders, Bezout and Roots - March 7, 2017 - {"name"=>"Andrew Harmel-Law", "github"=>"andrewharmellaw", "twitter"=>"al94781"}</span>
+
+    <footer>
+  <hr class="slender">
+  <ul class="footer-links">
+    
+      <li>
+        <a href="//www.twitter.com/al94781"><span class="icon-twitter"></span></a>
+      </li>
+    
+      <li>
+        <a href="//github.com/andrewharmellaw"><span class="icon-github"></span></a>
+      </li>
+      
+  </ul>
+<div class="credits">
+<span>&copy; 2020 &nbsp;&nbsp;ANDREW HARMEL-LAW</span></br> <br>
+<span>This site was created using the <a href="//github.com/clayh53/tufte-jekyll">Tufte theme</a> for <a href="//jekyllrb.com">Jekyll</a>.</span> 
+</div>  
+</footer>
+
+  </body>
+</html>

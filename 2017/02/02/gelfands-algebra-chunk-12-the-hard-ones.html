@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Gelfand: Chunk 12 - The Hard Ones</title>
+  <meta name="description" content="Something Fails. Then Something New Comes Along(And by “comes along” I mean Gelfand gifts us another trick-nugget. )In Problem 119, Gelfand asks us to factor...">
+
+  <!-- Google Fonts loaded here depending on setting in _data/options.yml true loads font, blank does not-->
+  
+    <link href='//fonts.googleapis.com/css?family=Lato:400,400italic' rel='stylesheet' type='text/css'>
+  
+  
+  <!-- Load up MathJax script if needed ... specify in /_data/options.yml file-->
+  
+    <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+
+  <link rel="stylesheet" type="text/css" href="/css/tufte.css">
+  <!-- <link rel="stylesheet" type="text/css" href="/css/print.css" media="print"> -->
+
+  <link rel="canonical" href="/2017/02/02/gelfands-algebra-chunk-12-the-hard-ones">
+
+  <link rel="alternate" type="application/rss+xml" title="Maths from the Ground Up" href="/feed.xml" />
+</head>
+
+  <body>
+    <!--- Header and nav template site-wide -->
+<header>
+    <nav class="group">
+	<a href="/"><img class="badge" src="/assets/img/badge_1.png" alt="CH"></a>
+	
+		
+		    
+		      <a href="/archive">Archive</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/">Hi, Welcome</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/css/print.css"></a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/rss.xml">RSS</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/tags">Tags</a>
+		    
+	    
+  	
+		
+  	
+	</nav>
+</header>
+
+    <article class="group">
+      <h1>Gelfand: Chunk 12 - The Hard Ones</h1>
+<p class="subtitle">February 2, 2017</p>
+
+
+<h2 id="something-fails-then-something-new-comes-along">Something Fails. Then Something New Comes Along</h2>
+<p>(<span class="newthought">And by “comes along” I mean Gelfand gifts us another trick-nugget.</span> )</p>
+
+<p>In Problem 119, Gelfand asks us to factor <span>​<script type="math/tex">a^4 + b^4</script></span>.  It looks simple enough.  But it’s not.  Spot the ‘<span>​<script type="math/tex">+</script></span>’.  That, plus the pesky even-ness of the powers mean our seemingly all-conquering tricks have encountered a crack in their armour.</p>
+
+<p>But let’s pretend for a minute that we didn’t know this. What would we have tried to do.<label for="sn-id-whatever" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-whatever" class="margin-toggle" /><span class="sidenote">And failed? </span> Probably something like the following which takes inspiration from our workings in the <a href="https://andrewharmellaw.github.io/2017/01/20/gelfands-algebra-chunk-11-factoring-to-zero">previous chunk - Factoring to Zero</a>.</p>
+
+<div class="mathblock"><script type="math/tex; mode=display">a^4 + b^4 = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = a^4 + a^3b - a^3b + a^2b^2 - a^2b^2 + ab^3 - ab^3 - b^4 = </script></div>
+
+<p>That first bit works; now the next step: pulling out the factor <span>​<script type="math/tex">(a + b)</script></span>.  We might start by copying the line straight from the <span>​<script type="math/tex">a^4 - b^4</script></span> example we’re following which gives us</p>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = a^3(a + b) + a^2b(a + b) + ab^2(a + b) + b^3(a + b)  = </script></div>
+
+<p>We know this is wrong, because we lifted it from <span>​<script type="math/tex">a^4 - b^4</script></span>, but how do we make it right? We know we need to get our negatively-signed terms which we un-annihilated from somewhere.  When we were starting with powers of three, this was easy. We would have had the following, with the middle term negative</p>
+
+<div class="mathblock"><script type="math/tex; mode=display">a^2(a + b) - ab(a + b) + b^2(a + b)</script></div>
+
+<p>But here we have two terms, <span>​<script type="math/tex">a^2b(a + b)</script></span> and <span>​<script type="math/tex">ab^2(a + b)</script></span> to deal with.  Do we make the first one negative and leave the other?  What happens then?</p>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = a^3(a + b) - a^2b(a + b) + ab^2(a + b) + b^3(a + b)  = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = a^4 + a^3b - a^3b - a^2b^2 + a^2b^2 + ab^3 + ab^3 + b^4 = </script></div>
+
+<p>Hmmm, that’s <em>almost</em> right, but we have two positive <span>​<script type="math/tex">ab^3</script></span>s.  That’s bad.</p>
+
+<p>So what happens if we make <em>both</em> middle-terms negative?<label for="sn-id-whatever" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-whatever" class="margin-toggle" /><span class="sidenote">Making the second middle term negative while leaving the first positive gives us nothing new. </span></p>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = a^3(a + b) - a^2b(a + b) - ab^2(a + b) + b^3(a + b)  = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = a^4 + a^3b - a^3b - a^2b^2 - a^2b^2 - ab^3 + ab^3 + b^4 = </script></div>
+
+<p>That solves our <span>​<script type="math/tex">ab^3</script></span> problem, but now we have two negative <span>​<script type="math/tex">a^2b^2</script></span>s.  That sucks.  Both options failed us. It seems we’re screwed.</p>
+
+<p>But before we get pulled into the Sough of Despond, let’s see if we can pull any good from this.</p>
+
+<h2 id="trick-clarifications-arising">Trick Clarifications Arising</h2>
+
+<h3 id="when-factoring-with-odd-powers-ask-what-gives-a-zero-result">When Factoring with <em>Odd Powers</em> Ask “What Gives a Zero Result?”</h3>
+<p>It turns out that to use the “Ask ‘What Gives a Zero Result’” trick; the one which until now had felt pretty generally-awesome; you need to be working with an <em>odd</em> power, because that gives you an odd number of terms to work with at the key step.  If you’re working with even powers, you’re out of luck as you can’t get the positives and negatives to match up.</p>
+
+<p>But what about the other power-move Gelfand showed us in Problem 115: The one where</p>
+
+<div class="mathblock"><script type="math/tex; mode=display">(a^4 - b^4) = (a - b)(a + b)(a^2 + b^2)</script></div>
+
+<p>That’s a nice option of a first step for us (albeit with the wrong sign as the starting point) but even if we solved that, we would still get left with <span>​<script type="math/tex">(a^2 + b^2)</script></span> which feels like we should be able to factor it further.  Hmmm.</p>
+
+<p>But wait, we’re jumping ahead because Gelfand is about to get round to this after giving us a hint to solve our problem - trying <span>​<script type="math/tex">2a^2b^2</script></span>.  Let’s see what happens</p>
+
+<div class="mathblock"><script type="math/tex; mode=display">a^4 + b^4 = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = a^4 + 2a^2b^2 - 2a^2b^2 + b^4 = </script></div>
+
+<p>Can we see a pattern from here?  We could take things back to the <em>Difference of Squares</em> is we can jiggle powers round a little</p>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = a^4 + 2a^2b^2 + b^4 - 2a^2b^2 = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = (a^2 + b^2)^2 - (\sqrt{2}ab)^2 = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = (a^2 + b^2 + \sqrt{2}ab)(a^2 + b^2 - \sqrt{2}ab) </script></div>
+
+<p>That seems quite nice.</p>
+
+<h2 id="more-tricks-arising-taking-stock">More Tricks Arising (Taking Stock)</h2>
+<p><span class="newthought">Gelfand now wants us to have a checkpoint.</span>   A fuller one than we just had, and then use this to launch off again into something even more generic.</p>
+
+<p>Let’s do this the only way we know how; by pulling out the Tricks.</p>
+
+<h3 id="if-you-have-something-to-a-power-minus-something-else-to-the-same-power-one-factor-will-be-a---b">If You Have “Something-to-a-Power <em>Minus</em> Something-Else-to-the-Same-Power One Factor Will Be <span>​<script type="math/tex">(a - b)</script></span></h3>
+<p>He points out that when we have <span>​<script type="math/tex">a^n - b^b</script></span> (something to a power <em>minus</em> something else to the same power) for any positive integer <span>​<script type="math/tex">n</script></span> then we can factor it - one of the factors will be <span>​<script type="math/tex">(a - b)</script></span>.</p>
+
+<h3 id="if-you-have-something-to-a-power-plus-something-else-to-the-same-power-and-your-power-is-odd-one-factor-will-be-a----b">If You Have “Something-to-a-Power <em>Plus</em> Something-Else-to-the-Same-Power, <em>and your Power is Odd</em>, One Factor Will Be <span>​<script type="math/tex">(a - (-b))</script></span></h3>
+<p>He goes further, pointing out that when <span>​<script type="math/tex">n</script></span> is <em>odd</em> and we are working with <em>addition</em> of powers, then we can just swap in <span>​<script type="math/tex">-b</script></span> for <span>​<script type="math/tex">b</script></span> in the above solution.</p>
+
+<h3 id="if-you-have-something-to-a-power-plus-something-else-to-the-same-power-and-your-power-is-even-find-your-squares-and-mix-in-2anbn">If You Have “Something-to-a-Power <em>Plus</em> Something-Else-to-the-Same-Power, <em>and your Power is Even</em>, Find Your Squares and Mix in <span>​<script type="math/tex">2a^nb^n</script></span></h3>
+<p>And what we just saw in Problem 119 was the gateway to the final element in our general situation: when <span>​<script type="math/tex">n</script></span> is <em>even</em> and we are working with <em>addition</em> of one power from the other.  I.e. when it’s <span>​<script type="math/tex">a^2 + b^2</script></span>, <span>​<script type="math/tex">a^4 + b^4</script></span>, <span>​<script type="math/tex">a^6 + b^6</script></span>, etc.</p>
+
+<h2 id="a-decision-tree-for-all-your-power-plus-power-factoring-needs">A Decision-Tree for All Your Power-Plus-Power Factoring Needs</h2>
+<p><span class="newthought">So we can’t derive a general rule for this.</span>  But we can we re-state things in our sibling-problems in a way which means we can use this trick again unchanged?  Yup.</p>
+
+<p>When <span>​<script type="math/tex">n</script></span> is <em>even</em> and we’re adding powers</p>
+
+<div class="mathblock"><script type="math/tex; mode=display">a^{2n} + b^{2n} = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = (a^n)^2 + (b^n)^2 = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = (a^n)^2 + 2a^nb^n + (b^n)^2 - 2a^nb^n = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = (a^{2n} + b^{2n})^2 - (\sqrt{2}(a^n)(b^n))^2 = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = (a^{2n} + b^{2n} + \sqrt{2}(a^n)(b^n))(a^{2n} + b^{2n} - \sqrt{2}(a^n)(b^n))</script></div>
+
+<p>And when <span>​<script type="math/tex">n</script></span> is <em>odd</em> and we’re adding powers</p>
+
+<div class="mathblock"><script type="math/tex; mode=display">a^{2n} + b^{2n} = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = (a^n)^2 + (b^n)^2 = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = (a^2 + b^2)((a^2)^{n-1} - (a^2)^{n-2}b^2 + (a^2)^{n-3}(b^2)^2) - ... - (a^2)(b^2)^{n-2} + (b^2)^{n-1})</script></div>
+
+<p>Brilliant!</p>
+
+<p>Now all we’re left with is the slightly-trickier case of <span>​<script type="math/tex">a^2 + b^2</script></span> - but that’s not tricky if we just invent a new type of number (which <span>​<script type="math/tex">\sqrt{-1}</script></span> requires in order to do this) which mathematicians called <em>complex numbers</em> (but that’s another post).</p>
+
+<p>We’ll just conclude this post with some commentary on the remaining “more difficult problems” with which Gelfand signs off this section.</p>
+
+<h2 id="the-more-difficult-problems">The “More Difficult Problems”</h2>
+
+<h3 id="problem-122a">Problem 122(a)</h3>
+
+<p>Use the previous solution from Problem 119, making <span>​<script type="math/tex">a = x</script></span> and <span>​<script type="math/tex">b = 1</script></span>. (Remember, <span>​<script type="math/tex">1 = 1^4 = 1^n</script></span>.)</p>
+
+<div class="mathblock"><script type="math/tex; mode=display">x^4 + 1 = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = x^4 + 1^4 = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = x^4 + 2a^21^2 + 1^4 - 2a^21^2 = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = (x^2 + 1^2)^2 - (\sqrt{2}x \times 1)^2 = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = (x^2 + 1 + \sqrt{2}x)(x^2 + 1 - \sqrt{2}x)</script></div>
+
+<h3 id="problem-122b">Problem 122(b)</h3>
+
+<p>First we expand everything so see where we’re at</p>
+
+<div class="mathblock"><script type="math/tex; mode=display">x(y^2 - z^2) + y(z^2 - x^2) + z(x^2 - y^2) = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = xy^2 - xz^2 + yz^2 - yx^2 + zx^2 - zy^2 = </script></div>
+
+<p>Then we group around one of our variables, <span>​<script type="math/tex">x</script></span> seems like as good an option as any</p>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = (z - y)x^2 + (y^2 - z^2)x + yz^2 - zy^2 = </script></div>
+
+<p>Now spot the difference of squares in the middle (<span>​<script type="math/tex">(y^2 - z^2)</script></span>) which we can factor out</p>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = (z - y)x^2 + (y + z)(y - z)x + yz^2 - zy^2 = </script></div>
+
+<p>And then pull out a simple factor from the last two terms</p>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = (z - y)x^2 + (y + z)(y - z)x + yz(z - y) = </script></div>
+
+<p>Now we pause. Can we go further?  A common factor of <span>​<script type="math/tex">(z - y)</script></span> is <em>almost</em> emerging, it’s just that tricksy difference-of-squares which is making life hard.  Can we re-jig things?  We can</p>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = (z - y)x^2 - (y + z)(z - y)x + yz(z - y) = </script></div>
+
+<p>Now we can pull out this factor</p>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = (z - y)(x^2 - (y + z)x + yz) = </script></div>
+
+<p>Great. Can we go further?  What about the <span>​<script type="math/tex">(x^2 - (y + z)x + yz)</script></span> itself?</p>
+
+<p>We can take this piece on it’s own for a second and see where we can get.  First up we expand the middle term</p>
+
+<div class="mathblock"><script type="math/tex; mode=display"> x^2 - (y + z)x + yz = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = x^2 - xy - xz + yz = </script></div>
+
+<p>That then looks like a nice and simple factoring around these three variables</p>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = (x - y)(x - z)</script></div>
+
+<p>So we can then put it all back together to get our final answer</p>
+
+<div class="mathblock"><script type="math/tex; mode=display">(z - y)(x - y)(x - z)</script></div>
+
+<p>Beautiful.</p>
+
+<h3 id="problem-122c">Problem 122(c)</h3>
+<p>Use the same approach as we saw working in Problem 111.</p>
+
+<h3 id="problem-122d">Problem 122(d)</h3>
+<p><a href="https://www.scribd.com/document/243387607/Gelfand-Algebra-Solutions">Durham</a> thinks this is tough. I agree.  I couldnt find another way to factor it.</p>
+
+<h3 id="problem-122e">Problem 122(e)</h3>
+<p>Start off by multiplying out <span>​<script type="math/tex">(a + b + c)^3</script></span>.  Then looking back to the solution from Problem 122(b) gave some hints as to a possible factor.</p>
+
+<h3 id="problem-122f">Problem 122(f)</h3>
+<p>Two options here which Durham expands on:</p>
+
+<ul>
+  <li>Use Pascal’s triangle to multiply out all cubes, then go from there,</li>
+  <li>Use the solution to Problem 114 to start you off.</li>
+</ul>
+
+<h2 id="meta-trick-there-isnt-always-a-single-simple-trick">Meta-Trick: There isn’t Always a Single, Simple Trick</h2>
+<p><span class="newthought">We’ve seen it a little before,</span>  but with this Chunk, we’re now beginning to confront head on that the fact that the subtleties of numbers and things you can  (and can’t do to them) most usually have a set of tricks applied to their solving rather than just one. What is more, the applicability of those tricks depends upon things like whteher a given key number is odd or even, and / or there is positive / addition vs negative / subtraction.  And don’t forget zero - the o-so-special case.</p>
+
+<p>This all means you frequently need to have a second level of awareness in your pattern-spotter and trick-matcher which allows you take this into account.</p>
+
+<h2 id="terminology">Terminology</h2>
+<ul>
+  <li><a href="https://www.mathsisfun.com/numbers/complex-numbers.html">Complex Numbers</a> (from MathsIsFun.com)</li>
+</ul>
+
+
+    </article>
+    <span class="print-footer">Gelfand: Chunk 12 - The Hard Ones - February 2, 2017 - {"name"=>"Andrew Harmel-Law", "github"=>"andrewharmellaw", "twitter"=>"al94781"}</span>
+
+    <footer>
+  <hr class="slender">
+  <ul class="footer-links">
+    
+      <li>
+        <a href="//www.twitter.com/al94781"><span class="icon-twitter"></span></a>
+      </li>
+    
+      <li>
+        <a href="//github.com/andrewharmellaw"><span class="icon-github"></span></a>
+      </li>
+      
+  </ul>
+<div class="credits">
+<span>&copy; 2020 &nbsp;&nbsp;ANDREW HARMEL-LAW</span></br> <br>
+<span>This site was created using the <a href="//github.com/clayh53/tufte-jekyll">Tufte theme</a> for <a href="//jekyllrb.com">Jekyll</a>.</span> 
+</div>  
+</footer>
+
+  </body>
+</html>
