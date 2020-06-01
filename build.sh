@@ -13,19 +13,18 @@ set -e
 jekyll build
 
 # cleanup
-rm -rf ../andrewharmellaw.github.io.master
+#rm -rf ../andrewharmellaw.github.io.master
 
 #clone `master' branch of the repository using encrypted GH_TOKEN for authentification
-git clone git@github.com:andrewharmellaw/andrewharmellaw.github.com.git ../andrewharmellaw.github.io.master
+#git clone git@github.com:andrewharmellaw/andrewharmellaw.github.com.git ../andrewharmellaw.github.io.master
 
 # copy generated HTML site to `master' branch
-cp -R _site/* ../andrewharmellaw.github.io.master
+cp -R _site/* ../temp/andrewharmellaw.github.io.master
 
 # commit and push generated content to `master' branch
 # since repository was cloned in write mode with token auth - we can push there
-cd ../andrewharmellaw.github.io.master
-git config user.email "andrew@harmel-law.com"
-git config user.name "Andrew Harmel-Law"
+cd ../temp/andrewharmellaw.github.io.master
 git add -A .
-git commit -a -m "Travis #$TRAVIS_BUILD_NUMBER"
-git push --quiet origin master > /dev/null 2>&1 
+git commit -a -m "Publishing the latest site from the gh-pages branch."
+git push --quiet origin master  
+cd ../../andrewharmellaw.github.com
