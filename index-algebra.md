@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Hi, Welcome
+title: Algebra
 ---
 {% include JB/setup %}
 
