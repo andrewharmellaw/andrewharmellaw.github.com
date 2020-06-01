@@ -5,8 +5,8 @@
         <description>Maths from the Ground Up - Andrew Harmel-Law</description>
         <link>http://andrewharmellaw.github.io</link>
         <atom:link href="http://andrewharmellaw.github.io" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Tue, 05 Sep 2017 08:01:44 +0100</lastBuildDate>
-        <pubDate>Tue, 05 Sep 2017 08:01:44 +0100</pubDate>
+        <lastBuildDate>Mon, 01 Jun 2020 11:32:35 +0100</lastBuildDate>
+        <pubDate>Mon, 01 Jun 2020 11:32:35 +0100</pubDate>
         <ttl>60</ttl>
 
 
@@ -15,7 +15,7 @@
                 <description>
 &lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;Given the last chunk was proof-rich&lt;/span&gt;  it’s no surprise to find that this Section sees Gelfand asking us (with less help now) to do some more proving.  Let’s see what we can learn, both facts-wise, and skills wise too.&lt;/p&gt;
 
-&lt;h2 id=&quot;proof-for-span8203script-typemathtexa-b-ge-0scriptspan-span8203script-typemathtexsqrtab--sqrtasqrtbscriptspan&quot;&gt;Proof: (For &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a, b \ge 0&lt;/script&gt;&lt;/span&gt;) &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;\sqrt{ab} = \sqrt{a}\sqrt{b}&lt;/script&gt;&lt;/span&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;proof-for-a-b-ge-0-sqrtab--sqrtasqrtb&quot;&gt;Proof: (For &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a, b \ge 0&lt;/script&gt;&lt;/span&gt;) &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;\sqrt{ab} = \sqrt{a}\sqrt{b}&lt;/script&gt;&lt;/span&gt;&lt;/h2&gt;
 &lt;p&gt;This one looks interesting.  First we note that this isnt for all values of &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a&lt;/script&gt;&lt;/span&gt; and &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;b&lt;/script&gt;&lt;/span&gt;.  Negatives are excluded.  Does that help us to our solution? Probably not, but it means we have less to worry about.&lt;/p&gt;
 
 &lt;p&gt;We need to both sides of our equality the same.  Let’s start&lt;label for=&quot;sn-id&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;As is usual. &lt;/span&gt; by getting rid of the roots&lt;/p&gt;
@@ -41,10 +41,10 @@
 &lt;h3 id=&quot;lose-the-roots&quot;&gt;Lose the Roots&lt;/h3&gt;
 &lt;p&gt;When confronted by any expression with roots in it, it seems like a good idea to get rid of them as quickly as possible.  It’s not failed me yet as an approach.&lt;/p&gt;
 
-&lt;h3 id=&quot;span8203script-typemathtexsqrtab--sqrtasqrtbscriptspan-is-a-handy-pattern&quot;&gt;&lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;\sqrt{ab} = \sqrt{a}\sqrt{b}&lt;/script&gt;&lt;/span&gt; is a Handy Pattern&lt;/h3&gt;
+&lt;h3 id=&quot;sqrtab--sqrtasqrtb-is-a-handy-pattern&quot;&gt;&lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;\sqrt{ab} = \sqrt{a}\sqrt{b}&lt;/script&gt;&lt;/span&gt; is a Handy Pattern&lt;/h3&gt;
 &lt;p&gt;It’s worth pointing out that &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;\sqrt{ab} = \sqrt{a}\sqrt{b}&lt;/script&gt;&lt;/span&gt; is a handy pattern and expansion for you to have in your trick-box.  While remembering that it’s _only for non-negative &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a&lt;/script&gt;&lt;/span&gt; and &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;b&lt;/script&gt;&lt;/span&gt;, btore it deep in  your chunk-bank, all cosy yet sprung, ready for quick deployment at a moment’s notice.&lt;/p&gt;
 
-&lt;h2 id=&quot;proof-for-span8203script-typemathtexa-ge-0-b-gt-0scriptspan-span8203script-typemathtexsqrtfracab--fracsqrtasqrtbscriptspan&quot;&gt;Proof: (For &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a \ge 0, b \gt 0&lt;/script&gt;&lt;/span&gt;) &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;\sqrt{\frac{a}{b}} = \frac{\sqrt{a}}{\sqrt{b}}&lt;/script&gt;&lt;/span&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;proof-for-a-ge-0-b-gt-0-sqrtfracab--fracsqrtasqrtb&quot;&gt;Proof: (For &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a \ge 0, b \gt 0&lt;/script&gt;&lt;/span&gt;) &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;\sqrt{\frac{a}{b}} = \frac{\sqrt{a}}{\sqrt{b}}&lt;/script&gt;&lt;/span&gt;&lt;/h2&gt;
 &lt;p&gt;Another interesting one.  Again we note that this isn’t for all values of &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a&lt;/script&gt;&lt;/span&gt; and &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;b&lt;/script&gt;&lt;/span&gt;.  Again negative &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a&lt;/script&gt;&lt;/span&gt;s are out.  That’s obviously for the same reason as the last proof.  But why can’t &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;b&lt;/script&gt;&lt;/span&gt; be zero?  Because it’s the denominator in a fraction is why, and as you’ll no doubt recall from &lt;a href=&quot;https://andrewharmellaw.github.io/2016/11/16/gelfands-algebra-chunk-1-fundamentals/&quot;&gt;Chunk 1 - Fundamentals&lt;/a&gt; that if you have a zero denominator, then the fraction is &lt;em&gt;undefined&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;With that out of the way, we can attack our proof.  It seems sensible to do the same as usual and get rid of our roots first.&lt;/p&gt;
@@ -59,10 +59,10 @@
 
 &lt;p&gt;Proved.&lt;/p&gt;
 
-&lt;h3 id=&quot;span8203script-typemathtexsqrtfracab--fracsqrtasqrtbscriptspan-is-another-handy-pattern&quot;&gt;&lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;\sqrt{\frac{a}{b}} = frac{\sqrt{a}}{\sqrt{b}}&lt;/script&gt;&lt;/span&gt; is Another Handy Pattern&lt;/h3&gt;
+&lt;h3 id=&quot;sqrtfracab--fracsqrtasqrtb-is-another-handy-pattern&quot;&gt;&lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;\sqrt{\frac{a}{b}} = frac{\sqrt{a}}{\sqrt{b}}&lt;/script&gt;&lt;/span&gt; is Another Handy Pattern&lt;/h3&gt;
 &lt;p&gt;As long as we keep in mind the restrictions on applicability, &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;\sqrt{ab} = \sqrt{a}\sqrt{b}&lt;/script&gt;&lt;/span&gt; is also a handy pattern and expansion.  Wrap it up in your brainbox alongside it’s close cousin, where they can keep each other company.&lt;/p&gt;
 
-&lt;h2 id=&quot;proof-span8203script-typemathtexsqrta2-ne-ascriptspan-for-all-span8203script-typemathtexascriptspan&quot;&gt;Proof: &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;\sqrt{a}^2 \ne a&lt;/script&gt;&lt;/span&gt; for all &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a&lt;/script&gt;&lt;/span&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;proof-sqrta2-ne-a-for-all-a&quot;&gt;Proof: &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;\sqrt{a}^2 \ne a&lt;/script&gt;&lt;/span&gt; for all &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a&lt;/script&gt;&lt;/span&gt;&lt;/h2&gt;
 &lt;p&gt;I could hear &lt;a href=&quot;https://en.wikipedia.org/wiki/Admiral_Ackbar&quot;&gt;Admiral Akbar&lt;/a&gt; in the back of my head here.  The clear implication from Gelfand is that it’s not true for all &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a&lt;/script&gt;&lt;/span&gt;.  Let’s try our go-to zero and negatives and see what we get.&lt;/p&gt;
 
 &lt;p&gt;Zero first.&lt;/p&gt;
@@ -170,7 +170,7 @@
 
 &lt;p&gt;We’re going to work through the next two problems in our traditional painful levels of detail.  While interesting, the thing we are proving - that certain numeric roots are irrational numbers - is not the reason for our travails.  The point is that Gelfand’s worked solutions are going to give us more than a few new mental tools for our problem-solving kitbag.  Ones which we’ll need to chunk solidly if we are to progress much further than this.&lt;/p&gt;
 
-&lt;h2 id=&quot;proving-span8203script-typemathtexsqrt2scriptspan-is-irrational&quot;&gt;Proving &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;\sqrt{2}&lt;/script&gt;&lt;/span&gt; is Irrational&lt;/h2&gt;
+&lt;h2 id=&quot;proving-sqrt2-is-irrational&quot;&gt;Proving &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;\sqrt{2}&lt;/script&gt;&lt;/span&gt; is Irrational&lt;/h2&gt;
 &lt;p&gt;Gelfand begins his solution&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Remember, there are &lt;em&gt;many&lt;/em&gt; solutions to most problems in mathematics.  Simply because this is the one Gelfand shows us does not mean it is the only one.  We should however assume that (a) it is correct and (b) there are pedagogic reasons for choosing this one. &lt;/span&gt; to Problem 226 by setting out his stall in a way that should now be familiar.&lt;/p&gt;
 
 &lt;h3 id=&quot;laying-out-the-stall&quot;&gt;Laying Out the Stall&lt;/h3&gt;
@@ -211,7 +211,7 @@
 
 &lt;p&gt;In both cases, &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;k&lt;/script&gt;&lt;/span&gt; is any integer including &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;0&lt;/script&gt;&lt;/span&gt;.&lt;/p&gt;
 
-&lt;h3 id=&quot;proof-part-a---span8203script-typemathtexfracoddoddscriptspan&quot;&gt;Proof Part (a) - &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;\frac{odd}{odd}&lt;/script&gt;&lt;/span&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;proof-part-a---fracoddodd&quot;&gt;Proof Part (a) - &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;\frac{odd}{odd}&lt;/script&gt;&lt;/span&gt;&lt;/h3&gt;
 &lt;p&gt;We start where Gelfand starts, by restating our (in)equality in terms of &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;k&lt;/script&gt;&lt;/span&gt; (and also &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;l&lt;/script&gt;&lt;/span&gt; which allows our numerator and denominator to be different numbers.)&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;I’ve flipped the sides of the working that follows.  Primarily to keep the reading flow, but also to keep you on your toes mentally.  You can thank me later, dear reader. &lt;/span&gt;&lt;/p&gt;
 
 &lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; \sqrt{2} = \frac{2k + 1}{2l + 1} &lt;/script&gt;&lt;/div&gt;
@@ -244,7 +244,7 @@
   &lt;p&gt;Contradiction: (even number) + 1 = (even number)&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h3 id=&quot;proof-part-b---span8203script-typemathtexfracevenoddscriptspan&quot;&gt;Proof Part (b) - &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;\frac{even}{odd}&lt;/script&gt;&lt;/span&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;proof-part-b---fracevenodd&quot;&gt;Proof Part (b) - &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;\frac{even}{odd}&lt;/script&gt;&lt;/span&gt;&lt;/h3&gt;
 &lt;p&gt;Up next, even divided by odd.  We start in an equivalent place to before:&lt;/p&gt;
 
 &lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; \sqrt{2} = \frac{2k}{2l + 1} &lt;/script&gt;&lt;/div&gt;
@@ -281,7 +281,7 @@
   &lt;p&gt;Contradiction: (even number) + 1 = (even number)&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h3 id=&quot;proof-part-c---span8203script-typemathtexfracoddevenscriptspan&quot;&gt;Proof Part (c) - &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;\frac{odd}{even}&lt;/script&gt;&lt;/span&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;proof-part-c---fracoddeven&quot;&gt;Proof Part (c) - &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;\frac{odd}{even}&lt;/script&gt;&lt;/span&gt;&lt;/h3&gt;
 &lt;p&gt;Finally, odd divided by even.  We start yet again in our equivalent place:&lt;/p&gt;
 
 &lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; \sqrt{2} = \frac{2k + 1}{2l} &lt;/script&gt;&lt;/div&gt;
@@ -307,7 +307,7 @@
 &lt;h3 id=&quot;in-conclusion&quot;&gt;In Conclusion&lt;/h3&gt;
 &lt;p&gt;To conclude, we have shown that &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;\sqrt{2}&lt;/script&gt;&lt;/span&gt; is always an irrational number, because we have shown that all the ways in which we &lt;em&gt;might&lt;/em&gt; represent it as a rational number are impossible.&lt;/p&gt;
 
-&lt;h2 id=&quot;what-about-span8203script-typemathtexsqrt3scriptspan&quot;&gt;What about &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;\sqrt{3}&lt;/script&gt;&lt;/span&gt;?&lt;/h2&gt;
+&lt;h2 id=&quot;what-about-sqrt3&quot;&gt;What about &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;\sqrt{3}&lt;/script&gt;&lt;/span&gt;?&lt;/h2&gt;
 &lt;p&gt;This is Problem 227.  You can prove it using exactly the same method Gelfand laid out for us.  I’ll not set it out here.  I suggest you follow it through yourself however as the doing helps the chunking.&lt;/p&gt;
 
 &lt;h2 id=&quot;we-cheated&quot;&gt;We Cheated?!?&lt;/h2&gt;
@@ -391,7 +391,7 @@
 
 &lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;x^2 + px + q = 0&lt;/script&gt;&lt;/div&gt;
 
-&lt;h2 id=&quot;fiddling-with-the-reduced-quadratic---when-span8203script-typemathtexp--0scriptspan&quot;&gt;Fiddling with the Reduced Quadratic - when &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;p = 0&lt;/script&gt;&lt;/span&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;fiddling-with-the-reduced-quadratic---when-p--0&quot;&gt;Fiddling with the Reduced Quadratic - when &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;p = 0&lt;/script&gt;&lt;/span&gt;&lt;/h2&gt;
 &lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;Having learned from the previous section,&lt;/span&gt;  we should be wary of just considering this from only a single angle, and of assuming things stay the same no matter how the constituents vary.  If you are, then that’s good, because it’s how Gelfand wants to approach it too.  He has three angles on the reduced quadratic when &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;p = 0&lt;/script&gt;&lt;/span&gt;. Let’s get ourselves to the starting blocks first so we’re assured of clarity.&lt;/p&gt;
 
 &lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;x^2 + px + q = 0&lt;/script&gt;&lt;/div&gt;
@@ -468,7 +468,7 @@
 
 &lt;h2 id=&quot;tricks-arising&quot;&gt;Tricks Arising&lt;/h2&gt;
 
-&lt;h3 id=&quot;more-than-a-subtlety-of-notation---the-difference-between-span8203script-typemathtex-2scriptspan-and-span8203script-typemathtex-2scriptspan&quot;&gt;More Than a Subtlety of Notation - The Difference Between &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;-2&lt;/script&gt;&lt;/span&gt; and &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;(-2)&lt;/script&gt;&lt;/span&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;more-than-a-subtlety-of-notation---the-difference-between--2-and--2&quot;&gt;More Than a Subtlety of Notation - The Difference Between &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;-2&lt;/script&gt;&lt;/span&gt; and &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;(-2)&lt;/script&gt;&lt;/span&gt;&lt;/h3&gt;
 &lt;p&gt;We need to cover a little convention in notation.  It is the fact that there is a difference in maths between &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;-2&lt;/script&gt;&lt;/span&gt; and &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;(-2)&lt;/script&gt;&lt;/span&gt;.  What is it?  If we the same “squaring” operation on both of them you’ll see it.&lt;/p&gt;
 
 &lt;p&gt;We’ll take the second one first&lt;/p&gt;
@@ -483,7 +483,7 @@
 
 &lt;p&gt;Consequently, if you have a value &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;x&lt;/script&gt;&lt;/span&gt;, (which could be either positive or negative) and you then square it, and then you square root the result, you will be left with either &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;x&lt;/script&gt;&lt;/span&gt; &lt;em&gt;or&lt;/em&gt; &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;(-x)&lt;/script&gt;&lt;/span&gt; depending on where you started. (This applies for &lt;em&gt;all&lt;/em&gt; values of &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;x&lt;/script&gt;&lt;/span&gt;.)&lt;/p&gt;
 
-&lt;h3 id=&quot;span8203script-typemathtexsqrt2scriptspan-is-irrational&quot;&gt;&lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;\sqrt{2}&lt;/script&gt;&lt;/span&gt; is &lt;em&gt;Irrational&lt;/em&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;sqrt2-is-irrational&quot;&gt;&lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;\sqrt{2}&lt;/script&gt;&lt;/span&gt; is &lt;em&gt;Irrational&lt;/em&gt;&lt;/h3&gt;
 &lt;p&gt;The &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;\sqrt{2}&lt;/script&gt;&lt;/span&gt; is an &lt;em&gt;irrational&lt;/em&gt; number, so you can’t represent it as a quotient of two integers.&lt;/p&gt;
 
 &lt;p&gt;However, it’s not simply a convention like we have with &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a^{-n} = \frac{1}{a^n}&lt;/script&gt;&lt;/span&gt;. The problem here is that the fraction that represents &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;\sqrt{2}&lt;/script&gt;&lt;/span&gt; would have a never-ending stream of numbers in the numerator-position if it were to avoid being approximation.  That’s no good at all, and so we bring in instead the previously discussed idea of “irrational numbers”.&lt;/p&gt;
@@ -2143,7 +2143,7 @@
 
 &lt;p&gt;This is the aforementoned Remainder Theorem, discovered by &lt;a href=&quot;https://en.wikipedia.org/wiki/%C3%89tienne_B%C3%A9zout&quot;&gt;Etienne Bezout&lt;/a&gt;.&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Note, this is &lt;em&gt;only&lt;/em&gt; a method for finding the remainder. If you need the quotient, you still have to take the long way round as we described in &lt;a href=&quot;https://andrewharmellaw.github.io/2017/02/23/gelfands-algebra-chunk-14-polynomial-division-all-the-gory-details/&quot;&gt;Chunk 14.&lt;/a&gt; &lt;/span&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;find-out-if-span8203script-typemathtexpscriptspan-is-divisible-by-span8203script-typemathtexx---ascriptspan-aka-roots-to-factoring-joy&quot;&gt;Find out if &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;P&lt;/script&gt;&lt;/span&gt; is Divisible by &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;x - a&lt;/script&gt;&lt;/span&gt;, aka “Roots” to Factoring Joy&lt;/h3&gt;
+&lt;h3 id=&quot;find-out-if-p-is-divisible-by-x---a-aka-roots-to-factoring-joy&quot;&gt;Find out if &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;P&lt;/script&gt;&lt;/span&gt; is Divisible by &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;x - a&lt;/script&gt;&lt;/span&gt;, aka “Roots” to Factoring Joy&lt;/h3&gt;
 &lt;p&gt;The previous trick was nice, but not too magical.  Up next is a consequence of Bezout’s theorem, and it’s going to give us another weapon in our fight against factoring.&lt;/p&gt;
 
 &lt;p&gt;Now &lt;em&gt;that’s&lt;/em&gt; magical.&lt;/p&gt;
@@ -2936,13 +2936,13 @@
 
 &lt;p&gt;Let’s do this the only way we know how; by pulling out the Tricks.&lt;/p&gt;
 
-&lt;h3 id=&quot;if-you-have-something-to-a-power-minus-something-else-to-the-same-power-one-factor-will-be-span8203script-typemathtexa---bscriptspan&quot;&gt;If You Have “Something-to-a-Power &lt;em&gt;Minus&lt;/em&gt; Something-Else-to-the-Same-Power One Factor Will Be &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;(a - b)&lt;/script&gt;&lt;/span&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;if-you-have-something-to-a-power-minus-something-else-to-the-same-power-one-factor-will-be-a---b&quot;&gt;If You Have “Something-to-a-Power &lt;em&gt;Minus&lt;/em&gt; Something-Else-to-the-Same-Power One Factor Will Be &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;(a - b)&lt;/script&gt;&lt;/span&gt;&lt;/h3&gt;
 &lt;p&gt;He points out that when we have &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a^n - b^b&lt;/script&gt;&lt;/span&gt; (something to a power &lt;em&gt;minus&lt;/em&gt; something else to the same power) for any positive integer &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt;&lt;/span&gt; then we can factor it - one of the factors will be &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;(a - b)&lt;/script&gt;&lt;/span&gt;.&lt;/p&gt;
 
-&lt;h3 id=&quot;if-you-have-something-to-a-power-plus-something-else-to-the-same-power-and-your-power-is-odd-one-factor-will-be-span8203script-typemathtexa----bscriptspan&quot;&gt;If You Have “Something-to-a-Power &lt;em&gt;Plus&lt;/em&gt; Something-Else-to-the-Same-Power, &lt;em&gt;and your Power is Odd&lt;/em&gt;, One Factor Will Be &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;(a - (-b))&lt;/script&gt;&lt;/span&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;if-you-have-something-to-a-power-plus-something-else-to-the-same-power-and-your-power-is-odd-one-factor-will-be-a----b&quot;&gt;If You Have “Something-to-a-Power &lt;em&gt;Plus&lt;/em&gt; Something-Else-to-the-Same-Power, &lt;em&gt;and your Power is Odd&lt;/em&gt;, One Factor Will Be &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;(a - (-b))&lt;/script&gt;&lt;/span&gt;&lt;/h3&gt;
 &lt;p&gt;He goes further, pointing out that when &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt;&lt;/span&gt; is &lt;em&gt;odd&lt;/em&gt; and we are working with &lt;em&gt;addition&lt;/em&gt; of powers, then we can just swap in &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;-b&lt;/script&gt;&lt;/span&gt; for &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;b&lt;/script&gt;&lt;/span&gt; in the above solution.&lt;/p&gt;
 
-&lt;h3 id=&quot;if-you-have-something-to-a-power-plus-something-else-to-the-same-power-and-your-power-is-even-find-your-squares-and-mix-in-span8203script-typemathtex2anbnscriptspan&quot;&gt;If You Have “Something-to-a-Power &lt;em&gt;Plus&lt;/em&gt; Something-Else-to-the-Same-Power, &lt;em&gt;and your Power is Even&lt;/em&gt;, Find Your Squares and Mix in &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;2a^nb^n&lt;/script&gt;&lt;/span&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;if-you-have-something-to-a-power-plus-something-else-to-the-same-power-and-your-power-is-even-find-your-squares-and-mix-in-2anbn&quot;&gt;If You Have “Something-to-a-Power &lt;em&gt;Plus&lt;/em&gt; Something-Else-to-the-Same-Power, &lt;em&gt;and your Power is Even&lt;/em&gt;, Find Your Squares and Mix in &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;2a^nb^n&lt;/script&gt;&lt;/span&gt;&lt;/h3&gt;
 &lt;p&gt;And what we just saw in Problem 119 was the gateway to the final element in our general situation: when &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt;&lt;/span&gt; is &lt;em&gt;even&lt;/em&gt; and we are working with &lt;em&gt;addition&lt;/em&gt; of one power from the other.  I.e. when it’s &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a^2 + b^2&lt;/script&gt;&lt;/span&gt;, &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a^4 + b^4&lt;/script&gt;&lt;/span&gt;, &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a^6 + b^6&lt;/script&gt;&lt;/span&gt;, etc.&lt;/p&gt;
 
 &lt;h2 id=&quot;a-decision-tree-for-all-your-power-plus-power-factoring-needs&quot;&gt;A Decision-Tree for All Your Power-Plus-Power Factoring Needs&lt;/h2&gt;
