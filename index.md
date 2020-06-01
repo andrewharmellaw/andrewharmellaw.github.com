@@ -1,40 +1,60 @@
 ---
 layout: page
-title: Hi, Welcome
+title: Welcome
 ---
 {% include JB/setup %}
 
-{% newthought "Hello and welcome to" %} my Math{% sidenote 'sn-id-whatever' "Despite my better judgement, I'm going to refer to the topic as 'Math' rather than 'Maths'. Despite being from the UK, it just sounds better that way.  (Sorry.)" %} blog.  This is where I'm recording my journey to learn just enough mathematics to enrich my life.  Why would I want to do such a thing?  Let's start with a picture...
+{% newthought "Hello and welcome to" %} my blog-aggregator. If you're looking for my algebra blog which used to live here, [it's not gone far](index-algebra.html).
 
-![Purity from XKCD](https://imgs.xkcd.com/comics/purity.png){:class="img-responsive"}
+Over the years I've been a little profligate with my internet prescence. Here's a handy overview, with some deep links into the semi-interesting bits.
 
-That [XKCD cartoon](https://imgs.xkcd.com/comics/purity.png) pretty much sums up my original motivation. Math is something I am _OK_ at (I have a Science degree, and it came up every now and then in Stats class, etc. etc.) but it's also something which I never felt I truly, deeply understood.  Yet, Math is fundamental to what I do for a profession (I'm a Software Engineer - and aspire to both understand what is happening in the rapidly-rising and interconnected fields of A.I., Machine Learning and Deep Learning, and also to read [Knuth's Concrete Mathematics](https://www.goodreads.com/book/show/112243.Concrete_Mathematics)) and essential if I am to be 100% productive in functional langauges such as [Scala](https://www.scala-lang.org/) and [Haskell](https://www.haskell.org/). I feel like I'm missing out on the full picture without it.{% sidenote 'sn-id-whatever' "Oh, and it's also something my kids are going to start asking me about very soon.  Dad-panic." %}
+There are three sections: Speaking, Open Source, and Blogging.  You can also find me on [Twitter](https://twitter.com/al94781) and [LinkedIn](https://www.linkedin.com/in/andrewharmellaw).
 
+# Speaking
+I've been lucky enough to talk at a bunch of UK and international conferences. My main talks have been as follows:
 
-But it's not just the subject area itself which is important; there's also the fact that to grokk Math you need to take a different kind of approach to learning.  As a Psych-graduate{% sidenote 'sn-id-whatever' "Sorry, still channelling the wrong side of the pond..."%}, that's very interesting to me.  Learning Math for me is a great way to get meta, and observe and examine myself as I learn this incredibly (for me) challenging topic.  That's cool.
+[Combatting the Near Enemies of Domain Driven Design - at Scale](https://www.youtube.com/watch?v=3CFyA4iecng) (DDD Europe in Amsterdam, O'Reilly Architecture Conference in Berlin and DDD eXchange in London, 2018-19)
 
-So why then am I blogging this? It's primarily for my own benefit - to explain something means you really have to understand it - but if occasionally I produce something which others find useful then that's an awesome side-effect.  That means I'd like to hear what you think, and especially if I got something wrong, or missed something, then please leave a comment.
+[Organisation Refactoring and Culture Hacking - Lessons from Software](https://www.youtube.com/watch?v=_jqPxGShb90) (Voxxed Days in Banff, Devoxx London and Belgium, and JFokus Stockholm, 2018-19)
 
-So what will you find here?  Well, the first job on my journey was to find my bottom; i.e. the place where I could start to build my firm foundations.  That, it turns out, was with [Gelfand's "Algebra"](https://www.goodreads.com/book/show/20328259-algebra). A good check as to my progress with this was the Stewart's Calculus [Review of Algebra](http://www.stewartcalculus.com/data/ESSENTIAL%20CALCULUS%20Early%20Transcendentals/upfiles/ess-reviewofalgebra.pdf).  
+[Distributed Architecture and Design: A Scientific Approach](https://vimeo.com/181781920) (JavaZone 2017 with Kevin Rudland)
 
-The next job was to give myself an insight into a possible approach to this learning task.  I found my starter for that in [Oakley's "A Mind for Numbers"](https://www.goodreads.com/book/show/18693655-a-mind-for-numbers) and the concept of chunks.  As I write this I've completed my first in-depth read of Gelfand, and have also read Oakley.  My next task is to work back through Gelfand, applying the techniques from Oakley, confirming my coverage with Stewart's Review, and checking on the chunks I need to have formed as I go.  This process will consequently feed most of the written output.
+[Harnessing Domain-Driven Design for Distributed Systems](https://www.youtube.com/watch?v=j5tFNT55kmM) (Devoxx UK 2016 with Gayathri Thiyagarajan)
 
-The posts which follow will be focussed on one or more of the following four areas: 
+[Bootstrapping a Scala Mindset](https://skillsmatter.com/skillscasts/5835-bootstrapping-a-scala-mindset) (Scala eXchange London 2014)
 
-The chunks themselves{% sidenote 'sn-id-whatever' "This is the majority of the content." %};
+[5 Whys: Counter-Intuitive Solutions to (all too Common) Problems](https://www.youtube.com/watch?v=znQtAIpXlP4) (Devoxx UK 2014)
 
-Meta-posts on the experience of chunking{% sidenote 'sn-id-whatever' "Typically I've slotted this into the content posts as it made most sense in context." %};
+# Open Source
+I never get as much time as I'd like to work on open source, but I've been lucky to have been around for some cool moments.
 
-Review-posts looking back across a series to further consilidate things as appropriate;
+I was there at the founding of the [Jenkins JobDSL](https://plugins.jenkins.io/job-dsl/) (which is still in Jenkins core and - I'm told - partially inspired the Jenkinsfile we have today).
 
-Posts on the learning path I take (it was hard to find a place to start, and I want to share my thoughts on this, and also my path).
+I also started the [archaius-spring-adapter](https://github.com/andrewharmellaw/archaius-spring-adapter), created the open source [Capgemini Grade Ladder](https://github.com/Capgemini/grade-ladder), and contributed [some documentation improvements](https://github.com/andrewharmellaw/ponyc/commit/dc640fe7b0bc3d99e1f085151e067c2f0d4f9fd0) for the Pony language.
 
-One more thing to point out. As this is a blog mainly used to drive my learning, I'll not hesitate to come back to previous posts and update / correct / enhance them as necessarily.
-    
-## Posts to Date
-{% newthought "Here's a list" %} of the posts so far:
-<ul class="posts">
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
+Sadly my most-starred repo is 100% based on the work of others - an [ascii-doc-ification](https://github.com/andrewharmellaw/wardley-maps-book) of [Simon Wardley's](https://twitter.co/swardley) Wardley Mapping blog posts.
+
+# Blogging
+## Thoughtworks
+So far, I've only written one post for the ThoughtWorks Insights blog: "[Domain-driven design needn't be hard. Here's how to start](https://www.thoughtworks.com/insights/blog/domain-driven-design-neednt-be-hard-heres-how-start)".
+
+## Capgemini
+At my previous employer, I and a [co-conspirator](https://twitter.com/tsphethean) set up the [Capgemini engineering blog](https://capgemini.github.io/).  
+
+Some of my posts include, "[How we work](https://capgemini.github.io/development/how-we-work/)" (co-authored with Malcom Young), "[Why microservices are right for us](https://capgemini.github.io/architecture/why-microservices-are-right-for-us-pt1)", "[Microservices - a reality check(point)](https://capgemini.github.io/architecture/microservices-reality-check/)", "[When it's clever to admit that you're not feeling clever](https://capgemini.github.io/development/its-sometimes-clever-to-admit/)", and 
+"[Last year an unconference changed my life](https://capgemini.github.io/learning/last-year-an-unconf/)".
+
+I also wrote the [response from the Capgemini UK Engineering team to the James Damore Anti-Diversity Manifesto](https://capgemini.github.io/engineering/Capgemini-Engineering-Diversity-Manifesto/).
+
+## Learning Algebra
+Hidden behind this landing page is [the math blog](index-algebra.html) I wrote as I worked my way through [Gelfand's "Algebra"](https://www.goodreads.com/book/show/2140100.Algebra).
+
+## Learning new Programming Languages
+As with algebra so with programming languages. I blogged as I learned [Scala](https://scalaeyeforthejavaguy.blogspot.com/), and [Ruby](https://rubyeyeforthejavaguy.blogspot.com/), and managed fitful attempts as I picked up [Go](https://grokkinggolang.github.io/).
+
+## Medium
+I also flirted with a Medium blog for a while. The two best posts are "[Warhammer fantasy career planning](https://medium.com/@andrewharmellaw/warhammer-fantasy-career-planning-405b3b6f0d6a)" and "[Yet another post on work-life balance](https://medium.com/@andrewharmellaw/yet-another-post-on-work-life-balance-dc69781ed732)"
+
+## Blogger
+I started (and found my feet) blogging on one of the original platforms - blogger - where the title of [my blog](https://the-music-of-time.blogspot.com/) is the best thing about it.
+
