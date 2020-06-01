@@ -30,7 +30,7 @@ I never get as much time as I'd like to work on open source, but I've been lucky
 
 I was there at the founding of the [Jenkins JobDSL](https://plugins.jenkins.io/job-dsl/) (which is still in Jenkins core and - I'm told - partially inspired the Jenkinsfile we have today).
 
-I also started the [archaius-spring-adapter](https://github.com/andrewharmellaw/archaius-spring-adapter), created the open source [Capgemini Grade Ladder](https://github.com/Capgemini/grade-ladder), and contributed [some documentation improvements](https://github.com/andrewharmellaw/ponyc/commit/dc640fe7b0bc3d99e1f085151e067c2f0d4f9fd0) for the Pony language.
+I also started the [archaius-spring-adapter](https://github.com/andrewharmellaw/archaius-spring-adapter), created the open source [Capgemini Grade Ladder](https://github.com/Capgemini/grade-ladder), and contributed [some documentation improvements](https://github.com/ponylang/ponyc/issues/3098) for the Pony language.
 
 Sadly my most-starred repo is 100% based on the work of others - an [ascii-doc-ification](https://github.com/andrewharmellaw/wardley-maps-book) of [Simon Wardley's](https://twitter.co/swardley) Wardley Mapping blog posts.
 
