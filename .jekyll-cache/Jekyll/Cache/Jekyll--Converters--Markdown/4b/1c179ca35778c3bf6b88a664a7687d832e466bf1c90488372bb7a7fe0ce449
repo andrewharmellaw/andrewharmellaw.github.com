@@ -1,0 +1,303 @@
+I"�`
+<h2 id="polynomials-and-monomials">Polynomials (and Monomials)</h2>
+<p><span class="newthought">There seem to me to be</span>  (at least - remember this is Math, and things keep popping up) three types of benefits of highlighting poly- (and therefore mono-)mials.  These are</p>
+
+<ul>
+  <li>the convention around their representation and resulting ease of use; the so-called <em>“Standard Form”</em> for polynomials and;</li>
+  <li>the specific tricks and manipulations you can pull off with polynomials in this form to solve bigger problems, and;</li>
+  <li>the fact you can draw them as lines.</li>
+</ul>
+
+<p>I’m going to cover the first two in this post.  Gelfand<label for="sn-id-whatever" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-whatever" class="margin-toggle" /><span class="sidenote">But not everyone. </span> leaves the “Linear” element of algebra until later, and so will we.</p>
+
+<h2 id="representing-nomials">Representing ‘Nomials</h2>
+<p><span class="newthought">A polynomial is basically</span>  a subset of algebraic knowledge which defines a set of rules which your expression must comply with to be considered as one of the gang.  The qualifiying rules are simple:</p>
+
+<ul>
+  <li>your expression can have letters (variables) and numbers</li>
+  <li>it can have addition and subtraction</li>
+  <li>and multiplication.</li>
+</ul>
+
+<p>There is one subtlety. <em>Positive-integer powers are also allowed</em> as they are just short-cuts to represent multiplication.</p>
+
+<p>E.g.</p>
+
+<div class="mathblock"><script type="math/tex; mode=display"> a \cdot a \cdot a \cdot a = a^4</script></div>
+
+<p>Monomials are a subset of polynomials.  The rules to qualify to be a monomial are even more restrictive.</p>
+
+<ul>
+  <li>your expression can have letters (variables) and numbers</li>
+  <li>and multiplication.</li>
+</ul>
+
+<p>There is a subtlety here too - you can have the minus symbol, but only if it represents a negative number or variable.  E.g.</p>
+
+<div class="mathblock"><script type="math/tex; mode=display"> x - zy = x + (-1)zx</script></div>
+
+<p>In the case of monomials, there is a further, purely aesthetic (which makes me happy) rule of thumb that you should collect similar terms.  Let’s cover that next.</p>
+
+<h3 id="collecting-similar-terms">Collecting Similar Terms</h3>
+<p>Collecting similar terms means you don’t repeat a term unless it is necessary. For example</p>
+
+<div class="mathblock"><script type="math/tex; mode=display"> 5 \cdot a \cdot 7 \cdot b \cdot a = 35a^2b</script></div>
+
+<p>Note, you can only collect things which have the same letters <em>and</em> same powers, and differing <em>only</em> in their co-efficient.  However, if you remember the <a href="https://andrewharmellaw.github.io/2016/11/23/gelfands-algebra-chunk-2-commutative-associative-and-distributive-laws"><em>Commutative Law</em></a>, <span>​<script type="math/tex">ab = ba</script></span>, then you can see that the <em>order</em> of the variables is up for grabs</p>
+
+<div class="mathblock"><script type="math/tex; mode=display"> a^2 + 2ab + bc + ba + 2b^2 = a^2 + 3ab + bc + 2b^2</script></div>
+
+<h3 id="the-explicit-relationship-between-mono--and-poly-nomials">The Explicit Relationship Between Mono- and Poly-nomials</h3>
+<p>I jumped ahead a little. Gelfand stops mid-way through all of this to point out that a polynomial is <em>made up of</em> monomials.  That is to say, <em>a polynomial can be split up into a set of monomials which could be summed together to get back to the polynomial</em>.</p>
+
+<div class="mathblock"><script type="math/tex; mode=display"> (a + b)(a^3 + b^3) = aa^3 + ab^3 + ba^3 + bb^3 = a^4 + ab^3 + ba^3 + b^4 </script></div>
+
+<h3 id="standard-form">Standard Form</h3>
+<p>There is one more thing we need to know, and that is about the <em>Standard Form</em> of polynomials which I mentioned at the top of the post.  Are we there yet?  Almost.  We just need to introduce two more micro-sub-conventions</p>
+
+<ul>
+  <li>no subtraction</li>
+  <li>everything has an <em>explicit</em> co-efficient</li>
+</ul>
+
+<p>Both are easy to remedy, as you can see</p>
+
+<div class="mathblock"><script type="math/tex; mode=display"> 12 - zx -13y + 12x - zx^2 - yx + yzx + y^2 =</script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = 12 + (-1)zx + (-13)y + 12x + (-1)zx^2 + (-1)yx + 1yzx + 1y^2</script></div>
+
+<p>Which that under our belt, its a nice check-point to state explicitly everything you need to have in place to have a polynomial in the <em>Standard Form</em>:</p>
+
+<ul>
+  <li>it is the sum of monimials</li>
+  <li>where each monomial is the product of a number (the co-efficient) and of powers of different letters</li>
+  <li>and where all similar monomials are collected</li>
+</ul>
+
+<p>You can also add one more (Gelfand does himself later in Section 35 on pp 61)</p>
+
+<ul>
+  <li>monomials are arranged in order of decreasing degrees (where the power of a monomial is it’s degree)</li>
+</ul>
+
+<h2 id="tricks-arising-pt-1">Tricks Arising (Pt. 1)</h2>
+<p><span class="newthought">Now we have everything in <em>Standard Form</em>,</span>  we can get to the exciting parts - the tricks. (Or the first lot anyway, we also have a second set later.)</p>
+
+<h3 id="adding-two-polynomials-in-standard-form">Adding Two Polynomials in Standard Form</h3>
+<p>Simply add the co-efficients of similar terms. If the resulting co-efficient is zero, the corresponding term vanishes.</p>
+
+<div class="mathblock"><script type="math/tex; mode=display"> (1x + (-1)y) + (1y + (-2)x + 1z) = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = (1 + (-2))x + ((-1) + 1)y + 1z = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = (-1)x + 0y + 1z = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = (-1)x + 1z</script></div>
+
+<p>In the above example (Gelfand, because I copied it right out of his book) doesn’t take these micro-steps, but they’re useful to see <em>explicitly</em> what’s happening and really grokk it so I put them in.</p>
+
+<h3 id="multiplying-two-polynomials-in-standard-form">Multiplying Two Polynomials in Standard Form</h3>
+<p>Simply multiply each term of the first polynomial by each term of the second polynomial.  When multiplying monomials, we add powers of each variable</p>
+
+<div class="mathblock"><script type="math/tex; mode=display"> (a^5b^7c) \cdot (a^3bd^4) =</script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = a^{5+3}b^{7+1}cd^4 =</script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display">= a^8b^8c^d4</script></div>
+
+<p>Once this is done, we have to collect similar terms. For example,</p>
+
+<div class="mathblock"><script type="math/tex; mode=display">(x - y)(x^2 + xy + y^2) =</script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = 1x^3 + 1x^2y + 1xy^2 + (-1)yx^2 + (-1)xy^2 + (-1)y^3 =</script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = x^3 + (-1)y^3</script></div>
+
+<p>Nice.</p>
+
+<p>Note, we <em>have</em> been pedantic here.  Gelfand takes a short-cut which he ‘fesses up to.  From here on in we’re going to do the same.  It turns out that to reduce the visual noise, once you’ve proven you know how to have no subtraction and always have an explicit co-efficient, youre allowed to drop them and still be admitted into Math-club.  #winning.</p>
+
+<h2 id="learning-checkpoint">Learning Checkpoint</h2>
+<p><span class="newthought">If it feels like</span>  you’ve been unwittingly applying much of this all along but without knowing the names of what you were doing, congratulations, you have been.  All Gelfand is doing here is making explicit a bunch of conventions which allow him to then make explicit some tricks which he builds on from here on in.</p>
+
+<h2 id="awesome-now-what--equalitys-what">Awesome. Now What?  Equality’s What.</h2>
+<p><span class="newthought">Now we have this,</span>  it’s time to make something else super-explicit; equality.<label for="sn-id-whatever" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-whatever" class="margin-toggle" /><span class="sidenote">This is labelled as “a digression” by Gelfand, but I found it helped me a lot at this point in my journey and beyond.  That’s why I’m going into it a bit here. </span></p>
+
+<p>Equality (and inequality) is at the core of loads of stuff we do in algebra.  Gelfand (and I will follow him) makes some statements which he just asks you to follow.  These statements are around the two ways to prove of equality of polynomials.</p>
+
+<ul>
+  <li>by being able to transform one form into another using only the algebraic rules (the ones we’ve been looking at in this and previous posts)</li>
+  <li>by giving specific numerical values to the variables and seeing that the results are the same from both forms <em>in all cases</em>. (Remember, a variable is <em>variable</em> - it can have many values)</li>
+</ul>
+
+<p>First thing to point out<label for="sn-id-whatever" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-whatever" class="margin-toggle" /><span class="sidenote">But not prove - neither does Gelfand, perhaps that’s a post for the future </span> is that he states these two are equivalent.  If two polynomials are equal by one definition, then they are equal by the other.</p>
+
+<p>But there are preferred versions for different tasks - <em>when proving equality, the first option is your go-to angle of attack</em>, as it’s easier to convince people of your correctness.  This is because by using variables you are covering <em>all possibilities</em>.  With the second version you might not be and you need to know that all possibilities render equality. <label for="sn-id-whatever" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-whatever" class="margin-toggle" /><span class="sidenote">Unless you work things out with <em>all</em> possible options for <em>all</em> variables - something that looks like a lot of work. </span></p>
+
+<p>But, <em>when proving inequality then the second should be your helper</em>.  That is because what made the second version bad above, makes it ideal now.  In order to prove inequality, all you need is one example where the results are <em>the same</em>.  Just one.  Brilliant.</p>
+
+<p>Let’s try some exercises (the ones from Gelfand - Problems 91 and 92)</p>
+
+<h3 id="gelfand-problem-91---proving-an-inequality">Gelfand Problem 91 - Proving an Inequality</h3>
+<p>We have to prove that the two sides of the following are <em>not equal</em>.</p>
+
+<div class="mathblock"><script type="math/tex; mode=display">(x - 1)(x - 2)(x - 3)(x - 4) \ne (x + 1)(x + 2)(x + 3)(x + 4)</script></div>
+
+<p>Gelfand requests that we solve it “without computation”.  This means, we have to do it in our head.</p>
+
+<p>A quick glance tells you that we are supposed to spot a trick here because to remove the parentheses in our heads would be a hefty task.  So what else do we know which might short-circuit everything?  The one he’s hoping we’ll settle upon (and remember, all you need is to prove an inequality with one value of x) is that anything multiplied by zero is zero.  All we need to get to in that case is a zero result in one of the parens and then no matter what the values of all other parens calculations (i.e. <span>​<script type="math/tex">(x - 2)</script></span> the result for the side will <em>always</em> be zero.</p>
+
+<p>So what does <span>​<script type="math/tex">x</script></span> have to equal to get a zero on the left hand side?  <span>​<script type="math/tex">1</script></span> is a easy one:</p>
+
+<div class="mathblock"><script type="math/tex; mode=display">(1 - 1)(x - 2)(x - 3)(x - 4) = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display">0 \times (x -2)(x - 3)(x - 4) = </script></div>
+
+<p>From here we don’t even need to bother with the rest, as the overall answer will be zero.</p>
+
+<p>But remember, we’re after <em>inequality</em> here.  So we need to put <span>​<script type="math/tex">x = 1</script></span> into the right hand side and how we get “not zero”.</p>
+
+<div class="mathblock"><script type="math/tex; mode=display">(1+1)(1+2)(1+3)(1+4) = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display">= 2 \times 3 \times 4 \times 5 = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display">= 120</script></div>
+
+<p>It didn’t take a lot of mental effort to see that this wouldn’t be zero before all this, but its nice to be explicit at least the first time.</p>
+
+<h3 id="gelfand-problem-92---proving-an-equality">Gelfand Problem 92 - Proving an Equality</h3>
+<p>Now we’re going the other way - proving <em>equality</em>.</p>
+
+<p>Firstly, I had a little trouble with the phrasing of this question, and the hint.  What I now <em>think</em> is that Gelfand means us to do is as follows. Given</p>
+
+<div class="mathblock"><script type="math/tex; mode=display">(x^2- 1)(x+ ...) = (x-1)(x+3)(x+...)</script></div>
+
+<p>find out what you can put in place of the ‘<span>​<script type="math/tex">...</script></span>’ on both the left and right hand sides.  The value of ‘<span>​<script type="math/tex">...</script></span>’ need not be the same on both sides (remember, these aren’t variables).</p>
+
+<p>I then attacked this two ways.  Applying what I’d learned from <a href="https://andrewharmellaw.github.io/2016/12/17/gelfanfd-algebra-chunk-6-squares-sums-diffs-etc">Chunk 6 (Squares, Sums Differences etc.)</a> I spotted that I could use the <em>Difference of Squares</em> on the left hand side.</p>
+
+<div class="mathblock"><script type="math/tex; mode=display">(x^2- 1)(x+ ...) = (x-1)(x+3)(x+...)</script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display">(x+1)(x-1)(x+ ...) = (x-1)(x+3)(x+...)</script></div>
+
+<p>A quick aside, how did I spot it? I recognised the “<span>​<script type="math/tex">x^2 - a</script></span>” pattern which can be re-stated as <span>​<script type="math/tex">(x + a)(x - a)</script></span>. (Remember, <span>​<script type="math/tex">1</script></span> is a square.)</p>
+
+<p>If we then re-arrange what this gives us, we get something a little more useful</p>
+
+<div class="mathblock"><script type="math/tex; mode=display">(x+1)(x-1)(x+ ...) = (x-1)(x+...)(x+3)</script></div>
+
+<p>From here I could simplify by removing the <span>​<script type="math/tex">(x-1)</script></span> from both sides</p>
+
+<div class="mathblock"><script type="math/tex; mode=display">(x+1)(x+ ...) = (x+...)(x+3)</script></div>
+
+<p>And then it was clear what the only two values of ‘<span>​<script type="math/tex">...</script></span>’ could be: “<span>​<script type="math/tex">3</script></span>” on the left hand side, and “<span>​<script type="math/tex">1</script></span>” on the right</p>
+
+<div class="mathblock"><script type="math/tex; mode=display">(x+1)(x+3) = (x+1)(x+3)</script></div>
+
+<p>With this in mind I then went to <a href="http://documents.tips/documents/gelfand-algebra-solutions.html">Durham’s solutions</a> to see what he got and how he got there.</p>
+
+<p>This confused me.  His method didn’t, but I think his answer is wrong<label for="sn-id-whatever" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-whatever" class="margin-toggle" /><span class="sidenote">Caveat, I too could be wrong, and just as he does, please let me know if this is the case as I don’t want to mislead. </span>  Following the hint from Gelfand I took first <span>​<script type="math/tex">x = -1</script></span> and then <span>​<script type="math/tex">x = -3</script></span> and put them into the equation to see what I got.</p>
+
+<p>Here’s the <span>​<script type="math/tex">-1</script></span> attack, left hand side first<label for="sn-id-whatever" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-whatever" class="margin-toggle" /><span class="sidenote">To keep the noise down. </span>:</p>
+
+<div class="mathblock"><script type="math/tex; mode=display">(x^2 - 1)(x + ...) = ...</script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> \rightarrow ((-1)^2 - 1)(x + ...) = ... </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> \rightarrow (1 - 1)(x + ...) = ...</script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> \rightarrow 0 \times (x + ...) = ...</script></div>
+
+<p>Just as before, because we’ve managed to get a zero in one of our multiplicands, which means it will all result in zero overall on the left hand side no matter that first ‘…’ is.</p>
+
+<p>Now we know what putting <span>​<script type="math/tex">x = -1</script></span> into the left hand side produces, we can put the same value of <span>​<script type="math/tex">x</script></span> into the right hand side and be able to work out what ‘…’ must be to get zero there.</p>
+
+<div class="mathblock"><script type="math/tex; mode=display">... = (x - 1)(x + 3)(x + ...) </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display">\rightarrow ... = (-1 - 1)(-1 + 3)(-1 + ...) </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> \rightarrow ... = (-2)(2)(-1 + ...) </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> \rightarrow ... = -4 \times (-1 + ...) </script></div>
+
+<p>As this hasn’t produced us a “<span>​<script type="math/tex">0</script></span>”, that means we need to get a <span>​<script type="math/tex">0</script></span> multiplicand again from the last parentheses. To get that, we need to offset the <span>​<script type="math/tex">-1</script></span>.  Therefore, for that we need the ‘…’ on the right hand side to equal <span>​<script type="math/tex">1</script></span>, so we continue as follows</p>
+
+<div class="mathblock"><script type="math/tex; mode=display">... = -4 \times (-1 + 1) = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display">... = -4 \times 0 = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display">... = 0</script></div>
+
+<p>Right. This is a good mini-milestone.  Given that we now know that the ‘…’ on the right hand side is <span>​<script type="math/tex">-1</script></span>, we can look back at things overall. We currently have the following:</p>
+
+<div class="mathblock"><script type="math/tex; mode=display">(x^2 - 1)(x + ...) = (x - 1)(x + 3)(x + 1)</script></div>
+
+<p>Now we can turn our attention to the ‘…’ on the left hand side.  Gelfand says to “try <span>​<script type="math/tex">x = -3</script></span>” so let’s try that. Right hand side first this time</p>
+
+<div class="mathblock"><script type="math/tex; mode=display">... = (x - 1)(x + 3)(x + 1) = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display">... = (-3 - 1)(-3 + 3)(-3 + 1) = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display">... = -4 \times 0 \times -2 = </script></div>
+
+<p>Great.  Having <span>​<script type="math/tex">x = -3</script></span> on the right hand side means we again get a zero multiplicand, meaning the overall result is zero.</p>
+
+<p>So finally, what does this mean for the ‘…’ in the left hand side?</p>
+
+<div class="mathblock"><script type="math/tex; mode=display">(x^2 - 1)(x + ...) = ...</script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = (-3^2 - 1)(-3 + ...) = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = (9 - 1)(-3 + ...) = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = 8 \times (-3 + ...)</script></div>
+
+<p>We need to get to an overall result of zero, and there is only one value we can get to that - ‘…’ must equal <span>​<script type="math/tex">3</script></span>.</p>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = 8 \times (-3 + 3) = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = 8 \times 0 = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display">0</script></div>
+
+<p>Brilliant.  All done.  Let’s write it out in full now we know the values</p>
+
+<div class="mathblock"><script type="math/tex; mode=display">(x^2 - 1)(x + 3) = (x - 1)(x + 3)(x + 1)</script></div>
+
+<p>But wait, why doesn’t Durham have this? (He has <span>​<script type="math/tex">-1</script></span> and <span>​<script type="math/tex">-3</script></span>.) Simply put, I think Durham’s made a typo.  It’s not a heinous crime (I’m <em>certain</em> I have actual errors in what I’ve written elsewhere).  It made me pause and think though.<label for="sn-id-whatever" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-whatever" class="margin-toggle" /><span class="sidenote">Definitely a good thing. </span></p>
+
+<p>More importantly, why does Gelfand suggest we try putting in <span>​<script type="math/tex">-1</script></span> and <span>​<script type="math/tex">-3</script></span>?  It’s not just because he knows the answer…</p>
+
+<h2 id="tricks-arising-part-2">Tricks Arising (Part 2)</h2>
+
+<h3 id="one-side-at-a-time">One Side at a Time</h3>
+<p>Tackling that equality-problem one side at a time helped a lot.  We really have two equations to solve when we look at it in one way, but we’re just trying to get them or have the same end result.  Doing one side at a time keeps the symbol-noise down and helps clear thinking (it does for me anyway).</p>
+
+<h3 id="try-and-find-the-simplest-way-to-zero">Try and Find the Simplest Way to Zero</h3>
+<p>It’s not the only trick, but finding a zero in a multiplicand makes almost everything else irrelevant, and therefore means you can clear your decks.  Why? Because <span>​<script type="math/tex">x \times 0</script></span> is <em>always</em> <span>​<script type="math/tex">0</script></span>, no matter what <span>​<script type="math/tex">x</script></span> is.  That’s <em>very</em> helpful.</p>
+
+<p>To answer the question above, “how did Gelfand know to suggest <span>​<script type="math/tex">-1</script></span> and <span>​<script type="math/tex">-3</script></span>? It’s because he looked at the formulas and spotted what the ‘…’ needed to be to get a zero for that particular set of parentheses.</p>
+
+<h3 id="try-it-with-x--0-and-also-1-and--1">Try it with <span>​<script type="math/tex">x = 0</script></span> (and also <span>​<script type="math/tex">1</script></span> and <span>​<script type="math/tex">-1</script></span>)</h3>
+<p>If all else fails, it’s handy to try putting <span>​<script type="math/tex">x = 0</script></span>, and <span>​<script type="math/tex">x = 1</script></span> and <span>​<script type="math/tex">x = -1</script></span> into your equation and see what you get.  Sometimes what shakes out is useful to get to the requried answer.</p>
+
+<h3 id="always-convert-your-polynomials-to-standard-form">Always Convert Your Polynomials to Standard Form</h3>
+<p>By doing this you again clear some noise away. <label for="sn-id-whatever" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-whatever" class="margin-toggle" /><span class="sidenote">Always a good thing. </span>  If after that they only differ in the order of the mononials (or in the order of the factors inside the monomials) then the polynomials are equal.  If not, it is possible to prove they are different.</p>
+
+<div class="mathblock"><script type="math/tex; mode=display">(x + 1)^2-(x - 1)^2 = x^2 + 4x - 1</script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display">(x^2 + 2x + 1)-(x^2 - 2x + 1) = x^2 + 4x - 1</script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display">1x^2 + 2x + 1 + (-1)x^2 + 2x + (-1) = 1x^2 + 4x - 1</script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display">1x^2 + (-1)x^2 + 2x + 2x + 1 - 1 = 1x^2 + 4x - 1</script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display">4x = x^2 + 4x - 1</script></div>
+
+<p>So they’re patently <em>not</em> equal, so we should actually write</p>
+
+<div class="mathblock"><script type="math/tex; mode=display">4x \ne x^2 + 4x - 1</script></div>
+
+<h2 id="but-this-all-sounds-a-little-labour-intensive">But This all Sounds a Little Labour Intensive…</h2>
+<p><span class="newthought">… and you’re right,</span>  at this stage it does.  We’ll come back in a later post to how to use a finite number of tests to decide whether two polynomials are equal or not.  But for now, we’re done.</p>
+:ET

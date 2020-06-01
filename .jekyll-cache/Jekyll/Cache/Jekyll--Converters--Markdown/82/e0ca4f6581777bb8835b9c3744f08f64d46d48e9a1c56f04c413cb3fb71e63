@@ -1,0 +1,42 @@
+I"$
+<h2 id="roots-bldy-roots">Roots, Bl**dy Roots</h2>
+<p><span class="newthought">We need to talk about roots.</span></p>
+
+<p>There are situations you come across occasionally, as you learn something new, or try and gain a deeper understanding of something you half know, when two <em>totally separate</em><label for="sn-id-whatever" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-whatever" class="margin-toggle" /><span class="sidenote">Repeat after me “SE-PAR-ATE”. Good </span> concepts share a common-name, and hence you tie yourself in knots trying to figure out how they are related.</p>
+
+<p>In algebra, “roots” are one of those situations; and the two kinds aren’t related, <em>at all</em>.</p>
+
+<p>In our journey so far we have come across the term “root” in two different circumstances:</p>
+
+<ul>
+  <li>to indicate a number which, when multiplied by itself one or more times gives a real, non-negative number  - i.e. a square root is the number which, when multiplied by itself once, gives the square</li>
+  <li>to indicate the solutions of polynomial equations - when the function equals zero. <em>Also known as a “zero”</em></li>
+</ul>
+
+<p>So far so simple.  We get that they aren’t related, and also that perhaps we should be more explicit and use the alternative terms for them (or at least qualify them.) But can it get more complicated?</p>
+
+<p>Yup.<label for="sn-id-whatever" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-whatever" class="margin-toggle" /><span class="sidenote">You know maths is hard right? </span></p>
+
+<h2 id="they-can-occur-together">They <em>Can</em> Occur Together…</h2>
+<p><span class="newthought">When I’m trying to get my head round something</span>  it helps if the two things I’m conflating are actually in real life nice and separate, living on separate continents as it where, completely unaware of each other.</p>
+
+<p>No so with roots and roots.</p>
+
+<p>Casting our minds back to <a href="https://andrewharmellaw.github.io/2017/01/20/gelfands-algebra-chunk-11-factoring-to-zero">Chunk 11 - Factoring to Zero</a> we see that square roots and others were our way to determine the zero-roots of our polynomials.</p>
+
+<p>Urgh.</p>
+
+<p>I’ll leave you to go back and read that section again.  It was all correct, but perhaps I (and Gelfand) would have done better to point out the Root-Rubicon that was being crossed completely unknowingly mid-problem.</p>
+
+<h2 id="further-reading">Further Reading</h2>
+<p><span class="newthought">It turns out that once you explicitly separate these elements nicely in your head,</span>  a lot of other things become a lot simpler.</p>
+
+<p>There are two brilliantly simple pages covering these:</p>
+
+<ul>
+  <li><a href="https://www.wyzant.com/resources/lessons/math/algebra/square_roots_and_radicals">Square Roots and Radicals</a> (from Wyzant.com)</li>
+  <li><a href="https://www.mathsisfun.com/algebra/fundamental-theorem-algebra.html">The Fundamental Theorem of Algebra</a> (from MathsIsFun.com)</li>
+</ul>
+
+<p>With all that cleared up, we’re free now to move on to <em>Quadratic Equations</em>.<label for="sn-id" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id" class="margin-toggle" /><span class="sidenote">(Is that the sound of knees knocking?) </span></p>
+:ET

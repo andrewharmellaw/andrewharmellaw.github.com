@@ -1,0 +1,201 @@
+I"�A
+<p><span class="newthought">Numbers have factors.</span>   The number <span>​<script type="math/tex">6</script></span> has factors of <span>​<script type="math/tex">2</script></span> and <span>​<script type="math/tex">3</script></span> (as in <span>​<script type="math/tex">2 \times 3</script></span>) and also <span>​<script type="math/tex">1</script></span> and <span>​<script type="math/tex">6</script></span> (as in <span>​<script type="math/tex">1 \times 6</script></span>).</p>
+
+<p>Expressions also have factors.</p>
+
+<p>The expression <span>​<script type="math/tex">a^2 + 2ab + b^2</script></span> has the factors <span>​<script type="math/tex">(a + b)</script></span> and <span>​<script type="math/tex">(a + b)</script></span>.  We can write this as <span>​<script type="math/tex">(a + b)^2</script></span>.</p>
+
+<p>The expression <span>​<script type="math/tex">a^2 - 2ab + b^2</script></span> has the factors <span>​<script type="math/tex">(a + b)</script></span> and <span>​<script type="math/tex">(a - b)</script></span>.</p>
+
+<p>I’m assuming these two factorisations   <label for="sn-id-whatever" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-whatever" class="margin-toggle" /><span class="sidenote">Which is what we call pulling out factors. </span> look familiar to you as the Square-of-a-Sum and Difference-of-Squares.  (Take a glance back at <a href="https://andrewharmellaw.github.io/2016/12/17/gelfanfd-algebra-chunk-6-squares-sums-diffs-etc">Chunk 6 - Squares, Sums, Differences etc.</a> if you need to.)</p>
+
+<p>If all this looks incredibly like we’re just doing the reverse of what we’ve been doing up til now<label for="sn-id-whatever" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-whatever" class="margin-toggle" /><span class="sidenote">Which has been called expanding by the way. </span> you’d be right.  But it’s harder.  Expanding is just laboriously following a bunch of rules.  You need to pay attention, but you don’t need to <em>think</em>.  With factoring it’s <em>hard</em> and you need to think <em>a lot</em>.</p>
+
+<p>It’s for this reason that factoring is something I remember utterly failing at in school - I had a mental block about it.</p>
+
+<p>Consequently I’m going to go slowly (and break this topic into <a href="https://andrewharmellaw.github.io/2017/01/20/gelfands-algebra-chunk-11-factoring-to-zero">multiple</a> <a href="https://andrewharmellaw.github.io/2017/02/02/gelfands-algebra-chunk-12-the-hard-ones">posts</a>) if only for my own benefit.</p>
+
+<h2 id="gelfand-problem-107d">Gelfand Problem 107(d)</h2>
+<p><span class="newthought">You can brute-force this one</span>  by just staring at it hard and figuring out how it should shake out, but there is a better way.  And better ways are, well, better.</p>
+
+<p>First the starting point</p>
+
+<div class="mathblock"><script type="math/tex; mode=display">1 + a + a^2 + a^3 </script></div>
+
+<p>You don’t need to be a maths genius to spot that our powers of <span>​<script type="math/tex">a</script></span> are going up by one at a time (especially if you recall that <em>anything</em> to the power of <span>​<script type="math/tex">0</script></span> is <span>​<script type="math/tex">1</script></span> and that <span>​<script type="math/tex">a^1</script></span> is <span>​<script type="math/tex">a</script></span>).  You might also have eagle-eyed that we have four of them.  This means that we can probably find some repetition.</p>
+
+<p>And we can, possibly starting off in the second pair of powers.</p>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = 1 + a + a^2(1 + a) = </script></div>
+
+<p>Given this, we can then, to make the repetition of <span>​<script type="math/tex">1 + a</script></span> <em>really</em> clear</p>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = 1(1 + a) + a^2(1 + a) = </script></div>
+
+<p>Which then just leaves us to collect the <span>​<script type="math/tex">1</script></span> and <span>​<script type="math/tex">a^2</script></span> together and we have a nice result</p>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = (1 + a)(1 + a^2)</script></div>
+
+<h2 id="tricks-arising-pt-1">Tricks Arising (Pt. 1)</h2>
+
+<h3 id="when-factoring-look-for-patterns-of-common-multiplicands">When Factoring, Look for Patterns of Common Multiplicands</h3>
+
+<p>This initial pattern-spot we used in Problem 107(d) (above) (of the shared <span>​<script type="math/tex">(1 + a)</script></span> multiplicand) helps a lot in many factorings.  It’s a trick you’ll rely on a frequently, and get better at intuitively spotting as you go on.</p>
+
+<p>When trying to spot these, things which can help are making powers of zero and <span>​<script type="math/tex">1</script></span> super-evident</p>
+
+<div class="mathblock"><script type="math/tex; mode=display">1 = a^0</script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display">a = a^1</script></div>
+
+<p>And making co-efficients explicit can also sometimes come in handy</p>
+
+<div class="mathblock"><script type="math/tex; mode=display">a = 1a</script></div>
+
+<h2 id="starting-with-some-simple-ones">Starting with Some Simple Ones</h2>
+
+<p><span class="newthought">With our new-found confidence in hand,</span>  let’s march onward.</p>
+
+<h3 id="gelfand-problem-107c">Gelfand Problem 107(c)</h3>
+
+<p>After banging my head on this for a while I caved and went to the answers by <a href="https://www.scribd.com/document/243387607/Gelfand-Algebra-Solutions">Durham</a>.  His first point made perfect sense and I realised I’d been constrained in my thinking - I’d been looking for a pattern of a pair of terms, but as I had an input consisting of an <em>odd</em> number of monomials this would <em>never</em> work.  I had to try a different number.  That number turns out<label for="sn-id-whatever" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-whatever" class="margin-toggle" /><span class="sidenote">For a possible first step anyway. </span> to be another odd number, and that odd number is three.</p>
+
+<div class="mathblock"><script type="math/tex; mode=display">1 + a + a^2 + a^3 + a^4 + a^5 + a^6 + a^7 + a^8 + a^9 + a^{10} + a^{11} + a^{12} + a^{13} + a^{14} = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = (1 + a + a^2) + a^3(1 + a + a^2) + a^6(1 + a + a^2) + a^9(1 + a + a^2) + a^{12}(1 + a + a^2) = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = (1 + a + a^2)(1 + a^3 + a^6 + a^9 + a^{12})</script></div>
+
+<p>Why three?  Because we have fifteen terms (an odd number) we couldn’t use two. But fifteen divides into three nicely.  That’s why three.</p>
+
+<p>Can we go further than this? (I.e. factor the <span>​<script type="math/tex">(1 + a^3 + a^6 + a^9 + a^{12})</script></span>)  Durham says no, but beacuse he’s using terminology I’m not yet entirely familiar with to explain why, I’m going to leave it here - is it fundamentally beacuse we have five remaining terms, but five is a prime? Perhaps.  Anyway, it feels as if the learning goal has been achieved.</p>
+
+<p>What Durham <em>does</em> explain is what would have happened if we’d had one more term in our starting point, and it is instructive to re-state what happened here.</p>
+
+<div class="mathblock"><script type="math/tex; mode=display">1 + a + a^2 + a^3 + a^4 + a^5 + a^6 + a^7 + a^8 + a^9 + a^{10} + a^{11} + a^{12} + a^{13} + a^{14} + a^{15} = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = (1 + a) + a^2(1 + a) + a^4(1 + a) + a^6(1 + a) + a^8(1 + a) + a^{10}(1 + a) + a^{12}(1 + a) + a^{14}(1 + a) = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = (1 + a)(1 + a^2 + a^4 + a^6 + a^8 + a^{10} + a^{12} + a^{14}) </script></div>
+
+<p>Here we <em>can</em> consider the <span>​<script type="math/tex">1 + a^2 + a^4 + a^6 + a^8 + a^{10} + a^{12} + a^{14}</script></span> in the same manner that we considered our original starting point.</p>
+
+<p>There is a minor subtlety to notice - we’re going to have to start nesting our parentheses.  That’s conceptually not too problematic for me (I coded some <a href="https://clojure.org/">Clojure</a> once which was far worse than this) but it’s worth pointing out.  I, following Durham, have used square brackets (‘[ and ‘]’) for this inner parentheses.</p>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = (1 + a)[(1 + a^2) + a^4(1 + a^2) + a^8(1 + a^2) + a^{12}(1 + a^2)] </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = (1 + a)(1 + a^2)(1 + a^4 + a^8 + a^{12}) </script></div>
+
+<p>And yet again, we have another pattern we can factor further in the same way</p>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = (1 + a)(1 + a^2)[(1 + a^4) + a^8(1 + a^4)] = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display">(1 + a)(1 + a^2)(1 + a^4)(1 + a^8)</script></div>
+
+<p>Phew!</p>
+
+<p>Before we move on, its worth pointing out that Durham reckons <span>​<script type="math/tex">1 + a^4</script></span> and <span>​<script type="math/tex">1 + a^8</script></span> an both be further factored, but he’s sitting on a mound of additional knowledge that I’m not (yet) party to, so I’m going to leave it here.</p>
+
+<h3 id="gelfand-problem-107d-1">Gelfand Problem 107(d)</h3>
+<p>After that minor brain-melting, 107(d) is a nice little re-applcation of the core concepts we already have at out disposal.  To make things clear, it helps to make all powers and co-efficients super-evident, just as we highlighted earlier</p>
+
+<div class="mathblock"><script type="math/tex; mode=display"> x^4 - x^3 + 2x - 2 = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = 1x^4 - 1x^3 + 2x^1 - 2x^0 = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = x^3(x - 1) + 2(x - 1) = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = (x^3 + 2)(x - 1)</script></div>
+
+<h3 id="gelfand-problems-109a-and-b">Gelfand Problems 109(a) and (b)</h3>
+<p>Another lesson to learn here.  When multiplying polynomials we <em>collect</em> similar terms, so when we’re factoring<label for="sn-id-whatever" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-whatever" class="margin-toggle" /><span class="sidenote">Which is essentially attempting to fall back through this trapdoor. </span> it seems perfectly reasonable to have to split up what had previously been collected.</p>
+
+<p>Problem (a) first</p>
+
+<div class="mathblock"><script type="math/tex; mode=display"> a^2 - 3ab + 2b^2 = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = a^2 - ab - 2ab + 2b^2 = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = a(a - b) - 2b(a - b) = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = (a - 2b)(a - b)</script></div>
+
+<p>And now problem (b)</p>
+
+<div class="mathblock"><script type="math/tex; mode=display">a^2 + 3a + 2 = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = a^2 + 2a + a + 2 = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = a(a + 2) + 1(a + 2) = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = (a + 1)(a + 2)</script></div>
+
+<p>(b) is a little different than the ones we’ve seen. It only has one variable, but things still work in the same way as before.</p>
+
+<h2 id="tricks-arising-pt-2">Tricks Arising (Pt. 2)</h2>
+
+<h3 id="when-factoring-it-can-help-to-split-similar-terms">When Factoring, It Can Help to Split Similar Terms</h3>
+
+<p>Remember the ones you collected when you were doing the busy-work of obtaining <a href="https://andrewharmellaw.github.io/2017/01/10/gelfands-algebra-chun-8-nomials">nice, clean “Standard Form” polynomials</a>?  Well if you’re working backwards (as you are when “Factoring Down the Line”) then you need to break things up.</p>
+
+<p>How do you know which term to split? A good guess <label for="sn-id-whatever" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-whatever" class="margin-toggle" /><span class="sidenote">Though I’ve not tested this theory fully. </span> is to pick the term with the largest co-efficient.  E.g in the following from Gelfand 109(b) it’s <span>​<script type="math/tex">3a</script></span>.</p>
+
+<div class="mathblock"><script type="math/tex; mode=display">a^2 + 3a + 2 = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = a^2 + 2a + a + 2 = </script></div>
+
+<p>Why the biggest? Because that then helps you when you get to the next question, how do you know where to the co-efficient of your chosen term numerically?  It seems <label for="sn-id-whatever" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-whatever" class="margin-toggle" /><span class="sidenote">When things are simple at least. </span> that looking at the other, smaller co-efficients can give you a clue.  E.g. in the following from Gelfand 109(a), these are <span>​<script type="math/tex">1</script></span> (for <span>​<script type="math/tex">a^2</script></span>) and <span>​<script type="math/tex">2</script></span> (for <span>​<script type="math/tex">b^2</script></span>), and added together, these give <span>​<script type="math/tex">3</script></span> which is the co-efficient of the thing we’re looking to split (<span>​<script type="math/tex">3ab</script></span>).</p>
+
+<div class="mathblock"><script type="math/tex; mode=display"> 1a^2 - 3ab + 2b^2 = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = 1a^2 - 1ab - 2ab + 2b^2</script></div>
+
+<p>Please note, this idea is from my own head, and may be revised, or updated at a later stage.</p>
+
+<h2 id="gelfand-problems-110a-b-and-c">Gelfand Problems 110(a), (b) and (c)</h2>
+<p><span class="newthought">Now on to problem 110(a).</span>   This one I found challenging too. We’re supposed to be learning again.  I took it step by step.</p>
+
+<div class="mathblock"><script type="math/tex; mode=display">a^2 + 4ab  + 4b^2 = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = 1a^2 + 4ab + 4b^2 = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = 1a^2 + 2ab + 2ab + 4b^2 = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = a(a + 2b) + 2b(a + 2b) = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = (a + 2b)(a + 2b) = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = (a + 2b)^2 </script></div>
+
+<p>Checking again against Durham, I ended up at the right answer but he’s keen to show there is a hidden realisation and a consequent shortcut.  I <em>could</em> have also noticed that this is a perfect square, but just using <span>​<script type="math/tex">b^2</script></span> rather than <span>​<script type="math/tex">b</script></span>.</p>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = a^2 + 2a(2b) + (2b)^2</script></div>
+
+<p>I must admit, this passed me by, though it makes sense given the output of my working.</p>
+
+<p>110(b) next, but now looking out for this additional element</p>
+
+<div class="mathblock"><script type="math/tex; mode=display"> a^4 + 2a^2b^2 + b^4 = </script></div>
+
+<p>Now I’m aware of it, this too is a perfect square, but of <span>​<script type="math/tex">(a^2 + b^2)</script></span> rather than <span>​<script type="math/tex">(a + b)</script></span>.  Let’s keep stepping it through though</p>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = a^2(a^2 + b^2) + b^2(a^2 + b^2) = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = (a^2 + b^2)(a^2 + b^2) = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = (a^2 + b^2)^2</script></div>
+
+<p>Great. Now the final one, 110(c)</p>
+
+<div class="mathblock"><script type="math/tex; mode=display">a^2 - 2a + 1 = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = a(a - 1) - 1(a - 1) = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = (a - 1)(a - 1) = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = (a - 1)^2</script></div>
+
+<p>All good. In fact, this is actually getting a little easy.  Surely there must be a catch…?</p>
+
+<p>Unfortunately there is, and that’s the topic of the next post in this series.</p>
+:ET

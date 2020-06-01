@@ -1,0 +1,154 @@
+I"�0
+<p><span class="newthought">We’re stepping away</span>  from quadratics completely for this Chunk.  Like a dog following an interesting scent, Gelfand is off on what might to the uninitiated seem like a tangent.  If you’ve been following along you’ll know that in fact you should be paying <em>more attention</em> at such times.  It’s in these digressions that Gelfand typically hides gold which we will rely on later on in our journey.</p>
+
+<p>We’re going to work through the next two problems in our traditional painful levels of detail.  While interesting, the thing we are proving - that certain numeric roots are irrational numbers - is not the reason for our travails.  The point is that Gelfand’s worked solutions are going to give us more than a few new mental tools for our problem-solving kitbag.  Ones which we’ll need to chunk solidly if we are to progress much further than this.</p>
+
+<h2 id="proving-sqrt2-is-irrational">Proving <span>​<script type="math/tex">\sqrt{2}</script></span> is Irrational</h2>
+<p>Gelfand begins his solution<label for="sn-id-whatever" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-whatever" class="margin-toggle" /><span class="sidenote">Remember, there are <em>many</em> solutions to most problems in mathematics.  Simply because this is the one Gelfand shows us does not mean it is the only one.  We should however assume that (a) it is correct and (b) there are pedagogic reasons for choosing this one. </span> to Problem 226 by setting out his stall in a way that should now be familiar.</p>
+
+<h3 id="laying-out-the-stall">Laying Out the Stall</h3>
+<p>First he represents all the elements symbolically:</p>
+
+<div class="mathblock"><script type="math/tex; mode=display">\sqrt{2} = \frac{m}{n}</script></div>
+
+<p>The then points out that given this, there are four different possibilities in what this gives us.  Firstly, that both <span>​<script type="math/tex">m</script></span> and <span>​<script type="math/tex">n</script></span> are odd, that <span>​<script type="math/tex">m</script></span> is even and <span>​<script type="math/tex">n</script></span> is odd, that <span>​<script type="math/tex">m</script></span> is odd and <span>​<script type="math/tex">n</script></span> is even, and that both <span>​<script type="math/tex">m</script></span> and <span>​<script type="math/tex">n</script></span> are even.  He then points out that the last option can actually be expressed in terms of one of the other options if we divided it by <span>​<script type="math/tex">2</script></span> a number of times.</p>
+
+<p>For example</p>
+
+<div class="mathblock"><script type="math/tex; mode=display">\frac{8}{6} = \frac{4}{3}</script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display">\frac{162}{100} = \frac{81}{50}</script></div>
+
+<p>We could at this point forge ahead with Gelfand, but let’s hold on a minute.  We’re suddenly back in the world of odds and evens.  Why?</p>
+
+<p>Remember we’re trying to prove (i.e. demonstrate) that some numbers, for example   <span>​<script type="math/tex">\sqrt{2}</script></span> <em>can’t</em> be represented in the form <span>​<script type="math/tex">\frac{m}{n}</script></span> where <span>​<script type="math/tex">m</script></span> and <span>​<script type="math/tex">n</script></span> are integers.  This means what we’re actually looking for is this</p>
+
+<div class="mathblock"><script type="math/tex; mode=display">\sqrt{2} \ne \frac{m}{n}</script></div>
+
+<p>Next up, note the approach Gelfand is taking; he is proving something is the case, by taking all the options to disprove it, and showing that they are not possible.</p>
+
+<p>This is why we have our three options which we prove in turn - Gelfand’s proof-approach is based on <em>an-odd-can’t-be-even</em> and <em>an-even-can’t-be-odd</em> statements of fact.  For this to hold water, he needs to consider all the odd/even inputs, to be able to draw general odd/even conclusions.</p>
+
+<p>With all this in our <a href="https://en.wikipedia.org/wiki/CPU_cache">level-one mental cache</a>, let’s continue.</p>
+
+<h3 id="representing-odd-and-even-symbolically">Representing Odd and Even Symbolically</h3>
+<p>Now we need to represent odd numbers and even numbers, but we need to use symbols, so that we’re proving things for <em>all odd</em> and <em>all even</em> numbers.  We use something that we’ve seen before.</p>
+
+<p>Evens are</p>
+
+<div class="mathblock"><script type="math/tex; mode=display"> 2k, </script></div>
+
+<p>and Odds are</p>
+
+<div class="mathblock"><script type="math/tex; mode=display"> 2k + 1. </script></div>
+
+<p>In both cases, <span>​<script type="math/tex">k</script></span> is any integer including <span>​<script type="math/tex">0</script></span>.</p>
+
+<h3 id="proof-part-a---fracoddodd">Proof Part (a) - <span>​<script type="math/tex">\frac{odd}{odd}</script></span></h3>
+<p>We start where Gelfand starts, by restating our (in)equality in terms of <span>​<script type="math/tex">k</script></span> (and also <span>​<script type="math/tex">l</script></span> which allows our numerator and denominator to be different numbers.)<label for="sn-id-whatever" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-whatever" class="margin-toggle" /><span class="sidenote">I’ve flipped the sides of the working that follows.  Primarily to keep the reading flow, but also to keep you on your toes mentally.  You can thank me later, dear reader. </span></p>
+
+<div class="mathblock"><script type="math/tex; mode=display"> \sqrt{2} = \frac{2k + 1}{2l + 1} </script></div>
+
+<p>Then we work this through, starting by squaring both sides</p>
+
+<div class="mathblock"><script type="math/tex; mode=display"> 2 = \left(\frac{2k + 1}{2l + 1}\right)^2 </script></div>
+
+<p>and re-writing the same a little more cleanly</p>
+
+<div class="mathblock"><script type="math/tex; mode=display"> 2 = \frac{(2k + 1)^2}{(2l + 1)^2} </script></div>
+
+<p>then rearranging</p>
+
+<div class="mathblock"><script type="math/tex; mode=display"> 2 \cdot (2l + 1)^2 = (2k + 1)^2 </script></div>
+
+<p>and finally expanding the right hand side</p>
+
+<div class="mathblock"><script type="math/tex; mode=display"> 2 \cdot (2l + 1)^2 = 4k^2 + 4k + 1 </script></div>
+
+<p>Now we can stop.  We have what we need to prove our first inequality.</p>
+
+<p>Considering the left hand side first.  It comprises <em>some unknown value</em> <span>​<script type="math/tex">l</script></span> which is multiplied by <span>​<script type="math/tex">2</script></span>.  Clearly for every possible value of <span>​<script type="math/tex">l</script></span>, this will be even.  So the left hand side will always be even.</p>
+
+<p>Now the right hand side. It comprises <em>two unknown values</em> <span>​<script type="math/tex">4k^2</script></span> and <span>​<script type="math/tex">4k</script></span> which are both multipled by <span>​<script type="math/tex">4</script></span>. Clearly these must both be even also, as to multiply something by <span>​<script type="math/tex">4</script></span> is the same as multiplying it by <span>​<script type="math/tex">2</script></span> and then multiply it by <span>​<script type="math/tex">2</script></span> again.  But there is something left, a <span>​<script type="math/tex">1</script></span>. And we know from previously that odd numbers are obtained by adding <span>​<script type="math/tex">1</script></span> to even numbers.  This means the right hand side will always be odd.</p>
+
+<p>This is summarised much more pithily by Gelfand</p>
+
+<blockquote>
+  <p>Contradiction: (even number) + 1 = (even number)</p>
+</blockquote>
+
+<h3 id="proof-part-b---fracevenodd">Proof Part (b) - <span>​<script type="math/tex">\frac{even}{odd}</script></span></h3>
+<p>Up next, even divided by odd.  We start in an equivalent place to before:</p>
+
+<div class="mathblock"><script type="math/tex; mode=display"> \sqrt{2} = \frac{2k}{2l + 1} </script></div>
+
+<p>Working this through as before, we again start by squaring both sides</p>
+
+<div class="mathblock"><script type="math/tex; mode=display"> 2 = \left( \frac{2k}{2l + 1} \right) ^2 </script></div>
+
+<p>then rearranging (no need for cleaning up this time)</p>
+
+<div class="mathblock"><script type="math/tex; mode=display"> 2 \cdot (2l + 1)^2 = (2k)^2 </script></div>
+
+<p>next we expand the right hand side</p>
+
+<div class="mathblock"><script type="math/tex; mode=display"> 2 \cdot (2l + 1)^2 = 4k^2 </script></div>
+
+<p>before expanding the left hand side</p>
+
+<div class="mathblock"><script type="math/tex; mode=display"> 2 \cdot (4l^2 + 4l + 1) = 4k^2 </script></div>
+
+<p>and finally dividing both sides by <span>​<script type="math/tex">2</script></span></p>
+
+<div class="mathblock"><script type="math/tex; mode=display"> 4l^2 + 4l + 1 = 2k^2 </script></div>
+
+<p>We can stop here as we have what we need to prove our second inequality.</p>
+
+<p>Again reading from left to right, we start at the left where this half of the (in)equality is <em>exactly the same as the left-hand side in part (a)</em>.  This means the right hand side will always be odd.</p>
+
+<p>Now the right hand side. It is slightly different from part (a), comprising <em>some unknown value</em> <span>​<script type="math/tex">k</script></span> which is multiplied by itself (squared) and then multiplied by <span>​<script type="math/tex">2</script></span>.  Clearly for every possible value of <span>​<script type="math/tex">k</script></span>, this will be even.  So the right hand side will always be even.</p>
+
+<p>Yet again we have something which is odd, equalling something which is even, which is not possible.  Back to Gelfand again for the punchline:</p>
+
+<blockquote>
+  <p>Contradiction: (even number) + 1 = (even number)</p>
+</blockquote>
+
+<h3 id="proof-part-c---fracoddeven">Proof Part (c) - <span>​<script type="math/tex">\frac{odd}{even}</script></span></h3>
+<p>Finally, odd divided by even.  We start yet again in our equivalent place:</p>
+
+<div class="mathblock"><script type="math/tex; mode=display"> \sqrt{2} = \frac{2k + 1}{2l} </script></div>
+
+<p>Working through again we square both sides</p>
+
+<div class="mathblock"><script type="math/tex; mode=display"> 2 = \left( \frac{2k + 1}{2l} \right) ^2 </script></div>
+
+<p>And then multiply both sides by <span>​<script type="math/tex">2l^2</script></span></p>
+
+<div class="mathblock"><script type="math/tex; mode=display"> 2 \cdot (2l)^2 = (2k + 1)^2 </script></div>
+
+<p>before finally expanding the right hand side</p>
+
+<div class="mathblock"><script type="math/tex; mode=display"> 2 \cdot (2l)^2 = 4k^2 + 4k + 1 </script></div>
+
+<p>The result is pretty easy to read now given the practice we’ve had in (a) and (b).  The right hand side is clearly always even, while the left hand side can only ever be odd.  Back to Gelfand for one last statement:</p>
+
+<blockquote>
+  <p>Contradiction: (even number) = (even number) + 1</p>
+</blockquote>
+
+<h3 id="in-conclusion">In Conclusion</h3>
+<p>To conclude, we have shown that <span>​<script type="math/tex">\sqrt{2}</script></span> is always an irrational number, because we have shown that all the ways in which we <em>might</em> represent it as a rational number are impossible.</p>
+
+<h2 id="what-about-sqrt3">What about <span>​<script type="math/tex">\sqrt{3}</script></span>?</h2>
+<p>This is Problem 227.  You can prove it using exactly the same method Gelfand laid out for us.  I’ll not set it out here.  I suggest you follow it through yourself however as the doing helps the chunking.</p>
+
+<h2 id="we-cheated">We Cheated?!?</h2>
+<p>We’re almost done.  Hurrah!  But Gelfand wants to keep us on our toes.  Apparently we<label for="sn-id" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id" class="margin-toggle" /><span class="sidenote">Led by him admittedly. </span> cheated.  What? How so?  It turns out that the Greeks weren’t completely incompetent. When we <em>made up</em> <span>​<script type="math/tex">\sqrt{2}</script></span> we were in fact admitting defeat.  <span>​<script type="math/tex">\sqrt{2}</script></span> means nothing except as</p>
+
+<blockquote>
+  <p>“the positive solution to <span>​<script type="math/tex">x^2 - 2 = 0</script></span>”.</p>
+</blockquote>
+
+<p>It’s worth letting that sink in for a while, just to keep you frosty.</p>
+:ET

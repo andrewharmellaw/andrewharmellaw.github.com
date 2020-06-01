@@ -1,0 +1,174 @@
+I"�C
+<p><span class="newthought">In this first post</span> <label for="sn-id-whatever" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-whatever" class="margin-toggle" /><span class="sidenote">If you’d like to know the general idea behind this series of blog posts, check out the <a href="/index.html">introduction</a> I wrote </span> I’m starting at a super-basic level with the math-elements because the main intention is to get my head used to the method of chunking much advocated in <a href="https://www.amazon.co.uk/Mind-Numbers-Science-Flunked-Algebra-ebook/dp/B00G3L19ZU">Oakley’s “A Mind for Numbers”</a>. My aim being that the method, as well as the chunks it produces, will embed nicely before I start to use either in anger.</p>
+
+<p>The following is based on problems 1 to 24 from <a href="https://www.amazon.co.uk/Algebra-I-M-Gelfand/dp/0817636773">Gelfand’s “Algebra”</a>.</p>
+
+<p>Lots of the subsequent posts will be taken from chunks derived from that book too.  You can tell which because it’ll be flagged in the title, and a tag (“<a href="/tags.html#gelfand-ref">gelfand</a>”).</p>
+
+<h2 id="chunking-the-standard-addition-algorithm">Chunking the <em>Standard Addition Algorithm</em></h2>
+<p><span class="newthought">Gelfand kicks off</span>  with the <em>Standard Addition Algorithm</em>. It will surely be familiar to everyone from their elementary mathematics.  It’s described nicely <a href="https://en.wikipedia.org/wiki/Elementary_arithmetic#Addition_algorithm">over at wikipedia</a> so I won’t repeat it here.</p>
+
+<p>What follows is a tidied up<label for="sn-id-whatever" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-whatever" class="margin-toggle" /><span class="sidenote">I did them initially using pen and paper. </span> verison of my notes from working through problem 2 (pp. 4) using the chunking approach from Oakley (chapter 7, “How to Build a Powerful Chunk”).</p>
+
+<p>In the course of doing this I noted some tricks.  It turns out that the tricks are one of the keys to all this.  I have <em>highlighted</em> them here (and explained them a little more in a later section).  This is a theme which I’ll keep returning to throughout these posts.  Having an embedded set of tricks, and patterns to use to trigger them is key to math-success.</p>
+
+<h3 id="step-1-work-a-problem-all-the-way-through-on-paper">Step 1: “Work a problem all the way through on paper”</h3>
+<p>(You’ll just have to trust me when I say I did this.)</p>
+
+<h3 id="step-2-work-it-through-again-paying-attention-to-the-key-processes">Step 2: “Work it through again, paying attention to the key processes”</h3>
+<p>The steps I followed were as you’d expect from the worked solution in the book.</p>
+
+<p>Firstly, <em>eliminate the impossible</em> - what are the possible values for the left-most <span>​<script type="math/tex">A</script></span>?</p>
+
+<p>Secondly, start from zero and <em>work up, one step at a time</em>:</p>
+
+<ul>
+  <li>Can it be <span>​<script type="math/tex">0</script></span>? No.</li>
+  <li>Can it be <span>​<script type="math/tex">1</script></span>? Yes.</li>
+  <li>Can it be <span>​<script type="math/tex">2</script></span>? The maximum possible value is <span>​<script type="math/tex">9 + 8 + 1 = 18</script></span>. So no, it can’t.</li>
+  <li>Can it be <span>​<script type="math/tex"> \gt 2</script></span>? No. So that means <span>​<script type="math/tex">A</script></span> can only be <span>​<script type="math/tex">1</script></span>.</li>
+</ul>
+
+<p>Now is a great point to pause, and fill in what we know so far, in order to get a fresh look at things. Our problem now looks like this:</p>
+
+<div class="mathblock"><script type="math/tex; mode=display">\begin{matrix} \phantom0 \phantom0 \texttt{1} \texttt{1} \texttt{1} \\ \underline{\texttt{+}\texttt{ }\texttt{ }\texttt{B}\texttt{B}\texttt{B}}  \\ \phantom0 \texttt{111C} \end{matrix}</script></div>
+
+<p>Now we can keep going. Thirdly, <em>eliminate the impossible (again)</em>:</p>
+
+<ul>
+  <li>Do we have a carry from the rightmost <span>​<script type="math/tex">1 + B</script></span>?  We must do because the next-left column has a different result value.</li>
+  <li>Therefore <span>​<script type="math/tex">B</script></span> can only be <span>​<script type="math/tex">9</script></span> (because <span>​<script type="math/tex">1 + 9  \gt 9</script></span> which we need to have a carry).</li>
+</ul>
+
+<p>Finally, work back up, which means <span>​<script type="math/tex">C = 0</script></span>.</p>
+
+<p>And so we’re done, giving us the following solution:</p>
+
+<div class="mathblock"><script type="math/tex; mode=display">\begin{matrix} \phantom 0 \phantom0 \texttt{1} \texttt{1} \texttt{1} \\ \underline{\texttt{+}\texttt{ }\texttt{ }\texttt{9}\texttt{9}\texttt{9}}  \\ \phantom0 \texttt{1110} \end{matrix}</script></div>
+
+<h3 id="step-3-take-a-break">Step 3: “Take a break”</h3>
+<p>Basically I stopped at this point and went on to the next set of problems. (The ones we get onto later in this post.)</p>
+
+<h3 id="step-4-sleep">Step 4: “Sleep”</h3>
+<p>This involved working each and every of the steps I described above.</p>
+
+<h3 id="step-5-do-another-repetition">Step 5: “Do another repetition”</h3>
+<p>First thing next morning, I worked the problem yet again, following each and every one of the original steps.  Oakley states “your understanding should be deeper” and she’s right - the repetitions (and breaks) meant that now certain visual elements of both the problem and the solution came to me.  I’ve captured these realisations below in the “Tricks Arising” section below as <em>“many patterns you can spot visually”</em> and <em>“have lots of space around your problems as you work”</em></p>
+
+<h3 id="step-6-add-another-problem">Step 6: “Add another problem”</h3>
+<p>At this point I kept on going, launching into the Multiplication problem that is the subject of the second half of this post.</p>
+
+<h3 id="step-7--do-active-repetitions">Step 7:  “Do ‘active’ repetitions”</h3>
+<p>I take a walk out at lunch, and drive to and from work which takes 40 - 60 minutes each way, so on all of these occasions I repeated the solution steps to myself, making sure I visualised everything fully.</p>
+
+<p>And that’s it.  It felt like it worked really well.  It didn’t feel self-patronising either.  By focussing on something mathematically simple, I just freed up the mental space needed to grokk Oakley’s process itself, and how it felt as I followed it.  Not only that, I also got a far better, and more explicit understanding of the nuances and patterns inherant in the <em>Standard Addition Algorithm</em>.</p>
+
+<h3 id="addition-patterns">Addition Patterns</h3>
+<p>The end result of the working through of this problem following the chunking method was not only the above solution, but also an awareness of the following patterns in the <em>Standard Addition Algorithm</em>:</p>
+
+<p>In any column, the sum-value is equal to the remainder of (the total of all values above it + carry-value) <span>​<script type="math/tex">/ 10</script></span>;</p>
+
+<p>In the right-hand column, there is no carry-value (or the carry-value is equivalent to <span>​<script type="math/tex">0</script></span>);</p>
+
+<p>If there are only two values to sum, then the max carry-value is <span>​<script type="math/tex">1</script></span> (as <span>​<script type="math/tex">9 + 9 + 1 = 19</script></span>);</p>
+
+<p>If there is a sum-value which has no values above it, then it must be the same as the carry-value from the column to it’s right;</p>
+
+<p>If two columns have the same values, but different sum-values, then the difference is solely a result of the carry values.</p>
+
+<h2 id="the-multiplication-algorithm-for-multi-digit-factors">The Multiplication Algorithm for Multi-Digit Factors</h2>
+<p><span class="newthought">Next up</span>  were problems relating to the <em>Multiplication Algorithm for Multi-Digit Factors</em>. This was unfamiliar to me.  It too is described nicely <a href="https://en.wikipedia.org/wiki/Elementary_arithmetic#Multiplication_algorithm_for_multi-digit_factors">over at wikipedia</a>.</p>
+
+<p>From this point onwards I’ll not write out in detail my chunking-led approach to things (there’s little point) but following it further embedded the tricks I’d already spotted, as well as making the following patterns evident to me.</p>
+
+<h3 id="multiplication-patterns">Multiplication Patterns</h3>
+
+<p>The result is the same, no matter in what order you place the terms;</p>
+
+<p>Repetition patterns featuring one of the terms appear in the product when the other term comprises one or more repetitions of <span>​<script type="math/tex">1</script></span> followed by a number of <span>​<script type="math/tex">0</script></span>. The number of <span>​<script type="math/tex">0</script></span>s must be equal to the number of numerals in the other term minus <span>​<script type="math/tex">1</script></span>;</p>
+
+<p>A <span>​<script type="math/tex">1</script></span> at a given position in the first term has the effect of taking the second term and shifting it to the left.  The magnitude of this shift is the same as the power of ten of the position of the <span>​<script type="math/tex">1</script></span> in the first term;</p>
+
+<p>The second impact is of addition, which can be seen using the <em>Standard Addition Algorithm</em> (see above), and here the same patterns again apply.</p>
+
+<h2 id="the-long-division-algorithm">The Long-Division Algorithm</h2>
+<blockquote>
+  <p>“In mathematics, especially in elementary arithmetic, division is an arithmetic operation which is the inverse of multiplication.”
+(from <a href="https://en.wikipedia.org/wiki/Elementary_arithmetic#Division">wikipedia</a>)</p>
+</blockquote>
+
+<p><span class="newthought">Note, this isn’t,</span>  in my experience, strictly speaking 100% true.  It’ll help you get along for now, but bear in mind that in time (and we’ll get to it in later posts) you’ll see some differences.<label for="sn-id-whatever" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-whatever" class="margin-toggle" /><span class="sidenote">For example multiplying by zero (result: zero) and dividing by zero (result: undefined). </span></p>
+
+<p>There is yet again a well-established algorithm for handling division in the positional number systems called “long division”.  It’s explained well in the wikipedia page linked above.</p>
+
+<h3 id="long-division-patterns-and-cyclic-numbers">Long-Division Patterns and Cyclic Numbers</h3>
+<p>Gelfand stops at one point to point out the existence of so-called “cyclic numbers”.  There is a <a href="https://en.wikipedia.org/wiki/Cyclic_number">whole load of detail</a> on this which he doesn’t go into, and there is no need to know any more about them than notice their existence and the circumstances under which they arise.  What is important here (I now realise on second reading) is that my previously mentioned “pattern-awareness” can help you notice a lot of things.  I’m going to go into this a little more in the next section.  One thing I want to note here however is that, as a visual thinker, I was happy to see just how much physically “seeing” patterns on the page in front of you was a valuable skill.</p>
+
+<h2 id="tricks-arising">Tricks Arising</h2>
+<p><span class="newthought">I’ve alluded to “tricks”</span>  that I learned as I went.  It seems to me that these are going to become more and more key as I progress through my maths journey.</p>
+
+<p>The ones I have so far are:</p>
+
+<h3 id="you-can-spot-many-patterns-visually">You can spot many patterns visually</h3>
+<p>Take time to lay out your problem in a way which is clear.  Areas which are not symmetrical after you have done this may be worthy of attention</p>
+
+<h3 id="have-lots-of-space-around-your-problems-as-you-work">Have lots of space around your problems as you work</h3>
+<p>This feels<label for="sn-id-whatever" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-whatever" class="margin-toggle" /><span class="sidenote">To me at least. </span> as if it creates a corresponding mental<label for="sn-id-whatever" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-whatever" class="margin-toggle" /><span class="sidenote">Working memory? </span> space.  It also helps when trying to spot visual elements.</p>
+
+<h3 id="eliminate-the-impossible">Eliminate the impossible</h3>
+<p>What <em>can’t</em> happen?  This shrinks the problem space, and gives you less to think about, allowing you to focus.</p>
+
+<h3 id="break-the-problem-into-smaller-more-manageable-pieces">Break the problem into smaller, more manageable pieces</h3>
+<p>Then work back up to the complete solution - again, simplify.</p>
+
+<h3 id="start-from-zero-and-then-work-up-one-step-at-a-time">Start from zero, and then work up, one step at a time</h3>
+<p>Self-explanatory this one really.</p>
+
+<h3 id="if-the-order-of-terms-makes-no-difference-to-the-result-use-this-to-your-advantage">If the order of terms makes no difference to the result, use this to your advantage</h3>
+<p>Are you going to draw out {$ m %}517 \times 1001&lt;/script&gt;&lt;/span&gt; or <span>​<script type="math/tex">1001 \times 517</script></span>?  Pick the one which makes things easier.</p>
+
+<h2 id="additional-notes">Additional Notes</h2>
+<p><span class="newthought">Well,</span>  that’s it for this post on the first two Gelfand-chunks. But before I close, a few other things seemed to relevant to bring out as they form part of the basic idiom of mathematics and algebra we are examining here.</p>
+
+<h3 id="terminology">Terminology:</h3>
+<p>The following terminology was introduced in this post:</p>
+
+<p><a href="https://www.mathsisfun.com/definitions/digit.html">‘Digit’</a> (MathIsFun.com)
+<a href="https://www.mathsisfun.com/definitions/term.html">‘Term’</a> (MathIsFun.com)
+<a href="https://www.mathsisfun.com/definitions/factor.html">‘Factor’</a> (MathIsFun.com)
+<a href="https://www.mathsisfun.com/definitions/product.html">‘Product’</a> (MathIsFun.com)
+<a href="https://www.mathsisfun.com/definitions/dividend.html">‘Dividend’</a> (MathIsFun.com)
+<a href="https://www.mathsisfun.com/definitions/divisor.html">‘Divisor’</a> (MathIsFun.com)
+<a href="https://www.mathsisfun.com/definitions/quotient.html">‘Quotient’</a> (MathIsFun.com)
+<a href="https://www.mathsisfun.com/definitions/remainder.html">‘Remainder’</a> (MathIsFun.com) 
+<a href="https://www.mathsisfun.com/definitions/expression.html">‘Expression’</a> (MathIsFun.com)</p>
+
+<h3 id="notation">Notation:</h3>
+<p>As well as this notation note:</p>
+
+<ul>
+  <li>not ‘1 x 1’ but ‘<span>​<script type="math/tex">1 \cdot 1</script></span>’ (or, when using letters in algebra, ‘<span>​<script type="math/tex">ab</script></span>’)</li>
+</ul>
+
+<h3 id="numerical-systems">Numerical Systems:</h3>
+<p>And two number systems were also mentioned. (This is very interesting to look into in itself.  It’s easy to assume there is only one way of doing things - there isn’t, but you were probably taught about one as if it was the only one in existence.</p>
+
+<p><a href="https://www.mathsisfun.com/definitions/decimal-number-system.html">Decimal Number System</a> (MathIsFun.com)
+<a href="https://www.mathsisfun.com/definitions/binary-number.html">Binary Number System</a> (MathIsFun.com)</p>
+
+<h3 id="undefined">“Undefined”</h3>
+<p>This is the first time we hit the phrase “undefined” - still in our case in the realm of arithmetic. In this case it is when we try and divide a real number by <span>​<script type="math/tex">0</script></span>.  There is also the case of <span>​<script type="math/tex">0^0</script></span>.  In both cases these are circumstances when we know what we are trying to do doesnt make sense, so there is no “answer”, so the expression is “undefinded”.</p>
+
+<h3 id="rational-real-and-irrational-numbers">Rational, Real and Irrational Numbers</h3>
+<p>From <a href="https://en.wikipedia.org/wiki/Rational_number">wikipedia</a>:</p>
+
+<blockquote>
+  <p>“Rational numbers are any number that can be expressed as the quotient or fraction <span>​<script type="math/tex">\frac{p}{q}</script></span> of two integers, a numerator <span>​<script type="math/tex">p</script></span> and a non-zero denominator <span>​<script type="math/tex">q</script></span>. Since <span>​<script type="math/tex">q</script></span> may be equal to <span>​<script type="math/tex">1</script></span>, every integer is a rational number.”</p>
+</blockquote>
+
+<p>Again from <a href="https://en.wikipedia.org/wiki/Real_number">wikipedia</a>:</p>
+
+<blockquote>
+  <p>“Real numbers are values that represent a quantity along a line.  The real numbers include all the rational numbers such as the integer <span>​<script type="math/tex">-5</script></span> and the fraction <span>​<script type="math/tex">\frac{4}{3}</script></span>, and all the irrational numbers such as <span>​<script type="math/tex">\sqrt[2]{2}</script></span>”</p>
+</blockquote>
+:ET

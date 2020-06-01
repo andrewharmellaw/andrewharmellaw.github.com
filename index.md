@@ -4,7 +4,7 @@ title: Hi, Welcome
 ---
 {% include JB/setup %}
 
-{% newthought "Welcome to" %} my Math{% sidenote 'sn-id-whatever' "Despite my better judgement, I'm going to refer to the topic as 'Math' rather than 'Maths'. Despite being from the UK, it just sounds better that way.  (Sorry.)" %} blog.  This is where I'm recording my journey to learn just enough mathematics to enrich my life.  Why would I want to do such a thing?  Let's start with a picture...
+{% newthought "Hello and welcome to" %} my Math{% sidenote 'sn-id-whatever' "Despite my better judgement, I'm going to refer to the topic as 'Math' rather than 'Maths'. Despite being from the UK, it just sounds better that way.  (Sorry.)" %} blog.  This is where I'm recording my journey to learn just enough mathematics to enrich my life.  Why would I want to do such a thing?  Let's start with a picture...
 
 ![Purity from XKCD](https://imgs.xkcd.com/comics/purity.png){:class="img-responsive"}
 

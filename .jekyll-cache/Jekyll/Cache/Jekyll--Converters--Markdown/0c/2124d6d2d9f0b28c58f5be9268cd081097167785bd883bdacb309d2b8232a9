@@ -1,77 +1,5 @@
-<!DOCTYPE html>
-<html>
-  <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>Hi, Welcome</title>
-  <meta name="description" content="Hello and welcome to  my MathDespite my better judgement, I’m going to refer to the topic as ‘Math’ rather than ‘Maths’. Despite being from the UK, it just s...">
-
-  <!-- Google Fonts loaded here depending on setting in _data/options.yml true loads font, blank does not-->
-  
-    <link href='//fonts.googleapis.com/css?family=Lato:400,400italic' rel='stylesheet' type='text/css'>
-  
-  
-  <!-- Load up MathJax script if needed ... specify in /_data/options.yml file-->
-  
-    <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-  
-
-  <link rel="stylesheet" type="text/css" href="/css/tufte.css">
-  <!-- <link rel="stylesheet" type="text/css" href="/css/print.css" media="print"> -->
-
-  <link rel="canonical" href="/">
-
-  <link rel="alternate" type="application/rss+xml" title="Maths from the Ground Up" href="/feed.xml" />
-</head>
-
-  <body>
-    <!--- Header and nav template site-wide -->
-<header>
-    <nav class="group">
-	<a href="/"><img class="badge" src="/assets/img/badge_1.png" alt="CH"></a>
-	
-		
-		    
-		      <a href="/archive">Archive</a>
-		    
-	    
-  	
-		
-		    
-		      <a class="active" href="/" class="active">Hi, Welcome</a>
-		    
-	    
-  	
-		
-		    
-		      <a href="/css/print.css"></a>
-		    
-	    
-  	
-		
-		    
-		      <a href="/rss.xml">RSS</a>
-		    
-	    
-  	
-		
-		    
-		      <a href="/tags">Tags</a>
-		    
-	    
-  	
-		
-  	
-	</nav>
-</header>
-
-    <article class="group">
-	    <h1>Hi, Welcome</h1>
-		<p class="subtitle"></p>	
-	      
-<p><span class="newthought">Hello and welcome to</span>  my Math<label for="sn-id-whatever" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-whatever" class="margin-toggle" /><span class="sidenote">Despite my better judgement, I’m going to refer to the topic as ‘Math’ rather than ‘Maths’. Despite being from the UK, it just sounds better that way.  (Sorry.) </span> blog.  This is where I’m recording my journey to learn just enough mathematics to enrich my life.  Why would I want to do such a thing?  Let’s start with a picture…</p>
+I",)
+<p><span class="newthought">Welcome to</span>  my Math<label for="sn-id-whatever" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-whatever" class="margin-toggle" /><span class="sidenote">Despite my better judgement, I’m going to refer to the topic as ‘Math’ rather than ‘Maths’. Despite being from the UK, it just sounds better that way.  (Sorry.) </span> blog.  This is where I’m recording my journey to learn just enough mathematics to enrich my life.  Why would I want to do such a thing?  Let’s start with a picture…</p>
 
 <p><img src="https://imgs.xkcd.com/comics/purity.png" alt="Purity from XKCD" class="img-responsive" /></p>
 
@@ -164,28 +92,4 @@
     <li><span>16 Nov 2016</span> &raquo; <a href="/2016/11/16/gelfands-algebra-chunk-1-fundamentals">Gelfand: Chunk 1 - Fundamentals</a></li>
   
 </ul>
-
-    </article>
-    <span class="print-footer">Hi, Welcome - {"name"=>"Andrew Harmel-Law", "github"=>"andrewharmellaw", "twitter"=>"al94781"}</span>
-
-    <footer>
-  <hr class="slender">
-  <ul class="footer-links">
-    
-      <li>
-        <a href="//www.twitter.com/al94781"><span class="icon-twitter"></span></a>
-      </li>
-    
-      <li>
-        <a href="//github.com/andrewharmellaw"><span class="icon-github"></span></a>
-      </li>
-      
-  </ul>
-<div class="credits">
-<span>&copy; 2020 &nbsp;&nbsp;ANDREW HARMEL-LAW</span></br> <br>
-<span>This site was created using the <a href="//github.com/clayh53/tufte-jekyll">Tufte theme</a> for <a href="//jekyllrb.com">Jekyll</a>.</span> 
-</div>  
-</footer>
-
-  </body>
-</html>
+:ET
