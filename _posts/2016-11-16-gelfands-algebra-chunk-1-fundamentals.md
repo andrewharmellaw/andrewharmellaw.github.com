@@ -126,7 +126,7 @@ Then work back up to the complete solution - again, simplify.
 Self-explanatory this one really.
 
 ### If the order of terms makes no difference to the result, use this to your advantage
-Are you going to draw out {$ m %}517 \times 1001{% em %} or {% m %}1001 \times 517{% em %}?  Pick the one which makes things easier.
+Are you going to draw out {% m %}517 \times 1001{% em %} or {% m %}1001 \times 517{% em %}?  Pick the one which makes things easier.
 
 ## Additional Notes
 {% newthought "Well," %} that's it for this post on the first two Gelfand-chunks. But before I close, a few other things seemed to relevant to bring out as they form part of the basic idiom of mathematics and algebra we are examining here.
