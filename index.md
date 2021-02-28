@@ -8,12 +8,23 @@ title: Welcome
 
 Over the years I've been a little profligate with my internet prescence. Here's a handy overview, with some deep links into the semi-interesting bits.
 
-There are three sections: Speaking, Open Source, and Blogging.  You can also find me on [Twitter](https://twitter.com/al94781) and [LinkedIn](https://www.linkedin.com/in/andrewharmellaw).
+There are three sections: Training, Speaking / Panels, Open Source, and Blogging.  You can also find me on [Twitter](https://twitter.com/al94781) and [LinkedIn](https://www.linkedin.com/in/andrewharmellaw).
 
-# Speaking
-I've been lucky enough to talk at a bunch of UK and international conferences. My main talks have been as follows:
+# Training
+I was fortunate to be asked to write a course for the O'Reilly online training Platform. The result, a three-hour, hands-on extravaganza is titled [Domain-Driven Design: First Steps](https://learning.oreilly.com/live-training/courses/domain-driven-design-first-steps/0636920051628/) and runs every 2 months or so.
 
-[Combatting the Near Enemies of Domain Driven Design - at Scale](https://www.youtube.com/watch?v=3CFyA4iecng) (DDD Europe in Amsterdam, O'Reilly Architecture Conference in Berlin and DDD eXchange in London, 2018-19)
+# Speaking / Panels
+I've been lucky enough to talk at a bunch of UK and international conferences. My main contributions have been as follows:
+
+[Domain-Driven Design: The Bare Essentials + Microservices (aka "The Heart of Domain-Driven Design")](https://andrewharmellaw.github.io/) (JavaZone Norway, JFokus Sweden, and O'Reilly DDD Super-Stream. 2020-1)
+
+[Fostering autonomous teams with proper leadership culture (Panel)](https://www.youtube.com/watch?v=kdpGPDGcbxA) (Virtual DDD 2021)
+
+[People and Patterns]() (DDD Europe Online Lightning Talk, 2021)
+
+[Creating a Playbook for DDD for the inside of your team with Julie Lerman (Panel)](https://www.youtube.com/watch?v=GVa5vI19kZo) (Virtual DDD 2020)
+
+[Combatting the Near Enemies of Domain Driven Design - at Scale](https://www.youtube.com/watch?v=4yr130f-1FE) (DDD Europe in Amsterdam, Virtual DDD, O'Reilly Architecture Conference in Berlin and DDD eXchange in London, 2018-19, all with with [Gayathri Thiyagarajan](https://twitter.com/gaythu_rajan))
 
 [Organisation Refactoring and Culture Hacking - Lessons from Software](https://www.youtube.com/watch?v=_jqPxGShb90) (Voxxed Days in Banff, Devoxx London and Belgium, and JFokus Stockholm, 2018-19)
 
