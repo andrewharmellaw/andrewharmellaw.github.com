@@ -5,10 +5,308 @@
         <description>Maths from the Ground Up - Andrew Harmel-Law</description>
         <link>http://andrewharmellaw.github.io</link>
         <atom:link href="http://andrewharmellaw.github.io" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Sun, 28 Feb 2021 10:04:24 +0000</lastBuildDate>
-        <pubDate>Sun, 28 Feb 2021 10:04:24 +0000</pubDate>
+        <lastBuildDate>Sun, 21 Mar 2021 15:01:07 +0000</lastBuildDate>
+        <pubDate>Sun, 21 Mar 2021 15:01:07 +0000</pubDate>
         <ttl>60</ttl>
 
+
+        <item>
+                <title>The Experience of Development - Part 2: The Fine Balance</title>
+                <description>
+&lt;blockquote&gt;
+  &lt;p&gt;“My phrases have to be crammed with information. They have to be crammed with content.  Not that a compromise is necessary. I think that so much of what I do with language is instinctive. You see I don’t really think of myself as creating the language, because language pre-exists; I just have to go where it is. I have to find it and it has to find me; and it’s as much about listening as it is about being active. You have an inner voice where the perfect novel is kept; the perfect sentence is kept; and your task is to mediate that to the world outside; and that’s the writer’s daily business.&lt;/p&gt;
+
+  &lt;p&gt;But of course you don’t think of it like that, you just type fast. And because you’re accustomed, because you’ve been doing this for years and years it’s like starting a song. The rhythm won’t falter. The internal logic of the prose won’t let you down. In the same way I think that with a long book you sometimes have to forget about structure and trust that it’s doing itself; and it is.&lt;/p&gt;
+
+  &lt;p&gt;But there’s such a fine balance between exerting absolute control, and letting go, so that the thing can happen.”&lt;br /&gt;
+Hilary Mantel interviewed by Michael Rosen for “Word of Mouth” on BBC Radio 4.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;Each of us approaches software development&lt;/span&gt;  in our own individual way, based on both our understanding of the-thing-we-are-trying-to-make-slash-the-problem-we-are-trying-to-solve, and on our grasp of the tools with which we are working.&lt;/p&gt;
+
+&lt;p&gt;In doing so, three things–the mental models that we construct, as well as the pre-existing mental models which we call upon, &lt;em&gt;and&lt;/em&gt; the means by which we mediate them to the outside world–are potentially called into question every time the code itself, that external manifestation of these mental models and bearers of our expectations, tells us what it can and can’t do.  It is at this nexus that our internal conception of the-thing-we-are-trying-to-make-slash-the-problem-we-are-trying-to-solve is confronted with an alternate reality; the reality of syntax and compilers and CPU registers and electrons.&lt;/p&gt;
+
+&lt;p&gt;The state of this alternate reality is made manifest to us through our senses, and there arises an overlaying of this input with our mental models and their predictions. There are a variety of outcomes to this.&lt;/p&gt;
+
+&lt;p&gt;If what our models predict we will sense matches up with what we have sensed then the reward of having crafted a cloud castle that has been successfully mediated into the world outside hits. We &lt;em&gt;feel&lt;/em&gt;. This is an experience of development. One of the primary ones which keeps us coming back for more.&lt;/p&gt;
+
+&lt;p&gt;But when the match fails, signaling that our mental-model hypothesis has been falsified–an all-too frequent occurrence in my experience–we react to this disparity, this “surprise”, in one of several ways. This too is the root of experiences of development.&lt;/p&gt;
+
+&lt;p&gt;The type of reaction which arises depends upon our confidence in which of the two should carry more weight. Do we trust what we expect? Or do we trust what we sense? Most importantly for our purposes here, how do we explain the discrepancies away? Let us enumerate the coping strategies here&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;I have tried to arrange these in order of magnitude, but clearly such an effort is very subjective. &lt;/span&gt;, for I propose that it is within these responses, conscious or unconscious, that many of the varieties of development experience lie.&lt;/p&gt;
+
+&lt;p&gt;Firstly&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;And most mundanely. &lt;/span&gt;, we can doubt that we effectively mediated our mental models to the outside world, to the code. Did we make a typo? Did we forget a setting? Did we press the wrong button?&lt;/p&gt;
+
+&lt;p&gt;Secondly we can &lt;em&gt;maintain&lt;/em&gt; our belief in the CREATION_SOLUTION mental-model we mentally constructed, but doubt that it is either a) a valid fit for the-thing-we-are-trying-to-make-slash-the-problem-we-are-trying-to-solve, or b) encodeable in our chosen language.  Is our mental-model valid, but unsuitable for this situation?&lt;/p&gt;
+
+&lt;p&gt;Thirdly we can doubt&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;“Doubt” could just as easily be replaced with the word “question”, or with “become confused about”. The only differences are in how conscious we are of this feeling. “Doubt” will do for now. &lt;/span&gt; the integrity of the thing we constructed in our heads: the CREATION_SOLUTION mental-model&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;See my previous post, for the classifications and naming I introduced in this area. &lt;/span&gt;, assembled in our quest to make / solve. Did we make an error in our mental-model construction as it pertains to our situation?&lt;/p&gt;
+
+&lt;p&gt;Fourthly we can doubt our SUBSTRATE mental models - the ones representing our languages, libraries/frameworks and tool chain. Here we likely go back to the documentation, and update one or more of these SUBSTRATE mental models as a consequence. Do we misunderstand the tools we are working with?&lt;/p&gt;
+
+&lt;p&gt;Finally we can doubt what we are experiencing, and act as if it’s not happening. This can directly lead to us being blind to things, not seeing them when they are there, because to “see” is to understand, even in a most basic way.&lt;/p&gt;
+
+&lt;p&gt;[REDRAFT THE FOLLOWING PARAGRAPH]
+How frequently this mis-match occurs is clearly important. But what strikes me as more worthy of investigation is how different people, at different times, and in different contexts experience, and consequently (re)act / respond, both intellectually and emotionally to all these outcomes, both predicted, and surprising.&lt;/p&gt;
+
+&lt;p&gt;But there is one more aspect I want to bring to the table. The experience of the wholly-internal castle construction.  …..&lt;/p&gt;
+
+&lt;p&gt;The detail, granularity, and explicit-ness [SURELY THERE IS A BETTER WORD?] of our mental models is also highly significant. We are alo limited by how much we can “hold in our heads” [ALTHOUGH THE AMOUNTS VARY GREATLY FROM PERSON TO PERSON]. Admittedly, we do not need to hold all details as we have committed it to the screen [SCREEN? THERE IS AN ALMOST-IMMEDIATE  RE-READING ASPECT HERE] but that does not mean we don’t need to be able to add to it, change it, improve it, and build on top of it.&lt;/p&gt;
+
+&lt;p&gt;Now we move to pleasure and confidence. [I’m NOT SURE WE DO.]&lt;/p&gt;
+
+&lt;p&gt;To joy.&lt;/p&gt;
+
+&lt;p&gt;To satisfaction.&lt;/p&gt;
+
+&lt;p&gt;[IF I WAS TO DESCRIBE MY EXPERIENCE OF DEVELOPMENT IN THREE WORDS I WOULD CHOOSE “CREATIVE”, “SATISFYING”  AND “FRUSTRATING”].&lt;/p&gt;
+
+&lt;p&gt;In coding [“DEVELOPMENT”, OR “MAKING CODE-THINGS”?] we are engaged heavily in tool-use. Tools which are complex, multi-faceted, nuanced, and which must gel [“GEL” DOESN’T FEEL LIKE IT LINKS STRONGLY ENOUGH BACK TO WHAT WENT IN THE FIRST SECTION] with our wider expectations [BUT “EXPECTATIONS” DOES, SO PERHAPS…🤔] of what they are, how they are structured, and how they work.&lt;/p&gt;
+
+&lt;p&gt;As we become more familiar with a language, it’s associated mental model/philosophy, and it’s associated [REPEATS “ASSOCIATED”]  libraries, frameworks and tooling we see not only how it succeeds, but how it fails; we see it’s limitations and shortcomings.&lt;/p&gt;
+
+&lt;p&gt;[WOULD THE VIRGINIA WOOLF QUOTES FIT IN HERE?]&lt;/p&gt;
+
+&lt;p&gt;[IT FEELS WE LEAP FROM WRITING TO READING HERE. AND FROM … ]&lt;/p&gt;
+
+&lt;p&gt;The perception of these things is different for different people. Their mental models of the language may vary greatly in their “bit depth”. [REFER OUT TO CATHY SIERRA.] So too may be someone’s comfort with the issues [AND SHORTCOMINGS?] which a language or associated ecosystem might throw up [NOT SURE I LIKE THIS IMAGE - 🤢 “PRESENT”?].&lt;/p&gt;
+
+&lt;p&gt;There is also the fact of someone’s comfort with a language’s syntax (or even style) [N.B. IN DEVS THIS IS ALSO VERY PECULIARLY FLOWS OUT TO THE PHYSICAL ENV - CODE-COLOUR, KEYBOARD, LIGHTING, ETC ALL CAN PLAY A ROLE HERE] and the ease with which they can consume this and conjoure up [I LIKE THIS PHRASE. BUILD IN MORE SKY-CASTLES LIKE THIS?] the associated mental model from it.&lt;/p&gt;
+
+&lt;p&gt;In this there is a strong association with how much detail can be represented as a “short-hand” and therefore manipulated effectively and effortlessly with confidence and skill. [THERE IS A MENTAL-EFFORT SIDE-BAR / DIGRESSION IN HERE TO PULL OUT.]&lt;/p&gt;
+
+&lt;p&gt;But we have not spoken of joy. The joy must come in great part from mastery, [WHAT ABOUT AUTONOMY AND PURPOSE? DO I EVEN WANT TO USE THIS WORD WITH ALL THE DISTRACTING CONNOTATIONS IT WILL BRING?] and the development of the same. But it can also come from both a lack of friction [MENTAL EFFORT AGAIN] and deployment [“MANIPULATION” / “DEFEAT” / “SUBDUGATION”?] of vast [VAST? REALLY?] complexity with little [“LITTLE”? HOW ABOUT “APPROPRIATE”? OR SOMETHING ELSE. THIS NEEDS TO BE UNPACKED TOO] mental effort.&lt;/p&gt;
+
+&lt;p&gt;There is also the potential joy in experiencing the pleasant surprise when something built from simple elements combines as hoped [“EXPECTED”? “HOPED” IS NICE HERE AS IT HAS THE ELEMENT OF FAITH IN IT…] (i.e. without a great deal of solid confidence) and works as planned, revealing a greater power [“POWER”? AGAIN THIS IS QUITE OVER-BLOWN] than had been imagined. [“THOUGHT POSSIBLE”?]&lt;/p&gt;
+
+&lt;p&gt;[&lt;strong&gt;**CHECK THE JOYS BELOW AREN’T ACTUALLY COVERED LATER ON&lt;/strong&gt;**]&lt;/p&gt;
+
+&lt;p&gt;[THERE IS ALSO THE JOY OF HAVING USED ONE’S TOOLS EFFECTIVELY. MENTAL AND PHYSICAL. TO HAVE HAD THE RIGHT THINGS TO HAND TO HAVE APPROACHED IT ALL IN THE BEST WAY. TO HAVE FELT THE EXCITEMENT OF ALL THE PIECES OF THE MENTAL AND PHYSICAL PROCESSES WORKING TOGETHER AS ONE. ««&amp;lt; TDD COMES INTO THIS.]&lt;/p&gt;
+
+&lt;p&gt;[THERE IS ALSO HERE THE JOY OF A PROBLEM UNDERSTOOD AND BESTED, ]&lt;/p&gt;
+
+&lt;p&gt;[AND BEYOND THIS, THERE IS THE JOY FELT IN PRIDE OF CRAFTSMANSHIP - FIND ANOTHER WORD GIVEN THE CONNOTATIONS OF THIS ONE; OF A TIDY, JUST-ENOUGH SOLUTION.]&lt;/p&gt;
+
+&lt;p&gt;[AND THERE IS ALSO THE JOY IN AND OF A JOB COMPLETED. OF NEVER HAVING TO GO BACK SOMEWHERE. OF HAVING CONQUERED FRUSTRATION.]&lt;/p&gt;
+
+&lt;p&gt;[AND THE JOY OF HAVING LEARNED. OF HAVING UPDATED A MENTAL MODEL.]&lt;/p&gt;
+
+&lt;p&gt;How much of this is consious? It is not wholly correleated with mastery. [THERE’S THAT WORD AGAIN] You can consciously be struggling with something and be aware at [“OF”?] the lack of strength of depth of mismatch in mental models. [KEEP BRINGING IT BACK TO THE MENTAL MODELS.]&lt;/p&gt;
+
+&lt;p&gt;And this brings in [“BRINGS IN” SUCKS AS ENGLISH] another joy, in the construction of a new set of mental models and experiences in using them. In the experiencing of what is easier and harder, possible and impossible, in this new mindset. In the surprise at failing, and the surprise at learning. In the surprise in contrast between a solid, comfortable, established model and a new, unfamiliar, effervescent one. [AND THE JOY OF HAVING CAUGHT AND PINNED-DOWN/EXPRESSED THE LATTER.]&lt;/p&gt;
+
+&lt;p&gt;What about different modes of thinking? Both the “Happy Path” [CALL OUT TO BRUCE AND JAMES HERE] and the other paths? What about mode-swapping, both within a stack (e.g. from core language, to libraries, to framework, to tooling, etc.) and outwith (e.g. databases, etc.) Is there joy in these changes, in deploying multiple tools [AND ASSOCIATED MENTAL MODELS] to solve an overall problem? [DON’T LOSE THE THING-PROBLEM HERE. I’M LEAKING MY ANTI-DB BIAS HERE] Is there joy in staying in one place? [ONE HEAD-SPACE?] Is there joy in being challenged and overcoming complexity, and is there joy in understanding how it worked, and then finally distilling it down to the simplest, most elegant, most intentional and explicit solution?  [LINK IN THE THREE DIFFERENT PERSPECTIVES OF TDD HERE TO.]&lt;/p&gt;
+
+&lt;p&gt;[IT FEELS LIKE THIS COULD GO RIGHT UP AT THE TOP - OR PERHAPS WHEN WE START GETTING TO TOIL/FRICTION/EFFORT.]
+(Programming) Languages are built to provide abstractions. Sometimes they are more explicit than others. Sometimes they are more consistent than others. Sometimes they are more complete than others. Sometimes they are high level, other times they are low level. [SOMETIMES THEY ARE BOTH, EITHER CONSISTENTLY OR INCONSISTENTLY.] Sometimes they [AND THEIR ECOSYSTEMS] are fitted to [THE ENTIRETY OF] our task perfectly. Other times they are not - being incomplete, or having [“CAUSING”?] friction with our mental-solution model [IS THIS MY NAME FOR THE OTHER MODEL?] (Is it easier when we think in their model? “Thinking in Java” for example…)&lt;/p&gt;
+
+&lt;p&gt;[LANGUAGES WHICH FIT:]
+“To begin with, there is the technical difficulty […] that the very form of the sentence does not fit her. It is a sentence made by men; it is too loose, to heavy, too pompous for a woman’s use.” 
+from the essay “Women and Fiction” by Virginia Woolf&lt;/p&gt;
+
+&lt;p&gt;“And this a woman must make for herself, altering and adapting the current sentence until she writes one that takes the natural shape of her thought without crushing or distorting it.”
+from the essay “Women and Fiction” by Virginia Woolf (bold mine)&lt;/p&gt;
+
+&lt;p&gt;How much do we think of the mental models in the minds of others? How much do we care to express what is in our heads clearly, consistently and explicitly? How much do we think about reading again the code we have just output [THIS IS A HEAVY WORD, BUT I LIKE IT HERE] just now in order to get something to work?&lt;/p&gt;
+
+&lt;p&gt;[CONSIDER WHY I WANT TO QUOTE FROM WRITERS (AND OTHER ARTISTS?)]&lt;/p&gt;
+
+&lt;p&gt;[ANOTHER THOUGHT FOR EARLIER ON?]
+How too does this play into Bruce’s ongoing question about control? Do we prefer to be falsely unsurprised or truthfully [?] (and frequently) surprised (and disappointed). IS THIS WHY SO MANY HATE TO EXPERIENCE THEIR CODE RUNNING AS IT WILL SHATTER THEIR ILLUSIONS?&lt;/p&gt;
+
+&lt;p&gt;[ALSO: WHAT ABOUT SYSTEM METAPHOR?]&lt;/p&gt;
+
+&lt;p&gt;N.b. “The Programmers Brain” from Manning https://livebook.manning.com/book/the-programmers-brain/welcome/v-2/&lt;/p&gt;
+
+&lt;p&gt;N.b. TED: How Your Language Shapes the Way You Think https://www.instagram.com/tv/CKXQYJwHckL/?igshid=1vigwv11mgh2s&lt;/p&gt;
+</description>
+                <link>http://andrewharmellaw.github.io/2021/03/15/the-experience-of-development-the-fine-balance</link>
+                <guid>http://andrewharmellaw.github.io/2021/03/15/the-experience-of-development-the-fine-balance</guid>
+                <pubDate>Mon, 15 Mar 2021 00:00:00 +0000</pubDate>
+        </item>
+
+        <item>
+                <title>The Experience of Development - Part 2: Models, All the Way Down</title>
+                <description>
+&lt;figure&gt;&lt;figcaption&gt;Image: Fractral Octahedron, CC BY 2.0, via fdecomite on &lt;a href=&quot;https://www.flickr.com/photos/fdecomite/5371928685/&quot;&gt;Flickr.com&lt;/a&gt;&lt;/figcaption&gt;&lt;img src=&quot;/assets/img/fractral.jpg&quot; /&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;In my &lt;/span&gt; &lt;a href=&quot;/2021/03/08/the-experience-of-development-a-conjecture&quot;&gt;previous post&lt;/a&gt; I put forward the idea that the predictions arising from mental models play an integral role in software development. Unlike that post which was intentionally more formal, this one derives far more from introspection and observation. I want to use this relative freedom to share some musings on the possible natures of, and ways we might manipulate, our mental models from which these predicitons derive. Specifically I want to think about what these models might be made of, and how we might mentally manipulate these thought-units to construct our cloud castles. More prosaically, I also want to introduce terminology (which I’ll flag as side-notes) which I hope will make subsequent posts on the &lt;em&gt;experiences arising&lt;/em&gt; from all these comprehensible.&lt;/p&gt;
+
+&lt;p&gt;In order to speculate in this way, I need to go bring in one more collection of concepts which, despite not appearing so at the time, have continued to resonate with me, and feel relevant for this investigation here.
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Back in 2016 I was trying to learn algebra.  It was long overdue.  It was also hard.  Really hard.  And &lt;a href=&quot;&quot;&gt;once again&lt;/a&gt;, someone from the Java Posse Roundup came to my aid.&lt;/p&gt;
+
+&lt;p&gt;During a conversation that was probably in a queue for coffee, &lt;a href=&quot;&quot;&gt;Todd&lt;/a&gt; had mentioned a book by Barbara Oakley which he’d found useful called &lt;a href=&quot;&quot;&gt;“A Mind for Numbers: How to Excel at Math and Science”&lt;/a&gt;.  I approached it with caution. I rarely have the cheek to say out loud how much I distain these “pop-Psychology” books&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;I have a real Psychology degree forchirstssakes!#$%^*!! &lt;/span&gt;, but I also frequently give them a try, and that’s what I did here, admitting to myself that anything which could give me even a toe-hold on the seemingly impossible cliff-face of mathematics would be of benefit.&lt;/p&gt;
+
+&lt;p&gt;Looking back now, the “pop” aspect had obviously got to me–I only gave it 3 out of 5 stars on GoodReads–but here I am, 4 years later (having &lt;a href=&quot;&quot;&gt;managed to conquer algebra&lt;/a&gt;) referring to it for the second key aspect of my investigation.&lt;/p&gt;
+
+&lt;p&gt;Before writing this post, I went back to Oakley and realised how much it contains. However I only want to bring out two elements here: the limited size of working memory, and a technique to tackle this called “chunking”.&lt;/p&gt;
+
+&lt;p&gt;Working memory first. It’s an enduring concept in Cognitive Psychology, having survived  at least from the days of my degree (1993-97) up to the present day.  It’s an area of mental functioning usefully concieved of as a workbench.  This workbench is where you do your conscious, front-of-mind thinking and decision-making. This “thinking” can function simply to keep information available, such as when you are trying to remember a phone number someone just told you, but it can also be more active and combinatorial, such as when you are trying to solve a maths problem.&lt;/p&gt;
+
+&lt;p&gt;It doesn’t seem like too big a leap to suggest that Working Memory is the locus of active (thinking) work of of software development.  Whether that’s trying to piece elements together to create our solution, or thinking to solve a problem, or figuring out which language construct to use, or even remedying the surprise asrising from the aforementioned mis-match between expectation and sensed reality.&lt;/p&gt;
+
+&lt;p&gt;Now the fact about working memory is that it is limited in capacity.  Oakley characterises it as being capable of containing a finite number of “chunks” (pp.40 in my Kindle edition). Later on in her book she makes it clear that to have a “mind for numbers” (or, by implication a mind tuned for performing any complicated mental-manipulation task) you need to be able to work effectively within this limited-capacity working memory.  Her approach is to meaningfully, and solidly form shorthand thought-units which can, while they only take up one of those precious chunk-slots, represent a  concept of significant depth and detail.&lt;/p&gt;
+
+&lt;p&gt;These “chunks” sound interesting and valuable. Oakley defines them in more detail:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Chunks are pieces of information that are bound together through meaning. You can take the letters ‘p’, ‘o’ and ‘p’ and bind them together into one conceptual, easy-to-remember chunk, the word ‘pop’. Underneath that simple ‘pop’ chunk is a symphony of neurons that have learned to trill in tune with one another. The complex neural activity that ties togerher our simplifying abstract chunks of thought - wether those pertain to acronyms, ideas, or concepts - are the basis of much of science, literature, and art.”&lt;br /&gt;(A Mind for Numbers, Oakley, pp.53)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;She goes on:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Chunking the information you deal with helps your brain run more efficiently. Once you chunk an idea or a concept, you don’t need to remember all the little, underlying details; you’ve got the main idea—the chunk—and that’s enough.”&lt;br /&gt;(A Mind for Numbers, Oakey, pp.53-54)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This all feels super-familiar.  Firstly as a description of daily development experience (which may or may not have a basis in neuropsychogical fact) but also secondly as a concept with exciting echoes and resonances for what we discussed in the previous post, with regards to Friston’s ideas of mental models and their hypotheses arising.&lt;/p&gt;
+
+&lt;p&gt;Given this….&lt;/p&gt;
+
+&lt;p&gt;…
+Given this, and given the fact that it feels as if we are trying to wrestle a finite number for &lt;strong&gt;__&lt;/strong&gt;_ how then might we be …?&lt;/p&gt;
+
+&lt;p&gt;Are we constructing (mental) models out of other models? Out of other &lt;em&gt;mental&lt;/em&gt; models?
+…&lt;/p&gt;
+
+&lt;p&gt;The next question I want to address is “what might be the nature of the thought-units from which our mental-model castles are built?” I propose that these too are mental models; but more specific, more fundamental ones.  My supposition is that, in order to fashion higher-order cloud castles, we manipulate smaller blocks of mental model, blocks which represent concepts we already have. It is, in short, mental models all the way down.  Let me unpack this a little.&lt;/p&gt;
+
+&lt;p&gt;I previously described &lt;a href=&quot;/2021/03/08/the-experience-of-development-a-conjecture&quot;&gt;my proposition&lt;/a&gt; that when I write code I am forming a model in my mind which I concurrently convey to the outside world through code.&lt;/p&gt;
+
+&lt;p&gt;In performing this act of creativity I deploy the raw elements of what I know (or more precisely, &lt;em&gt;what I expect&lt;/em&gt;) of my chosen programming language.  I use these pre-existing blocks of mental model, which comprise my idea of how the programming language and it’s constructs work — let’s call them the “SUBSTRATE”&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;This is your first new terminology alert &lt;/span&gt; models — and from them construct my castle — let’s call that the “CREATION_SOLUTION”&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;This is your second new terminology alert &lt;/span&gt; model.&lt;/p&gt;
+
+&lt;p&gt;From this it quickly becomes clear that these concepts of “SUBSTRATE” and “CREATION_SOLUTION” model are relative.  What from one perspective is the former (i.e.  a LinkedList collection is to me a SUBSTRATE model when I’m flat-mapping my way to a sum), is from another perspective the latter&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;We all know the core libraries we use for example are simply pre-formed building blocks created for us by others &lt;/span&gt; (i.e. a CREATION_SOLUTION model when I’m implementing a quantum-safe collections library) and not just between developers, but within the same individual, depending on the viewpoint we hold at any given point in time during development.  For example, one moment I’m creating a component or a microservice, the next moment I’m calling it.&lt;/p&gt;
+
+&lt;p&gt;Given that the difference here is only one of perspective, &lt;em&gt;and&lt;/em&gt; given our conjecture, both models can be expected to work inside our heads in exactly the same way - by embodying a set of expectations as to how the real-world things they represent are structured and function.&lt;/p&gt;
+
+&lt;p&gt;With that out of the way, we can conclude by kicking around ideas about the act of mental-model construction.  Here I want to turn back to psychology, this time of the Cognitive kind, and to &lt;a href=&quot;https://www.goodreads.com/book/show/18693655-a-mind-for-numbers&quot;&gt;Barbara Oakley’s A Mind for Numbers&lt;/a&gt;. There’s a lot thats good in this book, but one standout to me was the treatment of the concept of chunking and it’s relevance to mental capacity.  Specifically, chunking is the practice of forming single units (“chunks”) from a set of individual mental concepts (or models, if you’re following the line of argument here).  The reason for chunking is humans have a finite capacity for manipulating mental concepts. Forming chunks allows us to group many smaller, lower-level  into a higher level “one” you afford yourself a greater mental capacity&lt;/p&gt;
+
+&lt;p&gt;….&lt;/p&gt;
+
+&lt;p&gt;Before we close I ought to tackle the question around how we work with (or against) these elements (and perhaps adopt other techniques from the book, knowingly or unknowningly) in our acts of development.  Having thought about this &lt;a href=&quot;&quot;&gt;for some time now&lt;/a&gt;, and having spoken to, and watched others in the course of working with code I think we should leave this open for now.  Why? I think this area is one in which a great deal of diversity lies, and consequently will be a fruitful one to investigate, compare / contrast, and discuss, in the main body of this effort.&lt;/p&gt;
+
+</description>
+                <link>http://andrewharmellaw.github.io/2021/03/09/the-experience-of-development-models-all-the-way-down</link>
+                <guid>http://andrewharmellaw.github.io/2021/03/09/the-experience-of-development-models-all-the-way-down</guid>
+                <pubDate>Tue, 09 Mar 2021 00:00:00 +0000</pubDate>
+        </item>
+
+        <item>
+                <title>The Experience of Development - Part 1: A Conjecture</title>
+                <description>
+&lt;p&gt;&lt;em&gt;&lt;span class=&quot;newthought&quot;&gt;It is my conjecture&lt;/span&gt;  that the experience of development, that is to say, how it feels to write code, arises entirely from our responses to convergences of, and differences between, two things: on the one hand our mental models of our code, and on the other, our perceptions arising from the code as it physically exists, outside our heads, on computers.&lt;/em&gt; &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;figure&gt;&lt;figcaption&gt;Image: Gifu City, CC BY 4.0, via Wikimedia Commons&lt;/figcaption&gt;&lt;img src=&quot;/assets/img/gifu_castle_in_sea_clouds.jpg&quot; /&gt;&lt;/figure&gt;
+
+&lt;p&gt;I believe that such a view of our individual and collective experiences with code is a fruitful one, and intend to share both personal insights, and those of others, derived from looking through this lens. However, before I move on to the wealth of perspectives and explanations made possible by this thesis, I want to share why I have come to this conclusion; I want to introduce the ideas from an area of neuroscience pioneered by &lt;a href=&quot;https://en.wikipedia.org/wiki/Karl_J._Friston&quot;&gt;Karl Friston&lt;/a&gt;, and I want to travel there via one of the great writers on the task of programming, &lt;a href=&quot;https://en.wikipedia.org/wiki/Fred_Brooks&quot;&gt;Fred Brooks&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The programmer, like the poet, works only slightly removed from pure thought-stuff. [They] build castles in the air, from air, creating by exertion of the imagination.
+&lt;br /&gt;&lt;cite&gt;Fred Brooks, The Mythical Man-Month&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The fact this decades-old quote still resonates today is because it feels so true to us the  practitioners. I also intend to take licence from it to talk about the experience of development. There is a problem however; the act of development is conceived by a great many of us practitioners as a highly rational act. Is it possible to look through a lens which allows us to cater for this coldly logical aspect without losing our goal? the goal of describing a way to also address the softer, more esoteric side?&lt;/p&gt;
+
+&lt;p&gt;I am going to make such an attempt; an attempt which considers these imagination-castles (less prosaically admittedly) as elaborate, self-consciously-constructed mental models. Might it prove fruitful? Friston’s neuroscience here provides not only a useful perspective on &lt;em&gt;mental models&lt;/em&gt;, but also brings in the other aspect under consideration, &lt;em&gt;their place in experience&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;The first step is to consider his take on mental models and their function as described by Hohwy in his book “The Predictive Mind”:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The brain is a sophisticated hypothesis-testing mechanism, which is constantly involved in minimizing the error of its predictions of the sensory input it receives from the world. […] The hypothesis [is] generated on the basis of our model of the world, and the sensory deliverances coming from the world.
+&lt;br /&gt;&lt;cite&gt;Jakob Hohwy, The Predictive Mind, pp. 1-2&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Let’s flip these statements round so they take us in the right direction.  Friston’s theory posits that our mental models represent how we believe the world to be, and that we are constantly comparing the predictions these models make against the sense-data the world provides.&lt;/p&gt;
+
+&lt;p&gt;With this in place we can now bring in a second element from Friston (again summarised by Hohwy) that brings us another step closer to our conjecture. When our expectations fail to match up with the world-as-sensed we experience surprise, and when we are surprised we respond:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;[P]rior beliefs [are] harnessed in an internal model to generate predictions of the sensory input and then revise the model’s prediction (hypothesis), or change the input, to minimise the prediction error […]. This […] adds [an] all-important predictive element. […] If all this is done in a reasonably optimal fashion, the resulting hypothesis must then be close to the real world’s state of affairs, at least as signalled in the sensory input: nothing is a surprise.
+&lt;br /&gt;&lt;cite&gt;Jakob Hohwy, The Predictive Mind, pp. 44&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The concept of “surprise” (or “surprisal”) here is important.  Hohwy describes its function:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Surprisal is a measure of how surprising it would be to observe the system in question in certain conditions, or having a certain sensory input. It is clear that this can only be assessed relative to its normal state, the state we are most likely to find it in.
+&lt;br /&gt;&lt;cite&gt;Jakob Hohwy, The Predictive Mind, pp. 84&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Once again we can assemble this in terms as they relate to the conjecture.  Our internal mental models can be considered as our beliefs of what should be, and the comparison of these beliefs against sensory feedback from the as-perceived outside world lead to a psychological response - characterised as degrees of “surprise” depending upon how close the hypothesis is to the data.&lt;/p&gt;
+
+&lt;p&gt;We’re almost there, but these descriptions still feel so cold. Despite what has been presented, a reader could still confidently argue that we have not presented enough evidence of a place for  recognisable &lt;em&gt;feelings&lt;/em&gt;, for psychological &lt;em&gt;experiences&lt;/em&gt;. Hohwy offers us a final step:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The prediction-error minimization idea […] (Friston 2010) has extreme explanatory scope. […] Given this […] it seems reasonable to anticipate, even if only briefly, what it will have to say about further, deeper aspects of mentality.
+&lt;br /&gt;&lt;cite&gt;Jakob Hohwy, The Predictive Mind, pp. 241&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;He elaborates:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;In some sense, emotion arises as a kind of perceptual inference on our own internal states. […] Emotions then arise as interoceptive [the sense of the internal state of the body, both conscious and non-conscious] prediction error is explained away. […] We should expect that sometimes it is our expectations for arousal or interoceptive precision that determine where we end up emotionally.
+&lt;br /&gt;&lt;cite&gt;Jakob Hohwy, The Predictive Mind, pp. 242-3&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Let us bring this one last time into our sphere. Hohwy believes&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;I think with some justification &lt;/span&gt; that the consideration of the human drive to minimise prediction-error in our mental models, as manifested by the surprise arising, can be taken broadly to explain many phenomena. One of these is the wholly-internal concept of feelings, of emotion, specifically as means to “explain away” this generic “surprise” which arises from experiencing prediction errors.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;figure&gt;&lt;figcaption&gt;Image: Gaius Cornelius, CC BY-SA 4.0, via Wikimedia Commons&lt;/figcaption&gt;&lt;img src=&quot;/assets/img/clouds.jpg&quot; /&gt;&lt;/figure&gt;
+
+&lt;p&gt;We now have enough to summarise: if Brooks is right, when we develop software, we construct mental castles, or more matter-of-factly, elaborate mental models. In accepting this, we also acknowledge that these castles are expressed — conveyed somehow — to the outside world and into code; and that when the models arrive in the outside world, that realm outside our minds, they must compile, the tests must pass, the executables must run, and they must achieve the goals we’ve set for them, in as many circumstances as we can conceive. &lt;em&gt;They must, in short, meet our predictions; they must operate as we expect them to.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;It is my conjecture therefore that the mental models we have created and subsequently mediated to the outside world in the form of code must match our reality because we expect them to; and when they don’t, we are surprised and it is our individual, nuanced, situation-dependent grappling with this surprise which gives rise to our equally individual experiences of development.&lt;/p&gt;
+
+&lt;p&gt;In my next post I will consider one other important consideration we need in place before we look through this lens: a deeper consideration of the nature of our mental models; of what they are composed, and how we manipulate these thought-units.&lt;/p&gt;
+
+</description>
+                <link>http://andrewharmellaw.github.io/2021/03/08/the-experience-of-development-a-conjecture</link>
+                <guid>http://andrewharmellaw.github.io/2021/03/08/the-experience-of-development-a-conjecture</guid>
+                <pubDate>Mon, 08 Mar 2021 00:00:00 +0000</pubDate>
+        </item>
+
+        <item>
+                <title>The Experience of Development - Foreword</title>
+                <description>
+&lt;figure&gt;&lt;figcaption&gt;This post, and those which follow it, are dedicated to Carl Quinn, and the rest of the Java Posse. Without you none of this would never have happened.  You inspired me.  For that I am eternally grateful. 
+
+Thank you. 🙏 &lt;br /&gt;&lt;br /&gt;Image: Mt Crested Butte, Colorado, USA, taken by the author&lt;/figcaption&gt;&lt;img src=&quot;/assets/img/mt-crested-butte.jpg&quot; /&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;I first thought&lt;/span&gt;  about the experience of development in February 2014, shortly after watching &lt;a href=&quot;https://twitter.com/joesondow&quot;&gt;Joe Sondow&lt;/a&gt; lead an afternoon hackathon session at the then-&lt;a href=&quot;http://javaposse.com/&quot;&gt;Java Posse Roundup&lt;/a&gt; Open Spaces in Created Butte, Colorado.&lt;/p&gt;
+
+&lt;p&gt;Joe was taking us through the &lt;a href=&quot;https://getbootstrap.com/&quot;&gt;Twitter Bootstrap&lt;/a&gt; framework. When we all started, Joe with his MacBook plugged into &lt;a href=&quot;https://twitter.com/BruceEckel&quot;&gt;Bruce Eckel’s&lt;/a&gt; flat-screen, the rest of us watching from the various sofas and easy-chairs dotted around the room, none of us knew much about it.&lt;/p&gt;
+
+&lt;p&gt;As he went about his process of deciphering how Bootstrap was constructed and how it worked, Joe narrated his thought process. Some of us pitched in now and then with suggestions, offering tips when he’d missed something, but largely we were sitting there, inside Joe’s head, seeing his IDE as if through his eyes. I was transfixed. &lt;em&gt;There were so many differences from how I approached the act of development; from how I experienced it&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;The conscious realisation of this only struck me later. While it had been unfolding in front of my eyes I had simply wondered at how Joe reasoned about code; how he had a command of the substrate parts - raw JavaScript and CSS, as well as his tools and what he could rely on them for; how he expressed his mental state as code in his IDE (and equally how he commented things out to see if the extent of what he thought he’d turned off was met by reality).&lt;/p&gt;
+
+&lt;p&gt;It was probably a day later (most likely prompted by yet another session which made me realise how massively different my mental conception of things were from others) that questions began to arise. Questions such as “is there a right way to think about the act of development?”, “how many ways do people think about development?” and the one which stuck with me far more than any other: &lt;strong&gt;“what is it like when people experience the act of development?”&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Over the years that followed this question never went away. I tried to grasp it myself at first, and kept an Evernote notebook full of glipses of people using emotive language with reference to code. I then found Kent Beck’s awe-inspiring foreword to his classic “&lt;a href=&quot;https://www.goodreads.com/book/show/387190.Test_Driven_Development&quot;&gt;Test Driven Development: By Example&lt;/a&gt;”&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Someone needs to draw attention to the great forewords of Software books. There are a lot out there, and we miss out when we skip past them to get to the “real book” &lt;/span&gt; and I could relate to it completely. He talked about discomfort, unease, fear, pleasure, and joy. But he was largely alone. Year on year I kept wondering if this was really something to investigate further, but I could never figure out how. I couldn’t even figure out how to make sense of my own feelings on the subject.&lt;/p&gt;
+
+&lt;p&gt;But slowly things began to come together. Once again the fecund minds of the attendees at the Java Posse Roundup (now re-styled the “&lt;a href=&quot;https://www.wintertechforum.com/&quot;&gt;Winter Tech Forum&lt;/a&gt;”) was the source of virtually all my inspiration. Week after week came the externalised thought processes of people thinking out loud on the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;#code&lt;/code&gt; slack channel (shout outs to &lt;a href=&quot;https://twitter.com/jackgene&quot;&gt;Jack&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/CJPhelps&quot;&gt;Chris&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/joeygibson&quot;&gt;Joey&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/harrison_briner&quot;&gt;Harrison&lt;/a&gt;, Jeremy, &lt;a href=&quot;https://twitter.com/dhagberg&quot;&gt;DJ&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/cutterslade&quot;&gt;Wesley&lt;/a&gt;, Gordon, &lt;a href=&quot;https://twitter.com/quidryan&quot;&gt;Justin&lt;/a&gt;, Tom, &lt;a href=&quot;https://twitter.com/runswithbricks&quot;&gt;Marshall&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/dinomite&quot;&gt;Drew&lt;/a&gt;, J, &lt;a href=&quot;https://twitter.com/topher1120&quot;&gt;Chris&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/mattgrommes&quot;&gt;Matt&lt;/a&gt;). Then there was &lt;a href=&quot;https://twitter.com/BruceEckel&quot;&gt;Bruce&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/_JamesWard&quot;&gt;James&lt;/a&gt;’ in-depth discussions on the act of language design and writing for those of “beginners mind” on the “&lt;a href=&quot;https://twitter.com/HappyPathProg&quot;&gt;Happy Path Programming&lt;/a&gt;” podcast.&lt;/p&gt;
+
+&lt;p&gt;But best of all was the interviews that various attendees (&lt;a href=&quot;https://twitter.com/CJPhelps&quot;&gt;Chris&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/cutterslade&quot;&gt;Wesley&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/dhagberg&quot;&gt;DJ&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/dkarlinsky&quot;&gt;Dmitry&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/harrison_briner&quot;&gt;Harrison&lt;/a&gt; and &lt;a href=&quot;https://github.com/swampdragons&quot;&gt;Megan&lt;/a&gt;) allowed me to stumble through, asking them about their experiences of writing code. I learned so much yet again. I had raw data points all over the place, and data points that were crisp and clear too - I am blessed that everyone I’ve met out at that self-organised conference in a church hall deep in the Colorado Rockies is so eloquent and self-aware. &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;figure&gt;&lt;figcaption&gt;Image: Crested Butte, Colorado, USA, taken by the author&lt;/figcaption&gt;&lt;img src=&quot;/assets/img/crested-butte-view.jpg&quot; /&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;However&lt;/span&gt; , there was still something missing. I didn’t feel that confidence which I thought I’d feel before I took this to the world. To conquer my doubt it needed something to bring it together. I needed a lens to look through. I needed a hypothesis to test. I needed a something like a theory which to interrogate, to prove or invalidate.&lt;/p&gt;
+
+&lt;p&gt;Then one day, it all suddenly came together. I was catching up on the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;#code&lt;/code&gt; channel where Jack was describing a problem in &lt;a href=&quot;https://golang.org/&quot;&gt;Go&lt;/a&gt;, or &lt;a href=&quot;https://www.rust-lang.org/&quot;&gt;Rust&lt;/a&gt;, or something like that.  That wasn’t in itself unusual; it’s what the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;#code&lt;/code&gt; channel is for; but how he described his experience resonated like a bell. What he articulated was his sense of &lt;em&gt;surprise&lt;/em&gt; when how he’d &lt;em&gt;expected&lt;/em&gt; something to work had been very different from how it &lt;em&gt;actually&lt;/em&gt; worked. In that instant all the elements which had up to then been sloshing around my mind suddenly tessellated.&lt;/p&gt;
+
+&lt;p&gt;The unifying element, the structure around which all this formed, had been explained to me years before in Denver Airport by &lt;a href=&quot;https://twitter.com/yakticus&quot;&gt;Julie “yakticus” Amundsen&lt;/a&gt;, was &lt;a href=&quot;https://en.wikipedia.org/wiki/Karl_J._Friston&quot;&gt;Karl Friston’s&lt;/a&gt; idea of our mental models serving to predict the world, our experience of “surprise” when these model’s predictions fail, and the various ways we respond to reduce the impact of this experience.  Yet again, I’d had the concept in front of me for years, and yet again it had come from conversations with a Roundup attendee.&lt;/p&gt;
+
+&lt;p&gt;The posts which follow this one are the result of this realisation. My hope is that not only will they be coherent, but also useful, and perhaps even enjoyable. My next post goes into my idea, stated as a conjecture, in far more detail. The post after that adds some related ideas I’ve gathered, less formalised, but important still for the investigations, hypothesis testings, and resulting musings which will follow, both based on personal, and non-personal reports of the experience of development.&lt;/p&gt;
+
+&lt;p&gt;Next up: &lt;a href=&quot;/2021/03/08/the-experience-of-development-a-conjecture&quot;&gt;The Experience of Development - A Conjecture&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I’d love to know what you think. If you have any thoughts or any other kind of feedback please reach out to me on &lt;a href=&quot;https://twitter.com/al94781&quot;&gt;Twitter&lt;/a&gt;.  Thanks!&lt;/p&gt;
+</description>
+                <link>http://andrewharmellaw.github.io/2021/03/07/the-experience-of-development-foreword</link>
+                <guid>http://andrewharmellaw.github.io/2021/03/07/the-experience-of-development-foreword</guid>
+                <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
+        </item>
 
         <item>
                 <title>Gelfand: Chunk 27 - Proving Some Rules for Roots</title>
@@ -2575,497 +2873,6 @@
                 <link>http://andrewharmellaw.github.io/2017/02/23/gelfands-algebra-chunk-14-polynomial-division-all-the-gory-details</link>
                 <guid>http://andrewharmellaw.github.io/2017/02/23/gelfands-algebra-chunk-14-polynomial-division-all-the-gory-details</guid>
                 <pubDate>Thu, 23 Feb 2017 00:00:00 +0000</pubDate>
-        </item>
-
-        <item>
-                <title>Gelfand: Chunk 13 - Rational Expressions Quickie</title>
-                <description>
-&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;Section 33 of &lt;a href=&quot;https://www.amazon.co.uk/Algebra-I-M-Gelfand/dp/0817636773&quot;&gt;Gelfand’s Algebra&lt;/a&gt;&lt;/span&gt;  introduces the &lt;em&gt;incredibly&lt;/em&gt; simple concept of Rational Expressions.  These are in effect a super-set of polynomials, created by &lt;em&gt;slightly&lt;/em&gt; relaxing the rules of what makes a polynomial a polynomial and allowing in division.&lt;/p&gt;
-
-&lt;p&gt;Did I say “incredibly simple”?  How could I possibly be mistaken? Let’s take a step back for a second to bring something subtle to mind.&lt;/p&gt;
-
-&lt;h2 id=&quot;the-subtleties-of-division&quot;&gt;The Subtleties of Division&lt;/h2&gt;
-&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;In coming back to all this algebra after my last two posts,&lt;/span&gt;  a few fundamental misconceptions from my early maths history have been challenged.  Amongst these was my mistaken belief that multiplication and division were two sides of the same coin in the same way that addition and subtraction actually are.  What I’d failed to grasp was that whereas in the latter, a movement in position of terms &lt;em&gt;was&lt;/em&gt; always possible in my simple world-view (it’s the &lt;a href=&quot;https://andrewharmellaw.github.io/2016/11/23/gelfands-algebra-chunk-2-commutative-associative-and-distributive-laws&quot;&gt;&lt;em&gt;Commutative Law&lt;/em&gt;&lt;/a&gt;, in it’s addition-form)&lt;/p&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; a + b = b + a &lt;/script&gt;&lt;/div&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; a - b = -b + a &lt;/script&gt;&lt;/div&gt;
-
-&lt;p&gt;but the same could not be said for the former (the Commutative Law applies to multiplication but &lt;em&gt;not&lt;/em&gt; division remember).&lt;/p&gt;
-
-&lt;p&gt;Therefore&lt;/p&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; 2 \times 3 = 3 \times 2 &lt;/script&gt;&lt;/div&gt;
-
-&lt;p&gt;but&lt;/p&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; 2 \div 3 \ne 3 \div 2&lt;/script&gt;&lt;/div&gt;
-
-&lt;p&gt;In fact, if you write this in another way, using fractions, then the inequality becomes patently evident.&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;I’ll possibly come back to all this as it seems an area rich in potential discoveries. &lt;/span&gt;&lt;/p&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; \frac{2}{3} \ne \frac{3}{2}&lt;/script&gt;&lt;/div&gt;
-
-&lt;p&gt;It’s nice to note that explicitly - division isn’t a flip side of multiplication.  So keep it in a difference place in your head.&lt;/p&gt;
-
-&lt;p&gt;But we can keep going.  When we do add division, as we have by expanding things to take in rational expressions, there’s also the problem of zero.&lt;/p&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; \frac{0}{3} = 0 &lt;/script&gt;&lt;/div&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; \frac{3}{0} = ...&lt;/script&gt;&lt;/div&gt;
-
-&lt;p&gt;A divide by zero basically blows up on us. Boom!&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Or it does until we get on to the concept of infinity which is another post, perhaps when I get back to &lt;a href=&quot;http://www.turingarchive.org/browse.php/b/12&quot;&gt;Turing&lt;/a&gt; and &lt;a href=&quot;https://www.amazon.co.uk/Annotated-Turing-Through-Historic-Computability/dp/0470229055&quot;&gt;Petzold&lt;/a&gt;. &lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;With these in hand, we can now get back to the concept the post should be about: Rational Expressions.&lt;/p&gt;
-
-&lt;h2 id=&quot;rational-expressions---zero-denominator-disallowed&quot;&gt;Rational Expressions - Zero-Denominator-Disallowed&lt;/h2&gt;
-&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;In his introduction to these,&lt;/span&gt;  Gelfand basically points out the latter of the two realisations above - you can’t have a denominator in a rational expression which is zero, or is &lt;em&gt;identically equal to zero&lt;/em&gt; (&lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;x - x&lt;/script&gt;&lt;/span&gt; is his example).  Given the above notes, it’s clear why this is the case.&lt;/p&gt;
-
-&lt;h2 id=&quot;the-actual-work-of-rational-expressions&quot;&gt;The Actual Work of Rational Expressions&lt;/h2&gt;
-&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;Usually I’d now embark on a long-winded explanation&lt;/span&gt;  of how I eventually grokked this concept, and the tricks arising, but it was in fact (aside from the above notes) very simple given I’d already got my head round much fo these concepts when confronting Fractions (see &lt;a href=&quot;https://andrewharmellaw.github.io/2016/11/30/gelfands-algebra-chunk-4-fractions-urgh&quot;&gt;Chunk 4 - Fractions Ugh&lt;/a&gt;).  What you do need to do however is hop over there. You might recall I jumped ahead at that point to discuss the various rules of working with fractions&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Adding, multiplying, etc. &lt;/span&gt; and I jumped ahead to this section of Gelfand.&lt;/p&gt;
-
-&lt;h2 id=&quot;some-form-of-concluding-aside&quot;&gt;Some Form of Concluding Aside&lt;/h2&gt;
-&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;There’s not much else to put in this chunk&lt;/span&gt;  I don’t think.  So to give things some kind of conclusion, I wanted to share a bit of knowledge I extrapolated from &lt;a href=&quot;https://www.amazon.co.uk/Annotated-Turing-Through-Historic-Computability/dp/0470229055&quot;&gt;Petzold&lt;/a&gt; which I’m currently reading in parallel to writing this.  Here it comes:&lt;/p&gt;
-
-&lt;p&gt;Rational expressions are so called, because they are ratios of something else, i.e. fractions of polynomials.&lt;/p&gt;
-
-&lt;p&gt;I’m guessing here, but based on the fact that the “&lt;em&gt;rational&lt;/em&gt; numbers” are ones which can be expressed as &lt;em&gt;ratios&lt;/em&gt; of two integers (e.g. &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;\frac{2}{3}&lt;/script&gt;&lt;/span&gt;). I think this isn’t too much of a leap.&lt;/p&gt;
-</description>
-                <link>http://andrewharmellaw.github.io/2017/02/21/gelfands-algebra-chunk-13-rational-expressions-concepts</link>
-                <guid>http://andrewharmellaw.github.io/2017/02/21/gelfands-algebra-chunk-13-rational-expressions-concepts</guid>
-                <pubDate>Tue, 21 Feb 2017 00:00:00 +0000</pubDate>
-        </item>
-
-        <item>
-                <title>Gelfand: Aside 2 - Binary? Who Cares?</title>
-                <description>
-&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;There is a section in Gelfand&lt;/span&gt; &lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Section 7, Problems 15 to 24. &lt;/span&gt; which covers the Binary Number system.  It kind of comes out of the blue, and while it’s handy to see that all of the tricks you have just seen from the Decimal Number System still apply it’s sometimes hard to see why you should care beyond nothing that both are posiotional and lots of our tricks are based on this rather than on the digits we’re allowed to use.&lt;/p&gt;
-
-&lt;p&gt;I now care.&lt;/p&gt;
-
-&lt;p&gt;Why? Because I’m reading &lt;a href=&quot;https://www.amazon.co.uk/Annotated-Turing-Through-Historic-Computability/dp/0470229055&quot;&gt;Charles Petzold’s “The Annotated Turing”&lt;/a&gt; which is pretty much a massive (and brilliant) &lt;a href=&quot;https://en.wikipedia.org/wiki/Gloss_(annotation)&quot;&gt;gloss&lt;/a&gt; on Alan Turing’s classic paper &lt;a href=&quot;http://www.turingarchive.org/browse.php/b/12&quot;&gt;“On Computable Numbers, with an Application to the Entscheidungsproblem” (1936)&lt;/a&gt;.  It could be argued that the reason modern computers use binary is down to a decision Turing made.&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;See pp. 73 of Petzold for some background. &lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;Because I didn’t care&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;And because I thought it was too easy &lt;/span&gt; I didn’t blog some highlights of binary when I passed it.  I’m going to make up for that now.&lt;/p&gt;
-
-&lt;h2 id=&quot;visualising-carries-in-binary-addition&quot;&gt;Visualising Carries in Binary Addition&lt;/h2&gt;
-&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;I covered the &lt;em&gt;Addition Algorithm&lt;/em&gt;&lt;/span&gt;  in the decimal system in &lt;a href=&quot;https://andrewharmellaw.github.io/algebra/2016/11/16/gelfands-algebra-chunk-1-fundamentals&quot;&gt;Chunk 1&lt;/a&gt;.  Let’s see it in action in binary, taking the addition from page 101 of Petzold.&lt;/p&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;\begin{matrix} \phantom0 \phantom0 \phantom0 \phantom0 \phantom0 \phantom0 \texttt{1} \texttt{0} \texttt{1} \texttt{1} \texttt{1} \\ \phantom0 \phantom0 \phantom0 \phantom0 \phantom0 \texttt{1} \texttt{0} \texttt{1} \texttt{1} \texttt{1} \phantom0 \\ \phantom0 \phantom0 \phantom0 \phantom0 \texttt{1} \texttt{0} \texttt{1} \texttt{1} \texttt{1} \phantom0 \phantom0 \\ \phantom0 \phantom0 \phantom0 \texttt{0} \texttt{0} \texttt{0} \texttt{0} \texttt{0} \phantom0 \phantom0 \phantom0 \\ \texttt{+} \phantom0 \texttt{1} \texttt{0} \texttt{1} \texttt{1} \texttt{1} \phantom0 \phantom0 \phantom0 \phantom0 \\ \texttt{1} \texttt{1} \texttt{1} \texttt{1} \texttt{1} \texttt{1} \phantom0 \phantom0 \phantom0 \\
-\underline{\texttt{1} \texttt{1} \texttt{1} \texttt{1} \texttt{1} \texttt{1} \phantom0 \phantom0 \phantom0 \phantom0 \phantom0 } \\ \texttt{1} \texttt{0} \texttt{0} \texttt{0} \texttt{0} \texttt{1} \texttt{0} \texttt{0} \texttt{0} \texttt{1} \texttt{1} \end{matrix}&lt;/script&gt;&lt;/div&gt;
-
-&lt;p&gt;Now this is largely a straight copy, but I’ve made two things a little clearer -  I’ve tried to lay the out the columns with a monostpaced font&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;The non-fixed-width font makes things a little unclear in the book, something which is &lt;em&gt;incredibly&lt;/em&gt; rare in Petzold. &lt;/span&gt; and I’ve also shown the carries as two extra rows below the line with the &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;+&lt;/script&gt;&lt;/span&gt; symbol.&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Petzold doesn’t, he just assumes you can picture them in your head. &lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;It’s the showing of the carries which I wanted to talk about a little more.  Grokking this was the key step in getting this to stick.  I had real difficulty in getting this as I kept wanting to fall back to decimal thinking.  That’ll confuse you.&lt;/p&gt;
-
-&lt;p&gt;We’ll start with the super-useful table Petzold gives us on page 100.  But we’re going to jig it around a bit and add something - the carries.&lt;/p&gt;
-
-&lt;p&gt;First up, here’s my version of the table (we’re not carrying anything in any of these, as denoted by “Carried Digits” but we still might end up with one in our output, as denoted by “Carry”):&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;First digit: 0, Second Digit: 0, Carried Digit(s): (none), Result: 0, Carry: 0&lt;/li&gt;
-  &lt;li&gt;First digit: 0, Second Digit: 1, Carried Digit(s): (none), Result: 1, Carry: 0&lt;/li&gt;
-  &lt;li&gt;First digit: 1, Second Digit: 0, Carried Digit(s): (none), Result: 1, Carry: 0&lt;/li&gt;
-  &lt;li&gt;First digit: 1, Second Digit: 1, Carried Digit(s): (none), Result: 0, Carry: 1&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;See the result of the fourth line?  That’s what I want to highlight.  The result for the column is “&lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;0&lt;/script&gt;&lt;/span&gt;”, but we are now also carrying a “&lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;1&lt;/script&gt;&lt;/span&gt;”.  Now let’s see the next five rows of the new table with this carry now being taken into consideration:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;First digit: 0, Second Digit: 0, Carried Digit(s): 1, Result: 1, Carry: 0&lt;/li&gt;
-  &lt;li&gt;First digit: 0, Second Digit: 1, Carried Digit(s): 1, Result: 0, Carry: 1&lt;/li&gt;
-  &lt;li&gt;First digit: 1, Second Digit: 0, Carried Digit(s): 1, Result: 0, Carry: 1&lt;/li&gt;
-  &lt;li&gt;First digit: 1, Second Digit: 1, Carried Digit(s): 1, Result: 1, Carry: 11&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;It’s all pretty logical as you can see, but I ended up having to pull this out in this form just so I could see the rules in action for myself.  Note that now in all but the fifth line our results are now always in something-to-carry-land.  Our rules are working just like they do when we do decimal addition, but it’s just happening more freuqently as we have less digits to apply per position.&lt;/p&gt;
-
-&lt;p&gt;Also note the fact that in the eighth column we are now carrying &lt;em&gt;two&lt;/em&gt; &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;1&lt;/script&gt;&lt;/span&gt;s.  The trick here is to &lt;em&gt;not&lt;/em&gt; let yourself think of them as “eleven”.  They aren’t.&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Obviously - but I kept falling into that pit so I thought you’d benefit from having a reminder too. &lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;This is great, but what happens when we’re adding more than two digits and a carry?  That’s not very difficult either, and it’s to this point we need to get to feel assured the first addition on page 101 of Petzold is grokked.&lt;/p&gt;
-
-&lt;p&gt;We’re also going to drop the “carried digit(s)” concept now.  Carried digits are just treated like any other additional digits, and that’s the secret to all of this.&lt;/p&gt;
-
-&lt;p&gt;The key to this is that when we have two &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;1&lt;/script&gt;&lt;/span&gt;’s to add, we get a &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;0&lt;/script&gt;&lt;/span&gt;, and carry a &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;1&lt;/script&gt;&lt;/span&gt;, and any more than this, we stil get a &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;0&lt;/script&gt;&lt;/span&gt;, but we carry more ones.  When we’re considering the carried &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;1&lt;/script&gt;&lt;/span&gt;’s, they are &lt;em&gt;now&lt;/em&gt; treated just like additional digits.  Carried two &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;1&lt;/script&gt;&lt;/span&gt;’s? Treat them as &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;1&lt;/script&gt;&lt;/span&gt; and &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;1&lt;/script&gt;&lt;/span&gt; (so if everything else is &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;0&lt;/script&gt;&lt;/span&gt; then you will have a result of &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;0&lt;/script&gt;&lt;/span&gt; and a carry of &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;1&lt;/script&gt;&lt;/span&gt;).  Carried three &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;1&lt;/script&gt;&lt;/span&gt;’s? Treat them as &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;1&lt;/script&gt;&lt;/span&gt; and &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;1&lt;/script&gt;&lt;/span&gt; and &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;1&lt;/script&gt;&lt;/span&gt;, etc. etc.&lt;/p&gt;
-
-&lt;p&gt;So what happens when you use this and work through the addition in Petzold?  Well, the worst you have to deal with is a bunch of “&lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;11&lt;/script&gt;&lt;/span&gt;” carries, which at the end result in the far-left &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;1&lt;/script&gt;&lt;/span&gt; in the answer.&lt;/p&gt;
-
-&lt;h2 id=&quot;the-multiplication-algorithm-in-binary&quot;&gt;The Multiplication Algorithm in Binary&lt;/h2&gt;
-&lt;p&gt;So what about multiplication?  I’ve actually been lying this whole post - the top sum on page 101 of Petzold is actually the second step consequent to us using the standard “Multiplication Algorithm for Multi-Digit Factors” (see &lt;a href=&quot;https://andrewharmellaw.github.io/algebra/2016/11/16/gelfands-algebra-chunk-1-fundamentals&quot;&gt;my previoulsy-mentioned first Chunk post&lt;/a&gt; for more.)  To get to this addition, we just applied the same rules as we would have in decimal-land to the multiplicands.  It’s actually super-easy in binary land because we’re either just left-shifting (when we see a 1) or having a row of zeros (when we see a 0).  It’s so simple in fact I’ll just leave you to look at Petzold.  There’s little point in my repeating it here.&lt;/p&gt;
-
-&lt;h2 id=&quot;conclusion-of-sorts&quot;&gt;Conclusion (of Sorts)&lt;/h2&gt;
-&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;“Left-shifting”?&lt;/span&gt;   Doesn’t that sound like a feature of primitives in many programming languages&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;E.g. Java &lt;/span&gt; that gets mentioned (and ignored if you’re me) whenever you read about support for the more primitive data types and their manipulation?  Yup, I think so.  But I’ll save that for another post.&lt;/p&gt;
-</description>
-                <link>http://andrewharmellaw.github.io/2017/02/20/gelfands-algebra-aside-2-binary-who-cares</link>
-                <guid>http://andrewharmellaw.github.io/2017/02/20/gelfands-algebra-aside-2-binary-who-cares</guid>
-                <pubDate>Mon, 20 Feb 2017 00:00:00 +0000</pubDate>
-        </item>
-
-        <item>
-                <title>Gelfand: Aside 1 - Proofs!?!?!</title>
-                <description>
-&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;In the last few problems in the Factorials section of Gelfand&lt;/span&gt;  he asks you to “prove” things.  I wasn’t sure how to approach this.  Up until now I’ve just been “solving”.  This post catalogs the process of my working this out.&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;I’m certain that the philosophy of proofs is far more complex than I am about to cover here. In fact I have another book to read at some point in the future which links Haskell, Mathematics, and the construction and use of Proofs.  It all means I’ll probably post again at some point in the future on this topic. &lt;/span&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;a-first-stab-at-a-proof&quot;&gt;A First Stab at a Proof&lt;/h2&gt;
-&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;Let’s dive straight into the first problem&lt;/span&gt;  - Problem 123.&lt;/p&gt;
-
-&lt;p&gt;Prove that if &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a, b \gt 1&lt;/script&gt;&lt;/span&gt; then &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a + b \lt 1 + ab&lt;/script&gt;&lt;/span&gt;.&lt;/p&gt;
-
-&lt;p&gt;Now on it’s own, I initially had no idea how to approach this. But we get a clue.  Gelfand suggests we “factor &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;(1 + ab) - (a + b)&lt;/script&gt;&lt;/span&gt;”.  You can see in here that the component parts have clearly come from the original formula which we need to prove.&lt;/p&gt;
-
-&lt;p&gt;Let’s factor using our new-found skills.&lt;/p&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;(1 + ab) - (a + b) = &lt;/script&gt;&lt;/div&gt;
-
-&lt;p&gt;Hmmm, not like anything we’ve seen before really. And not much to do. Perhaps if we simply remove the brackets&lt;/p&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = 1 + ab - a - b = &lt;/script&gt;&lt;/div&gt;
-
-&lt;p&gt;and re-arrange&lt;/p&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = ab - a - b + 1 = &lt;/script&gt;&lt;/div&gt;
-
-&lt;p&gt;Does that look a little like a kind-of-polynomial? (I.e. like &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;x^2 - 2x + 1&lt;/script&gt;&lt;/span&gt; - I was happy to have a go to this point without reference to &lt;a href=&quot;https://www.scribd.com/document/243387607/Gelfand-Algebra-Solutions&quot;&gt;Durham&lt;/a&gt;).  Let’s try it and see.  If it is, then we could do some nice factorisation on it, but with &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a&lt;/script&gt;&lt;/span&gt; as our first &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;x&lt;/script&gt;&lt;/span&gt; and &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;b&lt;/script&gt;&lt;/span&gt; as our second.  That gives us this&lt;/p&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = (a - 1)(b - 1) &lt;/script&gt;&lt;/div&gt;
-
-&lt;p&gt;Is that right?  Sometimes I doubt myself. Let’s quickly multiply it back out to check.&lt;/p&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; ab - a - b - 1&lt;/script&gt;&lt;/div&gt;
-
-&lt;p&gt;Awesome!&lt;/p&gt;
-
-&lt;p&gt;Now what do we need to do?  Well, the problem requires that we prove that when &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a&lt;/script&gt;&lt;/span&gt; and &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;b&lt;/script&gt;&lt;/span&gt; are both greater than one, then &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a + b \lt 1 + ab&lt;/script&gt;&lt;/span&gt;.  If we look at our factorisation, we can easily see that when &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a&lt;/script&gt;&lt;/span&gt; and &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;b&lt;/script&gt;&lt;/span&gt; are greater than one we get a positive result.  If either or both are less than or equal to one then we get a zero or negative result.  That’s the point of the factorisation I deduce.&lt;/p&gt;
-
-&lt;p&gt;So, at this point, it &lt;em&gt;kind of&lt;/em&gt; felt like we’ve proved this, but the issue here is still the leap made at the start - how were we to know that doing such a factorisation would lead us to this factorisation and therefore to the proof?  Let’s look back at the problem and the thing to factor.&lt;/p&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; a + b &lt; 1 + ab &lt;/script&gt;&lt;/div&gt;
-
-&lt;p&gt;The first step of the transformation from this statement into the expression we want to factor is the simple addition of brackets:&lt;/p&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = (a + b) &lt; (1 + ab) = &lt;/script&gt;&lt;/div&gt;
-
-&lt;p&gt;And subsequent to this there is the effective moving of the right hand side across to the left hand side (with corresponding change in sign from positive to negative.)&lt;/p&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; \rightarrow (a + b) - (1 + ab) &lt;/script&gt;&lt;/div&gt;
-
-&lt;p&gt;I pondered this next bit for a while.  (In fact I stopped writing this, went off and did other things, and have now come back 24 hours later.)  (Note, I dropped the “&lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt; \gt 0&lt;/script&gt;&lt;/span&gt;” bit as it no longer served any purpose for us. Nigglingly, when we bring it back later in this section, the direction of the symbol changes, but I have looked at both versions every which way and both seem valid and correct in the circumstances they are being used.  To reconcile this in my head I had to remember there will be times when &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;(a + b) - (1 + ab)&lt;/script&gt;&lt;/span&gt; would be equalt to zero, times when it would be less than zero, and times when it would be greater than zero - in each case based entirely on the input values for &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a&lt;/script&gt;&lt;/span&gt; and &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;b&lt;/script&gt;&lt;/span&gt;.)&lt;/p&gt;
-
-&lt;p&gt;Moving on from this very difference, there are two significant elements in our question which we need to acknowledge.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;we have a &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;\lt&lt;/script&gt;&lt;/span&gt; in our starting point rather than an &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;=&lt;/script&gt;&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;we have a statement: “if &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a, b \gt 1&lt;/script&gt;&lt;/span&gt; then …” that our starting formula has applied to it&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Unlike in everything we’ve done previously, we’re now looking at a problem of the type “when something is the case, then something else is also the case.”  Can we do anything with that?&lt;/p&gt;
-
-&lt;p&gt;In our situation, if one thing is to be greater than another, then to be true, when you subtract the bigger thing from the smaller thing (i.e. move the bigger thing from it’s side of the equation to the same side as the smaller thing) then the result will be less than zero.&lt;/p&gt;
-
-&lt;p&gt;Or to put it more clearly in a symbolic fashion&lt;/p&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; a &lt; b &lt;/script&gt;&lt;/div&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; a - b &lt; 0 &lt;/script&gt;&lt;/div&gt;
-
-&lt;p&gt;And you then test it by putting in values for a and b which meet the criteria &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a \lt b&lt;/script&gt;&lt;/span&gt;.&lt;/p&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; 3 &lt; 4 &lt;/script&gt;&lt;/div&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; 3 - 4 = -1 &lt;/script&gt;&lt;/div&gt;
-
-&lt;p&gt;Which is correct as &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;-1&lt;/script&gt;&lt;/span&gt; is indeed less than &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;0&lt;/script&gt;&lt;/span&gt;.&lt;/p&gt;
-
-&lt;p&gt;So how do we take this back to our problem?  We know, because we followed mathematical rules when we factored, that &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;(a - 1)(b - 1)&lt;/script&gt;&lt;/span&gt; and &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;(a + b) - (1 + ab)&lt;/script&gt;&lt;/span&gt; are equivalent.  We are now in the position to put back in our less-than statement and test our conjecture.&lt;/p&gt;
-
-&lt;p&gt;&lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;(a - 1)(b - 1) \gt 0&lt;/script&gt;&lt;/span&gt; when &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a, b \gt 1&lt;/script&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;Now we can see why our factoring helped.  It’s obvious from the new-found clarity, that if either &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a&lt;/script&gt;&lt;/span&gt; or &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;b&lt;/script&gt;&lt;/span&gt; (or both) are less than &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;0&lt;/script&gt;&lt;/span&gt; then the result will be less than zero.  But that if both &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a&lt;/script&gt;&lt;/span&gt; and &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;b&lt;/script&gt;&lt;/span&gt; are greater than zero then the product will be greater than zero too.  That clarity is why it’s a &lt;em&gt;proof&lt;/em&gt;; because the finding is undeniable.&lt;/p&gt;
-
-&lt;h2 id=&quot;next-stab---problem-124&quot;&gt;Next Stab - Problem 124&lt;/h2&gt;
-&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;This one looks a bit easier.&lt;/span&gt;  No “greater than” or “less than” symbols.&lt;/p&gt;
-
-&lt;p&gt;Let’s write out our starting point first&lt;/p&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;a^2 + ab + b^2 = 0&lt;/script&gt;&lt;/div&gt;
-
-&lt;p&gt;And then bring in the factoring of &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a^3 - b^3&lt;/script&gt;&lt;/span&gt; to look at side-by-side as suggested by Gelfand.&lt;/p&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; a^3 - b^3 = &lt;/script&gt;&lt;/div&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = a^3 - a^2b + a^2b - ab^2 + ab^2 - b^3 = &lt;/script&gt;&lt;/div&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = a^2(a - b) - ab(a - b) + b^2(a - b) = &lt;/script&gt;&lt;/div&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = (a^2 + ab + b^2)(a - b)&lt;/script&gt;&lt;/div&gt;
-
-&lt;p&gt;Hmmm, there is a direct match in there - the first part of the factored output is the same as our proof starting point.&lt;/p&gt;
-
-&lt;p&gt;But what does this mean?  I’ll admit I had to cheat and read Durham here.  He then combines the two, so I’ll do the same (remember that in our case &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a^2 + ab + b^2 = 0&lt;/script&gt;&lt;/span&gt;)&lt;/p&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; a^3 - b^3 = (0)(a - b) &lt;/script&gt;&lt;/div&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;\rightarrow a^3 - b^3 = 0 &lt;/script&gt;&lt;/div&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;\rightarrow a^3 = b^3 &lt;/script&gt;&lt;/div&gt;
-
-&lt;p&gt;That rules-wise makes sense, but what am I doing here? (What is anyone doing here?)&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;We’re aiming to find out the circumstances when &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a^2 + ab + b^2 = 0&lt;/script&gt;&lt;/span&gt;.  OK.&lt;/li&gt;
-  &lt;li&gt;We’ve now seen that this forms a part of a factoring of &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a^3 - b^3&lt;/script&gt;&lt;/span&gt;.  OK.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;What I missed was looking at the &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a^3 - b^3&lt;/script&gt;&lt;/span&gt;.  Now when is &lt;em&gt;this&lt;/em&gt; zero?  This is zero whenever &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a = b&lt;/script&gt;&lt;/span&gt;.  Nice.  And it’s even distilled for us in the remainder of the factored result - &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;(a - b)&lt;/script&gt;&lt;/span&gt; - which is zero again whenever &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a = b&lt;/script&gt;&lt;/span&gt;.&lt;/p&gt;
-
-&lt;p&gt;Combined, &lt;em&gt;that’s&lt;/em&gt; the echo of a future solution-reason calling me, and enough to move forward.&lt;/p&gt;
-
-&lt;p&gt;So do we have our proof with this alone?  Again &lt;em&gt;I&lt;/em&gt; think you could stop at this point, given where we are in the Gelfand-journey.&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;I might come back to this in an update to this post sometime. &lt;/span&gt; &lt;a href=&quot;https://www.scribd.com/document/243387607/Gelfand-Algebra-Solutions&quot;&gt;Durham&lt;/a&gt; however goes further. He then analyses &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a^2 + ab + b^2 = 0&lt;/script&gt;&lt;/span&gt; directly.  I encourage you to take a look and see what you can glean.&lt;/p&gt;
-
-&lt;h2 id=&quot;problem-125&quot;&gt;Problem 125&lt;/h2&gt;
-&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;Prove that&lt;/span&gt;  if &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a + b + c = 0&lt;/script&gt;&lt;/span&gt; then &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a^3 + b^3 + c^3 = 3abc&lt;/script&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;First step is again to see have we seen any of this (or parts of this) before?&lt;/p&gt;
-
-&lt;p&gt;We have.  Problem 122(d) had this:&lt;/p&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;a^3 + b^3 + c^3 - 3abc&lt;/script&gt;&lt;/div&gt;
-
-&lt;p&gt;How did we factor that?  Well, I looked back and I didn’t - I just fell back on &lt;a href=&quot;https://www.scribd.com/document/243387607/Gelfand-Algebra-Solutions&quot;&gt;Durham&lt;/a&gt; (even he thought it was hard.)  So what does his factoring give us?  There we saw that &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a^3 + b^3 + c^3 - 3abc = (a + b + c) \times ...&lt;/script&gt;&lt;/span&gt;.&lt;/p&gt;
-
-&lt;p&gt;We can work with that, so, when &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;(a + b + c ) = 0&lt;/script&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; a^3 + b^3 + c^3 - 3abc = (a + b + c)(...)&lt;/script&gt;&lt;/div&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; \rightarrow a^3 + b^3 + c^3 - 3abc = 0 \times (...)&lt;/script&gt;&lt;/div&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; \rightarrow a^3 + b^3 + c^3 - 3abc = 0 &lt;/script&gt;&lt;/div&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; \rightarrow a^3 + b^3 + c^3 = 3abc &lt;/script&gt;&lt;/div&gt;
-
-&lt;p&gt;Proved.&lt;/p&gt;
-
-&lt;h2 id=&quot;tricks-arising&quot;&gt;Tricks Arising&lt;/h2&gt;
-
-&lt;h3 id=&quot;look-for-the-same-pattern-in-things-you-know-beyond-the-standard-short-cut-formulas&quot;&gt;Look for the Same Pattern in Things You Know (Beyond the Standard Short-Cut Formulas)&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;Many&lt;/em&gt; of the solutions to the proof-problems in this post have involved looking back to what we have seen worked previously.  It makes the clear (but possibly not self-evident) point that &lt;em&gt;anything&lt;/em&gt; can be a pattern to match on.  The &lt;em&gt;short-cut formulas&lt;/em&gt; are key ones because they pop up &lt;em&gt;a lot&lt;/em&gt;, but others work in just the same way, by giving you a sudden jump into a well-worn path to differently formed expressions and perhaps further leaps.&lt;/p&gt;
-
-&lt;h2 id=&quot;some-kind-of-a-conclusion&quot;&gt;Some Kind of a Conclusion&lt;/h2&gt;
-&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;I’m going to be honest&lt;/span&gt;  and state that I’m still not 100% certain as to the difference between a solution and a proof.  It’ll get clearer I’m sure and I’ll come back here and update this when I get something more pithy.&lt;/p&gt;
-
-&lt;p&gt;Suffice to say, I’m currently under the impression that for something to be a “proof”, you need to be able to get from your starting point, using only allowable mathematical manipulations, to something which allows you to state unequivocally that the proposition you need to make is true (and is the only thing that can be true).&lt;/p&gt;
-
-&lt;p&gt;Having written it out, that actually seems quite correct.  I’m guessing there is also the ideal which I shoudl be aiming for which is something which is “simple” , and in that aspect I would guess that “simple” is an end result where things are plain as day, or where the steps taken to get there are few and direct.&lt;/p&gt;
-
-&lt;p&gt;I might come back to this too.&lt;/p&gt;
-
-&lt;p&gt;You can now jump to th enext post which is &lt;a href=&quot;https://andrewharmellaw.github.io/2017/02/20/gelfands-algebra-aside-2-binary-who-cares&quot;&gt;another aside, this time on the Binary Number System&lt;/a&gt;, or you can skip it and move on to &lt;a href=&quot;https://andrewharmellaw.github.io/2017/02/21/gelfands-algebra-chunk-13-rational-expressions-concepts&quot;&gt;Chunk 13 - Rational Expressions&lt;/a&gt;.&lt;/p&gt;
-</description>
-                <link>http://andrewharmellaw.github.io/2017/02/15/gelfands-algebra-aside-1-proofs</link>
-                <guid>http://andrewharmellaw.github.io/2017/02/15/gelfands-algebra-aside-1-proofs</guid>
-                <pubDate>Wed, 15 Feb 2017 00:00:00 +0000</pubDate>
-        </item>
-
-        <item>
-                <title>Gelfand: Chunk 12 - The Hard Ones</title>
-                <description>
-&lt;h2 id=&quot;something-fails-then-something-new-comes-along&quot;&gt;Something Fails. Then Something New Comes Along&lt;/h2&gt;
-&lt;p&gt;(&lt;span class=&quot;newthought&quot;&gt;And by “comes along” I mean Gelfand gifts us another trick-nugget.&lt;/span&gt; )&lt;/p&gt;
-
-&lt;p&gt;In Problem 119, Gelfand asks us to factor &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a^4 + b^4&lt;/script&gt;&lt;/span&gt;.  It looks simple enough.  But it’s not.  Spot the ‘&lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;+&lt;/script&gt;&lt;/span&gt;’.  That, plus the pesky even-ness of the powers mean our seemingly all-conquering tricks have encountered a crack in their armour.&lt;/p&gt;
-
-&lt;p&gt;But let’s pretend for a minute that we didn’t know this. What would we have tried to do.&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;And failed? &lt;/span&gt; Probably something like the following which takes inspiration from our workings in the &lt;a href=&quot;https://andrewharmellaw.github.io/2017/01/20/gelfands-algebra-chunk-11-factoring-to-zero&quot;&gt;previous chunk - Factoring to Zero&lt;/a&gt;.&lt;/p&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;a^4 + b^4 = &lt;/script&gt;&lt;/div&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = a^4 + a^3b - a^3b + a^2b^2 - a^2b^2 + ab^3 - ab^3 - b^4 = &lt;/script&gt;&lt;/div&gt;
-
-&lt;p&gt;That first bit works; now the next step: pulling out the factor &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;(a + b)&lt;/script&gt;&lt;/span&gt;.  We might start by copying the line straight from the &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a^4 - b^4&lt;/script&gt;&lt;/span&gt; example we’re following which gives us&lt;/p&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = a^3(a + b) + a^2b(a + b) + ab^2(a + b) + b^3(a + b)  = &lt;/script&gt;&lt;/div&gt;
-
-&lt;p&gt;We know this is wrong, because we lifted it from &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a^4 - b^4&lt;/script&gt;&lt;/span&gt;, but how do we make it right? We know we need to get our negatively-signed terms which we un-annihilated from somewhere.  When we were starting with powers of three, this was easy. We would have had the following, with the middle term negative&lt;/p&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;a^2(a + b) - ab(a + b) + b^2(a + b)&lt;/script&gt;&lt;/div&gt;
-
-&lt;p&gt;But here we have two terms, &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a^2b(a + b)&lt;/script&gt;&lt;/span&gt; and &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;ab^2(a + b)&lt;/script&gt;&lt;/span&gt; to deal with.  Do we make the first one negative and leave the other?  What happens then?&lt;/p&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = a^3(a + b) - a^2b(a + b) + ab^2(a + b) + b^3(a + b)  = &lt;/script&gt;&lt;/div&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = a^4 + a^3b - a^3b - a^2b^2 + a^2b^2 + ab^3 + ab^3 + b^4 = &lt;/script&gt;&lt;/div&gt;
-
-&lt;p&gt;Hmmm, that’s &lt;em&gt;almost&lt;/em&gt; right, but we have two positive &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;ab^3&lt;/script&gt;&lt;/span&gt;s.  That’s bad.&lt;/p&gt;
-
-&lt;p&gt;So what happens if we make &lt;em&gt;both&lt;/em&gt; middle-terms negative?&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Making the second middle term negative while leaving the first positive gives us nothing new. &lt;/span&gt;&lt;/p&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = a^3(a + b) - a^2b(a + b) - ab^2(a + b) + b^3(a + b)  = &lt;/script&gt;&lt;/div&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = a^4 + a^3b - a^3b - a^2b^2 - a^2b^2 - ab^3 + ab^3 + b^4 = &lt;/script&gt;&lt;/div&gt;
-
-&lt;p&gt;That solves our &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;ab^3&lt;/script&gt;&lt;/span&gt; problem, but now we have two negative &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a^2b^2&lt;/script&gt;&lt;/span&gt;s.  That sucks.  Both options failed us. It seems we’re screwed.&lt;/p&gt;
-
-&lt;p&gt;But before we get pulled into the Sough of Despond, let’s see if we can pull any good from this.&lt;/p&gt;
-
-&lt;h2 id=&quot;trick-clarifications-arising&quot;&gt;Trick Clarifications Arising&lt;/h2&gt;
-
-&lt;h3 id=&quot;when-factoring-with-odd-powers-ask-what-gives-a-zero-result&quot;&gt;When Factoring with &lt;em&gt;Odd Powers&lt;/em&gt; Ask “What Gives a Zero Result?”&lt;/h3&gt;
-&lt;p&gt;It turns out that to use the “Ask ‘What Gives a Zero Result’” trick; the one which until now had felt pretty generally-awesome; you need to be working with an &lt;em&gt;odd&lt;/em&gt; power, because that gives you an odd number of terms to work with at the key step.  If you’re working with even powers, you’re out of luck as you can’t get the positives and negatives to match up.&lt;/p&gt;
-
-&lt;p&gt;But what about the other power-move Gelfand showed us in Problem 115: The one where&lt;/p&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;(a^4 - b^4) = (a - b)(a + b)(a^2 + b^2)&lt;/script&gt;&lt;/div&gt;
-
-&lt;p&gt;That’s a nice option of a first step for us (albeit with the wrong sign as the starting point) but even if we solved that, we would still get left with &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;(a^2 + b^2)&lt;/script&gt;&lt;/span&gt; which feels like we should be able to factor it further.  Hmmm.&lt;/p&gt;
-
-&lt;p&gt;But wait, we’re jumping ahead because Gelfand is about to get round to this after giving us a hint to solve our problem - trying &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;2a^2b^2&lt;/script&gt;&lt;/span&gt;.  Let’s see what happens&lt;/p&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;a^4 + b^4 = &lt;/script&gt;&lt;/div&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = a^4 + 2a^2b^2 - 2a^2b^2 + b^4 = &lt;/script&gt;&lt;/div&gt;
-
-&lt;p&gt;Can we see a pattern from here?  We could take things back to the &lt;em&gt;Difference of Squares&lt;/em&gt; is we can jiggle powers round a little&lt;/p&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = a^4 + 2a^2b^2 + b^4 - 2a^2b^2 = &lt;/script&gt;&lt;/div&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = (a^2 + b^2)^2 - (\sqrt{2}ab)^2 = &lt;/script&gt;&lt;/div&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = (a^2 + b^2 + \sqrt{2}ab)(a^2 + b^2 - \sqrt{2}ab) &lt;/script&gt;&lt;/div&gt;
-
-&lt;p&gt;That seems quite nice.&lt;/p&gt;
-
-&lt;h2 id=&quot;more-tricks-arising-taking-stock&quot;&gt;More Tricks Arising (Taking Stock)&lt;/h2&gt;
-&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;Gelfand now wants us to have a checkpoint.&lt;/span&gt;   A fuller one than we just had, and then use this to launch off again into something even more generic.&lt;/p&gt;
-
-&lt;p&gt;Let’s do this the only way we know how; by pulling out the Tricks.&lt;/p&gt;
-
-&lt;h3 id=&quot;if-you-have-something-to-a-power-minus-something-else-to-the-same-power-one-factor-will-be-a---b&quot;&gt;If You Have “Something-to-a-Power &lt;em&gt;Minus&lt;/em&gt; Something-Else-to-the-Same-Power One Factor Will Be &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;(a - b)&lt;/script&gt;&lt;/span&gt;&lt;/h3&gt;
-&lt;p&gt;He points out that when we have &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a^n - b^b&lt;/script&gt;&lt;/span&gt; (something to a power &lt;em&gt;minus&lt;/em&gt; something else to the same power) for any positive integer &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt;&lt;/span&gt; then we can factor it - one of the factors will be &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;(a - b)&lt;/script&gt;&lt;/span&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;if-you-have-something-to-a-power-plus-something-else-to-the-same-power-and-your-power-is-odd-one-factor-will-be-a----b&quot;&gt;If You Have “Something-to-a-Power &lt;em&gt;Plus&lt;/em&gt; Something-Else-to-the-Same-Power, &lt;em&gt;and your Power is Odd&lt;/em&gt;, One Factor Will Be &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;(a - (-b))&lt;/script&gt;&lt;/span&gt;&lt;/h3&gt;
-&lt;p&gt;He goes further, pointing out that when &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt;&lt;/span&gt; is &lt;em&gt;odd&lt;/em&gt; and we are working with &lt;em&gt;addition&lt;/em&gt; of powers, then we can just swap in &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;-b&lt;/script&gt;&lt;/span&gt; for &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;b&lt;/script&gt;&lt;/span&gt; in the above solution.&lt;/p&gt;
-
-&lt;h3 id=&quot;if-you-have-something-to-a-power-plus-something-else-to-the-same-power-and-your-power-is-even-find-your-squares-and-mix-in-2anbn&quot;&gt;If You Have “Something-to-a-Power &lt;em&gt;Plus&lt;/em&gt; Something-Else-to-the-Same-Power, &lt;em&gt;and your Power is Even&lt;/em&gt;, Find Your Squares and Mix in &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;2a^nb^n&lt;/script&gt;&lt;/span&gt;&lt;/h3&gt;
-&lt;p&gt;And what we just saw in Problem 119 was the gateway to the final element in our general situation: when &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt;&lt;/span&gt; is &lt;em&gt;even&lt;/em&gt; and we are working with &lt;em&gt;addition&lt;/em&gt; of one power from the other.  I.e. when it’s &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a^2 + b^2&lt;/script&gt;&lt;/span&gt;, &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a^4 + b^4&lt;/script&gt;&lt;/span&gt;, &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a^6 + b^6&lt;/script&gt;&lt;/span&gt;, etc.&lt;/p&gt;
-
-&lt;h2 id=&quot;a-decision-tree-for-all-your-power-plus-power-factoring-needs&quot;&gt;A Decision-Tree for All Your Power-Plus-Power Factoring Needs&lt;/h2&gt;
-&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;So we can’t derive a general rule for this.&lt;/span&gt;  But we can we re-state things in our sibling-problems in a way which means we can use this trick again unchanged?  Yup.&lt;/p&gt;
-
-&lt;p&gt;When &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt;&lt;/span&gt; is &lt;em&gt;even&lt;/em&gt; and we’re adding powers&lt;/p&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;a^{2n} + b^{2n} = &lt;/script&gt;&lt;/div&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = (a^n)^2 + (b^n)^2 = &lt;/script&gt;&lt;/div&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = (a^n)^2 + 2a^nb^n + (b^n)^2 - 2a^nb^n = &lt;/script&gt;&lt;/div&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = (a^{2n} + b^{2n})^2 - (\sqrt{2}(a^n)(b^n))^2 = &lt;/script&gt;&lt;/div&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = (a^{2n} + b^{2n} + \sqrt{2}(a^n)(b^n))(a^{2n} + b^{2n} - \sqrt{2}(a^n)(b^n))&lt;/script&gt;&lt;/div&gt;
-
-&lt;p&gt;And when &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt;&lt;/span&gt; is &lt;em&gt;odd&lt;/em&gt; and we’re adding powers&lt;/p&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;a^{2n} + b^{2n} = &lt;/script&gt;&lt;/div&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = (a^n)^2 + (b^n)^2 = &lt;/script&gt;&lt;/div&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = (a^2 + b^2)((a^2)^{n-1} - (a^2)^{n-2}b^2 + (a^2)^{n-3}(b^2)^2) - ... - (a^2)(b^2)^{n-2} + (b^2)^{n-1})&lt;/script&gt;&lt;/div&gt;
-
-&lt;p&gt;Brilliant!&lt;/p&gt;
-
-&lt;p&gt;Now all we’re left with is the slightly-trickier case of &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a^2 + b^2&lt;/script&gt;&lt;/span&gt; - but that’s not tricky if we just invent a new type of number (which &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;\sqrt{-1}&lt;/script&gt;&lt;/span&gt; requires in order to do this) which mathematicians called &lt;em&gt;complex numbers&lt;/em&gt; (but that’s another post).&lt;/p&gt;
-
-&lt;p&gt;We’ll just conclude this post with some commentary on the remaining “more difficult problems” with which Gelfand signs off this section.&lt;/p&gt;
-
-&lt;h2 id=&quot;the-more-difficult-problems&quot;&gt;The “More Difficult Problems”&lt;/h2&gt;
-
-&lt;h3 id=&quot;problem-122a&quot;&gt;Problem 122(a)&lt;/h3&gt;
-
-&lt;p&gt;Use the previous solution from Problem 119, making &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a = x&lt;/script&gt;&lt;/span&gt; and &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;b = 1&lt;/script&gt;&lt;/span&gt;. (Remember, &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;1 = 1^4 = 1^n&lt;/script&gt;&lt;/span&gt;.)&lt;/p&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;x^4 + 1 = &lt;/script&gt;&lt;/div&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = x^4 + 1^4 = &lt;/script&gt;&lt;/div&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = x^4 + 2a^21^2 + 1^4 - 2a^21^2 = &lt;/script&gt;&lt;/div&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = (x^2 + 1^2)^2 - (\sqrt{2}x \times 1)^2 = &lt;/script&gt;&lt;/div&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = (x^2 + 1 + \sqrt{2}x)(x^2 + 1 - \sqrt{2}x)&lt;/script&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;problem-122b&quot;&gt;Problem 122(b)&lt;/h3&gt;
-
-&lt;p&gt;First we expand everything so see where we’re at&lt;/p&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;x(y^2 - z^2) + y(z^2 - x^2) + z(x^2 - y^2) = &lt;/script&gt;&lt;/div&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = xy^2 - xz^2 + yz^2 - yx^2 + zx^2 - zy^2 = &lt;/script&gt;&lt;/div&gt;
-
-&lt;p&gt;Then we group around one of our variables, &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;x&lt;/script&gt;&lt;/span&gt; seems like as good an option as any&lt;/p&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = (z - y)x^2 + (y^2 - z^2)x + yz^2 - zy^2 = &lt;/script&gt;&lt;/div&gt;
-
-&lt;p&gt;Now spot the difference of squares in the middle (&lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;(y^2 - z^2)&lt;/script&gt;&lt;/span&gt;) which we can factor out&lt;/p&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = (z - y)x^2 + (y + z)(y - z)x + yz^2 - zy^2 = &lt;/script&gt;&lt;/div&gt;
-
-&lt;p&gt;And then pull out a simple factor from the last two terms&lt;/p&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = (z - y)x^2 + (y + z)(y - z)x + yz(z - y) = &lt;/script&gt;&lt;/div&gt;
-
-&lt;p&gt;Now we pause. Can we go further?  A common factor of &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;(z - y)&lt;/script&gt;&lt;/span&gt; is &lt;em&gt;almost&lt;/em&gt; emerging, it’s just that tricksy difference-of-squares which is making life hard.  Can we re-jig things?  We can&lt;/p&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = (z - y)x^2 - (y + z)(z - y)x + yz(z - y) = &lt;/script&gt;&lt;/div&gt;
-
-&lt;p&gt;Now we can pull out this factor&lt;/p&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = (z - y)(x^2 - (y + z)x + yz) = &lt;/script&gt;&lt;/div&gt;
-
-&lt;p&gt;Great. Can we go further?  What about the &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;(x^2 - (y + z)x + yz)&lt;/script&gt;&lt;/span&gt; itself?&lt;/p&gt;
-
-&lt;p&gt;We can take this piece on it’s own for a second and see where we can get.  First up we expand the middle term&lt;/p&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; x^2 - (y + z)x + yz = &lt;/script&gt;&lt;/div&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = x^2 - xy - xz + yz = &lt;/script&gt;&lt;/div&gt;
-
-&lt;p&gt;That then looks like a nice and simple factoring around these three variables&lt;/p&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = (x - y)(x - z)&lt;/script&gt;&lt;/div&gt;
-
-&lt;p&gt;So we can then put it all back together to get our final answer&lt;/p&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;(z - y)(x - y)(x - z)&lt;/script&gt;&lt;/div&gt;
-
-&lt;p&gt;Beautiful.&lt;/p&gt;
-
-&lt;h3 id=&quot;problem-122c&quot;&gt;Problem 122(c)&lt;/h3&gt;
-&lt;p&gt;Use the same approach as we saw working in Problem 111.&lt;/p&gt;
-
-&lt;h3 id=&quot;problem-122d&quot;&gt;Problem 122(d)&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.scribd.com/document/243387607/Gelfand-Algebra-Solutions&quot;&gt;Durham&lt;/a&gt; thinks this is tough. I agree.  I couldnt find another way to factor it.&lt;/p&gt;
-
-&lt;h3 id=&quot;problem-122e&quot;&gt;Problem 122(e)&lt;/h3&gt;
-&lt;p&gt;Start off by multiplying out &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;(a + b + c)^3&lt;/script&gt;&lt;/span&gt;.  Then looking back to the solution from Problem 122(b) gave some hints as to a possible factor.&lt;/p&gt;
-
-&lt;h3 id=&quot;problem-122f&quot;&gt;Problem 122(f)&lt;/h3&gt;
-&lt;p&gt;Two options here which Durham expands on:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Use Pascal’s triangle to multiply out all cubes, then go from there,&lt;/li&gt;
-  &lt;li&gt;Use the solution to Problem 114 to start you off.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;meta-trick-there-isnt-always-a-single-simple-trick&quot;&gt;Meta-Trick: There isn’t Always a Single, Simple Trick&lt;/h2&gt;
-&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;We’ve seen it a little before,&lt;/span&gt;  but with this Chunk, we’re now beginning to confront head on that the fact that the subtleties of numbers and things you can  (and can’t do to them) most usually have a set of tricks applied to their solving rather than just one. What is more, the applicability of those tricks depends upon things like whteher a given key number is odd or even, and / or there is positive / addition vs negative / subtraction.  And don’t forget zero - the o-so-special case.&lt;/p&gt;
-
-&lt;p&gt;This all means you frequently need to have a second level of awareness in your pattern-spotter and trick-matcher which allows you take this into account.&lt;/p&gt;
-
-&lt;h2 id=&quot;terminology&quot;&gt;Terminology&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.mathsisfun.com/numbers/complex-numbers.html&quot;&gt;Complex Numbers&lt;/a&gt; (from MathsIsFun.com)&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-                <link>http://andrewharmellaw.github.io/2017/02/02/gelfands-algebra-chunk-12-the-hard-ones</link>
-                <guid>http://andrewharmellaw.github.io/2017/02/02/gelfands-algebra-chunk-12-the-hard-ones</guid>
-                <pubDate>Thu, 02 Feb 2017 00:00:00 +0000</pubDate>
         </item>
 
 
