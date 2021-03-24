@@ -5,8 +5,8 @@
         <description>Maths from the Ground Up - Andrew Harmel-Law</description>
         <link>http://andrewharmellaw.github.io</link>
         <atom:link href="http://andrewharmellaw.github.io" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Sun, 21 Mar 2021 15:01:07 +0000</lastBuildDate>
-        <pubDate>Sun, 21 Mar 2021 15:01:07 +0000</pubDate>
+        <lastBuildDate>Wed, 24 Mar 2021 22:02:15 +0000</lastBuildDate>
+        <pubDate>Wed, 24 Mar 2021 22:02:15 +0000</pubDate>
         <ttl>60</ttl>
 
 
@@ -44,6 +44,8 @@ Hilary Mantel interviewed by Michael Rosen for “Word of Mouth” on BBC Radio 
 
 &lt;p&gt;Finally we can doubt what we are experiencing, and act as if it’s not happening. This can directly lead to us being blind to things, not seeing them when they are there, because to “see” is to understand, even in a most basic way.&lt;/p&gt;
 
+&lt;p&gt;ALL THIS ASSUMES CLARITY AT ALL LEVELS - WHAT WHEN THERE’S NOT CLARITY? WHAT ABOUT WHEN THERE IS TOO MUCH CLARITY / NOT ENOUGH FUZZINESS? CONFUSION… WHICH OPTION TO SELECT…&lt;/p&gt;
+
 &lt;p&gt;[REDRAFT THE FOLLOWING PARAGRAPH]
 How frequently this mis-match occurs is clearly important. But what strikes me as more worthy of investigation is how different people, at different times, and in different contexts experience, and consequently (re)act / respond, both intellectually and emotionally to all these outcomes, both predicted, and surprising.&lt;/p&gt;
 
@@ -64,6 +66,8 @@ How frequently this mis-match occurs is clearly important. But what strikes me a
 &lt;p&gt;As we become more familiar with a language, it’s associated mental model/philosophy, and it’s associated [REPEATS “ASSOCIATED”]  libraries, frameworks and tooling we see not only how it succeeds, but how it fails; we see it’s limitations and shortcomings.&lt;/p&gt;
 
 &lt;p&gt;[WOULD THE VIRGINIA WOOLF QUOTES FIT IN HERE?]&lt;/p&gt;
+
+&lt;p&gt;DON”T FORGET ABOUT BIT DEPTH OF MENTAL MODELS (AFTER KATHY SIERRA)&lt;/p&gt;
 
 &lt;p&gt;[IT FEELS WE LEAP FROM WRITING TO READING HERE. AND FROM … ]&lt;/p&gt;
 
@@ -128,31 +132,37 @@ How too does this play into Bruce’s ongoing question about control? Do we pref
                 <description>
 &lt;figure&gt;&lt;figcaption&gt;Image: Fractral Octahedron, CC BY 2.0, via fdecomite on &lt;a href=&quot;https://www.flickr.com/photos/fdecomite/5371928685/&quot;&gt;Flickr.com&lt;/a&gt;&lt;/figcaption&gt;&lt;img src=&quot;/assets/img/fractral.jpg&quot; /&gt;&lt;/figure&gt;
 
-&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;In my &lt;/span&gt; &lt;a href=&quot;/2021/03/08/the-experience-of-development-a-conjecture&quot;&gt;previous post&lt;/a&gt; I put forward the idea that the predictions arising from mental models play an integral role in software development. Unlike that post which was intentionally more formal, this one derives far more from introspection and observation. I want to use this relative freedom to share some musings on the possible natures of, and ways we might manipulate, our mental models from which these predicitons derive. Specifically I want to think about what these models might be made of, and how we might mentally manipulate these thought-units to construct our cloud castles. More prosaically, I also want to introduce terminology (which I’ll flag as side-notes) which I hope will make subsequent posts on the &lt;em&gt;experiences arising&lt;/em&gt; from all these comprehensible.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;In my &lt;/span&gt; &lt;a href=&quot;/2021/03/08/the-experience-of-development-a-conjecture&quot;&gt;previous post&lt;/a&gt; I put forward the idea that the predictions arising from mental models play an integral role in software development. Unlike that post which was intentionally formal, this one derives far more from introspection and observation. I want to use this relative freedom to share some musings.&lt;/p&gt;
 
-&lt;p&gt;In order to speculate in this way, I need to go bring in one more collection of concepts which, despite not appearing so at the time, have continued to resonate with me, and feel relevant for this investigation here.
+&lt;p&gt;Specifically I want to think about what these models might be made from, and given that, consider a source of the limitations we experience when manipulating these thought-units.&lt;/p&gt;
+
+&lt;p&gt;More prosaically, I also want to introduce terminology (which I’ll flag as side-notes) which I hope will make subsequent posts on the &lt;em&gt;experiences arising&lt;/em&gt; from all these comprehensible.&lt;/p&gt;
+
+&lt;p&gt;In order to speculate in this way, I need to go bring in one more collection of concepts which, despite not appearing so at the time, have continued to resonate with me, and feel relevant for us here.
 &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
 &lt;p&gt;Back in 2016 I was trying to learn algebra.  It was long overdue.  It was also hard.  Really hard.  And &lt;a href=&quot;&quot;&gt;once again&lt;/a&gt;, someone from the Java Posse Roundup came to my aid.&lt;/p&gt;
 
-&lt;p&gt;During a conversation that was probably in a queue for coffee, &lt;a href=&quot;&quot;&gt;Todd&lt;/a&gt; had mentioned a book by Barbara Oakley which he’d found useful called &lt;a href=&quot;&quot;&gt;“A Mind for Numbers: How to Excel at Math and Science”&lt;/a&gt;.  I approached it with caution. I rarely have the cheek to say out loud how much I distain these “pop-Psychology” books&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;I have a real Psychology degree forchirstssakes!#$%^*!! &lt;/span&gt;, but I also frequently give them a try, and that’s what I did here, admitting to myself that anything which could give me even a toe-hold on the seemingly impossible cliff-face of mathematics would be of benefit.&lt;/p&gt;
+&lt;p&gt;During a conversation about this that probably took place in a queue for coffee, &lt;a href=&quot;&quot;&gt;Todd&lt;/a&gt; had mentioned a book by Barbara Oakley which he’d found useful: &lt;a href=&quot;https://www.goodreads.com/book/show/18693655-a-mind-for-numbers&quot;&gt;“A Mind for Numbers: How to Excel at Math and Science”&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Looking back now, the “pop” aspect had obviously got to me–I only gave it 3 out of 5 stars on GoodReads–but here I am, 4 years later (having &lt;a href=&quot;&quot;&gt;managed to conquer algebra&lt;/a&gt;) referring to it for the second key aspect of my investigation.&lt;/p&gt;
+&lt;p&gt;I approached it with caution. I rarely have the cheek to say out loud how much I distain these “pop-Psychology” books&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;I have a real Psychology degree forchirstssakes!#$%^*!! &lt;/span&gt;, but I also frequently give them a try, and that’s what I did here, admitting to myself that anything which could give me even a toe-hold on the seemingly impossible cliff-face of mathematics would be of benefit.&lt;/p&gt;
 
-&lt;p&gt;Before writing this post, I went back to Oakley and realised how much it contains. However I only want to bring out two elements here: the limited size of working memory, and a technique to tackle this called “chunking”.&lt;/p&gt;
+&lt;p&gt;It worked.&lt;/p&gt;
 
-&lt;p&gt;Working memory first. It’s an enduring concept in Cognitive Psychology, having survived  at least from the days of my degree (1993-97) up to the present day.  It’s an area of mental functioning usefully concieved of as a workbench.  This workbench is where you do your conscious, front-of-mind thinking and decision-making. This “thinking” can function simply to keep information available, such as when you are trying to remember a phone number someone just told you, but it can also be more active and combinatorial, such as when you are trying to solve a maths problem.&lt;/p&gt;
+&lt;p&gt;Before writing this post, I went back to the book and realised how much it contains. However I only want to bring out two elements here: the limited size of working memory, and a technique to tackle this called “chunking”.&lt;/p&gt;
 
-&lt;p&gt;It doesn’t seem like too big a leap to suggest that Working Memory is the locus of active (thinking) work of of software development.  Whether that’s trying to piece elements together to create our solution, or thinking to solve a problem, or figuring out which language construct to use, or even remedying the surprise asrising from the aforementioned mis-match between expectation and sensed reality.&lt;/p&gt;
+&lt;p&gt;Working memory first. It’s an enduring concept in cognitive psychology, having survived  at least from the days of my degree&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;1993-97 &lt;/span&gt; up to the present.  It’s a concept of mental functioning usefully conceived of as a workbench.  This workbench is where you do your conscious, front-of-mind thinking and decision-making. This “thinking” can function simply to keep information available, such as when you are trying to remember a phone number someone just told you, but it can also be more active and combinatorial, such as when you are trying to solve a maths problem.&lt;/p&gt;
 
-&lt;p&gt;Now the fact about working memory is that it is limited in capacity.  Oakley characterises it as being capable of containing a finite number of “chunks” (pp.40 in my Kindle edition). Later on in her book she makes it clear that to have a “mind for numbers” (or, by implication a mind tuned for performing any complicated mental-manipulation task) you need to be able to work effectively within this limited-capacity working memory.  Her approach is to meaningfully, and solidly form shorthand thought-units which can, while they only take up one of those precious chunk-slots, represent a  concept of significant depth and detail.&lt;/p&gt;
+&lt;p&gt;It doesn’t seem like too big a leap to suggest that working memory is also the locus of active (thinking) work in software development.  Whether that’s trying to piece elements together to create our solution, thinking to solve a problem, figuring out which language construct to use, or even remedying the surprise asrising from the aforementioned mis-match between expectation and sensed reality.&lt;/p&gt;
 
-&lt;p&gt;These “chunks” sound interesting and valuable. Oakley defines them in more detail:&lt;/p&gt;
+&lt;p&gt;Now a key and inescapable fact about working memory is that it has a limited capacity.  Oakley characterises it as being capable of containing a finite number of “chunks” as she terms them. She makes it clear that to have a “mind for numbers”&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;And, by implication, a mind tuned for performing any complicated mental-manipulation task &lt;/span&gt; you need to be able to work effectively within this restricted space and clever chunk-fu is one way to do it.  This “chunking” approach entails consciously, coherently and solidly forming shorthand chunk thought-units which can, while only taking up one of those precious chunk-slots, actually represent concepts of significant depth and detail.&lt;/p&gt;
+
+&lt;p&gt;Clearly when engaged in complex and conceptual brain work, “chunks” are incredibly valuable.  But what are they exactly? Oakley offers us more detail:&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;“Chunks are pieces of information that are bound together through meaning. You can take the letters ‘p’, ‘o’ and ‘p’ and bind them together into one conceptual, easy-to-remember chunk, the word ‘pop’. Underneath that simple ‘pop’ chunk is a symphony of neurons that have learned to trill in tune with one another. The complex neural activity that ties togerher our simplifying abstract chunks of thought - wether those pertain to acronyms, ideas, or concepts - are the basis of much of science, literature, and art.”&lt;br /&gt;(A Mind for Numbers, Oakley, pp.53)&lt;/p&gt;
+  &lt;p&gt;“Chunks are pieces of information that are bound together through meaning. You can take the letters ‘p’, ‘o’ and ‘p’ and bind them together into one conceptual, easy-to-remember chunk, the word ‘pop’. Underneath that simple ‘pop’ chunk is a symphony of neurons that have learned to trill in tune with one another. The complex neural activity that ties together our simplifying abstract chunks of thought - wether those pertain to acronyms, ideas, or concepts - are the basis of much of science, literature, and art.”&lt;br /&gt;(A Mind for Numbers, Oakley, pp.53)&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;She goes on:&lt;/p&gt;
@@ -161,29 +171,21 @@ How too does this play into Bruce’s ongoing question about control? Do we pref
   &lt;p&gt;“Chunking the information you deal with helps your brain run more efficiently. Once you chunk an idea or a concept, you don’t need to remember all the little, underlying details; you’ve got the main idea—the chunk—and that’s enough.”&lt;br /&gt;(A Mind for Numbers, Oakey, pp.53-54)&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;This all feels super-familiar.  Firstly as a description of daily development experience (which may or may not have a basis in neuropsychogical fact) but also secondly as a concept with exciting echoes and resonances for what we discussed in the previous post, with regards to Friston’s ideas of mental models and their hypotheses arising.&lt;/p&gt;
+&lt;p&gt;I’ll stop laboring the point now. I hope all this feels super-familiar.  Firstly as a description of daily development experience (which may or may not have a basis in neuropsychogical fact) but also secondly as a concept with exciting echoes and resonances for what we discussed in the &lt;a href=&quot;/2021/03/08/the-experience-of-development-a-conjecture&quot;&gt;previous post&lt;/a&gt;, with regards to Friston’s ideas of mental models and their arising hypotheses.&lt;/p&gt;
 
-&lt;p&gt;Given this….&lt;/p&gt;
+&lt;p&gt;Given all this, and given the fact that it frequently feels during development as if we are trying to wrestle a number of thought-elements within a finite mental space, how might we use the concepts I’ve lifted from Oakley to  gain a bit more perspective?&lt;/p&gt;
 
-&lt;p&gt;…
-Given this, and given the fact that it feels as if we are trying to wrestle a finite number for &lt;strong&gt;__&lt;/strong&gt;_ how then might we be …?&lt;/p&gt;
-
-&lt;p&gt;Are we constructing (mental) models out of other models? Out of other &lt;em&gt;mental&lt;/em&gt; models?
-…&lt;/p&gt;
-
-&lt;p&gt;The next question I want to address is “what might be the nature of the thought-units from which our mental-model castles are built?” I propose that these too are mental models; but more specific, more fundamental ones.  My supposition is that, in order to fashion higher-order cloud castles, we manipulate smaller blocks of mental model, blocks which represent concepts we already have. It is, in short, mental models all the way down.  Let me unpack this a little.&lt;/p&gt;
+&lt;p&gt;The key question arises: “what might be the nature of the thought-units from which our mental-model castles are built?” I propose that these too are mental models; but more specific, more fundamental ones.  My supposition is that, in order to fashion higher-order cloud castles, we manipulate smaller blocks of mental model, blocks which represent concepts we already have. &lt;em&gt;It is, I propose, mental models all the way down.&lt;/em&gt; And it is these mental model blocks which are the things taking up the chunk-slots in working memory. Let me unpack this a little.&lt;/p&gt;
 
 &lt;p&gt;I previously described &lt;a href=&quot;/2021/03/08/the-experience-of-development-a-conjecture&quot;&gt;my proposition&lt;/a&gt; that when I write code I am forming a model in my mind which I concurrently convey to the outside world through code.&lt;/p&gt;
 
-&lt;p&gt;In performing this act of creativity I deploy the raw elements of what I know (or more precisely, &lt;em&gt;what I expect&lt;/em&gt;) of my chosen programming language.  I use these pre-existing blocks of mental model, which comprise my idea of how the programming language and it’s constructs work — let’s call them the “SUBSTRATE”&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;This is your first new terminology alert &lt;/span&gt; models — and from them construct my castle — let’s call that the “CREATION_SOLUTION”&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;This is your second new terminology alert &lt;/span&gt; model.&lt;/p&gt;
+&lt;p&gt;In performing this act of creativity I deploy the raw elements of what I know (or more precisely, &lt;em&gt;what I expect&lt;/em&gt;) of my chosen programming language.  I am therefore using these pre-existing blocks of mental model, which comprise my idea of how the programming language and it’s constructs work — let’s call them the “SUBSTRATE”&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;This is your first terminology alert &lt;/span&gt; models — and from them construct my castle — let’s call that the “CREATION_SOLUTION”&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;This is your second terminology alert &lt;/span&gt; model.&lt;/p&gt;
 
 &lt;p&gt;From this it quickly becomes clear that these concepts of “SUBSTRATE” and “CREATION_SOLUTION” model are relative.  What from one perspective is the former (i.e.  a LinkedList collection is to me a SUBSTRATE model when I’m flat-mapping my way to a sum), is from another perspective the latter&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;We all know the core libraries we use for example are simply pre-formed building blocks created for us by others &lt;/span&gt; (i.e. a CREATION_SOLUTION model when I’m implementing a quantum-safe collections library) and not just between developers, but within the same individual, depending on the viewpoint we hold at any given point in time during development.  For example, one moment I’m creating a component or a microservice, the next moment I’m calling it.&lt;/p&gt;
 
 &lt;p&gt;Given that the difference here is only one of perspective, &lt;em&gt;and&lt;/em&gt; given our conjecture, both models can be expected to work inside our heads in exactly the same way - by embodying a set of expectations as to how the real-world things they represent are structured and function.&lt;/p&gt;
 
-&lt;p&gt;With that out of the way, we can conclude by kicking around ideas about the act of mental-model construction.  Here I want to turn back to psychology, this time of the Cognitive kind, and to &lt;a href=&quot;https://www.goodreads.com/book/show/18693655-a-mind-for-numbers&quot;&gt;Barbara Oakley’s A Mind for Numbers&lt;/a&gt;. There’s a lot thats good in this book, but one standout to me was the treatment of the concept of chunking and it’s relevance to mental capacity.  Specifically, chunking is the practice of forming single units (“chunks”) from a set of individual mental concepts (or models, if you’re following the line of argument here).  The reason for chunking is humans have a finite capacity for manipulating mental concepts. Forming chunks allows us to group many smaller, lower-level  into a higher level “one” you afford yourself a greater mental capacity&lt;/p&gt;
-
-&lt;p&gt;….&lt;/p&gt;
+&lt;p&gt;This fits brilliantly into Oakley’s chunks, because chunks are pieces of information formed from smaller-level pieces of information, bound together by meaning.  Or put another way, mental models, comprising of smaller-level mental models.  We, in short, construct mental models out of other mental models. Its models all the way down.&lt;/p&gt;
 
 &lt;p&gt;Before we close I ought to tackle the question around how we work with (or against) these elements (and perhaps adopt other techniques from the book, knowingly or unknowningly) in our acts of development.  Having thought about this &lt;a href=&quot;&quot;&gt;for some time now&lt;/a&gt;, and having spoken to, and watched others in the course of working with code I think we should leave this open for now.  Why? I think this area is one in which a great deal of diversity lies, and consequently will be a fruitful one to investigate, compare / contrast, and discuss, in the main body of this effort.&lt;/p&gt;
 
