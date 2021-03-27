@@ -5,10 +5,229 @@
         <description>Maths from the Ground Up - Andrew Harmel-Law</description>
         <link>http://andrewharmellaw.github.io</link>
         <atom:link href="http://andrewharmellaw.github.io" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Sat, 27 Mar 2021 12:08:50 +0000</lastBuildDate>
-        <pubDate>Sat, 27 Mar 2021 12:08:50 +0000</pubDate>
+        <lastBuildDate>Sat, 27 Mar 2021 22:49:21 +0000</lastBuildDate>
+        <pubDate>Sat, 27 Mar 2021 22:49:21 +0000</pubDate>
         <ttl>60</ttl>
 
+
+        <item>
+                <title>The Organisation as a Collection of Services</title>
+                <description>
+&lt;figure&gt;&lt;figcaption&gt;Image: Deadman Ranch Ancient Buildings, Public Domain on &lt;a href=&quot;https://snappygoat.com/free-public-domain-images-deadman_ranch_ancient_buildings_37&quot;&gt;SnappyGoat.com&lt;/a&gt;&lt;/figcaption&gt;&lt;img src=&quot;/assets/img/deadman-ranch-ancient-buildings-223774.jpg&quot; /&gt;&lt;/figure&gt;
+
+&lt;p&gt;(This post is second in a series.  Part one, “&lt;a href=&quot;/2021/03/26/is-your-organisation-broken&quot;&gt;Is Your Organisation Broken?&lt;/a&gt;” sets the scene for this post’s proposal of a new way to look at organisations.)&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;I’ve wondered for a long time &lt;/span&gt; if there’s value in considering organisations from the perspective of the services they provide to their members.&lt;/p&gt;
+
+&lt;p&gt;Now, I propose that how any individual organisation provides such services varies greatly, but I think (bear with me) that the following is an exhaustive list of services that all organisations provide.  Clearly then, sometimes an organisation will provide one or more of these services explicitly, and other times it will provide some of them implicitly (or even by accident).  Furthermore, some services will be provided officially, and others unofficially. Sometimes both types will be at play at once, one most likely working more efficiently than another.&lt;/p&gt;
+
+&lt;p&gt;Finally, please note that this breakdown says nothing about the quality or fit of any of the service implementations in a given organisation.  The services as delivered might be terrible, or they might be excellent.  They might conflict with or contradict one another.&lt;/p&gt;
+
+&lt;p&gt;With this in mind we can get to the services themselves.  I am no org-design expert (I’ve just read a lot, and consulted in a lot of places, and like to nerd-out and find how other folks organisations work) but I &lt;em&gt;hope&lt;/em&gt; that the items on this list are both collectively exhaustive and mutually exclusive.  Finally I’ve tried to put them in order of importance.  It is likely that in &lt;em&gt;all&lt;/em&gt; organisations the first two services are explicit. Only in larger organisations might later / all other services be so.&lt;/p&gt;
+
+&lt;p&gt;I’ve tried to use a service-design style way of representing this which names the service, gives the need it meets, the outcome it provides, and the value it delivers.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Service&lt;/strong&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Need&lt;/strong&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Outcome&lt;/strong&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Value&lt;/strong&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Skill / resource allocation&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Right people with the right tasks and required resources to perform them&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Tasks and resources allocated.&lt;br /&gt;Tasks performed&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Quality outputs.&lt;br /&gt;Personal sense of purpose.&lt;br /&gt;Accountability&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;br /&gt;&lt;strong&gt;Communication&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;br /&gt;Timely and accurate information required to perform a task&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;br /&gt;Information at the right place at the right time&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;br /&gt;Efficient and productive organisation&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;br /&gt;&lt;strong&gt;(Long term) direction&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;br /&gt;Strategy/vision/mission/goals based on sensing world outside the organisation&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;br /&gt;Alignment and focus of effort (decision criteria)&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;br /&gt;Organisational purpose&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;br /&gt;&lt;strong&gt;Decisions&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;br /&gt;Good decisions made efficiently and effectively&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;br /&gt;Timely decisions rapidly made&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;br /&gt;Progress aligned with direction.&lt;br /&gt;Efficient use of people’s efforts&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;br /&gt;&lt;strong&gt;Co-ordination&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;br /&gt;Groups of people (and resources) doing the right thing at the right time.&lt;br /&gt;Keep in sync with others&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;br /&gt;Co-ordinated activities and allocation of resources&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;br /&gt;Reduction in waiting / blocking&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;br /&gt;&lt;strong&gt;Constitution&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;br /&gt;Clarity on what the organisation values and what it will (and won’t) tolerate&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;br /&gt;No “rogue” (i.e. contrary to the constitution) elements&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;br /&gt;Clear checks and balances&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;br /&gt;&lt;strong&gt;Recognition&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;br /&gt;Recognition for my skills and contribution (my value to the organisation)&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;br /&gt;Salary, job title, etc.&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;br /&gt;Sense of self-worth&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;br /&gt;&lt;strong&gt;Conflict management&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;br /&gt;People held to account for their actions (or lack of them)&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;br /&gt;Alignment to  “rules of the game” and social norms.&lt;br /&gt;Conflict resolution&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;br /&gt;Increased collaboration.&lt;br /&gt;Predictability.&lt;br /&gt;More efficient delivery of organisational goals&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;br /&gt;&lt;strong&gt;Learning&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;br /&gt;Personal development, additional / improved skills&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;br /&gt;Better skills available within the organisation&lt;br /&gt;Feeling of personal satisfaction&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;br /&gt;Greater organisational productivity. Increased loyalty to the organisation&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;That’s it for now. In my following posts I want to look at various organisations and organisational styles and see how these services might map onto them.&lt;/p&gt;
+
+&lt;!--Joe Schrag: It might be interesting to think around which are directly important to the members and which are a byproduct of the org.  For example, for the individual,  the need for community is huge, especially with shared purpose.  To need others and to be needed.  To be a contributor to the tribe.  Seems like that could be 1 + 6 (skills + constitution).  On the other hand, I would argue 5 (coordination) is not directly as important to the individual, but needed in an org.
+It might be helpful to think of them in a hierarchy as well.  A lot in common here with Maslow’s hierarchy.
+Perhaps also worth noting that specific versions of some of these needs can lead to less desirable results.  The one the comes to mind is conquest (perhaps part of 3).  Some individuals have a need for it, and many orgs prioritize it. --&gt;
+
+</description>
+                <link>http://andrewharmellaw.github.io/2021/03/27/the-organisation-as-collection-of-services</link>
+                <guid>http://andrewharmellaw.github.io/2021/03/27/the-organisation-as-collection-of-services</guid>
+                <pubDate>Sat, 27 Mar 2021 00:00:00 +0000</pubDate>
+        </item>
+
+        <item>
+                <title>Is Your Organisation Broken?</title>
+                <description>
+&lt;figure&gt;&lt;figcaption&gt;Image: Joos de Momper the Younger, CC BY-SA 3.0 via Wikimedia Commons &lt;a href=&quot;https://commons.wikimedia.org/wiki/File:Joos_De_Momper_-_La_tour_de_Babel.JPG&quot;&gt;Wikipedia&lt;/a&gt;&lt;/figcaption&gt;&lt;img src=&quot;/assets/img/640px-Joos_De_Momper_-_La_tour_de_Babel.JPG&quot; /&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;organisations-are-tools&quot;&gt;Organisations are tools&lt;/h2&gt;
+&lt;div class=&quot;epigraph&quot;&gt;&lt;blockquote&gt;&lt;p&gt;[An] organisation [...] is a tool for making people productive in working together.&lt;/p&gt;&lt;footer&gt;Peter Drucker, &lt;cite&gt;&quot;Management’s New Paradigms” from “Management Challenges for the 21st Century” (1999)&lt;/cite&gt;&lt;/footer&gt;&lt;/blockquote&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;The vast majority &lt;/span&gt; of our organisations are broken, and they are broken because they have the wrong structure and function for the job.&lt;/p&gt;
+
+&lt;p&gt;Those which have, by some stroke of luck, both the right structure and function, will fail to change at the required time, and will end up with the wrong structure and function, and will therefore end up broken.&lt;/p&gt;
+
+&lt;p&gt;Even those which do change, and change when required, will change in the wrong way, and end up with the wrong structure and function; and will consequently become broken.&lt;/p&gt;
+
+&lt;h2 id=&quot;our-organisations-are-wasteful&quot;&gt;Our organisations are wasteful&lt;/h2&gt;
+&lt;p&gt;Why do I say “broken”? Surely this is too bold a claim? Is it too strong a statement? Are they not simply poorly-suited or ill-used? I would argue not.&lt;/p&gt;
+
+&lt;p&gt;Why do the organisations we work for (by investing our time and more) exist? Surely it is to produce things - either products or services - which have value to users, and then (if they are a commercial enterprise) to capture some of that value back in the form of revenue.  And yet, to adapt &lt;a href=&quot;https://channels.theinnovationenterprise.com/articles/weeks-of-coding-can-save-hours-of-planning&quot;&gt;John Yorke&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“[these products and services] have no value until they are in the hands of a user and being used for a productive effort. So any activity not spent getting the next most valuable feature into the hands of a user quickly is just waste”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Can any of us read this and honestly answer that they are not engaged in their work, day upon day, in the creation of a significant amount of waste?  By “significant waste” I mean not simply waste due to slight inefficiencies; inefficiencies which, as by the sharpening of a blade or employment of a slightly different stance, can be smoothed away by kaizen-style small and targeted improvement.  No, our waste is far, far grosser.  It is the waste of producing things which have no definite value, and of working with and performing entire job roles, of complete departments, who cannot claim to be contributing to the organisation’s goal.&lt;/p&gt;
+
+&lt;p&gt;“Do you mean supporting roles?’ you challenge. “Not everyone is engaged in the daily task of making the next widget, and yet without my hiring / managing / planning / etc., the widget-making would itself be terribly inefficient, if not impossible. Your declaration is due to a misapprehension; an over-reduction of the complexities of modern business, and the ways in which they have evolved to efficiently operate.”&lt;/p&gt;
+
+&lt;p&gt;To which I would reply, “Are you so sure? Do you have ways to measure your impact? How can you be so sure that your efforts, both indirectly and directly related to production of your organisation are contributing?”&lt;/p&gt;
+
+&lt;p&gt;And then you might counter, “Just because there are no metrics” (for there are never any metrics) “does not mean we are not successful in our actions.”&lt;/p&gt;
+
+&lt;p&gt;And to this I would reply “In which case you must surely all be able to state your common goal, for if you at least know this then you are assured in being aligned and confident that you are all pulling together.”&lt;/p&gt;
+
+&lt;p&gt;And at this point inevitably, besides repeating the meaningless platitudes that these days take the place of real vision and strategy, there is silence; because these circumstances are the case everywhere, and if, by some miracle they are not at present, they will be soon enough, for the reasons I set out at the beginning.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-wasted-potential-of-people&quot;&gt;The wasted potential of people&lt;/h2&gt;
+&lt;p&gt;This waste that we are all engaged in has a name. It is the worst waste of Lean; &lt;a href=&quot;https://theleanway.net/The-8-Wastes-of-Lean&quot;&gt;the wasted potential of people&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;But it is worse than this. Not only are our organisations wasteful, but also this waste is not what we (myself included) want. We want to contribute. We do not wish to be engaged in the generation of this waste, and yet if we are honest we know we are to a painfully significant degree.&lt;/p&gt;
+
+&lt;p&gt;Why is it so prevalent? It is because, as I have illustrated, despite all of our best endeavors, it is the structure and function of the organisations in which we work which prevents us from succeeding.  If the means to resolve these issues were in the hands of the individuals who suffer from them, then there would not be such a magnitude of this kind of waste.&lt;/p&gt;
+
+&lt;p&gt;This is the reason why I can confidently state that our organisations are broken; because we all know it; because we see and feel it every single day.&lt;/p&gt;
+
+&lt;h2 id=&quot;should-bad-strategy-not-take-the-blame&quot;&gt;Should bad strategy not take the blame?&lt;/h2&gt;
+&lt;p&gt;Yet, if not already depressed by this dialogue, some fight on, raising the challenge “surely a great deal of these failures are strategic and not organisational; due to poor focus - or if we’re being kind - lack of clarity?”&lt;/p&gt;
+
+&lt;p&gt;But if this were the case, Simon Wardley would not have had to talk so directly and repeatedly to organisational matters in his &lt;a href=&quot;https://medium.com/wardleymaps/doctrine-8bb0015688e5&quot;&gt;key doctrines&lt;/a&gt;. I am thinking here of the following (and would at encourage the challenger to take a look at them in detail) “be transparent”, “remove bias and duplication”, “optimise flow”, “think small”, “distribute power and decision-making”, “provide mastery, purpose and autonomy”, “there is no one culture” and “design for constant evolution”.&lt;/p&gt;
+
+&lt;p&gt;And here we must acknowledge the assistance that the respondent has given us by their challenge. Why is there so much on organisation, both structure and function, in the Wardley method? It is there because the problem of organisation echoes very closely the problem Simon Wardley identified regarding strategy; viz organisations and those who run them have no idea what structure and function they should cultivate. And just as with strategy, leaders are terrified of admitting this, and so blindly copy others, and make incredibly costly mistakes.&lt;/p&gt;
+
+&lt;p&gt;But it is worse - at least in strategy there are many different options to copy from, and this flailing around at least provides for some diversity of sport for Wardley as he discusses his approach. Meanwhile, in western organisations there is only one structure, and one set of functions, and what that structure and those functions are is where we shall turn next.&lt;/p&gt;
+
+&lt;h2 id=&quot;a-potted-history-of-the-one-right-organisation&quot;&gt;A potted history of the “One Right Organisation”&lt;/h2&gt;
+&lt;p&gt;All organisations are fundamentally the same structure, and operate the same functions. It need not be this way; but it is.&lt;/p&gt;
+
+&lt;p&gt;Let us consider how we got here. Why are organisations always the same in these regards? Astonishingly there are few who, if challenged on the street to extemporise on why organisations have developed into their current form and function, could articulate even part of an answer. This is despite the fact already mentioned that there is so little diversity, and that “organisation” of our kind is a relatively recent phenomenon.&lt;/p&gt;
+
+&lt;p&gt;We must turn to the great management thinker, Peter Drucker for a potted history. Firstly, the origins, and with them the hierarchy, and idea of a means of communication:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Back in 1870, […] large enterprises were first beginning to take shape. At that time, the only large permanent organisation around was the army. Not surprisingly, therefore, it’s command-and-control structure became the model for the men who were putting together transcontinental railroads, steel mills, modern banks, and department stores. The command model, with a very few at the top giving orders and a great many at the bottom obeying them remained the norm for nearly one hundred years.”
+&lt;br /&gt;&lt;br /&gt;Peter Drucker, from “Management as Social Function and Liberal Art” in “The New Realities” (1988)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Then came the subdivision into departments and beyond that into specialisation of individual roles:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“By World War I the standard functions of a manufacturer had been developed: research and engineering, manufacturing, sales, finance, and accounting, and a little later, human resources (or personnel).  During World War I, large numbers of unskilled, pre-industrial people had to be made productive workers in practically no time. To meet this need, businesses in the United States and the United Kingdom began to apply the theory of scientific management developed by Frederick W. Tayor. […] They analysed tasks, and broke them down into individual, unskilled operations that could be learned quite quickly”
+&lt;br /&gt;&lt;br /&gt;Peter Drucker, ibid&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;To many, myself included, this history is a revelation. That it rings true is important, but more significant is the lack of general awareness as to the ubiquity of this single model, or of the why.  Surely these facts in themselves go a great way to explaining why so many competent, skilled, and motivated people persist in working with the structures and functions in which they find themselves, and with their every action, reinforce the status quo.  For when there is only one, the natural assumption is that it must be “right” and the “only way” and so the best way to get on is to “work with the system”. Within this world, who has the chance to examine the system itself, and perchance entertain the possibility that it is, in fact, only one of many possibilities.&lt;/p&gt;
+
+&lt;h2 id=&quot;beyond-one-right-organisation&quot;&gt;Beyond “One Right Organisation”&lt;/h2&gt;
+&lt;p&gt;This is not a recently identified problem. Drucker sounded the alarm on the issue way back in 1999 (emphasis is the authors):&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“From the very beginning more than a century ago, the study of organisation has rested on one assumption: There is–or there must be–one right organisation.  What is presented as the ‘one right organisation’ has changed more than once. But the search […] has continued, and continues today. ”
+&lt;br /&gt;&lt;br /&gt;Peter Drucker, “Management Challenges for the 21st Century” (1999)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;He continued, in terms which still form a stinging accusation:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Immediately after World War I [… there] developed the principle of decentralisation. And now, in the last few years, we have come to tout the team as the one right organisation for pretty much everything.”
+&lt;br /&gt;&lt;br /&gt;Peter Drucker, ibid&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;But If our organisations are failing us, and they are all the same, what is the solution? Drucker concludes, and here gives us hope:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“There is no such thing as the one right organisation […] It has become clear that organisation is not an absolute. It is a tool for making people productive in working together.”
+&lt;br /&gt;&lt;br /&gt;Peter Drucker, ibid&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;what-are-the-alternatives&quot;&gt;What are the alternatives?&lt;/h2&gt;
+&lt;p&gt;So we see that the situation is not as bleak as it may seem, and there are other reasons for growing optimism.&lt;/p&gt;
+
+&lt;p&gt;For one, the notion of organisational change is nowadays a commonly accepted, if always misapplied one, if for no other reason than &lt;a href=&quot;https://a16z.com/2011/08/20/why-software-is-eating-the-world/&quot;&gt;software is continuing to eat the world&lt;/a&gt;.  Secondly, the concept of “Organisational design” has, of late, become a buzzword, signaling that the concept has reached a point where in-depth consideration and investigation is likely possible.  Thirdly, the continued successes of the lean movement - which bears with it a new product-focus - coupled with the dominance of DevOps in all things software-delivery - underpinned and bolstered the solidly statistical conclusions of Dr. Nicole Forsgren et al’s “Accelerate” - indicates that the ground may be set for what needs to come next: An extensive, diverse, and effective move to a new way of thinking about, and working with our organisations as tools - both in structure and function.&lt;/p&gt;
+
+&lt;p&gt;Given all this, how might we set about fashioning these new organisation-tools?&lt;/p&gt;
+
+&lt;p&gt;I have &lt;a href=&quot;https://youtu.be/_jqPxGShb90&quot;&gt;argued elsewhere&lt;/a&gt; that the proto-skills for such a revolution are already widely available - systems thinking, distributed software design, evolutionary design. To this I would add further ingredients of service design, promise theory, and pattern languages as well as lessons learned from the various social and political movements of recent times.&lt;/p&gt;
+
+&lt;p&gt;The elements of a new approach are also to hand.  Massive and collaborative co-design, and experimental rather than prescriptive discovery and adoption techniques will have significant roles to play.  The change in approach will matter far more fundamentally than the destination, for we know from vast experience that we love to copy others, rather than finding what is right for us (just look at the “Spotify Model” and the Agile backlash).&lt;/p&gt;
+
+&lt;p&gt;But we must additionally change the cadence of our approach. There will never be a “one size fits all” solution, but it is clear that the “massive annual re-org” suits no-one. Smaller, more targeted, and near-continuous change will become the name of the day, dictated by the needs of the organisation.&lt;/p&gt;
+
+&lt;p&gt;The degree to which these elements differ from how we do things today will vary on a case-by-case basis, guided by their specific needs as well as the times they find themselves in.  I am not calling for the next “best way of doing things” - to do so would be to fail to escape the trap that we have just described - rather I am arguing for an honest and full appraisal of where we find ourselves, and a collective and sustained effort to drive relevant and effective change.&lt;/p&gt;
+
+&lt;p&gt;So what to do first? How about a return to first principles? How about directly identifying and considering the needs we have as people working in organisations? If we did, what might this look like?  If you’re excited to find out, so am I.&lt;/p&gt;
+
+&lt;p&gt;I’ll get into all these aspects and more in the later parts of this series. Next up, &lt;a href=&quot;/2021/03/27/the-organisation-as-collection-of-services&quot;&gt;a humble suggestion for a list of services that all organisations provide&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+                <link>http://andrewharmellaw.github.io/2021/03/26/is-your-organisation-broken</link>
+                <guid>http://andrewharmellaw.github.io/2021/03/26/is-your-organisation-broken</guid>
+                <pubDate>Fri, 26 Mar 2021 00:00:00 +0000</pubDate>
+        </item>
 
         <item>
                 <title>The Experience of Development - Part 4: The Timeless Way of Building</title>
@@ -2421,243 +2640,6 @@ Thank you. 🙏 &lt;br /&gt;&lt;br /&gt;Image: Mt Crested Butte, Colorado, USA, 
                 <link>http://andrewharmellaw.github.io/2017/03/09/gelfands-algebra-chunk-17-polynomial-and-linear-interpolation</link>
                 <guid>http://andrewharmellaw.github.io/2017/03/09/gelfands-algebra-chunk-17-polynomial-and-linear-interpolation</guid>
                 <pubDate>Thu, 09 Mar 2017 00:00:00 +0000</pubDate>
-        </item>
-
-        <item>
-                <title>Gelfand: Chunk 16 - Polynomial Division - Remainders, Bezout and Roots</title>
-                <description>
-&lt;h2 id=&quot;there-must-be-an-easier-way&quot;&gt;There Must be an Easier Way…&lt;/h2&gt;
-&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;All this polynomial division is very exciting and all,&lt;/span&gt;  but it’s also very long-winded.  Surely there’s an easier way? (At least in certain circumstances?)&lt;/p&gt;
-
-&lt;p&gt;Reassuringly there is, at least for remainders, and factoring, and this is all up next, courtesy of &lt;a href=&quot;https://en.wikipedia.org/wiki/%C3%89tienne_B%C3%A9zout&quot;&gt;Bezout&lt;/a&gt; and his &lt;a href=&quot;https://en.wikipedia.org/wiki/Polynomial_remainder_theorem&quot;&gt;Polynomial Remainder Theorem&lt;/a&gt;.&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Bezout was a busy guy, and there are other theorems he came up with which you should not confuse with this one.  There is even one called “Bezout’s Theorem” which is &lt;em&gt;not&lt;/em&gt; this one.  Confusing, right? &lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;I’ll let you go to Gelfand&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Section 37. &lt;/span&gt; for the simple reason why this works, but in general, if &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;P&lt;/script&gt;&lt;/span&gt; is an arbitrary polynomial (i.e. any polynomial in a single variable, &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;x&lt;/script&gt;&lt;/span&gt; in what follows) which we want to divide by &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;x - a&lt;/script&gt;&lt;/span&gt; then we can use the following equality to give us a jump on things:&lt;/p&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;P(x) = (\hbox{quotient})(x - a) + (\hbox{remainder})&lt;/script&gt;&lt;/div&gt;
-
-&lt;p&gt;This simple formula gives us a bunch of cool stuff and these cool things are the subject of the rest of this post.&lt;/p&gt;
-
-&lt;h2 id=&quot;tricks-arising-pt-1&quot;&gt;Tricks Arising (Pt. 1)&lt;/h2&gt;
-
-&lt;h3 id=&quot;find-the-remainder-quickly-and-simply---bezouts-remainder-theorem&quot;&gt;Find the Remainder Quickly and Simply - Bezout’s Remainder Theorem&lt;/h3&gt;
-&lt;p&gt;We can use Bezout’s theorem in a sneaky way. To find the remainder when &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;P&lt;/script&gt;&lt;/span&gt; is divided by &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;x - a&lt;/script&gt;&lt;/span&gt;, simply substitute &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a&lt;/script&gt;&lt;/span&gt; for &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;x&lt;/script&gt;&lt;/span&gt;. We don’t need to calculate the quotient to be able to do this either.&lt;/p&gt;
-
-&lt;p&gt;E.g. we have a polynomial &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;P&lt;/script&gt;&lt;/span&gt; which is &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;x^4&lt;/script&gt;&lt;/span&gt;, and we want to know what the remainder is when we divide it by &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;x - 2&lt;/script&gt;&lt;/span&gt;.  In this scenario, &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a = 2&lt;/script&gt;&lt;/span&gt;, and we can put this along with &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;x = 2&lt;/script&gt;&lt;/span&gt; into our equality.&lt;/p&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;2^4 = (\hbox{quotient})(2 - 2) + (\hbox{remainder})&lt;/script&gt;&lt;/div&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;16 = (\hbox{quotient})\cdot 0 + 16&lt;/script&gt;&lt;/div&gt;
-
-&lt;p&gt;This is the aforementoned Remainder Theorem, discovered by &lt;a href=&quot;https://en.wikipedia.org/wiki/%C3%89tienne_B%C3%A9zout&quot;&gt;Etienne Bezout&lt;/a&gt;.&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Note, this is &lt;em&gt;only&lt;/em&gt; a method for finding the remainder. If you need the quotient, you still have to take the long way round as we described in &lt;a href=&quot;https://andrewharmellaw.github.io/2017/02/23/gelfands-algebra-chunk-14-polynomial-division-all-the-gory-details/&quot;&gt;Chunk 14.&lt;/a&gt; &lt;/span&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;find-out-if-p-is-divisible-by-x---a-aka-roots-to-factoring-joy&quot;&gt;Find out if &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;P&lt;/script&gt;&lt;/span&gt; is Divisible by &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;x - a&lt;/script&gt;&lt;/span&gt;, aka “Roots” to Factoring Joy&lt;/h3&gt;
-&lt;p&gt;The previous trick was nice, but not too magical.  Up next is a consequence of Bezout’s theorem, and it’s going to give us another weapon in our fight against factoring.&lt;/p&gt;
-
-&lt;p&gt;Now &lt;em&gt;that’s&lt;/em&gt; magical.&lt;/p&gt;
-
-&lt;p&gt;First we need to take a step back.  Two in fact. Forget about polynomials, and forget about division.  We’re going to introduce properly the concept of &lt;em&gt;polynomial roots&lt;/em&gt;.&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Polynomial roots &lt;em&gt;are not&lt;/em&gt; roots of numbers such as square roots and cube roots.  I’ve written &lt;a href=&quot;https://andrewharmellaw.github.io/2017/04/24/gelfands-algebra-aside-2-roots-roots-and-more-roots&quot;&gt;a separate section&lt;/a&gt; to disambiguate all this. If you feel the need jump over there now to make sure you’re happy with the difference, and what we are and arent talking about here. &lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;Polynomials have things called &lt;em&gt;roots&lt;/em&gt;. If I tell you they are also called a “zero” you might think back to the last time we heard the “zero” word with regards to factoring, in &lt;a href=&quot;https://andrewharmellaw.github.io/2017/01/20/gelfands-algebra-chunk-11-factoring-to-zero&quot;&gt;Chunk 11 - Factoring to Zero&lt;/a&gt;.  In that post we found great solace for our annihilated-terms woes by “looking for the zero result”.&lt;/p&gt;
-
-&lt;p&gt;Gelfand is now going to take the finding-the-remainder element of this approach, and bring us up to speed with roots in general (without explicitly calling out the link I’ve just made - I found it by &lt;a href=&quot;http://www.sosmath.com/algebra/factor/fac02/fac02.html&quot;&gt;reading around the topic&lt;/a&gt;).  (&lt;a href=&quot;https://www.amazon.co.uk/Mind-Numbers-Science-Flunked-Algebra-ebook/dp/B00G3L19ZU&quot;&gt;Oakley&lt;/a&gt; FTW!)&lt;/p&gt;
-
-&lt;p&gt;The definition of a root &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;x = a&lt;/script&gt;&lt;/span&gt; of a function &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;f(x)&lt;/script&gt;&lt;/span&gt; from the above linked page is as follows:&lt;/p&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;f(a) = 0&lt;/script&gt;&lt;/div&gt;
-
-&lt;p&gt;I.e. the number represented by &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a&lt;/script&gt;&lt;/span&gt; is a root of the function represented by &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;f(x)&lt;/script&gt;&lt;/span&gt; because when you make &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a = x&lt;/script&gt;&lt;/span&gt; the result is &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;0&lt;/script&gt;&lt;/span&gt;.&lt;/p&gt;
-
-&lt;p&gt;Pause a while for that to sink in.  It’s very simple, but powerful.  It means if we find an &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a&lt;/script&gt;&lt;/span&gt; (and there could be more than one, then we have a root of &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;f(x)&lt;/script&gt;&lt;/span&gt;.&lt;/p&gt;
-
-&lt;p&gt;Now consider the fact that &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;f(x)&lt;/script&gt;&lt;/span&gt; is just another way of representing our polynomial, &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;P&lt;/script&gt;&lt;/span&gt;.  We have seen that &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a&lt;/script&gt;&lt;/span&gt; is the root of this polynomial. When this is the case,  &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;x - a&lt;/script&gt;&lt;/span&gt; will be a factor (because &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;x - a = 0&lt;/script&gt;&lt;/span&gt;, we’re just rearranging our expression using standard laws).&lt;/p&gt;
-
-&lt;p&gt;That last bit might have been a bit fast, so lets step up on it slowly, and we’ll do it from the Bezout angle this time.&lt;/p&gt;
-
-&lt;p&gt;Remember this from Bezout?&lt;/p&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;P(x) = (\hbox{quotient})(x - a) + (\hbox{remainder})&lt;/script&gt;&lt;/div&gt;
-
-&lt;p&gt;If we state Bezout in a &lt;em&gt;different&lt;/em&gt; way we can see why this is a logical consequence.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“To find whether polynomial &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;P&lt;/script&gt;&lt;/span&gt; is divisible by &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;x - a&lt;/script&gt;&lt;/span&gt; (without remainder), test whether it becomes zero after substitution of &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a&lt;/script&gt;&lt;/span&gt; for &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;x&lt;/script&gt;&lt;/span&gt;.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;That means (and it’s not too much of a brain stretch to see it) that when you put a value into your polynomial &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;P&lt;/script&gt;&lt;/span&gt;, and the result does become zero, then it is divisible by &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;x - a&lt;/script&gt;&lt;/span&gt;, then that means &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a&lt;/script&gt;&lt;/span&gt; is a &lt;em&gt;root&lt;/em&gt; of &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;P&lt;/script&gt;&lt;/span&gt;.  (We have &lt;em&gt;rooted&lt;/em&gt; our polynomial &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;P&lt;/script&gt;&lt;/span&gt;.)  That also means &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;x - a&lt;/script&gt;&lt;/span&gt; is a &lt;em&gt;factor&lt;/em&gt; of &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;P&lt;/script&gt;&lt;/span&gt;.&lt;/p&gt;
-
-&lt;p&gt;One last point&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Perhaps a self-evident one, but I dislike loose ends. &lt;/span&gt; How does this relate to division (polynomial or otherwise)?  Remember, two or more factors are the result of &lt;em&gt;dividing&lt;/em&gt; a polynomial.  To get back to the original polynomial, you simply take their product&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Which is just a fancy maths word for &lt;em&gt;multiplying&lt;/em&gt; them together. &lt;/span&gt;  Bezout’s formula is simply one which make evident both sides of the situation - a polynomial in entirety, and the same, but broken into pieces by division and about to be multiplied and added up again.&lt;/p&gt;
-
-&lt;h2 id=&quot;still-too-magical-lets-check-with-some-problems&quot;&gt;Still Too Magical? Let’s Check With Some Problems&lt;/h2&gt;
-&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;Does that seem a little too magical?&lt;/span&gt;   Are you feeling that adding strings to factoring bows should be harder-fought?  lets tackle some of the followiung problems to check.&lt;/p&gt;
-
-&lt;h3 id=&quot;problem-146a&quot;&gt;Problem 146(a)&lt;/h3&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;x^4 + 5x - 6&lt;/script&gt;&lt;/div&gt;
-
-&lt;p&gt;Lets start trying values for &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;x&lt;/script&gt;&lt;/span&gt; to see if we get a zero result.  &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;0&lt;/script&gt;&lt;/span&gt; first.&lt;/p&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;0^4 + 5 \cdot 0 - 6 = &lt;/script&gt;&lt;/div&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = 0 + 0 - 6 = &lt;/script&gt;&lt;/div&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = -6&lt;/script&gt;&lt;/div&gt;
-
-&lt;p&gt;Nope. Not the answer we were looking for.  How about &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;1&lt;/script&gt;&lt;/span&gt;?&lt;/p&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;1^4 + 5 \cdot 1 - 6 = &lt;/script&gt;&lt;/div&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = 1 + 5 - 6 = &lt;/script&gt;&lt;/div&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = 0&lt;/script&gt;&lt;/div&gt;
-
-&lt;p&gt;Super!  That means &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;1&lt;/script&gt;&lt;/span&gt; is a root of &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;x^4 + 5x - 6&lt;/script&gt;&lt;/span&gt;, which in turn means that &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;x - 1&lt;/script&gt;&lt;/span&gt; must be a factor of the same polynomial.&lt;/p&gt;
-
-&lt;p&gt;To factor from here we need to use the good-ole polynomial division to see what’s left once we factor out &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;x - a&lt;/script&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;
-\require{enclose}
-\begin{array}{rll}
-   x^3  + x^2 \phantom{0} + x + 6 \phantom{00000} &amp;&amp; \hbox{} \\[-3pt]
-   x - 1 \enclose{longdiv}{x^4 \phantom{000000000} + 5x - 6}\kern-.2ex \\[-3pt]
-      \underline{x^4 - x^3 \phantom{0000000000000}} &amp;&amp; \hbox{} \\[-3pt]
-      x^3 \phantom{00000} +5x -6 &amp;&amp; \hbox{} \\[-3pt]
-      \underline{x^3 \phantom{0} - x^2\phantom{00000000}} &amp;&amp; \hbox{} \\[-3pt]
-      x^2 + 5x - 6  &amp;&amp; \hbox{} \\[-3pt]
-      \underline{x^2 \phantom{0} - x \phantom{0000}} &amp;&amp; \hbox{} \\[-3pt]
-      6x - 6  &amp;&amp; \hbox{} \\[-3pt]
-      \underline{6x - 6} &amp;&amp; \hbox{} \\[-3pt]
-      0  &amp;&amp; \hbox{} \\[-3pt]
-  \end{array}
-&lt;/script&gt;&lt;/div&gt;
-
-&lt;p&gt;Awesome.  That means our factoring is as follows:&lt;/p&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;x^4 + 5x - 6 = (x - 1)(x^3 + x^2 + x - 6)&lt;/script&gt;&lt;/div&gt;
-
-&lt;p&gt;We could go farther, and factor &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;x^3 + x^2 + x - 6&lt;/script&gt;&lt;/span&gt;, but you get the gist.&lt;/p&gt;
-
-&lt;p&gt;We’ll do one more before moving on, because it introduces another little clue for us to pick up on&lt;/p&gt;
-
-&lt;h3 id=&quot;problem-146b&quot;&gt;Problem 146(b)&lt;/h3&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;x^4 + 3x^2 + 5x + 1&lt;/script&gt;&lt;/div&gt;
-
-&lt;p&gt;First up, let’s try with &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;0&lt;/script&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;0^4 + 3\cdot0^2 + 5 \cdot 0 + 1 = &lt;/script&gt;&lt;/div&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = 0 + 0 + 0 + 1 = &lt;/script&gt;&lt;/div&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = 1&lt;/script&gt;&lt;/div&gt;
-
-&lt;p&gt;Thats no good.  How about &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;1&lt;/script&gt;&lt;/span&gt;?&lt;/p&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;1^4 + 3\cdot1^2 + 5 \cdot 1 + 1 = &lt;/script&gt;&lt;/div&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = 1 + 3 + 5 + 1 = &lt;/script&gt;&lt;/div&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = 10&lt;/script&gt;&lt;/div&gt;
-
-&lt;p&gt;That’s no good either.  And we’re actually &lt;em&gt;moving away&lt;/em&gt; from a zero result too.  How about &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;-1&lt;/script&gt;&lt;/span&gt;?&lt;/p&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;-1^4 + 3\cdot-1^2 + 5 \cdot -1 + 1 = &lt;/script&gt;&lt;/div&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = 1 + 3 - 5 + 1 = &lt;/script&gt;&lt;/div&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = 0&lt;/script&gt;&lt;/div&gt;
-
-&lt;p&gt;That’s our root!&lt;/p&gt;
-
-&lt;p&gt;We can then take this into our division to get the quotient for our factoring.&lt;/p&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;
-\require{enclose}
-\begin{array}{rll}
-   x^3  + x^2 + 4x \phantom{0} + 1 \phantom{00000} &amp;&amp; \hbox{} \\[-3pt]
-   x + 1 \enclose{longdiv}{x^4 \phantom{00000} + 3x^2 + 5x + 1}\kern-.2ex \\[-3pt]
-      \underline{x^4 + x^3 \phantom{00000000000000}} &amp;&amp; \hbox{} \\[-3pt]
-      -x^3 + 3x^2 + 5x + 1 &amp;&amp; \hbox{} \\[-3pt]
-      \underline{-x^3 \phantom{0} - x^2\phantom{00000000}} &amp;&amp; \hbox{} \\[-3pt]
-      4x^2 + 5x + 1  &amp;&amp; \hbox{} \\[-3pt]
-      \underline{4x^2 + 4x \phantom{0000}} &amp;&amp; \hbox{} \\[-3pt]
-      x + 1  &amp;&amp; \hbox{} \\[-3pt]
-      \underline{x + 1} &amp;&amp; \hbox{} \\[-3pt]
-      0  &amp;&amp; \hbox{} \\[-3pt]
-  \end{array}
-&lt;/script&gt;&lt;/div&gt;
-
-&lt;p&gt;Which means our factoring is as follows:&lt;/p&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;x^4 + 3x^2 + 5x + 1 = (x + 1)(x^3  + x^2 + 4x + 1)&lt;/script&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;tricks-arising-pt-2&quot;&gt;Tricks Arising (Pt. 2)&lt;/h2&gt;
-
-&lt;h3 id=&quot;nothing-subtracted-try-a-negative&quot;&gt;Nothing Subtracted? Try a Negative&lt;/h3&gt;
-&lt;p&gt;If when you look at your polynomial you see that nothing is subtracted&lt;label for=&quot;sn-id-whateved&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whateved&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;As in Problem 146(b) above. &lt;/span&gt; you know that your root will have to be a negative number (so that your sum will add to zero when you mix in the &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;x&lt;/script&gt;&lt;/span&gt;).&lt;/p&gt;
-
-&lt;h3 id=&quot;how-many-roots&quot;&gt;How Many Roots?&lt;/h3&gt;
-&lt;p&gt;The gory details of how to get to this fact are in Gelfand, but its a truism that a polynomial of degree &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;x&lt;/script&gt;&lt;/span&gt; will have at most &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;x&lt;/script&gt;&lt;/span&gt; different roots.  The “different” is important - remember a polynomial can have two roots which are the same (n.b. &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;(x - 1)(x - 1) = (x - 1)^2&lt;/script&gt;&lt;/span&gt; which translates as two roots which are the same).  Mathematicians say this has “two equal roots”.&lt;/p&gt;
-
-&lt;h2 id=&quot;further-reading&quot;&gt;Further Reading&lt;/h2&gt;
-&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;There is a lot more to know about all this,&lt;/span&gt;  but we’ve covered what Gelfand needs us to know for now.  If you are excited to learn more, I’d recommend the &lt;a href=&quot;https://www.mathsisfun.com/algebra/fundamental-theorem-algebra.html&quot;&gt;Fundamental Theorem of Algebra&lt;/a&gt; on MathsIsFun.  It sounds scary, but it is really well written.&lt;/p&gt;
-</description>
-                <link>http://andrewharmellaw.github.io/2017/03/07/gelfands-algebra-chunk-16-polynomial-division-remainders</link>
-                <guid>http://andrewharmellaw.github.io/2017/03/07/gelfands-algebra-chunk-16-polynomial-division-remainders</guid>
-                <pubDate>Tue, 07 Mar 2017 00:00:00 +0000</pubDate>
-        </item>
-
-        <item>
-                <title>Gelfand: Chunk 15 - Polynomial Division Addendum</title>
-                <description>
-&lt;p&gt;Seeing as this is merely an addendum to &lt;a href=&quot;https://andrewharmellaw.github.io/2017/02/23/gelfands-algebra-chunk-14-polynomial-division-all-the-gory-details/&quot;&gt;the previous post&lt;/a&gt;, let’s jump straight in.&lt;/p&gt;
-
-&lt;h2 id=&quot;problems-143a-c---a-handy-shortcut&quot;&gt;Problems 143(a)-(c) - A Handy Shortcut&lt;/h2&gt;
-&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;We’ll work through the first Problem (a)&lt;/span&gt;  using the long-winded method&lt;/p&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;
-\require{enclose}
-\begin{array}{rll}
-   x^2  + x \phantom{000000} + 1 &amp;&amp; \hbox{(Explanations)} \\[-3pt]
-   x - 1 \enclose{longdiv}{x^3 \phantom{000000} - 1 \phantom{0000}}\kern-.2ex \\[-3pt]
-      \underline{x^3 - x^2 \phantom{000000000}} &amp;&amp; \hbox{($(x - 1) \times x^2 = x^3 - x^2$)} \\[-3pt]
-      x^2 \phantom{000000} -1 &amp;&amp; \hbox{($-1 - (-x^2) = x^2 - 1$)} \\[-3pt]
-      \underline{x^2 \phantom{00} - x\phantom{0000}} &amp;&amp; \hbox{($(x - 1)\times x = x^2 - x$)} \\[-3pt]
-      x \phantom{0} - 1  &amp;&amp; \hbox{($-1 - (-x) = x - 1$)} \\[-3pt]
-      \underline{x \phantom{0} - 1} &amp;&amp; \hbox{($(x - 1) \times 1 = x - 1$)} \\[-3pt]
-      0  &amp;&amp; \hbox{($\leftarrow$ the remainder: $-1 - (-1) = 0$)} \\[-3pt]
-  \end{array}
-&lt;/script&gt;&lt;/div&gt;
-
-&lt;p&gt;We could now do the same for (b) and (c), but I think it’s evident, even from just the above, that we’d get a pattern emerging.  Gelfand would undoubtedly be pleased that we’d spotted this, as he goes on to point out just that they have all been generic forms of a standard formula&lt;/p&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; \frac{x^n -1}{x - 1} = x^{n-1} + x^{n-2} + \hbox{...} + x^2 + x + 1&lt;/script&gt;&lt;/div&gt;
-
-&lt;p&gt;It turns out that this has a special power - it can be used to compute the sums of consecutive powers of a number &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;x&lt;/script&gt;&lt;/span&gt;.  You can imagine how it would be; just flip the above standard formula round and reverse the order of the additions&lt;/p&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; 1 + x + x^2 + \hbox{...} + x^{n-2} + x^{n-1} = \frac{x^n -1}{x - 1}&lt;/script&gt;&lt;/div&gt;
-
-&lt;p&gt;The left hand side shows the long-winded way you’d have to go about this. I.e. “what are the consecutive powers of &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;3&lt;/script&gt;&lt;/span&gt; up to the power of three?” you might ask.&lt;/p&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;3^0 + 3^1 + 3^2= &lt;/script&gt;&lt;/div&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = 1 + 3 + 9= &lt;/script&gt;&lt;/div&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = 13&lt;/script&gt;&lt;/div&gt;
-
-&lt;p&gt;But as we know the left hand side and right hand sides of this forumula are equivalent, we can get the same answer by substituting the same values into our other formula.&lt;/p&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;\frac{3^3 - 1}{3 - 1} = \frac{26 - 1}{2} = \frac{26}{2} = 13&lt;/script&gt;&lt;/div&gt;
-
-&lt;p&gt;Much quicker.&lt;/p&gt;
-
-&lt;h2 id=&quot;problem-144---a-sneak-peek-at-geometric-progressions&quot;&gt;Problem 144 - A Sneak Peek at Geometric Progressions&lt;/h2&gt;
-&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;Now while this is handy,&lt;/span&gt;  we’re actually getting a sneak preview of something which Gelfand will later spend quite a lot of time investigating - geometric progressions - but he stops here for now.&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;I don’t recommend you jump ahead, but if you must, take a look at &lt;a href=&quot;https://andrewharmellaw.github.io/2017/03/21/gelfands-algebra-chunk-21-geometric-progressions/&quot;&gt;Chunk 21 - Geometric Progressions&lt;/a&gt;, but be sure and come right back. &lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;There’s little for us to do other than just try substituting the number &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;2&lt;/script&gt;&lt;/span&gt; for &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;x&lt;/script&gt;&lt;/span&gt; and realise that what we have just been working with is the reason this progression property.&lt;/p&gt;
-</description>
-                <link>http://andrewharmellaw.github.io/2017/02/28/gelfands-algebra-chunk-15-polynomial-division-special-cases</link>
-                <guid>http://andrewharmellaw.github.io/2017/02/28/gelfands-algebra-chunk-15-polynomial-division-special-cases</guid>
-                <pubDate>Tue, 28 Feb 2017 00:00:00 +0000</pubDate>
         </item>
 
 
