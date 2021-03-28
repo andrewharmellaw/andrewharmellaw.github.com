@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Experience of Development - Chapter 1: The Fine Balance"
+title: "The Experience of Development<BR/><BR/>Chapter 1: The Fine Balance"
 description: "Some description here."
 category:
 tags: [experience-of-development, mental-models, personal-experience]
@@ -19,6 +19,10 @@ Hilary Mantel interviewed by Michael Rosen for “Word of Mouth”, BBC Radio 4.
 In doing so, three things--the mental models that we construct, the pre-existing mental models which we call upon, _and_ the means by which we mediate them to the outside world--are potentially called into question every time the code itself, that external manifestation of these mental models and bearers of our expectations, tells us what it can and can’t do.  It is at this nexus that our internal conception of the-thing-we-are-trying-to-create-slash-the-problem-we-are-trying-to-solve is confronted with an alternate reality; the reality of syntax and compilers and CPU registers and electrons. 
 
 (For more detail on this loop, see the first part of the introduction to this series: "[A Conjecture]({% post_url 2021-03-08-the-experience-of-development-a-conjecture %})". For detail on the nature of the models and some clarifying terminology, see the second part of the introduction: "[Models, All the Way Down]({% post_url 2021-03-09-the-experience-of-development-models-all-the-way-down %})".)
+
+<BR/>
+
+{% maincolumn 'assets/img/lee-krasner-gaea.jpg' 'Image: Gaea (1966) by Lee Krasner, CC BY-SA 2.0, via G. Starke on <a href="https://www.flickr.com/photos/157267975@N08/41443933070">Flickr.com</a>' %}
 
 The state of this alternate reality is made manifest to us through our senses, and there then arises an overlaying of this input with our mental models and their predictions. The two are compared, and there are a variety of outcomes which can result. 
 

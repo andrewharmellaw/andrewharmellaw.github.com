@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Experience of Development - Introduction Part 2: Models, All the Way Down"
+title: "The Experience of Development<BR/><BR/>Introduction Part 2: Models, All the Way Down"
 description: "Some description here."
 category:
 tags: [experience-of-development, mental-models, sky-castles]
@@ -9,7 +9,7 @@ tags: [experience-of-development, mental-models, sky-castles]
 
 {% maincolumn 'assets/img/fractral.jpg' 'Image: Fractral Octahedron, CC BY 2.0, via fdecomite on <a href="https://www.flickr.com/photos/fdecomite/5371928685/">Flickr.com</a>' %}
 
-{% newthought "In my " %}[previous post]({% post_url 2021-03-08-the-experience-of-development-a-conjecture %}) I put forward the idea that the predictions arising from mental models play an integral role in software development. Unlike that post which was intentionally formal, this one derives far more from introspection and observation. I want to use this relative freedom to share some musings. 
+{% newthought "In part one " %}[of this introduction]({% post_url 2021-03-08-the-experience-of-development-a-conjecture %}) I put forward the idea that the predictions arising from mental models play an integral role in software development. Unlike that post which was intentionally formal, this one derives far more from introspection and observation. I want to use this relative freedom to share some musings. 
 
 Specifically I want to think about what these models might be made from, and given that, consider the dynamics which we experience when manipulating these thought-units. 
 
@@ -62,6 +62,6 @@ This fits brilliantly into Oakley's chunks, because chunks are pieces of informa
 
 _It's models all the way down._
 
-Before we close I must acknowledge the inevitable question: how do we work with (or against) these elements (and perhaps adopt other techniques from Oakley, knowingly or unknowningly) in our acts of development?  Having thought about this [for some time now]({% post_url 2021-03-07-the-experience-of-development-foreword %}), and having spoken to, and watched others working with code, I am convinced that this area is one where a great deal of individual difference lies.  Consequently I believe this will be a fruitful one to investigate, compare / contrast, and discuss, in the main body of this effort.  My first steps into this is the topic of my next post: "[The Experience of Development - Part 3: The Fine Balance]({% post_url 2021-03-15-the-experience-of-development-the-fine-balance %})"
+Before we close I must acknowledge the inevitable question: how do we work with (or against) these elements (and perhaps adopt other techniques from Oakley, knowingly or unknowningly) in our acts of development?  Having thought about this [for some time now]({% post_url 2021-03-07-the-experience-of-development-foreword %}), and having spoken to, and watched others working with code, I am convinced that this area is one where a great deal of individual difference lies.  Consequently I believe this will be a fruitful one to investigate, compare / contrast, and discuss, in the main body of this effort.  My first steps into this is the topic of my next post: "[The Experience of Development - Chapter 1: The Fine Balance]({% post_url 2021-03-15-the-experience-of-development-the-fine-balance %})"
 
 P.S. I’d love to know what you think about all this. If you have any thoughts or any other kind of feedback please reach out to me on [Twitter](https://twitter.com/al94781).  Thanks!
