@@ -5,8 +5,8 @@
         <description>Maths from the Ground Up - Andrew Harmel-Law</description>
         <link>http://andrewharmellaw.github.io</link>
         <atom:link href="http://andrewharmellaw.github.io" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Sun, 28 Mar 2021 15:30:34 +0100</lastBuildDate>
-        <pubDate>Sun, 28 Mar 2021 15:30:34 +0100</pubDate>
+        <lastBuildDate>Sun, 28 Mar 2021 15:48:01 +0100</lastBuildDate>
+        <pubDate>Sun, 28 Mar 2021 15:48:01 +0100</pubDate>
         <ttl>60</ttl>
 
 
@@ -311,7 +311,7 @@ How too does this play into Bruce’s ongoing question about control? Do we pref
         </item>
 
         <item>
-                <title>The Experience of Development - Chapter 1: The Fine Balance</title>
+                <title>The Experience of Development&lt;BR/&gt;&lt;BR/&gt;Chapter 1: The Fine Balance</title>
                 <description>
 &lt;blockquote&gt;
   &lt;p&gt;“My phrases have to be crammed with information. They have to be crammed with content.  Not that a compromise is necessary. I think that so much of what I do with language is instinctive. You see I don’t really think of myself as creating the language, because language pre-exists; I just have to go where it is. I have to find it and it has to find me; and it’s as much about listening as it is about being active. You have an inner voice where the perfect novel is kept; the perfect sentence is kept; and your task is to mediate that to the world outside; and that’s the writer’s daily business.&lt;/p&gt;
@@ -327,6 +327,10 @@ Hilary Mantel interviewed by Michael Rosen for “Word of Mouth”, BBC Radio 4.
 &lt;p&gt;In doing so, three things–the mental models that we construct, the pre-existing mental models which we call upon, &lt;em&gt;and&lt;/em&gt; the means by which we mediate them to the outside world–are potentially called into question every time the code itself, that external manifestation of these mental models and bearers of our expectations, tells us what it can and can’t do.  It is at this nexus that our internal conception of the-thing-we-are-trying-to-create-slash-the-problem-we-are-trying-to-solve is confronted with an alternate reality; the reality of syntax and compilers and CPU registers and electrons.&lt;/p&gt;
 
 &lt;p&gt;(For more detail on this loop, see the first part of the introduction to this series: “&lt;a href=&quot;/2021/03/08/the-experience-of-development-a-conjecture&quot;&gt;A Conjecture&lt;/a&gt;”. For detail on the nature of the models and some clarifying terminology, see the second part of the introduction: “&lt;a href=&quot;/2021/03/09/the-experience-of-development-models-all-the-way-down&quot;&gt;Models, All the Way Down&lt;/a&gt;”.)&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;figure&gt;&lt;figcaption&gt;Image: Gaea (1966) by Lee Krasner, CC BY-SA 2.0, via G. Starke on &lt;a href=&quot;https://www.flickr.com/photos/157267975@N08/41443933070&quot;&gt;Flickr.com&lt;/a&gt;&lt;/figcaption&gt;&lt;img src=&quot;/assets/img/lee-krasner-gaea.jpg&quot; /&gt;&lt;/figure&gt;
 
 &lt;p&gt;The state of this alternate reality is made manifest to us through our senses, and there then arises an overlaying of this input with our mental models and their predictions. The two are compared, and there are a variety of outcomes which can result.&lt;/p&gt;
 
@@ -358,11 +362,11 @@ Hilary Mantel interviewed by Michael Rosen for “Word of Mouth”, BBC Radio 4.
         </item>
 
         <item>
-                <title>The Experience of Development - Introduction Part 2: Models, All the Way Down</title>
+                <title>The Experience of Development&lt;BR/&gt;&lt;BR/&gt;Introduction Part 2: Models, All the Way Down</title>
                 <description>
 &lt;figure&gt;&lt;figcaption&gt;Image: Fractral Octahedron, CC BY 2.0, via fdecomite on &lt;a href=&quot;https://www.flickr.com/photos/fdecomite/5371928685/&quot;&gt;Flickr.com&lt;/a&gt;&lt;/figcaption&gt;&lt;img src=&quot;/assets/img/fractral.jpg&quot; /&gt;&lt;/figure&gt;
 
-&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;In my &lt;/span&gt; &lt;a href=&quot;/2021/03/08/the-experience-of-development-a-conjecture&quot;&gt;previous post&lt;/a&gt; I put forward the idea that the predictions arising from mental models play an integral role in software development. Unlike that post which was intentionally formal, this one derives far more from introspection and observation. I want to use this relative freedom to share some musings.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;In part one &lt;/span&gt; &lt;a href=&quot;/2021/03/08/the-experience-of-development-a-conjecture&quot;&gt;of this introduction&lt;/a&gt; I put forward the idea that the predictions arising from mental models play an integral role in software development. Unlike that post which was intentionally formal, this one derives far more from introspection and observation. I want to use this relative freedom to share some musings.&lt;/p&gt;
 
 &lt;p&gt;Specifically I want to think about what these models might be made from, and given that, consider the dynamics which we experience when manipulating these thought-units.&lt;/p&gt;
 
@@ -419,7 +423,7 @@ Hilary Mantel interviewed by Michael Rosen for “Word of Mouth”, BBC Radio 4.
 
 &lt;p&gt;&lt;em&gt;It’s models all the way down.&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;Before we close I must acknowledge the inevitable question: how do we work with (or against) these elements (and perhaps adopt other techniques from Oakley, knowingly or unknowningly) in our acts of development?  Having thought about this &lt;a href=&quot;/2021/03/07/the-experience-of-development-foreword&quot;&gt;for some time now&lt;/a&gt;, and having spoken to, and watched others working with code, I am convinced that this area is one where a great deal of individual difference lies.  Consequently I believe this will be a fruitful one to investigate, compare / contrast, and discuss, in the main body of this effort.  My first steps into this is the topic of my next post: “&lt;a href=&quot;/2021/03/15/the-experience-of-development-the-fine-balance&quot;&gt;The Experience of Development - Part 3: The Fine Balance&lt;/a&gt;”&lt;/p&gt;
+&lt;p&gt;Before we close I must acknowledge the inevitable question: how do we work with (or against) these elements (and perhaps adopt other techniques from Oakley, knowingly or unknowningly) in our acts of development?  Having thought about this &lt;a href=&quot;/2021/03/07/the-experience-of-development-foreword&quot;&gt;for some time now&lt;/a&gt;, and having spoken to, and watched others working with code, I am convinced that this area is one where a great deal of individual difference lies.  Consequently I believe this will be a fruitful one to investigate, compare / contrast, and discuss, in the main body of this effort.  My first steps into this is the topic of my next post: “&lt;a href=&quot;/2021/03/15/the-experience-of-development-the-fine-balance&quot;&gt;The Experience of Development - Chapter 1: The Fine Balance&lt;/a&gt;”&lt;/p&gt;
 
 &lt;p&gt;P.S. I’d love to know what you think about all this. If you have any thoughts or any other kind of feedback please reach out to me on &lt;a href=&quot;https://twitter.com/al94781&quot;&gt;Twitter&lt;/a&gt;.  Thanks!&lt;/p&gt;
 </description>
@@ -429,7 +433,7 @@ Hilary Mantel interviewed by Michael Rosen for “Word of Mouth”, BBC Radio 4.
         </item>
 
         <item>
-                <title>The Experience of Development - Introduction Part 1: A Conjecture</title>
+                <title>The Experience of Development&lt;BR/&gt;&lt;BR/&gt;Introduction Part 1: A Conjecture</title>
                 <description>
 &lt;p&gt;&lt;em&gt;&lt;span class=&quot;newthought&quot;&gt;It is my conjecture&lt;/span&gt;  that the experience of development, that is to say, how it feels to write code, arises entirely from our responses to convergences of, and differences between, two things: on the one hand our mental models of our code, and on the other, our perceptions arising from the code as it physically exists, outside our heads, on computers.&lt;/em&gt; &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
@@ -493,7 +497,7 @@ Hilary Mantel interviewed by Michael Rosen for “Word of Mouth”, BBC Radio 4.
 
 &lt;p&gt;It is my conjecture therefore that the mental models we have created and subsequently mediated to the outside world in the form of code must match our reality because we expect them to; and when they don’t, we are surprised and it is our individual, nuanced, situation-dependent grappling with this surprise which gives rise to our equally individual experiences of development.&lt;/p&gt;
 
-&lt;p&gt;In my next post, “&lt;a href=&quot;/2021/03/09/the-experience-of-development-models-all-the-way-down&quot;&gt;The Experience of Development - Part 2: Models, All The Way Down&lt;/a&gt;” I introduce the other important element we need in place before we look through this lens: a deeper consideration of the nature of our mental models; of what they are composed, and how we manipulate these thought-units.&lt;/p&gt;
+&lt;p&gt;In my next post, “&lt;a href=&quot;/2021/03/09/the-experience-of-development-models-all-the-way-down&quot;&gt;The Experience of Development - Introduction Part 2: Models, All The Way Down&lt;/a&gt;” I introduce the other important element we need in place before we look through this lens: a deeper consideration of the nature of our mental models; of what they are composed, and how we manipulate these thought-units.&lt;/p&gt;
 
 &lt;p&gt;P.S. I’d love to know what you think. If you have any thoughts or any other kind of feedback please reach out to me on &lt;a href=&quot;https:/twitter.com/al94781&quot;&gt;Twitter&lt;/a&gt;. Thanks!&lt;/p&gt;
 </description>
@@ -503,7 +507,7 @@ Hilary Mantel interviewed by Michael Rosen for “Word of Mouth”, BBC Radio 4.
         </item>
 
         <item>
-                <title>The Experience of Development - Foreword</title>
+                <title>The Experience of Development&lt;BR/&gt;&lt;BR/&gt;Foreword</title>
                 <description>
 &lt;figure&gt;&lt;figcaption&gt;This post, and those which follow it, are dedicated to Carl Quinn, and the rest of the Java Posse. Without you none of this would ever have happened.  You inspired me.  For that I am eternally grateful. 
 
