@@ -37,6 +37,6 @@ The unifying element, the structure around which all this formed, had been expla
 
 The posts which follow this one are the result of this realisation. My hope is that not only will they be coherent, but also useful, and perhaps even enjoyable. My next post goes into my idea, stated as a conjecture, in far more detail. The post after that adds some related ideas I've gathered, less formalised, but important still for the investigations, hypothesis testings, and resulting musings which will follow, both based on personal, and non-personal reports of the experience of development.
 
-Next up: [The Experience of Development - A Conjecture]({% post_url 2021-03-08-the-experience-of-development-a-conjecture %})
+Next up: [The Experience of Development - Part 1: A Conjecture]({% post_url 2021-03-08-the-experience-of-development-a-conjecture %})
 
-I’d love to know what you think. If you have any thoughts or any other kind of feedback please reach out to me on [Twitter](https://twitter.com/al94781).  Thanks!
+P.S. I’d love to know what you think. If you have any thoughts or any other kind of feedback please reach out to me on [Twitter](https://twitter.com/al94781).  Thanks!

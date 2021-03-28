@@ -57,5 +57,6 @@ We now have enough to summarise: if Brooks is right, when we develop software, w
 
 It is my conjecture therefore that the mental models we have created and subsequently mediated to the outside world in the form of code must match our reality because we expect them to; and when they don’t, we are surprised and it is our individual, nuanced, situation-dependent grappling with this surprise which gives rise to our equally individual experiences of development.
 
-In my next post I will introduce the other important element we need in place before we look through this lens: a deeper consideration of the nature of our mental models; of what they are composed, and how we manipulate these thought-units.
+In my next post, "[The Experience of Development - Part 2: Models, All The Way Down]({% post_url 2021-03-09-the-experience-of-development-models-all-the-way-down %})" I introduce the other important element we need in place before we look through this lens: a deeper consideration of the nature of our mental models; of what they are composed, and how we manipulate these thought-units.
  
+P.S. I’d love to know what you think. If you have any thoughts or any other kind of feedback please reach out to me on [Twitter](https:/twitter.com/al94781). Thanks!
