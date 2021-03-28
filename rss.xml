@@ -5,8 +5,8 @@
         <description>Maths from the Ground Up - Andrew Harmel-Law</description>
         <link>http://andrewharmellaw.github.io</link>
         <atom:link href="http://andrewharmellaw.github.io" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Sun, 28 Mar 2021 10:39:37 +0100</lastBuildDate>
-        <pubDate>Sun, 28 Mar 2021 10:39:37 +0100</pubDate>
+        <lastBuildDate>Sun, 28 Mar 2021 11:04:36 +0100</lastBuildDate>
+        <pubDate>Sun, 28 Mar 2021 11:04:36 +0100</pubDate>
         <ttl>60</ttl>
 
 
@@ -324,7 +324,7 @@ Hilary Mantel interviewed by Michael Rosen for “Word of Mouth”, BBC Radio 4.
 
 &lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;Each of us approaches software development&lt;/span&gt;  in our own individual way, based on both our understanding of the-thing-we-are-trying-to-create-slash-the-problem-we-are-trying-to-solve, and on our grasp of the tools with which we are working.&lt;/p&gt;
 
-&lt;p&gt;In doing so, three things–the mental models that we construct, the pre-existing mental models which we call upon, &lt;em&gt;and&lt;/em&gt; the means by which we mediate them to the outside world–are potentially called into question every time the code itself, that external manifestation of these mental models and bearers of our expectations, tells us what it can and can’t do.  It is at this nexus that our internal conception of the-thing-we-are-trying-to-create-slash-the-problem-we-are-trying-to-solve is confronted with an alternate reality; the reality of syntax and compilers and CPU registers and electrons.&lt;/p&gt;
+&lt;p&gt;In doing so, three things–the mental models that we construct, the pre-existing mental models which we call upon, &lt;em&gt;and&lt;/em&gt; the means by which we mediate them to the outside world–are potentially called into question every time the code itself, that external manifestation of these mental models and bearers of our expectations, tells us what it can and can’t do.  It is at this nexus that our internal conception of the-thing-we-are-trying-to-create-slash-the-problem-we-are-trying-to-solve is confronted with an alternate reality; the reality of syntax and compilers and CPU registers and electrons. (For more detail on this loop, see part one of this series: “&lt;a href=&quot;/2021/03/08/the-experience-of-development-a-conjecture&quot;&gt;A Conjecture&lt;/a&gt;”. For detail on the nature of the models and some clarifying terminology, see part two: “&lt;a href=&quot;/2021/03/09/the-experience-of-development-models-all-the-way-down&quot;&gt;Models, All the Way Down&lt;/a&gt;”.)&lt;/p&gt;
 
 &lt;p&gt;The state of this alternate reality is made manifest to us through our senses, and there then arises an overlaying of this input with our mental models and their predictions. The two are compared, and there are a variety of outcomes which can result.&lt;/p&gt;
 
@@ -347,6 +347,8 @@ Hilary Mantel interviewed by Michael Rosen for “Word of Mouth”, BBC Radio 4.
 &lt;p&gt;How frequently this mis-match occurs is clearly important. But what strikes me as more worthy of investigation is how different people, at different times, and in different contexts experience, and consequently (re)act / respond, both intellectually and emotionally to all these outcomes, both predicted, and surprising.  It also seems significant to look into instances when the distinction between one possible coping strategy and another is unclear, or when it is &lt;em&gt;too clear&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;I intend to go into this in future posts, but for now I will stop here and leave you to ponder your experiences in this area.  Does my formulation make sense?  Is it gibberish?  I know for one that it represents at most one half of the experience of development.  The other half? That is the subject of the next post, the experience itself of mentally constructing our cloud-castles.&lt;/p&gt;
+
+&lt;p&gt;P.S. I’d love to know what you think. If you have any thoughts or any other kind of feedback please reach out to me on &lt;a href=&quot;https://twitter.com/al94781&quot;&gt;Twitter&lt;/a&gt;.  Thanks!&lt;/p&gt;
 </description>
                 <link>http://andrewharmellaw.github.io/2021/03/15/the-experience-of-development-the-fine-balance</link>
                 <guid>http://andrewharmellaw.github.io/2021/03/15/the-experience-of-development-the-fine-balance</guid>
@@ -413,8 +415,9 @@ Hilary Mantel interviewed by Michael Rosen for “Word of Mouth”, BBC Radio 4.
 
 &lt;p&gt;This fits brilliantly into Oakley’s chunks, because chunks are pieces of information formed from smaller-level pieces of information, bound together by meaning.  Or put another way, mental models, comprising of smaller-level mental models.  We, in short, construct mental models out of other mental models. Its models all the way down.&lt;/p&gt;
 
-&lt;p&gt;Before we close I ought to tackle the question around how we work with (or against) these elements (and perhaps adopt other techniques from the book, knowingly or unknowningly) in our acts of development.  Having thought about this &lt;a href=&quot;&quot;&gt;for some time now&lt;/a&gt;, and having spoken to, and watched others in the course of working with code I think we should leave this open for now.  Why? I think this area is one in which a great deal of diversity lies, and consequently will be a fruitful one to investigate, compare / contrast, and discuss, in the main body of this effort.&lt;/p&gt;
+&lt;p&gt;Before we close I ought to tackle the question around how we work with (or against) these elements (and perhaps adopt other techniques from the book, knowingly or unknowningly) in our acts of development.  Having thought about this &lt;a href=&quot;&quot;&gt;for some time now&lt;/a&gt;, and having spoken to, and watched others in the course of working with code I think we should leave this open for now.  Why? I think this area is one in which a great deal of diversity lies, and consequently will be a fruitful one to investigate, compare / contrast, and discuss, in the main body of this effort.  This is the topic of my next post: “&lt;a href=&quot;/2021/03/15/the-experience-of-development-the-fine-balance&quot;&gt;The Experience of Development - Part 3: The Fine Balance&lt;/a&gt;”&lt;/p&gt;
 
+&lt;p&gt;P.S. I’d love to know what you think. If you have any thoughts or any other kind of feedback please reach out to me on &lt;a href=&quot;https://twitter.com/al94781&quot;&gt;Twitter&lt;/a&gt;.  Thanks!&lt;/p&gt;
 </description>
                 <link>http://andrewharmellaw.github.io/2021/03/09/the-experience-of-development-models-all-the-way-down</link>
                 <guid>http://andrewharmellaw.github.io/2021/03/09/the-experience-of-development-models-all-the-way-down</guid>
@@ -486,8 +489,9 @@ Hilary Mantel interviewed by Michael Rosen for “Word of Mouth”, BBC Radio 4.
 
 &lt;p&gt;It is my conjecture therefore that the mental models we have created and subsequently mediated to the outside world in the form of code must match our reality because we expect them to; and when they don’t, we are surprised and it is our individual, nuanced, situation-dependent grappling with this surprise which gives rise to our equally individual experiences of development.&lt;/p&gt;
 
-&lt;p&gt;In my next post I will introduce the other important element we need in place before we look through this lens: a deeper consideration of the nature of our mental models; of what they are composed, and how we manipulate these thought-units.&lt;/p&gt;
+&lt;p&gt;In my next post, “&lt;a href=&quot;/2021/03/09/the-experience-of-development-models-all-the-way-down&quot;&gt;The Experience of Development - Part 2: Models, All The Way Down&lt;/a&gt;” I introduce the other important element we need in place before we look through this lens: a deeper consideration of the nature of our mental models; of what they are composed, and how we manipulate these thought-units.&lt;/p&gt;
 
+&lt;p&gt;P.S. I’d love to know what you think. If you have any thoughts or any other kind of feedback please reach out to me on &lt;a href=&quot;https:/twitter.com/al94781&quot;&gt;Twitter&lt;/a&gt;. Thanks!&lt;/p&gt;
 </description>
                 <link>http://andrewharmellaw.github.io/2021/03/08/the-experience-of-development-a-conjecture</link>
                 <guid>http://andrewharmellaw.github.io/2021/03/08/the-experience-of-development-a-conjecture</guid>
@@ -527,9 +531,9 @@ Thank you. 🙏 &lt;br /&gt;&lt;br /&gt;Image: Mt Crested Butte, Colorado, USA, 
 
 &lt;p&gt;The posts which follow this one are the result of this realisation. My hope is that not only will they be coherent, but also useful, and perhaps even enjoyable. My next post goes into my idea, stated as a conjecture, in far more detail. The post after that adds some related ideas I’ve gathered, less formalised, but important still for the investigations, hypothesis testings, and resulting musings which will follow, both based on personal, and non-personal reports of the experience of development.&lt;/p&gt;
 
-&lt;p&gt;Next up: &lt;a href=&quot;/2021/03/08/the-experience-of-development-a-conjecture&quot;&gt;The Experience of Development - A Conjecture&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Next up: &lt;a href=&quot;/2021/03/08/the-experience-of-development-a-conjecture&quot;&gt;The Experience of Development - Part 1: A Conjecture&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;I’d love to know what you think. If you have any thoughts or any other kind of feedback please reach out to me on &lt;a href=&quot;https://twitter.com/al94781&quot;&gt;Twitter&lt;/a&gt;.  Thanks!&lt;/p&gt;
+&lt;p&gt;P.S. I’d love to know what you think. If you have any thoughts or any other kind of feedback please reach out to me on &lt;a href=&quot;https://twitter.com/al94781&quot;&gt;Twitter&lt;/a&gt;.  Thanks!&lt;/p&gt;
 </description>
                 <link>http://andrewharmellaw.github.io/2021/03/07/the-experience-of-development-foreword</link>
                 <guid>http://andrewharmellaw.github.io/2021/03/07/the-experience-of-development-foreword</guid>
