@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Experience of Development - Part 2: Models, All the Way Down"
+title: "The Experience of Development - Introduction Part 2: Models, All the Way Down"
 description: "Some description here."
 category:
 tags: [experience-of-development, mental-models, sky-castles]
@@ -11,18 +11,18 @@ tags: [experience-of-development, mental-models, sky-castles]
 
 {% newthought "In my " %}[previous post]({% post_url 2021-03-08-the-experience-of-development-a-conjecture %}) I put forward the idea that the predictions arising from mental models play an integral role in software development. Unlike that post which was intentionally formal, this one derives far more from introspection and observation. I want to use this relative freedom to share some musings. 
 
-Specifically I want to think about what these models might be made from, and given that, consider a source of the limitations we experience when manipulating these thought-units. 
+Specifically I want to think about what these models might be made from, and given that, consider the dynamics which we experience when manipulating these thought-units. 
 
 More prosaically, I also want to introduce terminology (which I'll flag as side-notes) which I hope will make subsequent posts on the _experiences arising_ from all these comprehensible.
 
-In order to speculate in this way, I need to go bring in one more collection of concepts which, despite not appearing so at the time, have continued to resonate with me, and feel relevant for us here.
+In order to speculate like this, I need to go bring in one more collection of concepts which, despite not appearing so at the time, have continued to resonate with me, and feel relevant for us here.
 <BR/><BR/>
 
 _____________
 
-Back in 2016 I was trying to learn algebra.  It was long overdue.  It was also hard.  Really hard.  And [once again](), someone from the Java Posse Roundup came to my aid.
+Back in 2016 I was trying to learn algebra.  It was long overdue.  It was also hard.  Really hard.  And [once again]({% post_url 2021-03-07-the-experience-of-development-foreword %}), someone from the Java Posse Roundup came to my aid.
 
-During a conversation about this that probably took place in a queue for coffee, [Todd]() had mentioned a book by Barbara Oakley which he'd found useful: [“A Mind for Numbers: How to Excel at Math and Science”](https://www.goodreads.com/book/show/18693655-a-mind-for-numbers).  
+During a conversation about my travails (it probably took place in a queue for coffee) [Todd]() mentioned a book by Barbara Oakley which he'd found useful: [“A Mind for Numbers: How to Excel at Math and Science”](https://www.goodreads.com/book/show/18693655-a-mind-for-numbers).  
 
 I approached it with caution. I rarely have the cheek to say out loud how much I distain these “pop-Psychology” books{% sidenote 'sn-id-whatever' 'I have a real Psychology degree forchirstssakes!#$%^*!!'%}, but I also frequently give them a try, and that's what I did here, admitting to myself that anything which could give me even a toe-hold on the seemingly impossible cliff-face of mathematics would be of benefit.
 
@@ -44,22 +44,24 @@ She goes on:
 
 > “Chunking the information you deal with helps your brain run more efficiently. Once you chunk an idea or a concept, you don’t need to remember all the little, underlying details; you’ve got the main idea—the chunk—and that’s enough.”<BR/>(A Mind for Numbers, Oakey, pp.53-54)
 
-I'll stop laboring the point now. I hope all this feels super-familiar.  Firstly as a description of daily development experience (which may or may not have a basis in neuropsychogical fact) but also secondly as a concept with exciting echoes and resonances for what we discussed in the [previous post]({% post_url 2021-03-08-the-experience-of-development-a-conjecture %}), with regards to Friston’s ideas of mental models and their arising hypotheses.
+I won't labour the point any further. I hope all this feels super-familiar.  Firstly as a description of daily development experience (which may or may not have a basis in neuropsychogical fact) but also secondly as a concept with exciting echoes and resonances for what I shared in the [previous post]({% post_url 2021-03-08-the-experience-of-development-a-conjecture %}), with regards to Friston’s ideas of mental models and their arising hypotheses.
  
-Given all this, and given the fact that it frequently feels during development as if we are trying to wrestle a number of thought-elements within a finite mental space, how might we use the concepts I've lifted from Oakley to  gain a bit more perspective? 
+Given all this, and given the fact that it frequently feels during development as if we are trying to wrestle a number of thought-elements within a finite mental space, how might we use the concepts I've lifted from Oakley to gain some insight? 
 
-The key question arises: "what might be the nature of the thought-units from which our mental-model castles are built?" I propose that these too are mental models; but more specific, more fundamental ones.  My supposition is that, in order to fashion higher-order cloud castles, we manipulate smaller blocks of mental model, blocks which represent concepts we already have. _It is, I propose, mental models all the way down._ And it is these mental model blocks which are the things taking up the chunk-slots in working memory. Let me unpack this a little.  
+The key question arises: "what might be the nature of the thought-units from which we build our mental-model castles?" I propose that these too are mental models; but more specific, more fundamental ones.  My supposition is that, in order to fashion higher-order cloud castles, we manipulate smaller blocks of mental model, blocks which represent concepts we already have. _It is, I propose, mental models all the way down._ And it is these mental model blocks which are the things taking up the chunk-slots in working memory. Let me unpack this a little.  
 
-I previously described [my proposition]({% post_url 2021-03-08-the-experience-of-development-a-conjecture %}) that when I write code I am forming a model in my mind which I concurrently convey to the outside world through code.
+I previously [proposed]({% post_url 2021-03-08-the-experience-of-development-a-conjecture %}) that when I am developing software I am forming a model in my mind which I am continually conveying to the outside world in the form of code.
 
-In performing this act of creativity I deploy the raw elements of what I know (or more precisely, _what I expect_) of my chosen programming language.  I am therefore using these pre-existing blocks of mental model, which comprise my idea of how the programming language and it’s constructs work — let's call them the “substrate”{% sidenote 'sn-id-whatever' 'This is your first terminology alert' %} models — and from them construct my castle — let's call that the “creation-solution”{% sidenote 'sn-id-whatever' 'This is your second terminology alert' %} model.
+In performing this act of creativity I deploy the raw elements of what I know (or more precisely, _what I expect_) of my chosen programming language.  I am using these pre-existing blocks of mental model, which comprise my idea of how the programming language and it’s constructs work — let's call them the “substrate”{% sidenote 'sn-id-whatever' 'This is your first terminology alert' %} models — and from them construct my castle — let's call that the “creation-solution”{% sidenote 'sn-id-whatever' 'This is your second terminology alert' %} model.
 
-From this it quickly becomes clear that these concepts of “substrate” and “creation-solution” model are relative.  What from one perspective is the former (i.e.  a LinkedList collection is to me a substrate model when I'm flat-mapping my way to a sum), is from another perspective the latter{% sidenote 'sn-id-whatever' 'We all know the core libraries we use for example are simply pre-formed building blocks created for us by others'%} (i.e. a creation-solution model when I'm implementing a quantum-safe collections library) and not just between developers, but within the same individual, depending on the viewpoint we hold at any given point in time during development.  For example, one moment I'm creating a component or a microservice, the next moment I'm calling it.
+From this it quickly becomes clear that these concepts of “substrate” and “creation-solution” model are relative.  From one perspective a mental model is the former (i.e.  a LinkedList collection is to me a substrate model when I'm flat-mapping my way to a sum), but from another perspective it is the latter{% sidenote 'sn-id-whatever' 'We all know the core libraries we use for example are simply pre-formed building blocks created for us by others'%} (i.e. a creation-solution model when I'm implementing a quantum-safe collections library). This does not only between developers. It also happens within the same individual, depending on the viewpoint we hold at any given point in time during development.  For example, one moment I'm creating a component or a microservice, the next moment I'm calling it.
 
-Given that the difference here is only one of perspective, _and_ given my conjecture, both models can be expected to work inside our heads in exactly the same way - by embodying a set of expectations as to how the real-world things they represent are structured and function.
+Given that the difference here is only one of perspective, _and_ given [my conjecture]({% post_url 2021-03-08-the-experience-of-development-a-conjecture %}), both models can be expected to work inside our heads in exactly the same way: embodying a set of expectations of how the real-world (i.e. code) things they represent are structured and  will function.
 
-This fits brilliantly into Oakley's chunks, because chunks are pieces of information formed from smaller-level pieces of information, bound together by meaning.  Or put another way, mental models, comprising of smaller-level mental models.  We, in short, construct mental models out of other mental models. Its models all the way down.
+This fits brilliantly into Oakley's chunks, because chunks are pieces of information formed from smaller-level pieces of information, bound together by meaning.  Or put another way, mental models, comprising of smaller-level mental models.  We, in short, construct mental models out of other mental models. 
 
-Before we close I ought to tackle the question around how we work with (or against) these elements (and perhaps adopt other techniques from the book, knowingly or unknowningly) in our acts of development.  Having thought about this [for some time now](), and having spoken to, and watched others in the course of working with code I think we should leave this open for now.  Why? I think this area is one in which a great deal of diversity lies, and consequently will be a fruitful one to investigate, compare / contrast, and discuss, in the main body of this effort.  This is the topic of my next post: "[The Experience of Development - Part 3: The Fine Balance]({% post_url 2021-03-15-the-experience-of-development-the-fine-balance %})"
+_It's models all the way down._
 
-P.S. I’d love to know what you think. If you have any thoughts or any other kind of feedback please reach out to me on [Twitter](https://twitter.com/al94781).  Thanks!
+Before we close I must acknowledge the inevitable question: how do we work with (or against) these elements (and perhaps adopt other techniques from Oakley, knowingly or unknowningly) in our acts of development?  Having thought about this [for some time now]({% post_url 2021-03-07-the-experience-of-development-foreword %}), and having spoken to, and watched others working with code, I am convinced that this area is one where a great deal of individual difference lies.  Consequently I believe this will be a fruitful one to investigate, compare / contrast, and discuss, in the main body of this effort.  My first steps into this is the topic of my next post: "[The Experience of Development - Part 3: The Fine Balance]({% post_url 2021-03-15-the-experience-of-development-the-fine-balance %})"
+
+P.S. I’d love to know what you think about all this. If you have any thoughts or any other kind of feedback please reach out to me on [Twitter](https://twitter.com/al94781).  Thanks!

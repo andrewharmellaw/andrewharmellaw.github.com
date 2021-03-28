@@ -31,10 +31,4 @@ Posts on the learning path I take (it was hard to find a place to start, and I w
 
 One more thing to point out. As this is a blog mainly used to drive my learning, I'll not hesitate to come back to previous posts and update / correct / enhance them as necessarily.
     
-## Posts to Date
-{% newthought "Here's a list" %} of the posts so far:
-<ul class="posts">
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
+{% newthought "If you're still interested, " %} take a look at the first post: "[Gelfand Chunk 1 - Fundamentals]({% post_url 2016-11-16-gelfands-algebra-chunk-1-fundamentals %})".
