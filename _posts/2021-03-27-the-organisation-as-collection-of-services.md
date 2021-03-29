@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Organisation as a Collection of Services"
+title: "Your Organisation Viewed as a Collection of Services"
 description: "Some description here."
 category:
 tags: [orgs, organisations, org-design, services, service-design]
@@ -11,9 +11,13 @@ tags: [orgs, organisations, org-design, services, service-design]
 
 (This post is second in a series.  Part one, "[Is Your Organisation Broken?]({% post_url 2021-03-26-is-your-organisation-broken %})" sets the scene for this post's proposal of a new way to look at organisations.)
 
-{% newthought "I've wondered for a long time " %}if there’s value in considering organisations from the perspective of the services they provide to their members. 
+{% newthought "I've wondered for a long time " %}if there’s value in looking at _all_ organisations through a lens which treats employees as consumers of services the organisation provides, and then asks "how does the way you organise provide these services?"
 
-Now, I propose that how any individual organisation provides such services varies greatly, but I think (bear with me) that the following is an exhaustive list of services that all organisations provide.  Clearly then, sometimes an organisation will provide one or more of these services explicitly, and other times it will provide some of them implicitly (or even by accident).  Furthermore, some services will be provided officially, and others unofficially. Sometimes both types will be at play at once, one most likely working more efficiently than another.  
+This might seem a bit meta, so here's two examples. The multinational conglomerate Acme Corp follows a "traditional" model of organisations in that it is hierarchical, and bureaucratic.  This model offers services such as "work allocation" and "decision making" and in both cases (at least officially) these services are provided via a "performed by a named individual at the appropriate level of management who follows a documented process" approach.
+
+Meanwhile the small startup Mom & Pop Soda Shop Inc follows a "trust" model in that anyone is expected to spot things which need to be done, and are permitted to do them.  This model offers the same services ("work allocation" and "decision making") but here both are provided via a "all employees are empowered to do the right thing ad hoc and whenever required" mechanism.
+
+How different organisations provides these "internal" services will clearly vary greatly, but I think (bear with me) that _there is a finite set of services that all organisations provide_ purely by dint of their being an organisation.  Sometimes an organisation will provide one or more of these services explicitly, and other times it will provide some of them implicitly (or even by accident).  Furthermore, some services will be provided officially, and others unofficially. Sometimes both types will be at play at once, one most likely working more efficiently than another.  
 
 Finally, please note that this breakdown says nothing about the quality or fit of any of the service implementations in a given organisation.  The services as delivered might be terrible, or they might be excellent.  They might conflict with or contradict one another.
 

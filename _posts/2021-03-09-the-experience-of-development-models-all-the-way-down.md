@@ -20,7 +20,7 @@ In order to speculate like this, I need to go bring in one more collection of co
 
 _____________
 
-Back in 2016 I was trying to learn algebra.  It was long overdue.  It was also hard.  Really hard.  And [once again]({% post_url 2021-03-07-the-experience-of-development-foreword %}), someone from the Java Posse Roundup came to my aid.
+Back in 2016 I was trying to learn algebra.  It was long overdue.  It was also hard.  Really hard.  And [once again]({% post_url 2021-03-07-the-experience-of-development-preface %}), someone from the Java Posse Roundup came to my aid.
 
 During a conversation about my travails (it probably took place in a queue for coffee) [Todd]() mentioned a book by Barbara Oakley which he'd found useful: [“A Mind for Numbers: How to Excel at Math and Science”](https://www.goodreads.com/book/show/18693655-a-mind-for-numbers).  
 
@@ -62,6 +62,6 @@ This fits brilliantly into Oakley's chunks, because chunks are pieces of informa
 
 _It's models all the way down._
 
-Before we close I must acknowledge the inevitable question: how do we work with (or against) these elements (and perhaps adopt other techniques from Oakley, knowingly or unknowningly) in our acts of development?  Having thought about this [for some time now]({% post_url 2021-03-07-the-experience-of-development-foreword %}), and having spoken to, and watched others working with code, I am convinced that this area is one where a great deal of individual difference lies.  Consequently I believe this will be a fruitful one to investigate, compare / contrast, and discuss, in the main body of this effort.  My first steps into this is the topic of my next post: "[The Experience of Development - Chapter 1: The Fine Balance]({% post_url 2021-03-15-the-experience-of-development-the-fine-balance %})"
+Before we close I must acknowledge the inevitable question: how do we work with (or against) these elements (and perhaps adopt other techniques from Oakley, knowingly or unknowningly) in our acts of development?  Having thought about this [for some time now]({% post_url 2021-03-07-the-experience-of-development-preface %}), and having spoken to, and watched others working with code, I am convinced that this area is one where a great deal of individual difference lies.  Consequently I believe this will be a fruitful one to investigate, compare / contrast, and discuss, in the main body of this effort.  My first steps into this is the topic of my next post: "[The Experience of Development - Chapter 1: The Fine Balance]({% post_url 2021-03-15-the-experience-of-development-the-fine-balance %})"
 
 P.S. I’d love to know what you think about all this. If you have any thoughts or any other kind of feedback please reach out to me on [Twitter](https://twitter.com/al94781).  Thanks!

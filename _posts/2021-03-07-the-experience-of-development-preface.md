@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Experience of Development<BR/><BR/>Foreword"
+title: "The Experience of Development<BR/><BR/>Preface"
 description: "Some description here."
 category:
 tags: [experience-of-development, friston, mental-models]
