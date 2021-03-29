@@ -18,19 +18,19 @@ Hilary Mantel interviewed by Michael Rosen for “Word of Mouth”, BBC Radio 4.
 
 In doing so, three things--the mental models that we construct, the pre-existing mental models which we call upon, _and_ the means by which we mediate them to the outside world--are potentially called into question every time the code itself, that external manifestation of these mental models and bearers of our expectations, tells us what it can and can’t do.  It is at this nexus that our internal conception of the-thing-we-are-trying-to-create-slash-the-problem-we-are-trying-to-solve is confronted with an alternate reality; the reality of syntax and compilers and CPU registers and electrons. 
 
-(For more detail on this loop, see the first part of the introduction to this series: "[A Conjecture]({% post_url 2021-03-08-the-experience-of-development-a-conjecture %})". For detail on the nature of the models and some clarifying terminology, see the second part of the introduction: "[Models, All the Way Down]({% post_url 2021-03-09-the-experience-of-development-models-all-the-way-down %})".)
+(For more detail on this loop, see part one of the introduction to this series: "[A Conjecture]({% post_url 2021-03-08-the-experience-of-development-a-conjecture %})". For detail on the nature of the models and some clarifying terminology, see the second part: "[Models, All the Way Down]({% post_url 2021-03-09-the-experience-of-development-models-all-the-way-down %})".)
 
 <BR/>
 
 {% maincolumn 'assets/img/lee-krasner-gaea.jpg' 'Image: Gaea (1966) by Lee Krasner, CC BY-SA 2.0, via G. Starke on <a href="https://www.flickr.com/photos/157267975@N08/41443933070">Flickr.com</a>' %}
 
-The state of this alternate reality is made manifest to us through our senses, and there then arises an overlaying of this input with our mental models and their predictions. The two are compared, and there are a variety of outcomes which can result. 
+{% newthought "The state of this alternate reality" %} is made manifest to us through our senses, and there then arises an overlaying of this input with our mental models and their predictions. The two are compared, and there are a variety of outcomes which can result. 
 
 If what our models predict matches up with what we have sensed then the reward of having crafted a cloud castle that we have successfully mediated into the world outside hits. We _feel_ good. This is an experience of development. One of the primary ones which keeps us coming back for more.
 
 But when the match fails, signaling that our mental-model hypothesis has been falsified--an all-too frequent occurrence in my experience--we react to this disparity, this “surprise”, in one of several ways. This too is the root of experiences of development. 
 
-The type of reaction which arises depends upon our confidence in which of the two should carry more weight. Do we trust what we expect? Or do we trust what we sense? Most importantly for our purposes here, how do we explain the discrepancies away? Let us enumerate the coping strategies here, for I propose that it is within these responses, conscious or unconscious, that many of the varieties of development experience lie.{% sidenote 'sn-id-whatever' 'I have tried to arrange these in order of magnitude, but clearly such an effort is very subjective.' %}
+{% newthought "The type of reaction which arises" %} depends upon our confidence in which of the two should carry more weight. Do we trust what we expect? Or do we trust what we sense? Most importantly for our purposes here, how do we explain the discrepancies away? Let us enumerate the coping strategies here, for I propose that it is within these responses, conscious or unconscious, that many of the varieties of development experience lie.{% sidenote 'sn-id-whatever' 'I have tried to arrange these in order of magnitude, but clearly such an effort is very subjective.' %}
 
 Firstly{% sidenote 'sn-id-whatever' 'And most mundanely.' %}, we can doubt that we effectively mediated our mental models to the outside world, to the code. Did we make a typo? Did we forget a setting? Did we press the wrong button?
 
@@ -42,7 +42,7 @@ Fourthly we can doubt our substrate mental models - the ones representing our la
 
 Finally we can doubt what we are experiencing, and act as if it's not happening. This can directly lead to us being blind to things, not seeing them when they are there, because to “see” is to understand, even in a most basic way.
 
-How frequently this mis-match occurs is clearly important. But what strikes me as more worthy of investigation is how different people, at different times, and in different contexts experience, and consequently (re)act / respond, both intellectually and emotionally to all these outcomes, both predicted, and surprising.  It also seems significant to look into instances when the distinction between one possible coping strategy and another is unclear, or when it is _too clear_. 
+{% newthought "How frequently this mis-match occurs" %} is clearly important. But what strikes me as more worthy of investigation is how different people, at different times, and in different contexts experience, and consequently (re)act / respond, both intellectually and emotionally to all these outcomes, both predicted, and surprising.  It also seems significant to look into instances when the distinction between one possible coping strategy and another is unclear, or when it is _too clear_. 
 
 I intend to go into this in future posts, but for now I will stop here and leave you to ponder your experiences in this area.  Does my formulation make sense?  Is it gibberish?  I know for one that it represents at most one half of the experience of development.  The other half? That is the subject of the next post, the experience itself of mentally constructing our cloud-castles.
 
