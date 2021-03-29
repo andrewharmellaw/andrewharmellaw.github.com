@@ -5,21 +5,25 @@
         <description>Maths from the Ground Up - Andrew Harmel-Law</description>
         <link>http://andrewharmellaw.github.io</link>
         <atom:link href="http://andrewharmellaw.github.io" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Sun, 28 Mar 2021 15:48:01 +0100</lastBuildDate>
-        <pubDate>Sun, 28 Mar 2021 15:48:01 +0100</pubDate>
+        <lastBuildDate>Mon, 29 Mar 2021 16:01:05 +0100</lastBuildDate>
+        <pubDate>Mon, 29 Mar 2021 16:01:05 +0100</pubDate>
         <ttl>60</ttl>
 
 
         <item>
-                <title>The Organisation as a Collection of Services</title>
+                <title>Your Organisation Viewed as a Collection of Services</title>
                 <description>
 &lt;figure&gt;&lt;figcaption&gt;Image: Deadman Ranch Ancient Buildings, Public Domain on &lt;a href=&quot;https://snappygoat.com/free-public-domain-images-deadman_ranch_ancient_buildings_37&quot;&gt;SnappyGoat.com&lt;/a&gt;&lt;/figcaption&gt;&lt;img src=&quot;/assets/img/deadman-ranch-ancient-buildings-223774.jpg&quot; /&gt;&lt;/figure&gt;
 
 &lt;p&gt;(This post is second in a series.  Part one, “&lt;a href=&quot;/2021/03/26/is-your-organisation-broken&quot;&gt;Is Your Organisation Broken?&lt;/a&gt;” sets the scene for this post’s proposal of a new way to look at organisations.)&lt;/p&gt;
 
-&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;I’ve wondered for a long time &lt;/span&gt; if there’s value in considering organisations from the perspective of the services they provide to their members.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;I’ve wondered for a long time &lt;/span&gt; if there’s value in looking at &lt;em&gt;all&lt;/em&gt; organisations through a lens which treats employees as consumers of services the organisation provides, and then asks “how does the way you organise provide these services?”&lt;/p&gt;
 
-&lt;p&gt;Now, I propose that how any individual organisation provides such services varies greatly, but I think (bear with me) that the following is an exhaustive list of services that all organisations provide.  Clearly then, sometimes an organisation will provide one or more of these services explicitly, and other times it will provide some of them implicitly (or even by accident).  Furthermore, some services will be provided officially, and others unofficially. Sometimes both types will be at play at once, one most likely working more efficiently than another.&lt;/p&gt;
+&lt;p&gt;This might seem a bit meta, so here’s two examples. The multinational conglomerate Acme Corp follows a “traditional” model of organisations in that it is hierarchical, and bureaucratic.  This model offers services such as “work allocation” and “decision making” and in both cases (at least officially) these services are provided via a “performed by a named individual at the appropriate level of management who follows a documented process” approach.&lt;/p&gt;
+
+&lt;p&gt;Meanwhile the small startup Mom &amp;amp; Pop Soda Shop Inc follows a “trust” model in that anyone is expected to spot things which need to be done, and are permitted to do them.  This model offers the same services (“work allocation” and “decision making”) but here both are provided via a “all employees are empowered to do the right thing ad hoc and whenever required” mechanism.&lt;/p&gt;
+
+&lt;p&gt;How different organisations provides these “internal” services will clearly vary greatly, but I think (bear with me) that &lt;em&gt;there is a finite set of services that all organisations provide&lt;/em&gt; purely by dint of their being an organisation.  Sometimes an organisation will provide one or more of these services explicitly, and other times it will provide some of them implicitly (or even by accident).  Furthermore, some services will be provided officially, and others unofficially. Sometimes both types will be at play at once, one most likely working more efficiently than another.&lt;/p&gt;
 
 &lt;p&gt;Finally, please note that this breakdown says nothing about the quality or fit of any of the service implementations in a given organisation.  The services as delivered might be terrible, or they might be excellent.  They might conflict with or contradict one another.&lt;/p&gt;
 
@@ -377,7 +381,7 @@ Hilary Mantel interviewed by Michael Rosen for “Word of Mouth”, BBC Radio 4.
 
 &lt;hr /&gt;
 
-&lt;p&gt;Back in 2016 I was trying to learn algebra.  It was long overdue.  It was also hard.  Really hard.  And &lt;a href=&quot;/2021/03/07/the-experience-of-development-foreword&quot;&gt;once again&lt;/a&gt;, someone from the Java Posse Roundup came to my aid.&lt;/p&gt;
+&lt;p&gt;Back in 2016 I was trying to learn algebra.  It was long overdue.  It was also hard.  Really hard.  And &lt;a href=&quot;/2021/03/07/the-experience-of-development-preface&quot;&gt;once again&lt;/a&gt;, someone from the Java Posse Roundup came to my aid.&lt;/p&gt;
 
 &lt;p&gt;During a conversation about my travails (it probably took place in a queue for coffee) &lt;a href=&quot;&quot;&gt;Todd&lt;/a&gt; mentioned a book by Barbara Oakley which he’d found useful: &lt;a href=&quot;https://www.goodreads.com/book/show/18693655-a-mind-for-numbers&quot;&gt;“A Mind for Numbers: How to Excel at Math and Science”&lt;/a&gt;.&lt;/p&gt;
 
@@ -423,7 +427,7 @@ Hilary Mantel interviewed by Michael Rosen for “Word of Mouth”, BBC Radio 4.
 
 &lt;p&gt;&lt;em&gt;It’s models all the way down.&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;Before we close I must acknowledge the inevitable question: how do we work with (or against) these elements (and perhaps adopt other techniques from Oakley, knowingly or unknowningly) in our acts of development?  Having thought about this &lt;a href=&quot;/2021/03/07/the-experience-of-development-foreword&quot;&gt;for some time now&lt;/a&gt;, and having spoken to, and watched others working with code, I am convinced that this area is one where a great deal of individual difference lies.  Consequently I believe this will be a fruitful one to investigate, compare / contrast, and discuss, in the main body of this effort.  My first steps into this is the topic of my next post: “&lt;a href=&quot;/2021/03/15/the-experience-of-development-the-fine-balance&quot;&gt;The Experience of Development - Chapter 1: The Fine Balance&lt;/a&gt;”&lt;/p&gt;
+&lt;p&gt;Before we close I must acknowledge the inevitable question: how do we work with (or against) these elements (and perhaps adopt other techniques from Oakley, knowingly or unknowningly) in our acts of development?  Having thought about this &lt;a href=&quot;/2021/03/07/the-experience-of-development-preface&quot;&gt;for some time now&lt;/a&gt;, and having spoken to, and watched others working with code, I am convinced that this area is one where a great deal of individual difference lies.  Consequently I believe this will be a fruitful one to investigate, compare / contrast, and discuss, in the main body of this effort.  My first steps into this is the topic of my next post: “&lt;a href=&quot;/2021/03/15/the-experience-of-development-the-fine-balance&quot;&gt;The Experience of Development - Chapter 1: The Fine Balance&lt;/a&gt;”&lt;/p&gt;
 
 &lt;p&gt;P.S. I’d love to know what you think about all this. If you have any thoughts or any other kind of feedback please reach out to me on &lt;a href=&quot;https://twitter.com/al94781&quot;&gt;Twitter&lt;/a&gt;.  Thanks!&lt;/p&gt;
 </description>
@@ -507,7 +511,7 @@ Hilary Mantel interviewed by Michael Rosen for “Word of Mouth”, BBC Radio 4.
         </item>
 
         <item>
-                <title>The Experience of Development&lt;BR/&gt;&lt;BR/&gt;Foreword</title>
+                <title>The Experience of Development&lt;BR/&gt;&lt;BR/&gt;Preface</title>
                 <description>
 &lt;figure&gt;&lt;figcaption&gt;This post, and those which follow it, are dedicated to Carl Quinn, and the rest of the Java Posse. Without you none of this would ever have happened.  You inspired me.  For that I am eternally grateful. 
 
@@ -541,8 +545,8 @@ Thank you. 🙏 &lt;br /&gt;&lt;br /&gt;Image: Mt Crested Butte, Colorado, USA, 
 
 &lt;p&gt;P.S. I’d love to know what you think. If you have any thoughts or any other kind of feedback please reach out to me on &lt;a href=&quot;https://twitter.com/al94781&quot;&gt;Twitter&lt;/a&gt;.  Thanks!&lt;/p&gt;
 </description>
-                <link>http://andrewharmellaw.github.io/2021/03/07/the-experience-of-development-foreword</link>
-                <guid>http://andrewharmellaw.github.io/2021/03/07/the-experience-of-development-foreword</guid>
+                <link>http://andrewharmellaw.github.io/2021/03/07/the-experience-of-development-preface</link>
+                <guid>http://andrewharmellaw.github.io/2021/03/07/the-experience-of-development-preface</guid>
                 <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
         </item>
 
