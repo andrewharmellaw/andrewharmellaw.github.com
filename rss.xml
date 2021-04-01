@@ -5,8 +5,8 @@
         <description>Maths from the Ground Up - Andrew Harmel-Law</description>
         <link>http://andrewharmellaw.github.io</link>
         <atom:link href="http://andrewharmellaw.github.io" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Mon, 29 Mar 2021 21:54:34 +0100</lastBuildDate>
-        <pubDate>Mon, 29 Mar 2021 21:54:34 +0100</pubDate>
+        <lastBuildDate>Thu, 01 Apr 2021 13:08:51 +0100</lastBuildDate>
+        <pubDate>Thu, 01 Apr 2021 13:08:51 +0100</pubDate>
         <ttl>60</ttl>
 
 
@@ -438,22 +438,22 @@ Hilary Mantel interviewed by Michael Rosen for “Word of Mouth”, BBC Radio 4.
                 <description>
 &lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;This is part one&lt;/span&gt;  of a two-part introduction. Taken together, my intention is to describe a means of looking at the experience of development.  It is my hope that they provide an explanation for how it feels to write code.&lt;/p&gt;
 
-&lt;p&gt;This part is more formal - scientific even - but I have no empirical proof, only personal experience and subjective anecdote.  Despite this I intend it to be taken seriously, and so have attempted to lay it out in an appropriate style.  The second part, in the following post, is on shakier ground, and so is written in a more conversational style.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;This part is more formal - scientific even - but I have no empirical proof, only personal experience and subjective anecdote.  Despite this I intend it to be taken seriously, and so have attempted to lay it out in an appropriate style.  The second part, in the following post, is on shakier ground, and so is written far more conversationally.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;figure&gt;&lt;figcaption&gt;Image: Gifu City, CC BY 4.0, via Wikimedia Commons&lt;/figcaption&gt;&lt;img src=&quot;/assets/img/gifu_castle_in_sea_clouds.jpg&quot; /&gt;&lt;/figure&gt;
 
 &lt;p&gt;&lt;em&gt;&lt;span class=&quot;newthought&quot;&gt;It is my conjecture&lt;/span&gt;  that the experience of development, that is to say, how it feels to write code, arises entirely from our responses to convergences of, and differences between, two things: on the one hand our mental models of our code, and on the other, our perceptions arising from the code as it physically exists, outside our heads, on computers.&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;I believe that such a view of our individual and collective experiences with code is a fruitful one, and intend to share both personal insights, and those of others, derived from looking through this lens. However, before I move on to the wealth of perspectives and explanations made possible by this thesis, I want to share why I have come to this conclusion; I want to introduce the ideas from an area of neuroscience pioneered by &lt;a href=&quot;https://en.wikipedia.org/wiki/Karl_J._Friston&quot;&gt;Karl Friston&lt;/a&gt;, and I want to travel there via one of the great writers on the task of programming, &lt;a href=&quot;https://en.wikipedia.org/wiki/Fred_Brooks&quot;&gt;Fred Brooks&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;I believe that such a view of our individual and collective experiences with code is a fruitful one, and intend to share both personal insights, and those of others, derived from looking through this lens. However, before I share posts related to the wealth of perspectives and explanations made possible by this thesis, I want to share why I have come to this conclusion; I want to introduce the ideas from an area of neuroscience pioneered by &lt;a href=&quot;https://en.wikipedia.org/wiki/Karl_J._Friston&quot;&gt;Karl Friston&lt;/a&gt;, and I want to travel there via one of the great writers on the task of programming, &lt;a href=&quot;https://en.wikipedia.org/wiki/Fred_Brooks&quot;&gt;Fred Brooks&lt;/a&gt;:&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;The programmer, like the poet, works only slightly removed from pure thought-stuff. [They] build castles in the air, from air, creating by exertion of the imagination.
 &lt;br /&gt;&lt;cite&gt;Fred Brooks, The Mythical Man-Month&lt;/cite&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;The fact this decades-old quote still resonates today is because it feels so true to us the  practitioners. I also intend to take licence from it to talk about the experience of development. There is a problem however; the act of development is conceived by a great many of us practitioners as a highly rational act. Is it possible to look through a lens which allows us to cater for this coldly logical aspect without losing our goal? the goal of describing a way to also address the softer, more esoteric side?&lt;/p&gt;
+&lt;p&gt;The fact this decades-old quote still resonates today is because it feels so true to us  practitioners. I also intend to take licence from it to talk about the experience of development. There is a problem however; the act of development is conceived by a great many of us practitioners as a highly rational act. Is it possible to look through a lens which allows us to cater for this coldly logical aspect without losing our goal? the goal of describing a way to also address the softer, more unconscious, more esoteric side?&lt;/p&gt;
 
-&lt;p&gt;I am going to make such an attempt; an attempt which considers these imagination-castles (less prosaically admittedly) as elaborate, self-consciously-constructed mental models. Might it prove fruitful? Friston’s neuroscience here provides not only a useful perspective on &lt;em&gt;mental models&lt;/em&gt;, but also brings in the other aspect under consideration, &lt;em&gt;their place in experience&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;I am going to make such an attempt; an attempt which considers these imagination-castles (less prosaically admittedly) as elaborate, self-consciously-constructed mental models. Might it prove fruitful? Friston’s neuroscience here provides not only a useful perspective on &lt;em&gt;what mental models might actually be&lt;/em&gt;, but also brings in the other aspect under consideration, &lt;em&gt;their place in human experience&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;The first step&lt;/span&gt;  is to consider his take on mental models and their function as described by Hohwy in his book “The Predictive Mind”:&lt;/p&gt;
 
@@ -462,7 +462,7 @@ Hilary Mantel interviewed by Michael Rosen for “Word of Mouth”, BBC Radio 4.
 &lt;br /&gt;&lt;cite&gt;Jakob Hohwy, The Predictive Mind, pp. 1-2&lt;/cite&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Let’s flip these statements round so they take us in the right direction.  Friston’s theory posits that our mental models represent how we believe the world to be, and that we are constantly comparing the predictions these models make against the sense-data the world provides.&lt;/p&gt;
+&lt;p&gt;Let’s flip these statements round so they take us in the right direction.  Friston’s theory posits that our neural states represent how we “believe” the world to be, and that we are constantly comparing the predictions these “mental” models make against the sense-data the world provides.&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Note that here I’m putting more of an experiential spin on things for my purposes. Friston at this point is far more concerned with the neurological. &lt;/span&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;With this in place&lt;/span&gt;  we can now bring in a second element from Friston (again summarised by Hohwy) that brings us another step closer to our conjecture. When our expectations fail to match up with the world-as-sensed we experience surprise, and when we are surprised we respond:&lt;/p&gt;
 
@@ -478,7 +478,7 @@ Hilary Mantel interviewed by Michael Rosen for “Word of Mouth”, BBC Radio 4.
 &lt;br /&gt;&lt;cite&gt;Jakob Hohwy, The Predictive Mind, pp. 84&lt;/cite&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Once again we can assemble this in terms as they relate to the conjecture.  Our internal mental models can be considered as our beliefs of what should be, and the comparison of these beliefs against sensory feedback from the as-perceived outside world lead to a psychological response - characterised as degrees of “surprise” depending upon how close the hypothesis is to the data.&lt;/p&gt;
+&lt;p&gt;Once again we can re-assemble this in terms as they relate to the conjecture.  Our internal mental models can be considered as our beliefs of what should be, and the comparison of these model-beliefs with sensory feedback from the as-perceived outside world lead to a psychological response - characterised as degrees of “surprise” depending upon how close the model-hypothesis is to the sense-data.&lt;/p&gt;
 
 &lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;We’re almost there,&lt;/span&gt;  but these descriptions still feel so cold. Despite what has been presented, a reader could still confidently argue that we have not presented enough evidence of a place for  recognisable &lt;em&gt;feelings&lt;/em&gt;, for psychological &lt;em&gt;experiences&lt;/em&gt;. Hohwy offers us a final step:&lt;/p&gt;
 
@@ -494,11 +494,11 @@ Hilary Mantel interviewed by Michael Rosen for “Word of Mouth”, BBC Radio 4.
 &lt;br /&gt;&lt;cite&gt;Jakob Hohwy, The Predictive Mind, pp. 242-3&lt;/cite&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Let us bring this one last time into our sphere. Hohwy believes&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;I think with some justification &lt;/span&gt; that the consideration of the human drive to minimise prediction-error in our mental models, as manifested by the surprise arising, can be taken broadly to explain many phenomena. One of these is the wholly-internal concept of feelings, of emotion, specifically as means to “explain away” this generic “surprise” which arises from experiencing prediction errors.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;Let us bring this one last time into our sphere. Hohwy proposes&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;I think with some justification &lt;/span&gt; that the consideration of the low-level neurological drive to minimise prediction-error in our mental models, as manifested by the surprise arising, can be taken broadly and explains many human phenomena. One of these is the wholly-internal concept of feelings, of emotion, specifically as means to “explain away” this generic “surprise” which arises from experiencing prediction errors.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;figure&gt;&lt;figcaption&gt;Image: Gaius Cornelius, CC BY-SA 4.0, via Wikimedia Commons&lt;/figcaption&gt;&lt;img src=&quot;/assets/img/clouds.jpg&quot; /&gt;&lt;/figure&gt;
 
-&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;We now have enough&lt;/span&gt;  to summarise: if Brooks is right, when we develop software, we construct mental castles, or more matter-of-factly, elaborate mental models. In accepting this, we also acknowledge that these castles are expressed — conveyed somehow — to the outside world and into code; and that when the models arrive in the outside world, that realm outside our minds, they must compile, the tests must pass, the executables must run, and they must achieve the goals we’ve set for them, in as many circumstances as we can conceive. &lt;em&gt;They must, in short, meet our predictions; they must operate as we expect them to.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;We now have enough&lt;/span&gt;  to summarise: if Brooks is right, when we develop software, we construct mental castles, or more matter-of-factly, elaborate mental models. These castles are represented neurologically as a set of predictions of how they will manifest in the outside world. In accepting this, we also acknowledge that when castles are expressed — conveyed somehow — to the outside world and into code - that realm outside our minds - they must compile, the tests must pass, the executables must run, and they must achieve the goals we’ve set for them, in as many circumstances as we can conceive. &lt;em&gt;They must, in short, meet our model’s predictions; they must operate as we expect them to.&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;It is my conjecture therefore that the mental models we have created and subsequently mediated to the outside world in the form of code must match our reality because we expect them to; and when they don’t, we are surprised and it is our individual, nuanced, situation-dependent grappling with this surprise which gives rise to our equally individual experiences of development.&lt;/p&gt;
 

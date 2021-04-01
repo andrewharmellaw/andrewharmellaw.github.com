@@ -91,20 +91,13 @@
 
 <p>Now let’s break this into pieces and show it visually</p>
 
-<ul>
-  <li>
-    <p>“… a polynomial contains <em>only one variable</em>…” - i.e. “<span>​<script type="math/tex">x</script></span>”.  That means <span>​<script type="math/tex">2x^2 + 3x - 3</script></span> meets this criteria, as does <span>​<script type="math/tex">b^{300}</script></span> but <span>​<script type="math/tex">a^2 + 2ab - 3</script></span> does not</p>
-  </li>
-  <li>
-    <p>“<em>Standard Form</em>” - We discussed this at length in <a href="https://andrewharmellaw.github.io/2017/01/10/gelfands-algebra-chun-8-nomials">Chunk 8 - ‘Nomials</a>.  I added at the time that it was nice to order things decreasing by degree. That’ll be helpful in the next step. This also means that while <span>​<script type="math/tex">3x - 3 + 2x^2</script></span> and <span>​<script type="math/tex">2x^2 + 3x - 3</script></span> are equivalent, but only the latter is in <em>Standard Form</em>.</p>
-  </li>
-  <li>
-    <p>“The monomial having the highest degree is called the ‘<em>first</em> monomial’” - See the reason for ordering?  It will literally be the first monomial in your polynomial if you’ve done this.  Therefore in <span>​<script type="math/tex">2x^2 + 3x - 3</script></span> the first monomial is <span>​<script type="math/tex">2x^2</script></span>, and in <span>​<script type="math/tex">b^{300}</script></span> the first monomial is <span>​<script type="math/tex">b^{300}</script></span></p>
-  </li>
-  <li>
-    <p>“It’s degree (the first monomial) is called the ‘degree of the polynomial’” - That means that in <span>​<script type="math/tex">2x^2 + 3x - 3</script></span> the degree is <span>​<script type="math/tex">2</script></span>, and in <span>​<script type="math/tex">b^{300}</script></span> the degree is <span>​<script type="math/tex">300</script></span></p>
-  </li>
-</ul>
+<p>Firstly “… a polynomial contains <em>only one variable</em>…” - i.e. “<span>​<script type="math/tex">x</script></span>”.  That means <span>​<script type="math/tex">2x^2 + 3x - 3</script></span> meets this criteria, as does <span>​<script type="math/tex">b^{300}</script></span> but <span>​<script type="math/tex">a^2 + 2ab - 3</script></span> does not.</p>
+
+<p>Secondly “<em>Standard Form</em>” - We discussed this at length in <a href="https://andrewharmellaw.github.io/2017/01/10/gelfands-algebra-chun-8-nomials">Chunk 8 - ‘Nomials</a>.  I added at the time that it was nice to order things decreasing by degree. That’ll be helpful in the next step. This also means that while <span>​<script type="math/tex">3x - 3 + 2x^2</script></span> and <span>​<script type="math/tex">2x^2 + 3x - 3</script></span> are equivalent, but only the latter is in <em>Standard Form</em>.</p>
+
+<p>Third “the monomial having the highest degree is called the ‘<em>first</em> monomial’” - See the reason for ordering?  It will literally be the first monomial in your polynomial if you’ve done this.  Therefore in <span>​<script type="math/tex">2x^2 + 3x - 3</script></span> the first monomial is <span>​<script type="math/tex">2x^2</script></span>, and in <span>​<script type="math/tex">b^{300}</script></span> the first monomial is <span>​<script type="math/tex">b^{300}</script></span>.</p>
+
+<p>Finally “it’s degree (the first monomial) is called the ‘degree of the polynomial’” - That means that in <span>​<script type="math/tex">2x^2 + 3x - 3</script></span> the degree is <span>​<script type="math/tex">2</script></span>, and in <span>​<script type="math/tex">b^{300}</script></span> the degree is <span>​<script type="math/tex">300</script></span>.</p>
 
 <h3 id="a-first-subtlety---constants">A First Subtlety - Constants</h3>
 <p>What if there are no variables? (N.b. this is just equivalent to a polynomial where all variables have co-efficients of value <span>​<script type="math/tex">0</script></span>). In these circumstances, your degree is <span>​<script type="math/tex">0</script></span> too.</p>
@@ -272,10 +265,9 @@
 
 <p>The laws are as follows:</p>
 
-<ul>
-  <li>If the degree of the dividend is larger than the degree of the divisor the degree of the quotient will clearly be the degree of the dividend polynomial  minus the degree of the divisor polynomial.  The degree of the remainder may then be undefined (there is no remainder) or it may be anywhere from <span>​<script type="math/tex">0</script></span> to <span>​<script type="math/tex">n - 1</script></span> (where <span>​<script type="math/tex">n</script></span> is the degree of the quotient).</li>
-  <li>If, on the other hand, the degree of the dividend is smaller than the degree of the divisor, the fraction is already proper.  In this case the quotient is equal to zero and the remainder is equal to the dividend.</li>
-</ul>
+<p>Firstly, if the degree of the dividend is larger than the degree of the divisor the degree of the quotient will clearly be the degree of the dividend polynomial  minus the degree of the divisor polynomial.  The degree of the remainder may then be undefined (there is no remainder) or it may be anywhere from <span>​<script type="math/tex">0</script></span> to <span>​<script type="math/tex">n - 1</script></span> (where <span>​<script type="math/tex">n</script></span> is the degree of the quotient).</p>
+
+<p>Secondly if, on the other hand, the degree of the dividend is smaller than the degree of the divisor, the fraction is already proper.  In this case the quotient is equal to zero and the remainder is equal to the dividend.</p>
 
 <h3 id="the-uniqueness-of-resulting-quotients-and-remainders">The Uniqueness of Resulting Quotients and Remainders</h3>
 <p>This is covered in Problem 141.  The aim here is for Gelfand to show us that the quotient and remainders which we produced via the method he outlined<label for="sn-id-whatever" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-whatever" class="margin-toggle" /><span class="sidenote">And which I’ve gone into more detail on in the majority of this post. </span> are unique.  That is to say, the quotient produced is the only quotient in the circumstances, and the remainder is the only remainder.</p>
@@ -284,12 +276,13 @@
 
 <p>The way Gelfand proves it is pretty interesting too.<label for="sn-id-whatever" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-whatever" class="margin-toggle" /><span class="sidenote">Sometimes the method is as important as the end result, and you’re supposed to be always paying attention. </span>  The following things are of note:</p>
 
-<ul>
-  <li>he’s gone all meta, representing polynomials in a single variable as individual variables again<label for="sn-id-whatever" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-whatever" class="margin-toggle" /><span class="sidenote">With capital letters again too - I smell a convention here… </span></li>
-  <li>the variables he uses are actually quite simple.  <span>​<script type="math/tex">P</script></span> is the dividend, <span>​<script type="math/tex">S</script></span> is the divisor, <span>​<script type="math/tex">Q</script></span> is the quotient and <span>​<script type="math/tex">R</script></span> is the remainder.  If <span>​<script type="math/tex">Q</script></span> and <span>​<script type="math/tex">R</script></span> have such intuitive names, why then have <span>​<script type="math/tex">P</script></span> and <span>​<script type="math/tex">S</script></span>?  I could thrown up my hands and exclaim “mathematicians” but remember, both the others start with “D”, and <span>​<script type="math/tex">P</script></span> and <span>​<script type="math/tex">S</script></span> do make a nice alphabetical run…</li>
-  <li>the formula is simple too.<label for="sn-id-whatever" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-whatever" class="margin-toggle" /><span class="sidenote">It even works for non-polynomial division. </span>  Any number (<span>​<script type="math/tex">P</script></span>) is equal to two other numbers multiplied by each other (<span>​<script type="math/tex">Q</script></span> the quotient and <span>​<script type="math/tex">S</script></span> the divisor) and a remainder (<span>​<script type="math/tex">R</script></span>)</li>
-  <li>The approach to the proof is to begin by making an assumption (in this case that there might be more than one Quotient, <span>​<script type="math/tex">Q_{1}</script></span> and <span>​<script type="math/tex">Q_{2}</script></span>, and more than one Remainder, <span>​<script type="math/tex">R_{1}</script></span> and <span>​<script type="math/tex">R_{2}</script></span>) and then logically follow the implications of that assumption.  In this case that <span>​<script type="math/tex">Q_{1} = Q_{2}</script></span> and <span>​<script type="math/tex">R_{1} = R_{2}</script></span></li>
-</ul>
+<p>Firstly, he’s gone all meta, representing polynomials in a single variable as individual variables again<label for="sn-id-whatever" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-whatever" class="margin-toggle" /><span class="sidenote">With capital letters again too - I smell a convention here… </span></p>
+
+<p>Secondly the variables he uses are actually quite simple.  <span>​<script type="math/tex">P</script></span> is the dividend, <span>​<script type="math/tex">S</script></span> is the divisor, <span>​<script type="math/tex">Q</script></span> is the quotient and <span>​<script type="math/tex">R</script></span> is the remainder.  If <span>​<script type="math/tex">Q</script></span> and <span>​<script type="math/tex">R</script></span> have such intuitive names, why then have <span>​<script type="math/tex">P</script></span> and <span>​<script type="math/tex">S</script></span>?  I could thrown up my hands and exclaim “mathematicians” but remember, both the others start with “D”, and <span>​<script type="math/tex">P</script></span> and <span>​<script type="math/tex">S</script></span> do make a nice alphabetical run…</p>
+
+<p>Thirdly, the formula is simple too.<label for="sn-id-whatever" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-whatever" class="margin-toggle" /><span class="sidenote">It even works for non-polynomial division. </span>  Any number (<span>​<script type="math/tex">P</script></span>) is equal to two other numbers multiplied by each other (<span>​<script type="math/tex">Q</script></span> the quotient and <span>​<script type="math/tex">S</script></span> the divisor) and a remainder (<span>​<script type="math/tex">R</script></span>)</p>
+
+<p>Finally, the approach to the proof is to begin by making an assumption (in this case that there might be more than one Quotient, <span>​<script type="math/tex">Q_{1}</script></span> and <span>​<script type="math/tex">Q_{2}</script></span>, and more than one Remainder, <span>​<script type="math/tex">R_{1}</script></span> and <span>​<script type="math/tex">R_{2}</script></span>) and then logically follow the implications of that assumption.  In this case that <span>​<script type="math/tex">Q_{1} = Q_{2}</script></span> and <span>​<script type="math/tex">R_{1} = R_{2}</script></span></p>
 
 <h2 id="another-pseudo-conclusion">Another Pseudo-Conclusion</h2>
 <p><span class="newthought">We’re not really completely done with Polynomial Division.</span>   Gelfand has a few more tricks up his sleeve which I’ll cover next in <a href="https://andrewharmellaw.github.io/2017/02/28/gelfands-algebra-chunk-15-polynomial-division-special-cases">Chunk 15 - Polynomial Division Addendum</a>.  But this is a good place to stop for now.</p>
@@ -317,6 +310,28 @@
 </div>  
 </footer>
 
+    
+      <div id="disqus_thread"></div>
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://andrewharmellaw.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+    
     <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-VZGMHYKY23"></script>
 <script>
