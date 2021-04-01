@@ -4,6 +4,7 @@ title: "Gelfand: Chunk 18 - Polynomial Interpolation - Subtleties"
 description: "More Gold in these Hills"
 category: 
 tags: [gelfand, durham, polynomials, degrees, tricks, roots]
+comments: true
 ---
 {% include JB/setup %}
 

@@ -2,6 +2,7 @@
 layout: post
 title: "Gelfand: Digression 1 - So When am I Done Refactoring?"
 tags: [gelfand, factoring]
+comments: true
 ---
 {% include JB/setup %}
 

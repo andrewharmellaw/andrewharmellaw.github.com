@@ -2,6 +2,7 @@
 layout: post
 title: "Gelfand: Chunk 20 - Arithmetic Progressions Progress"
 tags: [gelfand, tricks, arithmetic-progressions, odd, even]
+comments: true
 ---
 {% include JB/setup %}
 

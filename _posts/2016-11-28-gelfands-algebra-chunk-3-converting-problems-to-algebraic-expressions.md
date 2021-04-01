@@ -3,6 +3,7 @@ layout: post
 title: "Gelfand: Chunk 3 - Converting Problems to Algebraic Expressions"
 description: "Building on top of the previous laws"
 tags: [gelfand, algebraic-problem-solving, proof, tricks]
+comments: true
 ---
 {% include JB/setup %}
 

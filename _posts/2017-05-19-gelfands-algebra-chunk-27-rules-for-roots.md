@@ -2,6 +2,7 @@
 layout: post
 title: "Gelfand: Chunk 27 - Proving Some Rules for Roots"
 tags: [gelfand, roots, proofs, positive, negative, undefined, absolute-value, notation, difference-of-squares, commutative-law]
+comments: true
 ---
 {% include JB/setup %}
 

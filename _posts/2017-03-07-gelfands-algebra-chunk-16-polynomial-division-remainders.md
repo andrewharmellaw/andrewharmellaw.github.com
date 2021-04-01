@@ -2,6 +2,7 @@
 layout: post
 title: "Gelfand: Chunk 16 - Polynomial Division - Remainders, Bezout and Roots"
 tags: [gelfand, bezout, division, polynomials, remainder-theorem, tricks, factoring, roots]
+comments: true
 ---
 {% include JB/setup %}
 

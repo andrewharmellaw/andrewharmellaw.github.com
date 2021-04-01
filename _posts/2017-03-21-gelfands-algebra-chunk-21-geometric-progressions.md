@@ -2,6 +2,7 @@
 layout: post
 title: "Gelfand: Chunk 21 - Geometric Progressions"
 tags: [gelfand, tricks, geometric-progressions, positive, negative, roots]
+comments: true
 ---
 {% include JB/setup %}
 

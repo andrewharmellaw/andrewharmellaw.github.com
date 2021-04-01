@@ -2,6 +2,7 @@
 layout: post
 title: "Gelfand: Chunk 26 - Some Square Roots are Irrational"
 tags: [gelfand, positive, negative, odd, even, roots, rational-numbers, irrational-numbers]
+comments: true
 ---
 {% include JB/setup %}
 

@@ -2,6 +2,7 @@
 layout: post
 title: "Gelfand: Chunk 24 - Equations, Schmequations"
 tags: [gelfand, equations, quadratic-equations, identities, roots, difference-of-squares, square-of-a-sum]
+comments: true
 ---
 {% include JB/setup %}
 

@@ -4,6 +4,7 @@ title: "The Experience of Development<BR/><BR/>Chapter 1: The Fine Balance"
 description: "Some description here."
 category:
 tags: [experience-of-development, mental-models, personal-experience]
+comments: true
 ---
 {% include JB/setup %}
 

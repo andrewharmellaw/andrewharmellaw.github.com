@@ -2,6 +2,7 @@
 layout: post
 title: "Gelfand: Chunk 14 - Polynomial Division"
 tags: [gelfand, petzold, tricks, division, degrees, polynomials, monomials, standard-form]
+comments: true
 ---
 {% include JB/setup %}
 
@@ -16,13 +17,13 @@ So what is the degree of of a monomial? Here it is, in textual form first:{% sid
 
 Now let's break this into pieces and show it visually
 
-* "... a polynomial contains _only one variable_..." - i.e. "{% m %}x{% em %}".  That means {% m %}2x^2 + 3x - 3{% em %} meets this criteria, as does {% m %}b^{300}{% em %} but {% m %}a^2 + 2ab - 3{% em %} does not
+Firstly "... a polynomial contains _only one variable_..." - i.e. "{% m %}x{% em %}".  That means {% m %}2x^2 + 3x - 3{% em %} meets this criteria, as does {% m %}b^{300}{% em %} but {% m %}a^2 + 2ab - 3{% em %} does not.
 
-* "_Standard Form_" - We discussed this at length in [Chunk 8 - 'Nomials](https://andrewharmellaw.github.io/2017/01/10/gelfands-algebra-chun-8-nomials).  I added at the time that it was nice to order things decreasing by degree. That'll be helpful in the next step. This also means that while {% m %}3x - 3 + 2x^2{% em %} and {% m %}2x^2 + 3x - 3{% em %} are equivalent, but only the latter is in _Standard Form_.
+Secondly "_Standard Form_" - We discussed this at length in [Chunk 8 - 'Nomials](https://andrewharmellaw.github.io/2017/01/10/gelfands-algebra-chun-8-nomials).  I added at the time that it was nice to order things decreasing by degree. That'll be helpful in the next step. This also means that while {% m %}3x - 3 + 2x^2{% em %} and {% m %}2x^2 + 3x - 3{% em %} are equivalent, but only the latter is in _Standard Form_.
 
-* "The monomial having the highest degree is called the '_first_ monomial'" - See the reason for ordering?  It will literally be the first monomial in your polynomial if you've done this.  Therefore in {% m %}2x^2 + 3x - 3{% em %} the first monomial is {% m %}2x^2{% em %}, and in {% m %}b^{300}{% em %} the first monomial is {% m %}b^{300}{% em %}
+Third "the monomial having the highest degree is called the '_first_ monomial'" - See the reason for ordering?  It will literally be the first monomial in your polynomial if you've done this.  Therefore in {% m %}2x^2 + 3x - 3{% em %} the first monomial is {% m %}2x^2{% em %}, and in {% m %}b^{300}{% em %} the first monomial is {% m %}b^{300}{% em %}.
 
-* "It's degree (the first monomial) is called the 'degree of the polynomial'" - That means that in {% m %}2x^2 + 3x - 3{% em %} the degree is {% m %}2{% em %}, and in {% m %}b^{300}{% em %} the degree is {% m %}300{% em %}
+Finally "it's degree (the first monomial) is called the 'degree of the polynomial'" - That means that in {% m %}2x^2 + 3x - 3{% em %} the degree is {% m %}2{% em %}, and in {% m %}b^{300}{% em %} the degree is {% m %}300{% em %}.
 
 ### A First Subtlety - Constants
 What if there are no variables? (N.b. this is just equivalent to a polynomial where all variables have co-efficients of value {% m %}0{% em %}). In these circumstances, your degree is {% m %}0{% em %} too.
@@ -184,8 +185,9 @@ This is covered in Problems 140 and 142.  There are some "Laws" hidden in there;
 
 The laws are as follows:
 
- * If the degree of the dividend is larger than the degree of the divisor the degree of the quotient will clearly be the degree of the dividend polynomial  minus the degree of the divisor polynomial.  The degree of the remainder may then be undefined (there is no remainder) or it may be anywhere from {% m %}0{% em %} to {% m %}n - 1{% em %} (where {% m %}n{% em %} is the degree of the quotient). 
- * If, on the other hand, the degree of the dividend is smaller than the degree of the divisor, the fraction is already proper.  In this case the quotient is equal to zero and the remainder is equal to the dividend.
+Firstly, if the degree of the dividend is larger than the degree of the divisor the degree of the quotient will clearly be the degree of the dividend polynomial  minus the degree of the divisor polynomial.  The degree of the remainder may then be undefined (there is no remainder) or it may be anywhere from {% m %}0{% em %} to {% m %}n - 1{% em %} (where {% m %}n{% em %} is the degree of the quotient). 
+
+Secondly if, on the other hand, the degree of the dividend is smaller than the degree of the divisor, the fraction is already proper.  In this case the quotient is equal to zero and the remainder is equal to the dividend.
 
 ### The Uniqueness of Resulting Quotients and Remainders
 This is covered in Problem 141.  The aim here is for Gelfand to show us that the quotient and remainders which we produced via the method he outlined{% sidenote 'sn-id-whatever' "And which I've gone into more detail on in the majority of this post." %} are unique.  That is to say, the quotient produced is the only quotient in the circumstances, and the remainder is the only remainder. 
@@ -194,10 +196,13 @@ That's actually quite reassuring, especially having just come from Factoring-lan
 
 The way Gelfand proves it is pretty interesting too.{% sidenote 'sn-id-whatever' "Sometimes the method is as important as the end result, and you're supposed to be always paying attention." %}  The following things are of note:
 
- * he's gone all meta, representing polynomials in a single variable as individual variables again{% sidenote 'sn-id-whatever' "With capital letters again too - I smell a convention here..." %}
- * the variables he uses are actually quite simple.  {% m %}P{% em %} is the dividend, {% m %}S{% em %} is the divisor, {% m %}Q{% em %} is the quotient and {% m %}R{% em %} is the remainder.  If {% m %}Q{% em %} and {% m %}R{% em %} have such intuitive names, why then have {% m %}P{% em %} and {% m %}S{% em %}?  I could thrown up my hands and exclaim "mathematicians" but remember, both the others start with "D", and {% m %}P{% em %} and {% m %}S{% em %} do make a nice alphabetical run...
- * the formula is simple too.{% sidenote 'sn-id-whatever' "It even works for non-polynomial division." %}  Any number ({% m %}P{% em %}) is equal to two other numbers multiplied by each other ({% m %}Q{% em %} the quotient and {% m %}S{% em %} the divisor) and a remainder ({% m %}R{% em %})
- * The approach to the proof is to begin by making an assumption (in this case that there might be more than one Quotient, {% m %}Q_{1}{% em %} and {% m %}Q_{2}{% em %}, and more than one Remainder, {% m %}R_{1}{% em %} and {% m %}R_{2}{% em %}) and then logically follow the implications of that assumption.  In this case that {% m %}Q_{1} = Q_{2}{% em %} and {% m %}R_{1} = R_{2}{% em %} 
+Firstly, he's gone all meta, representing polynomials in a single variable as individual variables again{% sidenote 'sn-id-whatever' "With capital letters again too - I smell a convention here..." %}
+
+Secondly the variables he uses are actually quite simple.  {% m %}P{% em %} is the dividend, {% m %}S{% em %} is the divisor, {% m %}Q{% em %} is the quotient and {% m %}R{% em %} is the remainder.  If {% m %}Q{% em %} and {% m %}R{% em %} have such intuitive names, why then have {% m %}P{% em %} and {% m %}S{% em %}?  I could thrown up my hands and exclaim "mathematicians" but remember, both the others start with "D", and {% m %}P{% em %} and {% m %}S{% em %} do make a nice alphabetical run...
+
+Thirdly, the formula is simple too.{% sidenote 'sn-id-whatever' "It even works for non-polynomial division." %}  Any number ({% m %}P{% em %}) is equal to two other numbers multiplied by each other ({% m %}Q{% em %} the quotient and {% m %}S{% em %} the divisor) and a remainder ({% m %}R{% em %})
+
+Finally, the approach to the proof is to begin by making an assumption (in this case that there might be more than one Quotient, {% m %}Q_{1}{% em %} and {% m %}Q_{2}{% em %}, and more than one Remainder, {% m %}R_{1}{% em %} and {% m %}R_{2}{% em %}) and then logically follow the implications of that assumption.  In this case that {% m %}Q_{1} = Q_{2}{% em %} and {% m %}R_{1} = R_{2}{% em %} 
 
 ## Another Pseudo-Conclusion
 {% newthought "We're not really completely done with Polynomial Division." %}  Gelfand has a few more tricks up his sleeve which I'll cover next in [Chunk 15 - Polynomial Division Addendum](https://andrewharmellaw.github.io/2017/02/28/gelfands-algebra-chunk-15-polynomial-division-special-cases).  But this is a good place to stop for now.

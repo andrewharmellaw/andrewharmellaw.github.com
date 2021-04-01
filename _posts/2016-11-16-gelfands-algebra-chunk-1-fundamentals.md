@@ -4,6 +4,7 @@ title: "Gelfand: Chunk 1 - Fundamentals"
 description: "This is the very bottom."
 category:
 tags: [exchange-of-terms, method-addition, method-multiplication, method-long-division, gelfand, oakley, tricks]
+comments: true
 ---
 {% include JB/setup %}
 {% newthought "In this first post" %}{% sidenote 'sn-id-whatever' "If you'd like to know the general idea behind this series of blog posts, check out the [introduction](/index.html) I wrote" %} I'm starting at a super-basic level with the math-elements because the main intention is to get my head used to the method of chunking much advocated in [Oakley's "A Mind for Numbers"](https://www.amazon.co.uk/Mind-Numbers-Science-Flunked-Algebra-ebook/dp/B00G3L19ZU). My aim being that the method, as well as the chunks it produces, will embed nicely before I start to use either in anger.  

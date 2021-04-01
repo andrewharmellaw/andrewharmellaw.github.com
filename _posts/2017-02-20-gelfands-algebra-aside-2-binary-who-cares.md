@@ -2,6 +2,7 @@
 layout: post
 title: "Gelfand: Aside 2 - Binary? Who Cares?"
 tags: [gelfand, binary, turing, petzold, method-addition, method-multiplication]
+comments: true
 ---
 {% include JB/setup %}
 
@@ -19,7 +20,7 @@ Because I didn't care{% sidenote 'sn-id-whatever' "And because I thought it was 
 {% math %}\begin{matrix} \phantom0 \phantom0 \phantom0 \phantom0 \phantom0 \phantom0 \texttt{1} \texttt{0} \texttt{1} \texttt{1} \texttt{1} \\ \phantom0 \phantom0 \phantom0 \phantom0 \phantom0 \texttt{1} \texttt{0} \texttt{1} \texttt{1} \texttt{1} \phantom0 \\ \phantom0 \phantom0 \phantom0 \phantom0 \texttt{1} \texttt{0} \texttt{1} \texttt{1} \texttt{1} \phantom0 \phantom0 \\ \phantom0 \phantom0 \phantom0 \texttt{0} \texttt{0} \texttt{0} \texttt{0} \texttt{0} \phantom0 \phantom0 \phantom0 \\ \texttt{+} \phantom0 \texttt{1} \texttt{0} \texttt{1} \texttt{1} \texttt{1} \phantom0 \phantom0 \phantom0 \phantom0 \\ \texttt{1} \texttt{1} \texttt{1} \texttt{1} \texttt{1} \texttt{1} \phantom0 \phantom0 \phantom0 \\
 \underline{\texttt{1} \texttt{1} \texttt{1} \texttt{1} \texttt{1} \texttt{1} \phantom0 \phantom0 \phantom0 \phantom0 \phantom0 } \\ \texttt{1} \texttt{0} \texttt{0} \texttt{0} \texttt{0} \texttt{1} \texttt{0} \texttt{0} \texttt{0} \texttt{1} \texttt{1} \end{matrix}{% endmath %}
 
-Now this is largely a straight copy, but I've made two things a little clearer -  I've tried to lay the out the columns with a monostpaced font{% sidenote 'sn-id-whatever' "The non-fixed-width font makes things a little unclear in the book, something which is _incredibly_ rare in Petzold." %} and I've also shown the carries as two extra rows below the line with the {% m %}+{% em %} symbol.{% sidenote 'sn-id-whatever' "Petzold doesn't, he just assumes you can picture them in your head." %}
+Now this is largely a straight copy, but I've made two things a little clearer -  I've tried to lay the out the columns with a monospaced font{% sidenote 'sn-id-whatever' "The non-fixed-width font makes things a little unclear in the book, something which is _incredibly_ rare in Petzold." %} and I've also shown the carries as two extra rows below the line with the {% m %}+{% em %} symbol.{% sidenote 'sn-id-whatever' "Petzold doesn't, he just assumes you can picture them in your head." %}
 
 It's the showing of the carries which I wanted to talk about a little more.  Grokking this was the key step in getting this to stick.  I had real difficulty in getting this as I kept wanting to fall back to decimal thinking.  That'll confuse you.
 

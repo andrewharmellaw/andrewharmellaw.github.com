@@ -2,6 +2,7 @@
 layout: post
 title: "Gelfand: Chunk 4 - Fractions (Urgh)"
 tags: [gelfand, stewart-algebra-review, fractions, division, distributive-law, tricks]
+comments: true
 ---
 {% include JB/setup %}
 

@@ -2,6 +2,7 @@
 layout: post
 title: "Gelfand: Chunk 22 - Geometric Progression Sums"
 tags: [gelfand, geometric-progressions]
+comments: true
 ---
 {% include JB/setup %}
 

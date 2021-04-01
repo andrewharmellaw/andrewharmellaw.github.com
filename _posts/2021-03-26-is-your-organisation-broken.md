@@ -4,6 +4,7 @@ title: "Is Your Organisation Broken?"
 description: "Some description here."
 category:
 tags: [orgs, organisations, org-design, drucker, waste]
+comments: true
 ---
 {% include JB/setup %}
 

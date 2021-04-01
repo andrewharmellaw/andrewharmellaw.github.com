@@ -2,6 +2,7 @@
 layout: post
 title: "Gelfand: Chunk 10 - Factoring 101"
 tags: [gelfand, factoring, square-of-a-sum, difference-of-squares, tricks]
+comments: true
 ---
 
 {% include JB/setup %}

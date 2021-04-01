@@ -2,6 +2,7 @@
 layout: post
 title: "Gelfand: Rest 1 - The Well-Tempered Clavier, Tortoises, Hares and Greeks"
 tags: [gelfand, Bach, music, Zeno, paradox]
+comments: true
 ---
 {% include JB/setup %}
 

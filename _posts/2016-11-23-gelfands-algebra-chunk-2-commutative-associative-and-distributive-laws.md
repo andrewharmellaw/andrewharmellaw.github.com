@@ -2,6 +2,7 @@
 layout: post
 title: "Gelfand: Chunk 2 - Commutative, Associative and Distributive Laws"
 tags: [commutative-law, associative-law, distributive-law, gelfand, stewart-algebra-review, tricks]
+comments: true
 ---
 {% include JB/setup %}
 

@@ -2,6 +2,7 @@
 layout: post
 title: "Gelfand: Chunk 25 - Ramifications of Reduced Quadratics"
 tags: [gelfand, quadratic-equations, positive, negative, roots, difference-of-squares]
+comments: true
 ---
 {% include JB/setup %}
 

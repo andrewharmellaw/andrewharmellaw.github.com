@@ -2,6 +2,7 @@
 layout: post
 title: "Gelfand: Aside 1 - Proofs!?!?!"
 tags: [gelfand, proofs, factoring, tricks]
+comments: true
 ---
 {% include JB/setup %}
 

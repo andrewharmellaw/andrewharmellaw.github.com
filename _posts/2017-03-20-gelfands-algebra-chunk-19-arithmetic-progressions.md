@@ -2,6 +2,7 @@
 layout: post
 title: "Gelfand: Chunk 19 - Arithmetic Progressions, Part 1"
 tags: [gelfand, tricks, arithmetic-progressions]
+comments: true
 ---
 {% include JB/setup %}
 

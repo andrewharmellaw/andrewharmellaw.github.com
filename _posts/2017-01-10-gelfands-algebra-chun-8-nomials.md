@@ -2,6 +2,7 @@
 layout: post
 title: "Gelfand: Chunk 8 - 'Nomials."
 tags: [gelfand, tricks, monomials, polynomials, collecting-similar-terms, standard-form, commutative-law, difference-of-squares, proving-equality, proving-inequality]
+comments: true
 ---
 {% include JB/setup %}
 

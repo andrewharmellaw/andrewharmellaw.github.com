@@ -2,6 +2,7 @@
 layout: post
 title: "Gelfand: Chunk 12 - The Hard Ones"
 tags: [gelfand, tricks, factoring, powers, difference-of-squares]
+comments: true
 ---
 {% include JB/setup %}
 

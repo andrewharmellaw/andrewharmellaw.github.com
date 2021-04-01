@@ -4,6 +4,7 @@ title: "Gelfand: Chunk 5 - Powers: Positive and Negative"
 description: "Predominantly of 10, but sometimes of 2 too."
 category: 
 tags: [gelfand, powers, definition, tricks]
+comments: true
 ---
 {% include JB/setup %}
 

@@ -2,6 +2,7 @@
 layout: post
 title: "Gelfand: Chunk 13 - Rational Expressions Quickie"
 tags: [gelfand, commutative-law, rational-expressions, division, fractions, polynomials]
+comments: true
 ---
 {% include JB/setup %}
 

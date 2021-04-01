@@ -2,6 +2,7 @@
 layout: post
 title: "Gelfand: Chunk 15 - Polynomial Division Addendum"
 tags: [gelfand, division, polynomials, geometric-progression]
+comments: true
 ---
 {% include JB/setup %}
 

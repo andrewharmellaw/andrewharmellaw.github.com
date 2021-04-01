@@ -2,6 +2,7 @@
 layout: post
 title: "Gelfand: Chunk 23 - Embedding Progressions"
 tags: [gelfand, arithmetic-progressions, geometric-progressions, tricks, odd, even]
+comments: true
 ---
 {% include JB/setup %}
 

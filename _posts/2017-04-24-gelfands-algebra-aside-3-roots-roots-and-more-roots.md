@@ -2,6 +2,7 @@
 layout: post
 title: "Gelfand: Aside 3 - Roots, Roots and More Roots"
 tags: [gelfand, roots, radicals, quadratic-equations, polynomials]
+comments: true
 ---
 {% include JB/setup %}
 

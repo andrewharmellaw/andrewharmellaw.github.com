@@ -2,6 +2,7 @@
 layout: post
 title: "Gelfand: Chunk 7 - Pascal's Triangle."
 tags: [gelfand, powers, square-of-a-sum, difference-of-squares, pascals-triangle]
+comments: true
 ---
 {% include JB/setup %}
 

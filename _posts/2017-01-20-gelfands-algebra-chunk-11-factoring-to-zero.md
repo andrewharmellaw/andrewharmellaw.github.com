@@ -4,6 +4,7 @@ title: "Gelfand: Chunk 11 - Factoring to Zero"
 description: "The Second Coming - Resurrecting Terms from the Dead"
 category: 
 tags: [gelfand, factoring, difference-of-squares, square-of-a-sum, roots, powers, tricks]
+comments: true
 ---
 {% include JB/setup %}
 

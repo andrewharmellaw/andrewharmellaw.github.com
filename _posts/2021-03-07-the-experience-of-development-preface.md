@@ -4,6 +4,7 @@ title: "The Experience of Development<BR/><BR/>Preface"
 description: "Some description here."
 category:
 tags: [experience-of-development, friston, mental-models]
+comments: true
 ---
 {% include JB/setup %}
 

@@ -2,6 +2,7 @@
 layout: post
 title: "Gelfand: Chunk 17 - Polynomial (and Linear) Interpolation"
 tags: [gelfand, polynomials, degrees, tricks, roots, interpolation]
+comments: true
 ---
 {% include JB/setup %}
 
