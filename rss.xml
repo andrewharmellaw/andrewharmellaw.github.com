@@ -5,10 +5,50 @@
         <description>Maths from the Ground Up - Andrew Harmel-Law</description>
         <link>http://andrewharmellaw.github.io</link>
         <atom:link href="http://andrewharmellaw.github.io" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Fri, 02 Apr 2021 10:35:40 +0100</lastBuildDate>
-        <pubDate>Fri, 02 Apr 2021 10:35:40 +0100</pubDate>
+        <lastBuildDate>Sat, 03 Apr 2021 22:35:35 +0100</lastBuildDate>
+        <pubDate>Sat, 03 Apr 2021 22:35:35 +0100</pubDate>
         <ttl>60</ttl>
 
+
+        <item>
+                <title>The Experience of Development&lt;BR/&gt;&lt;BR/&gt;Chapter 2: On Bit Depths and Fine Wines</title>
+                <description>
+&lt;figure&gt;&lt;figcaption&gt;Image: Wine Glass by OnyxCambridge, Pixbay licence (free to use) on &lt;a href=&quot;https://pixabay.com/photos/wine-glass-red-glass-of-wine-drink-2807553/&quot;&gt;PixBay.com&lt;/a&gt;&lt;/figcaption&gt;&lt;img src=&quot;/assets/img/wine-2807553_1920.jpg&quot; /&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;em&gt;NOTE: This post is part of my extended series on the “Experience of Development”. If you’ve not read the two-part introduction yet, it’s perhaps a good idea to hop over and check out &lt;a href=&quot;/2021/03/08/the-experience-of-development-a-conjecture&quot;&gt;part 1&lt;/a&gt; and &lt;a href=&quot;/2021/03/09/the-experience-of-development-models-all-the-way-down&quot;&gt;part 2&lt;/a&gt; before continuing.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;There were some &lt;/span&gt; great sessions at JavaOne 2008. Among the stand-outs for me were Josh Bloch and Neal Gafter’s &lt;a href=&quot;http://www.javapuzzlers.com/&quot;&gt;Java Puzzlers&lt;/a&gt; (returning for the umpteenth time) and &lt;a href=&quot;https://en.wikipedia.org/wiki/Kathy_Sierra&quot;&gt;Kathy Sierra&lt;/a&gt;’s talk about reverse engineering passionate users&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;You’ll need to rely on my memory for the contents of Kathy’s amazing talk because &lt;a href=&quot;https://en.wikipedia.org/wiki/Kathy_Sierra#Harassment_and_withdrawal_from_online_life&quot;&gt;some people are horriffic jerks&lt;/a&gt; and that means the rest of us can’t hear from people like Kathy any more, despite the fact they’re awesome. &lt;/span&gt;.&lt;/p&gt;
+
+&lt;p&gt;What struck me at the time about Kathy’s session was how she had no words on her slides. None. At. All.&lt;/p&gt;
+
+&lt;p&gt;What’s stuck with me far longer was her use of the concept of “bit depth”, which wasn’t the traditional technical one you’re probably thinking about. Kathy used it to differentiate the kinds of users of a given service or piece of software. The argument of her talk was to zone-in on one particular kind of user; the power users, and reverse engineer your system from what they would think were excellent features backed by a solid and coherent system model.&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;I believe this was perhaps an early version of her Badass Users book because reading &lt;a href=&quot;http://seriouspony.com/badass-users-the-book&quot;&gt;her site&lt;/a&gt; now, a bunch of things definitely resonate. &lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;She described these peeps as “high bit-depth users”. To explain this she explained how she understood wine. She had a low bit depth appreciation she said&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Apologies Kathy if I’ve got this the wrong way round &lt;/span&gt;. That is to say, she could tell red wine apart from white wine, but that was it. Others had a higher bit depth, and the higher their bit depth, the deeper and richer their concepts of wine were. The greater their awareness of things like grape varieties, the wine-making process, the regions wine came from and the influence of ‘terrior’, as well as their knowledge and their sensitivities to subtle cues and differences. Consequently, their enjoyment was more subtle and nuanced too. Whereas for a low bit-depth drinker wine might be “good” or “bad”, for a higher it depth aficionado might be “forward on the nose” with “good legs” but still “not quite as good as the previous vintage”&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Can you guess which end of the field I’m placed at yet? A little Google is a wonderful thing. &lt;/span&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;So what about &lt;/span&gt; &lt;a href=&quot;https://en.wikipedia.org/wiki/Joshua_Bloch&quot;&gt;Josh&lt;/a&gt; and &lt;a href=&quot;http://www.gafter.com/~neal/&quot;&gt;Neal&lt;/a&gt;? Well, if you’ve not familiar with their regular sessions (and &lt;a href=&quot;https://www.goodreads.com/book/show/127931.Java_Puzzlers&quot;&gt;accompanying book&lt;/a&gt;) let me fill you in. Both Josh and Neal had worked on key core aspects of Java. On top of this, Josh had also written (and frequently updated) the classic “&lt;a href=&quot;https://www.goodreads.com/book/show/34927404-effective-java&quot;&gt;Effective Java&lt;/a&gt;” while Neal worked on Google Calendar and led the &lt;a href=&quot;https://cr.openjdk.java.net/~dlsmith/jsr335/jsr335-0.6.2/index.html&quot;&gt;Java lambda specification&lt;/a&gt; team. This meant both of them were ideally placed to host an annual session where they posed a series of questions to the assembled audience which largely ran along the lines of “given this code, what would you expect the output to be?”&lt;/p&gt;
+
+&lt;p&gt;The reason they did this was to illuminate some of the darker, more subtle, and (some would argue) less obvious areas of the Java language and core libraries. It was intended to educate, but it was also terribly good fun.&lt;/p&gt;
+
+&lt;p&gt;And, just like Kathy’s talk, years later it’s come to strike a new resonance in me.&lt;/p&gt;
+
+&lt;p&gt;Now, in light of my theory of what makes up “&lt;a href=&quot;/2021/03/09/the-experience-of-development-models-all-the-way-down&quot;&gt;the experience of development&lt;/a&gt;” I think they were actively working to improve the bit depth of those attending their session. They weren’t just presenting facts. They’d explain why, draw out differences between Java versions, give a bit of history, and explain idioms which had come and gone, frequently as a result of things which were hard (or easy) in the Java development world at the time.&lt;/p&gt;
+
+&lt;p&gt;In expanding the Java dev bit-depth of those present, they were expanding the &lt;a href=&quot;/2021/03/09/the-experience-of-development-models-all-the-way-down&quot;&gt;substrate mental models&lt;/a&gt; of those in the audience. Sometimes it was as low-level as how fundamentals such as primitives worked. Other times we moved up a little to syntactic sugar behind various bits of syntax. Other times still it was about the internals of various collections libraries, and other still attempted to help people grokk that great darkness which is &lt;a href=&quot;https://en.wikipedia.org/wiki/Covariance_and_contravariance_(computer_science)&quot;&gt;co/contra-variance&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;With this all &lt;/span&gt; in mind, let’s loop back to Kathy. As bit-depths increase, mastery does too. That in itself must surely bring additional elements to the experience of development. To have more detailed and nuanced substrate mental models must surely make them easier to work with, purely due to the ability it gives us to pick elements which do what we need more quickly, and consequently have fewer instances of surprise (especially puzzler-level surprises which in the many-sharp-edged world of Java can be real head-scratchers)&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;I’ve even seen the pass-by-reference vs pass-by-value issue confound really solid devs for example. &lt;/span&gt;.&lt;/p&gt;
+
+&lt;p&gt;But there’s something else which arises from greater bit-depth and it’s something which has a direct impact on &lt;em&gt;enjoyment&lt;/em&gt;. I’ve seen this with wine, with golf, and with programming. The more expert a person becomes, the less they can like certain things unless &lt;em&gt;absolutely everything is perfect&lt;/em&gt;. Wine experts are far less able to just enjoy a glass of “really nice plonk” as some call pretty good wine, because a few subtle elements - which those with a lower bit-depth experience don’t even register - to connoisseurs are glaring issues. Terrible golfers (me) are happy to have hit a few decent shots in a round of eighteen disastrous holes, while I’ve seen a friend who played off a single-figure handicap have a bad week after they shot a double-bogey on a single hole&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;They still won. That didn’t seem to matter. &lt;/span&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;The same goes &lt;/span&gt; for many high-bit-depth aficionados of programming languages. I’ve frequently seen them pick languages which are more “pure” and balk at having to sacrifice this purity in the name of getting things done, which generally means using a library or framework which does what they need, but which also forces them to do things in a style they feel is not their favourite.&lt;/p&gt;
+
+&lt;p&gt;I’m not saying this is bad. (I’d &lt;em&gt;love&lt;/em&gt; to be that great at any language.) What I’m saying is, low bit-depth understandings of languages is almost always something which we will be motivated to improve on, for all but the languages (and frameworks / libraries) which we almost never touch. The higher levels of bit depth however, while they almost inevitably bring far greater knowledge and mastery of a language, can also frequently bring a reduced enjoyment of use, and perhaps even reduced effectiveness, when purity is not sacrificed sufficiently on the altar of pragmatism. (It can also lead in some cases to code which is nebulous and impenetrable to the average dev who isn’t at the same level of mastery. But that’s straying into the realms of the experience of developing with others which is a who other set of posts.)&lt;/p&gt;
+
+&lt;p&gt;That’s it for this post. I’m going to keep sharing these musings, and hopefully also begin to bring in some specific case-studies of how development is experienced by specific individuals. In the meantime I’d love to know what you think. If you have any thoughts or any other kind of feedback please leave a comment below, or reach out to me on &lt;a href=&quot;https://twitter.com/al94781&quot;&gt;Twitter&lt;/a&gt;.  Thanks!&lt;/p&gt;
+</description>
+                <link>http://andrewharmellaw.github.io/2021/04/03/the-experience-of-development-bit-depths-and-fine-wines</link>
+                <guid>http://andrewharmellaw.github.io/2021/04/03/the-experience-of-development-bit-depths-and-fine-wines</guid>
+                <pubDate>Sat, 03 Apr 2021 00:00:00 +0100</pubDate>
+        </item>
 
         <item>
                 <title>Your Organisation Viewed as a Collection of Services</title>
@@ -356,7 +396,7 @@ Hilary Mantel interviewed by Michael Rosen for “Word of Mouth”, BBC Radio 4.
 
 &lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;How frequently this mis-match occurs&lt;/span&gt;  is clearly important. But what strikes me as more worthy of investigation is how different people, at different times, and in different contexts experience, and consequently (re)act / respond, both intellectually and emotionally to all these outcomes, both predicted, and surprising.  It also seems significant to look into instances when the distinction between one possible coping strategy and another is unclear, or when it is &lt;em&gt;too clear&lt;/em&gt;.&lt;/p&gt;
 
-&lt;p&gt;I intend to go into this in future posts, but for now I will stop here and leave you to ponder your experiences in this area.  Does my formulation make sense?  Is it gibberish?  I know for one that it represents at most one half of the experience of development.  The other half? That is the subject of the next post, the experience itself of mentally constructing our cloud-castles.&lt;/p&gt;
+&lt;p&gt;I intend to go into this in future posts, but for now I will stop here and leave you to ponder your experiences in this area.  Does my formulation make sense?  Is it gibberish?  I know for one that it represents at most one half of the experience of development.  The other half? That’ll be the subject of a later post: the experience itself of mentally constructing our cloud-castles.  But first I’ve al least one cogitation on other aspects to share. Next up, &lt;a href=&quot;/2021/04/03/the-experience-of-development-bit-depths-and-fine-wines&quot;&gt;the difference levels of expertise make&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;P.S. I’d love to know what you think. If you have any thoughts or any other kind of feedback please reach out to me on &lt;a href=&quot;https://twitter.com/al94781&quot;&gt;Twitter&lt;/a&gt;.  Thanks!&lt;/p&gt;
 </description>
@@ -2337,324 +2377,6 @@ Thank you. 🙏 &lt;br /&gt;&lt;br /&gt;Image: Mt Crested Butte, Colorado, USA, 
                 <link>http://andrewharmellaw.github.io/2017/03/14/gelfands-algebra-chunk-18-polynomial-interpolation-subtleties</link>
                 <guid>http://andrewharmellaw.github.io/2017/03/14/gelfands-algebra-chunk-18-polynomial-interpolation-subtleties</guid>
                 <pubDate>Tue, 14 Mar 2017 00:00:00 +0000</pubDate>
-        </item>
-
-        <item>
-                <title>Gelfand: Chunk 17 - Polynomial (and Linear) Interpolation</title>
-                <description>
-&lt;h2 id=&quot;where-next-points-on-a-line&quot;&gt;Where Next? Points on a Line&lt;/h2&gt;
-&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;The next section of &lt;a href=&quot;https://www.amazon.co.uk/Algebra-I-M-Gelfand/dp/0817636773&quot;&gt;Gelfand&lt;/a&gt;&lt;/span&gt; &lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Section 38 &lt;/span&gt; launches straight in, and it can take a while to figure out where things are going and what the point is.&lt;/p&gt;
-
-&lt;p&gt;I’ve discovered as I’ve been trying to make full and proper sense of all this&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;To assist in my chunking as much as anything else. &lt;/span&gt; that Gelfand frequantly assumes you’ve got a dictionary to hand; sometimes the signal of where you’re going is as slight as a word in a section title.  The key term here? “Interpolation”.&lt;/p&gt;
-
-&lt;p&gt;So what is interpolation?  I’d suggest you take a break to glance at &lt;a href=&quot;https://en.wikipedia.org/wiki/Interpolation&quot;&gt;the wikipedia page&lt;/a&gt;.  Just a glance though, as the stuff that’s about to come from Gelfand will give you the tools to deeply grok the contents within.&lt;/p&gt;
-
-&lt;p&gt;For those who don’t want to take a look, Interpolation is defined on the page above as&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“a method of constructing new data points within the range of a discrete set of known data points”.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;an-excuse&quot;&gt;An Excuse&lt;/h2&gt;
-&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;With this in mind,&lt;/span&gt;  you’ve now got a small sense of the point of the mass of problems that will be coming at you.  I’m going to jump on quite rapidly&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Though I suggest you don’t. &lt;/span&gt;  Working through these helped me a great deal.  I’m just letting myself do so&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;With minimal commentary &lt;/span&gt; so as not to confuse matters.&lt;/p&gt;
-
-&lt;h2 id=&quot;here-be-patterns-patterns-within-polynomials&quot;&gt;Here Be Patterns; Patterns &lt;em&gt;within&lt;/em&gt; Polynomials&lt;/h2&gt;
-&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;The first few problems&lt;/span&gt; &lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Problems 155 - 158 &lt;/span&gt; are just leading you by the hand to the realisation that there are some more patterns hidden inside polynomials, and that those patterns depend upon the polynomial’s degree.&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Glance back at &lt;a href=&quot;https://andrewharmellaw.github.io/2017/02/23/gelfands-algebra-chunk-14-polynomial-division-all-the-gory-details&quot;&gt;Chunk 14 - Polynomial Division&lt;/a&gt; if you want a quick reminder. &lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;Once we’ve done this (and had an encounter with &lt;a href=&quot;https://en.wikipedia.org/wiki/Leonhard_Euler&quot;&gt;Euler&lt;/a&gt;) Gelfand poses the question upon which he spends the rest of the section, and I’ll spend the rest of this chunk exploring.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;What can be said about a polynomial if we have some information about it’s values?&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;This is the interpolation we mentioned above.&lt;/p&gt;
-
-&lt;p&gt;But before we get to the values and the interpolation Gelfand gives us another thought tool&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Not really a trick so I’m not flagging it as such &lt;/span&gt; which helps our &lt;em&gt;abstract&lt;/em&gt; understanding of polynomials.  I’m going to try and re-explain it in my own words.&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Primarily because writing these things ensures they are concretely embedded in my mind before proceeding.  You might find Gelfand’s explanation better. It’s incredibly likely. &lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;The first point he is making is that given the information on the degree of a polynomial that is in one degree (that’s important) we can then make a lot of statements which are &lt;em&gt;guaranteed&lt;/em&gt; to be true.  The second point is that if we know some of these key facts, and also the vaules we get out when we put in known values, then we can do a lot of detective work to deduce the polynomial itself, even if we don’t know it.&lt;/p&gt;
-
-&lt;h2 id=&quot;patterns-in-degrees&quot;&gt;Patterns in Degrees&lt;/h2&gt;
-&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;This is currently all very abstract;&lt;/span&gt;  so let’s look at a few examples.  First up is degrees.  Remember that the degree of a polynomial is related to it’s “first degree”.  So if a polynomial has a degree of &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;1&lt;/script&gt;&lt;/span&gt; it will be in the general form:&lt;/p&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;ax + b&lt;/script&gt;&lt;/div&gt;
-
-&lt;p&gt;This means that it will &lt;em&gt;definitely&lt;/em&gt; have an element in the form &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;ax^1&lt;/script&gt;&lt;/span&gt; and &lt;em&gt;may&lt;/em&gt; have an element in the form &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;bx^0&lt;/script&gt;&lt;/span&gt;.  That’s it. But we can simplify.  Remember from &lt;a href=&quot;https://andrewharmellaw.github.io/2017/02/23/gelfands-algebra-chunk-14-polynomial-division-all-the-gory-details&quot;&gt;Chunk 14&lt;/a&gt; that &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;bx^0 = b \cdot 1 = b&lt;/script&gt;&lt;/span&gt;.&lt;/p&gt;
-
-&lt;p&gt;But I said “&lt;em&gt;may&lt;/em&gt;” for the &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;b&lt;/script&gt;&lt;/span&gt;-element.  How so?  Technically it will always be there, but if &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;b=0&lt;/script&gt;&lt;/span&gt; then it’ll be irrelevant.  Why does this not happen for &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a&lt;/script&gt;&lt;/span&gt;-elements?  Because if the above had &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a = b = 0&lt;/script&gt;&lt;/span&gt; then (as Gelfand states) we’d end up instead with the zero-polynomial which has an undefined value.&lt;/p&gt;
-
-&lt;p&gt;Let’s step up our game one more notch.  What about a second-degree polynomial?  You guessed it, it &lt;em&gt;must&lt;/em&gt; have an element in the form &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;ax^2&lt;/script&gt;&lt;/span&gt; and &lt;em&gt;may&lt;/em&gt; have elements in the form &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;bx^1&lt;/script&gt;&lt;/span&gt; and &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;cx^0&lt;/script&gt;&lt;/span&gt;.  The &lt;em&gt;may&lt;/em&gt; bit is again down to whether &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;b&lt;/script&gt;&lt;/span&gt; and &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;c&lt;/script&gt;&lt;/span&gt; are equal to zero or not.&lt;/p&gt;
-
-&lt;p&gt;We can keep this pattern going ad-infinitum.  But rather than that, let’s bring it back to Gelfand so we’re all happy we linked back up after diverging explanations.  Let’s re-state it one more time; we can write all our second-degree polynomials in as follows:&lt;/p&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;ax^2 + bx^1 + cx^0&lt;/script&gt;&lt;/div&gt;
-
-&lt;p&gt;Which can be simplified to the general form as follows&lt;/p&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;ax^2 + bx + c&lt;/script&gt;&lt;/div&gt;
-
-&lt;p&gt;Which is where we find Gelfand, waiting patiently for us.&lt;/p&gt;
-
-&lt;h2 id=&quot;deplying-our-new-found-powers-and-point-two&quot;&gt;Deplying Our New-Found Powers (and Point Two)&lt;/h2&gt;
-&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;I mentioned a few paragraphs above&lt;/span&gt;  that there were &lt;em&gt;two&lt;/em&gt; points.  We’re about to see the second.  Gelfand now gives us some problems, assumes we’re going to use the pattern we just learned, and some other basic skills he’s taught us, and is hoping we easily arrive at the answer.&lt;/p&gt;
-
-&lt;h3 id=&quot;problem-160&quot;&gt;Problem 160&lt;/h3&gt;
-&lt;p&gt;First thing we need to see with this problem is that when Gelfand states&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“&lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;P(x)&lt;/script&gt;&lt;/span&gt; is a polynomial of degree not exceeding &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;1&lt;/script&gt;&lt;/span&gt;”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;we need to immediately think&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“that means it has the general form &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;ax + b&lt;/script&gt;&lt;/span&gt;”.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;With this in mind, he then gives us a pair of inputs and outputs - the latter being the “values” he mentioned and which we are calling “point two”.  We can lay these out as follows:&lt;/p&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;P(1) = 7&lt;/script&gt;&lt;/div&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;P(2) = 5&lt;/script&gt;&lt;/div&gt;
-
-&lt;p&gt;He then asks us to find &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;P(x)&lt;/script&gt;&lt;/span&gt; which really means “find the values of &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a&lt;/script&gt;&lt;/span&gt; and &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;b&lt;/script&gt;&lt;/span&gt; and state in the form of a first-degree polynomial.”&lt;/p&gt;
-
-&lt;p&gt;Let’s plug our inputs in and see what we can glean:&lt;/p&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;P(1) = a \cdot 1 + b = 7&lt;/script&gt;&lt;/div&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;P(2) = a \cdot 2 + b = 5&lt;/script&gt;&lt;/div&gt;
-
-&lt;p&gt;The difference between these two is one &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a&lt;/script&gt;&lt;/span&gt;, or &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;5 - 7&lt;/script&gt;&lt;/span&gt; which is &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;-2&lt;/script&gt;&lt;/span&gt;.  If we plug in this, then we can find &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;b&lt;/script&gt;&lt;/span&gt; easily.&lt;/p&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;-2 \cdot 1 + b = 7&lt;/script&gt;&lt;/div&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; \rightarrow -2 + b = 7 &lt;/script&gt;&lt;/div&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; \rightarrow b = 7 + 2 &lt;/script&gt;&lt;/div&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; \rightarrow b = 9 &lt;/script&gt;&lt;/div&gt;
-
-&lt;p&gt;We can check this&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;As I’m making us go &lt;em&gt;painfully slow to make sure this is 100% clear&lt;/em&gt; &lt;/span&gt; by putting our &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;b&lt;/script&gt;&lt;/span&gt;-value into the second formula to check all is good.&lt;/p&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;P(2) = -2 \cdot 2 + 9 = -4 + 9 = 5&lt;/script&gt;&lt;/div&gt;
-
-&lt;p&gt;W00t!&lt;/p&gt;
-
-&lt;p&gt;So to bring it all to a close, we can state &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;P(x)&lt;/script&gt;&lt;/span&gt; as follows&lt;/p&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;P(x) = -2x + 9&lt;/script&gt;&lt;/div&gt;
-
-&lt;p&gt;Bringing his worked example to a close, Gelfand points out what he’s hoped we’d notice - that you can use this trick for any polynomial of degree not exceeding one, given two values of &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;x&lt;/script&gt;&lt;/span&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;its-just-lines&quot;&gt;It’s Just Lines!&lt;/h2&gt;
-&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;There has been a dearth of good ‘ole simple lines in Gelfand for a good while.&lt;/span&gt;   We’re suddenly about to bring them back.  Gelfand next makes sure we’ve well and truly cottoned-on to the significance of what we just found.  He gives us the formula for the graph of a straight line, &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;y = ax + b&lt;/script&gt;&lt;/span&gt;, and then prods us to realise that this is &lt;em&gt;exactly the same as our first-degree polynomial formula&lt;/em&gt;.  No wonder we can reverse-engineer things for this polynomial-class with two values.  That’s how many you need to figure out all the values on a &lt;em&gt;straight&lt;/em&gt; line - something which takes in two points.&lt;/p&gt;
-
-&lt;p&gt;Now we begin to see why Gelfand used the “regression” word in the title of this section…&lt;/p&gt;
-
-&lt;h2 id=&quot;a-simple-but-subtle-point---too-many-zeros&quot;&gt;A Simple But Subtle Point - Too Many Zeros&lt;/h2&gt;
-&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;Next up is Problem 161.&lt;/span&gt;  I’d missed the significance of this at the first pass.  We’re staying with at-most-first-degree polynomials for now. Gelfand has given us two inputs (&lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;1&lt;/script&gt;&lt;/span&gt; and &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;2&lt;/script&gt;&lt;/span&gt;) to an undisclosed polynomial &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;P(x)&lt;/script&gt;&lt;/span&gt;, both of which give a result of &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;0&lt;/script&gt;&lt;/span&gt;. He has also informed us that the polynomial is in at most the first degree.  That means it is in the general form &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;ax + b&lt;/script&gt;&lt;/span&gt;.&lt;/p&gt;
-
-&lt;p&gt;The problem is to prove that the result is &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;P(x) = 0&lt;/script&gt;&lt;/span&gt; &lt;em&gt;for any&lt;/em&gt; &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;x&lt;/script&gt;&lt;/span&gt;.  You can perhaps guess how this miht be the case without putting in the graft of working out &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a&lt;/script&gt;&lt;/span&gt; and &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;b&lt;/script&gt;&lt;/span&gt;, but’s let’s show it for clarity.&lt;/p&gt;
-
-&lt;p&gt;&lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;P(1)&lt;/script&gt;&lt;/span&gt; first&lt;/p&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; 1a + b = 0 &lt;/script&gt;&lt;/div&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; a = -b &lt;/script&gt;&lt;/div&gt;
-
-&lt;p&gt;Then &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;P(2)&lt;/script&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; 2a + b = 0 &lt;/script&gt;&lt;/div&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; 2a = -b &lt;/script&gt;&lt;/div&gt;
-
-&lt;p&gt;Therefore, putting them together&lt;/p&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; 2a = -b = a &lt;/script&gt;&lt;/div&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; 2a = a &lt;/script&gt;&lt;/div&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; a = 0 &lt;/script&gt;&lt;/div&gt;
-
-&lt;p&gt;Which means that&lt;/p&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; a = 0 = -b &lt;/script&gt;&lt;/div&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; -b = 0 &lt;/script&gt;&lt;/div&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; b = 0 &lt;/script&gt;&lt;/div&gt;
-
-&lt;p&gt;Therefore&lt;/p&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; P(x) = 0x + 0 &lt;/script&gt;&lt;/div&gt;
-
-&lt;p&gt;And from this it is clear to see that no matter what &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;x&lt;/script&gt;&lt;/span&gt; is, the result will always be &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;0&lt;/script&gt;&lt;/span&gt;.  To bring it back to lines, &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;P(x)&lt;/script&gt;&lt;/span&gt; represents a straight horizontal one.&lt;/p&gt;
-
-&lt;h2 id=&quot;a-further-subtle-point---how-many-is-too-many&quot;&gt;A Further Subtle Point - How Many is “Too Many”?&lt;/h2&gt;
-&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;For a not-greater-than-first-degree polynomial,&lt;/span&gt;  two zero results was “too many”.  But is this the case for a not-greater-than-second-degree polynomial.  It is in Problem 162 that we’re asked to tackle this.&lt;/p&gt;
-
-&lt;p&gt;As in Problem 161 Gelfand gives us two zero results: &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;P(1) = 0 &lt;/script&gt;&lt;/span&gt; and &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;P(2) = 0&lt;/script&gt;&lt;/span&gt;.  He then asks if &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;P(x) = 0&lt;/script&gt;&lt;/span&gt; (i.e. are all forms of this polynomial zero).  His solution is a nice one.  Given that we already have two zeros, he first shows us how it is two thirds of the way to being factored:&lt;/p&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;P(x) = (x - 1)(x - 2)Q(x)&lt;/script&gt;&lt;/div&gt;
-
-&lt;p&gt;The first two factors are simply derived from &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;P(1) = 0 &lt;/script&gt;&lt;/span&gt; and &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;P(2) = 0&lt;/script&gt;&lt;/span&gt;.  But what is &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;Q(x)&lt;/script&gt;&lt;/span&gt;? It’s the last factor.  Factors are polynomials, and because we know that &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;P(x)&lt;/script&gt;&lt;/span&gt; has a maximum degree of 2, that must come from &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;(x - 1)(x - 2)&lt;/script&gt;&lt;/span&gt; (spot the &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;x^2&lt;/script&gt;&lt;/span&gt;?) which means &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;Q(x)&lt;/script&gt;&lt;/span&gt; must be a zero-degree polynomial, aka a number.  And this means that while this number &lt;em&gt;could&lt;/em&gt; be zero, (meaning all results of &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;P(x)&lt;/script&gt;&lt;/span&gt; would be zero, it could just as easily be any number, which means we &lt;em&gt;cannot&lt;/em&gt; say given when we know from our stated facts (&lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;P(1) = 0 &lt;/script&gt;&lt;/span&gt; and &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;P(2) = 0&lt;/script&gt;&lt;/span&gt;) that &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;P(x)&lt;/script&gt;&lt;/span&gt; is &lt;em&gt;always&lt;/em&gt; going to be zero.&lt;/p&gt;
-
-&lt;p&gt;Problem 163 then takes just this scenario and gets us to work things through, where &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;Q(x)&lt;/script&gt;&lt;/span&gt; has become &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a&lt;/script&gt;&lt;/span&gt; in &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;P(x) = a(x - 1)(x - 2)&lt;/script&gt;&lt;/span&gt;.&lt;/p&gt;
-
-&lt;p&gt;The second solution to this problem is incredibly useful.  As is frequently the case in Gelfand, you need to not just look at what he does, but also &lt;em&gt;how he does it&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;So what does he do? He gets meta. He knows what the polynomials are as pure symbols, and also as the detailed internals.  He then simply does maths on them, as if they were any other number or expression.  I found his wording a little dense, so yet again I’m going to write out the last steps symbolically to make it super-clear&lt;/p&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; 3a + b = 0 &lt;/script&gt;&lt;/div&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; 5a + b = 4 &lt;/script&gt;&lt;/div&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; 5a + b - 4 = 0 &lt;/script&gt;&lt;/div&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; \rightarrow 3a + b = 5a + b - 4 &lt;/script&gt;&lt;/div&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; \rightarrow b + 4 = 2a + b &lt;/script&gt;&lt;/div&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; \rightarrow 4 = 2a &lt;/script&gt;&lt;/div&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; \rightarrow 2 = a &lt;/script&gt;&lt;/div&gt;
-
-&lt;p&gt;Once you know what &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a&lt;/script&gt;&lt;/span&gt; is, you can calculate &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;b&lt;/script&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; 3a + b = 0 &lt;/script&gt;&lt;/div&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; \rightarrow 3 \times 2 + b = 0 &lt;/script&gt;&lt;/div&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; \rightarrow 6 + b = 0 &lt;/script&gt;&lt;/div&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; \rightarrow b = -6 &lt;/script&gt;&lt;/div&gt;
-
-&lt;p&gt;And then, finally, &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;c&lt;/script&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; 4 = 2 \times 3^2 - 6 \times 3 + c &lt;/script&gt;&lt;/div&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; \rightarrow 4 = 0 + c &lt;/script&gt;&lt;/div&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; \rightarrow c = 4 &lt;/script&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;not-all-lines-are-straight-lines&quot;&gt;Not all Lines are Straight Lines&lt;/h2&gt;
-&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;Again, with little pause for breath,&lt;/span&gt;  Gelfand marches us onward.&lt;/p&gt;
-
-&lt;p&gt;Are we approaching a universal axiom? Do we only need &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;n + 1&lt;/script&gt;&lt;/span&gt; input-output value pairs to be able to reverse-engineer a polynomial of degree-not-exceeding &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt;&lt;/span&gt;?  If first-degree polynomials are represented by straight lines, what do other polynomials look like in line form?&lt;/p&gt;
-
-&lt;p&gt;Gelfand gets on to all this lines-stuff later&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Which I’ll get to in another chunk. &lt;/span&gt; but for now be satisfied that yes, polynomials do represent lines, and that these can get pretty complicated unless they are always equal to zero&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;As we discovered above. &lt;/span&gt; in which case they are just horizontal at &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;y = 0&lt;/script&gt;&lt;/span&gt;.&lt;/p&gt;
-
-&lt;p&gt;In Problem 164 Gelfand breaks out the meta again, asking us to&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;prove that a polynomial of degree not exceeding &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;2&lt;/script&gt;&lt;/span&gt; is defined uniquely by three of its values.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;He gives us a bit of a starter, but I’m going to take my usual tack of working through Gelfand’s solution in far-far finer-grained detail.&lt;/p&gt;
-
-&lt;p&gt;First up are the simple parts; grokking exactly what he’s asking - when he says “uniquely defined by three of its values” he means that if two polynomials are defined by the same three values, then they too are the same.  He then takes this, and writes it with symbols rather than words; a trick we’re slowy getting used to.&lt;/p&gt;
-
-&lt;p&gt;&lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;P(x)&lt;/script&gt;&lt;/span&gt; and &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;Q(x)&lt;/script&gt;&lt;/span&gt; represent our two polynmomials.  Gelfand represents their having the same output values given the same inputs by saying &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;P(x_{1}) = Q(x_{1})&lt;/script&gt;&lt;/span&gt;, &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;P(x_{2}) = Q(x_{2})&lt;/script&gt;&lt;/span&gt; and &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;P(x_{3}) = Q(x_{3})&lt;/script&gt;&lt;/span&gt;.  To be clear, he lets on that &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;x_{1}&lt;/script&gt;&lt;/span&gt;, &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;x_{2}&lt;/script&gt;&lt;/span&gt; and &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;x_{3}&lt;/script&gt;&lt;/span&gt; are three different values of &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;x&lt;/script&gt;&lt;/span&gt;.  And that if these three circumstances hold true, then &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;P(x) = Q(x)&lt;/script&gt;&lt;/span&gt;, which is to say, they are equal.&lt;/p&gt;
-
-&lt;p&gt;With all this in mind Gelfand then breaks out another proof-trick we’ve not seen before&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;At least I don’t think so. &lt;/span&gt;  He introduces a third polynomial &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;R(x)&lt;/script&gt;&lt;/span&gt;.  Why?  Let’s rewind a step.&lt;/p&gt;
-
-&lt;p&gt;Gelfand is taking advantage of a property of polynomial roots which I’d forgotten about - this property is that a polynomial of a degree not exceeding 2 can have at most two roots, &lt;em&gt;unless it is equal to zero&lt;/em&gt;&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Which is what we saw in Problem 161 above. &lt;/span&gt;  It’s the bit in &lt;em&gt;italics&lt;/em&gt; that is being used here because he’s going to use it to show that all other polynomials which support these input-output pairs are equal to zero.  Let’s see how.&lt;/p&gt;
-
-&lt;p&gt;Gelfand next brings in something else fundamental, but this time also blindingly obvious: that if two things are the same, then one minus the other gives you zero.  I.e. &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;P(x) - Q(x) = 0&lt;/script&gt;&lt;/span&gt;.&lt;/p&gt;
-
-&lt;p&gt;When he combines the two, we get our proof. We need to have a symbol to represent the outcome of subtracting one polynomial from another and that is &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;R(x)&lt;/script&gt;&lt;/span&gt;.  The following should now make more sense&lt;/p&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;P(x) - Q(x) = R(x)&lt;/script&gt;&lt;/div&gt;
-
-&lt;p&gt;and&lt;/p&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;P(x) - Q(x) = 0&lt;/script&gt;&lt;/div&gt;
-
-&lt;p&gt;because extrapolating what we had previously&lt;/p&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;P(x_{1}) - Q(x_{1}) = 0&lt;/script&gt;&lt;/div&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;P(x_{2}) - Q(x_{2}) = 0&lt;/script&gt;&lt;/div&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;P(x_{3}) - Q(x_{3}) = 0&lt;/script&gt;&lt;/div&gt;
-
-&lt;p&gt;therefore&lt;/p&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;R(x_{1}) = R(x_{2}) = R(x_{3}) = 0&lt;/script&gt;&lt;/div&gt;
-
-&lt;p&gt;Which means that &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;P(x) = Q(x)&lt;/script&gt;&lt;/span&gt; so they are the same, so therefore “a polynomial of degree not exceeding &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;2&lt;/script&gt;&lt;/span&gt; is defined uniquely by three of it’s values.”&lt;/p&gt;
-
-&lt;h3 id=&quot;a-confession&quot;&gt;A Confession&lt;/h3&gt;
-&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;I’ll admit&lt;/span&gt;  I would have never got here on my own.  I’m sure that’s why its a problem with a solution.  We’re supposed to realise that the tricks just performed before our eyes are permissable.  That means there are some new tricks to be gleaned.&lt;/p&gt;
-
-&lt;h2 id=&quot;tricks-arising&quot;&gt;Tricks Arising&lt;/h2&gt;
-
-&lt;h3 id=&quot;flip-it&quot;&gt;Flip It&lt;/h3&gt;
-&lt;p&gt;Gelfand didn’t attack this proof head on. He came round the back.  He didn’t try and prove there was only on polynomial for the given values, and instead took another route of treating himself to two, and then proving that they were in fact the same, single thing.&lt;/p&gt;
-
-&lt;h3 id=&quot;go-back-to-the-fundamentals&quot;&gt;Go Back to the Fundamentals&lt;/h3&gt;
-&lt;p&gt;The proving they were in fact the same thing but just with two different symbols attached used a very primitive method (and I mean that in the pureset sense, in that &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a - a = 0&lt;/script&gt;&lt;/span&gt; is something you know at age five or earlier).  I hadn’t grokked the fact that we can use this at a meta-level.&lt;/p&gt;
-
-&lt;p&gt;It makes you wonder what else we can go-meta with…&lt;/p&gt;
-
-&lt;h2 id=&quot;so-is-this-a-general-rule&quot;&gt;So is This a General Rule?&lt;/h2&gt;
-&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;It seems like we’re on the brink of discovering a general rule about polynomials, roots and interpolation.&lt;/span&gt;   Getting our specifics to something more wide-ranging is the point of Problem 166. It’s also going to be the last part of this post.&lt;/p&gt;
-
-&lt;h3 id=&quot;problem-166---uniquely-defining-n-degree-polynomials&quot;&gt;Problem 166 - Uniquely Defining n-degree Polynomials&lt;/h3&gt;
-&lt;p&gt;Gelfand gives us a massive tip here - we need to take the solution to Problem 164&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;The one we worked through slowly above. &lt;/span&gt; and generalise it.  Let’s move step by step and see if we can.&lt;/p&gt;
-
-&lt;p&gt;Note, I’ve ended up following &lt;a href=&quot;https://www.scribd.com/document/243387607/Gelfand-Algebra-Solutions&quot;&gt;Durham&lt;/a&gt; &lt;em&gt;incredibly closely&lt;/em&gt; here.  His explanation is as clear as I could make it so there seems like no point avoiding the fact.&lt;/p&gt;
-
-&lt;p&gt;First let’s have our two polynomials &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;P(x)&lt;/script&gt;&lt;/span&gt; and &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;Q(x)&lt;/script&gt;&lt;/span&gt;, but let’s say they are degree &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt;&lt;/span&gt;, not degree &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;2&lt;/script&gt;&lt;/span&gt; as we had previously.&lt;/p&gt;
-
-&lt;p&gt;Then let’s have a bunch of values of &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;x&lt;/script&gt;&lt;/span&gt; (&lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt;&lt;/span&gt; of them in fact)&lt;/p&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;x_{1}, x_{2}, x_{3} \hbox{...} x_{n-1}, x_{n}, x_{n+1}&lt;/script&gt;&lt;/div&gt;
-
-&lt;p&gt;And subsequently let’s state that in all cases, &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;P(x) = Q(x)&lt;/script&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;P(x_{1}) = Q(x_{1})&lt;/script&gt;&lt;/div&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;P(x_{2}) = Q(x_{2})&lt;/script&gt;&lt;/div&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;P(x_{3}) = Q(x_{3})&lt;/script&gt;&lt;/div&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;...&lt;/script&gt;&lt;/div&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;P(x_{n-1}) = Q(x_{n-1})&lt;/script&gt;&lt;/div&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;P(x_{n}) = Q(x_{n})&lt;/script&gt;&lt;/div&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;P(x_{n+1}) = Q(x_{n+1})&lt;/script&gt;&lt;/div&gt;
-
-&lt;p&gt;Then again let &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;R(x) = P(x) - Q(x)&lt;/script&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;Which means&lt;/p&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;R(x_{1}) = R(x_{2}) = R(x_{3}) = \hbox{...} = R(x_{n-1}) = R(x_{n}) = R(x_{n+1}) = 0&lt;/script&gt;&lt;/div&gt;
-
-&lt;p&gt;So that means &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;x_{1}, x_{2}, x_{3} \hbox{...} x_{n-1}, x_{n}, x_{n+1}&lt;/script&gt;&lt;/span&gt; are roots of &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;R&lt;/script&gt;&lt;/span&gt;.&lt;/p&gt;
-
-&lt;p&gt;But &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;R&lt;/script&gt;&lt;/span&gt; can have at most &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt;&lt;/span&gt; roots, or it is identically equal to zero for all &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;x&lt;/script&gt;&lt;/span&gt; therefore&lt;/p&gt;
-
-&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;0 = R(x) = P(x) - Q(x)&lt;/script&gt;&lt;/div&gt;
-
-&lt;p&gt;Or stated another way, &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;P(x) = Q(x)&lt;/script&gt;&lt;/span&gt; for all &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;x&lt;/script&gt;&lt;/span&gt;.&lt;/p&gt;
-
-&lt;p&gt;In other words, as Durham crisply concludes,&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;whenever two &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt;&lt;/span&gt; degree polynomials are equal on &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;n+1&lt;/script&gt;&lt;/span&gt;  or more points, they are the same polynomial.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;break-time&quot;&gt;Break-Time&lt;/h2&gt;
-&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;There is a lot more gold buried in the various Problems and Solutions&lt;/span&gt;  &lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Or lack thereof &lt;/span&gt; that comprise the remainder of this section.  I’m going to tackle them in a separate post however.&lt;/p&gt;
-
-&lt;p&gt;This one has run on long enough.&lt;/p&gt;
-</description>
-                <link>http://andrewharmellaw.github.io/2017/03/09/gelfands-algebra-chunk-17-polynomial-and-linear-interpolation</link>
-                <guid>http://andrewharmellaw.github.io/2017/03/09/gelfands-algebra-chunk-17-polynomial-and-linear-interpolation</guid>
-                <pubDate>Thu, 09 Mar 2017 00:00:00 +0000</pubDate>
         </item>
 
 
