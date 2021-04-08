@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "The Experience of Development<BR/><BR/>Chapter 1: The Fine Balance"
+title: "Chapter 1: The Fine Balance"
 description: "Some description here."
-category:
+category: xp-of-dev
 tags: [experience-of-development, mental-models, personal-experience]
 comments: true
 ---

@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "The Experience of Development<BR/><BR/>Preface"
+title: "Preface"
 description: "Some description here."
-category:
+category: xp-of-dev
 tags: [experience-of-development, friston, mental-models]
 comments: true
 ---

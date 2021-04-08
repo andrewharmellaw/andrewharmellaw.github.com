@@ -2,7 +2,7 @@
 layout: post
 title: "Your Organisation Viewed as a Collection of Services"
 description: "Some description here."
-category:
+category: organisation
 tags: [orgs, organisations, org-design, services, service-design]
 comments: true
 ---

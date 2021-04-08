@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "The Experience of Development<BR/><BR/>Introduction Part 2: Models, All the Way Down"
+title: "Introduction Part 2: Models, All the Way Down"
 description: "Some description here."
-category:
+category: xp-of-dev
 tags: [experience-of-development, mental-models, sky-castles]
 comments: true
 ---

@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "The Experience of Development<BR/><BR/>Introduction Part 1: A Conjecture"
+title: "Introduction Part 1: A Conjecture"
 description: "Some description here."
-category:
+category: xp-of-dev
 tags: [experience-of-development, conjecture, brooks, friston, mental-models, sky-castles]
 comments: true
 ---

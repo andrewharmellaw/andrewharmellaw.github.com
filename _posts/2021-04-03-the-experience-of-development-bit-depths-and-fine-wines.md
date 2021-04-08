@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "The Experience of Development<BR/><BR/>Chapter 2: On Bit Depths and Fine Wines"
+title: "Chapter 2: On Bit Depths and Fine Wines"
 description: "Some description here."
-category:
+category: xp-of-dev
 tags: [experience-of-development, mental-models, personal-experience]
 comments: true
 ---
