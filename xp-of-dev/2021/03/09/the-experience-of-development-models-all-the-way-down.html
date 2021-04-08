@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Introduction Part 2: Models, All the Way Down</title>
+  <meta name="description" content="Image: Fractral Octahedron, CC BY 2.0, via fdecomite on Flickr.comIn part one  of this introduction I put forward the idea that the predictions arising from ...">
+
+  <!-- Google Fonts loaded here depending on setting in _data/options.yml true loads font, blank does not-->
+  
+    <link href='//fonts.googleapis.com/css?family=Lato:400,400italic' rel='stylesheet' type='text/css'>
+  
+  
+  <!-- Load up MathJax script if needed ... specify in /_data/options.yml file-->
+  
+    <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+
+  <link rel="stylesheet" type="text/css" href="/css/tufte.css">
+  <!-- <link rel="stylesheet" type="text/css" href="/css/print.css" media="print"> -->
+
+  <link rel="canonical" href="/xp-of-dev/2021/03/09/the-experience-of-development-models-all-the-way-down">
+
+  <link rel="alternate" type="application/rss+xml" title="Maths from the Ground Up" href="/feed.xml" />
+</head>
+
+  <body>
+    <!--- Header and nav template site-wide -->
+<header>
+    <nav class="group">
+	<a href="/"><img class="badge" src="/assets/img/badge_1.png" alt="CH"></a>
+	
+		
+		    
+		      <a href="/archive">Archive</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/index-algebra">Algebra</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/index-orgs">Orgs</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/index-xp-of-dev">XP  of Dev</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/">Welcome</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/css/print.css"></a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/rss.xml">RSS</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/tags">Tags</a>
+		    
+	    
+  	
+		
+  	
+	</nav>
+</header>
+
+    <article class="group">
+      <h1>Introduction Part 2: Models, All the Way Down</h1>
+<p class="subtitle">March 9, 2021</p>
+
+
+<figure><figcaption>Image: Fractral Octahedron, CC BY 2.0, via fdecomite on <a href="https://www.flickr.com/photos/fdecomite/5371928685/">Flickr.com</a></figcaption><img src="/assets/img/fractral.jpg" /></figure>
+
+<p><span class="newthought">In part one </span> <a href="/xp-of-dev/2021/03/08/the-experience-of-development-a-conjecture">of this introduction</a> I put forward the idea that the predictions arising from mental models play an integral role in software development. Unlike that post which was intentionally formal, this one derives far more from introspection and observation. I want to use this relative freedom to share some musings.</p>
+
+<p>Specifically I want to think about what these models might be made from, and given that, consider the dynamics which we experience when manipulating these thought-units.</p>
+
+<p>More prosaically, I also want to introduce terminology (which I’ll flag as side-notes) which I hope will make subsequent posts on the <em>experiences arising</em> from all these comprehensible.</p>
+
+<p>In order to speculate like this, I need to go bring in one more collection of concepts which, despite not appearing so at the time, have continued to resonate with me, and feel relevant for us here.</p>
+
+<p><span class="newthought">Back in 2016</span>  I was trying to learn algebra.  It was long overdue.  It was also hard.  Really hard.  And <a href="/xp-of-dev/2021/03/07/the-experience-of-development-preface">once again</a>, someone from the Java Posse Roundup came to my aid.</p>
+
+<p>During a conversation about my travails (it probably took place in a queue for coffee) <a href="">Todd</a> mentioned a book by Barbara Oakley which he’d found useful: <a href="https://www.goodreads.com/book/show/18693655-a-mind-for-numbers">“A Mind for Numbers: How to Excel at Math and Science”</a>.</p>
+
+<p>I approached it with caution. I rarely have the cheek to say out loud how much I distain these “pop-Psychology” books<label for="sn-id-whatever" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-whatever" class="margin-toggle" /><span class="sidenote">I have a real Psychology degree forchirstssakes!#$%^*!! </span>, but I also frequently give them a try, and that’s what I did here, admitting to myself that anything which could give me even a toe-hold on the seemingly impossible cliff-face of mathematics would be of benefit.</p>
+
+<p>It worked.</p>
+
+<p>Before writing this post, I went back to the book and realised how much it contains. However I only want to bring out two elements here: the limited size of working memory, and a technique to tackle this called “chunking”.</p>
+
+<p><span class="newthought">Working memory first.</span>  It’s an enduring concept in cognitive psychology, having survived  at least from the days of my degree<label for="sn-id-whatever" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-whatever" class="margin-toggle" /><span class="sidenote">1993-97 </span> up to the present.  It’s a concept of mental functioning usefully conceived of as a workbench.  This workbench is where you do your conscious, front-of-mind thinking and decision-making. This “thinking” can function simply to keep information available, such as when you are trying to remember a phone number someone just told you, but it can also be more active and combinatorial, such as when you are trying to solve a maths problem.</p>
+
+<p>It doesn’t seem like too big a leap to suggest that working memory is also the locus of active (thinking) work in software development.  Whether that’s trying to piece elements together to create our solution, thinking to solve a problem, figuring out which language construct to use, or even remedying the surprise asrising from the aforementioned mis-match between expectation and sensed reality.</p>
+
+<p><span class="newthought">Now a key</span>  and inescapable fact about working memory is that it has a limited capacity.  Oakley characterises it as being capable of containing a finite number of “chunks” as she terms them. She makes it clear that to have a “mind for numbers”<label for="sn-id-whatever" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-whatever" class="margin-toggle" /><span class="sidenote">And, by implication, a mind tuned for performing any complicated mental-manipulation task </span> you need to be able to work effectively within this restricted space and clever chunk-fu is one way to do it.  This “chunking” approach entails consciously, coherently and solidly forming shorthand chunk thought-units which can, while only taking up one of those precious chunk-slots, actually represent concepts of significant depth and detail.</p>
+
+<p>Clearly when engaged in complex and conceptual brain work, “chunks” are incredibly valuable.  But what are they exactly? Oakley offers us more detail:</p>
+
+<blockquote>
+  <p>“Chunks are pieces of information that are bound together through meaning. You can take the letters ‘p’, ‘o’ and ‘p’ and bind them together into one conceptual, easy-to-remember chunk, the word ‘pop’. Underneath that simple ‘pop’ chunk is a symphony of neurons that have learned to trill in tune with one another. The complex neural activity that ties together our simplifying abstract chunks of thought - wether those pertain to acronyms, ideas, or concepts - are the basis of much of science, literature, and art.”<br />(A Mind for Numbers, Oakley, pp.53)</p>
+</blockquote>
+
+<p>She goes on:</p>
+
+<blockquote>
+  <p>“Chunking the information you deal with helps your brain run more efficiently. Once you chunk an idea or a concept, you don’t need to remember all the little, underlying details; you’ve got the main idea—the chunk—and that’s enough.”<br />(A Mind for Numbers, Oakey, pp.53-54)</p>
+</blockquote>
+
+<p>I won’t labour the point any further. I hope all this feels super-familiar.  Firstly as a description of daily development experience (which may or may not have a basis in neuropsychogical fact) but also secondly as a concept with exciting echoes and resonances for what I shared in the <a href="/xp-of-dev/2021/03/08/the-experience-of-development-a-conjecture">previous post</a>, with regards to Friston’s ideas of mental models and their arising hypotheses.</p>
+
+<p><span class="newthought">Given all this,</span>  and given the fact that it frequently feels during development as if we are trying to wrestle a number of thought-elements within a finite mental space, how might we use the concepts I’ve lifted from Oakley to gain some insight?</p>
+
+<p>The key question arises: “what might be the nature of the thought-units from which we build our mental-model castles?” I propose that these too are mental models; but more specific, more fundamental ones.  My supposition is that, in order to fashion higher-order cloud castles, we manipulate smaller blocks of mental model, blocks which represent concepts we already have. <em>It is, I propose, mental models all the way down.</em> And it is these mental model blocks which are the things taking up the chunk-slots in working memory. Let me unpack this a little.</p>
+
+<p>In <a href="/xp-of-dev/2021/03/08/the-experience-of-development-a-conjecture">part one</a> of this introduction I conjectured that when I am developing software I am forming a model in my mind which I am continually conveying to the outside world in the form of code.</p>
+
+<p>In performing this act of creativity I deploy the raw elements of what I know (or more precisely, <em>what I expect</em>) of my chosen programming language.  I am using these pre-existing blocks of mental model, which comprise my idea of how the programming language and it’s constructs work — let’s call them the “substrate”<label for="sn-id-whatever" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-whatever" class="margin-toggle" /><span class="sidenote">This is your first terminology alert </span> models — and from them construct my castle — let’s call that the “creation-solution”<label for="sn-id-whatever" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-whatever" class="margin-toggle" /><span class="sidenote">This is your second terminology alert </span> model.</p>
+
+<p><span class="newthought">From this it</span>  quickly becomes clear that these concepts of “substrate” and “creation-solution” model are relative.  From one perspective a mental model is the former (i.e.  a LinkedList collection is to me a substrate model when I’m flat-mapping my way to a sum), but from another perspective it is the latter<label for="sn-id-whatever" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-whatever" class="margin-toggle" /><span class="sidenote">We all know the core libraries we use for example are simply pre-formed building blocks created for us by others </span> (i.e. a creation-solution model when I’m implementing a quantum-safe collections library). This does not only between developers. It also happens within the same individual, depending on the viewpoint we hold at any given point in time during development.  For example, one moment I’m creating a component or a microservice, the next moment I’m calling it.</p>
+
+<p>Given that the difference here is only one of perspective, <em>and</em> given <a href="/xp-of-dev/2021/03/08/the-experience-of-development-a-conjecture">my conjecture</a>, both models can be expected to work inside our heads in exactly the same way: embodying a set of expectations of how the real-world (i.e. code) things they represent are structured and  will function.</p>
+
+<p>This fits brilliantly into Oakley’s chunks, because chunks are pieces of information formed from smaller-level pieces of information, bound together by meaning.  Or put another way, mental models, comprising of smaller-level mental models.  We, in short, construct mental models out of other mental models.</p>
+
+<p><em>It’s models all the way down.</em></p>
+
+<p><span class="newthought">Before I close</span>  I must acknowledge the inevitable question: how do we work with (or against) these elements (and perhaps adopt other techniques from Oakley, knowingly or unknowningly) in our acts of development?  Having thought about this <a href="/xp-of-dev/2021/03/07/the-experience-of-development-preface">for some time now</a>, and having spoken to, and watched others working with code, I am convinced that this area is one where a great deal of individual difference lies.  Consequently I believe this will be a fruitful one to investigate, compare / contrast, and discuss, in the main body of this effort.  My first steps into this form the topic of my next post: “<a href="/xp-of-dev/2021/03/15/the-experience-of-development-the-fine-balance">The Experience of Development - Chapter 1: The Fine Balance</a>”</p>
+
+<p>P.S. I’d love to know what you think about all this. If you have any thoughts or any other kind of feedback please reach out to me on <a href="https://twitter.com/al94781">Twitter</a>.  Thanks!</p>
+
+
+    </article>
+    <span class="print-footer">Introduction Part 2: Models, All the Way Down - March 9, 2021 - {"name"=>"Andrew Harmel-Law", "github"=>"andrewharmellaw", "twitter"=>"al94781"}</span>
+
+    <footer>
+  <hr class="slender">
+  <ul class="footer-links">
+    
+      <li>
+        <a href="//www.twitter.com/al94781"><span class="icon-twitter"></span></a>
+      </li>
+    
+      <li>
+        <a href="//github.com/andrewharmellaw"><span class="icon-github"></span></a>
+      </li>
+      
+  </ul>
+<div class="credits">
+<span>&copy; 2021 &nbsp;&nbsp;ANDREW HARMEL-LAW</span></br> <br>
+<span>This site was created using the <a href="//github.com/clayh53/tufte-jekyll">Tufte theme</a> for <a href="//jekyllrb.com">Jekyll</a>.</span> 
+</div>  
+</footer>
+
+    
+      <div id="disqus_thread"></div>
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://andrewharmellaw.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VZGMHYKY23"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VZGMHYKY23');
+</script>
+
+  </body>
+</html>
