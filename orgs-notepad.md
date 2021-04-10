@@ -4,9 +4,9 @@ title: Orgs Notepad
 ---
 {% include JB/setup %}
 
-{% newthought "I keep coming up " %} with notes and ideas for posts on organisations faster than I can write them. 
+{% newthought "I keep coming up " %} with notes and ideas for posts on organisations faster than I can write the posts themselves. 
 
-This page is where I'm keeping everything.  Th4e vast majority take and expand upon my idea of "[the organisation viewed as a set of services]( {% post_url 2021-03-27-the-organisation-as-collection-of-services %} )". It's a short post, so it might be worth taking a look if you;ve not already.
+This page is where I'm keeping everything.  The vast majority take and expand upon my idea of "[the organisation viewed as a set of services]( {% post_url 2021-03-27-the-organisation-as-collection-of-services %} )". It's a short post, so it might be worth taking a look at if you've not already.
 
 ## Ideas for Posts
 * Who loses? Who don't these services-as-implemented work for? Who do they harm? Whom do they silence?
