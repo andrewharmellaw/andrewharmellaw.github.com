@@ -4,7 +4,17 @@ title: Orgs
 ---
 {% include JB/setup %}
 
-{% newthought "Hello and welcome " %} to my posts on organisations.  
+{% newthought "Thanks for browsing " %} my posts on organisations. 
+
+I've been interested in orgs for some time. 
+
+My interest was initially piqued by Bruce Eckel's [Reinventing Business](http://www.reinventing-business.com/), then subsequently via experiences running large consulting teams, and experimenting with trust organisation models. 
+
+These days organisationsand how they (dis)function comes up more and more frequently. 
+
+As I learn, try and make sense of everything, and (hopefully) contribute to making things better, I'll post here.
+
+## Posts
 
 <ul>
   {% assign sorted = site.posts | sort: 'date' %}
