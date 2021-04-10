@@ -8,9 +8,11 @@ title: XP  of Dev
 
 The idea is that these _might_ one day turn into a pamphlet or a book. Hence the structure evident in the titles below.
 
-Why am I doing this? I think we developers don't think enough about what it feel like to write code.  I believe that if we were exposed to this kind of information, it would change how we approach the act of development, how we learn, how we produce and consume code, how we think about our tool chains, and how we collaborate with others.
+Why am I doing this? _We developers don't think enough about what it feels like to write code._  I believe if we were exposed to this topic more it would change how we approach the act of development, it would change how we learn, it would change how we produce and consume code, it would change how we think about our tool chains, and it would change how we collaborate with others.
 
-A quick note on reading. You can skip the Preface if you don't care how this came about. It will help to read both parts of the introduction to understand how everything which follows is framed.  After that, all the chapters ought to be largely standalone, or cross-linked as appropriate.
+_It would, in short, change how we went about development._
+
+A quick note on reading-order. You can skip the Preface if you don't care how this came about. It will however help to read both parts of the Introduction to understand how everything which follows is framed.  After that, all the chapters ought to be largely standalone, or cross-linked as appropriate.
 
 Please leave any feedback you might have, either in the Disqus comments below each page, or hit me up on [Twitter](https://twitter.com/al94781).  
 
