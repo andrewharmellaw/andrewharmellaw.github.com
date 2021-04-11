@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Orgs Notepad
+nav_exclude: true
 ---
 {% include JB/setup %}
 

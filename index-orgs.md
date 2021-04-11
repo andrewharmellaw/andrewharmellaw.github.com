@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Orgs
+order: 3
 ---
 {% include JB/setup %}
 
@@ -12,7 +13,7 @@ My interest was initially piqued by Bruce Eckel's [Reinventing Business](http://
 
 These days organisations and how they (dis)function comes up more and more frequently. 
 
-As I learn, try and make sense of everything, and (hopefully) contribute to making things better, I'll post here.  I'm also keeping [my ideas/reading list/notes/puzzles on a separate page](orgs-notepad.html).
+As I learn, try and make sense of everything, and (hopefully) contribute to making things better, I'll post here.  I'm also keeping [my ideas/reading list/notes/puzzles on a separate page](organisation/orgs-notepad.html).
 
 ## Posts
 

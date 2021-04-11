@@ -1,6 +1,7 @@
 ---
 layout: page
 title: XP  of Dev
+order: 2
 ---
 {% include JB/setup %}
 

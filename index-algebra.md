@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Algebra
+order: 4
 ---
 {% include JB/setup %}
 
