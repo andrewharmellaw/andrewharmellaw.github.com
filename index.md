@@ -5,11 +5,19 @@ order: 1
 ---
 {% include JB/setup %}
 
-{% newthought "Hello and welcome to" %} my blog-aggregator. If you're looking for my algebra blog which used to live here, [it's not gone far](index-algebra.html).
+{% newthought "Hello and welcome to" %} my blog-aggregator. 
 
 Over the years I've been a little profligate with my internet prescence. Here's a handy overview, with some deep links into the semi-interesting bits.
 
-There are three sections: Training, Speaking / Panels, Open Source, and Blogging.  You can also find me on [Twitter](https://twitter.com/al94781) and [LinkedIn](https://www.linkedin.com/in/andrewharmellaw).
+If I was to sum up everything that I have collected here it would "a series of attempts at [unflattening](https://www.goodreads.com/book/show/23503006-unflattening)". That is to say I'm trying to reconsider how I, and others, construct knowledge, and challenge when I think things could be different.
+
+Beginning with my first conference talk at [Devoxx UK in 2014](https://www.youtube.com/watch?v=znQtAIpXlP4), right up to my current blog series' on the [experience of development](index-xp-of-dev.html) and [organisations](index.orgs.html) I've been trying to understand why things are they way they are; to bring different perspectives; and ask challenging questions.  
+
+Sometimes this involves pointing out what I think we've forgotten. Other times it's to suggest parallels and contrasts with other disciplines.  Other times still I'm just trying to figure stuff out and wanted to share my progress.
+
+There are three sections to all this, based on the medium of my musings: Training, Speaking / Panels, Open Source, and Blogging.  You can also find me on [Twitter](https://twitter.com/al94781) and [LinkedIn](https://www.linkedin.com/in/andrewharmellaw).
+
+If you're looking for my algebra blog which used to live here, [it's not gone far](index-algebra.html).
 
 # Training
 I was fortunate to be asked to write a course for the O'Reilly online training Platform. The result, a three-hour, hands-on extravaganza is titled [Domain-Driven Design: First Steps](https://learning.oreilly.com/live-training/courses/domain-driven-design-first-steps/0636920051628/) and runs every 2 months or so.
@@ -17,7 +25,7 @@ I was fortunate to be asked to write a course for the O'Reilly online training P
 # Speaking / Panels
 I've been lucky enough to talk at a bunch of UK and international conferences. My main contributions have been as follows:
 
-[Domain-Driven Design: The Bare Essentials + Microservices (aka "The Heart of Domain-Driven Design")](https://andrewharmellaw.github.io/) (JavaZone Norway, JFokus Sweden, and O'Reilly DDD Super-Stream. 2020-1)
+[Domain-Driven Design: The Bare Essentials + Microservices (aka "The Heart of Domain-Driven Design")](https://www.youtube.com/watch?v=uBSrr7984GM) (JavaZone Norway, JFokus Sweden, and O'Reilly DDD Super-Stream. 2020-1)
 
 [Fostering autonomous teams with proper leadership culture (Panel)](https://www.youtube.com/watch?v=kdpGPDGcbxA) (Virtual DDD 2021)
 
