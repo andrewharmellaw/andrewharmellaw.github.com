@@ -15,8 +15,6 @@ _It would, in short, change how we went about development._
 
 A quick note on reading-order. You can skip the Preface if you don't care how this came about. It will however help to read both parts of the Introduction to understand how everything which follows is framed.  After that, all the chapters ought to be largely standalone, or cross-linked as appropriate.
 
-Please leave any feedback you might have, either in the Disqus comments below each page, or hit me up on [Twitter](https://twitter.com/al94781).  
-
 ## Posts
 
 <ul>
@@ -29,3 +27,9 @@ Please leave any feedback you might have, either in the Disqus comments below ea
     {% endif %}
   {% endfor %}
 </ul>
+
+## Before I go...
+Please leave any feedback you might have, either in the Disqus comments below each page, or hit me up on [Twitter](https://twitter.com/al94781). 
+
+I'm also keeping [my ideas/reading list/notes/puzzles on a separate page](xp-of-dev/oxp-of-dev-notepad.html) if you want to see what might be in the pipes... 
+
