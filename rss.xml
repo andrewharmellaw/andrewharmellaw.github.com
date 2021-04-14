@@ -5,10 +5,64 @@
         <description>Maths from the Ground Up - Andrew Harmel-Law</description>
         <link>http://andrewharmellaw.github.io</link>
         <atom:link href="http://andrewharmellaw.github.io" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Sun, 11 Apr 2021 16:41:19 +0100</lastBuildDate>
-        <pubDate>Sun, 11 Apr 2021 16:41:19 +0100</pubDate>
+        <lastBuildDate>Wed, 14 Apr 2021 22:26:21 +0100</lastBuildDate>
+        <pubDate>Wed, 14 Apr 2021 22:26:21 +0100</pubDate>
         <ttl>60</ttl>
 
+
+        <item>
+                <title>Chapter 3: A Reassuring Co-Incidence</title>
+                <description>
+&lt;figure&gt;&lt;figcaption&gt;Image: Wave Particles Physics by Gerd Altmann, Pixbay licence (free to use) on &lt;a href=&quot;https://pixabay.com/illustrations/wave-particles-physics-abstract-3488466//&quot;&gt;PixBay.com&lt;/a&gt;&lt;/figcaption&gt;&lt;img src=&quot;/assets/img/wave-3488466_1920.jpg&quot; /&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;em&gt;NOTE: This post is part of my extended series on the “Experience of Development”. If you’ve not read the two-part introduction yet, it’s perhaps a good idea to hop over and check out &lt;a href=&quot;/xp-of-dev/2021/03/08/the-experience-of-development-a-conjecture&quot;&gt;part 1&lt;/a&gt; and &lt;a href=&quot;/xp-of-dev/2021/03/09/the-experience-of-development-models-all-the-way-down&quot;&gt;part 2&lt;/a&gt; before continuing.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;I wasn’t sure&lt;/span&gt;  if my ideas regarding the experience of development would make sense to anyone else.  But then I saw a post on twitter from &lt;a href=&quot;https://twitter.com/sergeybykov/status/1367696464969797633?s=12&quot;&gt;Sergey Bykov&lt;/a&gt; and I realised there were at least two of us thinking along similar lines.  His tweet was something he said in &lt;a href=&quot;https://www.microsoft.com/en-us/research/blog/orleans-simplifies-development-scalable-apps-cloud/&quot;&gt;a 2015 Microsoft article&lt;/a&gt; (the &lt;em&gt;italics&lt;/em&gt; are mine):&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“People tend to equate computer science with mathematics, but I think of programming as more similar to physics,” he explains. “[…] I learned that when you have a problem in physics, first you must understand what pieces are involved, how they connect and how they influence each  other. You build a &lt;em&gt;mental model&lt;/em&gt; and only then would you try and solve the problem &lt;em&gt;and eventually apply math&lt;/em&gt;.&lt;/p&gt;
+
+  &lt;p&gt;“&lt;em&gt;When you program systems, it’s the same. You identify the pieces involved, how they interact, build a model, and then you apply mathematics and programming. In reality you spend a very small percentage of time writing code and more time figuring out why things don’t work as intended.&lt;/em&gt;”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;W.o.w.&lt;/p&gt;
+
+&lt;p&gt;It was all there, in microcosm, but still all there.  The problem-solution mental model which is constructed using substrate models. Even the conveying of those models to the outside world in the form of code, and the subsequent wrestling with the difference between what you thought would be the result, and what the result turned out to be.&lt;/p&gt;
+
+&lt;p&gt;In the article he was quoted in Sergey went on to use this realisation as a jumping off point to argue for simpler cloud programming models.  My goal is to take this in a different direction. I want to interrogate further these elements which Sergey and I have both identified and see what more we can learn from them about the act of development and our experience of it.  Perhaps this will also lead to improved programming models and languages, libraries and frameworks, but I really want to give we developers a better understanding of what happens to us when we code.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;It was thinking&lt;/span&gt;  about this specifically human, and consequently personal, aspect which made me pay closer attention to what Sergey described.  While all the elements of my conjecture, as well as the supporting concepts, were there, was it all completely relatable?&lt;/p&gt;
+
+&lt;p&gt;Well no. And the differences between us are, I think, worth examining. I know this because of the interviews which I did with various friends from the Winter Tech Forum and their personal insights which they shared with me. I learned then that what you might think we would all do in the same way, is in fact a source of great variety.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;The first thing&lt;/span&gt;  which jumps out from Sergey’s quote is the suggestion (although I could be interpreting it a little literally) of a good deal of up-front mental-model manipulation - what he describes as the selection, connection, and interaction - all prior to his writing any code.  I don’t doubt that this is how he does it.  People I have interviewed have articulated similar approaches.  If I were to describe this way of approaching things I might use verbs such as “construct”, “invent”, “shape” and “create”.  It is as if Sergey and his ilk have an intimate knowledge and grasp of their substrate mental models, and from those, carefully combine these consciously and methodically to get to the result they need.&lt;/p&gt;
+
+&lt;p&gt;I however go about things in a different way.  When I code I always feel as if I am working somewhat in the dark. Verbs I might use for a significant part of my process are “discover”, “find”, “explore”, and “recognise”. My approach to things has more in common with starting with a large lump of clay and then slowly but surely paring pieces away, sub-dividing, cleaving, differentiating, until the detail I need reveals itself.&lt;/p&gt;
+
+&lt;p&gt;Now it should be made clear that neither of these is better than the other.  Nor am I suggesting that these are the only two types of experience of this aspect, nor that they even comprise the vast majority of the experience of developing code.  But I do believe it is very interesting to think about why these differences might arise.  Does it spring from how we are most comfortable thinking creatively to make things or solve problems?  Does it highlight a more structured versus free-form ways of approaching matters? Might we argue one is more scientific and compositional while the other more sketchy and reducing?  Could it indicate a predeliction for verbal or visual thinking?  Or linear compared to non-linear thinking?  It’s interesting to consider all these possibilities, but not yet, there are other posts for that, and we have another personal difference between myself and Sergey to consider.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;This second difference&lt;/span&gt;  is in the getting of the mental models into the outside world.  Sergey seems to indicate he first thinks in terms that seem completely mental, and then, in a distinctly separate step expresses this by “applying mathematics and programming”. It sounds here as if (and again I could be way off base) the constructed problem-solution model is, for Sergey, truly an abstract one. That is to say, he’s not thinking in the constructs of the language or framework which he is going to use to encode his models outside of his mind.  The conveying seems to be both a distinct step, and an act of translation into a specific syntax.&lt;/p&gt;
+
+&lt;p&gt;I however, am not so pure, nor so distinct.  I still think largely in the constructs of the language which best represents the programming model I am targetting. For example, if I’m writing object-oriented, memory-managed code, there will be a lot of Java constructs and Java libraries swilling around in my mind.&lt;/p&gt;
+
+&lt;p&gt;So what do I mean by “not so distinct?”  I mean, frequently I will use the act of drafting the code, of working with the syntax itself, on the screen in front of me, to help push along my mental-model manipulations.  Sometimes this will be simply to get the fast feedback of the red squiggly lines telling me my conception won’t compile; but other times there is something about seeing the constructs out there on the screen in front of me, with their names and their syntax-highlighted, which gives me a clarity I need to lock something down and move to the next element.&lt;/p&gt;
+
+&lt;p&gt;In the first difference I shared what I knew from interviews: many folks think far more like Sergey in that regard and far less like me. Is it the same with this second difference?  Of course. And just as before, I am in no way arguing for one way being superior to another, nor for these two approaches being the only ways it is done.&lt;/p&gt;
+
+&lt;p&gt;So again, what might these external manifestations of difference lead us to uncover?  I believe that my reliance on the syntax more directly, and consequently on much, much tighter loops out of my head and into the IDE, are due to a far fuzzier way of thinking.&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;It could also be because I’m just not as good a developer as many others I’ve worked with and spoken to. &lt;/span&gt; One thing I do know is that as I code, my mind frequently transitions rapidly from small-scale to large-scale then back again, and this means if I don’t flush my buffers to the outside world regularly I am in danger of losing things - of losing pieces of mental model.&lt;/p&gt;
+
+&lt;p&gt;You can see this very clearly when I code.  I’m always impressed when people write their functions starting at the top and working their way down to the bottom.  I meanwhile jump around, between classes, between functions, between lines in a function.  I drop TODOs everywhere when ideas come to me, and consequently the act of tidying my code is frequently an explicitly separate and significant step.&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Pairing with me can be quite a labor of love. &lt;/span&gt; Does it work for me?  Yes, it seems to. Does it work for everyone?  Definitely not.&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;I’ve had feedback on just this specific point. &lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;Having looked a little&lt;/span&gt;  at the two differences, what is &lt;em&gt;most&lt;/em&gt; striking however is the similarity between Sergey’s “figuring out why things don’t work as intended” and &lt;a href=&quot;/xp-of-dev/2021/03/08/the-experience-of-development-a-conjecture&quot;&gt;my conjecture&lt;/a&gt; that the &lt;em&gt;experience&lt;/em&gt; of this surprise is where much (though not all) of the emotion experienced in development comes from.  How so?  It doesn’t seem very significant when expressed how Sergey puts it does it.&lt;/p&gt;
+
+&lt;p&gt;Well, what is exciting to me, is that despite the &lt;em&gt;significant&lt;/em&gt; differences in thinking and coding styles which I believe exist between Sergey and I (and backed up by experiences I’ve had with others) Sergey still thinks this mismatch aspect worthy to be called out.  In fact, it’s so important that it justifies his proposal for a new approach to cloud-computing models.  If someone who relies on syntax and code and the external loop as little as Sergey thinks the mis-match is important, then thats good enough for me.&lt;/p&gt;
+
+&lt;p&gt;That’s it for this post. I’m going to keep sharing these musings, and hopefully also begin to bring in some specific case-studies of how development is experienced by specific individuals. In the meantime I’d love to know what you think. If you have any thoughts or any other kind of feedback please leave a comment below, or reach out to me on &lt;a href=&quot;https://twitter.com/al94781&quot;&gt;Twitter&lt;/a&gt;. Thanks!&lt;/p&gt;
+</description>
+                <link>http://andrewharmellaw.github.io/xp-of-dev/2021/04/13/the-experience-of-development-a-reassuring-co-incidence</link>
+                <guid>http://andrewharmellaw.github.io/xp-of-dev/2021/04/13/the-experience-of-development-a-reassuring-co-incidence</guid>
+                <pubDate>Tue, 13 Apr 2021 00:00:00 +0100</pubDate>
+        </item>
 
         <item>
                 <title>Implications of the Silicon Valley Autonomous-Engineer Model</title>
@@ -93,7 +147,7 @@
 
 &lt;p&gt;I’m not saying this is bad. (I’d &lt;em&gt;love&lt;/em&gt; to be that great at any language.) What I’m saying is, low bit-depth understandings of languages is almost always something which we will be motivated to improve on, for all but the languages (and frameworks / libraries) which we almost never touch. The higher levels of bit depth however, while they almost inevitably bring far greater knowledge and mastery of a language, can also frequently bring a reduced enjoyment of use, and perhaps even reduced effectiveness, when purity is not sacrificed sufficiently on the altar of pragmatism. (It can also lead in some cases to code which is nebulous and impenetrable to the average dev who isn’t at the same level of mastery. But that’s straying into the realms of the experience of developing with others which is a who other set of posts.)&lt;/p&gt;
 
-&lt;p&gt;That’s it for this post. I’m going to keep sharing these musings, and hopefully also begin to bring in some specific case-studies of how development is experienced by specific individuals. In the meantime I’d love to know what you think. If you have any thoughts or any other kind of feedback please leave a comment below, or reach out to me on &lt;a href=&quot;https://twitter.com/al94781&quot;&gt;Twitter&lt;/a&gt;.  Thanks!&lt;/p&gt;
+&lt;p&gt;That’s it for this post. I’m going to keep sharing these musings, and hopefully also begin to bring in some specific case-studies of how development is experienced by specific individuals. My next post begins this journey by &lt;a href=&quot;/xp-of-dev/2021/04/13/the-experience-of-development-a-reassuring-co-incidence&quot;&gt;attempting to do this from a personal perspective&lt;/a&gt; (and perhaps even finds a supporter). In the meantime I’d love to know what you think. If you have any thoughts or any other kind of feedback please leave a comment below, or reach out to me on &lt;a href=&quot;https://twitter.com/al94781&quot;&gt;Twitter&lt;/a&gt;.  Thanks!&lt;/p&gt;
 </description>
                 <link>http://andrewharmellaw.github.io/xp-of-dev/2021/04/03/the-experience-of-development-bit-depths-and-fine-wines</link>
                 <guid>http://andrewharmellaw.github.io/xp-of-dev/2021/04/03/the-experience-of-development-bit-depths-and-fine-wines</guid>
@@ -2202,44 +2256,6 @@ Thank you. 🙏 &lt;br /&gt;&lt;br /&gt;Image: Mt Crested Butte, Colorado, USA, 
                 <link>http://andrewharmellaw.github.io/2017/03/21/gelfands-algebra-chunk-20-arithmetic-progressions-progress</link>
                 <guid>http://andrewharmellaw.github.io/2017/03/21/gelfands-algebra-chunk-20-arithmetic-progressions-progress</guid>
                 <pubDate>Tue, 21 Mar 2017 00:00:00 +0000</pubDate>
-        </item>
-
-        <item>
-                <title>Gelfand: Chunk 19 - Arithmetic Progressions, Part 1</title>
-                <description>
-&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;I’m not sure if it was intended,&lt;/span&gt;  but after the previous mind-bending of polynomial regression; the next section&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Section 39. &lt;/span&gt; is a blessed relief.&lt;/p&gt;
-
-&lt;p&gt;Consequently, I’m going to restrict myself to simply summarising here the main points arising.&lt;/p&gt;
-
-&lt;p&gt;It’s for my benefit mostly.  If you’re working through Gelfand’s book, I suggest you do the problems yourself to help the chunk embed.&lt;/p&gt;
-
-&lt;h2 id=&quot;definition&quot;&gt;Definition&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;An &lt;em&gt;Arithmetic Progression&lt;/em&gt; is a sequence of numbers where each term is a sum of the preceeding one and a &lt;em&gt;fixed number&lt;/em&gt;. This fixed number is called the &lt;em&gt;common difference&lt;/em&gt;, or simply &lt;em&gt;difference&lt;/em&gt; of the &lt;em&gt;Arithmetic Progression&lt;/em&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;key-facts-about-arithmetic-progressions&quot;&gt;Key Facts about Arithmetic Progressions&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;em&gt;Arithmetic Progressions&lt;/em&gt; can go forwards&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;In which case the difference is positive. &lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;Arithmetic Progressions&lt;/em&gt; can also go backwards&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;In which case the difference is negative. &lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;You can find the next term in an &lt;em&gt;Arithmetic Progression&lt;/em&gt; given only the two preceeding numbers&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;See Problem 173 &lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;If you know enough of an &lt;em&gt;Arithmetic Progression&lt;/em&gt; to know the details (the start value and the difference) then you can calculate the nth term&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;See Problems 174, 175 and 176. &lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;There is a formula for &lt;em&gt;Arithmetic Progressions&lt;/em&gt;, where &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a&lt;/script&gt;&lt;/span&gt; is the starting point, &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;d&lt;/script&gt;&lt;/span&gt; handily signifies the difference, and &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt;&lt;/span&gt; the term you’re wanting to calculate. The most basic formula is &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a + (n - 1)d&lt;/script&gt;&lt;/span&gt;&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;See Problem 177. &lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;To make an &lt;em&gt;Arithmetic Progression&lt;/em&gt; go backwards, reverse the sign of the &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;d&lt;/script&gt;&lt;/span&gt;.  In this case the actual &lt;em&gt;size&lt;/em&gt; of &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;d&lt;/script&gt;&lt;/span&gt; is unchanged&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;See Problem 178. &lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;You can remove every second value in an &lt;em&gt;Arithmetic Progression&lt;/em&gt; and still have an &lt;em&gt;Arithmetic Progression&lt;/em&gt;. In this case its difference will be &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;2d&lt;/script&gt;&lt;/span&gt;&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;See Problem 179. &lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;You &lt;em&gt;cannot&lt;/em&gt; remove every third value in an &lt;em&gt;Arithmetic Progression&lt;/em&gt; without it stopping being an &lt;em&gt;Arithmetic Progression&lt;/em&gt;. This because the difference will no longer be fixed&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;See Problem 180. &lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;The difference need not be a whole number&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;See Problem 181. &lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;You can find the middle term between two known terms (&lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a&lt;/script&gt;&lt;/span&gt; and &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;b&lt;/script&gt;&lt;/span&gt;) using the formula &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;\frac{(a + b)}{2}&lt;/script&gt;&lt;/span&gt;&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;See Problem 182. Note: this is also the formula for calculating an average of a and b. &lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;You can calculate all terms in a progression as long as you know the starting term value, the end term value, and the end term position (e.g. “fourth”)&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;See Problem 183. &lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;You can calculate the number of terms in a given progression given a starting term, an end term, and a known term between the two (including the number of that term - e.g. “the third term”)&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;See Problem 184. &lt;/span&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;That’s all for this post.  I’m sure it will all come into play when we launch into Section 40, which is up next.&lt;/p&gt;
-</description>
-                <link>http://andrewharmellaw.github.io/2017/03/20/gelfands-algebra-chunk-19-arithmetic-progressions</link>
-                <guid>http://andrewharmellaw.github.io/2017/03/20/gelfands-algebra-chunk-19-arithmetic-progressions</guid>
-                <pubDate>Mon, 20 Mar 2017 00:00:00 +0000</pubDate>
         </item>
 
 
