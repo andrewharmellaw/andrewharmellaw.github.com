@@ -5,19 +5,23 @@
         <description>Maths from the Ground Up - Andrew Harmel-Law</description>
         <link>http://andrewharmellaw.github.io</link>
         <atom:link href="http://andrewharmellaw.github.io" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Thu, 22 Apr 2021 20:58:17 +0100</lastBuildDate>
-        <pubDate>Thu, 22 Apr 2021 20:58:17 +0100</pubDate>
+        <lastBuildDate>Thu, 22 Apr 2021 21:15:09 +0100</lastBuildDate>
+        <pubDate>Thu, 22 Apr 2021 21:15:09 +0100</pubDate>
         <ttl>60</ttl>
 
 
         <item>
-                <title>Chapter 3: A Reassuring Co-Incidence</title>
+                <title>Chapter 4: Feelings 101</title>
                 <description>
 &lt;figure&gt;&lt;figcaption&gt;Image: Wave Particles Physics by Gerd Altmann, Pixbay licence (free to use) on &lt;a href=&quot;https://pixabay.com/illustrations/wave-particles-physics-abstract-3488466//&quot;&gt;PixBay.com&lt;/a&gt;&lt;/figcaption&gt;&lt;img src=&quot;/assets/img/wave-3488466_1920.jpg&quot; /&gt;&lt;/figure&gt;
 
 &lt;p&gt;&lt;em&gt;NOTE: This post is part of my extended series on the “Experience of Development”. If you’ve not read the two-part introduction yet, it’s perhaps a good idea to hop over and check out &lt;a href=&quot;/xp-of-dev/2021/03/08/the-experience-of-development-a-conjecture&quot;&gt;part 1&lt;/a&gt; and &lt;a href=&quot;/xp-of-dev/2021/03/09/the-experience-of-development-models-all-the-way-down&quot;&gt;part 2&lt;/a&gt; before continuing.&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;Blah blah&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;There are many&lt;/span&gt;  feelings, a myriad you might say.  And it has struck me &lt;a href=&quot;/xp-of-dev/2021/03/07/the-experience-of-development-preface&quot;&gt;again and again&lt;/a&gt; how, despite the incredibly intellectual nature of developing code, it can surface such extremes of emotion in all of us.&lt;/p&gt;
+
+&lt;p&gt;Despite this, I’ve spent a significant number of the posts in this series frankly skirting the issue of emotion.  I now intend to make my first foray into it, broadly at first, but in an attempt to both clarify the scope of the terrain before us, as well as to sketch out some of the key prompts which I believe give rise to these upswellings.&lt;/p&gt;
+
+&lt;p&gt;I have taken for my source of the gamut of emotions the extensive lists in Marshall Rosenberg’s Non-Violent Communication.  He catalogues both good, and bad feelings.  I have further subdivided them.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Does the emotion arise from the surprise and mis-match, or does it arise from the (re)manipulation of mental models to build things / resolve problems?&lt;/strong&gt;&lt;/p&gt;
 
