@@ -40,7 +40,7 @@ I've tried to use a service-design style way of representing this which names th
 
 <BR/>
 
-That's it for now. In my following posts I want to look at various organisations and organisational styles and see how these services might map onto them.
+That's it for now. In my following posts I want to look at various organisations and organisational styles and see how these services might map onto them.  The next one takes these services as a lens and [looks at a descripton of the "Silicon Valley Autonomous-Engineer Model" with all its pros and cons]({% post_url 2021-04-07-org-as-services-article-crit %}).
 
 
 <!--Joe Schrag: It might be interesting to think around which are directly important to the members and which are a byproduct of the org.  For example, for the individual,  the need for community is huge, especially with shared purpose.  To need others and to be needed.  To be a contributor to the tribe.  Seems like that could be 1 + 6 (skills + constitution).  On the other hand, I would argue 5 (coordination) is not directly as important to the individual, but needed in an org.
