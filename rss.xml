@@ -5,8 +5,8 @@
         <description>Maths from the Ground Up - Andrew Harmel-Law</description>
         <link>http://andrewharmellaw.github.io</link>
         <atom:link href="http://andrewharmellaw.github.io" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Thu, 22 Apr 2021 21:15:09 +0100</lastBuildDate>
-        <pubDate>Thu, 22 Apr 2021 21:15:09 +0100</pubDate>
+        <lastBuildDate>Sat, 29 May 2021 16:53:00 +0100</lastBuildDate>
+        <pubDate>Sat, 29 May 2021 16:53:00 +0100</pubDate>
         <ttl>60</ttl>
 
 
@@ -215,6 +215,8 @@
 
 &lt;p&gt;(This post is second in a series.  Part one, “&lt;a href=&quot;/organisation/2021/03/26/is-your-organisation-broken&quot;&gt;Is Your Organisation Broken?&lt;/a&gt;” sets the scene for this post’s proposal of a new way to look at organisations.)&lt;/p&gt;
 
+&lt;p&gt;&lt;strong&gt;UPDATE (Sat, 29th May, 2021)&lt;/strong&gt; - Added another service: “Membership” to the table.&lt;/p&gt;
+
 &lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;I’ve wondered for a long time &lt;/span&gt; if there’s value in looking at &lt;em&gt;all&lt;/em&gt; organisations through a lens which treats employees as consumers of services the organisation provides, and then asks “how does the way you organise provide these services?”&lt;/p&gt;
 
 &lt;p&gt;This might seem a bit meta, so here’s two examples. The multinational conglomerate Acme Corp follows a “traditional” model of organisations in that it is hierarchical, and bureaucratic.  This model offers services such as “work allocation” and “decision making” and in both cases (at least officially) these services are provided via a “performed by a named individual at the appropriate level of management who follows a documented process” approach.&lt;/p&gt;
@@ -240,10 +242,16 @@
   &lt;/thead&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Skill / resource allocation&lt;/strong&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Right people with the right tasks and required resources to perform them&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Tasks and resources allocated.&lt;br /&gt;Tasks performed&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Quality outputs.&lt;br /&gt;Personal sense of purpose.&lt;br /&gt;Accountability&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Membership&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Who is part of (and who isn’t part of) the organisation&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Members are sought, join and leave&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;The right people are involved in the organisation.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;br /&gt;&lt;strong&gt;Skill / resource allocation&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;br /&gt;Right people with the right tasks and required resources to perform them&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;br /&gt;Tasks and resources allocated.&lt;br /&gt;Tasks performed&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;br /&gt;Quality outputs.&lt;br /&gt;Personal sense of purpose.&lt;br /&gt;Accountability&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;&lt;br /&gt;&lt;strong&gt;Communication&lt;/strong&gt;&lt;/td&gt;
