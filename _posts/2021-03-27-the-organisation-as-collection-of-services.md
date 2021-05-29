@@ -12,6 +12,8 @@ comments: true
 
 (This post is second in a series.  Part one, "[Is Your Organisation Broken?]({% post_url 2021-03-26-is-your-organisation-broken %})" sets the scene for this post's proposal of a new way to look at organisations.)
 
+**UPDATE (Sat, 29th May, 2021)** - Added another service: "Membership" to the table.
+
 {% newthought "I've wondered for a long time " %}if there’s value in looking at _all_ organisations through a lens which treats employees as consumers of services the organisation provides, and then asks "how does the way you organise provide these services?"
 
 This might seem a bit meta, so here's two examples. The multinational conglomerate Acme Corp follows a "traditional" model of organisations in that it is hierarchical, and bureaucratic.  This model offers services such as "work allocation" and "decision making" and in both cases (at least officially) these services are provided via a "performed by a named individual at the appropriate level of management who follows a documented process" approach.
@@ -28,7 +30,8 @@ I've tried to use a service-design style way of representing this which names th
 
 |**Service** |**Need**|**Outcome**|**Value**|
 |:--------|:--------|:--------|:--------|
-**Skill / resource allocation**  | Right people with the right tasks and required resources to perform them | Tasks and resources allocated.<BR/>Tasks performed | Quality outputs.<BR/>Personal sense of purpose.<BR/>Accountability 
+**Membership** | Who is part of (and who isn't part of) the organisation | Members are sought, join and leave | The right people are involved in the organisation. |
+<BR/>**Skill / resource allocation**  | <BR/>Right people with the right tasks and required resources to perform them | <BR/>Tasks and resources allocated.<BR/>Tasks performed | <BR/>Quality outputs.<BR/>Personal sense of purpose.<BR/>Accountability 
 <BR/>**Communication** | <BR/>Timely and accurate information required to perform a task | <BR/>Information at the right place at the right time | <BR/>Efficient and productive organisation 
 <BR/>**(Long term) direction** | <BR/>Strategy/vision/mission/goals based on sensing world outside the organisation | <BR/>Alignment and focus of effort (decision criteria) | <BR/>Organisational purpose
 <BR/>**Decisions** | <BR/>Good decisions made efficiently and effectively | <BR/>Timely decisions rapidly made | <BR/>Progress aligned with direction.<BR/>Efficient use of people’s efforts
