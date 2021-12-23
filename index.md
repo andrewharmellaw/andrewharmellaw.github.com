@@ -5,13 +5,13 @@ order: 1
 ---
 {% include JB/setup %}
 
-{% newthought "Hello and welcome to" %} my blog-aggregator. 
+{% newthought "Hello and welcome to" %} my creations-aggregator. 
 
 Over the years I've been a little profligate with my internet prescence. Here's a handy overview, with some deep links into the semi-interesting bits.
 
 If I was to sum up everything that I have collected here it would "a series of attempts at [unflattening](https://www.goodreads.com/book/show/23503006-unflattening)". That is to say I'm trying to reconsider how I, and others, construct knowledge, and challenge when I think things could be different.
 
-Beginning with my first conference talk at [Devoxx UK in 2014](https://www.youtube.com/watch?v=znQtAIpXlP4), right up to my current blog series' on the [experience of development](index-xp-of-dev.html) and [organisations](index.orgs.html) I've been trying to understand why things are they way they are; to bring different perspectives; and ask challenging questions.  
+Beginning with my first conference talk at [Devoxx UK in 2014](https://www.youtube.com/watch?v=znQtAIpXlP4), right up to my current blog series on the [experience of development](index-xp-of-dev.html) and [organisations](index.orgs.html) I've been trying to understand why things are they way they are; to bring different perspectives; and ask challenging questions.  
 
 Sometimes this involves pointing out what I think we've forgotten. Other times it's to suggest parallels and contrasts with other disciplines.  Other times still I'm just trying to figure stuff out and wanted to share my progress.
 
@@ -25,11 +25,17 @@ I was fortunate to be asked to write a course for the O'Reilly online training P
 # Speaking / Panels
 I've been lucky enough to talk at a bunch of UK and international conferences. My main contributions have been as follows:
 
+[The Four Key Metrics, Unleashed!]() (Talk, Javazone Oslo, 2021)
+
+[The Varieties of development experience](https://rokkit.live/event/devoxxuk21/talk/9704) (Talk, Devoxx UK, 2021. Site requires [registration](https://rokkit.live/home), but it's free, and the Devoxx folks built it.)
+
+[What I talk about when I talk about Domain-Driven Design](https://rokkit.live/event/devoxxuk21/talk/9703) (Talk, Devoxx UK, 2021. Site requires [registration](https://rokkit.live/home), but it's free, and the Devoxx folks built it.)
+
 [Domain-Driven Design: The Bare Essentials + Microservices (aka "The Heart of Domain-Driven Design")](https://www.youtube.com/watch?v=uBSrr7984GM) (JavaZone Norway, JFokus Sweden, and O'Reilly DDD Super-Stream. 2020-1)
 
 [Fostering autonomous teams with proper leadership culture (Panel)](https://www.youtube.com/watch?v=kdpGPDGcbxA) (Virtual DDD 2021)
 
-[People and Patterns]() (DDD Europe Online Lightning Talk, 2021)
+[Patterns and People](https://www.youtube.com/watch?v=ozB-60pGbDM) (Lightning talk, DDD Europe, 2021)
 
 [Creating a Playbook for DDD for the inside of your team with Julie Lerman (Panel)](https://www.youtube.com/watch?v=GVa5vI19kZo) (Virtual DDD 2020)
 
@@ -45,18 +51,16 @@ I've been lucky enough to talk at a bunch of UK and international conferences. M
 
 [5 Whys: Counter-Intuitive Solutions to (all too Common) Problems](https://www.youtube.com/watch?v=znQtAIpXlP4) (Devoxx UK 2014)
 
-# Open Source
-I never get as much time as I'd like to work on open source, but I've been lucky to have been around for some cool moments.
-
-I was there at the founding of the [Jenkins JobDSL](https://plugins.jenkins.io/job-dsl/) (which is still in Jenkins core and - I'm told - partially inspired the Jenkinsfile we have today).
-
-I also started the [archaius-spring-adapter](https://github.com/andrewharmellaw/archaius-spring-adapter), created the open source [Capgemini Grade Ladder](https://github.com/Capgemini/grade-ladder), and contributed [some documentation improvements](https://github.com/ponylang/ponyc/issues/3098) for the Pony language.
-
-Sadly my most-starred repo is 100% based on the work of others - an [ascii-doc-ification](https://github.com/andrewharmellaw/wardley-maps-book) of [Simon Wardley's](https://twitter.co/swardley) Wardley Mapping blog posts.
-
 # Blogging
 ## Thoughtworks
-So far, I've only written one post for the ThoughtWorks Insights blog: "[Domain-driven design needn't be hard. Here's how to start](https://www.thoughtworks.com/insights/blog/domain-driven-design-neednt-be-hard-heres-how-start)".
+"[Scaling the practice of architecture, conversationally](https://martinfowler.com/articles/scaling-architecture-conversationally.html)". My proposal for a way to achieve decenralised decision-making in software teams / organisations
+
+"[Domain-driven design needn't be hard. Here's how to start](https://www.thoughtworks.com/insights/blog/domain-driven-design-neednt-be-hard-heres-how-start)". Thoughts on first steps on the path to deploying DDD.
+
+## Twitter threads
+[Patterns of Anarchy](https://twitter.com/al94781/status/1332989267568635904) (A set of notable quotes from the 1966 collection of the same title, alongside some musings on what it might mean for organisation design)
+
+[Guerrilla DDD](https://twitter.com/al94781/status/1315318060702748679) (A quick intro to the elements in the "Supple Design" chapter of Eric Evan's "Domain Driven Design", and how to use them without permission from anyone)
 
 ## Capgemini
 At my previous employer, I and a [co-conspirator](https://twitter.com/tsphethean) set up the [Capgemini engineering blog](https://capgemini.github.io/).  
@@ -78,3 +82,11 @@ I also flirted with a Medium blog for a while. The two best posts are "[Warhamme
 ## Blogger
 I started (and found my feet) blogging on one of the original platforms - blogger - where the title of [my blog](https://the-music-of-time.blogspot.com/) is the best thing about it.
 
+# Open Source
+I never get as much time as I'd like to work on open source, but I've been lucky to have been around for some cool moments.
+
+I was there at the founding of the [Jenkins JobDSL](https://plugins.jenkins.io/job-dsl/) (which is still in Jenkins core and - I'm told - partially inspired the Jenkinsfile we have today).
+
+I also started the [archaius-spring-adapter](https://github.com/andrewharmellaw/archaius-spring-adapter), created the open source [Capgemini Grade Ladder](https://github.com/Capgemini/grade-ladder), and contributed [some documentation improvements](https://github.com/ponylang/ponyc/issues/3098) for the Pony language.
+
+Sadly my most-starred repo is 100% based on the work of others - an [ascii-doc-ification](https://github.com/andrewharmellaw/wardley-maps-book) of [Simon Wardley's](https://twitter.co/swardley) Wardley Mapping blog posts.
