@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    {% include header.html %}
+    <article class="group">
+      {{ content }}
+    </article>
+    {% include print-footer.html %}
+    {% include footer.html %}
+    {% if page.comments %}
+      {% include disqus.html %}
+    {% endif %}
+    {% include analytics.html %}
+  </body>
+</html>
