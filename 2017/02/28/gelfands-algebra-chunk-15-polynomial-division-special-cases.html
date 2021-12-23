@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Gelfand: Chunk 15 - Polynomial Division Addendum</title>
+  <meta name="description" content="Seeing as this is merely an addendum to the previous post, let’s jump straight in.Problems 143(a)-(c) - A Handy ShortcutWe’ll work through the first Problem ...">
+
+  <!-- Google Fonts loaded here depending on setting in _data/options.yml true loads font, blank does not-->
+  
+    <link href='//fonts.googleapis.com/css?family=Lato:400,400italic' rel='stylesheet' type='text/css'>
+  
+  
+  <!-- Load up MathJax script if needed ... specify in /_data/options.yml file-->
+  
+    <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+
+  <link rel="stylesheet" type="text/css" href="/css/tufte.css">
+  <!-- <link rel="stylesheet" type="text/css" href="/css/print.css" media="print"> -->
+
+  <link rel="canonical" href="/2017/02/28/gelfands-algebra-chunk-15-polynomial-division-special-cases">
+
+  <link rel="alternate" type="application/rss+xml" title="Maths from the Ground Up" href="/feed.xml" />
+</head>
+
+  <body>
+    <!--- Header and nav template site-wide -->
+<header>
+    <nav class="group">
+	<a href="/"><img class="badge" src="/assets/img/badge_1.png" alt="CH"></a>
+	
+	
+		
+  	
+		
+		    
+		      <a href="/rss.xml">RSS</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/tags">Tags</a>
+		    
+	    
+  	
+		
+  	
+		
+		    
+		      <a href="/archive">Archive</a>
+		    
+	    
+  	
+		
+  	
+		
+		    
+		      <a href="/css/print.css"></a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/">Welcome</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/index-xp-of-dev">XP  of Dev</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/index-orgs">Orgs</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/index-algebra">Algebra</a>
+		    
+	    
+  	
+	</nav>
+</header>
+
+    <article class="group">
+      <h1>Gelfand: Chunk 15 - Polynomial Division Addendum</h1>
+<p class="subtitle">February 28, 2017</p>
+
+
+<p>Seeing as this is merely an addendum to <a href="https://andrewharmellaw.github.io/2017/02/23/gelfands-algebra-chunk-14-polynomial-division-all-the-gory-details/">the previous post</a>, let’s jump straight in.</p>
+
+<h2 id="problems-143a-c---a-handy-shortcut">Problems 143(a)-(c) - A Handy Shortcut</h2>
+<p><span class="newthought">We’ll work through the first Problem (a)</span>  using the long-winded method</p>
+
+<div class="mathblock"><script type="math/tex; mode=display">
+\require{enclose}
+\begin{array}{rll}
+   x^2  + x \phantom{000000} + 1 && \hbox{(Explanations)} \\[-3pt]
+   x - 1 \enclose{longdiv}{x^3 \phantom{000000} - 1 \phantom{0000}}\kern-.2ex \\[-3pt]
+      \underline{x^3 - x^2 \phantom{000000000}} && \hbox{($(x - 1) \times x^2 = x^3 - x^2$)} \\[-3pt]
+      x^2 \phantom{000000} -1 && \hbox{($-1 - (-x^2) = x^2 - 1$)} \\[-3pt]
+      \underline{x^2 \phantom{00} - x\phantom{0000}} && \hbox{($(x - 1)\times x = x^2 - x$)} \\[-3pt]
+      x \phantom{0} - 1  && \hbox{($-1 - (-x) = x - 1$)} \\[-3pt]
+      \underline{x \phantom{0} - 1} && \hbox{($(x - 1) \times 1 = x - 1$)} \\[-3pt]
+      0  && \hbox{($\leftarrow$ the remainder: $-1 - (-1) = 0$)} \\[-3pt]
+  \end{array}
+</script></div>
+
+<p>We could now do the same for (b) and (c), but I think it’s evident, even from just the above, that we’d get a pattern emerging.  Gelfand would undoubtedly be pleased that we’d spotted this, as he goes on to point out just that they have all been generic forms of a standard formula</p>
+
+<div class="mathblock"><script type="math/tex; mode=display"> \frac{x^n -1}{x - 1} = x^{n-1} + x^{n-2} + \hbox{...} + x^2 + x + 1</script></div>
+
+<p>It turns out that this has a special power - it can be used to compute the sums of consecutive powers of a number <span>​<script type="math/tex">x</script></span>.  You can imagine how it would be; just flip the above standard formula round and reverse the order of the additions</p>
+
+<div class="mathblock"><script type="math/tex; mode=display"> 1 + x + x^2 + \hbox{...} + x^{n-2} + x^{n-1} = \frac{x^n -1}{x - 1}</script></div>
+
+<p>The left hand side shows the long-winded way you’d have to go about this. I.e. “what are the consecutive powers of <span>​<script type="math/tex">3</script></span> up to the power of three?” you might ask.</p>
+
+<div class="mathblock"><script type="math/tex; mode=display">3^0 + 3^1 + 3^2= </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = 1 + 3 + 9= </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = 13</script></div>
+
+<p>But as we know the left hand side and right hand sides of this forumula are equivalent, we can get the same answer by substituting the same values into our other formula.</p>
+
+<div class="mathblock"><script type="math/tex; mode=display">\frac{3^3 - 1}{3 - 1} = \frac{26 - 1}{2} = \frac{26}{2} = 13</script></div>
+
+<p>Much quicker.</p>
+
+<h2 id="problem-144---a-sneak-peek-at-geometric-progressions">Problem 144 - A Sneak Peek at Geometric Progressions</h2>
+<p><span class="newthought">Now while this is handy,</span>  we’re actually getting a sneak preview of something which Gelfand will later spend quite a lot of time investigating - geometric progressions - but he stops here for now.<label for="sn-id-whatever" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-whatever" class="margin-toggle" /><span class="sidenote">I don’t recommend you jump ahead, but if you must, take a look at <a href="https://andrewharmellaw.github.io/2017/03/21/gelfands-algebra-chunk-21-geometric-progressions/">Chunk 21 - Geometric Progressions</a>, but be sure and come right back. </span></p>
+
+<p>There’s little for us to do other than just try substituting the number <span>​<script type="math/tex">2</script></span> for <span>​<script type="math/tex">x</script></span> and realise that what we have just been working with is the reason this progression property.</p>
+
+
+    </article>
+    <span class="print-footer">Gelfand: Chunk 15 - Polynomial Division Addendum - February 28, 2017 - {"name"=>"Andrew Harmel-Law", "github"=>"andrewharmellaw", "twitter"=>"al94781"}</span>
+
+    <footer>
+  <hr class="slender">
+  <ul class="footer-links">
+    
+      <li>
+        <a href="//www.twitter.com/al94781"><span class="icon-twitter"></span></a>
+      </li>
+    
+      <li>
+        <a href="//github.com/andrewharmellaw"><span class="icon-github"></span></a>
+      </li>
+      
+  </ul>
+<div class="credits">
+<span>&copy; 2021 &nbsp;&nbsp;ANDREW HARMEL-LAW</span></br> <br>
+<span>This site was created using the <a href="//github.com/clayh53/tufte-jekyll">Tufte theme</a> for <a href="//jekyllrb.com">Jekyll</a>.</span> 
+</div>  
+</footer>
+
+    
+      <div id="disqus_thread"></div>
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://andrewharmellaw.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VZGMHYKY23"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VZGMHYKY23');
+</script>
+
+  </body>
+</html>

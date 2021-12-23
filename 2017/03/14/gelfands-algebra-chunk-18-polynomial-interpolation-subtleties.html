@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Gelfand: Chunk 18 - Polynomial Interpolation - Subtleties</title>
+  <meta name="description" content="Let’s move through the rest of section 38,  one problem at a time, pulling out those problems which have a trick to teach us.Problem 165In this problem we ha...">
+
+  <!-- Google Fonts loaded here depending on setting in _data/options.yml true loads font, blank does not-->
+  
+    <link href='//fonts.googleapis.com/css?family=Lato:400,400italic' rel='stylesheet' type='text/css'>
+  
+  
+  <!-- Load up MathJax script if needed ... specify in /_data/options.yml file-->
+  
+    <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+
+  <link rel="stylesheet" type="text/css" href="/css/tufte.css">
+  <!-- <link rel="stylesheet" type="text/css" href="/css/print.css" media="print"> -->
+
+  <link rel="canonical" href="/2017/03/14/gelfands-algebra-chunk-18-polynomial-interpolation-subtleties">
+
+  <link rel="alternate" type="application/rss+xml" title="Maths from the Ground Up" href="/feed.xml" />
+</head>
+
+  <body>
+    <!--- Header and nav template site-wide -->
+<header>
+    <nav class="group">
+	<a href="/"><img class="badge" src="/assets/img/badge_1.png" alt="CH"></a>
+	
+	
+		
+  	
+		
+		    
+		      <a href="/rss.xml">RSS</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/tags">Tags</a>
+		    
+	    
+  	
+		
+  	
+		
+		    
+		      <a href="/archive">Archive</a>
+		    
+	    
+  	
+		
+  	
+		
+		    
+		      <a href="/css/print.css"></a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/">Welcome</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/index-xp-of-dev">XP  of Dev</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/index-orgs">Orgs</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/index-algebra">Algebra</a>
+		    
+	    
+  	
+	</nav>
+</header>
+
+    <article class="group">
+      <h1>Gelfand: Chunk 18 - Polynomial Interpolation - Subtleties</h1>
+<p class="subtitle">March 14, 2017</p>
+
+
+<p><span class="newthought">Let’s move through the rest of section 38,</span>  one problem at a time, pulling out those problems which have a trick to teach us.</p>
+
+<h2 id="problem-165">Problem 165</h2>
+<p><span class="newthought">In this problem we have three points</span>  of a second-degree polynomial, <span>​<script type="math/tex">P(x) = ax^2 + bx + c</script></span>.  How so?  Notice</p>
+
+<div class="mathblock"><script type="math/tex; mode=display">16 = 4^2</script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display">49 = 7^2</script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display">100 = 10^2</script></div>
+
+<p>We also have three roots, and this is only possible for a second-degree polynomial if <span>​<script type="math/tex">P(x) = 0</script></span> because otherwise we would have too many roots.<label for="sn-id-whatever" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-whatever" class="margin-toggle" /><span class="sidenote">It would need to be a third-degree polynomial for three roots to be permitted. </span></p>
+
+<p>For <span>​<script type="math/tex">P(x) = 0</script></span> we would have to have <span>​<script type="math/tex">a = b = c = 0</script></span>.</p>
+
+<h2 id="trick-arising---spot-the-polynomial-spot-the-degree-note-the-rules">Trick Arising - Spot the Polynomial, Spot the Degree, Note the Rules</h2>
+<p><span class="newthought">The whole trick is in the title to be honest.</span>   But note how the polymonial was hiding in Problem 165.  Spot that, and then you can bring your knowledge to bear.</p>
+
+<h2 id="problem-167">Problem 167</h2>
+<p><span class="newthought">Part (a) was already solved by/for us in Problem 163.</span>   Problem 162 and it’s solution is also worth re-visiting.</p>
+
+<p>There Gelfand states</p>
+
+<blockquote>
+  <p>Any polynomial <span>​<script type="math/tex">P(x)</script></span> such that <span>​<script type="math/tex">P(1) = P(2) = 0</script></span> has the form <span>​<script type="math/tex">P(x) = (x - 1)(x - 2)Q(x)</script></span> where <span>​<script type="math/tex">Q(x)</script></span> is some polynomial.</p>
+</blockquote>
+
+<p>He goes on</p>
+
+<blockquote>
+  <p>If we also know that <span>​<script type="math/tex">P(x)</script></span> has a degree not exceding <span>​<script type="math/tex">2</script></span> then <span>​<script type="math/tex">Q(x)</script></span> must be a number (otherwise the degree of <span>​<script type="math/tex">P</script></span> will be too big.</p>
+</blockquote>
+
+<p>In light of this, let’s state our answer to (a)</p>
+
+<div class="mathblock"><script type="math/tex; mode=display">2(x - 1)(x - 2)</script></div>
+
+<p>Now we move to (b). Can we solve it in a similar way?  Yup.</p>
+
+<p>We know that here <span>​<script type="math/tex">P(x) = (x - 1)(x - 3)Q(x)</script></span></p>
+
+<p>So substituting in <span>​<script type="math/tex">2</script></span></p>
+
+<div class="mathblock"><script type="math/tex; mode=display"> P(2) = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = (2 - 1)(2 - 3)a = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = (1)(-1)a = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = -1 \times a = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = 2</script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display">\rightarrow a = -2</script></div>
+
+<p>So our answer to (b) is</p>
+
+<div class="mathblock"><script type="math/tex; mode=display">-2(x - 1)(x - 3)</script></div>
+
+<p>Next is (c). Can we do the same? Yes.</p>
+
+<p>We know that here <span>​<script type="math/tex">P(x) = (x - 2)(x - 3)Q(x)</script></span>, so therefore</p>
+
+<div class="mathblock"><script type="math/tex; mode=display"> P(1) = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = (1 - 2)(1 - 3)a = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = (-1)(-2)a = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = 2 \times a = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = 6</script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display">\rightarrow a = 3</script></div>
+
+<p>So our answer to (c) is</p>
+
+<div class="mathblock"><script type="math/tex; mode=display">3(x - 2)(x - 3)</script></div>
+
+<p>Now we must pause.  We can’t use the same trick for (d).  But<label for="sn-id-whatever" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-whatever" class="margin-toggle" /><span class="sidenote">As always. </span> there is a reason why this is a worked example;  we’re about to get schooled in another technique.  Can we see how it works?</p>
+
+<p>Let’s take stock first. We have three polynomials, each of the second degree.  Now let’s look and see if anything about (d) looks familiar…</p>
+
+<p>It does! It looks like a mash-up of the non-zero-result bits of (a)-(c).  Can we use this to our advantage? We can.</p>
+
+<p>We saw in <a href="https://andrewharmellaw.github.io/2017/03/09/gelfands-algebra-chunk-17-polynomial-and-linear-interpolation">the previous chunk</a> that we could subtract one polynomial form itself, giving us a third polynomial for which <span>​<script type="math/tex">R(x) = 0</script></span>.  That felt a lot like basic maths.<label for="sn-id-whatever" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-whatever" class="margin-toggle" /><span class="sidenote">As we noted. </span>  Here it seems as if we’re going to do the reverse. We’re going to add together three polynomials, each in the same single variable <span>​<script type="math/tex">x</script></span>,<label for="sn-id-whatever" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-whatever" class="margin-toggle" /><span class="sidenote">A key point and worth highlighting </span> and in each case, the areas where they equal <span>​<script type="math/tex">0</script></span> have no effect.</p>
+
+<p>With this in mind, let’s add the results of (a) - (c) together to see how it feels</p>
+
+<div class="mathblock"><script type="math/tex; mode=display">2(x - 1)(x - 2) - 2(x - 1)(x - 3) + 3(x - 2)(x - 3) = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display">2x^2 - 6x + 4 - 2x^2 + 8x - 6 + 3x^2 - 15x + 18 = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = 2x^2 - 2x^2 + 3x^2 - 6x + 8x - 15x + 4 - 6 + 18 = </script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display"> = 3x^2 - 13x + 16</script></div>
+
+<p>Just like Gelfand.  That feels very clever, but also simple, and repeatable.</p>
+
+<h2 id="tricks-arising">Tricks Arising</h2>
+
+<h3 id="check-you-didnt-already-solve-it">Check You Didn’t Already Solve It</h3>
+<p>Gelfand gives the game away on this one, and you see it happening all the time when you read <a href="https://www.scribd.com/document/243387607/Gelfand-Algebra-Solutions">Durham</a> too.  Sometimes  you’ve been given an explicit leg-up earlier on by being made to solve a sub-set of the problem, or a simpler version.</p>
+
+<p>That means, if something looks (or feels) familiar, then perhaps it is.  Feel free to flick back.</p>
+
+<p>Note, this is also another reason why skipping ahead, even over simple things, is generally a bad idea and will cause you to come unstuck later on.  That’s not to say you shouldn’t <em>read ahead</em>.  That’s different, and will help build a general knowledge framework ahead of time.</p>
+
+<h3 id="addition-and-subtraction-is-for-everyone">Addition and Subtraction is for Everyone</h3>
+<p>It turns out you can keep addition and subtraction in your kit-bag for more than just the simplest of situations.  I’ll bet there are circumstances when you need to be careful, but it seems very powerful.</p>
+
+<h3 id="find-complex-polynomials-by-splitting-into-simpler-ones-and-then-adding-them-up">Find Complex Polynomials by Splitting Into Simpler Ones and Then Adding Them Up</h3>
+<p>Problem 168 simply wants you to follow the steps we took above from Problem 167, but with you making up your own (a), (b) and (c)<label for="sn-id-whatever" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-whatever" class="margin-toggle" /><span class="sidenote">You’re supposed to have noticed there is a more general trick in there. </span></p>
+
+<p>If you want to see it, <a href="https://www.scribd.com/document/243387607/Gelfand-Algebra-Solutions">Durham</a> has the workings for the solution.</p>
+
+<h2 id="problem-170">Problem 170</h2>
+<p><span class="newthought">This problem,</span>  while it doesnt add anything new specifically to our arsenal, is worth stepping through slowly as it requires we use what tools we have gathered so far in a slightly different way.  We’re again going to follow <a href="https://www.scribd.com/document/243387607/Gelfand-Algebra-Solutions">Durham</a> closely, but going even more slowly as usual.</p>
+
+<p>First up, we need to have twigged we’re talking about polynomials again<label for="sn-id-whatever" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-whatever" class="margin-toggle" /><span class="sidenote">This is just like the Problem 165 starting point remember? </span> and again in this case a second-degree one.  That means we need to load the <span>​<script type="math/tex">ax^2 + bx + c</script></span> pattern into our level-one brain-pattern-matching cache.</p>
+
+<p>With that done, we can bring in a statement that we know to be true:</p>
+
+<ul>
+  <li>three values are enough to uniquely determine a polynomial of degree two</li>
+</ul>
+
+<p>That could be what we have here.  However, we must also be careful because</p>
+
+<ul>
+  <li>we don’t know if three values cannot over-determine it, because it may be that for some sets of values there are no polynomials that attain them.</li>
+</ul>
+
+<p>This bullet is key, and its something I’m not sure has been highlighted before now. <em>There may not be a polynomial which can get you the answers you need.</em></p>
+
+<p>What we <em>can</em> guarantee however is that we can have three separate second-degree polynomials, just like we had in problem 167, such that each one of them can attain one of the values, and the other two values are zero.  E.g.</p>
+
+<div class="mathblock"><script type="math/tex; mode=display">R(10) = 18.37, R(6) = 0, R(2) = 0</script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display">S(10) = 0, S(6) = 0.05, S(2) = 0</script></div>
+
+<div class="mathblock"><script type="math/tex; mode=display">T(10) = 0, T(6) = 0, T(2) = -3</script></div>
+
+<p>Now we have these, we can see that they need no more than two roots each, and so have degrees no greater than two.  And taking it that they do not, then we can combine them back to make our required polynomial, as shown</p>
+
+<div class="mathblock"><script type="math/tex; mode=display">P(x) = R(x) + S(x) + T(x)</script></div>
+
+<p>This polynomial <span>​<script type="math/tex">P(x)</script></span> will therefore also be of a degree no greater than two (because we are <em>adding</em> the various <span>​<script type="math/tex">ax^2, bx</script></span> and <span>​<script type="math/tex">c</script></span> pieces of <span>​<script type="math/tex">R(x), S(x)</script></span> and <span>​<script type="math/tex">T(x)</script></span> - look back at the solution to Problem 167 if you want reassurance) and will be able to produce <span>​<script type="math/tex">P(10) = 18.37, P(6) = 0.05, P(2) = -3</script></span>.</p>
+
+<p>Finally we can conclude that numbers <span>​<script type="math/tex">a, b</script></span> and <span>​<script type="math/tex">c</script></span> do exist such that the required results can be satisfied.  We can state this because they will be the co-efficients of <span>​<script type="math/tex">P(x)</script></span>.</p>
+
+<div class="mathblock"><script type="math/tex; mode=display">P(x) = (18.37)x^2 + (0.5)x + (-3)</script></div>
+
+<p>We’ll stop here - in fact Gelfand has told us not to go further in our workings.  It all feels a little magical again, and I’d not discourage you if you wanted to fill in the final blanks of this to get to the actual solution to check.<label for="sn-id-whatever" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-whatever" class="margin-toggle" /><span class="sidenote">I might work it out in secret later myself. </span></p>
+
+<h2 id="problem-171">Problem 171</h2>
+<p><span class="newthought">Gelfand’s terse solution wasn’t enough for me (yet again).</span>   I needed to work this out a in a slightly more step-wise fashion.</p>
+
+<p>First we know that there are 10 roots - which means the minimal degree of our polynomial is 10.</p>
+
+<p>We also know that the highest co-efficient of <span>​<script type="math/tex">P(x)</script></span> is 1.  This caught me off-guard a little. This is the first explicit mention of a co-efficient in all this  from Gelfand.<label for="sn-id-whatever" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-whatever" class="margin-toggle" /><span class="sidenote">We brought them in in the solution above, but that was courtesy of Durham. </span></p>
+
+<p>I’ll be honest, I had to Google things at this point.  Some not-very-successful reading later, I realised that “highest” also meant “not greater than” which also meant “might disappear if written out simply”.  That, plus looking back to Problems 162 and 163, meant me realise I could factor things like this</p>
+
+<div class="mathblock"><script type="math/tex; mode=display">P(x) = (x - 1)(x - 2)(x - 3)(x - 4)(x - 5)(x - 6)(x - 7)(x - 8)(x - 9)(x - 10)</script></div>
+
+<p>So therefore</p>
+
+<div class="mathblock"><script type="math/tex; mode=display">P(11) = 10 \times 9 \times 8 \times 7 \times 6 \times 5 \times 4 \times 3 \times 2 \times 1 = 3628800</script></div>
+
+<p>Which is the answer we need.</p>
+
+<h2 id="conclusion---please-check-your-understanding">Conclusion - Please Check Your Understanding</h2>
+<p><span class="newthought">I’ve another confession to make.</span>   The first time round I thought I had all this chunked and nicely embedded. I hadn’t.  Then there was a second time, and that still helped. My conclusion? Factoring and the myriad inter-linked concepts are <em>hard</em>. These concepts, all tightly related and mutually-reinforcing need to be solidly understood if you are to make good progress beyond this point.</p>
+
+<p>To that end, I’d recommend you go quickly back over this and the previous <a href="https://andrewharmellaw.github.io/2017/03/09/gelfands-algebra-chunk-17-polynomial-and-linear-interpolation">two</a> <a href="https://andrewharmellaw.github.io/2017/03/07/gelfands-algebra-chunk-16-polynomial-division-remainders">posts</a>.<label for="sn-id-whatever" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-whatever" class="margin-toggle" /><span class="sidenote">And perhaps even do some other problems. </span>  Maybe even blog about it.</p>
+
+<p>When you’re done I’ll see you in the next post.<label for="sn-id-whatever" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-whatever" class="margin-toggle" /><span class="sidenote">Perhaps I’ll go back and re-read these myself first. </span></p>
+
+
+    </article>
+    <span class="print-footer">Gelfand: Chunk 18 - Polynomial Interpolation - Subtleties - March 14, 2017 - {"name"=>"Andrew Harmel-Law", "github"=>"andrewharmellaw", "twitter"=>"al94781"}</span>
+
+    <footer>
+  <hr class="slender">
+  <ul class="footer-links">
+    
+      <li>
+        <a href="//www.twitter.com/al94781"><span class="icon-twitter"></span></a>
+      </li>
+    
+      <li>
+        <a href="//github.com/andrewharmellaw"><span class="icon-github"></span></a>
+      </li>
+      
+  </ul>
+<div class="credits">
+<span>&copy; 2021 &nbsp;&nbsp;ANDREW HARMEL-LAW</span></br> <br>
+<span>This site was created using the <a href="//github.com/clayh53/tufte-jekyll">Tufte theme</a> for <a href="//jekyllrb.com">Jekyll</a>.</span> 
+</div>  
+</footer>
+
+    
+      <div id="disqus_thread"></div>
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://andrewharmellaw.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VZGMHYKY23"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VZGMHYKY23');
+</script>
+
+  </body>
+</html>

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Chapter 1: The Fine Balance</title>
+  <meta name="description" content="  “My phrases have to be crammed with information. They have to be crammed with content.  Not that a compromise is necessary. I think that so much of what I ...">
+
+  <!-- Google Fonts loaded here depending on setting in _data/options.yml true loads font, blank does not-->
+  
+    <link href='//fonts.googleapis.com/css?family=Lato:400,400italic' rel='stylesheet' type='text/css'>
+  
+  
+  <!-- Load up MathJax script if needed ... specify in /_data/options.yml file-->
+  
+    <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+
+  <link rel="stylesheet" type="text/css" href="/css/tufte.css">
+  <!-- <link rel="stylesheet" type="text/css" href="/css/print.css" media="print"> -->
+
+  <link rel="canonical" href="/xp-of-dev/2021/03/15/the-experience-of-development-the-fine-balance">
+
+  <link rel="alternate" type="application/rss+xml" title="Maths from the Ground Up" href="/feed.xml" />
+</head>
+
+  <body>
+    <!--- Header and nav template site-wide -->
+<header>
+    <nav class="group">
+	<a href="/"><img class="badge" src="/assets/img/badge_1.png" alt="CH"></a>
+	
+	
+		
+  	
+		
+		    
+		      <a href="/rss.xml">RSS</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/tags">Tags</a>
+		    
+	    
+  	
+		
+  	
+		
+		    
+		      <a href="/archive">Archive</a>
+		    
+	    
+  	
+		
+  	
+		
+		    
+		      <a href="/css/print.css"></a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/">Welcome</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/index-xp-of-dev">XP  of Dev</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/index-orgs">Orgs</a>
+		    
+	    
+  	
+		
+		    
+		      <a href="/index-algebra">Algebra</a>
+		    
+	    
+  	
+	</nav>
+</header>
+
+    <article class="group">
+      <h1>Chapter 1: The Fine Balance</h1>
+<p class="subtitle">March 15, 2021</p>
+
+
+<blockquote>
+  <p>“My phrases have to be crammed with information. They have to be crammed with content.  Not that a compromise is necessary. I think that so much of what I do with language is instinctive. You see I don’t really think of myself as creating the language, because language pre-exists; I just have to go where it is. I have to find it and it has to find me; and it’s as much about listening as it is about being active. You have an inner voice where the perfect novel is kept; the perfect sentence is kept; and your task is to mediate that to the world outside; and that’s the writer’s daily business.</p>
+
+  <p>But of course you don’t think of it like that, you just type fast. And because you’re accustomed, because you’ve been doing this for years and years it’s like starting a song. The rhythm won’t falter. The internal logic of the prose won’t let you down. In the same way I think that with a long book you sometimes have to forget about structure and trust that it’s doing itself; and it is.</p>
+
+  <p>But there’s such a fine balance between exerting absolute control, and letting go, so that the thing can happen.”<br /><br />
+Hilary Mantel interviewed by Michael Rosen for “Word of Mouth”, BBC Radio 4.</p>
+</blockquote>
+
+<p><span class="newthought">Each of us approaches software development</span>  in our own individual way, based on both our understanding of the-thing-we-are-trying-to-create-slash-the-problem-we-are-trying-to-solve, and on our grasp of the tools with which we are working.</p>
+
+<p>In doing so, three things–the mental models that we construct, the pre-existing mental models which we call upon, <em>and</em> the means by which we mediate them to the outside world–are potentially called into question every time the code itself, that external manifestation of these mental models and bearers of our expectations, tells us what it can and can’t do.  It is at this nexus that our internal conception of the-thing-we-are-trying-to-create-slash-the-problem-we-are-trying-to-solve is confronted with an alternate reality; the reality of syntax and compilers and CPU registers and electrons.</p>
+
+<p>(For more detail on this loop, see part one of the introduction to this series: “<a href="/xp-of-dev/2021/03/08/the-experience-of-development-a-conjecture">A Conjecture</a>”. For detail on the nature of the models and some clarifying terminology, see the second part: “<a href="/xp-of-dev/2021/03/09/the-experience-of-development-models-all-the-way-down">Models, All the Way Down</a>”.)</p>
+
+<p><br /></p>
+
+<figure><figcaption>Image: Gaea (1966) by Lee Krasner, CC BY-SA 2.0, via G. Starke on <a href="https://www.flickr.com/photos/157267975@N08/41443933070">Flickr.com</a></figcaption><img src="/assets/img/lee-krasner-gaea.jpg" /></figure>
+
+<p><span class="newthought">The state of this alternate reality</span>  is made manifest to us through our senses, and there then arises an overlaying of this input with our mental models and their predictions. The two are compared, and there are a variety of outcomes which can result.</p>
+
+<p>If what our models predict matches up with what we have sensed then the reward of having crafted a cloud castle that we have successfully mediated into the world outside hits. We <em>feel</em> good. This is an experience of development. One of the primary ones which keeps us coming back for more.</p>
+
+<p>But when the match fails, signaling that our mental-model hypothesis has been falsified–an all-too frequent occurrence in my experience–we react to this disparity, this “surprise”, in one of several ways. This too is the root of experiences of development.</p>
+
+<p><span class="newthought">The type of reaction which arises</span>  depends upon our confidence in which of the two should carry more weight. Do we trust what we expect? Or do we trust what we sense? Most importantly for our purposes here, how do we explain the discrepancies away? Let us enumerate the coping strategies here, for I propose that it is within these responses, conscious or unconscious, that many of the varieties of development experience lie.<label for="sn-id-whatever" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-whatever" class="margin-toggle" /><span class="sidenote">I have tried to arrange these in order of magnitude, but clearly such an effort is very subjective. </span></p>
+
+<p>Firstly<label for="sn-id-whatever" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-whatever" class="margin-toggle" /><span class="sidenote">And most mundanely. </span>, we can doubt that we effectively mediated our mental models to the outside world, to the code. Did we make a typo? Did we forget a setting? Did we press the wrong button?</p>
+
+<p>Secondly we can <em>maintain</em> our belief in the creation-solution mental-model we mentally constructed, but doubt that it is either a) a valid fit for the-thing-we-are-trying-to-create-slash-the-problem-we-are-trying-to-solve, or b) encodeable in our chosen language.  Is our mental-model valid, but unsuitable for this situation?</p>
+
+<p>Thirdly we can doubt<label for="sn-id-whatever" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-whatever" class="margin-toggle" /><span class="sidenote">“Doubt” could just as easily be replaced with the word “question”, or with “become confused about”. The only differences are in how conscious we are of this feeling. “Doubt” will do for now. </span> the integrity of the thing we constructed in our heads: the creation-solution mental-model<label for="sn-id-whatever" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-whatever" class="margin-toggle" /><span class="sidenote">See my previous post, ‘Models, all the way down’, for the classifications and definitions of ‘creation-solution’ and ‘substrate’ mental models. </span>, assembled in our quest to make / solve. Did we make an error in our mental model construction as it pertains to our situation?</p>
+
+<p>Fourthly we can doubt our substrate mental models - the ones representing our languages, libraries/frameworks and tool chain.<label for="sn-id-whatever" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-id-whatever" class="margin-toggle" /><span class="sidenote">Again, see my previous post ‘Models, all the way down’ for discussion of this. </span> Here we likely go back to the documentation, and update one or more of these substrate mental models as a consequence. Do we misunderstand the tools we are working with?</p>
+
+<p>Finally we can doubt what we are experiencing, and act as if it’s not happening. This can directly lead to us being blind to things, not seeing them when they are there, because to “see” is to understand, even in a most basic way.</p>
+
+<p><span class="newthought">How frequently this mis-match occurs</span>  is clearly important. But what strikes me as more worthy of investigation is how different people, at different times, and in different contexts experience, and consequently (re)act / respond, both intellectually and emotionally to all these outcomes, both predicted, and surprising.  It also seems significant to look into instances when the distinction between one possible coping strategy and another is unclear, or when it is <em>too clear</em>.</p>
+
+<p>I intend to go into this in future posts, but for now I will stop here and leave you to ponder your experiences in this area.  Does my formulation make sense?  Is it gibberish?  I know for one that it represents at most one half of the experience of development.  The other half? That’ll be the subject of a later post: the experience itself of mentally constructing our cloud-castles.  But first I’ve al least one cogitation on other aspects to share. Next up, <a href="/xp-of-dev/2021/04/03/the-experience-of-development-bit-depths-and-fine-wines">the difference levels of expertise make</a>.</p>
+
+<p>P.S. I’d love to know what you think. If you have any thoughts or any other kind of feedback please reach out to me on <a href="https://twitter.com/al94781">Twitter</a>.  Thanks!</p>
+
+
+    </article>
+    <span class="print-footer">Chapter 1: The Fine Balance - March 15, 2021 - {"name"=>"Andrew Harmel-Law", "github"=>"andrewharmellaw", "twitter"=>"al94781"}</span>
+
+    <footer>
+  <hr class="slender">
+  <ul class="footer-links">
+    
+      <li>
+        <a href="//www.twitter.com/al94781"><span class="icon-twitter"></span></a>
+      </li>
+    
+      <li>
+        <a href="//github.com/andrewharmellaw"><span class="icon-github"></span></a>
+      </li>
+      
+  </ul>
+<div class="credits">
+<span>&copy; 2021 &nbsp;&nbsp;ANDREW HARMEL-LAW</span></br> <br>
+<span>This site was created using the <a href="//github.com/clayh53/tufte-jekyll">Tufte theme</a> for <a href="//jekyllrb.com">Jekyll</a>.</span> 
+</div>  
+</footer>
+
+    
+      <div id="disqus_thread"></div>
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://andrewharmellaw.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VZGMHYKY23"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VZGMHYKY23');
+</script>
+
+  </body>
+</html>
