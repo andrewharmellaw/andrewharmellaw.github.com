@@ -10,7 +10,7 @@ fi
 set -e
 
 # build site with jekyll, by default to `_site' folder
-jekyll build
+#jekyll build
 
 # cleanup
 #rm -rf ../andrewharmellaw.github.io.master
