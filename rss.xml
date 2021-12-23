@@ -5,64 +5,10 @@
         <description>Maths from the Ground Up - Andrew Harmel-Law</description>
         <link>http://andrewharmellaw.github.io</link>
         <atom:link href="http://andrewharmellaw.github.io" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Sat, 29 May 2021 16:54:03 +0100</lastBuildDate>
-        <pubDate>Sat, 29 May 2021 16:54:03 +0100</pubDate>
+        <lastBuildDate>Thu, 23 Dec 2021 17:33:43 +0000</lastBuildDate>
+        <pubDate>Thu, 23 Dec 2021 17:33:43 +0000</pubDate>
         <ttl>60</ttl>
 
-
-        <item>
-                <title>Chapter 4: Feelings 101</title>
-                <description>
-&lt;figure&gt;&lt;figcaption&gt;Image: Wave Particles Physics by Gerd Altmann, Pixbay licence (free to use) on &lt;a href=&quot;https://pixabay.com/illustrations/wave-particles-physics-abstract-3488466//&quot;&gt;PixBay.com&lt;/a&gt;&lt;/figcaption&gt;&lt;img src=&quot;/assets/img/wave-3488466_1920.jpg&quot; /&gt;&lt;/figure&gt;
-
-&lt;p&gt;&lt;em&gt;NOTE: This post is part of my extended series on the “Experience of Development”. If you’ve not read the two-part introduction yet, it’s perhaps a good idea to hop over and check out &lt;a href=&quot;/xp-of-dev/2021/03/08/the-experience-of-development-a-conjecture&quot;&gt;part 1&lt;/a&gt; and &lt;a href=&quot;/xp-of-dev/2021/03/09/the-experience-of-development-models-all-the-way-down&quot;&gt;part 2&lt;/a&gt; before continuing.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;There are many&lt;/span&gt;  feelings, a myriad you might say.  And it has struck me &lt;a href=&quot;/xp-of-dev/2021/03/07/the-experience-of-development-preface&quot;&gt;again and again&lt;/a&gt; how, despite the incredibly intellectual nature of developing code, it can surface such extremes of emotion in all of us.&lt;/p&gt;
-
-&lt;p&gt;Despite this, I’ve spent a significant number of the posts in this series frankly skirting the issue of emotion.  I now intend to make my first foray into it, broadly at first, but in an attempt to both clarify the scope of the terrain before us, as well as to sketch out some of the key prompts which I believe give rise to these upswellings.&lt;/p&gt;
-
-&lt;p&gt;I have taken for my source of the gamut of emotions the extensive lists in Marshall Rosenberg’s Non-Violent Communication.  He catalogues both good, and bad feelings.  I have further subdivided them.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Does the emotion arise from the surprise and mis-match, or does it arise from the (re)manipulation of mental models to build things / resolve problems?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Let’s pick good feelings: joyous/joyful, alert, animated, buoyant, cheerful, confident, contented, delighted, energetic, gleeful, involved, mellow, optimistic, pleasant, pleased, proud, satisfied, stimulated, upbeat&lt;/p&gt;
-
-&lt;p&gt;Moving into flow: engrossed, absorbed, intense, serene, spellbound, focused&lt;/p&gt;
-
-&lt;p&gt;Later (after flow?) we can do: amazed, appreciative, astonished, enchanted, grateful, gratified, inspired, ecstatic, exultant, invigorated, elated, moved, blissful, glorious, dazzled, radiant, rapturous, splendid, thrilled, wonderful&lt;/p&gt;
-
-&lt;p&gt;How about?: curious, eager, encouraged, expectant, fascinated, inquisitive, interested, intrigued, warm, wide-awake, zestful&lt;/p&gt;
-
-&lt;p&gt;What about?: calm, carefree, glad, alive, comfortable, composed, fulfilled, friendly, quiet, peaceful, refreshed, relaxed, secure, trusting, free, zestful&lt;/p&gt;
-
-&lt;p&gt;And then again?: complacent, concerned, hopeful&lt;/p&gt;
-
-&lt;p&gt;Or?: Overwhelmed, sensitive&lt;/p&gt;
-
-&lt;p&gt;But?: relieved, thankful,&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;building mental models is absolutely central to why I enjoy or why I am reasonably competent at development, or more broadly, computers. I can look back to loving logic puzzles as a kid, which are largely exercises in evaluating all of the data, creating a model from that and then verifying that your model holds up. Crosswords &amp;amp; Sudoku are this in miniature; the scientific process applied is it in major (Drew Stephens on Slack)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;How surprise affects development, which I suspect you’ll talk more about in subsequent posts, is important—being surprised is evidence that the model you had was wrong, which means that you probably have a failure that needs fixing (the source of your surprise), a mental model that needs to be altered, and emotional toll of being fundamentally wrong about something (Drew Stephens on Slack)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The ability to reduce the amount of information I need to keep in my head is why I find dynamically-typed languages so limiting—it’s hard to think about larger problems when you have to manually keep track of what is passed into/returned from methods and etc. (Drew Stephens on Slack)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;I am reminded of how frustrating using Windows was (context: I last used Windows XP circa 2004)—it’s built around not altering existing behavior while extending the system, leading to pervasive inconsistency. Things that work in one place don’t work, or work differently, all little surprises. Being an expert at Windows, or something like it, is not so much about having a mental model, but by committing innumerable tiny rules to memory (Drew Stephens on Slack)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;That’s it for this post. I’m going to keep sharing these musings, and hopefully also begin to bring in some specific case-studies of how development is experienced by specific individuals. In the meantime I’d love to know what you think. If you have any thoughts or any other kind of feedback please leave a comment below, or reach out to me on &lt;a href=&quot;https://twitter.com/al94781&quot;&gt;Twitter&lt;/a&gt;. Thanks!&lt;/p&gt;
-</description>
-                <link>http://andrewharmellaw.github.io/xp-of-dev/2021/04/15/the-experience-of-development-feelings-101</link>
-                <guid>http://andrewharmellaw.github.io/xp-of-dev/2021/04/15/the-experience-of-development-feelings-101</guid>
-                <pubDate>Thu, 15 Apr 2021 00:00:00 +0100</pubDate>
-        </item>
 
         <item>
                 <title>Chapter 3: A Reassuring Co-Incidence</title>
@@ -2257,6 +2203,66 @@ Thank you. 🙏 &lt;br /&gt;&lt;br /&gt;Image: Mt Crested Butte, Colorado, USA, 
 </description>
                 <link>http://andrewharmellaw.github.io/2017/03/21/gelfands-algebra-chunk-21-geometric-progressions</link>
                 <guid>http://andrewharmellaw.github.io/2017/03/21/gelfands-algebra-chunk-21-geometric-progressions</guid>
+                <pubDate>Tue, 21 Mar 2017 00:00:00 +0000</pubDate>
+        </item>
+
+        <item>
+                <title>Gelfand: Chunk 20 - Arithmetic Progressions Progress</title>
+                <description>
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;This is another pretty straight-forward section.&lt;/span&gt;   I’m going to leave Gelfand pretty largely to his own devices, only occasionally providing a summary-gloss over the top.  You might find it useful to read this chunk in it’s entirety, then work through the section in Gelfand, before coming back here again to check your chunk is embedded nicely.&lt;/p&gt;
+
+&lt;h2 id=&quot;racing-through-the-sums&quot;&gt;Racing Through the Sums&lt;/h2&gt;
+
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;Section 39 ended with a question&lt;/span&gt;  about calculating the number of terms in a given &lt;em&gt;Arithmetic Progression&lt;/em&gt;. Section 40 opens by using that technique to calculate the sum of the values in a specified range of a given arithmetic progression.&lt;/p&gt;
+
+&lt;p&gt;As is his general style, Gelfand begins by asking us to solve a specific problmem in our current domain.  This comes in Problem 185.&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;The solution to this problem might remind you of the Gauss solution to Problem 33 which we saw back in [Chunk &lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;The next Problem&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Problem 186. &lt;/span&gt; asks us to figure out a general formula for sums of terms.  This is solved for us, and makes a lot of sense if we self-solved problem 185, and also if we looked back at chunk 2.  The general formula is just a symbolic representation of this pairing &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;(a + b)&lt;/script&gt;&lt;/span&gt; and subsequent multiplication of this by &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;\frac{n}{2}&lt;/script&gt;&lt;/span&gt;.&lt;/p&gt;
+
+&lt;p&gt;Problem 187 then points out that we might have been tripped up had we had an odd number of terms.&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;Dammit! &lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;Those dashed odd-numbers again!  Note that the forumla derived to calculate the answer is unchanged, but the mental model that you might be using to get there needs more detail.&lt;/p&gt;
+
+&lt;p&gt;Not content with explaining this to us numerically, Gelfand then breaks into some of his glorious imagery to explain the latest solution to the current problem in hand.  Personally I found this second approach mentally-sticky (in a good way) and it’s lodged up in my brain box nice and solid with very little rehersal as a consequence.&lt;/p&gt;
+
+&lt;p&gt;There is a reason Gelfand gave us a picture, and also a reason for his stressing of the &lt;em&gt;arithmetic&lt;/em&gt; in the name of the progression; it’s because he was about to introduce the next level of complexity in Problem 188.&lt;/p&gt;
+
+&lt;p&gt;This problem is about to illustrate a key property of the &lt;em&gt;Geometric Progression&lt;/em&gt; that is known as “the odd numbers” - that their sums are always perfect squares.&lt;/p&gt;
+
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;1 = 1^2&lt;/script&gt;&lt;/div&gt;
+
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;1 + 3 = 4 = 2^2&lt;/script&gt;&lt;/div&gt;
+
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;1 + 3 + 5 = 9 = 3^2&lt;/script&gt;&lt;/div&gt;
+
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;1 + 3 + 5 + 7 = 16= 4^2&lt;/script&gt;&lt;/div&gt;
+
+&lt;p&gt;etc.&lt;/p&gt;
+
+&lt;p&gt;This all very good, but how do we &lt;em&gt;prove&lt;/em&gt; this is always the case?  By dropping to the formulas that’s how.&lt;/p&gt;
+
+&lt;p&gt;Remember, from Problem 186 the formula we need to calculate is&lt;/p&gt;
+
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;\frac{n(a + b)}{2}&lt;/script&gt;&lt;/div&gt;
+
+&lt;p&gt;And here &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;a = 1&lt;/script&gt;&lt;/span&gt; and &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;b = 2n - 1&lt;/script&gt;&lt;/span&gt;&lt;label for=&quot;sn-id-whatever&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;sn-id-whatever&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;The formula for calculating any nth odd number. &lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;Putting the together we get&lt;/p&gt;
+
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;\frac{n(1 + 2n - 1)}{2}&lt;/script&gt;&lt;/div&gt;
+
+&lt;p&gt;And simplifying&lt;/p&gt;
+
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = \frac{n(2n)}{2} = &lt;/script&gt;&lt;/div&gt;
+
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = \frac{n(2n)}{2} = &lt;/script&gt;&lt;/div&gt;
+
+&lt;div class=&quot;mathblock&quot;&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt; = n^2&lt;/script&gt;&lt;/div&gt;
+
+&lt;p&gt;Proven!  &lt;span&gt;​&lt;script type=&quot;math/tex&quot;&gt;n^2&lt;/script&gt;&lt;/span&gt; it is.&lt;/p&gt;
+</description>
+                <link>http://andrewharmellaw.github.io/2017/03/21/gelfands-algebra-chunk-20-arithmetic-progressions-progress</link>
+                <guid>http://andrewharmellaw.github.io/2017/03/21/gelfands-algebra-chunk-20-arithmetic-progressions-progress</guid>
                 <pubDate>Tue, 21 Mar 2017 00:00:00 +0000</pubDate>
         </item>
 
