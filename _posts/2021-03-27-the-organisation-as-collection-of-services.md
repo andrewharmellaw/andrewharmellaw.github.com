@@ -32,7 +32,7 @@ I've tried to use a representative way of representing this which names the capa
 |**Capability** |**Need**|**Outcome**|**Value**|
 |:--------|:--------|:--------|:--------|
 **Membership** | Who is part of (and who isn't part of) the organisation | Members are sought, join and leave | The right people are involved in the organisation. |
-<BR/>**Skill / resource allocation**  | <BR/>Right people with the right tasks and required resources to perform them | <BR/>Tasks and resources allocated.<BR/>Tasks performed | <BR/>Quality outputs.<BR/>Personal sense of purpose.<BR/>Accountability 
+<BR/>**Skill / resource allocation**  | <BR/>Right people with the right tasks and required resources to perform them | <BR/>Tasks and resources allocated.<BR/>Tasks performed | <BR/>Quality outputs.<BR/>Personal sense of purpose<BR/>Accountability 
 <BR/>**Communication** | <BR/>Timely and accurate information required to perform a task | <BR/>Information at the right place at the right time | <BR/>Efficient and productive organisation 
 <BR/>**(Long term) direction** | <BR/>Strategy/vision/mission/goals based on sensing world outside the organisation | <BR/>Alignment and focus of effort (decision criteria) | <BR/>Organisational purpose
 <BR/>**Decisions** | <BR/>Good decisions made efficiently and effectively | <BR/>Timely decisions rapidly made | <BR/>Progress aligned with direction.<BR/>Efficient use of people’s efforts
@@ -41,7 +41,7 @@ I've tried to use a representative way of representing this which names the capa
 <BR/>**Recognition** | <BR/>Recognition for my skills and contribution (my value to the organisation) | <BR/>Salary, job title, etc. | <BR/>Sense of self-worth
 <BR/>**Conflict management** | <BR/>People held to account for their actions (or lack of them) | <BR/>Alignment to  “rules of the game” and social norms.<BR/>Conflict resolution | <BR/>Increased collaboration.<BR/>Predictability.<BR/>More efficient delivery of organisational goals
 <BR/>**Learning** | <BR/>Personal development, additional / improved skills | <BR/>Better skills available within the organisation<BR/>Feeling of personal satisfaction | <BR/>Greater organisational productivity. Increased loyalty to the organisation
-<BR/>**Org design** | <BR/>Skills and insights in the membership deployed effectivel and efficiently  | <BR/>Org achieves its goals as closely as possible  | <BR/>Structure is an enabler / multipler
+<BR/>**Org design** | <BR/>Skills and insights in the membership deployed effectivel and efficiently  | <BR/>Org achieves its goals as closely as possible  | <BR/>Org structure is an enabler / multipler
 
 <BR/>
 
