@@ -23,7 +23,7 @@ If you're looking for my algebra blog which used to live here, [it's not gone fa
 I was fortunate to be asked to write a course for the O'Reilly online training Platform. The result is the following:
 
 * a three-hour, hands-on extravaganza is titled [Domain-Driven Design: First Steps](https://learning.oreilly.com/live-training/courses/domain-driven-design-first-steps/0636920051628/) and runs every 2 months or so.
-* another three-hour chat-fest titled [](). This also runs every 2 months or so
+* another three-hour chat-fest titled [Architecture Decision Making by Example](https://learning.oreilly.com/live-events/architecture-decision-making-by-example/0636920080767/0636920080766/). This also runs every 2 months or so.
 
 # Speaking / Panels
 I've been lucky enough to talk at a bunch of UK and international conferences. My main contributions have been as follows:
