@@ -20,16 +20,25 @@ There are three sections to all this, based on the medium of my musings: Trainin
 If you're looking for my algebra blog which used to live here, [it's not gone far](index-algebra.html).
 
 # Training
-I was fortunate to be asked to write a course for the O'Reilly online training Platform. The result, a three-hour, hands-on extravaganza is titled [Domain-Driven Design: First Steps](https://learning.oreilly.com/live-training/courses/domain-driven-design-first-steps/0636920051628/) and runs every 2 months or so.
+I was fortunate to be asked to write a course for the O'Reilly online training Platform. The result is the following:
+
+* a three-hour, hands-on extravaganza is titled [Domain-Driven Design: First Steps](https://learning.oreilly.com/live-training/courses/domain-driven-design-first-steps/0636920051628/) and runs every 2 months or so.
+* another three-hour chat-fest titled [](). This also runs every 2 months or so
 
 # Speaking / Panels
 I've been lucky enough to talk at a bunch of UK and international conferences. My main contributions have been as follows:
 
-[The Four Key Metrics, Unleashed!]() (Talk, Javazone Oslo, 2021)
+[(Architectural) Decision Making Gathering](https://virtualddd.com/sessions/85) (Co-convened this 2023 VirtualDDD Open Space and co-keynoted with Diana Montalion with our talk: "Architecture over Architects")
 
-[The Varieties of development experience](https://rokkit.live/event/devoxxuk21/talk/9704) (Talk, Devoxx UK, 2021. Site requires [registration](https://rokkit.live/home), but it's free, and the Devoxx folks built it.)
+[The DDD Europe "Everybody" Keynote](https://www.youtube.com/watch?v=FEqGObgM_ZU) (DDD Europe 2022, with Gayathri Thiyagarajan, Diana Montalion, Mike Rozinsky and Dan Young)
 
-[What I talk about when I talk about Domain-Driven Design](https://rokkit.live/event/devoxxuk21/talk/9703) (Talk, Devoxx UK, 2021. Site requires [registration](https://rokkit.live/home), but it's free, and the Devoxx folks built it.)
+[A Commune in the Ivory Tower?: A new appraoch to architecture decisions](https://leaddev.com/london/video/commune-ivory-tower-new-approach-architecture-decisions) (Talk, LeadDev London, 2022)
+
+[The Four Key Metrics, Unleashed!](https://www.youtube.com/watch?v=Fwp33XqPTEY) (Talk, Javazone Oslo 2021. Reprised at Devoxx UK 2022, XConf Europe 2022, and IT Days Cluj 2022)
+
+[The Varieties of development experience](https://rokkit.live/event/devoxxuk21/talk/9704) (Talk, Devoxx UK, 2021. Site requires [registration](https://rokkit.live/home), but it's free, and the Devoxx folks built it.  I was also lucky enough to reprise this at [Lean/Agile Exchange](https://www.leanagileexchange.net/programme/varieties-development-experience))
+
+[What I talk about when I talk about Domain-Driven Design](https://rokkit.live/event/devoxxuk21/talk/9703) (Talk, Devoxx UK, 2021. Site requires [registration](https://rokkit.live/home), but it's free, and the Devoxx folks built it.) (I also shared this at InfoShare GDansk).
 
 [Domain-Driven Design: The Bare Essentials + Microservices (aka "The Heart of Domain-Driven Design")](https://www.youtube.com/watch?v=uBSrr7984GM) (JavaZone Norway, JFokus Sweden, and O'Reilly DDD Super-Stream. 2020-1)
 
@@ -39,7 +48,7 @@ I've been lucky enough to talk at a bunch of UK and international conferences. M
 
 [Creating a Playbook for DDD for the inside of your team with Julie Lerman (Panel)](https://www.youtube.com/watch?v=GVa5vI19kZo) (Virtual DDD 2020)
 
-[Combatting the Near Enemies of Domain Driven Design - at Scale](https://www.youtube.com/watch?v=4yr130f-1FE) (DDD Europe in Amsterdam, Virtual DDD, O'Reilly Architecture Conference in Berlin and DDD eXchange in London, 2018-19, all with with [Gayathri Thiyagarajan](https://twitter.com/gaythu_rajan))
+[Combatting the Near Enemies of Domain Driven Design - at Scale](https://www.youtube.com/watch?v=4yr130f-1FE) (DDD Europe in Amsterdam, Virtual DDD, O'Reilly Architecture Conference in Berlin, DDD eXchange in London, and SDD London, all with with [Gayathri Thiyagarajan](https://twitter.com/gaythu_rajan))
 
 [Organisation Refactoring and Culture Hacking - Lessons from Software](https://www.youtube.com/watch?v=_jqPxGShb90) (Voxxed Days in Banff, Devoxx London and Belgium, and JFokus Stockholm, 2018-19)
 
@@ -58,9 +67,19 @@ I've been lucky enough to talk at a bunch of UK and international conferences. M
 "[Domain-driven design needn't be hard. Here's how to start](https://www.thoughtworks.com/insights/blog/domain-driven-design-neednt-be-hard-heres-how-start)". Thoughts on first steps on the path to deploying DDD.
 
 ## Twitter threads
+[Thoughts on the anthropology of software (power and freedom)](https://twitter.com/al94781/status/1564288746228416513) (Set of thoughts inspired by Graeber and Wengrow's ["The Dawn of Everything: A new History of Humanity"](https://www.goodreads.com/book/show/56269264-the-dawn-of-everything))
+
+[Semi-formed ideas on the Architectural Advice Process and systemic/cross-team decision making…](https://twitter.com/al94781/status/1559220598424965120) (Riffing on challenges arising from the thread below.)
+
+[Anarchistic Architecture](https://twitter.com/al94781/status/1341319003374039040) (The thread which eventually became my martinfowler.com blog post ["Scaling the practice of acrhitecture, coversationally"](https://martinfowler.com/articles/scaling-architecture-conversationally.html))
+
 [Patterns of Anarchy](https://twitter.com/al94781/status/1332989267568635904) (A set of notable quotes from the 1966 collection of the same title, alongside some musings on what it might mean for organisation design)
 
 [Guerrilla DDD](https://twitter.com/al94781/status/1315318060702748679) (A quick intro to the elements in the "Supple Design" chapter of Eric Evan's "Domain Driven Design", and how to use them without permission from anyone)
+
+[Org Design Reading List](https://twitter.com/al94781/status/1355498372841549831)
+
+[Simple steps to adopt DDD](https://twitter.com/al94781/status/1176152449226334209)
 
 ## Capgemini
 At my previous employer, I and a [co-conspirator](https://twitter.com/tsphethean) set up the [Capgemini engineering blog](https://capgemini.github.io/).  
