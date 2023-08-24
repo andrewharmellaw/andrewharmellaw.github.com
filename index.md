@@ -5,6 +5,12 @@ order: 1
 ---
 {% include JB/setup %}
 
+{% newthought "Andrew Harmel-Law is" %} a [Tech Principal at Thoughtworks](https://www.thoughtworks.com/en-cn/profiles/a/andrew-harmel-law0) as well as an author and online trainer for [O'Reilly](https://www.oreilly.com/pub/au/8117), Andrew specialises in Java / JVM technologies, agile delivery, build tools and automation, and domain driven design. 
+
+Experienced across the software development lifecycle and in many sectors what motivates him is the efficient delivery of large-scale software solutions, fulfilling complex user needs. He understands that people, architecture, process and tooling all have key roles to play in achieving this. Andrew has a passion for open source software and its communities. He has been involved with OSS to a greater or lesser extent since his career began; as a user, contributor, expert group member, or paid advocate - most famously as one of the [Jenkins JobDSL](https://github.com/jenkinsci/job-dsl-plugin/) originators. 
+
+Andrew enjoys sharing his experience as much as possible. This sharing is not only seen in his formal consulting engagements, but also informally through mentoring, books, online training, blog posts, conferences (speaking and organising), and open-sourcing his code.  His next book "Facilitating Software Architecture" is making its way onto the internet, a chapter at a time. ([Check it out](https://www.oreilly.com/library/view/facilitating-software-architecture/9781098151850/))
+
 {% newthought "Hello and welcome to" %} my creations-aggregator. 
 
 Over the years I've been a little profligate with my internet prescence. Here's a handy overview, with some deep links into the semi-interesting bits.
@@ -28,11 +34,19 @@ I was fortunate to be asked to write a course for the O'Reilly online training P
 # Speaking / Panels
 I've been lucky enough to talk at a bunch of UK and international conferences. My main contributions have been as follows:
 
+[The Architecture Advice Process with Andrew Harmel-Law](https://www.oreilly.com/live-events/software-architecture-hour-the-architecture-advice-process-with-andrew-harmel-law/0636920092589/0636920092588/) (I was a guest on Neal Ford's O'Reilly Software Architecture Hour on the 23rd July, 2023) 
+
+[The Changing Nature of Architecture](https://www.youtube.com/watch?v=KryXEZbKaSE) (I was a guest's on Jabe Bloom's "Platform Thinking" podcast on the 29th June, 2023)
+
+[Collective Architecture - Live RPG Experience](https://2023.dddeurope.com/program/collective-architecture-live-rpg-experience/) (My first workshop. DDD Europe 2023, with Diana Montalion)
+
+[Architecture over Architects](https://codecamp.ro/speakers/andrew-harmel-law/) (Co-presented with Diana Montalion at Codecamp Bucharest, 2023)
+
 [(Architectural) Decision Making Gathering](https://virtualddd.com/sessions/85) (Co-convened this 2023 VirtualDDD Open Space and co-keynoted with Diana Montalion with our talk: "Architecture over Architects")
 
 [The DDD Europe "Everybody" Keynote](https://www.youtube.com/watch?v=FEqGObgM_ZU) (DDD Europe 2022, with Gayathri Thiyagarajan, Diana Montalion, Mike Rozinsky and Dan Young)
 
-[A Commune in the Ivory Tower?: A new appraoch to architecture decisions](https://leaddev.com/london/video/commune-ivory-tower-new-approach-architecture-decisions) (Talk, LeadDev London, 2022)
+[A Commune in the Ivory Tower?: A new approach to architecture decisions](https://leaddev.com/london/video/commune-ivory-tower-new-approach-architecture-decisions) (Talk, LeadDev London, 2022. Reprised at Booster Conf Bergen, Devoxx London, and SDD London (all in 2023))
 
 [The Four Key Metrics, Unleashed!](https://www.youtube.com/watch?v=Fwp33XqPTEY) (Talk, Javazone Oslo 2021. Reprised at Devoxx UK 2022, XConf Europe 2022, and IT Days Cluj 2022)
 
