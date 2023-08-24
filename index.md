@@ -11,8 +11,7 @@ Experienced across the software development lifecycle and in many sectors what m
 
 Andrew enjoys sharing his experience as much as possible. This sharing is not only seen in his formal consulting engagements, but also informally through mentoring, books, online training, blog posts, conferences (speaking and organising), and open-sourcing his code.  His next book "Facilitating Software Architecture" is making its way onto the internet, a chapter at a time. ([Check it out](https://www.oreilly.com/library/view/facilitating-software-architecture/9781098151850/))
 
-{% newthought "Hello and welcome to" %} my creations-aggregator. 
-
+# Things I made
 Over the years I've been a little profligate with my internet prescence. Here's a handy overview, with some deep links into the semi-interesting bits.
 
 If I was to sum up everything that I have collected here it would "a series of attempts at [unflattening](https://www.goodreads.com/book/show/23503006-unflattening)". That is to say I'm trying to reconsider how I, and others, construct knowledge, and challenge when I think things could be different.
@@ -25,13 +24,13 @@ There are three sections to all this, based on the medium of my musings: Trainin
 
 If you're looking for my algebra blog which used to live here, [it's not gone far](index-algebra.html).
 
-# Training
+## Training
 I was fortunate to be asked to write a course for the O'Reilly online training Platform. The result is the following:
 
 * a three-hour, hands-on extravaganza is titled [Domain-Driven Design: First Steps](https://learning.oreilly.com/live-training/courses/domain-driven-design-first-steps/0636920051628/) and runs every 2 months or so.
 * another three-hour chat-fest titled [Architecture Decision Making by Example](https://learning.oreilly.com/live-events/architecture-decision-making-by-example/0636920080767/0636920080766/). This also runs every 2 months or so.
 
-# Speaking / Panels
+## Speaking / Panels
 I've been lucky enough to talk at a bunch of UK and international conferences. My main contributions have been as follows:
 
 [The Architecture Advice Process with Andrew Harmel-Law](https://www.oreilly.com/live-events/software-architecture-hour-the-architecture-advice-process-with-andrew-harmel-law/0636920092589/0636920092588/) (I was a guest on Neal Ford's O'Reilly Software Architecture Hour on the 23rd July, 2023) 
@@ -74,13 +73,13 @@ I've been lucky enough to talk at a bunch of UK and international conferences. M
 
 [5 Whys: Counter-Intuitive Solutions to (all too Common) Problems](https://www.youtube.com/watch?v=znQtAIpXlP4) (Devoxx UK 2014)
 
-# Blogging
-## Thoughtworks
+## Blogging
+### Thoughtworks
 "[Scaling the practice of architecture, conversationally](https://martinfowler.com/articles/scaling-architecture-conversationally.html)". My proposal for a way to achieve decenralised decision-making in software teams / organisations
 
 "[Domain-driven design needn't be hard. Here's how to start](https://www.thoughtworks.com/insights/blog/domain-driven-design-neednt-be-hard-heres-how-start)". Thoughts on first steps on the path to deploying DDD.
 
-## Twitter threads
+### Twitter threads
 [Thoughts on the anthropology of software (power and freedom)](https://twitter.com/al94781/status/1564288746228416513) (Set of thoughts inspired by Graeber and Wengrow's ["The Dawn of Everything: A new History of Humanity"](https://www.goodreads.com/book/show/56269264-the-dawn-of-everything))
 
 [Semi-formed ideas on the Architectural Advice Process and systemic/cross-team decision making…](https://twitter.com/al94781/status/1559220598424965120) (Riffing on challenges arising from the thread below.)
@@ -95,7 +94,7 @@ I've been lucky enough to talk at a bunch of UK and international conferences. M
 
 [Simple steps to adopt DDD](https://twitter.com/al94781/status/1176152449226334209)
 
-## Capgemini
+### Capgemini
 At my previous employer, I and a [co-conspirator](https://twitter.com/tsphethean) set up the [Capgemini engineering blog](https://capgemini.github.io/).  
 
 Some of my posts include, "[How we work](https://capgemini.github.io/development/how-we-work/)" (co-authored with Malcom Young), "[Why microservices are right for us](https://capgemini.github.io/architecture/why-microservices-are-right-for-us-pt1)", "[Microservices - a reality check(point)](https://capgemini.github.io/architecture/microservices-reality-check/)", "[When it's clever to admit that you're not feeling clever](https://capgemini.github.io/development/its-sometimes-clever-to-admit/)", and 
@@ -103,19 +102,19 @@ Some of my posts include, "[How we work](https://capgemini.github.io/development
 
 I also wrote the [response from the Capgemini UK Engineering team to the James Damore Anti-Diversity Manifesto](https://capgemini.github.io/engineering/Capgemini-Engineering-Diversity-Manifesto/).
 
-## Learning Algebra
+### Learning Algebra
 Hidden behind this landing page is [the math blog](index-algebra.html) I wrote as I worked my way through [Gelfand's "Algebra"](https://www.goodreads.com/book/show/2140100.Algebra).
 
-## Learning new Programming Languages
+### Learning new Programming Languages
 As with algebra so with programming languages. I blogged as I learned [Scala](https://scalaeyeforthejavaguy.blogspot.com/), and [Ruby](https://rubyeyeforthejavaguy.blogspot.com/), and managed fitful attempts as I picked up [Go](https://grokkinggolang.github.io/).
 
-## Medium
+### Medium
 I also flirted with a Medium blog for a while. The two best posts are "[Warhammer fantasy career planning](https://medium.com/@andrewharmellaw/warhammer-fantasy-career-planning-405b3b6f0d6a)" and "[Yet another post on work-life balance](https://medium.com/@andrewharmellaw/yet-another-post-on-work-life-balance-dc69781ed732)"
 
-## Blogger
+### Blogger
 I started (and found my feet) blogging on one of the original platforms - blogger - where the title of [my blog](https://the-music-of-time.blogspot.com/) is the best thing about it.
 
-# Open Source
+## Open Source
 I never get as much time as I'd like to work on open source, but I've been lucky to have been around for some cool moments.
 
 I was there at the founding of the [Jenkins JobDSL](https://plugins.jenkins.io/job-dsl/) (which is still in Jenkins core and - I'm told - partially inspired the Jenkinsfile we have today).
