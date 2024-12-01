@@ -10,8 +10,11 @@ comments: true
 
 {% maincolumn 'assets/img/deadman-ranch-ancient-buildings-223774.jpg' 'Image: Deadman Ranch Ancient Buildings, Public Domain on <a href="https://snappygoat.com/free-public-domain-images-deadman_ranch_ancient_buildings_37">SnappyGoat.com</a>' %}
 
+Contents licenced under [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+
 (This post is second in a series.  Part one, "[Is Your Organisation Broken?]({% post_url 2021-03-26-is-your-organisation-broken %})" sets the scene for this post's proposal of a new way to look at organisations.)
 
+**UPDATE (Sun, 1st December, 2024)** - Added a Creative Commons Attribution ShareAlike 4.0 (CC BY-SA-4.0) licence.
 **UPDATE (Sat, 22nd January, 2022)** - Changed "service" to "capability" and added another: "Org Design" to the table.
 **UPDATE (Sat, 29th May, 2021)** - Added another service: "Membership" to the table.
 
