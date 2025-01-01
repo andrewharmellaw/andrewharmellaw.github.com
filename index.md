@@ -16,7 +16,7 @@ Over the years I've been a little profligate with my internet prescence. Here's 
 
 If I was to sum up everything that I have collected here it would "a series of attempts at [unflattening](https://www.goodreads.com/book/show/23503006-unflattening)". That is to say I'm trying to reconsider how I, and others, construct knowledge, and challenge when I think things could be different.
 
-Beginning with my first conference talk at [Devoxx UK in 2014](https://www.youtube.com/watch?v=znQtAIpXlP4), right up to my current blog series on the [experience of development](index-xp-of-dev.html) and [organisations](index.orgs.html) I've been trying to understand why things are they way they are; to bring different perspectives; and ask challenging questions.  
+Beginning with my first conference talk at [Devoxx UK in 2014](https://www.youtube.com/watch?v=znQtAIpXlP4), right up to my current blog series on the [experience of development](index-xp-of-dev.html) and [organisations](index-orgs.html) I've been trying to understand why things are they way they are; to bring different perspectives; and ask challenging questions.  
 
 Sometimes this involves pointing out what I think we've forgotten. Other times it's to suggest parallels and contrasts with other disciplines.  Other times still I'm just trying to figure stuff out and wanted to share my progress.
 
